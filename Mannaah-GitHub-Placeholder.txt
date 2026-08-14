@@ -1,0 +1,2 @@
+Mannaah Phase 1 GitHub repository placeholder
+This file is temporary and will be removed after the full Mannaah-Agora source is imported.
