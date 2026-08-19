@@ -1,0 +1,369 @@
+import { useState, useEffect, useRef } from 'react';
+import { Capacitor } from '@capacitor/core';
+import { useSeoMeta } from '@unhead/react';
+import { useTranslation } from 'react-i18next';
+import { Bell, BellOff, AlertTriangle, Heart, Repeat2, Zap, AtSign, MessageSquare, Users, Radio, MonitorSmartphone } from 'lucide-react';
+import { Navigate } from 'react-router-dom';
+import { PageHeader } from '@/components/PageHeader';
+import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
+import { Label } from '@/components/ui/label';
+import { Switch } from '@/components/ui/switch';
+import { useAppContext } from '@/hooks/useAppContext';
+import { useCurrentUser } from '@/hooks/useCurrentUser';
+import { useEncryptedSettings } from '@/hooks/useEncryptedSettings';
+import { usePushNotifications } from '@/hooks/usePushNotifications';
+import { toast } from '@/hooks/useToast';
+
+type NotificationPrefKey = 'reactions' | 'reposts' | 'zaps' | 'mentions' | 'comments';
+
+interface NotificationTypeRow {
+  key: NotificationPrefKey;
+  /** i18n key under `notifSettings.types.{key}.label` */
+  labelKey: string;
+  kinds: number[];
+  /** i18n key under `notifSettings.types.{key}.description` */
+  descriptionKey: string;
+  icon: React.ReactNode;
+}
+
+const NOTIFICATION_TYPES: NotificationTypeRow[] = [
+  {
+    key: 'reactions',
+    labelKey: 'notifSettings.types.reactions.label',
+    kinds: [7],
+    descriptionKey: 'notifSettings.types.reactions.description',
+    icon: <Heart className="size-5" />,
+  },
+  {
+    key: 'reposts',
+    labelKey: 'notifSettings.types.reposts.label',
+    kinds: [6, 16],
+    descriptionKey: 'notifSettings.types.reposts.description',
+    icon: <Repeat2 className="size-5" />,
+  },
+  {
+    key: 'zaps',
+    labelKey: 'notifSettings.types.zaps.label',
+    kinds: [9735, 8333],
+    descriptionKey: 'notifSettings.types.zaps.description',
+    icon: <Zap className="size-5" />,
+  },
+  {
+    key: 'mentions',
+    labelKey: 'notifSettings.types.mentions.label',
+    kinds: [1],
+    descriptionKey: 'notifSettings.types.mentions.description',
+    icon: <AtSign className="size-5" />,
+  },
+  {
+    key: 'comments',
+    labelKey: 'notifSettings.types.comments.label',
+    kinds: [1111],
+    descriptionKey: 'notifSettings.types.comments.description',
+    icon: <MessageSquare className="size-5" />,
+  },
+];
+
+function KindBadge({ kind }: { kind: number }) {
+  return (
+    <span className="text-[10px] font-mono text-muted-foreground/60 shrink-0">
+      [{kind}]
+    </span>
+  );
+}
+
+function SectionHeader({ title }: { title: string }) {
+  return (
+    <div className="relative px-3 py-3.5">
+      <h2 className="text-base font-semibold">{title}</h2>
+      <div className="absolute bottom-0 left-0 right-0 h-1 bg-primary rounded-full" />
+    </div>
+  );
+}
+
+function NotifRow({
+  icon,
+  label,
+  kinds,
+  description,
+  checked,
+  onCheckedChange,
+  disabled,
+  noBorder,
+}: {
+  icon: React.ReactNode;
+  label: string;
+  kinds?: number[];
+  description: string;
+  checked: boolean;
+  onCheckedChange: (v: boolean) => void;
+  disabled?: boolean;
+  noBorder?: boolean;
+}) {
+  return (
+    <div className={noBorder ? '' : 'border-b border-border last:border-b-0'}>
+      <div className="flex items-center justify-between py-3.5 px-3">
+        <div className="flex items-center gap-3 min-w-0">
+          <span className="text-muted-foreground shrink-0">{icon}</span>
+          <div className="min-w-0">
+            <span className="text-sm font-medium">{label}</span>
+            <p className="text-xs text-muted-foreground mt-0.5">
+              {kinds?.map((k, i) => (
+                <span key={k}>
+                  <KindBadge kind={k} />{i < kinds.length - 1 ? ' ' : ' '}
+                </span>
+              ))}{description}
+            </p>
+          </div>
+        </div>
+        <div className="w-[52px] flex justify-center shrink-0">
+          <Switch checked={checked} onCheckedChange={onCheckedChange} disabled={disabled} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export function NotificationSettings() {
+  const { t } = useTranslation();
+  const { user } = useCurrentUser();
+  const { config } = useAppContext();
+  const { settings, updateSettings } = useEncryptedSettings();
+  const {
+    enabled: pushHookEnabled,
+    enable: enablePush,
+    disable: disablePush,
+    syncPreferences: syncPushPreferences,
+  } = usePushNotifications();
+  const [permission, setPermission] = useState<NotificationPermission>('default');
+
+  const isNative = Capacitor.isNativePlatform();
+
+  // Web: toggle reflects actual browser push subscription (from the hook).
+  // Native: toggle reflects NIP-78 persisted preference.
+  const [nativePushEnabled, setNativePushEnabled] = useState<boolean>(() => isNative);
+  const [notificationStyle, setNotificationStyle] = useState<'push' | 'persistent'>('push');
+  const [prefs, setPrefs] = useState<NonNullable<NonNullable<typeof settings>['notificationPreferences']>>({});
+  const initializedRef = useRef(false);
+
+  useEffect(() => {
+    if (initializedRef.current || settings === null || settings === undefined) return;
+    initializedRef.current = true;
+    if (isNative) {
+      setNativePushEnabled(settings.notificationsEnabled ?? true);
+      setNotificationStyle(settings.notificationStyle ?? 'push');
+    }
+    setPrefs(settings.notificationPreferences ?? {});
+  }, [settings, isNative]);
+
+  const pushEnabled = isNative ? nativePushEnabled : pushHookEnabled;
+
+  useSeoMeta({
+    title: `${t('notifSettings.seoTitle')} | ${t('settings.title')} | ${config.appName}`,
+    description: t('notifSettings.seoDescription'),
+  });
+
+  useEffect(() => {
+    if ('Notification' in window) {
+      setPermission(Notification.permission);
+    }
+  }, []);
+
+  const handleTogglePush = async (enabled: boolean) => {
+    if (enabled && !isNative) {
+      if (!('Notification' in window)) return;
+
+      const result = await Notification.requestPermission();
+      setPermission(result);
+      if (result !== 'granted') return;
+
+      // Register with nostr-push from this click handler (iOS requires
+      // requestPermission + pushManager.subscribe from a user gesture).
+      if (user) {
+        try {
+          await enablePush(user.pubkey, prefs);
+        } catch (err) {
+          console.error('[push] Registration failed:', err);
+          toast({ title: t('notifSettings.toast.enableFailedTitle'), description: t('notifSettings.toast.enableFailedDesc') });
+          return; // Don't persist enabled=true if registration failed
+        }
+      }
+      updateSettings.mutateAsync({ notificationsEnabled: true }).catch(() => {});
+      return;
+    }
+
+    if (!enabled && !isNative) {
+      await disablePush().catch((err) => console.error('[push] Failed to disable:', err));
+      updateSettings.mutateAsync({ notificationsEnabled: false }).catch(() => {});
+      return;
+    }
+
+    // Native path — toggle drives NIP-78 setting directly.
+    setNativePushEnabled(enabled);
+    updateSettings.mutateAsync({ notificationsEnabled: enabled }).catch(() => {
+      setNativePushEnabled(!enabled); // roll back on failure
+    });
+  };
+
+  const handleToggleType = (key: NotificationPrefKey, enabled: boolean) => {
+    const next = { ...prefs, [key]: enabled };
+    setPrefs(next);
+    updateSettings.mutateAsync({ notificationPreferences: next }).catch(() => {
+      setPrefs((p) => ({ ...p, [key]: !enabled })); // roll back on failure
+    });
+    // Sync the active/inactive state with the nostr-push server so disabled
+    // types stop generating push notifications.
+    if (pushEnabled && !isNative && user) {
+      syncPushPreferences(next, user.pubkey).catch((err) => {
+        console.error('[push] Failed to sync preferences:', err);
+      });
+    }
+  };
+
+  const handleStyleChange = (style: 'push' | 'persistent') => {
+    const prev = notificationStyle;
+    setNotificationStyle(style);
+    updateSettings.mutateAsync({ notificationStyle: style }).catch(() => {
+      setNotificationStyle(prev); // roll back on failure
+    });
+  };
+
+  const handleToggleOnlyFollowing = (enabled: boolean) => {
+    const next = { ...prefs, onlyFollowing: enabled };
+    setPrefs(next);
+    updateSettings.mutateAsync({ notificationPreferences: next }).catch(() => {
+      setPrefs((p) => ({ ...p, onlyFollowing: !enabled })); // roll back on failure
+    });
+    // Sync the authors filter with nostr-push so $contacts is applied/removed
+    if (pushEnabled && !isNative && user) {
+      syncPushPreferences(next, user.pubkey).catch((err) => {
+        console.error('[push] Failed to sync onlyFollowing preference:', err);
+      });
+    }
+  };
+
+  if (!user) {
+    return <Navigate to="/settings" replace />;
+  }
+
+  const isSupported = isNative || 'Notification' in window;
+  const isDenied = !isNative && permission === 'denied';
+
+  return (
+    <main className="">
+      <PageHeader
+        backTo="/settings"
+        alwaysShowBack
+        contentClassName="max-w-2xl mx-auto w-full"
+        title={t('notifSettings.title')}
+      />
+
+      <div className="p-4 max-w-2xl mx-auto w-full">
+        {/* Push Notifications */}
+        <SectionHeader title={t('notifSettings.pushHeading')} />
+        <div className="pb-4">
+          <NotifRow
+            icon={pushEnabled ? <Bell className="size-5" /> : <BellOff className="size-5" />}
+            label={t('notifSettings.enablePush.label')}
+            description={t('notifSettings.enablePush.description')}
+            checked={pushEnabled}
+            onCheckedChange={handleTogglePush}
+            disabled={!isSupported || isDenied}
+          />
+          {!isSupported && (
+            <div className="flex items-center gap-2 px-3 pb-3 text-muted-foreground">
+              <AlertTriangle className="size-3.5 shrink-0" />
+              <p className="text-xs">{t('notifSettings.unsupported')}</p>
+            </div>
+          )}
+          {isDenied && (
+            <div className="flex items-center gap-2 px-3 pb-3 text-destructive">
+              <AlertTriangle className="size-3.5 shrink-0" />
+              <p className="text-xs">{t('notifSettings.denied')}</p>
+            </div>
+          )}
+        </div>
+
+        {/* Notification Style — Android only, visible when push is enabled.
+            On iOS both modes use BGAppRefreshTask so the choice is meaningless. */}
+        {Capacitor.getPlatform() === 'android' && pushEnabled && (
+          <>
+            <SectionHeader title={t('notifSettings.deliveryMethod.heading')} />
+            <div className="pb-4">
+              <p className="text-xs text-muted-foreground px-3 pt-3 pb-4">
+                {t('notifSettings.deliveryMethod.intro')}
+              </p>
+              <RadioGroup
+                value={notificationStyle}
+                onValueChange={(v) => handleStyleChange(v as 'push' | 'persistent')}
+                className="px-3 space-y-3"
+              >
+                <div className="flex items-start gap-3">
+                  <RadioGroupItem value="push" id="style-push" className="mt-0.5" />
+                  <Label htmlFor="style-push" className="flex-1 cursor-pointer">
+                    <div className="flex items-center gap-2">
+                      <Radio className="size-4 text-muted-foreground" />
+                      <span className="text-sm font-medium">{t('notifSettings.deliveryMethod.push.label')}</span>
+                    </div>
+                    <p className="text-xs text-muted-foreground mt-0.5">
+                      {t('notifSettings.deliveryMethod.push.description')}
+                    </p>
+                  </Label>
+                </div>
+                <div className="flex items-start gap-3">
+                  <RadioGroupItem value="persistent" id="style-persistent" className="mt-0.5" />
+                  <Label htmlFor="style-persistent" className="flex-1 cursor-pointer">
+                    <div className="flex items-center gap-2">
+                      <MonitorSmartphone className="size-4 text-muted-foreground" />
+                      <span className="text-sm font-medium">{t('notifSettings.deliveryMethod.persistent.label')}</span>
+                    </div>
+                    <p className="text-xs text-muted-foreground mt-0.5">
+                      {t('notifSettings.deliveryMethod.persistent.description')}
+                    </p>
+                  </Label>
+                </div>
+              </RadioGroup>
+            </div>
+          </>
+        )}
+
+        {/* Filter + Notify Me About — one continuous block */}
+        <SectionHeader title={t('notifSettings.notifyAbout.heading')} />
+        <div className="pb-4">
+          {/* Filter sub-section */}
+          <div className="px-3 pt-4 pb-2">
+            <span className="text-[11px] font-semibold uppercase tracking-wider text-muted-foreground">
+              {t('notifSettings.notifyAbout.filterHeading')}
+            </span>
+          </div>
+          <NotifRow
+            icon={<Users className="size-5" />}
+            label={t('notifSettings.notifyAbout.onlyFollowing.label')}
+            description={t('notifSettings.notifyAbout.onlyFollowing.description')}
+            checked={prefs.onlyFollowing === true}
+            onCheckedChange={handleToggleOnlyFollowing}
+            noBorder
+          />
+
+          {/* Types sub-section */}
+          <div className="px-3 pt-4 pb-2">
+            <span className="text-[11px] font-semibold uppercase tracking-wider text-muted-foreground">
+              {t('notifSettings.notifyAbout.typesHeading')}
+            </span>
+          </div>
+          {NOTIFICATION_TYPES.map((type) => (
+            <NotifRow
+              key={type.key}
+              icon={type.icon}
+              label={t(type.labelKey)}
+              kinds={type.kinds}
+              description={t(type.descriptionKey)}
+              checked={prefs[type.key] !== false}
+              onCheckedChange={(enabled) => handleToggleType(type.key, enabled)}
+            />
+          ))}
+        </div>
+      </div>
+    </main>
+  );
+}

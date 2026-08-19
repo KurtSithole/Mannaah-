@@ -1,0 +1,69 @@
+import type { RelayMetadata } from '@/contexts/AppContext';
+
+/** Relay used for NIP-50 search, trending, and streaming queries. */
+export const DITTO_RELAY = 'wss://relay.ditto.pub/';
+
+/** All Ditto relays used for search, trending, and streaming queries. */
+export const DITTO_RELAYS: string[] = [
+  'wss://relay.ditto.pub/',
+  'wss://relay.dreamith.to/',
+];
+
+/** Relay used for kind 34236 addressable short video events, used by divine */
+export const DIVINE_RELAY = 'wss://divine.video/';
+
+/** Relay used for Zapstore app metadata (kind 32267) and releases (kind 30063). */
+export const ZAPSTORE_RELAY = 'wss://relay.zapstore.dev';
+
+/** Normalize a relay URL for deduplication (lowercase, strip trailing slash). */
+function normalizeUrl(url: string): string {
+  return url.toLowerCase().replace(/\/+$/, '');
+}
+
+/**
+ * App default relays that are used as a fallback when the user has no NIP-65 relay list,
+ * and can be optionally combined with user relays.
+ */
+export const APP_RELAYS: RelayMetadata = {
+  relays: [
+    { url: 'wss://relay.ditto.pub/', read: true, write: true },
+    { url: 'wss://relay.dreamith.to/', read: true, write: true },
+    { url: 'wss://relay.primal.net/', read: false, write: true },
+  ],
+  updatedAt: 0,
+};
+
+/**
+ * Get the effective relay list based on user settings.
+ *
+ * - `useAppRelays`: when true, the app-default relays are included (first).
+ * - `useUserRelays`: when true, the user's personal NIP-65 list is included.
+ *
+ * When both flags are off the result is empty. When both are on the two lists
+ * are merged with app relays first, deduplicated by normalized URL.
+ */
+export function getEffectiveRelays(
+  userRelays: RelayMetadata,
+  useAppRelays: boolean,
+  useUserRelays: boolean,
+): RelayMetadata {
+  const seen = new Set<string>();
+  const mergedRelays: RelayMetadata['relays'][number][] = [];
+
+  const sources: RelayMetadata['relays'] = [];
+  if (useAppRelays) sources.push(...APP_RELAYS.relays);
+  if (useUserRelays) sources.push(...userRelays.relays);
+
+  for (const relay of sources) {
+    const normalized = normalizeUrl(relay.url);
+    if (!seen.has(normalized)) {
+      seen.add(normalized);
+      mergedRelays.push(relay);
+    }
+  }
+
+  return {
+    relays: mergedRelays,
+    updatedAt: userRelays.updatedAt,
+  };
+}

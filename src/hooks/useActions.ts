@@ -1,0 +1,287 @@
+import { useNostr } from '@nostrify/react';
+import { useQuery } from '@tanstack/react-query';
+import type { NostrEvent, NostrFilter } from '@nostrify/nostrify';
+import { DITTO_RELAY } from '@/lib/appRelays';
+import { sanitizeUrl } from '@/lib/sanitizeUrl';
+
+/**
+ * Pledge (kind 36639) — see `NIP.md`.
+ *
+ * Ported from Pathos with two adjustments:
+ *  - Discovery `t` tag is canonically `agora-action`. Read aliases include
+ *    `pathos-challenge` and `agora-challenge` so existing data is visible.
+ *  - Country `i` tag is canonically `iso3166:XX`. Legacy `geo:XX` (length 6)
+ *    is accepted as a read alias.
+ */
+
+export interface Action {
+  event: NostrEvent;
+  id: string;
+  title: string;
+  description: string;
+  type: 'photo' | 'art' | 'info' | 'action';
+  tags: string[];
+  /** Pledged amount in sats. Stored as the legacy `bounty` tag. */
+  bounty: number;
+  countryCode?: string;
+  /** Unix timestamp — when action becomes active. Defaults to created_at. */
+  startTime?: number;
+  /** Optional Unix timestamp — when pledge expires. Open-ended when omitted. */
+  deadline?: number;
+  /** Cover image URL. */
+  image?: string;
+  /** Raw image tag value from the event (for diagnostics/UI messaging). */
+  imageRaw?: string;
+  /** Human-readable image validation error, when the tag is present but unusable. */
+  imageError?: string;
+  pubkey: string;
+  createdAt: number;
+}
+
+export function parseAction(event: NostrEvent): Action | null {
+  const dTag = event.tags.find(([name]) => name === 'd')?.[1];
+  const title = event.tags.find(([name]) => name === 'title')?.[1];
+  const typeTag = event.tags.find(([name]) => name === 'challenge-type')?.[1];
+  const bountyTag = event.tags.find(([name]) => name === 'bounty')?.[1];
+  const tags = event.tags
+    .filter(([name, value]) => name === 't' && !!value)
+    .map(([, value]) => value)
+    .filter((value) => !['agora-action', 'pathos-challenge', 'agora-challenge'].includes(value));
+
+  // Country code from #i tag (iso3166:XX or legacy geo:XX) or location tag fallback.
+  const countryCode = (() => {
+    const iTag = event.tags.find(([name]) => name === 'i')?.[1];
+    const locationTag = event.tags.find(([name]) => name === 'location')?.[1];
+
+    if (iTag) {
+      if (iTag.startsWith('iso3166:')) {
+        return iTag.slice(8).toUpperCase();
+      }
+      // Legacy: geo:XX (only the country-code form, length 6 e.g. "geo:US")
+      if (iTag.startsWith('geo:') && iTag.length === 6) {
+        return iTag.slice(4).toUpperCase();
+      }
+    }
+    if (locationTag) {
+      return locationTag.toUpperCase();
+    }
+    return undefined;
+  })();
+
+  const startTag = event.tags.find(([name]) => name === 'start')?.[1];
+  const deadlineTag = event.tags.find(([name]) => name === 'deadline')?.[1];
+  const imageTag = event.tags.find(([name]) => name === 'image')?.[1];
+  const sanitizedImage = sanitizeUrl(imageTag);
+  const imageError = imageTag && !sanitizedImage
+    ? 'Invalid image URL in event (only https URLs are allowed).'
+    : undefined;
+
+  if (!dTag || !title || !bountyTag) {
+    return null;
+  }
+
+  const type = (typeTag ?? 'action') as Action['type'];
+  if (!['photo', 'art', 'info', 'action'].includes(type)) {
+    return null;
+  }
+
+  // Start time: use the tag if valid, otherwise fall back to creation time.
+  let startTimestamp: number;
+  if (startTag) {
+    const parsed = parseInt(startTag, 10);
+    startTimestamp = !isNaN(parsed) && parsed > 0 ? parsed : event.created_at;
+  } else {
+    startTimestamp = event.created_at;
+  }
+
+  // Deadline: use only a valid tag. Pledges are open-ended when omitted.
+  let deadlineTimestamp: number | undefined;
+  if (deadlineTag) {
+    const parsed = parseInt(deadlineTag, 10);
+    deadlineTimestamp = !isNaN(parsed) && parsed > 0 ? parsed : undefined;
+  }
+
+  return {
+    event,
+    id: dTag,
+    title,
+    description: event.content,
+    type,
+    tags,
+    bounty: parseInt(bountyTag, 10) || 0,
+    countryCode,
+    startTime: startTimestamp,
+    deadline: deadlineTimestamp,
+    // Event tags are untrusted input — keep only valid https URLs.
+    image: sanitizedImage,
+    imageRaw: imageTag,
+    imageError,
+    pubkey: event.pubkey,
+    createdAt: event.created_at,
+  };
+}
+
+interface UseActionsOptions {
+  /** Optional ISO 3166-1 alpha-2 country code. When omitted, queries globally. */
+  countryCode?: string;
+  /** Maximum number of events to request from relays. */
+  limit?: number;
+  /** Authors to fetch from, e.g. for a user's own pledges. */
+  authors?: string[];
+  /** Restrict to specific `36639:<pubkey>:<d>` coordinates. */
+  coordinates?: string[];
+  /** When false, the underlying query never fires. Callers that gate
+   *  the list on moderator status (or any other prerequisite) can pass
+   *  `enabled: false` to skip the round-trip until the prerequisite
+   *  resolves. Defaults to true. */
+  enabled?: boolean;
+}
+
+/**
+ * Returns pledges (kind 36639), sorted into:
+ *   current pledges first (highest pledge, then newest),
+ *   then upcoming (soonest start first),
+ *   then past (most recently expired first).
+ *
+ * Pledges are user-generated. Country filtering only applies when a country
+ * code is provided.
+ */
+export function useActions({
+  countryCode,
+  limit = 50,
+  authors,
+  coordinates,
+  enabled = true,
+}: UseActionsOptions = {}) {
+  const { nostr } = useNostr();
+  const relay = nostr.relay(DITTO_RELAY);
+  const authorsKey = authors ? [...authors].sort().join(',') : undefined;
+  const coordinatesKey = coordinates ? [...coordinates].sort().join(',') : undefined;
+
+  return useQuery({
+    queryKey: ['agora-actions', countryCode, limit, authorsKey, coordinatesKey],
+    enabled,
+    queryFn: async (c) => {
+      if (coordinates && coordinates.length === 0) return [] as Action[];
+
+      const signal = AbortSignal.any([c.signal, AbortSignal.timeout(5000)]);
+
+      let queries: NostrFilter[];
+      const countryITags = countryCode
+        ? [`iso3166:${countryCode.toUpperCase()}`, `geo:${countryCode.toUpperCase()}`]
+        : undefined;
+
+      if (coordinates && coordinates.length > 0) {
+        const byAuthor = new Map<string, string[]>();
+        for (const coord of coordinates) {
+          const parts = coord.split(':');
+          if (parts.length < 3 || Number(parts[0]) !== 36639) continue;
+          const pubkey = parts[1];
+          const dTag = parts.slice(2).join(':');
+          if (!pubkey || !dTag) continue;
+          const dTags = byAuthor.get(pubkey) ?? [];
+          dTags.push(dTag);
+          byAuthor.set(pubkey, dTags);
+        }
+
+        queries = Array.from(byAuthor, ([author, dTags]) => {
+          const filter: NostrFilter = { kinds: [36639], authors: [author], '#d': dTags };
+          if (countryITags) filter['#i'] = countryITags;
+          return filter;
+        });
+        if (queries.length === 0) return [] as Action[];
+      } else {
+        const filter: NostrFilter = {
+          kinds: [36639],
+          '#t': ['agora-action', 'pathos-challenge', 'agora-challenge'],
+          limit,
+        };
+        if (countryITags) filter['#i'] = countryITags;
+        if (authors && authors.length > 0) filter.authors = authors;
+        queries = [filter];
+      }
+
+      const allEvents = await relay.query(queries, { signal });
+
+      const parsed = allEvents
+        .map(parseAction)
+        .filter((c): c is Action => c !== null)
+        .filter((c) => !countryCode || c.countryCode === countryCode.toUpperCase());
+
+      // Deduplicate by addressable coordinate (pubkey:d-tag), keeping the
+      // newest event per coordinate (replaceable-event semantics).
+      const byAddrKey = new Map<string, Action>();
+      for (const action of parsed) {
+        const addrKey = `${action.pubkey}:${action.id}`;
+        const existing = byAddrKey.get(addrKey);
+        if (!existing || action.createdAt > existing.createdAt) {
+          byAddrKey.set(addrKey, action);
+        }
+      }
+
+      const actions = Array.from(byAddrKey.values());
+
+      const now = Date.now() / 1000;
+      const upcoming: Action[] = [];
+      const current: Action[] = [];
+      const past: Action[] = [];
+
+      actions.forEach((c) => {
+        const startTime = c.startTime ?? c.createdAt;
+        if (startTime > now) {
+          upcoming.push(c);
+        } else if (!c.deadline || c.deadline > now) {
+          current.push(c);
+        } else {
+          past.push(c);
+        }
+      });
+
+      upcoming.sort((a, b) => {
+        const aStart = a.startTime ?? a.createdAt;
+        const bStart = b.startTime ?? b.createdAt;
+        return aStart - bStart;
+      });
+      current.sort((a, b) => {
+        if (b.bounty !== a.bounty) return b.bounty - a.bounty;
+        return b.createdAt - a.createdAt;
+      });
+      past.sort((a, b) => (b.deadline ?? 0) - (a.deadline ?? 0));
+
+      return [...current, ...upcoming, ...past];
+    },
+    staleTime: 60_000,
+    refetchInterval: 120_000,
+  });
+}
+
+/**
+ * Fetches a single action by its addressable coordinate.
+ */
+export function useAction(pubkey: string | undefined, identifier: string | undefined) {
+  const { nostr } = useNostr();
+  const relay = nostr.relay(DITTO_RELAY);
+
+  return useQuery({
+    queryKey: ['agora-action', pubkey, identifier],
+    queryFn: async (c) => {
+      if (!pubkey || !identifier) return null;
+      const signal = AbortSignal.any([c.signal, AbortSignal.timeout(3000)]);
+
+      const events = await relay.query(
+        [{
+          kinds: [36639],
+          authors: [pubkey],
+          '#d': [identifier],
+          limit: 1,
+        }],
+        { signal },
+      );
+
+      if (events.length === 0) return null;
+      return parseAction(events[0]);
+    },
+    enabled: !!pubkey && !!identifier,
+    staleTime: 300_000,
+  });
+}

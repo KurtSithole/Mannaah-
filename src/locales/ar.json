@@ -1,0 +1,3522 @@
+{
+  "donateCallback": {
+    "successTitle": "تم استلام الدفعة",
+    "successDescription": "شكرًا على تبرعك! سيظهر قريبًا.",
+    "cancelTitle": "تم إلغاء الدفعة",
+    "cancelDescription": "لم يكتمل تبرعك."
+  },
+  "tor": {
+    "status": {
+      "disabled": "متوقف",
+      "connecting": "جارٍ الاتصال…",
+      "connected": "متصل",
+      "failed": "فشل الاتصال"
+    },
+    "banner": {
+      "connecting": "جارٍ الاتصال بـ Tor — لن يتم تحميل المحتوى حتى يصبح جاهزاً.",
+      "failed": "تعذّر الاتصال بـ Tor — المحتوى محجوب حتى يتم الاتصال.",
+      "retry": "حاول مرة أخرى"
+    }
+  },
+  "common": {
+    "loading": "جارٍ التحميل…",
+    "error": "خطأ",
+    "success": "تم بنجاح",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "close": "إغلاق",
+    "back": "رجوع",
+    "next": "التالي",
+    "refresh": "تحديث",
+    "search": "بحث",
+    "filter": "تصفية",
+    "clear": "مسح",
+    "submit": "إرسال",
+    "confirm": "تأكيد",
+    "copied": "تم النسخ",
+    "goBack": "العودة",
+    "tryAgain": "يرجى المحاولة مرة أخرى.",
+    "showLess": "عرض أقل",
+    "readMore": "قراءة المزيد",
+    "byAuthor": "بواسطة <0>{{name}}</0>",
+    "sortAriaLabel": "ترتيب الفرز",
+    "sortDefault": "افتراضي",
+    "sortTop": "الأبرز",
+    "sortNew": "الأحدث",
+    "showHidden": "إظهار المخفية",
+    "filtersAriaLabel": "مرشّحات البحث",
+    "countryFilterAriaLabel": "تصفية حسب البلد",
+    "countrySearchPlaceholder": "ابحث عن البلدان…",
+    "countryNoResults": "لم يتم العثور على بلدان.",
+    "countryGlobal": "عالمي",
+    "continue": "متابعة",
+    "clearSearch": "مسح البحث",
+    "searching": "جارٍ البحث…",
+    "searchResultsCount_one": "{{count}} نتيجة",
+    "searchResultsCount_other": "{{count}} نتائج"
+  },
+  "imageCrop": {
+    "title": "اقتصاص الصورة",
+    "reset": "إعادة تعيين",
+    "hint": "اسحب لإعادة الوضع · اقرص أو مرّر للتكبير",
+    "cancel": "إلغاء",
+    "processing": "جارٍ المعالجة…",
+    "apply": "تطبيق الاقتصاص"
+  },
+  "translate": {
+    "translate": "ترجمة",
+    "translating": "جارٍ الترجمة…",
+    "showOriginal": "إظهار الأصل",
+    "error": "فشلت الترجمة"
+  },
+  "nav": {
+    "openMenu": "فتح القائمة",
+    "closeMenu": "إغلاق القائمة",
+    "brandHome": "الصفحة الرئيسية لـ {{appName}}",
+    "activity": "النشاط",
+    "campaigns": "الحملات",
+    "groups": "المجموعات",
+    "pledge": "التعهدات",
+    "search": "بحث",
+    "language": "اللغة",
+    "dashboard": "لوحة التحكم",
+    "myDashboard": "لوحتي",
+    "wallet": "المحفظة",
+    "notifications": "الإشعارات",
+    "messages": "الرسائل",
+    "profile": "الملف الشخصي",
+    "settings": "الإعدادات",
+    "about": "حول",
+    "verify": "التوثيق",
+    "privacy": "الخصوصية",
+    "safety": "السلامة",
+    "changelog": "سجل التغييرات",
+    "sourceCode": "الكود المصدري",
+    "getApp": "احصل على التطبيق",
+    "walletBalanceHidden": "رصيد المحفظة مخفي",
+    "issues": "المشكلات"
+  },
+  "messages": {
+    "title": "الرسائل",
+    "subtitle": "رسائلك المباشرة الخاصة والمشفرة.",
+    "conversations": "المحادثات",
+    "empty": "لا توجد رسائل بعد. ستظهر هنا المحادثات التي تجريها.",
+    "selectPrompt": "اختر محادثة لقراءة رسائلك.",
+    "composePlaceholder": "اكتب رسالة…",
+    "send": "إرسال",
+    "sendFailed": "فشل إرسال الرسالة",
+    "youPrefix": "أنت:",
+    "encryptedSent": "رسالة مشفرة",
+    "encryptedReceived": "رسالة مشفرة",
+    "decryptFailed": "تعذّر فك تشفير هذه الرسالة.",
+    "unsupported": "طريقة تسجيل الدخول الحالية لا تدعم الرسائل المباشرة المشفرة.",
+    "searchConversation": "البحث في المحادثة",
+    "searchPlaceholder": "البحث في الرسائل",
+    "noSearchResults": "لا توجد رسائل مطابقة.",
+    "visitProfile": "زيارة ملف {{name}} الشخصي",
+    "muteUser": "كتم {{name}}",
+    "muteDialogTitle": "كتم {{name}}؟",
+    "muteDialogDescription": "سيؤدي هذا إلى إضافة {{name}} إلى قائمة الكتم لديك وإزالة هذه المحادثة من الرسائل. يمكنك إلغاء كتمه لاحقًا من قائمة الكتم.",
+    "confirmMute": "كتم المستخدم",
+    "mutedToastTitle": "تم كتم المستخدم",
+    "mutedToastDescription": "تم كتم {{name}} وإزالة المحادثة.",
+    "muteFailed": "فشل كتم المستخدم",
+    "showFriendsOnly": "عرض الرسائل من الأشخاص الذين تتابعهم",
+    "showAllConversations": "عرض كل المحادثات",
+    "friendsEmpty": "لا توجد رسائل من الأشخاص الذين تتابعهم.",
+    "translateDialogTitle": "هل تريد ترجمة الرسائل الخاصة؟",
+    "translateDialogDescription": "سيتم إرسال الرسائل المستلمة إلى خدمة الترجمة التي قمت بتكوينها. لن تتم ترجمة الرسائل المرسلة. سيتذكر Agora هذا الاختيار على هذا الجهاز.",
+    "confirmTranslate": "ترجمة الرسائل",
+    "newMessage": "رسالة جديدة",
+    "newMessageTitle": "رسالة جديدة",
+    "recipientLabel": "إلى",
+    "recipientPlaceholder": "ابحث بالاسم أو NIP-05 أو npub…",
+    "recipientHint": "ابحث عن شخص لبدء محادثة جديدة.",
+    "recipientSearching": "جارٍ البحث…",
+    "noRecipientResults": "لم يُعثر على أشخاص. جرّب اسمًا أو NIP-05 أو npub مختلفًا.",
+    "recipientFollowed": "أنت تتابع هذا الشخص"
+  },
+  "auth": {
+    "join": "انضمام",
+    "login": "تسجيل الدخول",
+    "signup": "إنشاء حساب",
+    "logout": "تسجيل الخروج",
+    "addAccount": "إضافة حساب آخر",
+    "createNewAccount": "إنشاء حساب",
+    "or": "أو",
+    "loginExisting": "تسجيل الدخول بحساب موجود",
+    "loginTitle": "تسجيل الدخول",
+    "connectSignerTitle": "ربط أداة التوقيع",
+    "back": "رجوع",
+    "secretKeyLabel": "استخدام المفتاح السري",
+    "nsecPlaceholder": "nsec1…",
+    "loginInputPlaceholder": "nsec1… أو bunker://…",
+    "uploadKeyFile": "رفع ملف المفتاح",
+    "loggingIn": "جارٍ تسجيل الدخول…",
+    "loginWithExtension": "تسجيل الدخول باستخدام إضافة",
+    "useRemoteSigner": "استخدام أداة توقيع عن بُعد",
+    "tryAgain": "حاول مرة أخرى",
+    "cancel": "إلغاء",
+    "openSignerApp": "فتح تطبيق التوقيع",
+    "enterBunkerManually": "إدخال رابط البنكر يدويًا",
+    "bunkerPlaceholder": "bunker://…",
+    "moreLoginOptions": "المزيد من خيارات تسجيل الدخول",
+    "scanSignerPrompt": "امسح باستخدام تطبيق توقيع لتسجيل الدخول.",
+    "invalidBunkerFormat": "صيغة رابط البنكر غير صالحة.",
+    "connecting": "جارٍ الاتصال…",
+    "connect": "اتصال",
+    "waitingForSigner": "في انتظار اتصال أداة التوقيع…",
+    "gettingPublicKey": "جارٍ الحصول على المفتاح العام…",
+    "errorEnterLoginInput": "أدخل مفتاحك السري أو عنوان bunker URI.",
+    "errorInvalidLoginInput": "أدخل مفتاح nsec1… صالحًا أو عنوان bunker://… URI.",
+    "errorEnterSecretKey": "أدخل مفتاحك السري.",
+    "errorInvalidSecretKey": "مفتاح سري غير صالح. يجب أن يبدأ بـ nsec1.",
+    "errorLoginFailed": "تعذّر تسجيل الدخول بهذا المفتاح.",
+    "errorFileNoKey": "الملف لا يحتوي على مفتاح سري صالح.",
+    "errorFileRead": "فشل في قراءة الملف.",
+    "errorExtensionFailed": "فشل تسجيل الدخول باستخدام الإضافة.",
+    "errorBunkerConnect": "فشل الاتصال. تحقق من رابط البنكر.",
+    "extensionErrorTitle": "فشل تسجيل الدخول باستخدام الإضافة"
+  },
+  "onboarding": {
+    "ariaLabel": "إعداد الحساب",
+    "close": "إغلاق",
+    "back": "رجوع",
+    "role": {
+      "title": "ما الذي جاء بك إلى هنا؟",
+      "subtitle": "يمكنك القيام بكليهما لاحقًا. هذا فقط يساعدنا في تخصيص الخطوات التالية.",
+      "creator": {
+        "title": "إطلاق حملة",
+        "description": "اجمع Bitcoin من أجل قضية تهمّك.",
+        "finderNote": "يرسل المتبرعون السّاتس مباشرةً إلى محفظتك."
+      },
+      "donor": {
+        "title": "التبرع للحملات",
+        "description": "ادعم القضايا باستخدام Bitcoin.",
+        "finderNote": "يصل تبرعك مباشرةً إلى محفظة منظّم الحملة."
+      },
+      "verifier": {
+        "title": "وثّق الحملات",
+        "description": "اشهد للحملات بصفتك منظّمة.",
+        "finderNote": "يرى المتبرعون شارة على الحملات التي تثق بها."
+      }
+    },
+    "keygen": {
+      "title": "مفتاحك هو هويتك",
+      "description": "سنُنشئ لك مفتاحًا سريًّا خاصًّا بك. إنّه الطريقة الوحيدة لتسجيل الدخول — لا بريد إلكتروني، ولا كلمة مرور.",
+      "generatingTitle": "جارٍ إنشاء مفتاحك…",
+      "generatingDescription": "لن يستغرق هذا سوى لحظة.",
+      "button": "أنشئ مفتاحي"
+    },
+    "secure": {
+      "title": "احفظ مفتاحك",
+      "subtitle": "نزّل الملف واحفظه في مكان آمن. مدير كلمات المرور خيار جيد.",
+      "couplingNote": "يتشارك حسابك ومحفظتك هذا المفتاح. فهو يوقّع منشوراتك على Nostr ويفتح محفظة Bitcoin الخاصة بك على Agora.",
+      "permanenceHeadline": "لا توجد طريقة لاستعادة هذا المفتاح في حال فقدانه.",
+      "permanenceBody": "لا إعادة تعيين، ولا خطّ دعم، ولا استعادة عبر البريد الإلكتروني. احفظه قبل المتابعة.",
+      "button": "تنزيل ومتابعة",
+      "downloadFailedTitle": "فشل التنزيل",
+      "downloadFailedDescription": "تعذّر تنزيل ملف المفتاح. يرجى نسخه يدويًّا.",
+      "secretKeyAriaLabel": "المفتاح السري"
+    },
+    "verify": {
+      "title": "أكّد مفتاحك",
+      "subtitle": "الصق أو ارفع المفتاح الذي حفظته للتوّ. يتأكّد هذا من عمل نسختك الاحتياطية قبل المتابعة.",
+      "placeholder": "nsec1…",
+      "inputAriaLabel": "الصق مفتاحك السري",
+      "or": "أو",
+      "uploadButton": "رفع ملف المفتاح",
+      "mismatch": "هذا لا يطابق المفتاح الذي حفظته للتوّ. تحقّق من نسختك الاحتياطية وحاول مجددًا.",
+      "fileInvalid": "لا يحتوي هذا الملف على مفتاح سرّي صالح.",
+      "fileReadFailed": "تعذّرت قراءة هذا الملف. يرجى المحاولة مجددًا."
+    },
+    "profile": {
+      "title": "اجعله ملفك",
+      "subtitle": "أخبر الآخرين قليلًا عن نفسك. كلّها اختيارية، يمكنك تغييرها في أيّ وقت.",
+      "campaignTitle": "أضف وجهك لحملتك",
+      "campaignSubtitle": "يساعد الاسم والصورة الناس على التواصل مع حملتك.",
+      "nameLabel": "الاسم المعروض",
+      "namePlaceholder": "اسمك",
+      "campaignNamePlaceholder": "عنوان الحملة",
+      "aboutLabel": "نبذة",
+      "aboutPlaceholder": "نبذة قصيرة عنك…",
+      "avatarLabel": "الصورة الرمزية",
+      "uploadAvatar": "رفع صورة رمزية",
+      "advanced": "المزيد",
+      "finish": "إنهاء",
+      "saving": "جارٍ الحفظ…",
+      "skip": "تخطٍّ في الوقت الحالي",
+      "imageOnly": "يرجى اختيار صورة.",
+      "imageTooLarge": "الصورة كبيرة جدًّا (الحد الأقصى 5 ميغابايت).",
+      "uploadFailed": "فشل الرفع.",
+      "publishFailedTitle": "فشل إعداد الملف الشخصي",
+      "publishFailedDescription": "تم إنشاء حسابك، لكن تعذّر حفظ الملف الشخصي. يمكنك تحديثه لاحقًا."
+    },
+    "verifier": {
+      "identity": {
+        "title": "أعدّ منظّمتك",
+        "subtitle": "الاسم والشعار مطلوبان. الموقع الإلكتروني والبانر اختياريان.",
+        "websiteInvalid": "أدخل موقعاً إلكترونياً صالحاً يبدأ بـ https://",
+        "cropAvatar": "اقتصاص الشعار",
+        "cropBanner": "اقتصاص البانر",
+        "uploading": "جارٍ رفع الصورة…",
+        "clipboardFailed": "تعذّرت القراءة من الحافظة.",
+        "pasteUrlInvalid": "لا تحتوي الحافظة على رابط https صالح.",
+        "pasteUrlFetchFailed": "تعذّر تحميل تلك الصورة. تحقّق من الرابط وحاول مرة أخرى."
+      },
+      "bio": {
+        "title": "أخبرنا عن منظّمتك",
+        "subtitle": "وصف قصير لملفك الشخصي.",
+        "label": "نبذة عن منظّمتك",
+        "placeholder": "نحن منظّمة غير ربحية…",
+        "publishing": "جارٍ حفظ ملفك الشخصي…"
+      },
+      "publishFailedTitle": "لم يُحفظ الملف الشخصي",
+      "publishFailedDescription": "حسابك جاهز، لكن تعذّر نشر ملف المنظّمة. يمكنك إكماله لاحقاً من الإعدادات.",
+      "statement": {
+        "title": "انشر بيان التوثيق الخاص بك",
+        "subtitle": "صِف كيف تدقّق الحملات قبل الشهادة لها. يُنشر علناً ليتمكّن المتبرعون من الوثوق بشارتك."
+      },
+      "howto": {
+        "title": "كيف توثّق حملة",
+        "subtitle": "أصبح كل شيء جاهزاً. إليك كيف تشهد لحملة بعد أن تتحقّق منها.",
+        "finish": "عرض الحملات"
+      }
+    }
+  },
+  "feed": {
+    "indexTagline": "العطاء بلا حدود.",
+    "getApp": {
+      "eyebrow": "احصل على التطبيق",
+      "title": "{{appName}} لنظام أندرويد",
+      "subtitle": "تجربة {{appName}} الكاملة",
+      "download": "تنزيل"
+    },
+    "compose": {
+      "placeholder": "ماذا يحدث؟"
+    },
+    "tabs": {
+      "follows": "المتابَعون",
+      "following": "أتابع",
+      "global": "عالمي"
+    },
+    "empty": {
+      "homeAgora": "لحظة هادئة على Agora. ستظهر هنا الحملات والتعهدات والتبرعات والمنشورات الجديدة فور حدوثها.",
+      "homeFollowingLoggedIn": "خلاصة المتابَعين فارغة. تابع بعض الأشخاص لرؤية ما يفعلونه، أو انتقل إلى Agora أو عالمي.",
+      "homeFollowingLoggedOut": "سجّل الدخول لرؤية منشورات من تتابعهم.",
+      "homeOther": "لا شيء لعرضه. تحقّق من اتصالات الـrelays أو حاول مجددًا بعد قليل.",
+      "follows": "خلاصتك فارغة. تابع بعض الأشخاص لرؤية منشوراتهم هنا.",
+      "global": "لم يتم العثور على منشورات. تحقّق من اتصالات الـrelays أو عُد قريبًا.",
+      "browseAgora": "تصفّح خلاصة الأحدث",
+      "browseGlobal": "تصفّح الخلاصة العالمية",
+      "discoverPeople": "اكتشف أشخاصًا لمتابعتهم",
+      "logIn": "تسجيل الدخول"
+    },
+    "error": {
+      "toast": "تعذّر تحميل الخلاصة. تحقّق من اتصالك وحاول مجددًا.",
+      "loadFailed": "تعذّر تحميل الخلاصة. عادةً ما يكون السبب relay بطيئًا أو غير متاح — محتواك لا يزال موجودًا.",
+      "retry": "حاول مجددًا"
+    },
+    "modeSwitcher": {
+      "agora": "الأحدث",
+      "allNostr": "عالمي",
+      "following": "أتابع",
+      "ariaLabel": "وضع الخلاصة: {{label}}. انقر للتغيير.",
+      "loginRequired": "سجّل الدخول لرؤية منشورات من تتابعهم"
+    },
+    "replyContext": {
+      "replyingTo": "ردًّا على",
+      "and": "و",
+      "andOthers_one": "و{{count}} آخر",
+      "andOthers_other": "و{{count}} آخرين"
+    },
+    "actions": {
+      "reply": "رد",
+      "repost": "إعادة نشر",
+      "undoRepost": "تراجع عن إعادة النشر",
+      "react": "تفاعل",
+      "zap": "Zap",
+      "share": "مشاركة",
+      "more": "المزيد",
+      "linkCopied": "تم نسخ الرابط إلى الحافظة"
+    }
+  },
+  "forms": {
+    "required": "مطلوب",
+    "recommended": "موصى به",
+    "optional": "اختياري",
+    "title": "العنوان",
+    "country": "البلد",
+    "tags": "الوسوم",
+    "coverImage": "صورة الغلاف",
+    "description": "الوصف",
+    "timezone": "المنطقة الزمنية",
+    "countrySearchPlaceholder": "ابحث عن البلدان",
+    "imageDropzone": "انقر أو اسحب صورة هنا",
+    "countryClearAria": "مسح البلد",
+    "flagOfAria": "علم {{name}}",
+    "countryHint": "يُنشر <0>i: iso3166:{{code}}</0> للترتيب حسب البلد.",
+    "publishing": "جارٍ النشر…",
+    "uploadingCover": "جارٍ رفع الغلاف…"
+  },
+  "organizationContext": {
+    "attachedToGroup": "مرتبط بالمجموعة",
+    "groupFallback": "مجموعة",
+    "editSubtext": "ستبقى التحديثات مرتبطة بالنشاط الرسمي لهذه المجموعة.",
+    "malformedParam": "تعذّر قراءة المجموعة في الرابط. سيتم النشر ضمن حسابك.",
+    "checkingPermissions": "جارٍ التحقق من أذونات المجموعة…",
+    "unauthorized": "لست مؤسساً أو مشرفاً في تلك المجموعة. سيتم النشر ضمن حسابك.",
+    "publishingAsGroup": "النشر كمجموعة"
+  },
+  "notFound": {
+    "title": "404 - الصفحة غير موجودة",
+    "description": "تعذّر العثور على الصفحة التي تبحث عنها.",
+    "heading": "هذه الصفحة غير موجودة.",
+    "goHome": "العودة للصفحة الرئيسية"
+  },
+  "pledges": {
+    "list": {
+      "seoTitle": "التعهدات",
+      "seoTitleWithCountry": "التعهدات — {{country}}",
+      "seoDescription": "تعهّد بتمويل أفعال أو أدلة أو نتائج ملموسة تريد إلهامها.",
+      "heroKicker": "تعهّد",
+      "heroHeading": "ألهم التغيير",
+      "heroHeadingLine2": "الذي تريد أن تراه.",
+      "heroBody": "موّل أفعالًا وأدلة ونتائج ملموسة. يردّ الناس بمساهماتهم، ويكافئ المجتمع العمل الذي يحرّك الهدف إلى الأمام.",
+      "openCount_one": "تعهد مفتوح الآن",
+      "openCount_other": "تعهدات مفتوحة الآن",
+      "createPledge": "إنشاء تعهد",
+      "loginToCreate": "سجّل الدخول لإنشاء تعهد",
+      "myPledges": "تعهداتي",
+      "myPledgesTagline": "التعهدات التي أنشأتها.",
+      "featuredPledges": "تعهدات مميزة",
+      "featuredPledgesTagline": "تعهدات يسلّط فريق {{appName}} الضوء عليها.",
+      "allPledges": "التعهدات",
+      "allPledgesTagline": "مختارة من قِبل المشرفين. ابحث أو رتّب لتصفّح كل تعهد.",
+      "sectionActive": "التعهدات النشطة",
+      "sectionUpcoming": "التعهدات القادمة",
+      "sectionPast": "التعهدات السابقة",
+      "sectionDefault": "التعهدات",
+      "sectionTagline": "ساعد في تمويل الأفعال التي تستحق.",
+      "sortAriaLabel": "ترتيب",
+      "sortBy": "ترتيب حسب",
+      "sortRecent": "الأحدث",
+      "sortBounty": "أعلى تعهد",
+      "sortDeadline": "الموعد النهائي قريب",
+      "sortDeadlinePast": "انتهت مؤخرًا",
+      "filterAriaLabel": "تصفية حسب البلد",
+      "countrySearchPlaceholder": "بحث…",
+      "noResults": "لا توجد نتائج.",
+      "global": "عالمي",
+      "dividerUpcoming": "قادمة",
+      "dividerPast": "سابقة",
+      "showLess": "عرض أقل",
+      "showMore": "عرض المزيد ({{count}} إضافية)",
+      "emptyTitle": "لا توجد تعهدات بعد",
+      "emptyHint": "كن أول من ينشئ تعهدًا.",
+      "emptyHintCountry": "كن أول من ينشئ تعهدًا لـ {{country}}.",
+      "needsReview": "بحاجة إلى مراجعة",
+      "needsReviewDesc": "تعهدات {{appName}} التي لم تُميَّز ولم تُخفَ بعد. ارفعها إلى رف المميزة أو أخفِها بزر الإخفاء.",
+      "needsReviewEmpty": "لا شيء بانتظار المراجعة.",
+      "hidden": "مخفية",
+      "hiddenDesc": "تعهدات مُخفاة عن الاكتشاف العام. استخدم قائمة الكباب على البطاقة لإلغاء الإخفاء.",
+      "hiddenEmpty": "لا توجد تعهدات مخفية حاليًا.",
+      "searchPlaceholder": "ابحث في التعهدات…",
+      "searchAriaLabel": "البحث في التعهدات",
+      "noMatch": "لا توجد تعهدات تطابق «{{query}}»",
+      "noMatchHint": "جرّب كلمة بحث مختلفة، أو امسح البحث."
+    },
+    "card": {
+      "ended": "منتهية",
+      "pledged": "متعهَّد به",
+      "byAuthor": "بواسطة <0>{{name}}</0>",
+      "actionsAriaLabel": "إجراءات التعهد",
+      "deletePledge": "حذف التعهد",
+      "copyLink": "نسخ الرابط",
+      "linkCopied": "تم نسخ الرابط",
+      "linkCopyFailed": "تعذّر نسخ الرابط",
+      "confirmDelete": "هل تريد حذف هذا التعهد؟ لا يمكن التراجع عن هذا الإجراء.",
+      "deleted": "تم حذف التعهد",
+      "deletedContent": "تعهد محذوف",
+      "deleteFailed": "تعذّر حذف التعهد"
+    },
+    "create": {
+      "seoTitle": "إنشاء تعهد",
+      "seoDescription": "أنشئ تعهد مانح لإلهام عمل ملموس على {{appName}}.",
+      "loginGateTitle": "سجّل الدخول لإنشاء تعهد",
+      "loginGateBody": "التعهدات أحداث Nostr موقّعة. تحتاج إلى تسجيل دخول Nostr لنشر تعهد.",
+      "heading": "إنشاء تعهد",
+      "title": "العنوان",
+      "titlePlaceholder": "توثيق تنظيف شاطئ",
+      "country": "البلد",
+      "countryPlaceholder": "ابحث عن البلدان",
+      "tags": "الوسوم",
+      "coverImage": "صورة الغلاف",
+      "description": "الوصف",
+      "descriptionPlaceholder": "اشرح الفعل أو الدليل أو النتيجة التي تريد إلهامها، وما الذي يجب أن تتضمنه المساهمات، وكيف تخطط لتقييمها...",
+      "pledge": "التعهد",
+      "pledgeAmountPlaceholder": "100",
+      "deadline": "الموعد النهائي",
+      "timezone": "المنطقة الزمنية",
+      "timezoneNote": "سيتم تفسير أوقات البدء والموعد النهائي بهذه المنطقة الزمنية.",
+      "submit": "إنشاء تعهد",
+      "altText": "تعهد {{appName}}: {{title}}",
+      "successToast": "تم إنشاء التعهد",
+      "errorToast": "تعذّر إنشاء التعهد",
+      "errorLoginRequired": "يجب تسجيل الدخول لإنشاء تعهد.",
+      "errorTitleRequired": "العنوان مطلوب.",
+      "errorDescriptionRequired": "الوصف مطلوب.",
+      "errorPledgeRequired": "مبلغ التعهد مطلوب.",
+      "errorPledgeInvalid": "يجب أن يكون مبلغ التعهد مبلغًا موجبًا بالدولار.",
+      "errorPriceUnavailable": "في انتظار سعر BTC/USD لحساب مبلغ التعهد.",
+      "errorCoverInvalid": "يجب أن تكون صورة الغلاف رابط https:// صالحًا.",
+      "errorDeadlinePast": "لا يمكن أن يكون الموعد النهائي في الماضي.",
+      "wizard": {
+        "titleStepTitle": "سمِّ تعهدك",
+        "titleStepSubtitle": "طلب واضح وشرح موجز لما ستموّله.",
+        "pledgeStepTitle": "حدّد تعهدك",
+        "pledgeStepSubtitle": "المبلغ الذي ستدفعه، بالدولار الأمريكي، وموعد نهائي اختياري.",
+        "coverStepTitle": "أضف صورة غلاف",
+        "coverStepSubtitle": "صورة واحدة تُمثّل التعهد في كل بطاقة.",
+        "tagsStepTitle": "البلد والفئات",
+        "tagsStepSubtitle": "ساعد الأشخاص المناسبين على العثور على تعهدك.",
+        "launchNow": "تخطّي التالي والإطلاق"
+      }
+    },
+    "detail": {
+      "seoTitle": "{{title}} | تعهد {{appName}}",
+      "seoFallbackTitle": "تعهد | {{appName}}",
+      "deadlineEndedOn": "انتهى في {{date}}",
+      "deadlineEndsToday": "ينتهي اليوم",
+      "deadlineDaysLeft_one": "بقي {{count}} يوم",
+      "deadlineDaysLeft_other": "بقي {{count}} يومًا",
+      "deadlineEndsOn": "ينتهي في {{date}}",
+      "openEnded": "بدون موعد نهائي",
+      "back": "رجوع",
+      "backToPledges": "العودة إلى التعهدات",
+      "loadingPledge": "جارٍ تحميل التعهد…",
+      "pledge": "تعهد",
+      "byAuthor": "بواسطة <0>{{name}}</0>",
+      "submitLabel": "إرسال",
+      "linkCopied": "تم نسخ الرابط إلى الحافظة",
+      "pinnedToast": "تم التثبيت على التعهد",
+      "unpinnedToast": "تم إلغاء التثبيت",
+      "pinFailed": "تعذّر تحديث المثبتات",
+      "submissions": "المساهمات",
+      "submissionCount_one": "{{count}} مساهمة",
+      "submissionCount_other": "{{count}} مساهمات",
+      "submissionPlaceholder": "شارك الأدلة أو البراهين أو العمل المنجز...",
+      "noSubmissionsTitle": "لا توجد مساهمات بعد",
+      "noSubmissionsHint": "كن أول من يردّ بدليل أو برهان أو عمل منجز.",
+      "funded": "مموَّل",
+      "ofPledged": "من أصل {{amount}} متعهَّد به",
+      "trustNote": "هذا التعهد قائم على الثقة. يجمع تقدّم التمويل بين الزابات وإيصالات التبرع على المساهمات الرئيسية.",
+      "share": "مشاركة",
+      "storyHeading": "التعهد",
+      "storyEmpty": "لم يكتب صاحب التعهد التفاصيل بعد."
+    }
+  },
+  "groups": {
+    "list": {
+      "seoTitle": "المجموعات",
+      "seoDescription": "اكتشف المجموعات على Nostr وانضم إليها",
+      "heroKicker": "المجموعات",
+      "heroHeading": "القوة",
+      "heroHeadingLine2": "في الأعداد.",
+      "heroBody": "أنشئ مجموعات، اجمع الأعضاء، وتابع ما تفعله مساحاتك.",
+      "createGroup": "إنشاء مجموعة",
+      "createGroupLoginTitle": "سجّل الدخول لإنشاء مجموعة",
+      "createGroupLoginBody": "إنشاء مجموعة يَنشر حدث Nostr من حسابك.",
+      "myGroups": "مجموعاتي",
+      "myGroupsTagline": "المجموعات التي أسستها أو تشرف عليها أو تتابعها.",
+      "featuredGroups": "المجموعات المميزة",
+      "featuredGroupsTagline": "مجموعات بارزة تستحق اهتمامك.",
+      "allGroups": "المجموعات",
+      "allGroupsTagline": "مختارة من قِبل المشرفين. ابحث أو رتّب لتصفّح كل مجموعة.",
+      "loginToSeeTitle": "سجّل الدخول لرؤية مجموعاتك",
+      "loginToSeeBody": "ستظهر هنا المجموعات التي أسستها أو التي تشرف عليها.",
+      "noGroupsTitle": "لا توجد مجموعات بعد",
+      "noGroupsBody": "أنشئ مجموعتك الخاصة لتنسيق الحملات والتعهدات والفعاليات مع أهلك.",
+      "noFeaturedTitle": "لا توجد مجموعات مميزة بعد",
+      "noFeaturedBody": "يميّز مشرفو {{appName}} المجموعات البارزة هنا. عُد قريبًا.",
+      "connectingRelays": "جارٍ الاتصال بالمرحّلات…",
+      "showLess": "عرض أقل",
+      "showMore": "عرض {{count}} المزيد",
+      "needsReview": "بحاجة إلى مراجعة",
+      "needsReviewDesc": "مجموعات {{appName}} التي لم تُميَّز ولم تُخفَ بعد. ارفعها إلى رف المميزة أو أخفِها بزر الإخفاء.",
+      "needsReviewEmpty": "لا شيء بانتظار المراجعة.",
+      "hidden": "مخفية",
+      "hiddenDesc": "مجموعات مُخفاة عن الاكتشاف العام. استخدم قائمة الكباب على البطاقة لإلغاء الإخفاء.",
+      "hiddenEmpty": "لا توجد مجموعات مخفية حاليًا.",
+      "tickerCampaignsRaised_one": "جُمعت على السلسلة عبر حملة {{count}}",
+      "tickerCampaignsRaised_other": "جُمعت على السلسلة عبر {{count}} حملة",
+      "tickerFeaturedGroups_one": "مجموعة مميزة على Nostr",
+      "tickerFeaturedGroups_other": "مجموعات مميزة على Nostr",
+      "tickerCountries_one": "بلد ينشر اليوم",
+      "tickerCountries_other": "بلدًا تنشر اليوم",
+      "searchPlaceholder": "ابحث في المجموعات…",
+      "searchAriaLabel": "البحث في المجموعات",
+      "noMatch": "لا توجد مجموعات تطابق «{{query}}»",
+      "noMatchHint": "جرّب كلمة بحث مختلفة، أو امسح البحث."
+    },
+    "create": {
+      "seoTitleCreate": "إنشاء مجموعة",
+      "seoTitleEdit": "تعديل المجموعة",
+      "seoDescriptionCreate": "ابدأ مجموعة جديدة على {{appName}}.",
+      "seoDescriptionEdit": "حدّث مجموعتك على {{appName}}.",
+      "loginGateTitle": "سجّل الدخول لبدء مجموعة",
+      "loginGateBody": "المجموعات أحداث Nostr موقّعة. تحتاج إلى تسجيل دخول Nostr لنشر مجموعة.",
+      "invalidEditTitle": "رابط تعديل غير صالح",
+      "invalidEditBody": "رابط تعديل المجموعة هذا لا يحمل عنوان مجموعة صالحًا.",
+      "startNewGroup": "بدء مجموعة جديدة",
+      "loadingGroup": "جارٍ تحميل المجموعة…",
+      "cannotEditTitle": "لا يمكن تعديل المجموعة",
+      "cannotEditBody": "يمكن لمؤسس المجموعة فقط تحديثها.",
+      "headingCreate": "إنشاء مجموعة",
+      "headingEdit": "تعديل المجموعة",
+      "name": "الاسم",
+      "namePlaceholder": "مثال: حرس المحكّم",
+      "urlPreview": "معاينة الرابط:",
+      "urlPlaceholder": "اسم-مجموعتك",
+      "urlKeptOriginal": "(محفوظ من الأصلي)",
+      "description": "الوصف",
+      "descriptionPlaceholder": "عن ماذا تدور هذه المجموعة؟",
+      "country": "البلد",
+      "countryPlaceholder": "ابحث عن البلدان",
+      "tags": "الوسوم",
+      "tagsPlaceholder": "تعاضد، أخبار-محلية، حقوق-رقمية",
+      "coverImage": "صورة الغلاف",
+      "moderators": "المشرفون",
+      "moderatorsCount": "المشرفون ({{count}})",
+      "removeModeratorAria": "إزالة {{name}}",
+      "submitCreate": "إنشاء مجموعة",
+      "submitEdit": "تحديث المجموعة",
+      "creating": "جارٍ الإنشاء…",
+      "updating": "جارٍ التحديث…",
+      "uploadingCover": "جارٍ رفع الغلاف…",
+      "altText": "مجموعة: {{name}}",
+      "successCreate": "تم إنشاء المجموعة!",
+      "successEdit": "تم تحديث المجموعة!",
+      "errorTitleCreate": "تعذّر إنشاء المجموعة",
+      "errorTitleEdit": "تعذّر تحديث المجموعة",
+      "errorLoginRequired": "يجب تسجيل الدخول لإنشاء مجموعة.",
+      "errorEditLoadFailed": "تعذّر تحميل المجموعة للتعديل.",
+      "errorEditNotOwner": "يمكن لمؤسس المجموعة فقط تعديلها.",
+      "errorNameRequired": "الاسم مطلوب.",
+      "errorNameInvalid": "يجب أن يحتوي الاسم على حروف أو أرقام لإنشاء رابط للمجموعة.",
+      "errorEditLatestMissing": "تعذّر العثور على أحدث نسخة لهذه المجموعة لتحديثها.",
+      "errorCoverInvalid": "يجب أن تكون صورة الغلاف رابط https:// صالحًا.",
+      "errorSlugCollision": "لديك بالفعل مجموعة بالمعرّف «{{slug}}». اختر اسمًا آخر.",
+      "wizard": {
+        "nameStepTitle": "سمِّ مجموعتك",
+        "nameStepSubtitle": "اسم قصير وواضح يتعرّف عليه الأعضاء.",
+        "coverStepTitle": "أضف صورة غلاف",
+        "coverStepSubtitle": "صورة واحدة تُمثّل المجموعة في كل بطاقة.",
+        "moderatorsStepTitle": "ادعُ مشرفين",
+        "moderatorsStepSubtitle": "اختياري — يمكنهم اعتماد المحتوى وإزالة الأعضاء إلى جانبك.",
+        "tagsStepTitle": "البلد والفئات",
+        "tagsStepSubtitle": "ساعد الأشخاص المناسبين على العثور على مجموعتك.",
+        "launchNow": "تخطّي التالي والإطلاق"
+      }
+    },
+    "detail": {
+      "by": "بواسطة",
+      "byAuthor": "بواسطة {{name}}",
+      "members": "الأعضاء",
+      "viewMembers": "عرض الأعضاء",
+      "moreMembers": "+{{count}} آخرين",
+      "about": "حول",
+      "comments": "التعليقات",
+      "comment": "تعليق",
+      "commentNoun_one": "تعليق",
+      "commentNoun_other": "تعليقات",
+      "noCommentsTitle": "لا توجد تعليقات بعد",
+      "noCommentsHint": "كن أول من يبدأ نقاشًا.",
+      "noMembersFound": "لم يتم العثور على أعضاء.",
+      "founder": "المؤسس",
+      "moderator": "مشرف",
+      "moreActions": "المزيد من الإجراءات",
+      "editGroup": "تعديل المجموعة",
+      "deleteGroup": "حذف المجموعة",
+      "officialActivity": "النشاط الرسمي",
+      "officialTools": "الأدوات الرسمية",
+      "startSomething": "ابدأ شيئًا",
+      "officialToolsDescription": "امنح {{name}} خطوة عملية تالية.",
+      "launchCampaign": "إطلاق حملة",
+      "launchCampaignDescription": "اجمع التبرعات بصفحة رسمية للمجموعة.",
+      "campaign": "حملة",
+      "pledge": "تعهد",
+      "pledgeDescription": "قدّم مساعدة يمكن للناس العمل عليها.",
+      "event": "حدث",
+      "eventDescription": "اجمع الداعمين معًا.",
+      "untitledEvent": "حدث بلا عنوان",
+      "interestedCount_one": "{{count}} شخص مهتم",
+      "interestedCount_other": "{{count}} أشخاص مهتمون",
+      "allDay": "طوال اليوم"
+    }
+  },
+  "campaignsCreate": {
+    "seoTitleCreate": "بدء حملة",
+    "seoTitleEdit": "تعديل الحملة",
+    "seoDescriptionCreate": "أطلق حملة تمويل على {{appName}}.",
+    "seoDescriptionEdit": "حدّث حملتك التمويلية على {{appName}}.",
+    "loginGateTitle": "سجّل الدخول لبدء حملة",
+    "loginGateBody": "الحملات أحداث Nostr موقّعة. تحتاج إلى تسجيل دخول Nostr لنشر حملة.",
+    "invalidEditTitle": "رابط تعديل غير صالح",
+    "invalidEditBody": "رابط تعديل الحملة هذا لا يحمل عنوان حملة صالحًا.",
+    "startNewCampaign": "بدء حملة جديدة",
+    "loadingCampaign": "جارٍ تحميل الحملة…",
+    "cannotEditTitle": "لا يمكن تعديل الحملة",
+    "cannotEditBody": "يمكن لصاحب الحملة فقط تحديثها.",
+    "headingCreate": "بدء حملة",
+    "headingEdit": "تعديل الحملة",
+    "editTabs": {
+      "details": "التفاصيل",
+      "funding": "التمويل",
+      "discovery": "الاكتشاف"
+    },
+    "title": "العنوان",
+    "titlePlaceholder": "أنقذوا آخر مكتبة",
+    "wallet": "محفظة بيتكوين",
+    "myWalletLabel": "محفظة {{name}}",
+    "myWalletDefault": "محفظتي",
+    "walletHeroNote": "تتدفّق التبرّعات مباشرةً إلى محفظة Agora الخاصة بك.\nلا وسيط.",
+    "walletHeroReassurance": "أنت تملك المفتاح، إذًا أنت تملك الأموال. اسحبها في أي وقت من تبويب المحفظة.",
+    "walletChoose": "اختر محفظة",
+    "walletCustom": "مخصصة",
+    "walletUseCustom": "استخدم محفظة مخصصة بدلاً من ذلك",
+    "walletUseMine": "استخدم محفظة Agora الخاصة بي",
+    "acceptHeading": "ما نوع التبرعات التي ستقبلها؟",
+    "acceptUnavailable": "غير متاح مع تسجيل الدخول هذا.",
+    "acceptAllTitle": "أي تبرع",
+    "acceptPublicTitle": "التبرعات العامة فقط",
+    "acceptPrivateTitle": "التبرعات الخاصة فقط",
+    "acceptAllHint": "استقبل التبرعات العامة والخاصة معًا.",
+    "acceptPublicHint": "يتبرع المانحون إلى عنوان Bitcoin عادي. هذه التبرعات مرئية للجميع.",
+    "acceptPrivateHint": "يتبرع المانحون بشكل خاص، لذا تبقى هويتهم مخفية عن الجميع.",
+    "customWalletIntro": "املأ أي تبرعات ترغب في قبولها: عنوان عام، أو رمز خاص، أو كليهما. يلزم واحد على الأقل.",
+    "customOnchainMeaning": "عام. يمكن لأي شخص رؤية هذه التبرعات.",
+    "customSpMeaning": "خاص. تبقى هوية المتبرع مخفية.",
+    "bitcoinAddress": "عنوان بيتكوين",
+    "bitcoinAddressPlaceholder": "bc1q… أو bc1p…",
+    "silentPaymentCode": "رمز الدفع الصامت",
+    "silentPaymentCodePlaceholder": "sp1…",
+    "onchainInvalid": "ليس عنوان بيتكوين شبكة رئيسية معروفًا (bc1q… / bc1p…).",
+    "spInvalid": "ليس رمز دفع صامت BIP-352 معروفًا (sp1…).",
+    "country": "البلد",
+    "countryPlaceholder": "ابحث عن البلدان",
+    "tags": "الوسوم",
+    "tagsPlaceholder": "دفاع-قانوني، تعاضد، أخبار-محلية",
+    "categories": {
+      "humanRights": "حقوق الإنسان",
+      "democracy": "الديمقراطية",
+      "pressFreedom": "حرية الصحافة",
+      "politicalPrisoners": "المعتقلون السياسيون",
+      "humanitarianAid": "العمل الإنساني",
+      "civilResistance": "المقاومة المدنية",
+      "digitalRights": "الحقوق الرقمية",
+      "antiCorruption": "مكافحة الفساد",
+      "womenGirls": "النساء والفتيات",
+      "refugees": "اللاجئون والمنفيون",
+      "legalAid": "المساعدة القانونية",
+      "emergencyRelief": "الإغاثة الطارئة",
+      "animalRights": "حقوق الحيوان",
+      "education": "التعليم",
+      "medical": "الرعاية الطبية",
+      "community": "المجتمع"
+    },
+    "banner": "صورة البانر",
+    "story": "القصة",
+    "storyPlaceholder": "شارك الخلفية والمستفيدين وكيفية استخدام الأموال.",
+    "goal": "الهدف",
+    "goalPlaceholder": "100",
+    "goalNote": "دولارات أمريكية صحيحة. المتبرعون يدفعون بالبيتكوين؛ يقدّر العملاء المعادل بالدولار وقت العرض.",
+    "payUrl": "رابط الدفع بالبطاقة",
+    "payUrlOptional": "(اختياري)",
+    "payUrlPlaceholder": "https://pay.example.com/your-campaign",
+    "payUrlNote": "صفحة دفع خارجية (مثل Stripe) حيث يمكن للمتبرعين الدفع بالبطاقة. تتم تسوية التبرعات بالبطاقة خارج Agora ولا تُحتسب ضمن إجمالي مبلغك المُجمَّع.",
+    "submitCreate": "إطلاق الحملة",
+    "submitEdit": "تحديث الحملة",
+    "publishing": "جارٍ النشر…",
+    "updating": "جارٍ التحديث…",
+    "uploadingBanner": "جارٍ رفع البانر…",
+    "altText": "حملة تمويلية: {{title}}",
+    "successCreate": "تم إطلاق الحملة",
+    "successCreateDesc": "تمويلك مباشر الآن.",
+    "successEdit": "تم تحديث الحملة",
+    "successEditDesc": "تعديلات تمويلك مباشرة.",
+    "categoryLimitTitle": "يمكنك اختيار {{count}} وسوم فقط",
+    "categoryLimitDesc": "أزل وسمًا قبل إضافة وسم آخر. الحملات محدودة بـ {{count}} وسوم.",
+    "errorTitleCreate": "تعذّر نشر الحملة",
+    "errorTitleEdit": "تعذّر تحديث الحملة",
+    "errorLoginRequired": "يجب تسجيل الدخول لإنشاء حملة.",
+    "errorEditLoadFailed": "تعذّر تحميل الحملة للتعديل.",
+    "errorEditNotOwner": "يمكن لصاحب الحملة فقط تعديلها.",
+    "errorTitleRequired": "العنوان مطلوب.",
+    "errorTitleInvalid": "يجب أن يحتوي العنوان على حروف أو أرقام لإنشاء رابط الحملة.",
+    "errorSlugInvalid": "يجب أن يكون المعرّف بحروف صغيرة وأرقام وشرطات.",
+    "errorHdUnavailable": "المحفظة المدمجة غير متاحة لهذا التسجيل.",
+    "errorSpUnavailable": "عنوان الدفع الصامت غير متاح لهذا التسجيل.",
+    "errorOnchainInvalid": "العنوان على السلسلة ليس عنوان bech32(m) شبكة رئيسية معروفًا (bc1q… / bc1p…).",
+    "errorSpInvalid": "رمز الدفع الصامت ليس رمز BIP-352 معروفًا (sp1…).",
+    "errorWalletRequired": "أدخل نقطة محفظة واحدة على الأقل — عنوان بيتكوين شبكة رئيسية (bc1q… / bc1p…) أو رمز دفع صامت (sp1…).",
+    "errorGoalInvalid": "يجب أن يكون الهدف مبلغًا موجبًا بالدولار الصحيح.",
+    "errorPayUrlInvalid": "يجب أن يكون رابط الدفع بالبطاقة رابط https:// صالحًا.",
+    "errorEditLatestMissing": "تعذّر العثور على أحدث نسخة لهذه الحملة لتحديثها.",
+    "errorSlugCollision": "لديك بالفعل حملة بالمعرّف «{{slug}}». اختر معرّفًا آخر.",
+    "errorBannerInvalid": "يجب أن يكون البانر رابط https:// صالحًا.",
+    "errorHdDeriveFailed": "تعذّر اشتقاق عنوان على السلسلة جديد من محفظتك.",
+    "errorHdDeriveInvalid": "فشل التحقق من العنوان المشتق. الرجاء إضافة عنوان مخصص.",
+    "errorWalletRequiredFallback": "نقطة محفظة مطلوبة.",
+    "errorPublishedInvalid": "فشل التحقق من الحدث المنشور. الرجاء التحديث والمحاولة مرة أخرى.",
+    "wizard": {
+      "titleStepTitle": "سمِّ حملتك",
+      "titleStepSubtitle": "اسم قصير وواضح يتعرّف عليه المتبرعون.",
+      "walletStepTitle": "أين تذهب التبرعات؟",
+      "walletStepSubtitle": "اختر محفظة Agora أو ألصق عنوانك الخاص.",
+      "bannerStepTitle": "أضف صورة بانر",
+      "bannerStepSubtitle": "صورة واحدة لافتة تُمثّل الحملة في كل بطاقة.",
+      "storyStepTitle": "احكِ قصتك",
+      "storyStepSubtitle": "من المستفيد وكيف ستُستخدم الأموال.",
+      "goalStepTitle": "الهدف",
+      "goalStepSubtitle": "اختياري — اتركه فارغًا لحملة مفتوحة دون موعد نهائي.",
+      "next": "التالي",
+      "back": "رجوع",
+      "skip": "تخطٍّ",
+      "launchNow": "تخطّي التالي والإطلاق",
+      "tagsStepTitle": "البلد والفئات",
+      "tagsStepSubtitle": "ساعد الأشخاص المناسبين على العثور على حملتك."
+    }
+  },
+  "campaignsDetail": {
+    "seoTitle": "{{title}} | حملات {{appName}}",
+    "seoDescriptionFallback": "ادعم {{title}} على {{appName}}.",
+    "back": "رجوع",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "deleting": "جارٍ الحذف…",
+    "openCover": "افتح صورة الغلاف",
+    "byAuthor": "بواسطة <0>{{name}}</0>",
+    "commentLabel": "تعليق",
+    "linkCopied": "تم نسخ الرابط إلى الحافظة",
+    "pinnedToast": "تم التثبيت على الحملة",
+    "unpinnedToast": "تم إلغاء التثبيت",
+    "pinFailed": "تعذّر تحديث المثبتات",
+    "deletedToast": "تم حذف الحملة",
+    "deletedToastDesc": "تم نشر طلب حذف. ستزيل المرحّلات المتعاونة الحملة من الخلاصات.",
+    "deleteErrorTitle": "تعذّر حذف الحملة",
+    "campaigner": "صاحب الحملة",
+    "repost_one": "<0>{{formattedCount}}</0> إعادة نشر",
+    "repost_other": "<0>{{formattedCount}}</0> إعادات نشر",
+    "quote_one": "<0>{{formattedCount}}</0> اقتباس",
+    "quote_other": "<0>{{formattedCount}}</0> اقتباسات",
+    "like_one": "<0>{{formattedCount}}</0> إعجاب",
+    "like_other": "<0>{{formattedCount}}</0> إعجابات",
+    "tabComments": "التعليقات والتبرعات",
+    "tabLedger": "السجل",
+    "ledger": {
+      "publicAddress": "العنوان العام",
+      "viewOnMempool": "عرض على mempool.space",
+      "openOnMempool": "فتح المعاملة على mempool.space",
+      "unconfirmed": "غير مؤكدة",
+      "block": "الكتلة {{height}}",
+      "btcUnit": "BTC",
+      "empty": "لا يوجد نشاط على السلسلة لهذا العنوان حتى الآن.",
+      "error": "تعذّر تحميل النشاط على السلسلة. حاول مجددًا بعد لحظة.",
+      "loadMore": "تحميل المزيد",
+      "loadingMore": "جارٍ التحميل…",
+      "donated": "مُتبرَّع به",
+      "withdrawn": "مسحوب"
+    },
+    "tombstone": {
+      "seoTitle": "حملة مؤرشفة | {{appName}}",
+      "title": "هذه الحملة لم تعد متاحة",
+      "deletedNotice": "أزال المنظّم هذه الحملة في {{date}}. لم تعد تقبل التبرعات.",
+      "unavailableNotice": "أُزيلت هذه الحملة أو لم تعد متاحة على المرحّلات لديك. لم تعد تقبل التبرعات.",
+      "archiveIntro": "إيصالات التبرع المنشورة على Nostr محفوظة أدناه كسجل عام.",
+      "receiptsHeading": "أرشيف التبرعات",
+      "totalRecorded": "الإجمالي المسجّل: {{amount}}",
+      "unverifiedCaveat": "المبالغ كما وردت في الإيصالات الموقّعة من المتبرعين. ونظرًا لإزالة الحملة وعنوان محفظتها، لم يعد من الممكن التحقق منها على السلسلة."
+    },
+    "noCommentsTitle": "لا توجد تعليقات بعد",
+    "noCommentsHint": "كن أول من يترك رسالة دعم.",
+    "deleteDialogTitle": "حذف هذه الحملة؟",
+    "deleteDialogBody": "هذا ينشر طلب حذف NIP-09. ستزيل المرحّلات المتعاونة الحملة من الخلاصات والروابط المباشرة. تبقى إيصالات التبرعات السابقة على السلسلة بغض النظر. لا يمكن التراجع عن هذا الإجراء — لمواصلة قبول التبرعات، عدّل الحملة بدلًا من ذلك.",
+    "storyHeading": "القصة",
+    "donate": "تبرّع",
+    "share": "مشاركة",
+    "target": "الهدف: {{amount}}",
+    "raised": "مجموع",
+    "raisedPublicly": "مجموع علنًا",
+    "ofGoal": "من هدف {{amount}}",
+    "goalAmount": "هدف {{amount}}",
+    "beFirstDonor": "كن أول متبرع!",
+    "privateCampaign": "حملة خاصة",
+    "privateMayAddMore": "قد تضيف التبرعات الخاصة المزيد",
+    "donationCount_one": "{{count}} تبرع",
+    "donationCount_other": "{{count}} تبرعات",
+    "openInWallet": "فتح محفظة خارجية",
+    "payWithAgoraWallet": "الدفع عبر Agora",
+    "payWithCard": "الدفع بالبطاقة",
+    "paymentCount_one": "{{count}} دفعة لا تُوقَف",
+    "paymentCount_other": "{{count}} دفعات لا تُوقَف",
+    "openInWalletToast": {
+      "title": "جارٍ البحث عن تطبيق محفظة…",
+      "body": "إذا لم يفتح شيء، انسخ رابط الدفع أعلاه والصقه في محفظتك."
+    },
+    "paymentUri": "URI الدفع",
+    "copyLabelAction": "نسخ {{label}}",
+    "copiedLabel": "تم نسخ {{label}}",
+    "copyFailed": "فشل النسخ",
+    "copyFailedBody": "حدّد القيمة وانسخها يدويًا."
+  },
+  "noBitcoin": {
+    "trigger": "ليس لديك بيتكوين؟",
+    "title": "لا تملك بيتكوين بعد؟",
+    "description": "اشترِ بيتكوين من إحدى هذه الخدمات، ثم أرسله إلى عنوان هذه الحملة.",
+    "buyOn": "اشترِ من",
+    "mayBeUnavailable": "قد لا يكون متاحًا في منطقتك",
+    "onramp": {
+      "descGlobalExchange": "منصة تداول عالمية",
+      "descBitcoinApp": "تطبيق مدفوعات بيتكوين",
+      "descLatam": "أمريكا اللاتينية",
+      "descEurope": "أوروبا",
+      "descAfrica": "أفريقيا",
+      "descIndia": "الهند",
+      "descPhilippines": "الفلبين",
+      "descP2p": "نظير إلى نظير، دون تسجيل"
+    }
+  },
+  "campaignVerification": {
+    "verifiedBy": "موثّق من قبل",
+    "verifiedLabel": "موثَّقة",
+    "verifiedByCount_zero": "لم يوثّقها أحد",
+    "verifiedByCount_one": "موثّقة من قبل شخص واحد",
+    "verifiedByCount_two": "موثّقة من قبل شخصَين",
+    "verifiedByCount_few": "موثّقة من قبل {{count}} أشخاص",
+    "verifiedByCount_many": "موثّقة من قبل {{count}} شخصًا",
+    "verifiedByCount_other": "موثّقة من قبل {{count}} شخص",
+    "verifyCampaign": "وثّق هذه الحملة",
+    "removeVerification": "إزالة توثيقي",
+    "dialogTitle": "وثّق هذه الحملة",
+    "attestation": "بتوثيقك هذه الحملة فإنك تشهد أنها أصيلة وصحيحة. أنت تعرف منظّم الحملة شخصيًا أو تحقّقت بشكل جادّ من صحة ادعاءاته. احذر من المنتحلين والمحتالين.",
+    "verified": "تم توثيق الحملة",
+    "unverified": "تمت إزالة التوثيق",
+    "actionFailed": "فشل الإجراء",
+    "unverifiedBanner": "لم يتم التحقق من هذه الحملة من قبل مصدر موثوق.",
+    "unverifiedBannerReadMore": "اعرف المزيد"
+  },
+  "campaignHidden": {
+    "title": "تم إخفاء هذه الحملة",
+    "body": "تم إخفاء هذه الحملة من قبل مشرفي Agora، عادةً لأنها تبدو كرسالة مزعجة أو عملية احتيال أو انتحال لهوية شخص آخر. لا يزال بإمكانك اختيار عرضها.",
+    "learnMore": "اعرف المزيد",
+    "back": "رجوع",
+    "proceed": "المتابعة على أي حال"
+  },
+  "calendarEvents": {
+    "create": {
+      "seoTitle": "إنشاء حدث",
+      "seoDescription": "أنشئ حدث تقويم على {{appName}}.",
+      "loginTitle": "سجّل الدخول لإنشاء حدث",
+      "loginBody": "الأحداث هي أحداث Nostr موقّعة. تحتاج إلى تسجيل دخول Nostr لنشر حدث.",
+      "heading": "إنشاء حدث",
+      "titlePlaceholder": "تنظيف الحي",
+      "descriptionPlaceholder": "أخبر الناس بما يمكن توقعه، وما يجب إحضاره، ومن ينبغي أن يحضر...",
+      "schedule": "الجدول",
+      "allDay": "حدث طوال اليوم",
+      "allDayHint": "أوقف هذا لإضافة أوقات البدء والانتهاء.",
+      "startDate": "تاريخ البدء",
+      "endDate": "تاريخ الانتهاء",
+      "startTime": "وقت البدء",
+      "endTime": "وقت الانتهاء",
+      "locationDetails": "تفاصيل الموقع",
+      "locationPlaceholder": "العنوان أو المكان أو رابط مكالمة الفيديو",
+      "tagsPlaceholder": "مساعدة-متبادلة، ورشة، أخبار-محلية",
+      "submit": "إنشاء حدث",
+      "successToast": "تم إنشاء الحدث",
+      "errorToast": "تعذّر إنشاء الحدث",
+      "altCalendar": "حدث تقويم: {{title}}",
+      "altGroup": "حدث مجموعة: {{title}}",
+      "errorLoginRequired": "يجب تسجيل الدخول لإنشاء حدث.",
+      "errorTitleRequired": "العنوان مطلوب.",
+      "errorStartDateRequired": "تاريخ البدء مطلوب.",
+      "errorStartDatePast": "لا يمكن أن يكون تاريخ البدء في الماضي.",
+      "errorStartTimeRequired": "وقت البدء مطلوب للأحداث المحددة بوقت.",
+      "errorCoverInvalid": "يجب أن تكون صورة الغلاف رابط https:// صالحاً.",
+      "errorEndDateBeforeStart": "يجب أن يكون تاريخ الانتهاء في تاريخ البدء أو بعده.",
+      "errorStartDateTimeInvalid": "تاريخ أو وقت البدء غير صالح.",
+      "errorEndTimeAfterStart": "يجب أن يكون وقت الانتهاء بعد وقت البدء."
+    },
+    "detail": {
+      "untitledEvent": "حدث بلا عنوان",
+      "dateNotSpecified": "لم يتم تحديد التاريخ",
+      "organizer": "المنظم",
+      "rsvpUpdated": "تم تحديث الرد",
+      "rsvpFailed": "فشل تحديث الرد",
+      "rsvp": "الرد على الدعوة",
+      "youAreGoing": "أنت ذاهب",
+      "youAreInterested": "أنت مهتم",
+      "youCantGo": "لا يمكنك الحضور",
+      "chooseRsvp": "اختر ردك",
+      "going": "ذاهب",
+      "interested": "مهتم",
+      "cantGo": "لا أستطيع الحضور",
+      "attendees": "الحاضرون",
+      "links": "الروابط",
+      "participants": "المشاركون",
+      "hostedBy": "يستضيفه",
+      "attendingCount_one": "{{count}} حاضر",
+      "attendingCount_other": "{{count}} حاضرون",
+      "interestedCount_one": "{{count}} مهتم",
+      "interestedCount_other": "{{count}} مهتمون",
+      "comment": "تعليق",
+      "description": "الوصف",
+      "emptyDescription": "لم يضف المنظم وصفاً لهذا الحدث بعد.",
+      "comments": "التعليقات",
+      "commentNoun_one": "تعليق",
+      "commentNoun_other": "تعليقات",
+      "noCommentsTitle": "لا توجد تعليقات بعد",
+      "noCommentsHint": "كن أول من يعلّق.",
+      "pinnedToast": "تم التثبيت على الحدث",
+      "unpinnedToast": "تم إلغاء التثبيت من الحدث",
+      "pinFailed": "فشل تحديث تثبيتات الحدث"
+    }
+  },
+  "follow": {
+    "follow": "متابعة",
+    "following": "متابَع",
+    "unfollow": "إلغاء المتابعة",
+    "followed": "تمت المتابعة",
+    "unfollowed": "تم إلغاء المتابعة",
+    "updateFailed": "فشل تحديث قائمة المتابعة"
+  },
+  "campaigns": {
+    "home": {
+      "seoTitle": "حملات تمويل",
+      "seoDescription": "العطاء بلا حدود. عطاء مباشر من شخص إلى شخص مدعوم بالبتكوين وNostr.",
+      "heroTagline": "اجمع التبرعات<1></1>بلا <0>حدود</0>",
+      "heroBody": "ادعم الأشخاص والقضايا في أي مكان حول العالم بالبتكوين. كل عطية تصل مباشرةً إلى محفظة المستلم، دون حدود، دون وسطاء، دون عمليات استرداد، ودون أن تحتفظ أي منصة بالأموال.",
+      "startCampaign": "ابدأ حملة",
+      "howItWorks": "كيف يعمل",
+      "featuredTitle": "الحملات المميّزة",
+      "featuredDesc": "حملات منتقاة بعناية من فريق {{appName}}.",
+      "verifiedTitle": "الحملات الموثّقة",
+      "verifiedDesc": "حملات موصى بها من قِبل موثِّقين موثوقين في مؤتمر الحرية العالمي وفريق {{appName}}.",
+      "allCampaigns": "كل الحملات",
+      "allCampaignsDesc": "كل الحملات على الشبكة، بالترتيب الزمني.",
+      "browseAll": "تصفّح كل الحملات",
+      "hidden": "مخفية",
+      "hiddenDesc": "حملات أُزيلت من الصفحة الرئيسية العامة. استخدم قائمة البطاقة لإلغاء الإخفاء.",
+      "hiddenEmpty": "لا توجد حملات مخفية حالياً.",
+      "yourCampaigns": "حملاتك",
+      "yourCampaignsDesc": "حملاتك منشورة على Nostr وتعمل التبرعات عبر رابط الحملة. تصفّح كل الحملات على /campaigns؛ ويختار فريق {{appName}} مجموعة منتقاة لعرضها على الصفحة الرئيسية.",
+      "empty": "لا توجد حملات بعد",
+      "emptyHint": "كن أول من يبدأ حملة تمويل على {{appName}}. اروِ قصتك، اختر المستفيدين، وشارك الرابط.",
+      "whyDifferent": {
+        "eyebrow": "لماذا {{appName}}",
+        "title": "مبني بشكل مختلف.",
+        "lede": "بيتكوين مباشرة من المتبرع إلى المستفيد. لا منصة في المنتصف، لا حافظ يحمل الكيس، لا إذن مطلوب.",
+        "block1": {
+          "heading": "بعكس GoFundMe",
+          "body": "لا يمكن لأي منصة تجميد تبرعاتك، أو طلب استرداد، أو إنهاء حملتك بسبب خلافات في السياسة. لا Stripe، ولا Visa، ولا بنك يقف في المنتصف ويستطيع قطعك في منتصف الحملة.",
+          "bullet1": "محصّن ضد التجميد، لا فيتو من المنصة",
+          "bullet2": "لا معالج مدفوعات يستطيع سحب القابس",
+          "bullet3": "صفر رسوم منصة"
+        },
+        "block2": {
+          "heading": "بعكس منصات ‘البتكوين’ الأخرى",
+          "body": "لا عقدة Lightning مركزية، ولا حافظ، ولا LSP قد يفشل أو ينقطع. تُسوّى الأموال مباشرة على Bitcoin إلى محفظة تتحكم فيها. لو اختفى {{appName}} غدًا، لاستمرت كل حملة في العمل.",
+          "bullet1": "لا محفظة وصائية يمكن استنزافها أو تجميدها",
+          "bullet2": "تُسوّى على السلسلة إلى محفظة تملكها",
+          "bullet3": "تعمل حتى لو اختفى {{appName}}"
+        },
+        "block3": {
+          "heading": "علني أو خاص. الخيار لك.",
+          "body": "يختار المستفيدون خيار الاستلام الذي يناسب نموذج التهديد الخاص بهم. يرى المتبرعون رمز QR واحدًا؛ والمحفظة تختار البروتوكول المناسب.",
+          "publicLabel": "علني",
+          "publicSummary": "يعمل في كل محفظة Bitcoin. سريع وقابل للتحقق على السلسلة.",
+          "privateLabel": "خاص",
+          "privateSummary": "مدفوعات صامتة BIP-352. تصل التبرعات إلى مخرجات غير قابلة للربط."
+        },
+        "readMore": "اقرأ التفصيل الكامل"
+      },
+      "verifyCampaigns": "وثّق الحملات",
+      "searchPlaceholder": "ابحث في الحملات…",
+      "searchAriaLabel": "البحث في الحملات",
+      "noMatch": "لا توجد حملات تطابق «{{query}}»",
+      "noMatchHint": "جرّب كلمة بحث مختلفة، أو امسح البحث."
+    },
+    "all": {
+      "title": "الحملات",
+      "seoTitle": "كل الحملات",
+      "description": "تصفّح كل الحملات المنشورة على Agora.",
+      "sectionTagline": "الحملات المميّزة أولاً، ثم بقية الشبكة. ابحث أو رتّب للتصفية.",
+      "newTitle": "الحملات الجديدة",
+      "newDesc": "كل حملة أخرى على الشبكة، الأحدث أولاً.",
+      "viewAll": "عرض الكل",
+      "viewAllCount": "عرض الكل ({{count}})",
+      "heroKicker": "الحملات",
+      "heroHeading": "كل قضيّة،",
+      "heroHeadingLine2": "في مكان واحد.",
+      "heroBody": "كل حملة تمويل منشورة على Nostr، مجموعةً في مكان واحد. تصفّح الشبكة بأكملها، اعثر على قضيّة تهمّك، وادعمها مباشرةً بالبتكوين.",
+      "campaignsCount_one": "حملة على الشبكة",
+      "campaignsCount_other": "حملات على الشبكة",
+      "searchAriaLabel": "البحث في الحملات",
+      "searchPlaceholder": "ابحث في الحملات…",
+      "clearSearch": "مسح البحث",
+      "sortAriaLabel": "الترتيب",
+      "sortTop": "الأبرز",
+      "sortNew": "الأحدث",
+      "showHidden": "إظهار المخفية",
+      "startCampaign": "ابدأ حملة",
+      "noMatch": "لا توجد حملات تطابق «{{query}}»",
+      "noMatchHint": "جرّب كلمة بحث مختلفة، أو امسح البحث لرؤية كل الحملات.",
+      "allHidden": "لا توجد حملات للعرض",
+      "allHiddenHint": "تم إخفاء كل الحملات على الشبكة من قِبَل المشرفين. فعّل «إظهار المخفية» لرؤيتها.",
+      "empty": "لا توجد حملات بعد",
+      "emptyHint": "لم تُنشَر أي حملة بعد. كن الأول.",
+      "verifyCampaigns": "وثّق الحملات"
+    },
+    "lists": {
+      "stripAria": "قوائم مواضيع منتقاة للحملات",
+      "create": "قائمة جديدة",
+      "showMore": "إظهار {{count}} أخرى",
+      "showLess": "إظهار أقل",
+      "createDesc": "أنشئ قائمة مواضيع جديدة. ثم انتقِ إليها حملات من أي صفحة حملة.",
+      "createSubmit": "إنشاء القائمة",
+      "createFailed": "فشل إنشاء القائمة",
+      "edit": "تعديل القائمة",
+      "editDesc": "حدّث عنوان القائمة أو وصفها أو أيقونتها.",
+      "editSubmit": "حفظ التغييرات",
+      "updateFailed": "فشل تحديث القائمة",
+      "delete": "حذف القائمة",
+      "deleteFailed": "فشل حذف القائمة",
+      "deleteConfirmTitle": "حذف هذه القائمة؟",
+      "deleteConfirmDesc": "ستُزال «{{title}}» من شريط المواضيع. لن تتأثر الحملات نفسها.",
+      "titleField": "العنوان",
+      "titlePlaceholder": "مثلاً: حرية الصحافة",
+      "descriptionField": "الوصف",
+      "descriptionPlaceholder": "وصف قصير يوضّح ما الذي ينتمي إلى هذه القائمة.",
+      "iconField": "الأيقونة",
+      "coverField": "صورة الغلاف",
+      "menuAria": "خيارات قائمة {{title}}",
+      "listActions": "إجراءات القائمة",
+      "memberMenuAria": "خيارات قائمة الحملة",
+      "backToCampaigns": "العودة إلى الحملات",
+      "detailTitle": "قائمة حملات",
+      "campaignsCount_one": "{{count}} حملة",
+      "campaignsCount_other": "{{count}} حملة",
+      "addCampaign": "إضافة حملة",
+      "addCampaignDesc": "ابحث في الشبكة واختر حملة لإضافتها إلى هذه القائمة.",
+      "addFailed": "فشل الإضافة إلى القائمة",
+      "addToList": "إضافة",
+      "alreadyAdded": "مُضافة",
+      "added": "مُضافة",
+      "membershipTitle": "إضافة إلى القوائم",
+      "membershipDesc": "اختر القوائم التي يجب أن تظهر فيها \"{{title}}\".",
+      "membershipEmpty": "لا توجد قوائم بعد. أنشئ قائمة لبدء الانتقاء.",
+      "searchPlaceholder": "ابحث في الحملات…",
+      "searchEmpty": "لا توجد حملات تطابق هذا البحث.",
+      "removeFromList": "إزالة من القائمة",
+      "removeFailed": "فشل الإزالة من القائمة",
+      "empty": "هذه القائمة فارغة.",
+      "emptyMod": "هذه القائمة فارغة. أضِف حملات للبدء بانتقائها.",
+      "iconPicker": {
+        "title": "اختر أيقونة",
+        "description": "اختر أي أيقونة من مكتبة Lucide.",
+        "search": "ابحث في الأيقونات…",
+        "empty": "لا توجد أيقونات تطابق هذا البحث."
+      }
+    }
+  },
+  "moderation": {
+    "hiddenBadge": "مخفية",
+    "menu": {
+      "ariaCampaign": "إدارة الحملة",
+      "ariaPledge": "إدارة التعهد",
+      "ariaGroup": "إدارة المجموعة",
+      "failedAction": "فشل {{action}}",
+      "failedReorder": "فشل إعادة الترتيب",
+      "hide": "إخفاء",
+      "unhide": "إلغاء الإخفاء",
+      "hiddenState": "مخفية",
+      "feature": "تمييز",
+      "unfeature": "إلغاء التمييز",
+      "featuredState": "مميّزة",
+      "moveToTop": "نقل إلى الأعلى",
+      "moveUp": "تحريك للأعلى",
+      "moveDown": "تحريك للأسفل",
+      "addToList": "إضافة إلى قائمة…",
+      "dragHandle": "اسحب لإعادة الترتيب (الموضع {{index}})",
+      "toastHidden": "تم الإخفاء",
+      "toastUnhidden": "تم إلغاء الإخفاء",
+      "toastFeatured": "تم التمييز",
+      "toastUnfeatured": "أُزيلت من المميزة",
+      "toast": {
+        "movedToTop": "تم النقل إلى الأعلى",
+        "movedUp": "تم التحريك للأعلى",
+        "movedDown": "تم التحريك للأسفل"
+      },
+      "label": "إجراءات المشرف"
+    }
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "description": "إدارة إعدادات {{appName}} الخاصة بك",
+    "deleteAccount": "حذف الحساب",
+    "groups": {
+      "account": "الحساب",
+      "app": "التطبيق",
+      "system": "النظام"
+    },
+    "sections": {
+      "profile": "الملف الشخصي",
+      "profileDesc": "اسم العرض والسيرة الذاتية والصورة الرمزية والتحقق.",
+      "appearance": "المظهر",
+      "appearanceDesc": "وضع النظام أو الفاتح أو الداكن.",
+      "language": "اللغة",
+      "languageDesc": "اختر اللغة المستخدمة في جميع أنحاء التطبيق.",
+      "network": "الشبكة",
+      "networkDesc": "استخدام البيانات وخوادم الترحيل وخوادم رفع الملفات.",
+      "notifications": "الإشعارات",
+      "notificationsDesc": "تفضيلات الإشعارات الفورية.",
+      "content": "المحتوى",
+      "contentDesc": "إدارة المستخدمين والوسوم والكلمات المكتومة.",
+      "advanced": "متقدم",
+      "advancedDesc": "خيارات المحفظة والنظام وللمستخدمين المتقدمين.",
+      "organizers": "المنظّمون",
+      "organizersDesc": "تعيين منظّمي الدول الذين يمكنهم تثبيت المنشورات في قوائم الدول.",
+      "support": "هل هناك مشكلة؟",
+      "supportDesc": "أبلغ عن مشكلة أو اطّلع على المشكلات المعروفة"
+    },
+    "organizers": "المنظّمون",
+    "signInToManage": "سجّل الدخول للإدارة",
+    "loginRequired": "يجب أن تكون مسجلاً للدخول لإدارة المنظّمين.",
+    "appearance": {
+      "title": "المظهر",
+      "subtitle": "اختر كيف يبدو التطبيق.",
+      "colorMode": "وضع الألوان",
+      "system": "النظام",
+      "systemDesc": "يتبع إعدادات جهازك",
+      "light": "فاتح",
+      "lightDesc": "استخدام الوضع الفاتح دائماً",
+      "dark": "داكن",
+      "darkDesc": "استخدام الوضع الداكن دائماً"
+    },
+    "network": {
+      "title": "الشبكة",
+      "subtitle": "إدارة استخدام البيانات وخوادم الترحيل وخوادم رفع الملفات.",
+      "lowBandwidthHeading": "وضع النطاق المنخفض",
+      "reduceDataUsage": "تقليل استخدام البيانات",
+      "reduceDataUsageDesc": "للاتصالات المحدودة أو البطيئة. لا تُشغَّل مقاطع الفيديو تلقائياً، ويُتخطى عرض الفيديوهات في الخلفية، وتنتظر الصور نقرة قبل تحميلها.",
+      "useImageProxy": "استخدام وسيط الصور",
+      "useImageProxyDesc": "يجلب نسخاً أصغر بصيغة WebP من الصور بدلاً من الأصل بدقّة كاملة.",
+      "proxyUrl": "رابط الوسيط",
+      "proxyApiDesc": "يجب أن يدعم واجهة <0>wsrv.nl / weserv</0>. ويمكن لمن يستضيف ذاتياً توجيهه إلى نسخته الخاصة.",
+      "reset": "إعادة تعيين",
+      "relays": "خوادم الترحيل",
+      "blossomServers": "خوادم Blossom",
+      "imageUploads": "رفع الصور",
+      "uploadQuality": "جودة الرفع",
+      "uploadQualityDesc": "خيار «مضغوط» يغيّر حجم الصور الكبيرة ويختار أصغر صيغة. خيار «أصلي» يرفع الصور كما هي تماماً.",
+      "compressed": "مضغوط",
+      "original": "أصلي"
+    },
+    "advanced": {
+      "title": "متقدم",
+      "subtitle": "اتصالات المحفظة وتكوين النظام وخيارات أخرى للمستخدمين المتقدمين.",
+      "intro": "اتصالات المحفظة وتكوين النظام وخيارات متقدمة أخرى.",
+      "wallet": "المحفظة",
+      "torHeading": "Tor",
+      "torToggle": "توجيه حركة المرور عبر Tor",
+      "torToggleDesc": "يتصل بالمرحّلات ويحمّل الوسائط عبر شبكة Tor لحماية أقوى للخصوصية. توقّع أداءً أبطأ وتأخيراً قصيراً ريثما يتصل Tor.",
+      "torApplyNote": "يؤدي تفعيل هذا الخيار إلى توجيه كل حركة المرور عبر Tor. أثناء الاتصال، لن يتم تحميل المحتوى الآخر (يُعرض بانر يوضّح الحالة) — ولا يُرسَل أي شيء خارج Tor. يؤدي إيقافه إلى العودة إلى الاتصال المباشر.",
+      "torStatusLabel": "الحالة:",
+      "torExitIp": "عنوان IP للخروج من Tor:",
+      "torCheckAgain": "التحقق مجدداً"
+    },
+    "wallet": {
+      "title": "المحفظة",
+      "subtitle": "إدارة اتصالات المحفظة والمدفوعات"
+    }
+  },
+  "language": {
+    "title": "اللغة",
+    "subtitle": "اختر اللغة المستخدمة في جميع أنحاء التطبيق.",
+    "translationNote": "الترجمات قيد العمل. النص غير المترجم سيظهر بالإنجليزية."
+  },
+  "verifier": {
+    "title": "مُحقِّق",
+    "subtitle": "كن مُحقِّقاً بوصف كيفية تدقيقك للحملات.",
+    "promptLabel": "عملية التحقق الخاصة بك",
+    "prompt": "أخبرنا بالخطوات التي تتّبعها للتحقق من الحملات. أدرج أكبر قدر ممكن من التفاصيل ليعرف المتبرعون أنه يمكنهم الوثوق بحكمك.",
+    "placeholder": "صِف كيف تتحقق من الحملات — الفحوص التي تُجريها، والأدلة التي تطلبها، وكيف تتأكد من هوية المنظّم، وأي شيء آخر يساعد المتبرعين على الوثوق بحكمك.",
+    "previewLabel": "معاينة",
+    "publish": "كن مُحقِّقاً",
+    "update": "تحديث البيان",
+    "withdraw": "سحب",
+    "loading": "جارٍ تحميل بيانك…",
+    "publishedToast": "بيان التحقق الخاص بك أصبح مباشراً.",
+    "withdrawnToast": "تم سحب بيان التحقق الخاص بك.",
+    "errorToast": "تعذّر حفظ بيان التحقق الخاص بك.",
+    "disclaimer": "يمكن لأي شخص أن يصبح مُحقِّقاً. يُنشر بيانك علناً على Nostr ويُعرض بشكل بارز على ملفك الشخصي. وهو لا يمنح أي أذونات خاصة — بل يخبر المتبرعين فقط بكيفية تدقيقك للحملات.",
+    "loginGateTitle": "سجّل الدخول لتصبح مُحقِّقاً",
+    "loginGateBody": "يجب أن تكون مسجلاً للدخول لنشر بيان تحقق.",
+    "howWeVerifyTitle": "كيف نتحقّق",
+    "requestVerification": "طلب التحقق",
+    "withdrawConfirmTitle": "هل تريد سحب بيان التوثيق الخاص بك؟",
+    "withdrawConfirmBody": "سيُزال بيان «كيف نتحقّق» من ملفك الشخصي. يمكنك نشر بيان جديد في أي وقت."
+  },
+  "mdEditor": {
+    "toolbar": {
+      "bold": "عريض",
+      "italic": "مائل",
+      "strikethrough": "يتوسطه خط",
+      "inlineCode": "كود مضمّن",
+      "heading1": "عنوان 1",
+      "heading2": "عنوان 2",
+      "heading3": "عنوان 3",
+      "bulletList": "قائمة نقطية",
+      "numberedList": "قائمة مرقمة",
+      "blockquote": "اقتباس",
+      "insertLink": "إدراج رابط",
+      "insertImage": "إدراج صورة",
+      "horizontalRule": "خط أفقي"
+    },
+    "help": {
+      "title": "مرجع سريع لـ Markdown",
+      "bold": "عريض",
+      "italic": "مائل",
+      "bulletList": "نقطي",
+      "numberedList": "مرقم",
+      "link": "رابط",
+      "quote": "اقتباس",
+      "code": "كود"
+    },
+    "link": {
+      "title": "إدراج رابط",
+      "textLabel": "نص الرابط",
+      "textPlaceholder": "أدخل نص الرابط…",
+      "urlLabel": "URL",
+      "cancel": "إلغاء",
+      "insert": "إدراج رابط"
+    }
+  },
+  "organizations": {
+    "seoTitle": "للمنظّمات",
+    "seoDescription": "أدرِج منظّمتك على {{appName}}، وانشر بيان تحقّق علنياً، واكسب ثقة المتبرعين.",
+    "hero": {
+      "eyebrow": "للمنظّمات والمحقّقين",
+      "headlinePart1": "ساعِد المتبرعين على",
+      "headlineHighlight": "الثقة",
+      "body": "أحضِر منظّمتك إلى {{appName}} وانشر بياناً علنياً يصف كيفية تدقيقك للحملات التي تقف خلفها. لا طلب تقديم، ولا حرّاس بوابة — سمعتك هي ما يقوم بالعمل.",
+      "trustChips": {
+        "noPermission": "لا حاجة لإذن",
+        "ownIdentity": "هويتك الخاصة",
+        "public": "علني وقابل للتحقق"
+      },
+      "cta": "ابدأ الآن"
+    },
+    "steps": {
+      "eyebrow": "كيف تعمل",
+      "title": "ابدأ في ثلاث خطوات",
+      "lede": "{{appName}} مبنية على Nostr، لذا تجلب منظّمتك هويتها الخاصة. لا يستغرق الإعداد سوى دقائق.",
+      "step1": {
+        "title": "أحضِر ملفك الشخصي",
+        "body": "سجّل الدخول بملف منظّمتك الشخصي على Nostr — أو أنشئ واحداً في ثوانٍ. هويتك ملك لك، قابلة للنقل عبر كل تطبيقات Nostr، وغير خاضعة لسيطرة {{appName}}."
+      },
+      "step2": {
+        "title": "صِف عمليتك",
+        "body": "اكتب بياناً علنياً يشرح كيفية تحققك من الحملات: الفحوصات التي تُجريها، والأدلة التي تشترطها، وكيفية تأكيدك لهوية المنظّم."
+      },
+      "step3": {
+        "title": "انشر واكسب الثقة",
+        "body": "يظهر بيانك على ملفك الشخصي ويُشير للمتبرعين إلى أنك تقف خلف الحملات التي تحقّق منها. حدِّثه أو اسحبه في أي وقت."
+      }
+    },
+    "getStarted": {
+      "eyebrow": "ابدأ الآن",
+      "title": "انشر بيانك",
+      "lede": "سجّل الدخول بملف منظّمتك الشخصي لنشر بيان التحقق الخاص بك أو تحديثه أو سحبه."
+    },
+    "loginGateTitle": "سجّل الدخول بملف منظّمتك الشخصي",
+    "loginGateBody": "سجّل الدخول بملف منظّمتك الشخصي على Nostr، أو أنشئ واحداً، للبدء. بمجرد تسجيل دخولك، يمكنك نشر بيان التحقق الخاص بك هنا.",
+    "tutorial": {
+      "eyebrow": "أنت الآن مُوثِّق",
+      "title": "كيفية توثيق حملة",
+      "lede": "بيانك منشور الآن. إليك كيف توثّق حملة تثق بها — يكفي نقرتان من أي بطاقة حملة.",
+      "steps": {
+        "open": {
+          "title": "افتح القائمة",
+          "body": "في أي بطاقة حملة، انقر على زر النقاط الثلاث في الزاوية العلوية اليمنى من اللافتة."
+        },
+        "verify": {
+          "title": "اختر \"وثّق هذه الحملة\"",
+          "body": "تكشف القائمة عن إجراء التوثيق — وهو مرئي فقط للمشرفين والمُوثِّقين مثلك."
+        },
+        "confirm": {
+          "title": "أكِّد وانتهيت",
+          "body": "أقرّ بأن الحملة أصلية. تنضم شارتك إلى البطاقة ليعلم المتبرعون أنك تقف خلفها."
+        }
+      },
+      "demo": {
+        "menuVerify": "وثّق هذه الحملة"
+      }
+    },
+    "getStartedCard": {
+      "title": "أعدّ منظّمتك",
+      "body": "سنرشدك خلال إنشاء ملف منظّمتك الشخصي، ونشر بيان التوثيق الخاص بك، وتوثيق حملتك الأولى.",
+      "cta": "ابدأ التوثيق"
+    }
+  },
+  "organizers": {
+    "appoint": "تعيين منظّم",
+    "appointDesc": "منح المستخدم إذناً لتثبيت المنشورات في قائمة دولة محددة.",
+    "appointing": "جارٍ التعيين…",
+    "appointed": "تم تعيين المنظّم",
+    "appointedSuccess": "تم تعيين منظّم لـ {{country}}",
+    "userNpub": "npub المستخدم",
+    "country": "الدولة",
+    "selectCountry": "اختر دولة",
+    "invalidNpub": "تنسيق npub غير صالح",
+    "alreadyOrganizer": "هذا المستخدم هو بالفعل منظّم لتلك الدولة",
+    "current": "المنظّمون الحاليون",
+    "noOrganizers": "لم يتم تعيين أي منظّمين بعد.",
+    "removed": "تمت إزالة المنظّم",
+    "removedSuccess": "تمت إزالة {{name}} من {{country}}",
+    "refreshed": "تم التحديث",
+    "refreshedDesc": "تم تحديث قائمة المنظّمين من خوادم الترحيل.",
+    "adminRequired": "مطلوب صلاحية مسؤول",
+    "adminRequiredDesc": "يمكن لمسؤولي المنصة فقط تعيين المنظّمين أو إزالتهم."
+  },
+  "wallet": {
+    "seoTitle": "المحفظة",
+    "seoDescription": "محفظة بيتكوين هرمية حتمية مشتقّة من مفتاح nsec الخاص بك على Nostr.",
+    "loggedOut": {
+      "title": "محفظة بيتكوين",
+      "description": "محفظة هرمية مشتقّة من هويتك على Nostr. عنوان جديد عند كل استقبال، وسجل معاملات كامل، وبدون إعادة استخدام للعناوين.",
+      "requiresNsec": "تتطلب تسجيل الدخول باستخدام nsec (مفتاحك الخاص في Nostr)."
+    },
+    "unsupported": {
+      "title": "المحفظة غير متاحة",
+      "extension": "يعزل امتداد متصفحك مفتاحك السري، لذلك لا يمكننا اشتقاق مفاتيح فرعية لمحفظتك.",
+      "bunker": "يحتفظ موقّعك البعيد (NIP-46 bunker) بمفتاحك السري في جانب الـbunker، لذلك لا يمكننا اشتقاق مفاتيح فرعية لمحفظتك.",
+      "other": "نوع تسجيل الدخول الخاص بك لا يكشف المفتاح السري اللازم لاشتقاق محفظتك.",
+      "instructions": "سجّل الخروج وأعد تسجيل الدخول باستخدام nsec لاستخدام المحفظة."
+    },
+    "scanFailed": "فشل في مسح المحفظة",
+    "retry": "إعادة المحاولة",
+    "refreshBalance": "تحديث الرصيد",
+    "refreshBalanceTitle": "انقر لتحديث الرصيد",
+    "amountPending": "{{amount}} قيد المعالجة",
+    "pending": "قيد المعالجة",
+    "send": "إرسال",
+    "transactions": "المعاملات",
+    "receiveDialog": {
+      "title": "استقبال البيتكوين",
+      "description": "شارك عنواناً لاستقبال البيتكوين.",
+      "addressIndex": "العنوان رقم {{index}}",
+      "scanForNew": "تحقق من المدفوعات الجديدة"
+    },
+    "tx": {
+      "pending": "قيد المعالجة",
+      "today": "اليوم",
+      "yesterday": "الأمس",
+      "daysAgo_one": "منذ يوم",
+      "daysAgo_other": "منذ {{count}} يوم",
+      "received": "مُستلَم",
+      "sent": "مُرسَل"
+    },
+    "openMenu": "قائمة المحفظة",
+    "sendPublic": "إرسال",
+    "sendPrivate": "إرسال بشكل خاص",
+    "tabs": {
+      "public": "عام",
+      "private": "خاص"
+    },
+    "hideBalance": "إخفاء الرصيد",
+    "showBalance": "إظهار الرصيد"
+  },
+  "walletSettings": {
+    "backup": {
+      "label": "نسخ المحفظة احتياطياً"
+    },
+    "legacy": {
+      "label": "استرداد المحفظة القديمة"
+    }
+  },
+  "walletLegacy": {
+    "seoTitle": "استرداد المحفظة القديمة",
+    "seoDescription": "استرد الأموال من إصدارات محافظ Agora السابقة.",
+    "title": "استرداد المحفظة القديمة",
+    "subtitle": "اختر المحفظة السابقة التي استخدمتها واجمع رصيدها إلى محفظتك الحالية.",
+    "loggedOut": "سجّل الدخول بهويتك على Nostr للبحث عن الأموال في محافظك القديمة.",
+    "scanning": "جارٍ مسح محفظة V2 التجريبية بحثاً عن الأموال…",
+    "v2Detected": {
+      "title": "تم العثور على أموال في محفظة V2 التجريبية ما قبل الإطلاق",
+      "body": "وجدنا <0>{{amount}}</0> على عناوين من محفظة V2 التجريبية القديمة. افتح أداة جمع V2 أدناه لنقلها إلى محفظتك الحالية."
+    },
+    "options": {
+      "v2Beta": {
+        "label": "محفظة V2 التجريبية ما قبل الإطلاق",
+        "description": "اجمع الأموال من محفظة BIP-86 التي كانت تستخدم nsec كبذرة قبل اعتماد اشتقاق BIP-39."
+      },
+      "v1Breeze": {
+        "label": "محفظة V1 Breeze",
+        "description": "اجمع الرصيد على السلسلة من حضانة Lightning القديمة."
+      },
+      "doubleTweak": {
+        "label": "إصلاح المدفوعات الصامتة مزدوجة التعديل",
+        "description": "استعد المدفوعات الصامتة العالقة بسبب خلل سابق في الإرسال واجمعها مرة أخرى إلى محفظتك."
+      }
+    },
+    "footnote": "كل خيار هو عملية جمع باتجاه واحد إلى محفظتك الحالية. لا تتم استعادة المحفظة القديمة نفسها — تُسترد الأموال التي كانت تحتفظ بها فقط."
+  },
+  "walletRecovery": {
+    "seoTitle": "استرداد المحفظة القديمة",
+    "seoDescription": "استرد الأموال من محفظة Lightning السابقة وانقلها إلى عنوان Bitcoin المشتق من هويتك على Nostr.",
+    "title": "استرداد المحفظة القديمة",
+    "heading": "استرد محفظتك القديمة",
+    "subheading": "إذا كانت لديك سابقاً أموال في محفظة Lightning، يمكنك نقلها إلى عنوان Bitcoin المشتق من هويتك على Nostr. لا تتم استعادة المحفظة القديمة — هذا تحويل لمرة واحدة وباتجاه واحد.",
+    "backToWallet": "العودة إلى المحفظة",
+    "loggedOut": {
+      "title": "سجّل الدخول للاسترداد",
+      "description": "سجّل الدخول بهوية Nostr التي تملك محفظة Lightning القديمة حتى يمكن نقل الأموال إلى عنوان Bitcoin الخاص بها."
+    },
+    "destination": {
+      "title": "سوف تُرسل الأموال إلى",
+      "description": "عنوان Taproot المشتق من Nostr الخاص بك."
+    },
+    "phrase": {
+      "title": "عبارة الاسترداد",
+      "description": "الصق عبارة الاسترداد المؤلفة من 12 كلمة من محفظتك القديمة.",
+      "checkingRelays": "نتحقق من خوادم الترحيل لإيجاد نسخة احتياطية مشفّرة…",
+      "backupFoundTitle": "تم العثور على نسخة احتياطية على خوادم الترحيل",
+      "backupFoundDesc": "وجدنا نسخة احتياطية مشفّرة لعبارة استرداد محفظتك القديمة منشورة من هذا الحساب.",
+      "decryptAndUse": "فك التشفير واستخدامها",
+      "placeholder": "كلمة1 كلمة2 كلمة3 …",
+      "warning": "الصق فقط عبارة استرداد تثق بها. أي شخص يمتلك هذه العبارة يمكنه إنفاق الأموال. بعد اكتمال النقل، احذفها من أي مكان نسختها إليه.",
+      "sweepButton": "نقل الأموال إلى عنوان Bitcoin الخاص بي"
+    },
+    "sweeping": {
+      "working": "جارٍ العمل…",
+      "dontClose": "لا تُغلق هذه التبويبة. قد يستغرق ذلك حتى دقيقة بينما تتم مزامنة المحفظة القديمة وبثّ المعاملة."
+    },
+    "success": {
+      "title": "اكتمل الاسترداد",
+      "sent": "تم إرسال {{sats}} ساتوشي إلى عنوان Bitcoin الخاص بك.",
+      "viewTransaction": "عرض المعاملة"
+    },
+    "error": {
+      "title": "فشل الاسترداد",
+      "tryAgain": "إعادة المحاولة"
+    },
+    "errors": {
+      "noNip44": "موقّعك لا يدعم فك تشفير NIP-44 المطلوب لقراءة النسخة الاحتياطية من خوادم الترحيل. الصق عبارة الاسترداد المؤلفة من 12 كلمة يدوياً بدلاً من ذلك.",
+      "decryptFailed": "تعذّر فك تشفير النسخة الاحتياطية من خوادم الترحيل. الصق عبارة الاسترداد المؤلفة من 12 كلمة يدوياً بدلاً من ذلك.",
+      "decryptGeneric": "فشل في فك تشفير النسخة الاحتياطية من خوادم الترحيل.",
+      "invalidWordCount": "يجب أن تتكوّن عبارة الاسترداد من 12 أو 24 كلمة.",
+      "noBalance": "محفظتك القديمة لا تحتوي على رصيد قابل للإنفاق. لا يوجد شيء لاستعادته.",
+      "sweepGeneric": "فشل الاسترداد. يرجى المحاولة مرة أخرى."
+    },
+    "progress": {
+      "loadingSdk": "جارٍ تحميل SDK المحفظة…",
+      "connecting": "جارٍ الاتصال بمحفظتك القديمة…",
+      "checkingBalance": "جارٍ التحقق من الرصيد…",
+      "preparingTransfer": "جارٍ التحضير لنقل {{sats}} ساتوشي…",
+      "broadcasting": "جارٍ بثّ المعاملة…"
+    },
+    "toast": {
+      "backupLoadedTitle": "تم تحميل النسخة الاحتياطية",
+      "backupLoadedDesc": "تم فك تشفير عبارة الاسترداد من خوادم الترحيل."
+    }
+  },
+  "walletBackup": {
+    "heading": "عبارة بذرة المحفظة",
+    "dialogDescription": "يمكنك الوصول إلى محفظة Agora الخاصة بك من أي محفظة Bitcoin عبر استيراد هذه النسخة الاحتياطية المكوّنة من 24 كلمة.",
+    "hidden": "اضغط لعرض عبارة البذرة المكوّنة من 24 كلمة.",
+    "revealAria": "إظهار عبارة البذرة",
+    "hideAria": "إخفاء عبارة البذرة",
+    "warning": "أي شخص يمتلك هذه الكلمات يمكنه إنفاق عملات Bitcoin الخاصة بك. لا تشاركها أبداً، ولا تكتبها في أي موقع ويب، ولا تخزّنها كنص صريح خارج مدير كلمات السر."
+  },
+  "walletMigrate": {
+    "seoTitle": "نقل المحفظة القديمة",
+    "seoDescription": "اجمع الأموال من محفظة Agora القديمة (التي كانت تستخدم nsec كبذرة) إلى محفظة BIP-39 الجديدة.",
+    "title": "نقل المحفظة القديمة",
+    "heading": "انتقل إلى محفظتك الجديدة",
+    "subheading": "أصبحت محفظة Bitcoin في Agora تستخدم عبارة بذرة BIP-39 حتى تكون قابلة للاستيراد إلى أي تطبيق محفظة. الأموال الموجودة على عناوينك القديمة لا تزال آمنة — تقوم هذه الصفحة بنقلها إلى محفظتك الجديدة في معاملة واحدة.",
+    "backToWallet": "العودة إلى المحفظة",
+    "loading": "جارٍ التحقق من محفظتك القديمة…",
+    "warning": "تُنشئ هذه العملية معاملة جمع واحدة تستهلك كل UTXO من محفظتك القديمة وترسل المجموع (مطروحاً منه رسوم شبكة صغيرة) إلى أول عنوان استقبال في محفظتك الجديدة. بعد البثّ، تصبح العملية نهائية ولا يمكن التراجع عنها.",
+    "startButton": "اجمع إلى المحفظة الجديدة",
+    "loggedOut": {
+      "title": "سجّل الدخول للنقل",
+      "description": "سجّل الدخول بهوية Nostr التي تملك المحفظة القديمة حتى يمكن جمع الأموال إلى عنوانك الجديد."
+    },
+    "unsupported": {
+      "title": "المحفظة غير متاحة",
+      "description": "النقل يعمل فقط مع تسجيل الدخول عبر nsec، لأن مفاتيح المحفظة القديمة مشتقّة مباشرةً من nsec الخاص بك. لا يمكن لتسجيل الدخول عبر إضافة المتصفح أو الموقّع البعيد تنفيذ هذا النقل."
+    },
+    "noBlockbook": {
+      "title": "Blockbook غير مُهيّأ",
+      "description": "يحتاج النقل إلى عنوان URL لمفهرس Blockbook لمسح عناوينك القديمة وبثّ معاملة الجمع."
+    },
+    "noFunds": {
+      "title": "لا شيء للنقل",
+      "description": "محفظتك القديمة لا تحتوي على رصيد قابل للإنفاق. كل شيء موجود بالفعل في محفظتك الجديدة."
+    },
+    "detected": {
+      "title": "الأموال في محفظتك القديمة",
+      "description": "ستُنقل هذه الأموال إلى محفظتك الجديدة في معاملة واحدة.",
+      "bip86": "على السلسلة",
+      "sp": "المدفوعات الصامتة",
+      "total": "المجموع"
+    },
+    "destination": {
+      "title": "الوجهة",
+      "description": "أول عنوان استقبال في محفظتك الجديدة."
+    },
+    "progress": {
+      "building": "جارٍ إنشاء المعاملة…",
+      "signing": "جارٍ توقيع المدخلات…",
+      "broadcasting": "جارٍ بثّ المعاملة…",
+      "dontClose": "لا تُغلق هذه التبويبة أثناء تنفيذ الجمع."
+    },
+    "success": {
+      "title": "اكتمل النقل",
+      "sent": "تم إرسال {{sats}} ساتوشي إلى محفظتك الجديدة (رسوم {{fee}} ساتوشي).",
+      "viewTx": "عرض المعاملة"
+    },
+    "error": {
+      "title": "فشل النقل",
+      "tryAgain": "إعادة المحاولة"
+    },
+    "errors": {
+      "noV1Account": "تعذّر الوصول إلى مفاتيح المحفظة القديمة.",
+      "noDestination": "محفظتك الجديدة لا تملك عنوان استقبال بعد. انتظر حتى تُحمّل صفحة المحفظة ثم حاول مرة أخرى.",
+      "noBlockbook": "مفهرس Blockbook غير مُهيّأ. لا يستطيع النقل مسح عناوينك القديمة.",
+      "noFunds": "لم يُعثر على أموال قابلة للإنفاق في العناوين القديمة.",
+      "sweepGeneric": "فشل النقل. يرجى المحاولة مرة أخرى."
+    },
+    "toast": {
+      "successTitle": "اكتمل النقل",
+      "successDesc": "تم نقل {{sats}} ساتوشي إلى محفظتك الجديدة."
+    }
+  },
+  "walletConnect": {
+    "status": "الحالة",
+    "ready": "جاهز",
+    "notFound": "غير موجود",
+    "none": "لا شيء",
+    "add": "إضافة",
+    "active": "نشطة",
+    "connectionLabel": "اتصال NWC",
+    "defaultWalletName": "محفظة Lightning",
+    "setActiveTitle": "تعيينها كنشطة",
+    "removeTitle": "إزالة المحفظة",
+    "helpText": "ثبّت امتداد متصفح WebLN أو وصّل محفظة NWC لإرسال الزابات.",
+    "webln": {
+      "name": "WebLN",
+      "description": "امتداد متصفح"
+    },
+    "nwc": {
+      "name": "Nostr Wallet Connect",
+      "description": "اتصال محفظة عن بُعد",
+      "connectedCount_one": "محفظة واحدة متصلة",
+      "connectedCount_other": "{{count}} محافظ متصلة"
+    },
+    "empty": {
+      "title": "لا توجد محافظ متصلة",
+      "description": "أضف اتصال NWC لتفعيل الزابات الفورية."
+    },
+    "dialog": {
+      "title": "وصل محفظة NWC",
+      "description": "الصق سلسلة الاتصال من محفظتك المتوافقة مع NWC.",
+      "aliasPlaceholder": "اسم المحفظة (اختياري)",
+      "connect": "وصل",
+      "connecting": "جارٍ الوصل..."
+    },
+    "toast": {
+      "uriRequiredTitle": "يجب إدخال رابط الاتصال",
+      "uriRequiredDesc": "يرجى إدخال رابط اتصال NWC صالح.",
+      "activeChangedTitle": "تم تغيير المحفظة النشطة",
+      "activeChangedDesc": "المحفظة المختارة الآن نشطة للزابات."
+    }
+  },
+  "walletSend": {
+    "title": "إرسال البيتكوين",
+    "send": "إرسال البيتكوين",
+    "max": "MAX",
+    "tapAgainToConfirm": "انقر مرة أخرى للتأكيد",
+    "satPerVB": "{{rate}} ساتوشي/vB",
+    "notEnoughBitcoin": "لا يوجد بيتكوين كافٍ",
+    "emptyWallet": "محفظتك فارغة. أضف بيتكوين إليها قبل أن ترسل.",
+    "recipient": {
+      "placeholder": "bc1…, sp1…",
+      "scan": "مسح رمز QR",
+      "sendToOnchain": "الإرسال إلى عنوان بيتكوين",
+      "sendToSilentPayment": "الإرسال إلى عنوان دفع صامت",
+      "bitcoinAddress": "عنوان بيتكوين",
+      "silentPayment": "عنوان دفع صامت",
+      "toLabel": "إلى",
+      "clear": "مسح المستلم",
+      "choosePaymentMethod": "اختر طريقة الدفع للمتابعة"
+    },
+    "feeSpeed": {
+      "fastest": "~10 دقائق",
+      "halfHour": "~30 دقيقة",
+      "hour": "~ساعة",
+      "economy": "~يوم",
+      "custom": "مخصّص"
+    },
+    "fee": {
+      "loading": "جارٍ التحميل…",
+      "unavailable": "غير متاح",
+      "loadFailed": "تعذّر تحميل معدلات الرسوم.",
+      "retry": "إعادة المحاولة",
+      "orCustom": "أو أدخل معدلاً مخصّصاً أدناه.",
+      "loadingTiers": "جارٍ تحميل معدلات الرسوم…",
+      "customPlaceholder": "مثال: 5",
+      "customAriaLabel": "معدل رسوم مخصّص بوحدة sat/vB"
+    },
+    "progress": {
+      "building": "جارٍ بناء المعاملة…",
+      "signing": "جارٍ التوقيع…",
+      "broadcasting": "جارٍ البث…",
+      "sending": "جارٍ الإرسال…"
+    },
+    "errors": {
+      "unavailable": "محفظة HD غير متاحة لنوع تسجيل الدخول هذا.",
+      "enterRecipient": "أدخل عنوان بيتكوين أو عنوان دفع صامت sp1….",
+      "noSpendable": "لا يوجد بيتكوين قابل للإنفاق في هذه المحفظة.",
+      "feesNotLoaded": "لم يتم تحميل معدلات الرسوم.",
+      "enterAmount": "أدخل مبلغاً.",
+      "insufficient": "البيتكوين غير كافٍ لهذا المبلغ + رسوم الشبكة.",
+      "waitingPrice": "في انتظار سعر BTC…",
+      "noneYet": "ليس لديك بيتكوين بعد.",
+      "feesNotLoadedYet": "لم يتم تحميل معدلات الرسوم بعد.",
+      "feeRateTooLow": "أدخل معدل رسوم لا يقل عن 1 sat/vB."
+    },
+    "toast": {
+      "failedTitle": "فشلت المعاملة",
+      "followUpFailedTitle": "تم إرسال الدفعة، لكن نشر الإيصال العام فشل"
+    },
+    "broadcastError": {
+      "feeTooLowTitle": "رسوم الشبكة منخفضة جداً",
+      "feeTooLowBodyWithMin": "شبكة البيتكوين ترفض هذه الرسوم. الحد الأدنى حالياً نحو {{min}} sat/vB.",
+      "feeTooLowBody": "شبكة البيتكوين ترفض هذه الرسوم. اختر مستوى أسرع أو ارفع معدّلك المخصّص.",
+      "rbfTitle": "الاستبدال يتطلب رسوماً أعلى",
+      "rbfBody": "يجب أن تدفع معاملة الاستبدال أكثر من الأصلية. ارفع الرسوم وحاول مجدداً.",
+      "mempoolFullTitle": "شبكة البيتكوين مزدحمة",
+      "mempoolFullBody": "الـ mempool ممتلئ ورسومك غير تنافسية. ارفع الرسوم للمرور.",
+      "networkTitle": "تعذّر الوصول إلى شبكة البيتكوين",
+      "networkBody": "تحقق من اتصالك وحاول مجدداً.",
+      "mempoolConflictTitle": "معاملة متعارضة",
+      "mempoolConflictBody": "أحد المدخلات تم إنفاقه فعلاً أو يجري إنفاقه في معاملة أخرى.",
+      "staleUtxoTitle": "المحفظة غير متزامنة",
+      "staleUtxoBody": "بعض العملات في هذه المحفظة لم تطابق سجل البلوكتشين، فأُوقفت المعاملة قبل بثها. أعادت المحفظة مزامنة ما أمكن — حاول مجدداً.",
+      "tooLongChainTitle": "معاملات غير مؤكدة كثيرة جداً",
+      "tooLongChainBody": "لديك سلسلة طويلة من المعاملات غير المؤكدة. انتظر تأكيد إحداها وحاول مجدداً.",
+      "badInputsTitle": "تم رفض المعاملة",
+      "badInputsBody": "رفضت الشبكة هذه المعاملة. عدّل المبلغ أو المستلم وحاول مجدداً.",
+      "absurdlyHighFeeTitle": "الرسوم مرتفعة بشكل غير معتاد",
+      "absurdlyHighFeeBody": "الرسوم المقدّرة مرتفعة بشكل مريب. أعد تحميل معدلات الرسوم وحاول مجدداً.",
+      "unknownTitle": "فشلت المعاملة",
+      "useHigherFee": "استخدم رسوماً أعلى",
+      "tryAgain": "إعادة المحاولة",
+      "atMaxFeeTier": "أنت بالفعل على المستوى الأسرع."
+    },
+    "scanError": {
+      "title": "تعذّر قراءة رمز QR هذا",
+      "description": "يُتوقّع عنوان بيتكوين، أو عنوان دفع صامت (sp1…)، أو رابط bitcoin:."
+    },
+    "success": {
+      "title": "تم إرسال البيتكوين",
+      "satsAmount": "{{sats}} ساتوشي",
+      "viewTransaction": "عرض المعاملة",
+      "done": "تم"
+    },
+    "titlePublic": "إرسال البيتكوين",
+    "titlePrivate": "إرسال بشكل خاص",
+    "reuse": {
+      "checking": "جارٍ فحص العنوان…",
+      "sendAnyway": "إرسال على أي حال",
+      "acknowledge": "أفهم المخاطرة — إرسال على أي حال",
+      "historyWarning": "هذا العنوان استُخدم بالفعل على السلسلة. إرسال أموالك الخاصة إليه يربطها بسجل معاملاته الحالي ويُلغي خصوصية مدفوعاتك الصامتة. استخدم عنوان دفع صامت (sp1…) بدلاً من ذلك، أو أرسِل على أي حال.",
+      "ownPublicWarning": "هذا عنوان من محفظتك العامة. إرسال أموالك الخاصة إليه يدمج المحفظتين ويربطهما معًا. استخدم عنوان دفع صامت (sp1…) بدلاً من ذلك، أو أرسِل على أي حال."
+    },
+    "ownSilentPaymentBlocked": "هذا عنوان دفع صامت يخصّك أنت. لا يمكنك الإرسال من محفظتك العامة إلى محفظتك الخاصة — فعل ذلك يدمج أموال الدفع الصامت الخاصة بك مع عملات مكشوفة بالفعل على السجل العام، ما يربط محفظتك الخاصة بهوية معروفة ويدمّر خصوصيتها. أرسِل إلى عنوان مختلف بدلاً من ذلك."
+  },
+  "qrScanner": {
+    "title": "مسح رمز QR",
+    "close": "إغلاق",
+    "starting": "جارٍ تشغيل الكاميرا…",
+    "aim": "وجّه الكاميرا نحو رمز QR.",
+    "flashOn": "تشغيل الفلاش",
+    "flashOff": "إيقاف الفلاش",
+    "errors": {
+      "generic": "تعذّر الوصول إلى الكاميرا.",
+      "insecure": "يتطلب الوصول إلى الكاميرا اتصالاً آمناً (HTTPS).",
+      "unsupported": "هذا المتصفح لا يدعم الوصول إلى الكاميرا.",
+      "notFound": "لم يُعثر على أي كاميرا في هذا الجهاز.",
+      "denied": "تم رفض إذن الكاميرا. فعّله من الإعدادات لمسح رموز QR.",
+      "busy": "تطبيق آخر يستخدم الكاميرا. أغلقه وحاول مجدداً.",
+      "overconstrained": "كاميرا هذا الجهاز لا تدعم الإعدادات المطلوبة.",
+      "didntStart": "لم تبدأ الكاميرا. ربما يستخدمها تطبيق آخر، أو ربما حظر متصفحك الماسح."
+    }
+  },
+  "spScan": {
+    "title": "تحقق من المدفوعات الجديدة",
+    "subtitle": "افحص سلسلة الكتل بحثًا عن المدفوعات الخاصة",
+    "descriptionHelp": "مزيد من المعلومات",
+    "description": "يتنقل عبر مفهرس BIP-352 المُهيّأ كتلة بكتلة لاكتشاف المدفوعات الصامتة الواردة.",
+    "since": "منذ",
+    "preset": {
+      "lastHour": "آخر ساعة",
+      "last3h": "آخر 3 ساعات",
+      "last24h": "آخر 24 ساعة",
+      "lastWeek": "الأسبوع الماضي",
+      "lastMonth": "الشهر الماضي",
+      "custom": "مخصّص…"
+    },
+    "customHours": "ساعات",
+    "customHoursPlaceholder": "مثال: 12",
+    "advanced": "متقدّم",
+    "connectingIndexer": "جارٍ الاتصال بالمفهرس…",
+    "upToDate": "أنت محدَّث بالفعل.",
+    "fromBlock": "من الكتلة",
+    "indexerTip": "قمّة المفهرس",
+    "lastFullyScanned": "آخر فحص كامل",
+    "never": "لم يحدث",
+    "includeSpent": "تضمين المدفوعة سابقاً",
+    "includeSpentDesc": "اكتشاف المدفوعات الصامتة التي تم إنفاقها لاحقاً أيضاً. استخدمه عند إعادة بناء سجل الاستقبال بعد فحص فائت أو إعادة ضبط.",
+    "blockProgress": "الكتلة {{current}} / {{to}}",
+    "matches_one": "تطابق واحد",
+    "matches_other": "{{count}} تطابقات",
+    "scannedRange": "تم فحص الكتل {{from}} → {{to}}.",
+    "foundOutputs_one": "تم العثور على مخرج جديد واحد.",
+    "foundOutputs_other": "تم العثور على {{count}} مخرجات جديدة.",
+    "noNewPayments": "لا توجد مدفوعات جديدة.",
+    "startScan": "بدء الفحص",
+    "resolveFailed": {
+      "title": "تعذّر العثور على كتلة البداية",
+      "description": "mempool.space غير متاح حالياً. أدخل كتلة بداية ضمن متقدّم → من الكتلة للفحص على أي حال."
+    },
+    "reconcile": {
+      "title": "مطابقة UTXOات المنفقة",
+      "description": "يتحقق من كل UTXO من المدفوعات الصامتة المخزّنة مقارنةً بـBlockbook ويزيل تلك التي تم إنفاقها. استخدم هذا إذا كان الرصيد أعلى مما يجب بعد عملية إرسال.",
+      "checking": "جارٍ التحقق من {{checked}} / {{total}}…",
+      "checked_one": "تم فحص UTXO واحد · تم تقليم {{pruned}}.",
+      "checked_other": "تم فحص {{count}} UTXOات · تم تقليم {{pruned}}.",
+      "reconciling": "جارٍ المطابقة…",
+      "reconcileNow": "مطابقة الآن"
+    },
+    "autoScan": {
+      "label": "الفحص تلقائياً",
+      "description": "استمر في التحقق من المدفوعات الخاصة الجديدة في الخلفية، حتى عند مغادرة هذه الصفحة."
+    }
+  },
+  "spAutoScan": {
+    "scanning": "جارٍ الفحص… الكتلة {{current}} / {{to}}",
+    "caughtUp": "محدَّث",
+    "neverScanned": "لم يُفحص بعد",
+    "lastScanned": "تم الفحص حتى الكتلة {{height}}",
+    "paused": "الفحص التلقائي متوقف",
+    "manualLink": "خيارات الفحص"
+  },
+  "notifications": {
+    "seoTitle": "الإشعارات",
+    "seoDescription": "إشعارات Nostr الخاصة بك",
+    "title": "الإشعارات",
+    "tabs": {
+      "all": "الكل",
+      "mentions": "الإشارات"
+    },
+    "loginPrompt": "سجّل الدخول لرؤية إشعاراتك.",
+    "empty": "لا توجد إشعارات بعد.",
+    "subject": {
+      "twoActors": "<0></0> و<1></1>",
+      "andOthers_one": " وشخص آخر",
+      "andOthers_other": " و{{count}} آخرين"
+    },
+    "actorAvatars": {
+      "moreCount": "+{{count}} المزيد"
+    },
+    "actions": {
+      "reactedToYour": "تفاعل مع {{noun}}ك",
+      "repostedYour": "أعاد نشر {{noun}}ك",
+      "zappedYou": "أرسل لك زاب",
+      "zappedYouWithAmount": "أرسل لك زاب بقيمة {{sats}} ساتوشي",
+      "repliedToYourNote": "ردّ على ملاحظتك",
+      "mentionedYou": "أشار إليك",
+      "repliedToYourComment": "ردّ على تعليقك",
+      "commentedOnYour": "علّق على {{noun}}ك",
+      "sentYouLetter": "أرسل لك رسالة",
+      "highlightedYour": "أبرز {{noun}}ك",
+      "awardedBadge": "منحك شارة",
+      "awardedBadges": "منحك شارات"
+    },
+    "letter": {
+      "viewAll": "عرض جميع الرسائل",
+      "reply": "رد"
+    },
+    "kinds": {
+      "profile": "ملف شخصي",
+      "post": "منشور",
+      "encryptedMessage": "رسالة مشفّرة",
+      "repost": "إعادة نشر",
+      "reaction": "تفاعل",
+      "badgeAward": "منح شارة",
+      "photo": "صورة",
+      "video": "فيديو",
+      "requestToVanish": "طلب اختفاء",
+      "file": "ملف",
+      "poll": "تصويت",
+      "comment": "تعليق",
+      "voiceMessage": "رسالة صوتية",
+      "patch": "باتش",
+      "pullRequest": "طلب دمج",
+      "highlight": "تظليل",
+      "birdDetection": "اكتشاف طيور",
+      "birdex": "Birdex",
+      "colorMoment": "لحظة لونية",
+      "foundLog": "سجل وجد",
+      "nsite": "nsite",
+      "profileBadges": "شارات الملف",
+      "badge": "شارة",
+      "article": "مقال",
+      "emojiPack": "حزمة رموز",
+      "podcastEpisode": "حلقة بودكاست",
+      "podcastTrailer": "مقدمة بودكاست",
+      "zapstoreAsset": "أصل Zapstore",
+      "zapstoreRelease": "إصدار Zapstore",
+      "stream": "بث",
+      "status": "حالة",
+      "repository": "مستودع",
+      "customNip": "NIP مخصص",
+      "calendarEvent": "حدث تقويم",
+      "zapstoreApp": "تطبيق Zapstore",
+      "playlist": "قائمة تشغيل",
+      "divine": "تنبؤ",
+      "community": "مجتمع",
+      "goal": "هدف",
+      "track": "مقطع",
+      "magicDeck": "حزمة Magic",
+      "treasure": "كنز",
+      "constellation": "كوكبة",
+      "followPack": "حزمة متابعة"
+    }
+  },
+  "notifSettings": {
+    "seoTitle": "الإشعارات",
+    "seoDescription": "اضبط تفضيلات إشعاراتك",
+    "title": "الإشعارات",
+    "pushHeading": "إشعارات الدفع",
+    "enablePush": {
+      "label": "تفعيل إشعارات الدفع",
+      "description": "تلقّي إشعارات بشأن النشاط على منشوراتك"
+    },
+    "unsupported": "متصفحك لا يدعم إشعارات الدفع.",
+    "denied": "الإشعارات محظورة. حدّث إعدادات المتصفح للسماح بإشعارات هذا الموقع.",
+    "deliveryMethod": {
+      "heading": "طريقة التسليم",
+      "intro": "اختر كيف تُسلَّم الإشعارات إلى جهازك.",
+      "push": {
+        "label": "دفع",
+        "description": "إشعارات قياسية. بدون رمز دائم في شريط الحالة."
+      },
+      "persistent": {
+        "label": "مستمر",
+        "description": "يستعلم خوادم الترحيل مباشرة في الخلفية بحثاً عن إشعارات جديدة. استخدمه لتسليم موثوق على الأجهزة التي لا تدعم إشعارات الدفع."
+      }
+    },
+    "notifyAbout": {
+      "heading": "أعلِمني بشأن",
+      "filterHeading": "تصفية",
+      "typesHeading": "الأنواع",
+      "onlyFollowing": {
+        "label": "فقط من الأشخاص الذين أتابعهم",
+        "description": "إخفاء الإشعارات من الحسابات التي لا تتابعها"
+      }
+    },
+    "types": {
+      "reactions": {
+        "label": "التفاعلات",
+        "description": "عندما يتفاعل أحدهم مع منشوراتك"
+      },
+      "reposts": {
+        "label": "إعادات النشر",
+        "description": "عندما يعيد أحدهم نشر ملاحظاتك"
+      },
+      "zaps": {
+        "label": "الزابات",
+        "description": "عندما يرسل لك أحدهم زاب عبر Lightning أو على السلسلة"
+      },
+      "mentions": {
+        "label": "الإشارات",
+        "description": "عندما يشير إليك أحدهم في ملاحظة"
+      },
+      "comments": {
+        "label": "التعليقات والردود",
+        "description": "عندما يعلّق أحدهم على منشوراتك أو يردّ عليها"
+      },
+      "badges": {
+        "label": "منح الشارات",
+        "description": "عندما يمنحك أحدهم شارة"
+      },
+      "letters": {
+        "label": "الرسائل",
+        "description": "عندما يرسل لك أحدهم رسالة"
+      },
+      "highlights": {
+        "label": "التظليل",
+        "description": "عندما يظلّل أحدهم محتواك"
+      }
+    },
+    "toast": {
+      "enableFailedTitle": "فشل تفعيل الإشعارات",
+      "enableFailedDesc": "يرجى المحاولة مرة أخرى."
+    }
+  },
+  "search": {
+    "seoTitle": "بحث",
+    "seoDescription": "البحث في Nostr",
+    "title": "بحث",
+    "inputPlaceholder": "بحث",
+    "filtersAria": "مرشحات البحث",
+    "tabs": {
+      "agora": "أغورا",
+      "nostr": "Nostr",
+      "accounts": "المستخدمون"
+    },
+    "filters": {
+      "title": "المرشحات",
+      "reset": "إعادة تعيين",
+      "from": "من",
+      "sort": "الترتيب",
+      "media": "الوسائط",
+      "protocol": "البروتوكول",
+      "language": "اللغة",
+      "kind": "النوع",
+      "kindCustomPlaceholder": "مثال: 1، 30023",
+      "includeReplies": "تضمين الردود",
+      "authorScope": {
+        "anyone": "أي شخص",
+        "follows": "المتابَعون",
+        "people": "أشخاص"
+      },
+      "sortOptions": {
+        "recent": "الأحدث",
+        "hot": "الأكثر تفاعلاً",
+        "trending": "الرائج"
+      },
+      "mediaOptions": {
+        "all": "الكل",
+        "images": "الصور",
+        "videos": "فيديوهات",
+        "shorts": "فيديوهات قصيرة",
+        "none": "بدون وسائط"
+      },
+      "protocolOptions": {
+        "nostr": "Nostr",
+        "mastodon": "Mastodon",
+        "bluesky": "Bluesky"
+      },
+      "langOptions": {
+        "global": "عالمي",
+        "en": "الإنجليزية",
+        "es": "الإسبانية",
+        "fr": "الفرنسية",
+        "de": "الألمانية",
+        "ja": "اليابانية",
+        "zh": "الصينية"
+      }
+    },
+    "chips": {
+      "noReplies": "بدون ردود",
+      "images": "الصور",
+      "videos": "فيديوهات",
+      "shortsAndDivines": "الفيديوهات القصيرة وDivines",
+      "noMedia": "بدون وسائط",
+      "mastodon": "Mastodon",
+      "bluesky": "Bluesky",
+      "hot": "الأكثر تفاعلاً",
+      "trending": "الرائج",
+      "allKinds": "جميع الأنواع",
+      "customKind": "النوع: {{kind}}",
+      "kindNumber": "النوع {{kind}}",
+      "kindsCount_one": "نوع واحد",
+      "kindsCount_other": "{{count}} أنواع",
+      "myFollows": "الذين أتابعهم",
+      "authorsCount_one": "مؤلف واحد",
+      "authorsCount_other": "{{count}} مؤلفين"
+    },
+    "clear": "مسح",
+    "searchLabel": "بحث:",
+    "newPosts_one": "منشور جديد واحد",
+    "newPosts_other": "{{count}} منشورات جديدة",
+    "following": "متابَع",
+    "botAccount": "حساب بوت",
+    "empty": {
+      "posts": "لا توجد نتائج تطابق بحثك.",
+      "postsPrompt": "أدخل استعلام بحث للعثور على محتوى Nostr.",
+      "accounts": "لم يتم العثور على مستخدمين يطابقون بحثك.",
+      "followsPrompt": "ابحث عن أشخاص بالاسم أو بعنوان NIP-05.",
+      "agora": "لم يتم العثور على حملات أو تعهّدات أو مجموعات Agora تطابق بحثك.",
+      "agoraPrompt": "ابحث في حملات وتعهّدات ومجموعات Agora، أو تصفّح الأحدث.",
+      "activeFilters": "المرشحات الفعّالة:",
+      "clearAll": "مسح جميع المرشحات"
+    }
+  },
+  "profile": {
+    "seoDescriptionFallback": "ملف Nostr",
+    "anonymous": "مجهول",
+    "namePlaceholder": "اسمك",
+    "userNotFound": "لم يتم العثور على المستخدم.",
+    "userNotFoundNip05": "لم يتم العثور على المستخدم: {{handle}}",
+    "couldNotResolveNip05": "تعذّر تحليل معرّف NIP-05 هذا.",
+    "tabs": {
+      "overview": "نظرة عامة",
+      "verified": "تم التوثيق",
+      "activity": "النشاط",
+      "campaigns": "الحملات",
+      "groups": "المجموعات",
+      "pledges": "التعهدات"
+    },
+    "header": {
+      "editProfile": "تعديل",
+      "shareFollowLink": "مشاركة رابط المتابعة",
+      "moreOptions": "المزيد من الخيارات",
+      "donate": "تبرّع",
+      "campaignGoal": "الهدف ${{amount}}"
+    },
+    "stats": {
+      "followers": "المتابعون",
+      "following": "المتابَعون",
+      "raised": "تم جمعه",
+      "followersTitle_one": "{{count}} متابع",
+      "followersTitle_other": "{{count}} متابع",
+      "followingTitle": "يتابع {{count}}"
+    },
+    "sections": {
+      "profile": "الملف الشخصي",
+      "campaigns": "الحملات",
+      "latestPledge": "آخر تعهّد",
+      "groups": "المجموعات",
+      "seeAllCampaigns_one": "عرض {{count}} حملة ←",
+      "seeAllCampaigns_other": "عرض جميع الحملات ({{count}}) ←",
+      "viewCampaignsTab": "عرض علامة الحملات ←",
+      "seeAllPledges_one": "عرض {{count}} تعهّد ←",
+      "seeAllPledges_other": "عرض جميع التعهدات ({{count}}) ←",
+      "seeAllGroups": "عرض الكل ({{count}}) ←"
+    },
+    "badges": {
+      "founder": "مؤسّس",
+      "moderator": "مشرف",
+      "mod": "مشرف",
+      "ended": "انتهت",
+      "pledged": "تم التعهّد"
+    },
+    "imageMenu": {
+      "upload": "رفع ملف",
+      "pasteUrl": "لصق الرابط",
+      "remove": "إزالة"
+    },
+    "websitePlaceholder": "https://your-website.com",
+    "moreMenu": {
+      "title": "خيارات الملف الشخصي",
+      "copyPubkey": "نسخ المفتاح العام",
+      "copyLink": "نسخ رابط الملف الشخصي",
+      "addToList": "إضافة إلى قائمة",
+      "shareFollowLink": "مشاركة رابط المتابعة",
+      "profileRecovery": "استرداد الملف الشخصي",
+      "zap": "Zap",
+      "awardBadge": "منح شارة",
+      "writeLetter": "كتابة رسالة",
+      "mute": "كتم @{{name}}",
+      "unmute": "إلغاء كتم @{{name}}",
+      "report": "الإبلاغ عن @{{name}}",
+      "close": "إغلاق"
+    },
+    "toast": {
+      "pubkeyCopied": "تم نسخ المفتاح العام إلى الحافظة",
+      "linkCopied": "تم نسخ رابط الملف الشخصي إلى الحافظة",
+      "muted": "تم كتم @{{name}}",
+      "unmuted": "تم إلغاء كتم @{{name}}",
+      "muteFailed": "فشل كتم المستخدم",
+      "unmuteFailed": "فشل إلغاء الكتم",
+      "followed": "أصبحت تتابع @{{name}}",
+      "unfollowed": "ألغيت متابعة @{{name}}",
+      "followFailed": "فشل تحديث قائمة المتابعة",
+      "btcAddressCopied": "تم نسخ عنوان البيتكوين إلى الحافظة"
+    },
+    "followingModal": {
+      "title": "من يتابعهم {{name}}",
+      "empty": "لا يتابع أحدًا حتى الآن."
+    },
+    "followersModal": {
+      "title": "متابعو {{name}}",
+      "empty": "لا يوجد متابعون."
+    },
+    "bitcoinModal": {
+      "title": "بيتكوين",
+      "qrAlt": "رمز QR للبيتكوين",
+      "copyAddress": "نسخ العنوان",
+      "showQr": "إظهار رمز QR",
+      "viewOnMempool": "عرض على mempool.space"
+    },
+    "lightbox": {
+      "openOriginal": "فتح الأصلية",
+      "close": "إغلاق (Esc)",
+      "imageAlt": "صورة الملف الشخصي"
+    },
+    "activity": {
+      "empty": "لا توجد نشاطات من {{name}} حتى الآن. ستظهر هنا المنشورات والحملات والتعهدات والتبرعات."
+    },
+    "campaigns": {
+      "count_one": "{{count}} حملة",
+      "count_other": "{{count}} حملة",
+      "sortNew": "الأحدث",
+      "sortTop": "الأكثر",
+      "showHidden": "عرض المخفية",
+      "hideHidden": "إخفاء المخفية",
+      "emptySelf": "لم تطلق أي حملة بعد.",
+      "emptyOther": "لم يطلق {{name}} أي حملة بعد.",
+      "startLink": "ابدأ حملة ←"
+    },
+    "verified": {
+      "count_one": "حملة موثّقة واحدة",
+      "count_other": "{{count}} حملة موثّقة",
+      "empty": "لم يوثّق {{name}} أي حملة بعد."
+    },
+    "pledgesTab": {
+      "active": "نشطة",
+      "ended": "منتهية",
+      "emptySelf": "لم تنشئ تعهّدًا بعد.",
+      "emptyOther": "لم ينشئ {{name}} تعهّدًا بعد.",
+      "createLink": "أنشئ تعهّدًا ←"
+    },
+    "groupsDialog": {
+      "title": "كل المجموعات"
+    }
+  },
+  "profileSettings": {
+    "seoTitle": "الملف الشخصي | الإعدادات",
+    "seoDescription": "حرّر ملفك الشخصي على {{appName}}",
+    "header": {
+      "title": "الملف الشخصي",
+      "save": "حفظ"
+    },
+    "uploading": "جارٍ الرفع…",
+    "fields": {
+      "heading": "حقول الملف الشخصي",
+      "website": "الموقع الإلكتروني",
+      "websitePlaceholder": "https://yourwebsite.com",
+      "lightning": "Lightning",
+      "lightningPlaceholder": "you@walletofsatoshi.com",
+      "labelPlaceholder": "التسمية",
+      "tickerPlaceholder": "الرمز",
+      "addressPlaceholder": "العنوان",
+      "valuePlaceholder": "القيمة أو الرابط",
+      "mediaPlaceholder": "ارفع ملفًا أو الصق رابطًا مباشرًا للملف",
+      "chooseFile": "اختر ملفًا للرفع",
+      "chooseMediaFile": "اختر ملف وسائط للرفع"
+    },
+    "presets": {
+      "music": {
+        "label": "موسيقى",
+        "description": "ارفع أغنية أو مقطعًا صوتيًا",
+        "valuePlaceholder": "ارفع صوتًا أو الصق رابطًا مباشرًا للملف"
+      },
+      "photo": {
+        "label": "صورة",
+        "description": "ارفع صورة",
+        "valuePlaceholder": "ارفع صورة أو الصق رابطًا مباشرًا للملف"
+      },
+      "video": {
+        "label": "فيديو",
+        "description": "ارفع مقطع فيديو",
+        "valuePlaceholder": "ارفع فيديو أو الصق رابطًا مباشرًا للملف"
+      },
+      "email": {
+        "label": "البريد الإلكتروني",
+        "defaultLabel": "البريد الإلكتروني",
+        "description": "عنوان البريد الإلكتروني للتواصل",
+        "valuePlaceholder": "you@example.com"
+      },
+      "wallet": {
+        "label": "محفظة",
+        "description": "عنوان محفظة عملات مشفّرة",
+        "valuePlaceholder": "العنوان"
+      },
+      "link": {
+        "label": "رابط",
+        "description": "رابط لأي موقع أو ملف شخصي",
+        "valuePlaceholder": "https://..."
+      },
+      "weather": {
+        "label": "الطقس",
+        "defaultLabel": "الطقس",
+        "description": "ربط محطة طقس Nostr",
+        "valuePlaceholder": "npub1... أو naddr1... (#station-id اختياري)"
+      },
+      "custom": {
+        "label": "مخصّص",
+        "description": "أنشئ أي حقل مخصّص",
+        "valuePlaceholder": "القيمة أو الرابط"
+      }
+    },
+    "warnings": {
+      "audioWrongType": "هذا الرابط لا يشير إلى ملف صوتي. ارفع ملفًا صوتيًا أو استخدم رابطًا مباشرًا ينتهي بـ .mp3 أو .ogg أو .wav إلخ.",
+      "audioUnknown": "قد لا يعمل هذا الرابط كمشغّل صوت. للحصول على أفضل النتائج، ارفع ملفًا باستخدام الزر أو الصق رابطًا مباشرًا لملف صوتي.",
+      "imageWrongType": "هذا الرابط لا يشير إلى صورة. ارفع صورة أو استخدم رابطًا مباشرًا ينتهي بـ .jpg أو .png أو .webp إلخ.",
+      "imageUnknown": "قد لا يُعرض هذا الرابط كصورة. للحصول على أفضل النتائج، ارفع ملفًا باستخدام الزر أو الصق رابطًا مباشرًا لملف صورة.",
+      "videoWrongType": "هذا الرابط لا يشير إلى فيديو. ارفع فيديو أو استخدم رابطًا مباشرًا ينتهي بـ .mp4 أو .webm أو .mov إلخ.",
+      "videoUnknown": "قد لا يُعرض هذا الرابط كفيديو. للحصول على أفضل النتائج، ارفع ملفًا باستخدام الزر أو الصق رابطًا مباشرًا لملف فيديو."
+    },
+    "crop": {
+      "profile": "قص الصورة الرمزية",
+      "banner": "قص الغلاف"
+    },
+    "mobilePreview": "معاينة حقول الملف الشخصي",
+    "advanced": {
+      "heading": "إعدادات متقدمة",
+      "botLabel": "حساب بوت",
+      "botDescription": "حدّد هذا الحساب كحساب مؤتمت"
+    },
+    "toast": {
+      "uploaded": "تم الرفع",
+      "mediaUploaded": "تم رفع ملف الوسائط",
+      "uploadFailed": "فشل الرفع",
+      "tryAgain": "يرجى المحاولة مرة أخرى.",
+      "profilePictureUpdated": "تم تحديث الصورة الرمزية",
+      "bannerUpdated": "تم تحديث الغلاف",
+      "profileSaved": "تم حفظ الملف الشخصي",
+      "saveFailed": "فشل حفظ الملف الشخصي."
+    },
+    "key": {
+      "heading": "مفتاحك",
+      "extensionBody": "أنت مسجّل الدخول عبر إضافة متصفح (NIP-07). يُحفظ مفتاحك السري هناك — يمكنك إدارته أو تصديره من الإضافة نفسها.",
+      "bunkerBody": "أنت مسجّل الدخول عبر موقّع عن بُعد (NIP-46). يحتفظ ذلك الموقّع بمفتاحك السري ولا يمكن تصديره من {{appName}}.",
+      "explainer": "يتحكم هذا المفتاح السري في حسابك على {{appName}} وهو البذرة التي تُشتقّ منها محفظة Bitcoin الخاصة بك. أي شخص يحصل عليه يستطيع النشر باسمك وإنفاق عملات Bitcoin الخاصة بك. احفظه في مدير كلمات السر أو في مكان لا يستطيع الوصول إليه سواك. إذا أردت استيراد محفظة Bitcoin إلى تطبيق آخر، فاستخدم عبارة البذرة الموجودة أدناه — مشاركتها أكثر أماناً، فهي تتحكم بالمحفظة فقط ولا يمكن استخدامها لانتحال شخصيتك.",
+      "warning": "لا تشارك مفتاحك السري أبدًا مع أي شخص. تجنّب التقاط لقطات شاشة له أو لصقه في أي مكان غير مدير كلمات السر. إذا تمت مشاركته، سيتمكن الآخرون من الوصول إلى حسابك.",
+      "aria": "مفتاحك السري",
+      "copyAria": "نسخ المفتاح السري",
+      "revealAria": "إظهار المفتاح السري",
+      "hideAria": "إخفاء المفتاح السري",
+      "backupButton": "النسخ الاحتياطي للمفتاح",
+      "saving": "جارٍ الحفظ…",
+      "saved": "تم حفظ المفتاح السري",
+      "savedToFile": "تم حفظ مفتاحك السري في مجلد المستندات على جهازك.",
+      "saveFailed": "فشل الحفظ",
+      "saveFailedDescription": "تعذّر حفظ المفتاح. يرجى نسخه يدويًا.",
+      "copyFailed": "فشل النسخ",
+      "copyFailedDescription": "تعذّر الوصول إلى الحافظة. أظهر المفتاح وانسخه يدويًا."
+    }
+  },
+  "compose": {
+    "placeholderDefault": "ماذا يحدث؟",
+    "placeholderPoll": "اطرح سؤالاً…",
+    "placeholderCountry": "ماذا يحدث في {{country}}؟",
+    "placeholderCwReason": "سبب التحذير (اختياري)",
+    "submitDefault": "انشر!",
+    "preview": {
+      "edit": "تحرير",
+      "previewMode": "معاينة"
+    },
+    "autocomplete": {
+      "campaignFallback": "حملة"
+    },
+    "poll": {
+      "addOption": "إضافة خيار",
+      "optionLabel": "الخيار {{number}}",
+      "singleChoice": "اختيار واحد",
+      "multipleChoice": "اختيارات متعددة",
+      "backToPost": "العودة إلى المنشور",
+      "publishing": "جارٍ النشر...",
+      "publish": "نشر التصويت",
+      "published": "تم نشر التصويت!",
+      "publishFailed": "فشل نشر التصويت."
+    },
+    "voice": {
+      "cancel": "إلغاء",
+      "send": "إرسال",
+      "sending": "جارٍ الإرسال...",
+      "sentTitle": "تم إرسال الرسالة الصوتية!",
+      "sentBody": "تم نشر رسالتك الصوتية.",
+      "sendFailed": "فشل إرسال الرسالة الصوتية.",
+      "micDeniedTitle": "تم رفض الوصول إلى الميكروفون",
+      "micDeniedBody": "يرجى السماح بالوصول إلى الميكروفون لتسجيل الرسائل الصوتية.",
+      "voiceMessage": "رسالة صوتية"
+    },
+    "toolbar": {
+      "attachFile": "إرفاق ملف",
+      "emojiGif": "إيموجي / GIF",
+      "more": "المزيد",
+      "poll": "تصويت",
+      "spoiler": "حرق أحداث",
+      "emoji": "إيموجي",
+      "stickers": "ملصقات"
+    },
+    "submit": {
+      "posting": "جارٍ النشر...",
+      "uploadFailed": "فشل الرفع",
+      "uploadFailedBody": "تعذّر رفع الملف.",
+      "publishFailed": "فشل نشر الملاحظة.",
+      "posted": "تم النشر!",
+      "replyPublished": "تم نشر ردك.",
+      "quotePublished": "تم نشر اقتباسك.",
+      "notePublished": "تم نشر ملاحظتك."
+    },
+    "destination": {
+      "label": "النشر إلى",
+      "ariaHelp": "ما الفرق بين المنشورات العالمية ومنشورات المجتمع؟",
+      "ariaTrigger": "وجهة النشر",
+      "global": "عالمي",
+      "globalExplainer": "منشور عادي يراه الجميع على Nostr. يمكن لأي شخص في أي مكان رؤيته.",
+      "community": "مجتمع بلدك",
+      "communityExplainer": "يظهر في الخلاصة المحلية لذلك البلد مع منشورات الجيران. الأنسب للتحديثات المرتبطة بالمجتمع.",
+      "chooseAnother": "اختيار بلد آخر…",
+      "searchPlaceholder": "ابحث عن دول...",
+      "noResults": "لم يتم العثور على دول.",
+      "isDefault": "{{name}} هي وجهتك الافتراضية",
+      "globalIsDefault": "عالمي هو وجهتك الافتراضية",
+      "thisIsDefault": "هذه هي وجهتك الافتراضية",
+      "setAsDefault": "تعيين كافتراضي",
+      "defaultUpdated": "تم تحديث الافتراضي",
+      "defaultUpdatedCountry": "ستذهب المنشورات الجديدة إلى {{name}} افتراضيًا.",
+      "defaultUpdatedGlobal": "ستكون المنشورات الجديدة عالمية افتراضيًا."
+    }
+  },
+  "replyModal": {
+    "title": {
+      "newPoll": "تصويت جديد",
+      "newComment": "تعليق جديد",
+      "commentOnProfile": "التعليق على الملف الشخصي",
+      "replyToPost": "الرد على المنشور",
+      "quotePost": "اقتباس المنشور",
+      "newPost": "منشور جديد"
+    },
+    "placeholder": {
+      "writeComment": "اكتب تعليقًا...",
+      "writeReply": "اكتب ردًا...",
+      "addComment": "أضف تعليقًا...",
+      "whatsHappening": "ماذا يحدث؟"
+    },
+    "blueskyDisclaimer": "الأشخاص على Bluesky لا يمكنهم رؤيتك لأنهم في الواقع غير لامركزيين."
+  },
+  "postDetail": {
+    "repliesHeading": "الردود",
+    "commentsHeading": "التعليقات",
+    "replyCount_one": "رد",
+    "replyCount_other": "ردود",
+    "commentCount_one": "تعليق",
+    "commentCount_other": "تعليقات"
+  },
+  "noteCard": {
+    "botAccount": "حساب بوت",
+    "showLess": "عرض أقل",
+    "readMore": "اقرأ المزيد",
+    "reacted": "تفاعل",
+    "reposted": "أعاد نشر",
+    "voted": "صوّت",
+    "zap": {
+      "donatedTo": "تبرّع لـ",
+      "donatedAmountTo": "تبرّع بـ{{amount}} لـ",
+      "sat_one": "{{formattedCount}} ساتوشي",
+      "sat_other": "{{formattedCount}} ساتوشي"
+    },
+    "stream": {
+      "untitled": "بث بدون عنوان",
+      "live": "مباشر",
+      "ended": "انتهى",
+      "planned": "مخطط",
+      "unknown": "غير معروف"
+    },
+    "kindHeader": {
+      "photo": {
+        "action": "شارك",
+        "noun": "صورة"
+      },
+      "encryptedMessage": {
+        "action": "أرسل",
+        "noun": "رسالة مشفّرة"
+      },
+      "letter": {
+        "action": "أرسل",
+        "noun": "رسالة"
+      },
+      "treasureHidCreated": "أخفى",
+      "treasureHidUpdated": "حدّث",
+      "treasureNoun": "كنزًا",
+      "treasureFound": "وجد",
+      "deckCreated": "أنشأ",
+      "deckUpdated": "حدّث",
+      "deckFallback": "شارك",
+      "deckNoun": "مجموعة",
+      "emojiPackCreated": "أنشأ",
+      "emojiPackUpdated": "حدّث",
+      "emojiPackFallback": "شارك",
+      "emojiPackNoun": "حزمة إيموجي",
+      "groupCreated": "أنشأ",
+      "groupUpdated": "حدّث",
+      "groupFallback": "شارك",
+      "groupNoun": "مجموعة",
+      "campaignLaunched": "أطلق",
+      "campaignUpdated": "حدّث",
+      "campaignFallback": "شارك",
+      "campaignNoun": "حملة",
+      "badgeAwarded": "منح",
+      "badgeNoun": "شارة",
+      "badgeCreated": "أنشأ",
+      "badgeDefUpdated": "حدّث",
+      "badgesNoun": "شاراته",
+      "badgesCreatedTheir": "أنشأ",
+      "badgesUpdatedTheir": "حدّث",
+      "streamingLive": "يبث الآن",
+      "streamed": "بث",
+      "zapstoreAppPublished": "نشر تطبيق Zapstore",
+      "zapstoreAppUpdated": "حدّث تطبيق Zapstore",
+      "zapstoreReleasePublished": "نشر إصدار Zapstore",
+      "zapstoreReleaseUpdated": "حدّث إصدار Zapstore",
+      "zapstoreAssetPublished": "نشر مورد Zapstore",
+      "appPublished": "نشر تطبيقًا",
+      "appUpdated": "حدّث تطبيقًا",
+      "repoCreated": "أنشأ",
+      "repoUpdated": "حدّث",
+      "repoFallback": "شارك",
+      "repoNoun": "مستودعًا",
+      "patchSubmitted": "قدّم",
+      "patchNoun": "تصحيحًا",
+      "prOpened": "فتح",
+      "prNoun": "طلب سحب",
+      "nipProposed": "اقترح",
+      "nipUpdated": "حدّث",
+      "nipNoun": "NIP",
+      "nsiteDeployed": "نشر",
+      "nsiteRedeployed": "أعاد نشر",
+      "nsiteNoun": "nsite",
+      "zapped": "أرسل zap",
+      "pledgeCreated": "أنشأ",
+      "pledgeUpdated": "حدّث",
+      "pledgeNoun": "تعهدًا",
+      "followPackCreated": "أنشأ",
+      "followPackUpdated": "حدّث",
+      "followPackFallback": "شارك",
+      "followPackNoun": "حزمة متابعة",
+      "followSetCreated": "أنشأ",
+      "followSetUpdated": "حدّث",
+      "followSetFallback": "شارك",
+      "followSetNoun": "مجموعة متابعة"
+    }
+  },
+  "embedCampaign": {
+    "iframeTitle": "حملة تبرعات Agora",
+    "notFound": "الحملة غير موجودة.",
+    "dialogTitle": "تضمين هذه الحملة",
+    "dialogDescription": "اختر عنصر واجهة، وعاينه، ثم الصق الكود في موقعك.",
+    "variantLabel": "عنصر الواجهة",
+    "variant": {
+      "card": "بطاقة",
+      "donate": "تبرّع",
+      "full": "كامل"
+    },
+    "themeLabel": "المظهر",
+    "snippetLabel": "كود التضمين",
+    "openStandalone": "فتح في تبويب جديد",
+    "viewOnAgora": "عرض على Agora"
+  },
+  "noteMoreMenu": {
+    "title": "خيارات المنشور",
+    "viewPost": "عرض تفاصيل المنشور",
+    "embedWidget": "تضمين عنصر واجهة",
+    "viewEventJson": "عرض JSON الحدث",
+    "bookmark": "إشارة مرجعية",
+    "removeBookmark": "إزالة الإشارة المرجعية",
+    "addToList": "إضافة إلى قائمة",
+    "addToSidebar": "إضافة إلى الشريط الجانبي",
+    "removeFromSidebar": "إزالة من الشريط الجانبي",
+    "pinProfile": "تثبيت في الملف الشخصي",
+    "unpinProfile": "إلغاء تثبيت من الملف الشخصي",
+    "pinCountry": "تثبيت في خلاصة البلد",
+    "unpinCountry": "إلغاء تثبيت من خلاصة البلد",
+    "mute": "كتم @{{name}}",
+    "unmute": "إلغاء كتم @{{name}}",
+    "report": "الإبلاغ عن @{{name}}",
+    "reportToGroup": "الإبلاغ عن المنشور للمجموعة",
+    "removeFromGroup": "إزالة من المجموعة",
+    "delete": "حذف المنشور",
+    "close": "إغلاق",
+    "encryptedContent": "محتوى مشفّر",
+    "toast": {
+      "removedFromSidebar": "تم الحذف من الشريط الجانبي",
+      "addedToSidebar": "تمت الإضافة إلى الشريط الجانبي",
+      "pinned": "تم التثبيت في الملف الشخصي",
+      "unpinned": "تم إلغاء التثبيت من الملف الشخصي",
+      "pinFailed": "فشل تحديث المنشورات المثبتة",
+      "countryPinned": "تم التثبيت في خلاصة البلد",
+      "countryUnpinned": "تم إلغاء التثبيت من خلاصة البلد",
+      "countryPinFailed": "فشل التثبيت في خلاصة البلد",
+      "countryUnpinFailed": "فشل إلغاء التثبيت من خلاصة البلد",
+      "muted": "تم كتم @{{name}}",
+      "unmuted": "تم إلغاء كتم @{{name}}",
+      "muteFailed": "فشل كتم المستخدم",
+      "unmuteFailed": "فشل إلغاء الكتم",
+      "postDeleted": "تم حذف المنشور",
+      "deleteFailed": "فشل حذف المنشور",
+      "eventBroadcast": "تم بث الحدث إلى الـrelays",
+      "broadcastFailed": "فشل بث الحدث",
+      "copied": "تم نسخ {{label}} إلى الحافظة",
+      "embedCopied": "تم نسخ كود التضمين إلى الحافظة"
+    },
+    "deleteDialog": {
+      "title": "حذف المنشور؟",
+      "description": "سيطلب هذا الحذف من الـrelays. قد تحتفظ بعض الـrelays بنسخة من الحدث الأصلي. لا يمكن التراجع عن هذا الإجراء.",
+      "cancel": "إلغاء",
+      "delete": "حذف",
+      "deleting": "جارٍ الحذف..."
+    },
+    "jsonDialog": {
+      "title": "تفاصيل الحدث",
+      "eventId": "معرّف الحدث",
+      "eventIdLabel": "معرّف الحدث",
+      "rawJson": "JSON الخام",
+      "eventJsonLabel": "JSON الحدث",
+      "broadcast": "بث الحدث",
+      "broadcasting": "جارٍ البث..."
+    }
+  },
+  "content": {
+    "title": "المحتوى",
+    "description": "إدارة المستخدمين والوسوم والكلمات المكتومة.",
+    "muted": {
+      "heading": "المحتوى المكتوم",
+      "subheading": "أنت من يقرر ما يظهر في خلاصاتك. أزل عنصرًا لإلغاء كتمه. عمليات الكتم مشفّرة وخاصة.",
+      "empty": "لم تكتم أحدًا بعد.",
+      "removed": "تمت الإزالة من قائمة الكتم",
+      "removeFailed": "فشل الإزالة من قائمة الكتم",
+      "removeAria": "إلغاء الكتم عن {{value}}",
+      "types": {
+        "pubkey": "المستخدمون",
+        "hashtag": "الوسوم",
+        "word": "الكلمات",
+        "thread": "المحادثات"
+      }
+    }
+  },
+  "mutedGuard": {
+    "title": "المحتوى المكتوم",
+    "description": "هذا المنشور من شخص قمت بكتمه.",
+    "showAnyway": "عرض على أي حال",
+    "manageMutes": "إدارة المحتوى المكتوم"
+  },
+  "policyPages": {
+    "privacy": {
+      "seoTitle": "سياسة الخصوصية",
+      "seoDescription": "سياسة الخصوصية لـ {{appName}} — كيفية التعامل مع بياناتك على شبكة Nostr",
+      "title": "سياسة الخصوصية"
+    },
+    "csae": {
+      "seoTitle": "سياسة سلامة الأطفال",
+      "seoDescription": "سياسة {{appName}} بشأن الاعتداء الجنسي على الأطفال واستغلالهم (CSAE) — التزامنا بسلامة الأطفال على شبكة Nostr",
+      "title": "سياسة سلامة الأطفال"
+    },
+    "donorGuide": {
+      "seoTitle": "دليل المتبرّع",
+      "seoDescription": "كيف يعمل التبرّع على {{appName}} وكيف تحمي خصوصيتك.",
+      "title": "دليل المتبرّع",
+      "subtitle": "بيتكوين حقيقي، يُرسل مباشرة. كل الخطوات في صفحة قصيرة واحدة."
+    },
+    "recipientGuide": {
+      "seoTitle": "دليل المستفيد",
+      "seoDescription": "كيف تتلقى التبرعات على {{appName}} وتسحبها بسرية.",
+      "title": "دليل المستفيد",
+      "subtitle": "اختر ما تقبله، استلم التبرعات، اسحبها."
+    },
+    "changelog": {
+      "seoTitle": "سجل التغييرات",
+      "seoDescription": "ما الجديد في {{appName}}",
+      "title": "سجل التغييرات",
+      "loadError": "تعذّر تحميل سجل التغييرات.",
+      "empty": "لا توجد إصدارات بعد.",
+      "pastReleases": "إصدارات سابقة",
+      "showLess": "عرض أقل",
+      "readMore": "اقرأ المزيد",
+      "preReleaseLabel": "بناء ما قبل الإصدار",
+      "preReleaseBody": "يحتوي هذا البناء على تغييرات لم تُضمَّن بعد في إصدار رسمي.",
+      "viewUnreleased": "عرض التغييرات غير المُصدَرة",
+      "categories": {
+        "Added": "أُضيف",
+        "Changed": "تم تغييره",
+        "Deprecated": "مهجور",
+        "Removed": "أُزيل",
+        "Fixed": "أُصلح",
+        "Security": "أمان"
+      }
+    }
+  },
+  "about": {
+    "seoTitle": "حول",
+    "seoDescription": "{{appName}} هو أول شبكة عابرة للحدود للعطاء الخيري الصغير في العالم — عطاء مباشر من شخص إلى شخص مدعوم بالبتكوين وNostr.",
+    "hero": {
+      "eyebrow": "حول {{appName}}",
+      "headlinePart1": "كيف",
+      "headlineAppName": "{{appName}}",
+      "headlinePart2": "يعمل.",
+      "body": "{{appName}} هو أول شبكة عابرة للحدود للعطاء الخيري الصغير في العالم. يتيح لأي شخص، في أي مكان، أن يعطي مباشرةً للأشخاص والقضايا في أي مكان حول العالم بالبتكوين — دون حدود، دون وسطاء، دون رسوم منصة. لا حسابات مصرفية مجمَّدة، ولا إغلاقات شركاتية. فقط دعم مباشر من أناس يؤمنون بقضيتك.",
+      "trustChips": {
+        "decentralized": "لامركزي",
+        "openSource": "مفتوح المصدر",
+        "censorshipResistant": "مقاوم للرقابة"
+      },
+      "ctaDonor": "اقرأ دليل المتبرّع",
+      "ctaRecipient": "اقرأ دليل المستفيد",
+      "sampleCard": {
+        "countryName": "فنزويلا",
+        "public": "علني",
+        "imageAlt": "فنزويليون في سهرة بالشموع يحملون لافتة كُتب عليها 'Liberen a todos los presos políticos · ¡Cese la represión!'",
+        "orgName": "Venezolanos Libres",
+        "title": "حرّروا السجناء السياسيين في فنزويلا",
+        "description": "دفاع قانوني ودعم عائلي لأكثر من 800 سجين سياسي اعتقلهم نظام مادورو.",
+        "raised": "تم جمعه",
+        "ofGoal": "من 10,000$",
+        "donorsLine": "247 متبرعًا · 12 دولة",
+        "donate": "تبرّع ببيتكوين"
+      }
+    },
+    "howItWorks": {
+      "eyebrow": "كيف يعمل",
+      "title": "ثلاث خطوات. بلا وسيط.",
+      "lede": "لا بنوك، لا حدود، لا إذن.",
+      "step1": {
+        "imageAlt": "مفتاح تشفير برتقالي متوهج يطفو في فضاء مظلم، يرمز إلى الهوية السيادية الذاتية",
+        "title": "يسجّل المستفيدون في ثوانٍ.",
+        "body": "لا بنك. لا أوراق. لا موافقة. في اللحظة التي ينشئ فيها مستفيد حسابًا على {{appName}}، يصبح لديه عنوان بيتكوين جاهز لاستقبال الدعم من أي مكان في العالم."
+      },
+      "step2": {
+        "imageAlt": "عملة بيتكوين متوهجة تطير عبر خريطة عالمية مظلمة، ترمز إلى الدفع الفوري عبر الحدود",
+        "title": "يرسل المتبرعون بيتكوين مباشرة.",
+        "body": "يرسل المتبرعون بيتكوين من أي محفظة يستخدمونها بالفعل (Cash App, Coinbase, Strike, محفظة عتادية) مباشرة إلى المستفيد. لا تلمس {{appName}} المال أبدًا. لا خادم وسيط، لا حافظ."
+      },
+      "step3": {
+        "imageAlt": "يد مفتوحة يشع منها ضوء برتقالي دافئ، ترمز إلى الاستلام والقدرة على الفعل",
+        "title": "يصل الدعم إلى حيث يهم.",
+        "body": "تصل الأموال إلى المستفيد مباشرة. يحتفظ بها هو، ويحتفظ بالسيطرة عليها. حركها، أو بدّلها، أو أنفقها؛ توضح الأدلة أدناه كيف يتم ذلك بسرية وأمان."
+      }
+    },
+    "twoWays": {
+      "eyebrow": "بيتكوين · رمز QR واحد، خياران",
+      "title": "طريقتان للحصول على المدفوعات.",
+      "lede": "كلا الخيارين بيتكوين. الفرق هو ما تقايضه مقابل الخصوصية. عندما ينشئ مستفيد حملة، يختار أي الخيارات يقبل. إذا قبل الاثنين، تعرض صفحة التبرع رمز QR واحدًا يعمل مع أي محفظة.",
+      "public": {
+        "kicker": "مدفوعات بيتكوين العلنية",
+        "tagline": "شامل · سريع · شفاف",
+        "title": "يعمل مع كل محفظة على وجه الأرض.",
+        "description": "تصل التبرعات إلى عنوان بيتكوين عادي يتحكم فيه المستفيد. يستطيع أي شخص يملك أي محفظة بيتكوين الإرسال. لا تطبيق جديد، لا حساب جديد، لا منحنى تعلّم.",
+        "bullet1": "يعمل في كل محفظة بيتكوين: Cash App, Coinbase, Strike, العتاد",
+        "bullet2": "أسرع تسوية: تأكيدات بيتكوين فقط",
+        "bullet3": "قابل للتحقق على السلسلة: يمكن لأي شخص رؤية ما تلقاه المستفيد",
+        "tradeoffTitle": "المقايضة: علني على السلسلة.",
+        "tradeoffIntro": "كل تبرع علني على سلسلة بيتكوين وعلى Nostr. يُنصح بـ{{appName}} فقط للحملات العلنية. إذا تطلبت أنت أو متبرعوك خصوصية قصوى، بما في ذلك من الفاعلين الحكوميين، اقرأ <0>دليل المتبرّع</0> و<1>دليل المستفيد</1> قبل المشاركة."
+      },
+      "silent": {
+        "kicker": "مدفوعات بيتكوين الصامتة",
+        "tagline": "غير قابلة للربط · مباشرة · BIP-352",
+        "title": "غير قابلة للربط، على السلسلة، مباشرة.",
+        "description": "تُرسل التبرعات كمدفوعات صامتة BIP-352. كل واحدة تصل إلى مخرج بيتكوين جديد غير قابل للربط لا يستطيع مراقب يحدّق في السلسلة ربطه بالحملة.",
+        "bullet1": "لا يمكن إعادة بناء أثر التبرعات على السلسلة",
+        "bullet2": "يحمي المستفيدين الذين يواجهون خصومًا جادّين",
+        "bullet3": "تُحفظ في رصيد خاص منفصل، ولا تُخلط أبدًا بالأموال العلنية",
+        "tradeoffTitle": "المقايضة: المدفوعات الصامتة في بداياتها.",
+        "tradeoffIntro": "أكثر الطرق خصوصية لاستلام بيتكوين على السلسلة، لكن النظام البيئي ما زال شابًا وخشنًا اليوم:",
+        "tradeoffBullet1": "قليل من المحافظ تدعمها.",
+        "tradeoffBullet2": "الاستلام بطيء.",
+        "tradeoffBullet3": "لا إشعارات دفع.",
+        "tradeoffBullet4": "المحافظ ما زالت بها أخطاء.",
+        "tradeoffBullet5": "أعداد التبرعات ليست علنية."
+      },
+      "noCustody": {
+        "title": "لا حفظ. لا وسيط.",
+        "body": "لا يحتفظ {{appName}} بالأموال أبدًا. تتحرك التبرعات من محفظة إلى محفظة على بيتكوين. لا خادم يقف بين المتبرع والمستفيد في أي من الخيارين. لو اختفى {{appName}} غدًا، لاستمرت كل حملة في العمل.",
+        "gofundme": {
+          "heading": "بعكس GoFundMe",
+          "body": "لا يمكن لأي منصة تجميد تبرعاتك، أو طلب استرداد، أو إنهاء حملتك بسبب خلافات في السياسة."
+        },
+        "givesendgo": {
+          "heading": "بعكس GiveSendGo",
+          "body": "لا يوجد معالج مدفوعات في المنتصف، فلا Stripe ولا Visa ولا بنك يمكنه قطعك في منتصف الحملة."
+        },
+        "otherBitcoin": {
+          "heading": "بعكس منصات 'بيتكوين' الأخرى",
+          "body": "لا عقدة Lightning مركزية أو حافظ أو LSP قد يفشل أو ينقطع. تُسوّى الأموال مباشرة على السلسلة إلى محفظة تتحكم فيها."
+        }
+      }
+    },
+    "faq": {
+      "eyebrow": "أسئلة",
+      "title": "أسئلة شائعة.",
+      "chapter1": {
+        "label": "البدء",
+        "description": "ما هو Agora ومن بناه وكم يكلف."
+      },
+      "chapter2": {
+        "label": "تبرعات البيتكوين",
+        "description": "كيف تعمل المدفوعات، ولماذا على السلسلة، ولماذا علنية، ولماذا هذه المقايضات."
+      },
+      "chapter3": {
+        "label": "عن Nostr",
+        "description": "البروتوكول المفتوح الذي يُبنى عليه Agora، وكيف يعمل حسابك."
+      },
+      "chapter4": {
+        "label": "التحقق والثقة",
+        "description": "ما معنى شارة التحقق، ومن يمنحها، وكيف تحكم على الحملة بنفسك."
+      }
+    },
+    "guides": {
+      "eyebrow": "الأدلة",
+      "title": "اختر الجانب الذي تقف فيه.",
+      "lede": "سواء كنت تُرسل أو تستلم، تعلّم كيف تفعل ذلك بأمان وسرية.",
+      "donor": {
+        "imageAlt": "محتجون يرتدون أغطية رأس يسيرون في شارع مدينة أوروبية عند الغسق، حاملين شعلات حمراء مشتعلة ولافتات 'FREEDOM' و'LIBERTAD'",
+        "role": "للمتبرعين",
+        "title": "ادعم قضايا لن تدعمها البنوك.",
+        "description": "أرسل بيتكوين مباشرة إلى المستفيدين والحركات في أي مكان في العالم، دون طلب إذن من معالج مدفوعات.",
+        "bullet1": "استخدم أي محفظة بيتكوين تملكها بالفعل.",
+        "bullet2": "تصل التبرعات مباشرة إلى المستفيد. لا حافظ، لا وسيط.",
+        "bullet3": "من أجل الخصوصية، استخدم محفظة تدعم المدفوعات الصامتة.",
+        "cta": "اقرأ دليل المتبرّع"
+      },
+      "recipient": {
+        "imageAlt": "منظر جوي لآلاف المحتجين المتجمعين ليلًا في ساحة مدينة مع شعلات حمراء مشتعلة، تحت لافتة 'UNITY IN DARKNESS' مُسقطة على المباني المحيطة",
+        "role": "للمستفيدين",
+        "title": "احصل على تمويل دون إذن.",
+        "description": "تلقَّ دعمًا مباشرة من أناس يؤمنون بقضيتك. لا حساب مصرفي، لا نموذج طلب، لا شركة في المنتصف.",
+        "bullet1": "ابدأ في تلقي التبرعات فور تسجيلك.",
+        "bullet2": "اختر أنواع الدفع التي تقبلها: علنية، مدفوعات صامتة، أو الاثنتين.",
+        "bullet3": "للسحب الخاص، أرسل أولًا إلى محفظة مدفوعات صامتة ثم أعد التحويل إلى أي مكان.",
+        "cta": "اقرأ دليل المستفيد"
+      },
+      "stillStuck": "ما زلت عالقًا؟",
+      "followTeam": "تابِع Team Soapbox على Nostr",
+      "stillStuckSuffix": ". نُجيب على الأسئلة هناك."
+    }
+  },
+  "faq": {
+    "categories": {
+      "getting-started": {
+        "label": "عن Agora"
+      },
+      "payments": {
+        "label": "التبرعات"
+      },
+      "verification": {
+        "label": "التحقق والثقة"
+      },
+      "about-nostr": {
+        "label": "عن Nostr"
+      },
+      "legacy": {
+        "label": "محتوى قديم"
+      }
+    },
+    "items": {
+      "what-is-ditto": {
+        "question": "ما هو {{appName}}؟",
+        "answer": [
+          "{{appName}} هو أول شبكة عابرة للحدود للعطاء الخيري الصغير في العالم — مكان لإعطاء البتكوين مباشرةً للأشخاص والقضايا في أي مكان حول العالم، علنًا أو خفيةً. دون حدود، دون وسيط، دون مُعالِج دفع، ودون حساب يمكن تجميده.",
+          "{{appName}} مبني فوق Nostr، لذا فإن هويتك ليست مرتبطة بهذا الموقع — أنت تملكها."
+        ]
+      },
+      "cost-to-use": {
+        "question": "هل {{appName}} يكلّف شيئًا؟",
+        "answer": [
+          "**لا.** {{appName}} لا يأخذ أي رسوم منصة. عندما تتبرّع فإنك تدفع فقط رسوم شبكة البيتكوين التي تذهب إلى المعدِّنين — لا إلينا."
+        ]
+      },
+      "who-made-this": {
+        "question": "من صنع {{appName}}؟",
+        "answer": [
+          "{{appName}} مبني بواسطة [Soapbox](https://soapbox.pub)، وهو فريق مفتوح المصدر يبني أدوات لمنظومة Nostr، بالتعاون مع [World Liberty Congress](https://worldlibertycongress.org/)."
+        ]
+      },
+      "send-bitcoin-onchain": {
+        "question": "كيف يعمل إرسال البيتكوين؟",
+        "answer": [
+          "عندما يُنشئ مستفيد حملة، يختار أنواع المدفوعات التي يقبلها: **علنية** أو **خاصة** أو **كلتاهما**.",
+          "التبرعات **العلنية** بيتكوين حقيقي على السلسلة. تتم تسويتها على البلوكتشين العام، وتعمل في كل محفظة بيتكوين، ومرئية لأي شخص.",
+          "التبرعات **الخاصة** تستخدم **المدفوعات الصامتة** (BIP-352). هي أيضًا تُسوَّى على السلسلة، لكن لا يمكن ربط المعاملة برمز التبرع الخاص بالمستفيد — لذا تظل خارج قوائم المتبرعين والإجماليات العلنية. يحتاج المتبرع إلى محفظة تدعم المدفوعات الصامتة — ونحن نوصي بـ [Ditto Wallet](https://ditto.pub) أو [Dana](https://github.com/cygnet3/dana/releases/download/v0.7.4/app-live-release.apk).",
+          "عندما تقبل الحملة **كلتيهما**، يعرض {{appName}} رمز QR واحدًا يُرمِّز نقطتي النهاية. تقرأه محافظ المدفوعات الصامتة باعتباره خاصًا؛ والمحافظ الأخرى ترجع إلى العنوان العلني. لا يضطر المتبرعون إلى الاختيار — محفظتهم تختار المسار الصحيح تلقائيًا.",
+          "في كلتا الحالتين، يذهب المبلغ مباشرةً إلى المستفيد. {{appName}} لا يلامس الأموال أبدًا."
+        ]
+      },
+      "agora-funds": {
+        "question": "ما هي صناديق Agora Funds؟",
+        "answer": [
+          "**Agora Funds** هي حملات يديرها {{appName}} تتيح لك العطاء لمجموعة من الحملات المتعددة المرتبطة بقضية واحدة. بدلًا من اختيار حملة واحدة، تتبرّع مرة واحدة للصندوق فيدعم عطاؤك كل حملة ضمن تلك القضية.",
+          "تقبل صناديق Agora Funds **مدفوعات البطاقات عبر Stripe** بالإضافة إلى البيتكوين — مما يمنح المتبرعين الذين لا يرغبون في الدفع بالبيتكوين طريقةً لدعم القضايا التي تهمّهم. مدفوعات البطاقات متاحة فقط على **الصناديق التي ترعاها Agora**؛ أما الحملات العادية فما زالت تستلم البيتكوين مباشرةً، على السلسلة، دون أي مُعالِج دفع بينها."
+        ]
+      },
+      "connect-wallet": {
+        "question": "ما هي المحفظة في {{appName}}؟",
+        "answer": [
+          "محفظة {{appName}} الخاصة بك هي محفظة بيتكوين **ذاتية الحفظ**، مبنية من مفتاح Nostr الخاص بك. {{appName}} لا يحتفظ بأموالك أبدًا — تعمل المحفظة داخل متصفحك وتوقّع المعاملات محليًا بمفتاح أنت وحدك تتحكم به. يمكنها استقبال البيتكوين بطريقتين — كعنوان علني يستطيع أي محفظة بيتكوين الدفع إليه، وكرمز مدفوعات صامتة يمكن للمحافظ القادرة على ذلك الدفع إليه بشكل خاص. لا يوجد ما يستوجب التسجيل؛ هي موجودة في اللحظة التي يكون لديك فيها حساب.",
+          "للمحفظة تبويبان: **علني** (عنوان البيتكوين العادي الخاص بك) و**خاص** (المدفوعات الصامتة). يُبقى الرصيدان منفصلين تمامًا ولا يمكن أبدًا إنفاقهما معًا — هذا العزل هو ما يبقي التبرعات الخاصة غير قابلة للربط على السلسلة. عند إنشاء حملة، تختار ما إذا كنت تقبل المدفوعات العلنية أم الخاصة أم كلتيهما. لإنفاق ما تستلمه، راجع **دليل المستفيد**.",
+          "يمكنك أيضًا تصدير عبارة البذرة المكونة من 24 كلمة الخاصة بمحفظتك واستيرادها إلى أي محفظة بيتكوين قياسية — راجع \"هل يمكنني تصدير محفظة {{appName}} إلى محفظة بيتكوين أخرى؟\" أدناه."
+        ]
+      },
+      "export-wallet": {
+        "question": "هل يمكنني تصدير محفظة {{appName}} إلى محفظة بيتكوين أخرى؟",
+        "answer": [
+          "نعم. محفظة {{appName}} الخاصة بك ذاتية الحفظ بالكامل. {{appName}} لا يحتفظ ببيتكوينك أبدًا ولا يرى مفاتيحك — تعمل المحفظة بالكامل داخل متصفحك، وتوقّع المعاملات محليًا بمفتاح مُشتق من مفتاح Nostr السري الخاص بك (nsec).",
+          "افتح المحفظة من القائمة، اضغط على قائمة النقاط الثلاث في أعلى اليمين، واختر **نسخ المحفظة احتياطياً**. سترى عبارة بذرة BIP-39 مكونة من 24 كلمة. اكتبها في مكان آمن (أو احفظها في مدير كلمات مرور) — **أي شخص لديه هذه الكلمات يستطيع إنفاق بيتكوينك.**",
+          "يمكنك استيراد هذه الكلمات الـ 24 إلى أي محفظة بيتكوين قياسية: **Sparrow** أو **Electrum** أو **BlueWallet** أو **Phoenix** أو **Trezor** أو **Ledger**. يستخدم {{appName}} مسارات الاشتقاق القياسية BIP-86 (Taproot) وBIP-352 (المدفوعات الصامتة)، لذلك لا حاجة لأي إعدادات خاصة.",
+          "بعد الاستيراد، تعرض المحفظة الأخرى نفس الرصيد والسجل مثل محفظة {{appName}} الخاصة بك — إنها نفس المحفظة، مجرد عرضين لها.",
+          "تصدير عبارة البذرة متاح فقط عند تسجيل الدخول باستخدام nsec. عمليات تسجيل الدخول عبر إضافة المتصفح أو الموقّع البعيد (bunker) تُبقي مفتاحك السري معزولًا، لذا لا يستطيع {{appName}} اشتقاق البذرة في تلك الأوضاع."
+        ]
+      },
+      "donations-are-public-general": {
+        "question": "هل التبرعات على {{appName}} علنية؟",
+        "answer": [
+          "يعتمد ذلك على نوع الدفع الذي يقبله المستفيد.",
+          "**التبرعات العلنية** مُسجَّلة على بلوكتشين البيتكوين وعلى Nostr. يستطيع أي شخص رؤية المبالغ والتوقيتات والعناوين.",
+          "**التبرعات الخاصة** تستخدم المدفوعات الصامتة. لا يمكن ربطها علنًا برمز التبرع الخاص بالمستفيد، ولا تظهر في قوائم المتبرعين، ولا تُحتسب في الإجماليات العلنية.",
+          "عندما تقبل الحملة كلتيهما، تقرر محفظة المتبرع أيّ مسار تستخدم — المحافظ القادرة على المدفوعات الصامتة تدفع خاصةً، والباقي يدفع إلى العنوان العلني. اقرأ **دليل المتبرع** و**دليل المستفيد** للحصول على الصورة الكاملة."
+        ]
+      },
+      "why-donations-pending": {
+        "question": "لماذا تظهر بعض التبرعات بحالة \"قيد الانتظار\"؟",
+        "answer": [
+          "التبرع **قيد الانتظار** هو بيتكوين حقيقي تم إرساله بالفعل — فقط ينتظر تأكيده من الشبكة. محفظة المتبرع قد بثّت المعاملة، لكنها لم تُدرج بعد في كتلة.",
+          "ينتج البيتكوين كتلة جديدة كل عشر دقائق تقريبًا، ويختار المعدّنون المعاملات بناءً على الرسوم التي دفعها المتبرع. معظم التبرعات تتأكد خلال ساعة؛ أما تلك ذات الرسوم المنخفضة فقد تستغرق وقتًا أطول عندما تكون الشبكة مزدحمة. يعيد {{appName}} التحقق من حالة التأكيد تلقائيًا، لذا تختفي علامة **قيد الانتظار** من تلقاء نفسها بمجرد إدراج المعاملة في كتلة.",
+          "الأموال في طريقها — سيرى المستفيد التبرع يُحتسب ضمن إجمالي الحملة فور تأكيده. لا يوجد شيء يمكن للمستفيد أو لـ {{appName}} فعله لتسريع ذلك؛ محفظة المتبرع وحدها هي التي يمكنها رفع الرسوم."
+        ]
+      },
+      "censorship-resistance": {
+        "question": "ماذا تعني \"المقاومة للرقابة\" هنا؟",
+        "answer": [
+          "لا تقف أي شركة بين المتبرع والمستفيد. {{appName}} لا يحتفظ بالأموال ولا يستطيع تجميد العنوان.",
+          "ما دامت شبكة البيتكوين تعمل، يمكن إرسال التبرعات واستقبالها. حتى لو توقف {{appName}} نفسه عن العمل، فلن يوقفها ذلك."
+        ]
+      },
+      "why-onchain": {
+        "question": "لماذا البيتكوين؟",
+        "answer": [
+          "البيتكوين هو أوسع وسيلة دفع دعمًا وأكثرها مقاومة للرقابة في العالم. كل محفظة بيتكوين يمكنها إرساله.",
+          "على {{appName}}، يختار المستفيدون كيفية الاستقبال: **علني** (عنوان بيتكوين عادي) لأقصى وصول، **خاص** (مدفوعات صامتة) لتبرعات غير قابلة للربط، أو **كلاهما** بحيث تختار محفظة كل متبرع المسار الصحيح تلقائيًا. المتبرعون الذين لديهم فقط تطبيق بيتكوين استهلاكي يمكنهم المساهمة؛ والمتبرعون الذين يمتلكون محفظة مدفوعات صامتة يحصلون على الخصوصية افتراضيًا.",
+          "المقابل هو أن معاملات البيتكوين العلنية مرئية على البلوكتشين وتدفع رسومًا للمعدِّنين. يوضح دليل المتبرع ودليل المستفيد كيفية التعامل مع كلا الأمرين."
+        ]
+      },
+      "why-not-silent-payments": {
+        "question": "هل يدعم {{appName}} المدفوعات الصامتة؟",
+        "answer": [
+          "نعم — من الجانبين. محفظة البيتكوين المدمجة في {{appName}} تدعم BIP-352، لذا عندما ترسل بيتكوين من محفظة {{appName}} الخاصة بك يمكنك الدفع مباشرة إلى أي عنوان مدفوعات صامتة (`sp1…`). وعندما يُنشئ مستفيد حملة، يمكنه قبول المدفوعات الصامتة إلى جانب المدفوعات العلنية بالبيتكوين أو بدلاً منها.",
+          "لا تزال تبرعات المدفوعات الصامتة تتم تسويتها على السلسلة، لكن لا يمكن ربط المعاملة برمز التبرع الخاص بالمستفيد — لذا لا تظهر في قوائم المتبرعين أو الإجماليات العلنية.",
+          "إرسال مدفوعة صامتة من خارج {{appName}} يتطلب محفظة تدعم BIP-352. معظم التطبيقات الاستهلاكية لا تدعمها بعد، لكن [Ditto Wallet](https://ditto.pub) و[Dana](https://github.com/cygnet3/dana/releases/download/v0.7.4/app-live-release.apk) تدعمانها.",
+          "عندما تقبل الحملة كلا النوعين من الدفع، يقوم {{appName}} بترميزهما في رمز QR واحد. المحافظ القادرة على المدفوعات الصامتة تدفع بشكل خاص؛ والبقية يدفع العنوان العلني. لا يُستبعَد أي متبرع، ولا يُجبَر أي مستفيد على الاختيار بين الوصول والخصوصية."
+        ]
+      },
+      "why-not-lightning": {
+        "question": "لماذا لا يستخدم {{appName}} شبكة Lightning؟",
+        "answer": [
+          "تتطلب Lightning محفظة Lightning. أسهل المحافظ (Wallet of Satoshi, Strike, Breez) هي **وصاية** — تحتفظ شركة بالأموال ويمكن إغلاقها أو حجبها جغرافيًا أو الضغط عليها لتجميد الحسابات. أما Lightning غير الوصائية فهي صعبة تقنيًا وغير موثوقة للقادمين الجدد.",
+          "نريد أن يعمل {{appName}} لشخص خبرته الوحيدة مع البيتكوين تطبيق استهلاكي عادي مثل Cash App أو Coinbase أو Strike أو Venmo أو PayPal. البيتكوين على السلسلة يعمل مع كل محفظة على وجه الأرض."
+        ]
+      },
+      "why-not-rotating-addresses": {
+        "question": "لماذا لا يولّد {{appName}} عنوانًا جديدًا لكل تبرع؟",
+        "answer": [
+          "القيام بذلك يتطلب أن يعمل {{appName}} كوسيط لتبادل الأموال — يحتفظ بالبيتكوين أولًا ثم يحوّلها للمستفيد.",
+          "هذا سيجعلنا ناقلين للأموال خاضعين للوائح المرافقة لذلك، ونقطة فشل واحدة: أغلق خادم {{appName}} وستوقف كل تبرع يمر عبره.",
+          "بدلًا من ذلك، يُشتق عنوان التبرع الخاص بكل مستخدم من المفتاح السري لـ Nostr (nsec) — وهو نفس المفتاح الذي تسجّل به الدخول. يرسل المتبرعون مباشرةً إلى المستفيد، ولا يلامس {{appName}} الأموال أبدًا، ولا يمكن إيقاف المنصة نفسها لخنق أي شخص. المستفيدون الراغبون في الخصوصية لكل تبرع يمكنهم قبول المدفوعات الصامتة، التي تمنح نفس عدم القابلية للربط دون أن يحتفظ أحد بالأموال في الوسط."
+        ]
+      },
+      "why-not-other-crypto": {
+        "question": "لماذا ليس Monero أو عملة مشفّرة أخرى؟",
+        "answer": [
+          "البيتكوين هو إلى حد بعيد أكثر عملة مشفّرة اعتمادًا. هذا يعني أنه الأسهل ليشتريه المتبرعون ويرسلوه، والأسهل على المستفيدين استلامه وحفظه وإنفاقه.",
+          "العملات الموجّهة للخصوصية مثل Monero تقدّم موازنات خصوصية مختلفة عن البيتكوين، لكنها غير مدعومة في معظم التطبيقات الاستهلاكية وأصعب في التحويل إلى العملة المحلية. الطلب من أيٍّ من طرفي التبرع الحصول أولًا على عملة مشفّرة متخصصة عقبة لن يضعها {{appName}}. أما لتبرعات البيتكوين نفسها، فإن المدفوعات الصامتة تغطي حالة استخدام عدم القابلية للربط دون مغادرة منظومة البيتكوين."
+        ]
+      },
+      "what-is-verification": {
+        "question": "ماذا تعني شارة \"موثّق\" على الحملة؟",
+        "answer": [
+          "الحملة الموثّقة هي حملة ضمنها علنًا **مُحقِّق موثوق**. يقول ذلك المحقق إنه يعرف المنظّم شخصيًا، أو أنه تحقق فعليًا من صحة ادعاءات الحملة.",
+          "تُظهر الشارة بالضبط **من** قام بالضمان، ويرتبط كل محقق بملفه الشخصي. التحقق إشارة، وليس ختم موافقة من {{appName}}. نحن لا نُجري تحريات عن الخلفيات. إنه موجود لكي تقرر بنفسك ما إذا كنت *أنت* تثق بالأشخاص الذين يقفون خلف الحملة.",
+          "عندما لا يتحقق أي مصدر موثوق من حملة، تُظهر صفحتها تنبيه حذر بدلاً من ذلك. هذا التنبيه ليس اتهامًا. إنه يعني فقط أن لا أحد على قائمة الموثوقين قد ضمنها بعد."
+        ]
+      },
+      "who-verifies": {
+        "question": "من يُعتبر \"مصدرًا موثوقًا\"؟",
+        "answer": [
+          "المحققون الموثوقون هم أعضاء حزمتَي متابعة منتقاتين: **World Liberty Congress Verified** و**Team Soapbox** (الفريق الذي يبني {{appName}}، بالتعاون مع [مؤتمر الحرية العالمي](https://worldlibertycongress.org/)).",
+          "من الناحية التقنية، يمكن لأي شخص على Nostr نشر وسم تحقق لأي حملة، وسيظهر على الشارة. لكن ضمان عضو من هاتين الحزمتين فقط هو ما يُزيل تنبيه الحذر، ويمكن أن يرفع الحملة إلى قسم Verified Campaigns في الصفحة الرئيسية. تحقق المنظّم من حملته بنفسه لا يُحتسب."
+        ]
+      },
+      "unverified-meaning": {
+        "question": "حملة غير موثّقة. هل هي عملية احتيال؟",
+        "answer": [
+          "**ليس بالضرورة.** التحقق صعب المنال عمدًا، لذا تبدأ معظم الحملات المشروعة غير موثّقة، خاصة الجديدة منها وتلك التي من أشخاص لم يلتقِ بهم المحققون الموثوقون بعد.",
+          "تعامل مع الشارة كثقة إضافية، وليست الشيء الوحيد المهم. اقرأ الحملة، وانظر إلى الملف الشخصي للمنظّم وسجله، وتذكّر كيف يعمل {{appName}}: تذهب التبرعات **مباشرةً** إلى عنوان Bitcoin الخاص بالمنظّم على السلسلة. {{appName}} لا يحتفظ أبدًا بالأموال ولا يمكنه عكس دفعة أو استردادها أو تجميدها، لذا تبرّع بالطريقة التي تُسلّم بها شخصًا ما نقودًا."
+        ]
+      },
+      "why-campaigns-hidden": {
+        "question": "لماذا تُخفى بعض الحملات، وهل ما زال بإمكاني رؤيتها؟",
+        "answer": [
+          "يمكن للمشرفين إخفاء حملة تبدو كرسالة مزعجة أو عملية احتيال أو انتحال لهوية شخص آخر. تُبقى الحملات المخفية خارج خلاصات {{appName}} والبحث كي لا يعثر عليها معظم الناس بالصدفة.",
+          "**هذه ليست رقابة، ولا يُحذف أي شيء.** تعيش الحملة على شبكة Nostr المفتوحة مهما أظهر {{appName}}. الإخفاء يغيّر فقط ما يعرضه {{appName}} افتراضيًا. إذا فتحت حملة مخفية مباشرةً، مثل عبر رابط مشترك، فسترى تنبيهًا يشرح السبب وزرًا لـ**المتابعة على أي حال**. اختيار عرضها والتبرع لها هو دائمًا اختيارك.",
+          "الهدف ببساطة هو منح المتبرعين سياقًا قبل أن يتبرعوا: تنبيه بأن مشرفًا موثوقًا أشار إلى شيء ما، وليس قرارًا اتُخذ نيابةً عنك."
+        ]
+      },
+      "how-get-verified": {
+        "question": "أنا منظّم. كيف أجعل حملتي موثّقة؟",
+        "answer": [
+          "لا يمكنك التحقق من نفسك؛ يجب أن يضمنك مُحقِّق موثوق. المسار الأكثر موثوقية هو بناء سجل حقيقي: ملف شخصي مكتمل، وحملة واضحة، وعلاقة حقيقية مع الناس في المجتمع.",
+          "إذا كان عملك مرتبطًا بمؤتمر الحرية العالمي أو فريق {{appName}}، فتواصل عبر جهات اتصالك الموجودة هناك. يمكن لمحقق يعرفك أن يضيف ضمانه، وسيظهر على حملتك تلقائيًا."
+        ]
+      },
+      "verification-guarantee": {
+        "question": "هل يضمن التحقق أن تبرعي آمن؟",
+        "answer": [
+          "لا. يخبرك التحقق أن شخصًا موثوقًا يضمن الحملة. إنه **لا** يضمن النتائج، ولا يؤمّن أموالك، ولا يجعل {{appName}} مسؤولاً عن كيفية استخدام الأموال.",
+          "لأن التبرعات غير احتجازية وعلى السلسلة، فإن كل دفعة نهائية لحظة إرسالها. يمكن للمحقق أيضًا **سحب** ضمانه لاحقًا إذا تغيّر شيء ما، مما سيزيل الشارة. تبرّع دائمًا بمبلغ ترتاح لإعطائه مباشرةً لشخص آخر."
+        ]
+      },
+      "what-is-nostr": {
+        "question": "ما هو Nostr؟",
+        "answer": [
+          "Nostr شبكة مفتوحة حيث **أنت** تملك حسابك، وليس شركة. هويتك مفتاح تشفير تتحكم فيه، وليست اسم مستخدم على خادم شخص آخر.",
+          "على {{appName}}، يُشتقّ عنوان تبرعك من المفتاح نفسه — المفتاح السري لـ Nostr (nsec) الخاص بك يُهيّئ محفظة البيتكوين الخاصة بك، ولذلك يمكنك استلام البيتكوين دون التسجيل لدى أحد."
+        ]
+      },
+      "why-login-different": {
+        "question": "لماذا تسجيل دخولي مختلف وطويل هكذا؟",
+        "answer": [
+          "بدلًا من اسم مستخدم وكلمة مرور تتحكم بهما شركة، يستخدم Nostr زوجًا من المفاتيح التشفيرية.",
+          "\"مفتاحك العام\" (يبدأ بـ **npub**) هو اسم المستخدم الخاص بك. \"مفتاحك السري\" (يبدأ بـ **nsec**) هو كلمة المرور. السلسلة الطويلة هي ما يجعل تخمينه شبه مستحيل."
+        ]
+      },
+      "lose-secret-key": {
+        "question": "ماذا يحدث إذا فقدتُ مفتاحي السري؟",
+        "answer": [
+          "**لا يوجد زر \"نسيت كلمة المرور\".** لا أحد يستطيع إعادة تعيينه من أجلك. إذا فقدته، فإن حسابك — وأي بيتكوين موجود على عنوان تبرعك — يضيع إلى الأبد.",
+          "**احفظ مفتاحك السري في مكان آمن الآن.** للنصائح، اقرأ [إدارة مفاتيح Nostr الخاصة بك](https://soapbox.pub/blog/managing-nostr-keys)."
+        ]
+      },
+      "manage-secret-key": {
+        "question": "هل يمكنني حفظ مفتاحي السري في مدير كلمات المرور بهاتفي؟",
+        "answer": [
+          "نعم. يمكنك حفظه في مدير كلمات مرور جهازك (iCloud Keychain، 1Password، Bitwarden، إلخ). على iPhone، حفظه في Passwords يتيح لك تسجيل الدخول باستخدام Face ID أو Touch ID.",
+          "للحصول على دليل كامل، راجع [إدارة مفاتيح Nostr الخاصة بك](https://soapbox.pub/blog/managing-nostr-keys)."
+        ]
+      },
+      "send-bitcoin-lightning": {
+        "question": "كيف يعمل إرسال البيتكوين عبر Lightning؟",
+        "answer": [
+          "إذا كان لدى المستلم عنوان Lightning على ملفه الشخصي، يمكنك الإرسال إليه. تتم تسوية Lightning في ثوانٍ والرسوم ضئيلة.",
+          "إرسالات Lightning لا تستخدم عنوان تبرع {{appName}} — تذهب مباشرةً إلى أي محفظة Lightning أعدّها المستلم بنفسه. وتدفّق التبرعات الخاص بـ {{appName}} نفسه يكون فقط على السلسلة."
+        ]
+      },
+      "what-are-zaps": {
+        "question": "ما هي الـ Zaps؟",
+        "answer": [
+          "الـ Zaps إكراميات صغيرة عبر Lightning في Nostr، منفصلة عن تدفق التبرعات على السلسلة الخاص بـ {{appName}}."
+        ]
+      },
+      "fyp": {
+        "question": "كيف يعمل التغذية (الـ feed)؟",
+        "answer": [
+          "تعرض تغذيتك الحملات والمنشورات من الأشخاص الذين تتابعهم. لا توجد خوارزمية تقرر ما تراه."
+        ]
+      },
+      "what-are-relays": {
+        "question": "ما هي المرحّلات (relays)؟",
+        "answer": [
+          "المرحّلات هي الخوادم التي تخزّن وتُسلّم أحداث Nostr — المنشورات وإيصالات التبرع ومعلومات الملف الشخصي. الإعدادات الافتراضية تعمل مباشرة؛ يمكنك إضافة أو إزالة المرحّلات في الإعدادات > الشبكة."
+        ]
+      },
+      "what-are-blossom": {
+        "question": "ما هي خوادم Blossom؟",
+        "answer": [
+          "تخزن خوادم Blossom ملفات الوسائط (صور الحملات، صور الملف الشخصي) عند رفعها. يمكنك إدارة الخوادم التي تستخدمها في الإعدادات > الشبكة."
+        ]
+      },
+      "report-content": {
+        "question": "كيف أُبلِغ عن محتوى ضار؟",
+        "answer": [
+          "اضغط على قائمة النقاط الثلاث (**...**) على أي منشور واختر \"إبلاغ\". يمكنك كتم المستخدمين أو حظرهم من القائمة نفسها."
+        ]
+      },
+      "vs-mastodon-bluesky": {
+        "question": "كيف يختلف Nostr عن Mastodon أو Bluesky؟",
+        "answer": [
+          "في Mastodon، يعيش حسابك على خادم محدد. في Bluesky، تعتمد معظم الحسابات على شركة واحدة. في Nostr، هويتك مفتاح تتحكم به، وعنوان تبرعك يصاحبك إلى أي تطبيق Nostr."
+        ]
+      },
+      "profile-fields": {
+        "question": "ما هي حقول الملف الشخصي؟",
+        "answer": [
+          "تتيح لك حقول الملف الشخصي إضافة معلومات إضافية إلى ملفك — روابط، عناوين محافظ، موسيقى، صور، فيديوهات."
+        ]
+      }
+    }
+  },
+  "guides": {
+    "shared": {
+      "tldrEyebrow": "النسخة المختصرة",
+      "paymentBadge": {
+        "public": "مدفوعات علنية",
+        "silent": "مدفوعات صامتة"
+      },
+      "paymentComparison": {
+        "donorHeader": "عندما تتبرّع",
+        "recipientHeader": "عندما تُنشئ حملة",
+        "donorRows": {
+          "whatYouSee": {
+            "label": "ما تراه",
+            "public": "عنوان بيتكوين عادي يمكنك الدفع إليه من أي مكان.",
+            "silent": "نفس رمز QR. تختار محفظتك نقطة نهاية المدفوعات الصامتة إذا كانت تدعم BIP-352."
+          },
+          "walletSupport": {
+            "label": "دعم المحافظ",
+            "public": "كل محفظة بيتكوين. Cash App، Coinbase، Strike، عتاد، أي شيء.",
+            "silent": "محافظ قليلة اليوم. معظمها يرجع إلى معاملة بيتكوين عادية."
+          },
+          "privacy": {
+            "label": "خصوصية التبرع",
+            "public": "علنية على السلسلة. يرتبط عنوان الإرسال الخاص بك بالحملة بشكل دائم.",
+            "silent": "الجانب المستلِم غير قابل للربط على السلسلة. أثر محفظة الإرسال لديك يظل علنيًا."
+          },
+          "settlement": {
+            "label": "التسوية",
+            "public": "تأكيدات بيتكوين عادية.",
+            "silent": "نفس تأكيدات السلسلة، لكن على المستفيد أن يفحص محفظته للعثور عليها."
+          }
+        },
+        "recipientRows": {
+          "whatDonorsSee": {
+            "label": "ما يراه المتبرعون",
+            "public": "عنوان بيتكوين عادي. يعمل مع أي محفظة على وجه الأرض.",
+            "silent": "نقطة نهاية BIP-352. محافظ المتبرعين تحتاج لدعم المدفوعات الصامتة؛ وإلا فإن التبرع يرجع إلى معاملة بيتكوين عادية."
+          },
+          "receivingSpeed": {
+            "label": "سرعة الاستلام",
+            "public": "نمط Push. تظهر التبرعات فورًا على صفحة الحملة.",
+            "silent": "فحص يدوي. على محفظتك المرور على البلوكتشين للبحث عنها. من دقائق إلى ساعات حسب المحفظة."
+          },
+          "pushNotifications": {
+            "label": "الإشعارات الفورية",
+            "public": "نعم. ترى التبرعات الجديدة لحظة وصولها.",
+            "silent": "لا. افتح المحفظة وشغّل عملية فحص لاكتشافها."
+          },
+          "donorList": {
+            "label": "قائمة المتبرعين / إجماليات الحملة",
+            "public": "علنية إلى الأبد. المبالغ وعناوين الإرسال مرئية لأي شخص.",
+            "silent": "خاصة. لا تستطيع صفحة الحملة عرض أعداد أو إجماليات تبرعات المدفوعات الصامتة."
+          },
+          "ecosystem": {
+            "label": "نضج المنظومة",
+            "public": "ناضج. أدوات مستقرة.",
+            "silent": "متطور وحديث. لا تزال المحافظ بها أخطاء؛ توقّع مدفوعات فائتة تظهر في فحص لاحق."
+          },
+          "bestFor": {
+            "label": "الأنسب لـ",
+            "public": "حملات جمع التبرعات العلنية حيث يفيد الإثبات الاجتماعي والظهور.",
+            "silent": "الحملات التي تكون فيها خصوصية المتبرع أو المستفيد أهم من الإجمالي الظاهر."
+          },
+          "watchOutFor": {
+            "label": "احذر من",
+            "public": "سجل علني دائم لكل متبرع.",
+            "silent": "تجربة استخدام غير مستقرة اليوم. بعض التبرعات لن تظهر حتى يقوم المستفيد بالفحص."
+          }
+        }
+      }
+    },
+    "donor": {
+      "tldr": {
+        "lede": "ادفع إلى عنوان البيتكوين الموجود على صفحة الحملة من أي محفظة لديك بالفعل. إذا كانت الحملة تقبل المدفوعات الصامتة ومحفظتك تدعمها، فإن تبرعك يصبح خاصًا تلقائيًا.",
+        "nextActions": [
+          "ادفع من أي محفظة بيتكوين",
+          "لا وسيط ولا فترة احتجاز",
+          "تريد الخصوصية؟ اقرأ أدناه"
+        ]
+      },
+      "flow": {
+        "heading": "كيف يجري تبرع",
+        "steps": {
+          "openCampaign": {
+            "title": "افتح الحملة",
+            "body": "ترى رمز QR واحدًا. إذا كانت الحملة تقبل الخيارين، فإنه يُرمّز نقطتي النهاية معًا؛ محفظتك تختار الصحيحة."
+          },
+          "payFromAnyWallet": {
+            "title": "ادفع من أي محفظة",
+            "body": "Cash App، Coinbase، Strike، محفظة عتادية، أي شيء. ادفع المبلغ زائد رسوم الشبكة."
+          },
+          "arrivesDirectly": {
+            "title": "يصل مباشرة",
+            "body": "تذهب الأموال مباشرة إلى المستفيد. {{appName}} لا يحتفظ بها ولا يوجّهها، والعنوان مشتق من المفتاح السري لـ Nostr الخاص بالمستفيد."
+          }
+        }
+      },
+      "comparison": {
+        "footnote": "يمكن للحملات قبول العلنية فقط، أو الصامتة فقط، أو كلتيهما. إذا كانتا معًا، فإن رمز QR يحمل نقطتي النهاية. محفظتك تختار التي يمكنها استخدامها."
+      },
+      "publicVisible": {
+        "title": "التبرعات العلنية مرئية على السلسلة إلى الأبد",
+        "body": "يصل التبرع **العلني** إلى عنوان بيتكوين عادي مرتبط بالحملة. يمكن لأي شخص البحث عن العنوان ومعرفة المبلغ والوقت وعنوان الإرسال الخاص بك. تتم تسوية التبرعات **الصامتة** على السلسلة أيضًا، لكن الجانب المستلِم غير قابل للربط بالحملة، فتبقى خارج قوائم المتبرعين والإجماليات العلنية."
+      },
+      "privacy": {
+        "heading": "التبرع بشكل خاص",
+        "intro": "هذه الخطوات تهم أكثر للتبرعات **العلنية**، حيث ترتبط كل معاملة بشكل دائم بعنوان واحد. التبرعات **الصامتة** تخفي بالفعل الجانب المستلِم، فالخطر أقل. التحليل الموجَّه لمحفظة الإرسال لديك ما زال ممكنًا في الحالتين، لذا إذا كان مستوى المخاطر لديك مرتفعًا فإن هذه الخطوات تستحق الاتخاذ. اختَر واحدة، أو اجمعها معًا.",
+        "options": {
+          "silentWallet": {
+            "name": "استخدم محفظة مدفوعات صامتة",
+            "purpose": "ادفع باستخدام محفظة بيتكوين تدعم BIP-352. إذا كانت الحملة تقبل المدفوعات الصامتة، فإن محفظتك تستخدم تلك النقطة تلقائيًا."
+          },
+          "nonKyc": {
+            "name": "اشترِ بيتكوين بدون KYC",
+            "purpose": "اشترِ البيتكوين من الند إلى الند حتى لا يكون مرتبطًا بهويتك الحكومية أصلًا. أقوى نقطة انطلاق من حيث الخصوصية."
+          },
+          "coinjoin": {
+            "name": "اخلطه أولًا بـ Coinjoin",
+            "purpose": "اخلط بيتكوينك مع عملات أناس آخرين حتى لا يمكن تتبع الناتج إلى شرائك المربوط بـ KYC. مفيد عندما تقبل الحملة العلنية فقط."
+          },
+          "freshWallet": {
+            "name": "استخدم محفظة جديدة",
+            "purpose": "تبرّع من محفظة لم تمس أبدًا هويتك الرئيسية أو منصة KYC."
+          }
+        }
+      },
+      "consumerApps": {
+        "title": "التطبيقات الاستهلاكية لا تستطيع جعلك مجهولًا",
+        "body": "Cash App، Coinbase، Strike، Venmo، Kraken، Binance، وPayPal كلها تتحقق من هويتك. مهما كانت الطريقة التي ترسل بها التبرع، تظل كل معاملة مرتبطة بهويتك الحقيقية. استخدم محفظة غير وصائية تتحكم بها."
+      },
+      "silentToday": {
+        "heading": "ملاحظة عن المدفوعات الصامتة اليوم",
+        "paragraphs": [
+          "المدفوعات الصامتة هي الطريقة الأكثر خصوصية لاستلام البيتكوين على السلسلة، لكن المنظومة لا تزال يافعة. معظم المحافظ الشهيرة لا تستطيع بعد الإرسال إلى نقطة نهاية مدفوعات صامتة، لذلك حين لا تستطيع المحفظة، يرجع التبرع إلى معاملة بيتكوين عادية إلى العنوان العلني للحملة (إذا كانت الحملة تقبل كلتيهما).",
+          "بالنسبة للمستفيدين، تصل تبرعات المدفوعات الصامتة أيضًا دون إشعارات فورية ولا تظهر إلا بعد أن يقوم المستفيد بفحص محفظته، وهو ما قد يستغرق دقائق إلى ساعات. لا شيء من هذا يؤثر على أمان أموالك؛ يشكّل فقط التجربة."
+        ]
+      }
+    },
+    "recipient": {
+      "tldr": {
+        "lede": "اختر ما تقبله عند إنشاء حملتك: علنية، صامتة، أو كلتيهما. كلا الخيارين غير وصائي. {{appName}} لا يحتفظ بأموالك أبدًا.",
+        "nextActions": [
+          "قارن بين الخيارين",
+          "خطّط لكيفية التحويل إلى نقد",
+          "انقل الأموال بسرعة"
+        ]
+      },
+      "howReceiving": {
+        "heading": "كيف يعمل الاستلام",
+        "paragraphs": [
+          "عناوين التبرع الخاصة بك على {{appName}} مشتقة من المفتاح السري لـ Nostr (nsec) الخاص بك — نفس المفتاح الذي تسجّل به الدخول يُهيّئ محفظة البيتكوين الخاصة بك. عند إنشاء حملة، تختار ما تقبله:",
+          "**مدفوعات علنية فقط.** عنوان بيتكوين عادي. مرئي للجميع، يعمل مع أي محفظة.",
+          "**مدفوعات صامتة فقط.** مدفوعات BIP-352 الصامتة. الجانب المستلِم غير قابل للربط على السلسلة، لذا تبقى التبرعات خارج قوائم المتبرعين والإجماليات العلنية. يحتاج المتبرعون إلى محفظة قادرة على الإرسال بمدفوعات صامتة. إن لم يكن لديهم، فلن يتم تبرعهم.",
+          "**كلتاهما.** يولّد {{appName}} رمز QR واحدًا يُرمّز نقطتي النهاية. محافظ المدفوعات الصامتة تقرأه كخاص؛ المحافظ العادية تدفع إلى العنوان العلني. لا يضطر المتبرعون إلى الاختيار.",
+          "قبول كلتيهما هو الخيار الصحيح غالبًا: تحصل على تبرعات خاصة من الداعمين الذين يستخدمون محفظة مدفوعات صامتة، وتظل منفتحًا على المتبرعين الذين لا يملكون البيتكوين إلا في تطبيق استهلاكي.",
+          "داخل محفظة {{appName}} الخاصة بك، تصل هذه التبرعات على هيئة **رصيدين منفصلين** — تبويب **علني** (عنوان البيتكوين العادي الخاص بك) وتبويب **خاص** (المدفوعات الصامتة) — يظهران في تبويبَي المحفظة علني / خاص. يبقيهما {{appName}} منفصلين تمامًا عن قصد: لا يمكن أبدًا إنفاق الرصيدين معًا. خلط الأموال الخاصة بالأموال العلنية في معاملة واحدة سيربط تبرعاتك الصامتة غير القابلة للربط بعنوانك العلني على السلسلة ويدمّر الخصوصية التي وُجدت من أجل توفيرها."
+        ]
+      },
+      "whatEveryoneSees": {
+        "heading": "ما يستطيع الجميع رؤيته",
+        "paragraphs": [
+          "إذا كانت حملتك تقبل المدفوعات العلنية، فإن أي شخص يفكر في دعمك يمكنه البحث عن العنوان ورؤية سجل التبرعات العلني.",
+          "تبرعات المدفوعات الصامتة ليست جزءًا من ذلك السجل. هي غير مرئية للمراقبين الخارجيين ولا تظهر في الإجماليات العلنية للحملة؛ المتبرعون الجدد لا يرون سوى ما تنشره عن تقدم الحملة."
+        ]
+      },
+      "comparison": {
+        "footnote": "لا يمكنك تبديل خيارات الدفع المقبولة في حملة بعد إنشائها. إذا غيّرت رأيك، أنشئ حملة جديدة."
+      },
+      "silentToday": {
+        "heading": "ملاحظة عن المدفوعات الصامتة اليوم",
+        "paragraphs": [
+          "المدفوعات الصامتة هي الطريقة الأكثر خصوصية لاستلام البيتكوين على السلسلة، لكن المنظومة لا تزال يافعة. معظم المحافظ الشهيرة لا تستطيع بعد الإرسال إلى نقطة نهاية مدفوعات صامتة، لذلك حين لا تستطيع محفظة المتبرع، يرجع التبرع إلى معاملة بيتكوين عادية إلى عنوانك العلني (إذا كنت تقبل كلتيهما).",
+          "تصل تبرعات المدفوعات الصامتة أيضًا دون إشعارات فورية ولا تظهر إلا بعد أن تقوم بفحص محفظتك، وهو ما قد يستغرق دقائق إلى ساعات. لا شيء من هذا يؤثر على أمان أموالك؛ يشكّل فقط تجربة العمل اليومي."
+        ]
+      },
+      "twoWallets": {
+        "title": "افصل بين رصيدك العلني والخاص",
+        "body": "تعرض محفظة {{appName}} الخاصة بك تبويبين: **علني** (عنوان البيتكوين العادي الخاص بك) و**خاص** (المدفوعات الصامتة). يُبقى الاثنان منفصلين تمامًا، ولا يمكن أبدًا إنفاق الرصيدين في المعاملة نفسها — هذا العزل هو ما يبقي تبرعاتك الخاصة غير قابلة للربط. عندما تحوّل إلى نقد من تبويب **خاص**، أرسل إلى عنوان مدفوعات صامتة (**sp1…**)، فهو يبقى خاصًا. أما إذا أرسلت الأموال الخاصة إلى عنوان مجرّد على السلسلة، فإن {{appName}} يتحقق منه: إذا كان العنوان قد استُخدم من قبل، أو ينتمي إلى محفظتك العلنية، فإنه يحذّرك ويُلزمك بالضغط على **أرسل على أي حال**، لأن فعل ذلك يربط أموالك الخاصة بالسجل العلني لذلك العنوان. الإرسال إلى عنوان **sp1…** لا يُطلق التحذير أبدًا."
+      },
+      "movePromptly": {
+        "heading": "انقل التبرعات بسرعة",
+        "steps": {
+          "sweep": {
+            "title": "اسحب إلى محفظة تتحكم بها",
+            "body": "محفظة {{appName}} الخاصة بك ذاتية الحفظ بالفعل — أنت، وأنت وحدك، تتحكم بالمفاتيح. للحصول على عرض سطح المكتب أو محفظة الأجهزة لنفس الرصيد، افتح قائمة المحفظة، اختر **نسخ المحفظة احتياطياً**، واستورد عبارة البذرة المكونة من 24 كلمة إلى [Sparrow](https://sparrowwallet.com)، أو [BlueWallet](https://bluewallet.io)، أو محفظة أجهزة (Trezor أو Ledger). إذا كنت تفضّل نقل الأموال إلى مفتاح مختلف تمامًا — على سبيل المثال، إلى محفظة Lightning مثل [Phoenix](https://phoenix.acinq.co) — أرسل معاملة بيتكوين عادية من محفظة {{appName}} الخاصة بك."
+          },
+          "dontSit": {
+            "title": "لا تترك الأموال جالسة في المتصفح",
+            "body": "خاصةً للحملات عالية القيمة، خزّن عبارة بذرة المحفظة خارج الإنترنت (على ورق، أو نسخة احتياطية معدنية، أو في مدير كلمات مرور على جهاز مخصص) وفكّر في استخدام محفظة أجهزة. البذرة التي تنسخها احتياطيًا من {{appName}} هي نفس المحفظة — أمّن الكلمات وستحصل على تخزين بارد."
+          }
+        }
+      },
+      "cashout": {
+        "heading": "التحويل إلى نقد بشكل خاص",
+        "intro": "الإنفاق على السلسلة يُنشئ أثرًا ما لم تكسره أولًا. حوّل إلى نقد من تبويب **خاص** لإبقاء تبرعات المدفوعات الصامتة غير قابلة للربط — أرسل أولًا إلى محفظة مدفوعات صامتة (عنوان **sp1…**)، ثم أنفق بعد ذلك؛ القفزة تكسر الرابط بين حملتك وما يأتي بعدها. لا ترسل الأموال الخاصة إلى عنوان معاد استخدامه أو علني، فهذا يعيد ربطها. الخيارات الأخرى أدناه تعمل أيضًا ولها مفاضلاتها الخاصة.",
+        "options": {
+          "silentHop": {
+            "name": "قفزة عبر محفظة مدفوعات صامتة",
+            "purpose": "انقل تبرعاتك إلى محفظة مدفوعات صامتة ([Ditto Wallet](https://ditto.pub)، [Dana](https://github.com/cygnet3/dana/releases/download/v0.7.4/app-live-release.apk)). من هناك لا يكون إنفاقك اللاحق مرتبطًا بالحملة."
+          },
+          "lightningSwap": {
+            "name": "مبادلة عبر Lightning",
+            "purpose": "تبادل ذرّي بين بيتكوين السلسلة وLightning. مدفوعات Lightning لا تظهر على البلوكتشين العام."
+          },
+          "coinjoin": {
+            "name": "Coinjoin",
+            "purpose": "اخلط بيتكوينك مع عملات مستخدمين آخرين حتى لا يمكن ربط المخرج بالمدخل."
+          },
+          "peerToPeer": {
+            "name": "ند إلى ند",
+            "purpose": "بادل البيتكوين بعملة قانونية مباشرة مع شخص آخر أو من خلال وسيط على Bisq أو HodlHodl أو RoboSats."
+          },
+          "spendDirectly": {
+            "name": "أنفِقه مباشرة",
+            "purpose": "اشترِ بطاقات هدايا (Amazon، Uber، بقالة، سفر) مباشرة من البيتكوين دون التحويل إلى نقد أولًا."
+          }
+        }
+      },
+      "tumblers": {
+        "title": "تجنّب الخلّاطات المركزية",
+        "body": "الخلّاطات الوصائية قد تسرق عملاتك، وتسجل من أرسل ماذا، أو قد تتبين أنها فخاخ لإنفاذ القانون. استخدم قفزة مدفوعات صامتة أو coinjoin غير وصائي بدلًا من ذلك."
+      }
+    }
+  },
+  "corporateSponsorship": {
+    "seoTitle": "الرعاية المؤسسية",
+    "seoDescription": "اعقد شراكة مع {{appName}} لتمويل القضايا المهمة. تبرّع لصناديق القضايا في Agora، أو ضاعف التبرعات للحملات التي تهمّك، أو روّج {{appName}} لعملائك ضمن مبادراتك الخيرية.",
+    "hero": {
+      "eyebrow": "اعقد شراكة مع {{appName}}",
+      "headlinePart1": "موّل ما",
+      "headlineHighlight": "يهمّ.",
+      "body": "{{appName}} يربط المتبرعين مباشرة بالقضايا عبر البتكوين. لا حسابات مجمّدة، لا وسطاء، ولا منصة تقتطع حصة. اجلب العطاء الشفاف غير القابل للرقابة نفسه إلى العمل الخيري لشركتك.",
+      "trustChips": {
+        "nonCustodial": "غير وصائي",
+        "transparent": "شفاف على السلسلة",
+        "noFees": "بلا رسوم منصة"
+      },
+      "ctaPrimary": "تواصل معنا",
+      "ctaSecondary": "اطّلع على طرق الشراكة"
+    },
+    "intro": {
+      "eyebrow": "لماذا الشراكة",
+      "title": "عطاء مؤسسي يتماشى مع أهدافك",
+      "lede": "مباشر وشفاف وقابل للتحقق. عطاء يمكن لشركتك أن تقف خلفه.",
+      "cards": {
+        "bitcoin": {
+          "title": "منصة قائمة على البتكوين",
+          "body": "تُسوّى التبرعات على سلسلة كتل البتكوين. بلا حدود، لا يمكن إيقافها، ويمكن لأي شخص التحقق منها."
+        },
+        "verified": {
+          "title": "صناديق حملات موثّقة",
+          "body": "كل حملة تُدقَّق وتُوثَّق قبل توزيع الأموال."
+        },
+        "fees": {
+          "title": "بلا رسوم منصة",
+          "body": "‏100% من هديتك تصل إلى القضية. لا نأخذ شيئاً."
+        }
+      }
+    },
+    "ways": {
+      "eyebrow": "طرق المشاركة",
+      "title": "ثلاث طرق للشراكة",
+      "lede": "اختر مستوى المشاركة الذي يناسب شركتك، أو اجمع بين الطرق الثلاث.",
+      "causeFunds": {
+        "kicker": "01 · دعم مباشر",
+        "title": "تبرّع لصناديق القضايا في {{appName}}",
+        "description": "مجمّعات جماعية للقضايا التي تهمّك. يوزّعها {{appName}} على حملات موثّقة وموثوقة.",
+        "bullet1": "تبرّع بالبتكوين (BTC) أو بالدولار الأمريكي (USD)",
+        "bullet2": "تُجمَع مع تبرعات مانحين آخرين لأثر أكبر",
+        "bullet3": "تُوزَّع على حملات موثّقة وموثوقة",
+        "cta": "استكشف صناديق القضايا"
+      },
+      "matching": {
+        "kicker": "02 · ضاعف الأثر",
+        "title": "ضاعف التبرعات للحملات",
+        "description": "خصّص مجمّع مضاعفة وسنضاعف هدية كل متبرع حتى السقف الذي تحدده. اختر بدقة ما تقف شركتك خلفه:",
+        "bullet1": "ضاعف حملة فردية تهمّك",
+        "bullet2": "ضاعف حملة مميّزة أو من اختيار الفريق",
+        "bullet3": "ضاعف صناديق القضايا في {{appName}} لمضاعفة أثرك عبر حملات متعددة",
+        "cta": "أعِدّ مضاعفة"
+      },
+      "promote": {
+        "kicker": "03 · وسّع الصدى",
+        "title": "روّج {{appName}} لعملائك",
+        "description": "ادعُ عملاءك للعطاء إلى جانبك وحوّل انتشارك إلى تمويل حقيقي للقضايا.",
+        "bullet1": "حملات وجولات تبرع بعلامة مشتركة",
+        "bullet2": "تقريب المبالغ عند الدفع ودعوات مضاعفة",
+        "bullet3": "تقارير على السلسلة يمكن للعملاء التحقق منها",
+        "cta": "خطّط لحملة"
+      }
+    },
+    "fundsShowcase": {
+      "eyebrow": "صناديق القضايا",
+      "title": "صناديق {{appName}} للحملات الموثّقة",
+      "lede": "كل صندوق يجمع التبرعات ويوزّعها على حملات موثّقة.",
+      "browseAll": "أو تصفّح جميع الحملات"
+    },
+    "cta": {
+      "eyebrow": "لنتحدث",
+      "title": "مستعد لتضع شركتك خلف قضية؟",
+      "body": "أخبرنا كيف تودّ المشاركة وسنساعدك في إعداد الشراكة المناسبة: هدية لصندوق قضايا، أو مجمّع مضاعفة، أو حملة للعملاء.",
+      "button": "تواصل مع فريق {{appName}}",
+      "followLine": "تفضّل Nostr؟",
+      "followLink": "تابع Team Soapbox",
+      "followSuffix": " وأرسل لنا رسالة."
+    }
+  },
+  "partners": {
+    "partnersTitle": "ابنِ بالتعاون مع:",
+    "pressTitle": "كما ظهرنا في:"
+  },
+  "walletDoubleTweak": {
+    "seoTitle": "إصلاح المدفوعات الصامتة مزدوجة التعديل",
+    "seoDescription": "استعد المدفوعات الصامتة العالقة على السلسلة بسبب خلل سابق في الإرسال واجمعها إلى محفظتك.",
+    "title": "إصلاح المدفوعات الصامتة مزدوجة التعديل",
+    "heading": "استعد المدفوعات الصامتة العالقة",
+    "subheading": "قام إصدار سابق من Agora بترميز بعض مخرجات المدفوعات الصامتة بالمفتاح الخاطئ، لذا لم تظهر قطّ في محفظتك. تعيد هذه الأداة مسح السلسلة بحثاً عن تلك المخرجات وتجمع ما تجده منها إلى محفظتك.",
+    "back": "رجوع",
+    "loggedOut": "سجّل الدخول بهوية Nostr التي استقبلت المدفوعات الصامتة حتى يمكن استعادتها.",
+    "unsupported": {
+      "title": "المحفظة غير متاحة",
+      "description": "تحتاج الاستعادة إلى محفظة يمكنها التوقيع محلياً. سجّل الدخول عبر nsec للمتابعة."
+    },
+    "noIndexer": {
+      "title": "لم يُهيّأ أي مفهرس للمدفوعات الصامتة",
+      "description": "يلزم عنوان URL لمفهرس BIP-352 لمسح المدفوعات العالقة. عيّن واحداً في إعدادات المحفظة وحاول مرة أخرى."
+    },
+    "scan": {
+      "title": "امسح بحثاً عن المدفوعات العالقة",
+      "description": "اختر ارتفاع الكتلة الذي يبدأ المسح منه. تتحقّق الاستعادة من كل كتلة من هناك حتى قمة السلسلة.",
+      "fromHeightLabel": "ارتفاع كتلة البدء",
+      "tipHint": "قمة السلسلة الحالية: {{tip}}",
+      "start": "مسح",
+      "cancel": "إلغاء المسح",
+      "progress": "جارٍ مسح الكتلة {{current}} من {{to}} — تم العثور على {{found}}",
+      "tipMissing": "جارٍ تحديد قمة السلسلة…"
+    },
+    "noFunds": {
+      "title": "لا شيء لاستعادته",
+      "description": "لم يُعثر على أي مدفوعات صامتة عالقة في النطاق الممسوح. جرّب ارتفاع بدء أبكر إن كنت تتوقّع وجود أموال."
+    },
+    "found": {
+      "title": "تم العثور على مدفوعات عالقة",
+      "description": "يمكن جمع هذه المخرجات مرة أخرى إلى محفظتك.",
+      "count": "المخرجات",
+      "recoverable": "قابل للاستعادة"
+    },
+    "destination": {
+      "title": "ستُرسل الأموال إلى",
+      "description": "عنوان استقبال جديد في محفظتك الحالية."
+    },
+    "sweepButton": "استعد الأموال",
+    "sweeping": "جارٍ استعادة أموالك…",
+    "dontClose": "لا تُغلق هذه الصفحة حتى تكتمل الاستعادة.",
+    "success": {
+      "title": "اكتملت الاستعادة",
+      "sent": "تم استعادة {{sats}} ساتوشي إلى محفظتك.",
+      "viewTx": "عرض المعاملة"
+    },
+    "error": {
+      "title": "فشلت الاستعادة",
+      "tryAgain": "إعادة المحاولة"
+    },
+    "errors": {
+      "noDestination": "لا يوجد عنوان وجهة متاح. افتح محفظتك أولاً.",
+      "noBlockbook": "لم يُهيّأ أي خادم Blockbook. عيّن واحداً في إعدادات المحفظة.",
+      "sweepGeneric": "تعذّر إكمال جمع الاستعادة."
+    },
+    "toast": {
+      "successTitle": "تم استعادة الأموال",
+      "successDesc": "تم جمع {{sats}} ساتوشي إلى محفظتك."
+    },
+    "footnote": "هذه عملية جمع باتجاه واحد إلى محفظتك الحالية. لا تتأثّر إلا المدفوعات الصامتة المعنية؛ ولا يتغيّر أي شيء آخر."
+  },
+  "support": {
+    "seoTitle": "هل هناك مشكلة؟",
+    "seoDescription": "أبلغ عن خلل أو مشكلة في {{appName}}، واطّلع على ما أبلغ عنه الآخرون بالفعل.",
+    "title": "هل هناك مشكلة؟",
+    "subtitle": "أبلغ عن مشكلة في {{appName}}، أو تحقّق مما إذا كانت معروفة بالفعل.",
+    "existingTitle": "المشكلات المعروفة",
+    "openTracker": "فتح المتتبّع",
+    "loadError": "تعذّر تحميل البلاغات الحالية. قد يكون خادم ترحيل البلاغات غير متاح.",
+    "retry": "حاول مرة أخرى",
+    "noIssues": "لا توجد بلاغات بعد.",
+    "hiddenByModerator": "مخفي",
+    "reportedBy": "بواسطة {{name}} · قبل {{time}}",
+    "showAttachments": "عرض المرفقات ({{count}})",
+    "collapse": "عرض أقل",
+    "readMore": "قراءة المزيد",
+    "viewInTracker": "عرض في المتتبّع",
+    "status": {
+      "open": "مفتوح",
+      "resolved": "تم الحل",
+      "closed": "مغلق",
+      "draft": "مسودة"
+    },
+    "moderation": {
+      "aria": "إدارة هذا البلاغ",
+      "failed": "فشل إجراء الإشراف",
+      "hidden": "تم إخفاء البلاغ",
+      "unhidden": "تم إظهار البلاغ",
+      "featured": "تم تثبيت البلاغ",
+      "unfeatured": "تم إلغاء تثبيت البلاغ",
+      "pin": "تثبيت كمشكلة معروفة",
+      "unpin": "إلغاء التثبيت",
+      "pinnedState": "مثبّت"
+    },
+    "formTitle": "أرسل بلاغًا",
+    "form": {
+      "categoryLabel": "ما نوع هذه المشكلة؟",
+      "category": {
+        "bug": "شيء لا يعمل",
+        "wallet": "المحفظة أو الدفع",
+        "content": "حملة أو محتوى",
+        "feature": "طلب ميزة"
+      },
+      "subjectLabel": "الملخّص",
+      "subjectPlaceholder": "سطر واحد يصف المشكلة",
+      "bodyLabel": "ماذا حدث؟",
+      "bodyPlaceholder": "ماذا فعلت، وماذا توقّعت أن يحدث، وماذا حدث بدلًا من ذلك؟",
+      "attachment": {
+        "add": "إضافة لقطة شاشة",
+        "uploading": "جارٍ الرفع…",
+        "item": "لقطة شاشة",
+        "remove": "إزالة لقطة الشاشة",
+        "failed": "فشل رفع لقطة الشاشة"
+      },
+      "diagnosticsLabel": "تضمين معلومات الإصدار والجهاز",
+      "anonymousLabel": "الإرسال بشكل مجهول",
+      "disclosureSigned": "البلاغات علنية وموقّعة بحسابك.",
+      "disclosureAnonymous": "البلاغات علنية، وموقّعة بمفتاح مؤقّت يُستخدم مرة واحدة.",
+      "secretWarning": "يبدو أن هذا يحتوي على بيانات حساسة. سيُنشر علنًا — أزل أي شيء خاص أولًا.",
+      "nsecBlocked": "يحتوي هذا على ما يبدو أنه مفتاح خاص (nsec). أزِله قبل الإرسال — نشره يعني تسليم التحكم بذلك الحساب.",
+      "secretKinds": {
+        "nsec": "مفتاح خاص",
+        "silentPayment": "عنوان دفع صامت",
+        "xpub": "مفتاح عام موسّع",
+        "bitcoinAddress": "عنوان بيتكوين",
+        "seedPhrase": "عبارة البذرة"
+      },
+      "submit": "إرسال البلاغ",
+      "submitting": "جارٍ الإرسال…",
+      "errors": {
+        "cooldown": "لقد أرسلت بلاغًا للتوّ. انتظر قليلًا قبل إرسال بلاغ آخر.",
+        "failed": "تعذّر إرسال البلاغ"
+      }
+    },
+    "success": {
+      "title": "تم إرسال البلاغ",
+      "description": "شكرًا لك — أصبح الآن في متتبّع مشكلات المطوّرين.",
+      "copyId": "نسخ معرّف البلاغ",
+      "copied": "تم النسخ",
+      "viewTracker": "عرض في المتتبّع",
+      "fileAnother": "إرسال بلاغ آخر"
+    },
+    "pinned": "مثبّت"
+  }
+}

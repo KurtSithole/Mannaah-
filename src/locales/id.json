@@ -1,0 +1,3481 @@
+{
+  "donateCallback": {
+    "successTitle": "Pembayaran diterima",
+    "successDescription": "Terima kasih atas donasi Anda! Akan segera muncul.",
+    "cancelTitle": "Pembayaran dibatalkan",
+    "cancelDescription": "Donasi Anda tidak selesai."
+  },
+  "tor": {
+    "status": {
+      "disabled": "Mati",
+      "connecting": "Menghubungkan…",
+      "connected": "Terhubung",
+      "failed": "Koneksi gagal"
+    },
+    "banner": {
+      "connecting": "Menghubungkan ke Tor — konten tidak akan dimuat hingga siap.",
+      "failed": "Tidak dapat terhubung ke Tor — konten diblokir hingga berhasil terhubung.",
+      "retry": "Coba lagi"
+    }
+  },
+  "common": {
+    "loading": "Memuat…",
+    "error": "Kesalahan",
+    "success": "Berhasil",
+    "cancel": "Batal",
+    "save": "Simpan",
+    "delete": "Hapus",
+    "edit": "Ubah",
+    "close": "Tutup",
+    "back": "Kembali",
+    "next": "Berikutnya",
+    "refresh": "Muat ulang",
+    "search": "Cari",
+    "filter": "Filter",
+    "clear": "Bersihkan",
+    "submit": "Kirim",
+    "confirm": "Konfirmasi",
+    "copied": "Tersalin",
+    "goBack": "Kembali",
+    "tryAgain": "Silakan coba lagi.",
+    "showLess": "Tampilkan lebih sedikit",
+    "readMore": "Selengkapnya",
+    "byAuthor": "oleh <0>{{name}}</0>",
+    "clearSearch": "Bersihkan pencarian",
+    "searching": "Mencari…",
+    "searchResultsCount_one": "{{count}} hasil",
+    "searchResultsCount_other": "{{count}} hasil",
+    "sortAriaLabel": "Urutan",
+    "sortDefault": "Bawaan",
+    "sortTop": "Teratas",
+    "sortNew": "Baru",
+    "showHidden": "Tampilkan yang tersembunyi",
+    "filtersAriaLabel": "Filter pencarian",
+    "countryFilterAriaLabel": "Saring berdasarkan negara",
+    "countrySearchPlaceholder": "Cari negara…",
+    "countryNoResults": "Tidak ada negara yang ditemukan.",
+    "countryGlobal": "Global",
+    "continue": "Lanjutkan"
+  },
+  "imageCrop": {
+    "title": "Pangkas Gambar",
+    "reset": "Atur ulang",
+    "hint": "Seret untuk memindahkan · Cubit atau gulir untuk memperbesar",
+    "cancel": "Batal",
+    "processing": "Memproses…",
+    "apply": "Terapkan Pangkasan"
+  },
+  "translate": {
+    "translate": "Terjemahkan",
+    "translating": "Menerjemahkan…",
+    "showOriginal": "Tampilkan asli",
+    "error": "Terjemahan gagal"
+  },
+  "nav": {
+    "openMenu": "Buka menu",
+    "closeMenu": "Tutup menu",
+    "brandHome": "Beranda {{appName}}",
+    "activity": "Aktivitas",
+    "campaigns": "Kampanye",
+    "groups": "Grup",
+    "pledge": "Ikrar",
+    "search": "Cari",
+    "language": "Bahasa",
+    "dashboard": "Dasbor",
+    "myDashboard": "Dasbor Saya",
+    "wallet": "Dompet",
+    "notifications": "Notifikasi",
+    "messages": "Pesan",
+    "profile": "Profil",
+    "settings": "Pengaturan",
+    "about": "Tentang",
+    "verify": "Verifikasi",
+    "privacy": "Privasi",
+    "safety": "Keamanan",
+    "changelog": "Catatan Versi",
+    "sourceCode": "Kode sumber",
+    "getApp": "Dapatkan aplikasi",
+    "walletBalanceHidden": "Saldo dompet disembunyikan",
+    "issues": "Masalah"
+  },
+  "messages": {
+    "title": "Pesan",
+    "subtitle": "Pesan langsung pribadi Anda yang terenkripsi.",
+    "conversations": "Percakapan",
+    "empty": "Belum ada pesan. Percakapan yang Anda miliki akan muncul di sini.",
+    "selectPrompt": "Pilih percakapan untuk membaca pesan Anda.",
+    "composePlaceholder": "Tulis pesan…",
+    "send": "Kirim",
+    "sendFailed": "Gagal mengirim pesan",
+    "youPrefix": "Anda:",
+    "encryptedSent": "Pesan terenkripsi",
+    "encryptedReceived": "Pesan terenkripsi",
+    "decryptFailed": "Tidak dapat mendekripsi pesan ini.",
+    "unsupported": "Metode masuk Anda saat ini tidak mendukung pesan langsung terenkripsi.",
+    "searchConversation": "Cari di percakapan",
+    "searchPlaceholder": "Cari pesan",
+    "noSearchResults": "Tidak ada pesan yang cocok.",
+    "visitProfile": "Kunjungi profil {{name}}",
+    "muteUser": "Bisukan {{name}}",
+    "muteDialogTitle": "Bisukan {{name}}?",
+    "muteDialogDescription": "Ini akan menambahkan {{name}} ke daftar bisu Anda dan menghapus percakapan ini dari Pesan. Anda dapat membatalkannya nanti dari daftar bisu Anda.",
+    "confirmMute": "Bisukan pengguna",
+    "mutedToastTitle": "Pengguna dibisukan",
+    "mutedToastDescription": "{{name}} dibisukan dan percakapan dihapus.",
+    "muteFailed": "Gagal membisukan pengguna",
+    "showFriendsOnly": "Tampilkan pesan dari orang yang Anda ikuti",
+    "showAllConversations": "Tampilkan semua percakapan",
+    "friendsEmpty": "Tidak ada pesan dari orang yang Anda ikuti.",
+    "translateDialogTitle": "Terjemahkan pesan pribadi?",
+    "translateDialogDescription": "Pesan yang diterima akan dikirim ke layanan terjemahan yang Anda konfigurasi. Pesan terkirim tidak akan diterjemahkan. Agora akan mengingat pilihan ini di perangkat ini.",
+    "confirmTranslate": "Terjemahkan pesan",
+    "newMessage": "Pesan baru",
+    "newMessageTitle": "Pesan baru",
+    "recipientLabel": "Kepada",
+    "recipientPlaceholder": "Cari berdasarkan nama, NIP-05, atau npub…",
+    "recipientHint": "Cari seseorang untuk memulai percakapan baru.",
+    "recipientSearching": "Mencari…",
+    "noRecipientResults": "Tidak ada orang ditemukan. Coba nama, NIP-05, atau npub yang berbeda.",
+    "recipientFollowed": "Anda mengikuti orang ini"
+  },
+  "auth": {
+    "join": "Gabung",
+    "login": "Masuk",
+    "signup": "Daftar",
+    "logout": "Keluar",
+    "addAccount": "Tambah akun lain",
+    "createNewAccount": "Buat akun",
+    "or": "atau",
+    "loginExisting": "Masuk dengan akun yang ada",
+    "loginTitle": "Masuk",
+    "connectSignerTitle": "Hubungkan penanda tangan",
+    "back": "Kembali",
+    "secretKeyLabel": "Gunakan kunci rahasia",
+    "nsecPlaceholder": "nsec1…",
+    "loginInputPlaceholder": "nsec1… atau bunker://…",
+    "uploadKeyFile": "Unggah berkas kunci",
+    "loggingIn": "Sedang masuk…",
+    "loginWithExtension": "Masuk dengan ekstensi",
+    "useRemoteSigner": "Gunakan penanda tangan jarak jauh",
+    "tryAgain": "Coba lagi",
+    "cancel": "Batal",
+    "openSignerApp": "Buka aplikasi penanda tangan",
+    "enterBunkerManually": "Masukkan URI bunker secara manual",
+    "bunkerPlaceholder": "bunker://…",
+    "moreLoginOptions": "Opsi masuk lainnya",
+    "scanSignerPrompt": "Pindai dengan aplikasi penanda tangan untuk masuk.",
+    "invalidBunkerFormat": "Format URI bunker tidak valid.",
+    "connecting": "Menghubungkan…",
+    "connect": "Hubungkan",
+    "waitingForSigner": "Menunggu koneksi penanda tangan…",
+    "gettingPublicKey": "Mengambil kunci publik…",
+    "errorEnterLoginInput": "Masukkan kunci rahasia atau URI bunker Anda.",
+    "errorInvalidLoginInput": "Masukkan kunci nsec1… atau URI bunker://… yang valid.",
+    "errorEnterSecretKey": "Masukkan kunci rahasia Anda.",
+    "errorInvalidSecretKey": "Kunci rahasia tidak valid. Harus diawali dengan nsec1.",
+    "errorLoginFailed": "Tidak dapat masuk dengan kunci ini.",
+    "errorFileNoKey": "Berkas tidak berisi kunci rahasia yang valid.",
+    "errorFileRead": "Gagal membaca berkas.",
+    "errorExtensionFailed": "Login ekstensi gagal.",
+    "errorBunkerConnect": "Gagal menghubungkan. Periksa URI bunker.",
+    "extensionErrorTitle": "Login ekstensi gagal"
+  },
+  "onboarding": {
+    "ariaLabel": "Penyiapan akun",
+    "close": "Tutup",
+    "back": "Kembali",
+    "role": {
+      "title": "Apa yang membawa Anda ke sini?",
+      "subtitle": "Anda bisa melakukan keduanya nanti. Ini hanya membantu kami menyesuaikan langkah selanjutnya.",
+      "creator": {
+        "title": "Mulai kampanye",
+        "description": "Galang Bitcoin untuk tujuan yang Anda pedulikan.",
+        "finderNote": "Donatur mengirim sats langsung ke dompet Anda."
+      },
+      "donor": {
+        "title": "Beri donasi untuk kampanye",
+        "description": "Dukung berbagai tujuan dengan Bitcoin.",
+        "finderNote": "Donasi Anda langsung masuk ke dompet penyelenggara."
+      },
+      "verifier": {
+        "title": "Verifikasi kampanye",
+        "description": "Jamin kampanye sebagai sebuah organisasi.",
+        "finderNote": "Donatur melihat lencana pada kampanye yang Anda percaya."
+      }
+    },
+    "keygen": {
+      "title": "Kunci Anda adalah identitas Anda",
+      "description": "Kami akan membuat kunci rahasia khusus untuk Anda. Itu satu-satunya cara untuk masuk — tanpa email, tanpa kata sandi.",
+      "generatingTitle": "Membuat kunci Anda…",
+      "generatingDescription": "Hanya butuh sebentar.",
+      "button": "Buat kunci saya"
+    },
+    "secure": {
+      "title": "Simpan kunci Anda",
+      "subtitle": "Unduh berkas dan simpan di tempat yang aman. Pengelola kata sandi bisa digunakan.",
+      "couplingNote": "Akun dan dompet Anda berbagi kunci ini. Kunci ini menandatangani unggahan Nostr Anda dan membuka dompet Bitcoin Anda di Agora.",
+      "permanenceHeadline": "Tidak ada cara untuk memulihkan kunci ini jika hilang.",
+      "permanenceBody": "Tidak ada reset, tidak ada saluran dukungan, tidak ada pemulihan lewat email. Simpan sebelum melanjutkan.",
+      "button": "Unduh & lanjutkan",
+      "downloadFailedTitle": "Unduh gagal",
+      "downloadFailedDescription": "Tidak dapat mengunduh berkas kunci. Silakan salin secara manual.",
+      "secretKeyAriaLabel": "Kunci rahasia"
+    },
+    "verify": {
+      "title": "Konfirmasi kunci Anda",
+      "subtitle": "Tempel atau unggah kunci yang baru saja Anda simpan. Ini memastikan cadangan Anda berfungsi sebelum Anda melanjutkan.",
+      "placeholder": "nsec1…",
+      "inputAriaLabel": "Tempel kunci rahasia Anda",
+      "or": "atau",
+      "uploadButton": "Unggah berkas kunci",
+      "mismatch": "Itu tidak cocok dengan kunci yang baru saja Anda simpan. Periksa cadangan Anda dan coba lagi.",
+      "fileInvalid": "Berkas itu tidak berisi kunci rahasia yang valid.",
+      "fileReadFailed": "Tidak dapat membaca berkas itu. Silakan coba lagi."
+    },
+    "profile": {
+      "title": "Jadikan milik Anda",
+      "subtitle": "Beri tahu orang lain sedikit tentang diri Anda. Semua opsional, bisa diubah kapan saja.",
+      "campaignTitle": "Beri wajah pada kampanye Anda",
+      "campaignSubtitle": "Nama dan foto membantu orang terhubung dengan kampanye Anda.",
+      "nameLabel": "Nama tampilan",
+      "namePlaceholder": "Nama Anda",
+      "campaignNamePlaceholder": "Judul kampanye",
+      "aboutLabel": "Bio",
+      "aboutPlaceholder": "Sedikit tentang Anda…",
+      "avatarLabel": "Avatar",
+      "uploadAvatar": "Unggah avatar",
+      "advanced": "Lainnya",
+      "finish": "Selesai",
+      "saving": "Menyimpan…",
+      "skip": "Lewati dulu",
+      "imageOnly": "Silakan pilih gambar.",
+      "imageTooLarge": "Gambar terlalu besar (maks 5MB).",
+      "uploadFailed": "Unggah gagal.",
+      "publishFailedTitle": "Penyiapan profil gagal",
+      "publishFailedDescription": "Akun Anda telah dibuat tetapi profil tidak dapat disimpan. Anda bisa memperbaruinya nanti."
+    },
+    "verifier": {
+      "identity": {
+        "title": "Siapkan organisasi Anda",
+        "subtitle": "Nama dan logo wajib diisi. Situs web dan banner opsional.",
+        "websiteInvalid": "Masukkan situs web valid yang diawali dengan https://",
+        "cropAvatar": "Pangkas logo",
+        "cropBanner": "Pangkas banner",
+        "uploading": "Mengunggah gambar…",
+        "clipboardFailed": "Tidak dapat membaca dari papan klip.",
+        "pasteUrlInvalid": "Papan klip tidak berisi URL https yang valid.",
+        "pasteUrlFetchFailed": "Tidak dapat memuat gambar itu. Periksa URL-nya dan coba lagi."
+      },
+      "bio": {
+        "title": "Ceritakan tentang organisasi Anda",
+        "subtitle": "Deskripsi singkat untuk profil Anda.",
+        "label": "Tentang organisasi Anda",
+        "placeholder": "Kami adalah organisasi nirlaba yang…",
+        "publishing": "Menyimpan profil Anda…"
+      },
+      "publishFailedTitle": "Profil tidak tersimpan",
+      "publishFailedDescription": "Akun Anda sudah siap, tetapi profil organisasi tidak dapat dipublikasikan. Anda bisa menyelesaikannya nanti dari pengaturan.",
+      "statement": {
+        "title": "Publikasikan pernyataan verifikator Anda",
+        "subtitle": "Jelaskan cara Anda memeriksa kampanye sebelum menjaminnya. Dipublikasikan secara publik agar donatur dapat memercayai lencana Anda."
+      },
+      "howto": {
+        "title": "Cara memverifikasi kampanye",
+        "subtitle": "Semuanya sudah siap. Berikut cara menjamin kampanye setelah Anda memeriksanya.",
+        "finish": "Lihat kampanye"
+      }
+    }
+  },
+  "feed": {
+    "indexTagline": "Memberi Tanpa Batas.",
+    "getApp": {
+      "eyebrow": "Dapatkan aplikasi",
+      "title": "{{appName}} untuk Android",
+      "subtitle": "Pengalaman {{appName}} sepenuhnya",
+      "download": "Unduh"
+    },
+    "compose": {
+      "placeholder": "Apa yang sedang terjadi?"
+    },
+    "tabs": {
+      "follows": "Mengikuti",
+      "following": "Mengikuti",
+      "global": "Global"
+    },
+    "empty": {
+      "homeAgora": "Suasana tenang di Agora. Kampanye, ikrar, donasi, dan unggahan baru akan muncul di sini saat terjadi.",
+      "homeFollowingLoggedIn": "Feed orang yang Anda ikuti kosong. Ikuti beberapa orang untuk melihat aktivitas mereka, atau beralih ke Agora atau Global.",
+      "homeFollowingLoggedOut": "Masuk untuk melihat unggahan dari orang yang Anda ikuti.",
+      "homeOther": "Tidak ada yang ditampilkan. Periksa koneksi relay Anda atau coba lagi sebentar lagi.",
+      "follows": "Feed Anda kosong. Ikuti beberapa orang untuk melihat unggahan mereka di sini.",
+      "global": "Tidak ada unggahan ditemukan. Periksa koneksi relay Anda atau kembali lagi nanti.",
+      "browseAgora": "Jelajahi feed Terbaru",
+      "browseGlobal": "Jelajahi feed Global",
+      "discoverPeople": "Temukan orang untuk diikuti",
+      "logIn": "Masuk"
+    },
+    "error": {
+      "toast": "Tidak dapat memuat feed. Periksa koneksi Anda dan coba lagi.",
+      "loadFailed": "Tidak dapat memuat feed. Biasanya karena relay yang lambat atau tidak dapat dijangkau — konten Anda masih ada.",
+      "retry": "Coba lagi"
+    },
+    "modeSwitcher": {
+      "agora": "Terbaru",
+      "allNostr": "Global",
+      "following": "Mengikuti",
+      "ariaLabel": "Mode feed: {{label}}. Klik untuk mengubah.",
+      "loginRequired": "Masuk untuk melihat unggahan dari orang yang Anda ikuti"
+    },
+    "replyContext": {
+      "replyingTo": "Membalas",
+      "and": "dan",
+      "andOthers_one": "dan {{count}} lainnya",
+      "andOthers_other": "dan {{count}} lainnya"
+    },
+    "actions": {
+      "reply": "Balas",
+      "repost": "Repost",
+      "undoRepost": "Batalkan repost",
+      "react": "Reaksi",
+      "zap": "Zap",
+      "share": "Bagikan",
+      "more": "Lainnya",
+      "linkCopied": "Tautan disalin ke papan klip"
+    }
+  },
+  "compose": {
+    "placeholderDefault": "Apa yang sedang terjadi?",
+    "placeholderPoll": "Ajukan pertanyaan…",
+    "placeholderCountry": "Apa yang sedang terjadi di {{country}}?",
+    "placeholderCwReason": "Alasan peringatan konten (opsional)",
+    "submitDefault": "Posting!",
+    "preview": {
+      "edit": "Ubah",
+      "previewMode": "Pratinjau"
+    },
+    "autocomplete": {
+      "campaignFallback": "Kampanye"
+    },
+    "poll": {
+      "addOption": "Tambah opsi",
+      "optionLabel": "Opsi {{number}}",
+      "singleChoice": "Pilihan tunggal",
+      "multipleChoice": "Pilihan ganda",
+      "backToPost": "Kembali ke unggahan",
+      "publishing": "Memublikasikan...",
+      "publish": "Publikasikan polling",
+      "published": "Polling dipublikasikan!",
+      "publishFailed": "Gagal memublikasikan polling."
+    },
+    "voice": {
+      "cancel": "Batal",
+      "send": "Kirim",
+      "sending": "Mengirim...",
+      "sentTitle": "Pesan suara terkirim!",
+      "sentBody": "Pesan suara Anda telah dipublikasikan.",
+      "sendFailed": "Gagal mengirim pesan suara.",
+      "micDeniedTitle": "Akses mikrofon ditolak",
+      "micDeniedBody": "Izinkan akses mikrofon untuk merekam pesan suara.",
+      "voiceMessage": "Pesan suara"
+    },
+    "toolbar": {
+      "attachFile": "Lampirkan berkas",
+      "emojiGif": "Emoji / GIF",
+      "more": "Lainnya",
+      "poll": "Polling",
+      "spoiler": "Spoiler",
+      "emoji": "Emoji",
+      "stickers": "Stiker"
+    },
+    "submit": {
+      "posting": "Memposting...",
+      "uploadFailed": "Unggah gagal",
+      "uploadFailedBody": "Tidak dapat mengunggah berkas.",
+      "publishFailed": "Gagal memublikasikan catatan.",
+      "posted": "Terposting!",
+      "replyPublished": "Balasan Anda telah dipublikasikan.",
+      "quotePublished": "Kutipan Anda telah dipublikasikan.",
+      "notePublished": "Catatan Anda telah dipublikasikan."
+    },
+    "destination": {
+      "ariaHelp": "Apa perbedaan antara unggahan global dan komunitas?",
+      "ariaTrigger": "Tujuan unggahan",
+      "global": "Global",
+      "globalExplainer": "Unggahan biasa yang terlihat oleh semua orang di Nostr. Siapa pun, di mana pun bisa melihatnya.",
+      "community": "Komunitas negara Anda",
+      "communityExplainer": "Ditampilkan di feed lokal negara tersebut bersama unggahan dari tetangga. Cocok untuk pembaruan yang relevan untuk komunitas.",
+      "chooseAnother": "Pilih negara lain…",
+      "searchPlaceholder": "Cari negara...",
+      "noResults": "Tidak ada negara ditemukan.",
+      "isDefault": "{{name}} adalah default Anda",
+      "globalIsDefault": "Global adalah default Anda",
+      "thisIsDefault": "Ini adalah default Anda",
+      "setAsDefault": "Tetapkan sebagai default",
+      "defaultUpdated": "Default diperbarui",
+      "defaultUpdatedCountry": "Unggahan baru akan dikirim ke {{name}} secara default.",
+      "defaultUpdatedGlobal": "Unggahan baru akan menjadi global secara default.",
+      "label": "Posting ke"
+    }
+  },
+  "replyModal": {
+    "title": {
+      "newPoll": "Polling baru",
+      "newComment": "Komentar baru",
+      "commentOnProfile": "Komentar di profil",
+      "replyToPost": "Balas unggahan",
+      "quotePost": "Kutip unggahan",
+      "newPost": "Unggahan baru"
+    },
+    "placeholder": {
+      "writeComment": "Tulis komentar...",
+      "writeReply": "Tulis balasan...",
+      "addComment": "Tambah komentar...",
+      "whatsHappening": "Apa yang sedang terjadi?"
+    },
+    "blueskyDisclaimer": "Orang-orang di Bluesky tidak bisa melihat Anda karena mereka sebenarnya tidak terdesentralisasi."
+  },
+  "postDetail": {
+    "repliesHeading": "Balasan",
+    "commentsHeading": "Komentar",
+    "replyCount_one": "balasan",
+    "replyCount_other": "balasan",
+    "commentCount_one": "komentar",
+    "commentCount_other": "komentar"
+  },
+  "noteCard": {
+    "botAccount": "Akun bot",
+    "showLess": "Tampilkan lebih sedikit",
+    "readMore": "Selengkapnya",
+    "reacted": "bereaksi",
+    "reposted": "merepost",
+    "voted": "memilih",
+    "zap": {
+      "donatedTo": "Berdonasi kepada",
+      "donatedAmountTo": "Berdonasi {{amount}} kepada",
+      "sat_one": "{{formattedCount}} sat",
+      "sat_other": "{{formattedCount}} sats"
+    },
+    "stream": {
+      "untitled": "Streaming Tanpa Judul",
+      "live": "LIVE",
+      "ended": "BERAKHIR",
+      "planned": "DIRENCANAKAN",
+      "unknown": "TIDAK DIKETAHUI"
+    },
+    "kindHeader": {
+      "photo": {
+        "action": "membagikan",
+        "noun": "foto"
+      },
+      "encryptedMessage": {
+        "action": "mengirim",
+        "noun": "pesan terenkripsi"
+      },
+      "letter": {
+        "action": "mengirim",
+        "noun": "surat"
+      },
+      "treasureHidCreated": "menyembunyikan",
+      "treasureHidUpdated": "memperbarui",
+      "treasureNoun": "harta karun",
+      "treasureFound": "menemukan",
+      "deckCreated": "membuat",
+      "deckUpdated": "memperbarui",
+      "deckFallback": "membagikan",
+      "deckNoun": "dek",
+      "emojiPackCreated": "membuat",
+      "emojiPackUpdated": "memperbarui",
+      "emojiPackFallback": "membagikan",
+      "emojiPackNoun": "paket emoji",
+      "groupCreated": "membuat",
+      "groupUpdated": "memperbarui",
+      "groupFallback": "membagikan",
+      "groupNoun": "grup",
+      "campaignLaunched": "meluncurkan",
+      "campaignUpdated": "memperbarui",
+      "campaignFallback": "membagikan",
+      "campaignNoun": "kampanye",
+      "badgeAwarded": "memberikan",
+      "badgeNoun": "lencana",
+      "badgeCreated": "membuat",
+      "badgeDefUpdated": "memperbarui",
+      "badgesNoun": "lencana",
+      "badgesCreatedTheir": "membuat",
+      "badgesUpdatedTheir": "memperbarui",
+      "streamingLive": "sedang streaming",
+      "streamed": "menyiarkan",
+      "zapstoreAppPublished": "memublikasikan aplikasi Zapstore",
+      "zapstoreAppUpdated": "memperbarui aplikasi Zapstore",
+      "zapstoreReleasePublished": "memublikasikan rilis Zapstore",
+      "zapstoreReleaseUpdated": "memperbarui rilis Zapstore",
+      "zapstoreAssetPublished": "memublikasikan aset Zapstore",
+      "appPublished": "memublikasikan aplikasi",
+      "appUpdated": "memperbarui aplikasi",
+      "repoCreated": "membuat",
+      "repoUpdated": "memperbarui",
+      "repoFallback": "membagikan",
+      "repoNoun": "repositori",
+      "patchSubmitted": "mengirim",
+      "patchNoun": "patch",
+      "prOpened": "membuka",
+      "prNoun": "pull request",
+      "nipProposed": "mengusulkan",
+      "nipUpdated": "memperbarui",
+      "nipNoun": "NIP",
+      "nsiteDeployed": "menerbitkan",
+      "nsiteRedeployed": "menerbitkan ulang",
+      "nsiteNoun": "nsite",
+      "zapped": "memberi zap",
+      "pledgeCreated": "membuat",
+      "pledgeUpdated": "memperbarui",
+      "pledgeNoun": "ikrar",
+      "followPackCreated": "membuat",
+      "followPackUpdated": "memperbarui",
+      "followPackFallback": "membagikan",
+      "followPackNoun": "paket follow",
+      "followSetCreated": "membuat",
+      "followSetUpdated": "memperbarui",
+      "followSetFallback": "membagikan",
+      "followSetNoun": "set follow"
+    }
+  },
+  "embedCampaign": {
+    "iframeTitle": "Kampanye penggalangan dana Agora",
+    "notFound": "Kampanye tidak ditemukan.",
+    "dialogTitle": "Sematkan kampanye ini",
+    "dialogDescription": "Pilih widget, lihat pratinjaunya, lalu tempel kodenya di situs Anda.",
+    "variantLabel": "Widget",
+    "variant": {
+      "card": "Kartu",
+      "donate": "Donasi",
+      "full": "Lengkap"
+    },
+    "themeLabel": "Tema",
+    "snippetLabel": "Kode sematan",
+    "openStandalone": "Buka di tab baru",
+    "viewOnAgora": "Lihat di Agora"
+  },
+  "noteMoreMenu": {
+    "title": "Opsi unggahan",
+    "viewPost": "Lihat detail unggahan",
+    "embedWidget": "Sematkan widget",
+    "viewEventJson": "Lihat JSON Event",
+    "bookmark": "Bookmark",
+    "removeBookmark": "Hapus Bookmark",
+    "addToList": "Tambah ke daftar",
+    "addToSidebar": "Tambah ke bilah sisi",
+    "removeFromSidebar": "Hapus dari bilah sisi",
+    "pinProfile": "Sematkan di profil",
+    "unpinProfile": "Lepas sematan dari profil",
+    "pinCountry": "Sematkan ke feed negara",
+    "unpinCountry": "Lepas sematan dari feed negara",
+    "mute": "Bisukan @{{name}}",
+    "unmute": "Aktifkan @{{name}}",
+    "report": "Laporkan @{{name}}",
+    "reportToGroup": "Laporkan unggahan ke grup",
+    "removeFromGroup": "Hapus dari grup",
+    "delete": "Hapus unggahan",
+    "close": "Tutup",
+    "encryptedContent": "Konten terenkripsi",
+    "toast": {
+      "removedFromSidebar": "Dihapus dari bilah sisi",
+      "addedToSidebar": "Ditambahkan ke bilah sisi",
+      "pinned": "Disematkan ke profil",
+      "unpinned": "Sematan dilepas dari profil",
+      "pinFailed": "Gagal memperbarui unggahan yang disematkan",
+      "countryPinned": "Disematkan ke feed negara",
+      "countryUnpinned": "Sematan dilepas dari feed negara",
+      "countryPinFailed": "Gagal menyematkan ke feed negara",
+      "countryUnpinFailed": "Gagal melepas sematan dari feed negara",
+      "muted": "Membisukan @{{name}}",
+      "unmuted": "Mengaktifkan @{{name}}",
+      "muteFailed": "Gagal membisukan pengguna",
+      "unmuteFailed": "Gagal mengaktifkan pengguna",
+      "postDeleted": "Unggahan dihapus",
+      "deleteFailed": "Gagal menghapus unggahan",
+      "eventBroadcast": "Event disiarkan ke relay",
+      "broadcastFailed": "Gagal menyiarkan event",
+      "copied": "{{label}} disalin ke papan klip",
+      "embedCopied": "Kode sematan disalin ke papan klip"
+    },
+    "deleteDialog": {
+      "title": "Hapus unggahan?",
+      "description": "Ini akan meminta penghapusan dari relay. Beberapa relay mungkin tetap menyimpan salinan event asli. Tindakan ini tidak dapat dibatalkan.",
+      "cancel": "Batal",
+      "delete": "Hapus",
+      "deleting": "Menghapus..."
+    },
+    "jsonDialog": {
+      "title": "Detail Event",
+      "eventId": "ID Event",
+      "eventIdLabel": "ID Event",
+      "rawJson": "JSON Mentah",
+      "eventJsonLabel": "JSON Event",
+      "broadcast": "Siarkan Event",
+      "broadcasting": "Menyiarkan..."
+    }
+  },
+  "content": {
+    "title": "Konten",
+    "description": "Kelola pengguna, tagar, dan kata yang dibisukan.",
+    "muted": {
+      "heading": "Konten yang Dibisukan",
+      "subheading": "Anda yang menentukan apa yang muncul di feed Anda. Hapus item untuk mengaktifkannya kembali. Bisu bersifat terenkripsi dan privat.",
+      "empty": "Anda belum membisukan siapa pun.",
+      "removed": "Dihapus dari daftar bisu",
+      "removeFailed": "Gagal menghapus dari daftar bisu",
+      "removeAria": "Hapus bisu untuk {{value}}",
+      "types": {
+        "pubkey": "Pengguna",
+        "hashtag": "Tagar",
+        "word": "Kata",
+        "thread": "Utas"
+      }
+    }
+  },
+  "mutedGuard": {
+    "title": "Konten yang Dibisukan",
+    "description": "Unggahan ini berasal dari seseorang yang Anda bisukan.",
+    "showAnyway": "Tetap Tampilkan",
+    "manageMutes": "Kelola konten yang dibisukan"
+  },
+  "policyPages": {
+    "privacy": {
+      "seoTitle": "Kebijakan Privasi",
+      "seoDescription": "Kebijakan privasi untuk {{appName}} — bagaimana data Anda ditangani di jaringan Nostr",
+      "title": "Kebijakan Privasi"
+    },
+    "csae": {
+      "seoTitle": "Kebijakan Keamanan Anak",
+      "seoDescription": "Kebijakan {{appName}} mengenai pelecehan dan eksploitasi seksual anak (CSAE) — komitmen kami terhadap keamanan anak di jaringan Nostr",
+      "title": "Kebijakan Keamanan Anak"
+    },
+    "donorGuide": {
+      "seoTitle": "Panduan Donatur",
+      "seoDescription": "Cara kerja donasi di {{appName}} dan cara melindungi privasi Anda.",
+      "title": "Panduan Donatur",
+      "subtitle": "Bitcoin asli, dikirim langsung. Seluruh alur dalam satu halaman singkat."
+    },
+    "recipientGuide": {
+      "seoTitle": "Panduan Penerima",
+      "seoDescription": "Cara menerima donasi di {{appName}} dan mencairkannya secara privat.",
+      "title": "Panduan Penerima",
+      "subtitle": "Pilih apa yang diterima, terima donasi, cairkan."
+    },
+    "changelog": {
+      "seoTitle": "Catatan Versi",
+      "seoDescription": "Apa yang baru di {{appName}}",
+      "title": "Catatan Versi",
+      "loadError": "Gagal memuat catatan versi.",
+      "empty": "Belum ada rilis.",
+      "pastReleases": "Rilis sebelumnya",
+      "showLess": "Tampilkan lebih sedikit",
+      "readMore": "Selengkapnya",
+      "preReleaseLabel": "Build pra-rilis",
+      "preReleaseBody": "Build ini berisi perubahan yang belum disertakan dalam rilis.",
+      "viewUnreleased": "Lihat perubahan yang belum dirilis",
+      "categories": {
+        "Added": "Ditambahkan",
+        "Changed": "Diubah",
+        "Deprecated": "Tidak Direkomendasikan",
+        "Removed": "Dihapus",
+        "Fixed": "Diperbaiki",
+        "Security": "Keamanan"
+      }
+    }
+  },
+  "about": {
+    "seoTitle": "Tentang",
+    "seoDescription": "{{appName}} adalah Jaringan Mikrofilantropi Tanpa Batas pertama di dunia — pemberian langsung antar sesama yang ditenagai oleh Bitcoin dan Nostr.",
+    "hero": {
+      "eyebrow": "Tentang {{appName}}",
+      "headlinePart1": "Cara",
+      "headlineAppName": "{{appName}}",
+      "headlinePart2": "bekerja.",
+      "body": "{{appName}} adalah Jaringan Mikrofilantropi Tanpa Batas pertama di dunia. {{appName}} memungkinkan siapa pun, di mana pun, memberi langsung kepada orang dan perjuangan di seluruh dunia dengan Bitcoin — tanpa batas negara, tanpa perantara, tanpa biaya platform. Tanpa rekening bank yang dibekukan, tanpa penutupan oleh korporasi. Hanya dukungan langsung dari orang-orang yang percaya pada perjuangan Anda.",
+      "trustChips": {
+        "decentralized": "Terdesentralisasi",
+        "openSource": "Sumber terbuka",
+        "censorshipResistant": "Anti-sensor"
+      },
+      "ctaDonor": "Baca Panduan Donatur",
+      "ctaRecipient": "Baca Panduan Penerima",
+      "sampleCard": {
+        "countryName": "Venezuela",
+        "public": "Publik",
+        "imageAlt": "Warga Venezuela dalam aksi nyala lilin sambil memegang spanduk bertuliskan 'Liberen a todos los presos políticos · ¡Cese la represión!'",
+        "orgName": "Venezolanos Libres",
+        "title": "Bebaskan Tahanan Politik Venezuela",
+        "description": "Pembelaan hukum dan dukungan keluarga untuk 800+ tahanan politik yang ditahan rezim Maduro.",
+        "raised": "terkumpul",
+        "ofGoal": "dari $10,000",
+        "donorsLine": "247 donatur · 12 negara",
+        "donate": "Donasi Bitcoin"
+      }
+    },
+    "howItWorks": {
+      "eyebrow": "Cara kerjanya",
+      "title": "Tiga langkah. Tanpa perantara.",
+      "lede": "Tanpa bank, tanpa batas negara, tanpa izin.",
+      "step1": {
+        "imageAlt": "Kunci kriptografis oranye bercahaya melayang di angkasa gelap, melambangkan identitas yang berdaulat sendiri",
+        "title": "Penerima mendaftar dalam hitungan detik.",
+        "body": "Tanpa bank. Tanpa berkas. Tanpa persetujuan. Saat seorang penerima membuat akun di {{appName}}, mereka sudah punya alamat Bitcoin siap menerima dukungan, di mana pun di dunia."
+      },
+      "step2": {
+        "imageAlt": "Koin Bitcoin bercahaya melayang di udara melintasi peta dunia gelap, melambangkan pembayaran lintas batas seketika",
+        "title": "Donatur mengirim Bitcoin langsung.",
+        "body": "Donatur mengirim Bitcoin dari dompet apa pun yang sudah mereka pakai (Cash App, Coinbase, Strike, dompet perangkat keras) langsung ke penerima. {{appName}} tidak pernah menyentuh uangnya. Tidak ada server di tengah, tidak ada kustodian."
+      },
+      "step3": {
+        "imageAlt": "Telapak tangan terbuka dengan cahaya oranye hangat memancar dari telapaknya, melambangkan penerimaan dan agensi",
+        "title": "Dukungan sampai ke tempat yang tepat.",
+        "body": "Dana sampai ke penerima langsung. Mereka tetap memegang kendali, mereka tetap memegang kontrol. Pindahkan, tukarkan, atau belanjakan; panduan di bawah menjelaskan cara melakukannya secara privat dan aman."
+      }
+    },
+    "twoWays": {
+      "eyebrow": "Bitcoin · Satu QR, dua opsi",
+      "title": "Dua cara untuk dibayar.",
+      "lede": "Kedua opsi adalah Bitcoin. Perbedaannya adalah apa yang Anda korbankan demi privasi. Saat seorang penerima membuat kampanye, mereka memilih opsi mana yang diterima. Jika keduanya, halaman donasi menampilkan satu kode QR yang berfungsi untuk dompet apa pun.",
+      "public": {
+        "kicker": "Pembayaran Bitcoin Publik",
+        "tagline": "Universal · Cepat · Transparan",
+        "title": "Berfungsi dengan setiap dompet di bumi.",
+        "description": "Donasi mendarat di alamat Bitcoin biasa yang dikendalikan penerima. Siapa pun dengan dompet Bitcoin apa pun bisa mengirim. Tanpa aplikasi baru, tanpa akun baru, tanpa kurva belajar.",
+        "bullet1": "Berfungsi di setiap dompet Bitcoin: Cash App, Coinbase, Strike, perangkat keras",
+        "bullet2": "Penyelesaian tercepat: hanya konfirmasi Bitcoin",
+        "bullet3": "Dapat diverifikasi on-chain: siapa pun bisa melihat apa yang diterima penerima",
+        "tradeoffTitle": "Konsekuensi: Publik di on-chain.",
+        "tradeoffIntro": "Setiap donasi bersifat publik di blockchain Bitcoin dan di Nostr. {{appName}} direkomendasikan hanya untuk kampanye terbuka. Jika Anda atau donatur Anda membutuhkan privasi ekstrem, termasuk dari aktor negara, baca <0>Panduan Donatur</0> dan <1>Panduan Penerima</1> sebelum berpartisipasi."
+      },
+      "silent": {
+        "kicker": "Pembayaran Bitcoin Silent",
+        "tagline": "Tak Terhubungkan · Langsung · BIP-352",
+        "title": "Tak terhubungkan, on-chain, langsung.",
+        "description": "Donasi dikirim sebagai silent payments BIP-352. Setiap donasi mendarat di output Bitcoin yang baru dan tak terhubungkan, yang tidak bisa dikaitkan kembali ke kampanye oleh pengamat yang menatap blockchain.",
+        "bullet1": "Jejak donasi tidak bisa direkonstruksi di on-chain",
+        "bullet2": "Melindungi penerima yang menghadapi musuh serius",
+        "bullet3": "Disimpan dalam saldo privat terpisah, tidak pernah dicampur dengan dana publik",
+        "tradeoffTitle": "Konsekuensi: Silent payments masih dini.",
+        "tradeoffIntro": "Cara paling privat untuk menerima Bitcoin secara on-chain, namun ekosistemnya masih muda dan kasar saat ini:",
+        "tradeoffBullet1": "Sedikit dompet yang mendukungnya.",
+        "tradeoffBullet2": "Penerimaan lambat.",
+        "tradeoffBullet3": "Tanpa notifikasi push.",
+        "tradeoffBullet4": "Dompet masih sering bermasalah.",
+        "tradeoffBullet5": "Jumlah donasi tidak publik."
+      },
+      "noCustody": {
+        "title": "Tanpa kustodi. Tanpa perantara.",
+        "body": "{{appName}} tidak pernah menyimpan dana. Donasi berpindah dari dompet ke dompet di Bitcoin. Tidak ada server yang berdiri di antara donatur dan penerima di kedua opsi. Jika {{appName}} hilang besok, setiap kampanye akan tetap berjalan.",
+        "gofundme": {
+          "heading": "Tidak seperti GoFundMe",
+          "body": "Tidak ada platform yang bisa membekukan donasi Anda, menuntut pengembalian dana, atau menutup kampanye Anda karena perbedaan kebijakan."
+        },
+        "givesendgo": {
+          "heading": "Tidak seperti GiveSendGo",
+          "body": "Tidak ada prosesor pembayaran yang duduk di tengah, jadi tidak ada Stripe, tidak ada Visa, tidak ada bank yang bisa memutus Anda di tengah kampanye."
+        },
+        "otherBitcoin": {
+          "heading": "Tidak seperti platform 'Bitcoin' lainnya",
+          "body": "Tidak ada node Lightning pusat, kustodian, atau LSP yang bisa gagal atau offline. Dana diselesaikan langsung on-chain ke dompet yang Anda kendalikan."
+        }
+      }
+    },
+    "faq": {
+      "eyebrow": "Pertanyaan",
+      "title": "Sering ditanyakan.",
+      "chapter1": {
+        "label": "Memulai",
+        "description": "Apa itu Agora, siapa yang membangunnya, dan berapa biayanya."
+      },
+      "chapter2": {
+        "label": "Donasi Bitcoin",
+        "description": "Cara kerja pembayaran, mengapa on-chain, mengapa publik, mengapa konsekuensi ini."
+      },
+      "chapter3": {
+        "label": "Tentang Nostr",
+        "description": "Protokol terbuka yang menjadi fondasi Agora, dan cara kerja akun Anda."
+      },
+      "chapter4": {
+        "label": "Verifikasi & kepercayaan",
+        "description": "Apa arti lencana terverifikasi, siapa yang memberikannya, dan cara menilai sendiri sebuah kampanye."
+      }
+    },
+    "guides": {
+      "eyebrow": "Panduan",
+      "title": "Pilih posisi Anda.",
+      "lede": "Baik Anda mengirim atau menerima, pelajari cara melakukannya dengan aman dan privat.",
+      "donor": {
+        "imageAlt": "Pengunjuk rasa berkerudung berbaris di jalan kota Eropa saat senja, memegang flare merah menyala dan spanduk 'FREEDOM' dan 'LIBERTAD'",
+        "role": "Untuk Donatur",
+        "title": "Dukung perjuangan yang tidak didukung bank.",
+        "description": "Kirim Bitcoin langsung ke penerima dan gerakan di mana pun di dunia, tanpa meminta izin kepada prosesor pembayaran.",
+        "bullet1": "Gunakan dompet Bitcoin apa pun yang sudah Anda miliki.",
+        "bullet2": "Donasi mendarat langsung ke penerima. Tanpa kustodian, tanpa perantara.",
+        "bullet3": "Untuk privasi, gunakan dompet yang mendukung silent payments.",
+        "cta": "Baca Panduan Donatur"
+      },
+      "recipient": {
+        "imageAlt": "Pemandangan dari udara ribuan pengunjuk rasa berkumpul di malam hari di alun-alun kota dengan flare merah menyala, di bawah spanduk 'UNITY IN DARKNESS' yang diproyeksikan ke bangunan sekitar",
+        "role": "Untuk Penerima",
+        "title": "Dapatkan pendanaan tanpa izin.",
+        "description": "Terima dukungan langsung dari orang-orang yang percaya pada perjuangan Anda. Tanpa rekening bank, tanpa formulir aplikasi, tanpa perusahaan di tengah.",
+        "bullet1": "Mulai menerima donasi segera setelah Anda mendaftar.",
+        "bullet2": "Pilih jenis pembayaran yang diterima: publik, silent payments, atau keduanya.",
+        "bullet3": "Untuk pencairan privat, kirim ke dompet silent-payments dulu, lalu teruskan ke mana saja.",
+        "cta": "Baca Panduan Penerima"
+      },
+      "stillStuck": "Masih bingung?",
+      "followTeam": "Ikuti Team Soapbox di Nostr",
+      "stillStuckSuffix": ". Kami menjawab pertanyaan di sana."
+    }
+  },
+  "corporateSponsorship": {
+    "seoDescription": "Bermitralah dengan {{appName}} untuk mendanai perjuangan yang berarti. Berdonasi ke Dana Perjuangan Agora, berikan dana padanan untuk donasi ke kampanye yang Anda pedulikan, atau promosikan {{appName}} kepada pelanggan Anda sebagai bagian dari inisiatif filantropi perusahaan.",
+    "intro": {
+      "eyebrow": "Mengapa bermitra",
+      "title": "Kedermawanan korporat yang selaras dengan tujuan Anda",
+      "lede": "Langsung, transparan, dan dapat diverifikasi. Pemberian yang dapat didukung penuh oleh perusahaan Anda.",
+      "cards": {
+        "bitcoin": {
+          "title": "Platform berbasis Bitcoin",
+          "body": "Donasi diselesaikan di blockchain Bitcoin. Tanpa batas negara, tak terbendung, dan dapat diverifikasi oleh siapa pun."
+        },
+        "verified": {
+          "title": "Dana kampanye terverifikasi",
+          "body": "Setiap kampanye diperiksa dan diverifikasi sebelum dana disalurkan."
+        },
+        "fees": {
+          "title": "Tanpa biaya platform",
+          "body": "100% pemberian Anda sampai ke perjuangan yang dituju. Kami tidak mengambil apa pun."
+        }
+      }
+    },
+    "ways": {
+      "causeFunds": {
+        "kicker": "01 · Dukungan langsung",
+        "title": "Berdonasi ke Dana Perjuangan {{appName}}",
+        "description": "Dana kolektif untuk perjuangan yang Anda pedulikan. {{appName}} menyalurkannya ke kampanye tepercaya yang terverifikasi.",
+        "bullet1": "Beri dalam Bitcoin (BTC) atau dolar AS (USD)",
+        "bullet2": "Digabungkan dengan donatur lain untuk dampak yang lebih besar",
+        "bullet3": "Disalurkan ke kampanye tepercaya yang terverifikasi",
+        "cta": "Jelajahi Dana Perjuangan"
+      }
+    },
+    "fundsShowcase": {
+      "eyebrow": "Dana Perjuangan",
+      "title": "Dana Kampanye Terverifikasi {{appName}}",
+      "lede": "Setiap dana menggabungkan donasi dan menyalurkannya ke kampanye terverifikasi.",
+      "browseAll": "atau jelajahi semua kampanye"
+    },
+    "cta": {
+      "body": "Beri tahu kami bagaimana Anda ingin terlibat dan kami akan membantu menyiapkan kemitraan yang tepat: pemberian Dana Perjuangan, dana padanan, atau kampanye pelanggan."
+    }
+  },
+  "partners": {
+    "partnersTitle": "Bangun dalam kolaborasi dengan:",
+    "pressTitle": "Diliput oleh:"
+  },
+  "forms": {
+    "required": "Wajib",
+    "recommended": "Direkomendasikan",
+    "optional": "Opsional",
+    "title": "Judul",
+    "country": "Negara",
+    "tags": "Tag",
+    "coverImage": "Gambar sampul",
+    "description": "Deskripsi",
+    "timezone": "Zona waktu",
+    "countrySearchPlaceholder": "Cari negara",
+    "imageDropzone": "Klik atau seret gambar ke sini",
+    "countryClearAria": "Hapus negara",
+    "flagOfAria": "Bendera {{name}}",
+    "countryHint": "Memublikasikan <0>i: iso3166:{{code}}</0> untuk pengurutan negara.",
+    "publishing": "Memublikasikan…",
+    "uploadingCover": "Mengunggah sampul…"
+  },
+  "organizationContext": {
+    "attachedToGroup": "Terlampir ke grup",
+    "groupFallback": "Grup",
+    "editSubtext": "Pembaruan akan tetap terhubung ke aktivitas resmi grup ini.",
+    "malformedParam": "Tidak dapat membaca grup di tautan. Memublikasikan dengan akun Anda.",
+    "checkingPermissions": "Memeriksa izin grup…",
+    "unauthorized": "Anda bukan pendiri atau moderator grup tersebut. Memublikasikan dengan akun Anda.",
+    "publishingAsGroup": "Memublikasikan sebagai grup"
+  },
+  "notFound": {
+    "title": "404 - Halaman Tidak Ditemukan",
+    "description": "Halaman yang Anda cari tidak dapat ditemukan.",
+    "heading": "Halaman ini tidak ada.",
+    "goHome": "Ke beranda"
+  },
+  "pledges": {
+    "list": {
+      "seoTitle": "Ikrar",
+      "seoTitleWithCountry": "Ikrar — {{country}}",
+      "seoDescription": "Ikrarkan pendanaan untuk aksi, bukti, atau hasil konkret yang ingin Anda inspirasi.",
+      "heroKicker": "Ikrar",
+      "heroHeading": "Inspirasi perubahan",
+      "heroHeadingLine2": "yang ingin Anda lihat.",
+      "heroBody": "Danai aksi, bukti, dan hasil konkret. Orang-orang membalas dengan kiriman, dan komunitas memberi imbalan kepada karya yang menggerakkan tujuan maju.",
+      "openCount_one": "ikrar terbuka saat ini",
+      "openCount_other": "ikrar terbuka saat ini",
+      "createPledge": "Buat ikrar",
+      "loginToCreate": "Masuk untuk membuat ikrar",
+      "myPledges": "Ikrar saya",
+      "myPledgesTagline": "Ikrar yang Anda buat.",
+      "featuredPledges": "Ikrar pilihan",
+      "featuredPledgesTagline": "Ikrar yang disorot oleh tim {{appName}}.",
+      "allPledges": "Ikrar",
+      "allPledgesTagline": "Disorot oleh moderator. Cari atau urutkan untuk menjelajahi setiap ikrar.",
+      "sectionActive": "Ikrar aktif",
+      "sectionUpcoming": "Ikrar mendatang",
+      "sectionPast": "Ikrar lampau",
+      "sectionDefault": "Ikrar",
+      "sectionTagline": "Bantu danai aksi yang patut dilakukan.",
+      "sortAriaLabel": "Urutkan",
+      "sortBy": "Urutkan berdasarkan",
+      "sortRecent": "Paling baru",
+      "sortBounty": "Ikrar tertinggi",
+      "sortDeadline": "Tenggat dekat",
+      "sortDeadlinePast": "Baru berakhir",
+      "filterAriaLabel": "Filter berdasarkan negara",
+      "countrySearchPlaceholder": "Cari…",
+      "noResults": "Tidak ada hasil ditemukan.",
+      "global": "Global",
+      "dividerUpcoming": "Mendatang",
+      "dividerPast": "Lampau",
+      "showLess": "Tampilkan lebih sedikit",
+      "showMore": "Tampilkan lebih banyak ({{count}} lagi)",
+      "emptyTitle": "Belum ada ikrar",
+      "emptyHint": "Jadilah yang pertama membuat ikrar.",
+      "emptyHintCountry": "Jadilah yang pertama membuat ikrar untuk {{country}}.",
+      "searchPlaceholder": "Cari ikrar…",
+      "searchAriaLabel": "Cari ikrar",
+      "noMatch": "Tidak ada ikrar yang cocok dengan “{{query}}”",
+      "noMatchHint": "Coba kata pencarian lain, atau bersihkan pencarian.",
+      "needsReview": "Perlu ditinjau",
+      "needsReviewDesc": "Ikrar {{appName}} yang belum diunggulkan atau disembunyikan. Naikkan ke rak Unggulan atau sembunyikan dengan Hide.",
+      "needsReviewEmpty": "Tidak ada yang menunggu peninjauan.",
+      "hidden": "Tersembunyi",
+      "hiddenDesc": "Ikrar yang disembunyikan dari penemuan publik. Gunakan menu kebab pada kartu untuk menampilkannya kembali.",
+      "hiddenEmpty": "Tidak ada ikrar yang sedang disembunyikan."
+    },
+    "card": {
+      "ended": "Berakhir",
+      "pledged": "Diikrarkan",
+      "byAuthor": "oleh <0>{{name}}</0>",
+      "actionsAriaLabel": "Tindakan ikrar",
+      "deletePledge": "Hapus ikrar",
+      "copyLink": "Salin tautan",
+      "linkCopied": "Tautan disalin",
+      "linkCopyFailed": "Gagal menyalin tautan",
+      "confirmDelete": "Hapus ikrar ini? Tindakan ini tidak dapat dibatalkan.",
+      "deleted": "Ikrar dihapus",
+      "deletedContent": "Ikrar dihapus",
+      "deleteFailed": "Gagal menghapus ikrar"
+    },
+    "create": {
+      "seoTitle": "Buat ikrar",
+      "seoDescription": "Buat ikrar donatur untuk menginspirasi aksi konkret di {{appName}}.",
+      "loginGateTitle": "Masuk untuk membuat ikrar",
+      "loginGateBody": "Ikrar adalah event Nostr yang ditandatangani. Anda perlu masuk Nostr untuk memublikasikannya.",
+      "heading": "Buat ikrar",
+      "title": "Judul",
+      "titlePlaceholder": "Mendokumentasikan pembersihan pantai",
+      "country": "Negara",
+      "countryPlaceholder": "Cari negara",
+      "tags": "Tag",
+      "coverImage": "Gambar sampul",
+      "description": "Deskripsi",
+      "descriptionPlaceholder": "Jelaskan aksi, bukti, atau hasil yang ingin Anda inspirasi, apa yang harus disertakan dalam kiriman, dan bagaimana Anda akan mengevaluasinya...",
+      "pledge": "Ikrar",
+      "pledgeAmountPlaceholder": "100",
+      "deadline": "Tenggat",
+      "timezone": "Zona waktu",
+      "timezoneNote": "Waktu mulai dan tenggat akan diinterpretasikan dalam zona waktu ini.",
+      "submit": "Buat ikrar",
+      "altText": "Ikrar {{appName}}: {{title}}",
+      "successToast": "Ikrar dibuat",
+      "errorToast": "Tidak dapat membuat ikrar",
+      "errorLoginRequired": "Anda harus masuk untuk membuat ikrar.",
+      "errorTitleRequired": "Judul wajib diisi.",
+      "errorDescriptionRequired": "Deskripsi wajib diisi.",
+      "errorPledgeRequired": "Jumlah ikrar wajib diisi.",
+      "errorPledgeInvalid": "Jumlah ikrar harus berupa nilai USD positif.",
+      "errorPriceUnavailable": "Menunggu harga BTC/USD untuk menghitung jumlah ikrar.",
+      "errorCoverInvalid": "Gambar sampul harus berupa URL https:// yang valid.",
+      "errorDeadlinePast": "Tenggat tidak boleh di masa lalu.",
+      "wizard": {
+        "titleStepTitle": "Beri nama ikrar Anda",
+        "titleStepSubtitle": "Permintaan yang jelas dan penjelasan singkat tentang apa yang akan Anda danai.",
+        "pledgeStepTitle": "Tetapkan ikrar Anda",
+        "pledgeStepSubtitle": "Berapa yang akan Anda bayar, dalam USD, dan tenggat opsional.",
+        "coverStepTitle": "Tambahkan gambar sampul",
+        "coverStepSubtitle": "Satu gambar membawa ikrar di setiap kartu.",
+        "tagsStepTitle": "Negara dan kategori",
+        "tagsStepSubtitle": "Bantu orang yang tepat menemukan ikrar Anda.",
+        "launchNow": "Lewati Berikutnya & Luncurkan"
+      }
+    },
+    "detail": {
+      "seoTitle": "{{title}} | Ikrar {{appName}}",
+      "seoFallbackTitle": "Ikrar | {{appName}}",
+      "deadlineEndedOn": "Berakhir {{date}}",
+      "deadlineEndsToday": "Berakhir hari ini",
+      "deadlineDaysLeft_one": "{{count}} hari lagi",
+      "deadlineDaysLeft_other": "{{count}} hari lagi",
+      "deadlineEndsOn": "Berakhir {{date}}",
+      "openEnded": "Tanpa batas waktu",
+      "back": "Kembali",
+      "backToPledges": "Kembali ke ikrar",
+      "loadingPledge": "Memuat ikrar…",
+      "pledge": "Ikrar",
+      "byAuthor": "oleh <0>{{name}}</0>",
+      "submitLabel": "Kirim",
+      "linkCopied": "Tautan disalin ke papan klip",
+      "pinnedToast": "Disematkan ke ikrar",
+      "unpinnedToast": "Sematan dilepas dari ikrar",
+      "pinFailed": "Gagal memperbarui sematan ikrar",
+      "submissions": "Kiriman",
+      "submissionCount_one": "{{count}} kiriman",
+      "submissionCount_other": "{{count}} kiriman",
+      "submissionPlaceholder": "Bagikan bukti, kesaksian, atau pekerjaan yang telah selesai...",
+      "noSubmissionsTitle": "Belum ada kiriman",
+      "noSubmissionsHint": "Jadilah yang pertama membalas dengan bukti, kesaksian, atau pekerjaan yang telah selesai.",
+      "funded": "didanai",
+      "ofPledged": "dari {{amount}} diikrarkan",
+      "trustNote": "Ikrar ini berbasis kepercayaan. Kemajuan pendanaan dijumlah dari zap dan tanda terima donasi pada kiriman tingkat atas.",
+      "share": "Bagikan",
+      "storyHeading": "Tentang ikrar",
+      "storyEmpty": "Pemberi ikrar belum menulis detail untuk ikrar ini."
+    }
+  },
+  "groups": {
+    "list": {
+      "seoTitle": "Grup",
+      "seoDescription": "Temukan dan bergabung dengan grup di Nostr",
+      "heroKicker": "Grup",
+      "heroHeading": "Kekuatan",
+      "heroHeadingLine2": "dalam jumlah.",
+      "heroBody": "Buat grup, kumpulkan anggota, dan ikuti perkembangan ruang Anda.",
+      "createGroup": "Buat grup",
+      "createGroupLoginTitle": "Masuk untuk membuat grup",
+      "createGroupLoginBody": "Membuat grup memublikasikan event Nostr dari akun Anda.",
+      "myGroups": "Grup saya",
+      "myGroupsTagline": "Grup yang Anda dirikan, moderasi, atau ikuti.",
+      "featuredGroups": "Grup unggulan",
+      "featuredGroupsTagline": "Grup menonjol yang layak Anda perhatikan.",
+      "allGroups": "Grup",
+      "allGroupsTagline": "Disorot oleh moderator. Cari atau urutkan untuk menjelajahi setiap grup.",
+      "loginToSeeTitle": "Masuk untuk melihat grup Anda",
+      "loginToSeeBody": "Grup yang Anda dirikan atau moderasi akan muncul di sini.",
+      "noGroupsTitle": "Belum ada grup",
+      "noGroupsBody": "Buat grup Anda sendiri untuk mulai mengkoordinasikan kampanye, ikrar, dan acara dengan orang-orang Anda.",
+      "noFeaturedTitle": "Belum ada grup unggulan",
+      "noFeaturedBody": "Moderator {{appName}} menyoroti grup unggulan di sini. Periksa lagi nanti.",
+      "connectingRelays": "Menghubungkan ke relay…",
+      "showLess": "Tampilkan lebih sedikit",
+      "showMore": "Tampilkan {{count}} lagi",
+      "needsReview": "Perlu ditinjau",
+      "needsReviewDesc": "Grup {{appName}} yang belum diunggulkan atau disembunyikan. Naikkan ke rak Unggulan atau sembunyikan dengan Hide.",
+      "needsReviewEmpty": "Tidak ada yang menunggu peninjauan.",
+      "hidden": "Tersembunyi",
+      "hiddenDesc": "Grup yang disembunyikan dari penemuan publik. Gunakan menu kebab pada kartu untuk menampilkannya kembali.",
+      "hiddenEmpty": "Tidak ada grup yang sedang disembunyikan.",
+      "tickerCampaignsRaised_one": "terkumpul on-chain di {{count}} kampanye",
+      "tickerCampaignsRaised_other": "terkumpul on-chain di {{count}} kampanye",
+      "tickerFeaturedGroups_one": "grup unggulan di Nostr",
+      "tickerFeaturedGroups_other": "grup unggulan di Nostr",
+      "tickerCountries_one": "negara memposting hari ini",
+      "tickerCountries_other": "negara memposting hari ini",
+      "searchPlaceholder": "Cari grup…",
+      "searchAriaLabel": "Cari grup",
+      "noMatch": "Tidak ada grup yang cocok dengan “{{query}}”",
+      "noMatchHint": "Coba kata pencarian lain, atau bersihkan pencarian."
+    },
+    "create": {
+      "seoTitleCreate": "Buat grup",
+      "seoTitleEdit": "Ubah grup",
+      "seoDescriptionCreate": "Mulai grup baru di {{appName}}.",
+      "seoDescriptionEdit": "Perbarui grup Anda di {{appName}}.",
+      "loginGateTitle": "Masuk untuk memulai grup",
+      "loginGateBody": "Grup adalah event Nostr yang ditandatangani. Anda perlu masuk Nostr untuk memublikasikannya.",
+      "invalidEditTitle": "Tautan edit tidak valid",
+      "invalidEditBody": "Tautan edit grup ini kehilangan alamat grup yang valid.",
+      "startNewGroup": "Mulai grup baru",
+      "loadingGroup": "Memuat grup…",
+      "cannotEditTitle": "Grup tidak dapat diubah",
+      "cannotEditBody": "Hanya pendiri grup ini yang dapat memperbaruinya.",
+      "headingCreate": "Buat grup",
+      "headingEdit": "Ubah grup",
+      "name": "Nama",
+      "namePlaceholder": "mis. The Arbiter's Guard",
+      "urlPreview": "Pratinjau URL:",
+      "urlPlaceholder": "nama-grup-anda",
+      "urlKeptOriginal": "(dipertahankan dari aslinya)",
+      "description": "Deskripsi",
+      "descriptionPlaceholder": "Tentang apa grup ini?",
+      "country": "Negara",
+      "countryPlaceholder": "Cari negara",
+      "tags": "Tag",
+      "tagsPlaceholder": "bantuan-bersama, berita-lokal, hak-digital",
+      "coverImage": "Gambar sampul",
+      "moderators": "Moderator",
+      "moderatorsCount": "Moderator ({{count}})",
+      "removeModeratorAria": "Hapus {{name}}",
+      "submitCreate": "Buat grup",
+      "submitEdit": "Perbarui grup",
+      "creating": "Membuat…",
+      "updating": "Memperbarui…",
+      "uploadingCover": "Mengunggah sampul…",
+      "altText": "Grup: {{name}}",
+      "successCreate": "Grup dibuat!",
+      "successEdit": "Grup diperbarui!",
+      "errorTitleCreate": "Tidak dapat membuat grup",
+      "errorTitleEdit": "Tidak dapat memperbarui grup",
+      "errorLoginRequired": "Anda harus masuk untuk membuat grup.",
+      "errorEditLoadFailed": "Grup tidak dapat dimuat untuk diubah.",
+      "errorEditNotOwner": "Hanya pendiri grup yang dapat mengubah grup ini.",
+      "errorNameRequired": "Nama wajib diisi.",
+      "errorNameInvalid": "Nama harus mengandung huruf atau angka agar URL grup bisa dibuat.",
+      "errorEditLatestMissing": "Tidak dapat menemukan versi terbaru grup ini untuk diperbarui.",
+      "errorCoverInvalid": "Gambar sampul harus berupa URL https:// yang valid.",
+      "errorSlugCollision": "Anda sudah memiliki grup dengan pengenal \"{{slug}}\". Pilih nama lain.",
+      "wizard": {
+        "nameStepTitle": "Beri nama grup Anda",
+        "nameStepSubtitle": "Nama singkat dan jelas yang mudah dikenali anggota.",
+        "coverStepTitle": "Tambahkan gambar sampul",
+        "coverStepSubtitle": "Satu gambar membawa grup di setiap kartu.",
+        "moderatorsStepTitle": "Undang moderator",
+        "moderatorsStepSubtitle": "Opsional — mereka dapat menyetujui konten dan menghapus anggota bersama Anda.",
+        "tagsStepTitle": "Negara dan kategori",
+        "tagsStepSubtitle": "Bantu orang yang tepat menemukan grup Anda.",
+        "launchNow": "Lewati Berikutnya & Luncurkan"
+      }
+    },
+    "detail": {
+      "by": "oleh",
+      "byAuthor": "oleh {{name}}",
+      "members": "Anggota",
+      "viewMembers": "Lihat anggota",
+      "moreMembers": "+{{count}} lagi",
+      "about": "Tentang",
+      "comments": "Komentar",
+      "comment": "Komentar",
+      "commentNoun_one": "komentar",
+      "commentNoun_other": "komentar",
+      "noCommentsTitle": "Belum ada komentar",
+      "noCommentsHint": "Jadilah yang pertama memulai diskusi.",
+      "noMembersFound": "Tidak ada anggota ditemukan.",
+      "founder": "Pendiri",
+      "moderator": "Moderator",
+      "moreActions": "Aksi lainnya",
+      "editGroup": "Ubah grup",
+      "deleteGroup": "Hapus grup",
+      "officialActivity": "Aktivitas resmi",
+      "officialTools": "Alat resmi",
+      "startSomething": "Mulai sesuatu",
+      "officialToolsDescription": "Beri {{name}} langkah konkret berikutnya.",
+      "launchCampaign": "Luncurkan kampanye",
+      "launchCampaignDescription": "Galang dana dengan halaman grup resmi.",
+      "campaign": "Kampanye",
+      "pledge": "Ikrar",
+      "pledgeDescription": "Tawarkan bantuan yang bisa diambil orang.",
+      "event": "Acara",
+      "eventDescription": "Kumpulkan para pendukung bersama.",
+      "untitledEvent": "Acara tanpa judul",
+      "interestedCount_one": "{{count}} orang tertarik",
+      "interestedCount_other": "{{count}} orang tertarik",
+      "allDay": "Sepanjang hari"
+    }
+  },
+  "campaignsCreate": {
+    "seoTitleCreate": "Mulai kampanye",
+    "seoTitleEdit": "Ubah kampanye",
+    "seoDescriptionCreate": "Luncurkan kampanye penggalangan dana di {{appName}}.",
+    "seoDescriptionEdit": "Perbarui kampanye penggalangan dana Anda di {{appName}}.",
+    "loginGateTitle": "Masuk untuk memulai kampanye",
+    "loginGateBody": "Kampanye adalah event Nostr yang ditandatangani. Anda perlu masuk Nostr untuk memublikasikannya.",
+    "invalidEditTitle": "Tautan edit tidak valid",
+    "invalidEditBody": "Tautan edit kampanye ini kehilangan alamat kampanye yang valid.",
+    "startNewCampaign": "Mulai kampanye baru",
+    "loadingCampaign": "Memuat kampanye…",
+    "cannotEditTitle": "Kampanye tidak dapat diubah",
+    "cannotEditBody": "Hanya penulis kampanye ini yang dapat memperbaruinya.",
+    "headingCreate": "Mulai kampanye",
+    "headingEdit": "Ubah kampanye",
+    "editTabs": {
+      "details": "Detail",
+      "funding": "Pendanaan",
+      "discovery": "Temukan"
+    },
+    "title": "Judul",
+    "titlePlaceholder": "Selamatkan Toko Buku Terakhir",
+    "wallet": "Dompet Bitcoin",
+    "myWalletLabel": "Dompet {{name}}",
+    "myWalletDefault": "Dompet saya",
+    "walletHeroNote": "Donasi langsung masuk ke dompet Agora Anda sendiri.\nTanpa perantara.",
+    "walletHeroReassurance": "Anda yang memegang kuncinya, jadi Anda yang memegang dananya. Tarik kapan saja dari tab dompet.",
+    "walletChoose": "Pilih dompet",
+    "walletCustom": "Kustom",
+    "walletUseCustom": "Gunakan dompet kustom",
+    "walletUseMine": "Gunakan dompet Agora saya",
+    "acceptHeading": "Donasi apa yang akan Anda terima?",
+    "acceptUnavailable": "Tidak tersedia dengan login ini.",
+    "acceptAllTitle": "Donasi apa pun",
+    "acceptPublicTitle": "Hanya donasi publik",
+    "acceptPrivateTitle": "Hanya donasi privat",
+    "acceptAllHint": "Terima donasi publik maupun privat.",
+    "acceptPublicHint": "Donatur memberi ke alamat Bitcoin biasa. Donasi ini terlihat oleh siapa saja.",
+    "acceptPrivateHint": "Donatur memberi secara privat, sehingga identitas mereka tetap tersembunyi dari publik.",
+    "customWalletIntro": "Isi donasi mana saja yang ingin Anda terima: alamat publik, kode privat, atau keduanya. Setidaknya satu wajib diisi.",
+    "customOnchainMeaning": "Publik. Siapa saja dapat melihat donasi ini.",
+    "customSpMeaning": "Privat. Identitas donatur tetap tersembunyi.",
+    "bitcoinAddress": "Alamat Bitcoin",
+    "bitcoinAddressPlaceholder": "bc1q… atau bc1p…",
+    "silentPaymentCode": "Kode silent-payment",
+    "silentPaymentCodePlaceholder": "sp1…",
+    "onchainInvalid": "Bukan alamat Bitcoin mainnet yang dikenal (bc1q… / bc1p…).",
+    "spInvalid": "Bukan kode silent-payment BIP-352 yang dikenal (sp1…).",
+    "country": "Negara",
+    "countryPlaceholder": "Cari negara",
+    "tags": "Tag",
+    "tagsPlaceholder": "pembelaan-hukum, bantuan-bersama, berita-lokal",
+    "categories": {
+      "humanRights": "Hak Asasi Manusia",
+      "democracy": "Demokrasi",
+      "pressFreedom": "Kebebasan Pers",
+      "politicalPrisoners": "Tahanan Politik",
+      "humanitarianAid": "Bantuan Kemanusiaan",
+      "civilResistance": "Perlawanan Sipil",
+      "digitalRights": "Hak Digital",
+      "antiCorruption": "Antikorupsi",
+      "womenGirls": "Perempuan & Anak Perempuan",
+      "refugees": "Pengungsi & Orang Buangan",
+      "legalAid": "Bantuan Hukum",
+      "emergencyRelief": "Bantuan Darurat",
+      "animalRights": "Hak Hewan",
+      "education": "Pendidikan",
+      "medical": "Medis",
+      "community": "Komunitas"
+    },
+    "banner": "Gambar banner",
+    "story": "Cerita",
+    "storyPlaceholder": "Bagikan latar belakang, siapa yang diuntungkan, dan bagaimana dana akan digunakan.",
+    "goal": "Target",
+    "goalPlaceholder": "100",
+    "goalNote": "Dalam USD utuh. Donatur membayar dalam Bitcoin; klien memperkirakan nilai setara USD saat dilihat.",
+    "payUrl": "Tautan pembayaran kartu",
+    "payUrlOptional": "(opsional)",
+    "payUrlPlaceholder": "https://pay.example.com/your-campaign",
+    "payUrlNote": "Halaman checkout eksternal (mis. Stripe) tempat donatur dapat membayar dengan kartu. Donasi kartu diselesaikan di luar Agora dan tidak dihitung dalam total yang Anda kumpulkan.",
+    "submitCreate": "Luncurkan kampanye",
+    "submitEdit": "Perbarui kampanye",
+    "publishing": "Memublikasikan…",
+    "updating": "Memperbarui…",
+    "uploadingBanner": "Mengunggah banner…",
+    "altText": "Kampanye penggalangan dana: {{title}}",
+    "successCreate": "Kampanye diluncurkan",
+    "successCreateDesc": "Penggalangan dana Anda sudah aktif.",
+    "successEdit": "Kampanye diperbarui",
+    "successEditDesc": "Perubahan penggalangan dana Anda sudah aktif.",
+    "categoryLimitTitle": "Anda hanya dapat memilih {{count}} tag",
+    "categoryLimitDesc": "Hapus satu tag sebelum menambahkan yang lain. Kampanye dibatasi hingga {{count}} tag.",
+    "errorTitleCreate": "Tidak dapat memublikasikan kampanye",
+    "errorTitleEdit": "Tidak dapat memperbarui kampanye",
+    "errorLoginRequired": "Anda harus masuk untuk membuat kampanye.",
+    "errorEditLoadFailed": "Kampanye tidak dapat dimuat untuk diubah.",
+    "errorEditNotOwner": "Hanya penulis kampanye yang dapat mengubah kampanye ini.",
+    "errorTitleRequired": "Judul wajib diisi.",
+    "errorTitleInvalid": "Judul harus mengandung huruf atau angka agar URL kampanye bisa dibuat.",
+    "errorSlugInvalid": "Pengenal harus berupa huruf kecil, angka, dan tanda hubung.",
+    "errorHdUnavailable": "Dompet bawaan tidak tersedia untuk login ini.",
+    "errorSpUnavailable": "Alamat silent-payment tidak tersedia untuk login ini.",
+    "errorOnchainInvalid": "Alamat on-chain bukan alamat bech32(m) mainnet yang dikenal (bc1q… / bc1p…).",
+    "errorSpInvalid": "Kode silent-payment bukan kode BIP-352 yang dikenal (sp1…).",
+    "errorWalletRequired": "Sediakan setidaknya satu titik dompet — alamat Bitcoin mainnet (bc1q… / bc1p…) atau kode silent-payment (sp1…).",
+    "errorGoalInvalid": "Target harus berupa nilai dolar utuh yang positif.",
+    "errorPayUrlInvalid": "Tautan pembayaran kartu harus berupa URL https:// yang valid.",
+    "errorEditLatestMissing": "Tidak dapat menemukan versi terbaru kampanye ini untuk diperbarui.",
+    "errorSlugCollision": "Anda sudah memiliki kampanye dengan pengenal \"{{slug}}\". Pilih yang lain.",
+    "errorBannerInvalid": "Banner harus berupa URL https:// yang valid.",
+    "errorHdDeriveFailed": "Tidak dapat menurunkan alamat on-chain baru dari dompet Anda.",
+    "errorHdDeriveInvalid": "Alamat dompet turunan gagal validasi. Silakan tambahkan alamat kustom sebagai gantinya.",
+    "errorWalletRequiredFallback": "Titik dompet wajib diisi.",
+    "errorPublishedInvalid": "Event yang dipublikasikan gagal validasi. Silakan muat ulang dan coba lagi.",
+    "wizard": {
+      "titleStepTitle": "Beri nama kampanye Anda",
+      "titleStepSubtitle": "Nama singkat dan jelas yang mudah dikenali donatur.",
+      "walletStepTitle": "Ke mana donasi akan masuk?",
+      "walletStepSubtitle": "Pilih dompet Agora Anda atau tempel alamat Anda sendiri.",
+      "bannerStepTitle": "Tambahkan banner",
+      "bannerStepSubtitle": "Satu gambar menarik membawa kampanye di setiap kartu.",
+      "storyStepTitle": "Ceritakan kisah Anda",
+      "storyStepSubtitle": "Siapa yang terbantu dan bagaimana dana akan digunakan.",
+      "next": "Berikutnya",
+      "back": "Kembali",
+      "skip": "Lewati",
+      "launchNow": "Lewati Berikutnya & Luncurkan",
+      "goalStepTitle": "Target",
+      "goalStepSubtitle": "Opsional — kosongkan untuk kampanye tanpa batas.",
+      "tagsStepTitle": "Negara dan kategori",
+      "tagsStepSubtitle": "Bantu orang yang tepat menemukan kampanye Anda."
+    }
+  },
+  "campaignsDetail": {
+    "seoTitle": "{{title}} | Penggalangan Dana {{appName}}",
+    "seoDescriptionFallback": "Dukung {{title}} di {{appName}}.",
+    "back": "Kembali",
+    "edit": "Ubah",
+    "delete": "Hapus",
+    "deleting": "Menghapus…",
+    "openCover": "Buka gambar sampul",
+    "byAuthor": "oleh <0>{{name}}</0>",
+    "commentLabel": "Komentar",
+    "linkCopied": "Tautan disalin ke papan klip",
+    "pinnedToast": "Disematkan ke kampanye",
+    "unpinnedToast": "Sematan dilepas dari kampanye",
+    "pinFailed": "Gagal memperbarui sematan kampanye",
+    "deletedToast": "Kampanye dihapus",
+    "deletedToastDesc": "Permintaan penghapusan telah dipublikasikan. Relay yang berperilaku baik akan menghapus kampanye dari feed.",
+    "deleteErrorTitle": "Tidak dapat menghapus kampanye",
+    "campaigner": "Penggalang",
+    "repost_one": "<0>{{formattedCount}}</0> Repost",
+    "repost_other": "<0>{{formattedCount}}</0> Repost",
+    "quote_one": "<0>{{formattedCount}}</0> Kutipan",
+    "quote_other": "<0>{{formattedCount}}</0> Kutipan",
+    "like_one": "<0>{{formattedCount}}</0> Suka",
+    "like_other": "<0>{{formattedCount}}</0> Suka",
+    "tabComments": "Komentar & donasi",
+    "tabLedger": "Buku besar",
+    "ledger": {
+      "publicAddress": "Alamat publik",
+      "viewOnMempool": "Lihat di mempool.space",
+      "openOnMempool": "Buka transaksi di mempool.space",
+      "unconfirmed": "Belum dikonfirmasi",
+      "block": "Blok {{height}}",
+      "btcUnit": "BTC",
+      "empty": "Belum ada aktivitas on-chain untuk alamat ini.",
+      "error": "Tidak dapat memuat aktivitas on-chain. Coba lagi sebentar.",
+      "loadMore": "Muat lebih banyak",
+      "loadingMore": "Memuat…",
+      "donated": "Didonasikan",
+      "withdrawn": "Ditarik"
+    },
+    "tombstone": {
+      "seoTitle": "Kampanye terarsip | {{appName}}",
+      "title": "Kampanye ini tidak lagi tersedia",
+      "deletedNotice": "Penyelenggara menghapus kampanye ini pada {{date}}. Kampanye ini tidak lagi menerima donasi.",
+      "unavailableNotice": "Kampanye ini telah dihapus atau tidak lagi tersedia di relay Anda. Kampanye ini tidak lagi menerima donasi.",
+      "archiveIntro": "Tanda terima donasi yang diterbitkan di Nostr tersimpan di bawah sebagai catatan publik.",
+      "receiptsHeading": "Arsip donasi",
+      "totalRecorded": "Total tercatat: {{amount}}",
+      "unverifiedCaveat": "Jumlah sesuai yang diklaim dalam tanda terima yang ditandatangani donatur. Karena kampanye dan alamat dompetnya telah dihapus, jumlah tersebut tidak lagi dapat diverifikasi secara on-chain."
+    },
+    "noCommentsTitle": "Belum ada komentar",
+    "noCommentsHint": "Jadilah yang pertama meninggalkan pesan dukungan.",
+    "deleteDialogTitle": "Hapus kampanye ini?",
+    "deleteDialogBody": "Ini akan memublikasikan permintaan penghapusan NIP-09. Relay yang berperilaku baik akan menghapus kampanye dari feed dan tautan langsung. Tanda terima donasi sebelumnya tetap on-chain apa pun yang terjadi. Tindakan ini tidak dapat dibatalkan — untuk tetap menerima donasi, ubah kampanye sebagai gantinya.",
+    "storyHeading": "Ceritanya",
+    "donate": "Donasi",
+    "share": "Bagikan",
+    "target": "Target: {{amount}}",
+    "raised": "terkumpul",
+    "raisedPublicly": "terkumpul secara publik",
+    "ofGoal": "dari target {{amount}}",
+    "goalAmount": "target {{amount}}",
+    "beFirstDonor": "Jadilah donatur pertama!",
+    "privateCampaign": "Kampanye privat",
+    "privateMayAddMore": "Donasi privat mungkin menambah lebih banyak",
+    "donationCount_one": "{{count}} donasi",
+    "donationCount_other": "{{count}} donasi",
+    "openInWallet": "Buka dompet eksternal",
+    "payWithAgoraWallet": "Bayar dengan Agora",
+    "payWithCard": "Bayar dengan kartu",
+    "paymentCount_one": "{{count}} pembayaran yang tak terhenti",
+    "paymentCount_other": "{{count}} pembayaran yang tak terhenti",
+    "openInWalletToast": {
+      "title": "Mencari aplikasi dompet…",
+      "body": "Jika tidak ada yang terbuka, salin tautan pembayaran di atas dan tempel di dompet Anda."
+    },
+    "paymentUri": "URI pembayaran",
+    "copyLabelAction": "Salin {{label}}",
+    "copiedLabel": "{{label}} disalin",
+    "copyFailed": "Penyalinan gagal",
+    "copyFailedBody": "Pilih dan salin nilainya secara manual."
+  },
+  "noBitcoin": {
+    "trigger": "Tidak punya Bitcoin?",
+    "title": "Belum punya Bitcoin?",
+    "description": "Beli Bitcoin dari salah satu layanan ini, lalu kirimkan ke alamat kampanye ini.",
+    "buyOn": "Beli di",
+    "mayBeUnavailable": "Mungkin tidak tersedia di wilayah Anda",
+    "onramp": {
+      "descGlobalExchange": "Bursa global",
+      "descBitcoinApp": "Aplikasi pembayaran Bitcoin",
+      "descLatam": "Amerika Latin",
+      "descEurope": "Eropa",
+      "descAfrica": "Afrika",
+      "descIndia": "India",
+      "descPhilippines": "Filipina",
+      "descP2p": "Peer-to-peer, tanpa pendaftaran"
+    }
+  },
+  "campaignVerification": {
+    "verifiedBy": "Diverifikasi oleh",
+    "verifiedLabel": "Terverifikasi",
+    "verifiedByCount_one": "Diverifikasi oleh {{count}} orang",
+    "verifiedByCount_other": "Diverifikasi oleh {{count}} orang",
+    "verifyCampaign": "Verifikasi kampanye ini",
+    "removeVerification": "Hapus verifikasi saya",
+    "dialogTitle": "Verifikasi kampanye ini",
+    "attestation": "Dengan memverifikasi kampanye ini, Anda menyatakan bahwa kampanye ini asli dan benar. Anda mengenal penyelenggara kampanye secara pribadi atau telah memverifikasi secara meyakinkan bahwa klaim mereka benar. Waspadalah terhadap peniru dan penipu.",
+    "verified": "Kampanye terverifikasi",
+    "unverified": "Verifikasi dihapus",
+    "actionFailed": "Tindakan gagal",
+    "verifiedByCount_zero": "Diverifikasi oleh {{count}} orang",
+    "verifiedByCount_two": "Diverifikasi oleh {{count}} orang",
+    "verifiedByCount_few": "Diverifikasi oleh {{count}} orang",
+    "verifiedByCount_many": "Diverifikasi oleh {{count}} orang",
+    "unverifiedBanner": "Kampanye ini belum diverifikasi oleh sumber tepercaya.",
+    "unverifiedBannerReadMore": "Pelajari selengkapnya"
+  },
+  "campaignHidden": {
+    "title": "Kampanye ini telah disembunyikan",
+    "body": "Kampanye ini telah disembunyikan oleh moderator Agora, biasanya karena terlihat seperti spam, penipuan, atau peniruan identitas. Anda tetap dapat memilih untuk melihatnya.",
+    "learnMore": "Pelajari selengkapnya",
+    "back": "Kembali",
+    "proceed": "Tetap lanjutkan"
+  },
+  "calendarEvents": {
+    "create": {
+      "seoTitle": "Buat acara",
+      "seoDescription": "Buat acara kalender di {{appName}}.",
+      "loginTitle": "Masuk untuk membuat acara",
+      "loginBody": "Acara adalah event Nostr yang ditandatangani. Anda perlu masuk Nostr untuk memublikasikannya.",
+      "heading": "Buat acara",
+      "titlePlaceholder": "Bersih-bersih lingkungan",
+      "descriptionPlaceholder": "Beri tahu orang apa yang diharapkan, apa yang harus dibawa, dan siapa yang sebaiknya hadir...",
+      "schedule": "Jadwal",
+      "allDay": "Acara sepanjang hari",
+      "allDayHint": "Matikan untuk menambahkan waktu mulai dan selesai.",
+      "startDate": "Tanggal mulai",
+      "endDate": "Tanggal selesai",
+      "startTime": "Waktu mulai",
+      "endTime": "Waktu selesai",
+      "locationDetails": "Detail lokasi",
+      "locationPlaceholder": "Alamat, tempat, atau tautan panggilan video",
+      "tagsPlaceholder": "bantuan-bersama, lokakarya, berita-lokal",
+      "submit": "Buat acara",
+      "successToast": "Acara dibuat",
+      "errorToast": "Tidak dapat membuat acara",
+      "altCalendar": "Acara kalender: {{title}}",
+      "altGroup": "Acara grup: {{title}}",
+      "errorLoginRequired": "Anda harus masuk untuk membuat acara.",
+      "errorTitleRequired": "Judul wajib diisi.",
+      "errorStartDateRequired": "Tanggal mulai wajib diisi.",
+      "errorStartDatePast": "Tanggal mulai tidak boleh di masa lalu.",
+      "errorStartTimeRequired": "Waktu mulai wajib diisi untuk acara berwaktu.",
+      "errorCoverInvalid": "Gambar sampul harus berupa URL https:// yang valid.",
+      "errorEndDateBeforeStart": "Tanggal selesai harus sama atau setelah tanggal mulai.",
+      "errorStartDateTimeInvalid": "Tanggal atau waktu mulai tidak valid.",
+      "errorEndTimeAfterStart": "Waktu selesai harus setelah waktu mulai."
+    },
+    "detail": {
+      "untitledEvent": "Acara tanpa judul",
+      "dateNotSpecified": "Tanggal tidak ditentukan",
+      "organizer": "Penyelenggara",
+      "rsvpUpdated": "RSVP diperbarui",
+      "rsvpFailed": "Gagal memperbarui RSVP",
+      "rsvp": "RSVP",
+      "youAreGoing": "Anda akan hadir",
+      "youAreInterested": "Anda tertarik",
+      "youCantGo": "Anda tidak bisa hadir",
+      "chooseRsvp": "Pilih RSVP Anda",
+      "going": "Hadir",
+      "interested": "Tertarik",
+      "cantGo": "Tidak Hadir",
+      "attendees": "Peserta",
+      "links": "Tautan",
+      "participants": "Peserta",
+      "hostedBy": "diselenggarakan oleh",
+      "attendingCount_one": "{{count}} hadir",
+      "attendingCount_other": "{{count}} hadir",
+      "interestedCount_one": "{{count}} tertarik",
+      "interestedCount_other": "{{count}} tertarik",
+      "comment": "Komentar",
+      "description": "Deskripsi",
+      "emptyDescription": "Penyelenggara belum menambahkan deskripsi untuk acara ini.",
+      "comments": "Komentar",
+      "commentNoun_one": "komentar",
+      "commentNoun_other": "komentar",
+      "noCommentsTitle": "Belum ada komentar",
+      "noCommentsHint": "Jadilah yang pertama berkomentar.",
+      "pinnedToast": "Disematkan ke acara",
+      "unpinnedToast": "Sematan dilepas dari acara",
+      "pinFailed": "Gagal memperbarui sematan acara"
+    }
+  },
+  "follow": {
+    "follow": "Ikuti",
+    "following": "Mengikuti",
+    "unfollow": "Berhenti ikuti",
+    "followed": "Diikuti",
+    "unfollowed": "Berhenti diikuti",
+    "updateFailed": "Gagal memperbarui daftar ikut"
+  },
+  "campaigns": {
+    "home": {
+      "seoTitle": "Penggalangan Dana",
+      "seoDescription": "Memberi Tanpa Batas. Pemberian langsung antar sesama yang ditenagai oleh Bitcoin dan Nostr.",
+      "heroTagline": "Galang dana<1></1>tanpa <0>batas</0>",
+      "heroBody": "Dukung orang dan perjuangan di seluruh dunia dengan Bitcoin. Setiap pemberian langsung masuk ke dompet penerima, tanpa batas negara, tanpa perantara, tanpa chargeback, dan tanpa platform yang menahan dana.",
+      "startCampaign": "Mulai kampanye",
+      "howItWorks": "Cara kerjanya",
+      "featuredTitle": "Kampanye unggulan",
+      "featuredDesc": "Kampanye pilihan tim {{appName}}.",
+      "verifiedTitle": "Kampanye terverifikasi",
+      "verifiedDesc": "Kampanye yang dijamin oleh verifikator tepercaya di World Liberty Congress dan tim {{appName}}.",
+      "allCampaigns": "Semua kampanye",
+      "allCampaignsDesc": "Semua kampanye di jaringan, dalam urutan kronologis.",
+      "browseAll": "Telusuri semua kampanye",
+      "hidden": "Tersembunyi",
+      "hiddenDesc": "Kampanye yang disembunyikan dari beranda publik. Gunakan menu kebab pada kartu untuk menampilkannya kembali.",
+      "hiddenEmpty": "Tidak ada kampanye yang sedang disembunyikan.",
+      "yourCampaigns": "Kampanye Anda",
+      "yourCampaignsDesc": "Kampanye Anda aktif di Nostr dan donasi berfungsi melalui tautan kampanye. Telusuri semua kampanye di /campaigns; tim {{appName}} menampilkan pilihan kurasi di beranda.",
+      "empty": "Belum ada kampanye",
+      "emptyHint": "Jadilah yang pertama memulai penggalangan dana di {{appName}}. Ceritakan kisah Anda, pilih penerima manfaat, dan bagikan tautannya.",
+      "searchPlaceholder": "Cari kampanye…",
+      "searchAriaLabel": "Cari kampanye",
+      "noMatch": "Tidak ada kampanye yang cocok dengan “{{query}}”",
+      "noMatchHint": "Coba kata pencarian lain, atau bersihkan pencarian.",
+      "whyDifferent": {
+        "eyebrow": "Mengapa {{appName}}",
+        "title": "Dibangun berbeda.",
+        "lede": "Bitcoin langsung dari donor ke penerima. Tanpa platform di tengah, tanpa kustodian yang menahan dana, tanpa perlu izin.",
+        "block1": {
+          "heading": "Berbeda dari GoFundMe",
+          "body": "Tidak ada platform yang bisa membekukan donasi Anda, menuntut pengembalian dana, atau menghentikan kampanye karena perbedaan kebijakan. Tidak ada Stripe, Visa, atau bank di tengah yang bisa memutus akses Anda saat kampanye berjalan.",
+          "bullet1": "Tahan pembekuan, tanpa veto platform",
+          "bullet2": "Tidak ada pemroses pembayaran yang bisa mencabut akses",
+          "bullet3": "Nol biaya platform"
+        },
+        "block2": {
+          "heading": "Berbeda dari platform ‘Bitcoin’ lain",
+          "body": "Tidak ada node Lightning terpusat, kustodian, atau LSP yang bisa gagal atau offline. Dana diselesaikan langsung di Bitcoin ke dompet yang Anda kendalikan. Jika {{appName}} hilang besok, setiap kampanye tetap berjalan.",
+          "bullet1": "Tidak ada dompet kustodial yang bisa dikuras atau dibekukan",
+          "bullet2": "Diselesaikan on-chain ke dompet milik Anda",
+          "bullet3": "Tetap berfungsi meski {{appName}} menghilang"
+        },
+        "block3": {
+          "heading": "Publik atau privat. Pilihan Anda.",
+          "body": "Penerima memilih opsi penerimaan yang sesuai dengan model ancaman mereka. Donor melihat satu QR; dompet memilih protokol yang tepat.",
+          "publicLabel": "Publik",
+          "publicSummary": "Berfungsi di setiap dompet Bitcoin. Cepat dan dapat diverifikasi on-chain.",
+          "privateLabel": "Privat",
+          "privateSummary": "Silent payments BIP-352. Donasi masuk ke output yang tidak dapat ditautkan."
+        },
+        "readMore": "Baca uraian lengkap"
+      },
+      "verifyCampaigns": "Verifikasi kampanye"
+    },
+    "all": {
+      "title": "Kampanye",
+      "seoTitle": "Semua kampanye",
+      "description": "Telusuri setiap kampanye yang dipublikasikan di Agora.",
+      "sectionTagline": "Kampanye unggulan dulu, kemudian sisanya dari jaringan. Cari atau urutkan untuk menyaring.",
+      "newTitle": "Kampanye baru",
+      "newDesc": "Setiap kampanye lain di jaringan, yang terbaru lebih dulu.",
+      "viewAll": "Lihat semua",
+      "viewAllCount": "Lihat semua {{count}}",
+      "heroKicker": "Kampanye",
+      "heroHeading": "Setiap aksi,",
+      "heroHeadingLine2": "dalam satu tempat.",
+      "heroBody": "Setiap penggalangan dana yang dipublikasikan di Nostr, dikumpulkan dalam satu tempat. Telusuri seluruh jaringan, temukan aksi yang penting bagi Anda, dan dukung langsung dengan Bitcoin.",
+      "campaignsCount_one": "kampanye di jaringan",
+      "campaignsCount_other": "kampanye di jaringan",
+      "searchAriaLabel": "Cari kampanye",
+      "searchPlaceholder": "Cari kampanye…",
+      "clearSearch": "Bersihkan pencarian",
+      "sortAriaLabel": "Urutan",
+      "sortTop": "Teratas",
+      "sortNew": "Baru",
+      "showHidden": "Tampilkan yang tersembunyi",
+      "startCampaign": "Mulai kampanye",
+      "noMatch": "Tidak ada kampanye yang cocok dengan “{{query}}”",
+      "noMatchHint": "Coba kata pencarian lain, atau bersihkan pencarian untuk melihat semua kampanye.",
+      "allHidden": "Tidak ada kampanye untuk ditampilkan",
+      "allHiddenHint": "Setiap kampanye di jaringan telah disembunyikan oleh moderator. Aktifkan “Tampilkan yang tersembunyi” untuk melihatnya.",
+      "empty": "Belum ada kampanye",
+      "emptyHint": "Belum ada kampanye yang dipublikasikan. Jadilah yang pertama.",
+      "verifyCampaigns": "Verifikasi kampanye"
+    },
+    "lists": {
+      "stripAria": "Daftar topik kampanye terkurasi",
+      "create": "Daftar baru",
+      "showMore": "Tampilkan {{count}} lagi",
+      "showLess": "Tampilkan lebih sedikit",
+      "createDesc": "Buat daftar topik baru. Kurasi kampanye ke dalamnya dari halaman kampanye mana pun.",
+      "createSubmit": "Buat daftar",
+      "createFailed": "Gagal membuat daftar",
+      "edit": "Edit daftar",
+      "editDesc": "Perbarui judul, deskripsi, atau ikon daftar.",
+      "editSubmit": "Simpan perubahan",
+      "updateFailed": "Gagal memperbarui daftar",
+      "delete": "Hapus daftar",
+      "deleteFailed": "Gagal menghapus daftar",
+      "deleteConfirmTitle": "Hapus daftar ini?",
+      "deleteConfirmDesc": "\"{{title}}\" akan dihapus dari strip topik. Kampanye itu sendiri tidak terpengaruh.",
+      "titleField": "Judul",
+      "titlePlaceholder": "mis. Kebebasan Pers",
+      "descriptionField": "Deskripsi",
+      "descriptionPlaceholder": "Penjelasan singkat tentang apa yang termasuk dalam daftar ini.",
+      "iconField": "Ikon",
+      "coverField": "Gambar sampul",
+      "menuAria": "Opsi daftar {{title}}",
+      "listActions": "Tindakan daftar",
+      "memberMenuAria": "Opsi daftar kampanye",
+      "backToCampaigns": "Kembali ke kampanye",
+      "detailTitle": "Daftar kampanye",
+      "campaignsCount_one": "{{count}} kampanye",
+      "campaignsCount_other": "{{count}} kampanye",
+      "addCampaign": "Tambah kampanye",
+      "addCampaignDesc": "Cari di jaringan dan pilih kampanye untuk ditambahkan ke daftar ini.",
+      "addFailed": "Gagal menambahkan ke daftar",
+      "addToList": "Tambah",
+      "alreadyAdded": "Ditambahkan",
+      "added": "Ditambahkan",
+      "membershipTitle": "Tambahkan ke daftar",
+      "membershipDesc": "Pilih daftar yang akan memuat \"{{title}}\".",
+      "membershipEmpty": "Belum ada daftar. Buat satu untuk mulai mengkurasi.",
+      "searchPlaceholder": "Cari kampanye…",
+      "searchEmpty": "Tidak ada kampanye yang cocok dengan pencarian ini.",
+      "removeFromList": "Hapus dari daftar",
+      "removeFailed": "Gagal menghapus dari daftar",
+      "empty": "Daftar ini kosong.",
+      "emptyMod": "Daftar ini kosong. Tambahkan kampanye untuk mulai mengkurasinya.",
+      "iconPicker": {
+        "title": "Pilih ikon",
+        "description": "Pilih ikon apa pun dari pustaka Lucide.",
+        "search": "Cari ikon…",
+        "empty": "Tidak ada ikon yang cocok dengan pencarian ini."
+      }
+    }
+  },
+  "moderation": {
+    "hiddenBadge": "Tersembunyi",
+    "menu": {
+      "label": "Tindakan moderator",
+      "ariaCampaign": "Moderasi kampanye",
+      "ariaPledge": "Moderasi ikrar",
+      "ariaGroup": "Moderasi grup",
+      "failedAction": "Gagal {{action}}",
+      "hide": "Sembunyikan",
+      "unhide": "Tampilkan kembali",
+      "hiddenState": "Tersembunyi",
+      "feature": "Unggulkan",
+      "unfeature": "Batalkan unggulan",
+      "featuredState": "Diunggulkan",
+      "toastHidden": "Disembunyikan",
+      "toastUnhidden": "Ditampilkan kembali",
+      "toastFeatured": "Diunggulkan",
+      "toastUnfeatured": "Dihapus dari unggulan",
+      "failedReorder": "Gagal mengurutkan ulang",
+      "moveToTop": "Pindahkan ke atas",
+      "moveUp": "Naikkan",
+      "moveDown": "Turunkan",
+      "addToList": "Tambahkan ke daftar…",
+      "dragHandle": "Seret untuk mengurutkan ulang (posisi {{index}})",
+      "toast": {
+        "movedToTop": "Dipindahkan ke atas",
+        "movedUp": "Dinaikkan",
+        "movedDown": "Diturunkan"
+      }
+    }
+  },
+  "settings": {
+    "title": "Pengaturan",
+    "description": "Kelola pengaturan {{appName}} Anda",
+    "deleteAccount": "Hapus akun",
+    "groups": {
+      "account": "Akun",
+      "app": "Aplikasi",
+      "system": "Sistem"
+    },
+    "sections": {
+      "profile": "Profil",
+      "profileDesc": "Nama tampilan, bio, avatar, dan verifikasi.",
+      "appearance": "Tampilan",
+      "appearanceDesc": "Mode sistem, terang, atau gelap.",
+      "language": "Bahasa",
+      "languageDesc": "Pilih bahasa yang digunakan di seluruh aplikasi.",
+      "network": "Jaringan",
+      "networkDesc": "Penggunaan data, relay, dan server unggah berkas.",
+      "notifications": "Notifikasi",
+      "notificationsDesc": "Preferensi notifikasi push.",
+      "content": "Konten",
+      "contentDesc": "Kelola pengguna, tagar, dan kata yang dibisukan.",
+      "advanced": "Lanjutan",
+      "advancedDesc": "Opsi dompet, sistem, dan pengguna mahir.",
+      "organizers": "Organizer",
+      "organizersDesc": "Tunjuk organizer negara yang dapat menyematkan unggahan ke feed negara.",
+      "support": "Ada masalah?",
+      "supportDesc": "Laporkan masalah atau lihat masalah yang diketahui"
+    },
+    "organizers": "Organizer",
+    "signInToManage": "Masuk untuk mengelola",
+    "loginRequired": "Anda perlu masuk untuk mengelola organizer.",
+    "appearance": {
+      "title": "Tampilan",
+      "subtitle": "Pilih tampilan aplikasi.",
+      "colorMode": "Mode Warna",
+      "system": "Sistem",
+      "systemDesc": "Mengikuti pengaturan perangkat Anda",
+      "light": "Terang",
+      "lightDesc": "Selalu gunakan mode terang",
+      "dark": "Gelap",
+      "darkDesc": "Selalu gunakan mode gelap"
+    },
+    "network": {
+      "title": "Jaringan",
+      "subtitle": "Kelola penggunaan data, relay, dan server unggah berkas.",
+      "lowBandwidthHeading": "Mode Bandwidth Rendah",
+      "reduceDataUsage": "Kurangi penggunaan data",
+      "reduceDataUsageDesc": "Untuk koneksi terbatas kuota atau lambat. Video tidak akan diputar otomatis, pratinjau video latar dilewati, dan gambar menunggu ketuk sebelum dimuat.",
+      "useImageProxy": "Gunakan proksi gambar",
+      "useImageProxyDesc": "Mengambil versi WebP yang lebih kecil dari gambar daripada aslinya dengan resolusi penuh.",
+      "proxyUrl": "URL Proksi",
+      "proxyApiDesc": "Harus menggunakan API <0>wsrv.nl / weserv</0>. Pengguna self-host bisa mengarahkan ini ke instansi mereka sendiri.",
+      "reset": "Setel ulang",
+      "relays": "Relay",
+      "blossomServers": "Server Blossom",
+      "imageUploads": "Unggahan Gambar",
+      "uploadQuality": "Kualitas unggahan",
+      "uploadQualityDesc": "Compressed mengubah ukuran gambar besar dan memilih format terkecil. Original mengunggah gambar persis seperti aslinya.",
+      "compressed": "Compressed",
+      "original": "Original"
+    },
+    "advanced": {
+      "title": "Lanjutan",
+      "subtitle": "Koneksi dompet, konfigurasi sistem, dan opsi lanjutan lainnya untuk pengguna mahir.",
+      "intro": "Koneksi dompet, konfigurasi sistem, dan opsi lanjutan lainnya.",
+      "wallet": "Dompet",
+      "torHeading": "Tor",
+      "torToggle": "Arahkan lalu lintas melalui Tor",
+      "torToggleDesc": "Terhubung ke relay dan memuat media melalui jaringan Tor untuk privasi yang lebih kuat. Performa lebih lambat dan ada jeda singkat saat Tor terhubung.",
+      "torApplyNote": "Mengaktifkan ini mengarahkan semua lalu lintas melalui Tor. Saat terhubung, konten lain tidak akan dimuat (banner menampilkan status) — tidak ada yang dikirim di luar Tor. Menonaktifkan ini beralih kembali ke koneksi langsung.",
+      "torStatusLabel": "Status:",
+      "torExitIp": "IP keluar Tor:",
+      "torCheckAgain": "Periksa lagi"
+    },
+    "wallet": {
+      "title": "Dompet",
+      "subtitle": "Kelola koneksi dompet dan pembayaran"
+    }
+  },
+  "language": {
+    "title": "Bahasa",
+    "subtitle": "Pilih bahasa yang digunakan di seluruh aplikasi.",
+    "translationNote": "Terjemahan masih dalam pengerjaan. Teks yang belum diterjemahkan akan kembali ke bahasa Inggris."
+  },
+  "verifier": {
+    "title": "Verifikator",
+    "subtitle": "Jadilah verifikator dengan menjelaskan cara Anda memeriksa kampanye.",
+    "promptLabel": "Proses verifikasi Anda",
+    "prompt": "Beri tahu kami langkah-langkah yang Anda lakukan untuk memverifikasi kampanye. Sertakan sedetail mungkin agar para donatur tahu bahwa mereka dapat memercayai penilaian Anda.",
+    "placeholder": "Jelaskan cara Anda memverifikasi kampanye — pemeriksaan yang Anda lakukan, bukti yang Anda minta, cara Anda mengonfirmasi identitas organizer, dan hal lain yang membantu donatur memercayai penilaian Anda.",
+    "previewLabel": "Pratinjau",
+    "publish": "Jadi verifikator",
+    "update": "Perbarui pernyataan",
+    "withdraw": "Tarik",
+    "loading": "Memuat pernyataan Anda…",
+    "publishedToast": "Pernyataan verifikator Anda sudah aktif.",
+    "withdrawnToast": "Pernyataan verifikator Anda telah ditarik.",
+    "errorToast": "Tidak dapat menyimpan pernyataan verifikator Anda.",
+    "disclaimer": "Siapa pun dapat menjadi verifikator. Pernyataan Anda dipublikasikan secara publik ke Nostr dan ditampilkan secara menonjol di profil Anda. Pernyataan ini tidak memberikan izin khusus apa pun — pernyataan ini hanya memberi tahu donatur cara Anda memeriksa kampanye.",
+    "loginGateTitle": "Masuk untuk menjadi verifikator",
+    "loginGateBody": "Anda harus masuk untuk memublikasikan pernyataan verifikator.",
+    "howWeVerifyTitle": "Cara kami memverifikasi",
+    "requestVerification": "Minta Verifikasi",
+    "withdrawConfirmTitle": "Tarik pernyataan verifikator Anda?",
+    "withdrawConfirmBody": "Pernyataan \"Cara Kami Memverifikasi\" Anda akan dihapus dari profil Anda. Anda bisa memublikasikan yang baru kapan saja."
+  },
+  "mdEditor": {
+    "toolbar": {
+      "bold": "Tebal",
+      "italic": "Miring",
+      "strikethrough": "Coret",
+      "inlineCode": "Kode sebaris",
+      "heading1": "Judul 1",
+      "heading2": "Judul 2",
+      "heading3": "Judul 3",
+      "bulletList": "Daftar berbutir",
+      "numberedList": "Daftar bernomor",
+      "blockquote": "Kutipan",
+      "insertLink": "Sisipkan tautan",
+      "insertImage": "Sisipkan gambar",
+      "horizontalRule": "Garis horizontal"
+    },
+    "help": {
+      "title": "Referensi cepat Markdown",
+      "bold": "tebal",
+      "italic": "miring",
+      "bulletList": "butir",
+      "numberedList": "bernomor",
+      "link": "tautan",
+      "quote": "kutipan",
+      "code": "kode"
+    },
+    "link": {
+      "title": "Sisipkan tautan",
+      "textLabel": "Teks tautan",
+      "textPlaceholder": "Masukkan teks tautan…",
+      "urlLabel": "URL",
+      "cancel": "Batal",
+      "insert": "Sisipkan tautan"
+    }
+  },
+  "organizations": {
+    "seoTitle": "Untuk organisasi",
+    "seoDescription": "Daftarkan organisasi Anda ke {{appName}}, terbitkan pernyataan verifikasi publik, dan raih kepercayaan para donatur.",
+    "hero": {
+      "eyebrow": "Untuk organisasi & verifikator",
+      "headlinePart1": "Bantu donatur untuk",
+      "headlineHighlight": "memercayai",
+      "body": "Bawa organisasi Anda ke {{appName}} dan terbitkan pernyataan publik yang menjelaskan cara Anda memeriksa kampanye yang Anda dukung. Tanpa pendaftaran, tanpa penjaga gerbang — reputasi Anda yang bekerja.",
+      "trustChips": {
+        "noPermission": "Tidak perlu izin",
+        "ownIdentity": "Identitas Anda sendiri",
+        "public": "Publik & dapat diverifikasi"
+      },
+      "cta": "Mulai sekarang"
+    },
+    "steps": {
+      "eyebrow": "Cara kerjanya",
+      "title": "Bergabung dalam tiga langkah",
+      "lede": "{{appName}} dibangun di atas Nostr, sehingga organisasi Anda membawa identitasnya sendiri. Penyiapan hanya butuh beberapa menit.",
+      "step1": {
+        "title": "Bawa profil Anda",
+        "body": "Masuk dengan profil Nostr organisasi Anda — atau buat satu dalam hitungan detik. Identitas Anda adalah milik Anda, dapat dibawa ke setiap aplikasi Nostr, dan tidak dikendalikan oleh {{appName}}."
+      },
+      "step2": {
+        "title": "Jelaskan proses Anda",
+        "body": "Tulis pernyataan publik yang menjelaskan cara Anda memverifikasi kampanye: pemeriksaan yang Anda lakukan, bukti yang Anda minta, dan cara Anda memastikan identitas seorang penyelenggara."
+      },
+      "step3": {
+        "title": "Terbitkan & raih kepercayaan",
+        "body": "Pernyataan Anda muncul di profil Anda dan memberi sinyal kepada para donatur bahwa Anda mendukung kampanye yang Anda verifikasi. Perbarui atau tarik kembali kapan saja."
+      }
+    },
+    "getStarted": {
+      "eyebrow": "Mulai sekarang",
+      "title": "Terbitkan pernyataan Anda",
+      "lede": "Masuk dengan profil organisasi Anda untuk menerbitkan, memperbarui, atau menarik kembali pernyataan verifikasi Anda."
+    },
+    "loginGateTitle": "Masuk dengan profil organisasi Anda",
+    "loginGateBody": "Masuk dengan profil Nostr organisasi Anda, atau buat satu, untuk memulai. Setelah masuk, Anda dapat menerbitkan pernyataan verifikasi Anda di sini.",
+    "tutorial": {
+      "eyebrow": "Anda kini seorang verifikator",
+      "title": "Cara memverifikasi kampanye",
+      "lede": "Pernyataan Anda sudah aktif. Berikut cara menjamin kampanye yang Anda percaya — cukup dua ketukan dari kartu kampanye mana pun.",
+      "steps": {
+        "open": {
+          "title": "Buka menu",
+          "body": "Pada kartu kampanye mana pun, ketuk tombol tiga titik di sudut kanan atas banner."
+        },
+        "verify": {
+          "title": "Pilih \"Verifikasi kampanye ini\"",
+          "body": "Menu menampilkan aksi verifikasi — hanya terlihat oleh moderator dan verifikator seperti Anda."
+        },
+        "confirm": {
+          "title": "Konfirmasi & selesai",
+          "body": "Tegaskan bahwa kampanye ini autentik. Lencana Anda akan muncul di kartu sehingga para donatur tahu Anda mendukungnya."
+        }
+      },
+      "demo": {
+        "menuVerify": "Verifikasi kampanye ini"
+      }
+    },
+    "getStartedCard": {
+      "title": "Siapkan organisasi Anda",
+      "body": "Kami akan memandu Anda membuat profil organisasi, memublikasikan pernyataan verifikasi, dan memverifikasi kampanye pertama Anda.",
+      "cta": "Mulai verifikasi"
+    }
+  },
+  "organizers": {
+    "appoint": "Tunjuk Organizer",
+    "appointDesc": "Berikan izin kepada pengguna untuk menyematkan unggahan di feed negara tertentu.",
+    "appointing": "Menunjuk…",
+    "appointed": "Organizer ditunjuk",
+    "appointedSuccess": "Organizer ditunjuk untuk {{country}}",
+    "userNpub": "Npub pengguna",
+    "country": "Negara",
+    "selectCountry": "Pilih negara",
+    "invalidNpub": "Format npub tidak valid",
+    "alreadyOrganizer": "Pengguna ini sudah menjadi organizer untuk negara tersebut",
+    "current": "Organizer Saat Ini",
+    "noOrganizers": "Belum ada organizer yang ditunjuk.",
+    "removed": "Organizer dihapus",
+    "removedSuccess": "{{name}} dihapus dari {{country}}",
+    "refreshed": "Dimuat ulang",
+    "refreshedDesc": "Daftar organizer dimuat ulang dari relay.",
+    "adminRequired": "Akses admin diperlukan",
+    "adminRequiredDesc": "Hanya admin platform yang dapat menunjuk atau menghapus organizer."
+  },
+  "wallet": {
+    "seoTitle": "Dompet",
+    "seoDescription": "Dompet Bitcoin hierarchical-deterministic yang diturunkan dari nsec Nostr Anda.",
+    "loggedOut": {
+      "title": "Dompet Bitcoin",
+      "description": "Dompet hierarkis yang diturunkan dari identitas Nostr Anda. Alamat baru per penerimaan, riwayat transaksi lengkap, tanpa penggunaan ulang alamat.",
+      "requiresNsec": "Membutuhkan login dengan nsec (kunci privat Nostr Anda)."
+    },
+    "unsupported": {
+      "title": "Dompet tidak tersedia",
+      "extension": "Ekstensi browser Anda menjaga kunci rahasia Anda tetap terisolasi, sehingga kami tidak bisa menurunkan kunci anak untuk dompet Anda.",
+      "bunker": "Penandatangan jarak jauh Anda (NIP-46 bunker) menyimpan kunci rahasia Anda di sisi bunker, jadi kami tidak bisa menurunkan kunci anak untuk dompet Anda.",
+      "other": "Jenis login Anda tidak mengekspos kunci rahasia yang diperlukan untuk menurunkan dompet Anda.",
+      "instructions": "Keluar dan masuk lagi dengan nsec Anda untuk menggunakan dompet."
+    },
+    "scanFailed": "Gagal memindai dompet",
+    "retry": "Coba lagi",
+    "refreshBalance": "Muat ulang saldo",
+    "refreshBalanceTitle": "Klik untuk memuat ulang saldo",
+    "amountPending": "{{amount}} tertunda",
+    "pending": "tertunda",
+    "send": "Kirim",
+    "transactions": "Transaksi",
+    "receiveDialog": {
+      "title": "Terima Bitcoin",
+      "description": "Bagikan alamat untuk menerima bitcoin.",
+      "addressIndex": "Alamat #{{index}}",
+      "scanForNew": "Periksa pembayaran baru"
+    },
+    "tx": {
+      "pending": "Tertunda",
+      "today": "Hari ini",
+      "yesterday": "Kemarin",
+      "daysAgo_one": "{{count}} hari lalu",
+      "daysAgo_other": "{{count}} hari lalu",
+      "received": "Diterima",
+      "sent": "Terkirim"
+    },
+    "openMenu": "Menu dompet",
+    "sendPublic": "Kirim",
+    "sendPrivate": "Kirim secara privat",
+    "tabs": {
+      "public": "Publik",
+      "private": "Privat"
+    },
+    "hideBalance": "Sembunyikan saldo",
+    "showBalance": "Tampilkan saldo"
+  },
+  "walletSettings": {
+    "backup": {
+      "label": "Cadangkan dompet"
+    },
+    "legacy": {
+      "label": "Pemulihan dompet lawas"
+    }
+  },
+  "walletLegacy": {
+    "seoTitle": "Pemulihan Dompet Lawas",
+    "seoDescription": "Pulihkan dana dari generasi dompet Agora sebelumnya.",
+    "title": "Pemulihan dompet lawas",
+    "subtitle": "Pilih dompet sebelumnya yang Anda gunakan dan sapu saldonya ke dompet Anda saat ini.",
+    "loggedOut": "Masuk dengan identitas Nostr Anda untuk mencari dana di dompet lama Anda.",
+    "scanning": "Memindai dompet V2 beta untuk dana…",
+    "v2Detected": {
+      "title": "Dana ditemukan di V2 Prelaunch Beta Wallet",
+      "body": "Kami menemukan <0>{{amount}}</0> di alamat dari dompet V2 beta lama Anda. Buka penyapuan V2 di bawah untuk memindahkannya ke dompet Anda saat ini."
+    },
+    "options": {
+      "v2Beta": {
+        "label": "V2 Prelaunch Beta Wallet",
+        "description": "Sapu dana dari dompet BIP-86 berbasis nsec-sebagai-seed yang dirilis sebelum penurunan BIP-39."
+      },
+      "v1Breeze": {
+        "label": "V1 Breeze Wallet",
+        "description": "Sapu saldo on-chain dari kustodian Lightning lawas."
+      },
+      "doubleTweak": {
+        "label": "Perbaikan SP Double-tweak",
+        "description": "Pulihkan silent payment yang terdampar akibat bug pengiriman sebelumnya dan sapu kembali ke dompet Anda."
+      }
+    },
+    "footnote": "Setiap opsi adalah penyapuan satu arah ke dompet Anda saat ini. Dompet lawas itu sendiri tidak dipulihkan — hanya dana yang dimilikinya yang dipulihkan."
+  },
+  "walletRecovery": {
+    "seoTitle": "Pulihkan Dompet Lama",
+    "seoDescription": "Pulihkan dana dari dompet Lightning sebelumnya dan transfer ke alamat Bitcoin turunan Nostr Anda.",
+    "title": "Pulihkan Dompet Lama",
+    "heading": "Pulihkan dompet lama Anda",
+    "subheading": "Jika Anda sebelumnya memegang dana di dompet Lightning, Anda bisa menyapunya ke alamat Bitcoin turunan Nostr Anda. Dompet lama Anda tidak dipulihkan — ini adalah transfer sekali jalan, satu arah.",
+    "backToWallet": "Kembali ke dompet",
+    "loggedOut": {
+      "title": "Masuk untuk memulihkan",
+      "description": "Masuk dengan identitas Nostr yang memiliki dompet Lightning lama agar dana bisa disapu ke alamat Bitcoin-nya."
+    },
+    "destination": {
+      "title": "Dana akan dikirim ke",
+      "description": "Alamat Taproot turunan Nostr Anda."
+    },
+    "phrase": {
+      "title": "Frasa pemulihan",
+      "description": "Tempel frasa pemulihan 12 kata dari dompet lama Anda.",
+      "checkingRelays": "Memeriksa relay Anda untuk cadangan terenkripsi…",
+      "backupFoundTitle": "Cadangan ditemukan di relay Anda",
+      "backupFoundDesc": "Kami menemukan cadangan terenkripsi dari frasa pemulihan dompet lama Anda yang dipublikasikan dari akun ini.",
+      "decryptAndUse": "Dekripsi dan gunakan",
+      "placeholder": "kata1 kata2 kata3 …",
+      "warning": "Hanya tempel frasa pemulihan yang Anda percayai. Siapa pun dengan frasa ini bisa membelanjakan dana. Setelah penyapuan selesai, hapus dari tempat mana pun Anda menyalinnya.",
+      "sweepButton": "Sapu dana ke alamat Bitcoin saya"
+    },
+    "sweeping": {
+      "working": "Memproses…",
+      "dontClose": "Jangan tutup tab ini. Ini bisa memakan waktu hingga satu menit saat dompet lama menyinkronkan dan transaksi disiarkan."
+    },
+    "success": {
+      "title": "Pemulihan selesai",
+      "sent": "Mengirim {{sats}} sats ke alamat Bitcoin Anda.",
+      "viewTransaction": "Lihat transaksi"
+    },
+    "error": {
+      "title": "Pemulihan gagal",
+      "tryAgain": "Coba lagi"
+    },
+    "errors": {
+      "noNip44": "Penandatangan Anda tidak mendukung dekripsi NIP-44, yang diperlukan untuk membaca cadangan relay. Tempel frasa pemulihan 12 kata Anda secara manual sebagai gantinya.",
+      "decryptFailed": "Tidak dapat mendekripsi cadangan relay. Tempel frasa pemulihan 12 kata Anda secara manual sebagai gantinya.",
+      "decryptGeneric": "Gagal mendekripsi cadangan relay.",
+      "invalidWordCount": "Frasa pemulihan harus 12 atau 24 kata.",
+      "noBalance": "Dompet lama Anda tidak memiliki saldo yang bisa dibelanjakan. Tidak ada yang bisa dipulihkan.",
+      "sweepGeneric": "Pemulihan gagal. Silakan coba lagi."
+    },
+    "progress": {
+      "loadingSdk": "Memuat SDK dompet…",
+      "connecting": "Menghubungkan ke dompet lama Anda…",
+      "checkingBalance": "Memeriksa saldo…",
+      "preparingTransfer": "Menyiapkan transfer {{sats}} sats…",
+      "broadcasting": "Menyiarkan transaksi…"
+    },
+    "toast": {
+      "backupLoadedTitle": "Cadangan dimuat",
+      "backupLoadedDesc": "Frasa pemulihan didekripsi dari relay Anda."
+    }
+  },
+  "walletBackup": {
+    "heading": "Frasa pemulihan dompet",
+    "dialogDescription": "Anda dapat mengakses dompet Agora Anda di dompet Bitcoin mana pun dengan mengimpor cadangan 24 kata ini.",
+    "hidden": "Ketuk untuk menampilkan frasa pemulihan 24 kata Anda.",
+    "revealAria": "Tampilkan frasa pemulihan",
+    "hideAria": "Sembunyikan frasa pemulihan",
+    "warning": "Siapa pun yang memiliki kata-kata ini dapat membelanjakan Bitcoin Anda. Jangan pernah membagikannya, jangan pernah mengetikkannya ke situs web, jangan pernah menyimpannya dalam teks biasa di luar pengelola kata sandi."
+  },
+  "walletConnect": {
+    "status": "Status",
+    "ready": "Siap",
+    "notFound": "Tidak Ditemukan",
+    "none": "Tidak ada",
+    "add": "Tambah",
+    "active": "Aktif",
+    "connectionLabel": "Koneksi NWC",
+    "defaultWalletName": "Dompet Lightning",
+    "setActiveTitle": "Tetapkan sebagai aktif",
+    "removeTitle": "Hapus dompet",
+    "helpText": "Pasang ekstensi browser WebLN atau hubungkan dompet NWC untuk mengirim zap.",
+    "webln": {
+      "name": "WebLN",
+      "description": "Ekstensi browser"
+    },
+    "nwc": {
+      "name": "Nostr Wallet Connect",
+      "description": "Koneksi dompet jarak jauh",
+      "connectedCount_one": "{{count}} dompet terhubung",
+      "connectedCount_other": "{{count}} dompet terhubung"
+    },
+    "empty": {
+      "title": "Tidak ada dompet terhubung",
+      "description": "Tambahkan koneksi NWC untuk mengaktifkan zap instan."
+    },
+    "dialog": {
+      "title": "Hubungkan Dompet NWC",
+      "description": "Tempel string koneksi dari dompet yang kompatibel dengan NWC.",
+      "aliasPlaceholder": "Nama dompet (opsional)",
+      "connect": "Hubungkan",
+      "connecting": "Menghubungkan..."
+    },
+    "toast": {
+      "uriRequiredTitle": "URI koneksi diperlukan",
+      "uriRequiredDesc": "Masukkan URI koneksi NWC yang valid.",
+      "activeChangedTitle": "Dompet aktif berubah",
+      "activeChangedDesc": "Dompet yang dipilih sekarang aktif untuk zap."
+    }
+  },
+  "walletSend": {
+    "title": "Kirim Bitcoin",
+    "send": "Kirim Bitcoin",
+    "max": "MAX",
+    "tapAgainToConfirm": "Ketuk lagi untuk konfirmasi",
+    "satPerVB": "{{rate}} sat/vB",
+    "notEnoughBitcoin": "Bitcoin tidak mencukupi",
+    "emptyWallet": "Dompet Anda kosong. Tambahkan Bitcoin sebelum dapat mengirim.",
+    "recipient": {
+      "placeholder": "bc1…, sp1…",
+      "scan": "Pindai kode QR",
+      "sendToOnchain": "Kirim ke alamat Bitcoin",
+      "sendToSilentPayment": "Kirim ke alamat silent payment",
+      "bitcoinAddress": "Alamat Bitcoin",
+      "silentPayment": "Alamat silent payment",
+      "toLabel": "Kepada",
+      "clear": "Hapus penerima",
+      "choosePaymentMethod": "Pilih metode pembayaran untuk melanjutkan"
+    },
+    "feeSpeed": {
+      "fastest": "~10 menit",
+      "halfHour": "~30 menit",
+      "hour": "~1 jam",
+      "economy": "~1 hari",
+      "custom": "Khusus"
+    },
+    "fee": {
+      "loading": "memuat…",
+      "unavailable": "tidak tersedia",
+      "loadFailed": "Tidak bisa memuat tarif biaya.",
+      "retry": "Coba lagi",
+      "orCustom": "Atau masukkan tarif khusus di bawah.",
+      "loadingTiers": "Memuat tarif biaya…",
+      "customPlaceholder": "misal 5",
+      "customAriaLabel": "Tarif biaya khusus dalam sat/vB"
+    },
+    "progress": {
+      "building": "Membangun transaksi…",
+      "signing": "Menandatangani…",
+      "broadcasting": "Menyiarkan…",
+      "sending": "Mengirim…"
+    },
+    "errors": {
+      "unavailable": "Dompet HD tidak tersedia untuk jenis login ini.",
+      "enterRecipient": "Masukkan alamat Bitcoin atau alamat silent payment sp1….",
+      "noSpendable": "Tidak ada Bitcoin yang bisa dibelanjakan di dompet ini.",
+      "feesNotLoaded": "Tarif biaya belum dimuat.",
+      "enterAmount": "Masukkan jumlah.",
+      "insufficient": "Bitcoin tidak cukup untuk jumlah ini + biaya jaringan.",
+      "waitingPrice": "Menunggu harga BTC…",
+      "noneYet": "Anda belum punya Bitcoin.",
+      "feesNotLoadedYet": "Tarif biaya belum dimuat.",
+      "feeRateTooLow": "Masukkan tarif biaya minimal 1 sat/vB."
+    },
+    "scanError": {
+      "title": "Tidak bisa membaca kode QR itu",
+      "description": "Diharapkan alamat Bitcoin, alamat silent payment (sp1…), atau URI bitcoin:."
+    },
+    "toast": {
+      "failedTitle": "Transaksi gagal",
+      "followUpFailedTitle": "Pembayaran terkirim, tetapi tanda terima publik gagal dipublikasikan"
+    },
+    "broadcastError": {
+      "feeTooLowTitle": "Biaya jaringan terlalu rendah",
+      "feeTooLowBodyWithMin": "Jaringan Bitcoin menolak biaya ini. Minimum saat ini sekitar {{min}} sat/vB.",
+      "feeTooLowBody": "Jaringan Bitcoin menolak biaya ini. Pilih tingkat yang lebih cepat atau naikkan tarif khusus Anda.",
+      "rbfTitle": "Pengganti butuh biaya lebih tinggi",
+      "rbfBody": "Transaksi pengganti harus membayar lebih dari yang asli. Naikkan biayanya dan coba lagi.",
+      "mempoolFullTitle": "Jaringan Bitcoin sedang padat",
+      "mempoolFullBody": "Mempool penuh dan biaya Anda tidak kompetitif. Naikkan biaya agar bisa lolos.",
+      "networkTitle": "Tidak bisa menjangkau jaringan Bitcoin",
+      "networkBody": "Periksa koneksi Anda dan coba lagi.",
+      "mempoolConflictTitle": "Transaksi berbenturan",
+      "mempoolConflictBody": "Salah satu input sudah dibelanjakan atau sedang dibelanjakan oleh transaksi lain.",
+      "staleUtxoTitle": "Dompet tidak sinkron",
+      "staleUtxoBody": "Sebagian koin di dompet ini tidak cocok dengan catatan blockchain, sehingga transaksi dihentikan sebelum disiarkan. Dompet sudah menyinkronkan ulang sebisanya — silakan coba lagi.",
+      "tooLongChainTitle": "Terlalu banyak transaksi yang belum terkonfirmasi",
+      "tooLongChainBody": "Anda punya rantai panjang transaksi yang belum terkonfirmasi. Tunggu sampai ada yang terkonfirmasi dan coba lagi.",
+      "badInputsTitle": "Transaksi ditolak",
+      "badInputsBody": "Jaringan menolak transaksi ini. Sesuaikan jumlah atau penerima dan coba lagi.",
+      "absurdlyHighFeeTitle": "Biaya luar biasa tinggi",
+      "absurdlyHighFeeBody": "Estimasi biaya mencurigakan tinggi. Muat ulang tarif biaya dan coba lagi.",
+      "unknownTitle": "Transaksi gagal",
+      "useHigherFee": "Gunakan biaya lebih tinggi",
+      "tryAgain": "Coba lagi",
+      "atMaxFeeTier": "Anda sudah di tingkat tercepat."
+    },
+    "success": {
+      "title": "Bitcoin terkirim",
+      "satsAmount": "{{sats}} sats",
+      "viewTransaction": "Lihat transaksi",
+      "done": "Selesai"
+    },
+    "titlePublic": "Kirim Bitcoin",
+    "titlePrivate": "Kirim secara privat",
+    "reuse": {
+      "checking": "Memeriksa alamat…",
+      "sendAnyway": "Tetap kirim",
+      "acknowledge": "Saya memahami risikonya — tetap kirim",
+      "historyWarning": "Alamat ini sudah pernah digunakan on-chain. Mengirim dana privat Anda ke sini menautkannya ke riwayat transaksi yang ada dan menghapus privasi silent payment Anda. Gunakan alamat silent payment (sp1…), atau tetap kirim.",
+      "ownPublicWarning": "Ini adalah alamat dari dompet publik Anda sendiri. Mengirim dana privat ke alamat ini menggabungkan kedua dompet dan menautkannya. Gunakan alamat silent payment (sp1…), atau tetap kirim."
+    },
+    "ownSilentPaymentBlocked": "Ini adalah alamat silent payment Anda sendiri. Anda tidak bisa mengirim dari dompet publik ke dompet privat Anda — melakukannya menggabungkan dana silent payment privat Anda dengan koin yang sudah terekspos di ledger publik, menautkan dompet privat Anda ke identitas yang diketahui dan menghancurkan privasinya. Kirim ke alamat lain saja."
+  },
+  "qrScanner": {
+    "title": "Pindai kode QR",
+    "close": "Tutup",
+    "starting": "Menyalakan kamera…",
+    "aim": "Arahkan kamera Anda ke kode QR.",
+    "flashOn": "Nyalakan lampu kilat",
+    "flashOff": "Matikan lampu kilat",
+    "errors": {
+      "generic": "Tidak bisa mengakses kamera.",
+      "insecure": "Akses kamera memerlukan koneksi yang aman (HTTPS).",
+      "unsupported": "Peramban ini tidak mendukung akses kamera.",
+      "notFound": "Tidak ada kamera yang ditemukan di perangkat ini.",
+      "denied": "Izin kamera ditolak. Aktifkan di pengaturan untuk memindai kode QR.",
+      "busy": "Aplikasi lain sedang menggunakan kamera. Tutup dan coba lagi.",
+      "overconstrained": "Kamera perangkat ini tidak mendukung pengaturan yang diminta.",
+      "didntStart": "Kamera tidak menyala. Mungkin aplikasi lain sedang menggunakannya, atau peramban Anda memblokir pemindai."
+    }
+  },
+  "spScan": {
+    "title": "Periksa pembayaran baru",
+    "subtitle": "Pindai blockchain untuk pembayaran privat",
+    "descriptionHelp": "Info selengkapnya",
+    "description": "Menelusuri indexer BIP-352 yang dikonfigurasi blok per blok untuk mendeteksi silent payment masuk.",
+    "since": "Sejak",
+    "preset": {
+      "lastHour": "Satu jam terakhir",
+      "last3h": "3 jam terakhir",
+      "last24h": "24 jam terakhir",
+      "lastWeek": "Pekan lalu",
+      "lastMonth": "Bulan lalu",
+      "custom": "Khusus…"
+    },
+    "customHours": "Jam",
+    "customHoursPlaceholder": "misal 12",
+    "advanced": "Lanjutan",
+    "connectingIndexer": "Menghubungkan ke indexer…",
+    "upToDate": "Anda sudah mutakhir.",
+    "fromBlock": "Dari blok",
+    "indexerTip": "Tip indexer",
+    "lastFullyScanned": "Terakhir dipindai penuh",
+    "never": "tidak pernah",
+    "includeSpent": "Sertakan yang sudah dibelanjakan",
+    "includeSpentDesc": "Juga deteksi silent payment yang sudah dibelanjakan. Gunakan saat membangun ulang riwayat penerimaan setelah pemindaian terlewat atau setel ulang.",
+    "blockProgress": "Blok {{current}} / {{to}}",
+    "matches_one": "{{count}} cocok",
+    "matches_other": "{{count}} cocok",
+    "scannedRange": "Dipindai blok {{from}} → {{to}}.",
+    "foundOutputs_one": "Menemukan {{count}} output baru.",
+    "foundOutputs_other": "Menemukan {{count}} output baru.",
+    "noNewPayments": "Tidak ada pembayaran baru.",
+    "startScan": "Mulai pindai",
+    "resolveFailed": {
+      "title": "Tidak bisa mencari blok awal",
+      "description": "mempool.space tidak dapat dijangkau saat ini. Masukkan blok awal di Lanjutan → Dari blok untuk tetap memindai."
+    },
+    "reconcile": {
+      "title": "Rekonsiliasi UTXO yang dibelanjakan",
+      "description": "Memeriksa setiap UTXO silent-payment yang tersimpan terhadap Blockbook dan menghapus yang sudah dibelanjakan. Gunakan ini jika saldo lebih tinggi dari seharusnya setelah pengiriman.",
+      "checking": "Memeriksa {{checked}} / {{total}}…",
+      "checked_one": "Memeriksa {{count}} UTXO · dipangkas {{pruned}}.",
+      "checked_other": "Memeriksa {{count}} UTXO · dipangkas {{pruned}}.",
+      "reconciling": "Merekonsiliasi…",
+      "reconcileNow": "Rekonsiliasi sekarang"
+    },
+    "autoScan": {
+      "label": "Pindai otomatis",
+      "description": "Terus memeriksa pembayaran privat baru di latar belakang, bahkan saat Anda meninggalkan halaman ini."
+    }
+  },
+  "notifications": {
+    "seoTitle": "Notifikasi",
+    "seoDescription": "Notifikasi Nostr Anda",
+    "title": "Notifikasi",
+    "tabs": {
+      "all": "Semua",
+      "mentions": "Sebutan"
+    },
+    "loginPrompt": "Masuk untuk melihat notifikasi Anda.",
+    "empty": "Belum ada notifikasi.",
+    "subject": {
+      "twoActors": "<0></0> dan <1></1>",
+      "andOthers_one": " dan {{count}} lainnya",
+      "andOthers_other": " dan {{count}} lainnya"
+    },
+    "actorAvatars": {
+      "moreCount": "+{{count}} lagi"
+    },
+    "actions": {
+      "reactedToYour": "bereaksi terhadap {{noun}} Anda",
+      "repostedYour": "merepost {{noun}} Anda",
+      "zappedYou": "memberi Anda zap",
+      "zappedYouWithAmount": "memberi Anda zap {{sats}} sats",
+      "repliedToYourNote": "membalas catatan Anda",
+      "mentionedYou": "menyebut Anda",
+      "repliedToYourComment": "membalas komentar Anda",
+      "commentedOnYour": "berkomentar pada {{noun}} Anda",
+      "sentYouLetter": "mengirim surat kepada Anda",
+      "highlightedYour": "menyoroti {{noun}} Anda",
+      "awardedBadge": "memberi Anda lencana",
+      "awardedBadges": "memberi Anda lencana"
+    },
+    "letter": {
+      "viewAll": "Lihat semua surat",
+      "reply": "Balas"
+    },
+    "kinds": {
+      "profile": "profil",
+      "post": "unggahan",
+      "encryptedMessage": "pesan terenkripsi",
+      "repost": "repost",
+      "reaction": "reaksi",
+      "badgeAward": "pemberian lencana",
+      "photo": "foto",
+      "video": "video",
+      "requestToVanish": "permintaan menghilang",
+      "file": "berkas",
+      "poll": "polling",
+      "comment": "komentar",
+      "voiceMessage": "pesan suara",
+      "patch": "patch",
+      "pullRequest": "pull request",
+      "highlight": "sorotan",
+      "birdDetection": "deteksi burung",
+      "birdex": "Birdex",
+      "colorMoment": "momen warna",
+      "foundLog": "log temuan",
+      "nsite": "nsite",
+      "profileBadges": "lencana profil",
+      "badge": "lencana",
+      "article": "artikel",
+      "emojiPack": "paket emoji",
+      "podcastEpisode": "episode podcast",
+      "podcastTrailer": "trailer podcast",
+      "zapstoreAsset": "aset Zapstore",
+      "zapstoreRelease": "rilis Zapstore",
+      "stream": "streaming",
+      "status": "status",
+      "repository": "repositori",
+      "customNip": "NIP kustom",
+      "calendarEvent": "acara kalender",
+      "zapstoreApp": "aplikasi Zapstore",
+      "playlist": "daftar putar",
+      "divine": "divine",
+      "community": "komunitas",
+      "goal": "tujuan",
+      "track": "trek",
+      "magicDeck": "Magic deck",
+      "treasure": "harta karun",
+      "constellation": "konstelasi",
+      "followPack": "paket follow"
+    }
+  },
+  "notifSettings": {
+    "seoTitle": "Notifikasi",
+    "seoDescription": "Konfigurasikan preferensi notifikasi Anda",
+    "title": "Notifikasi",
+    "pushHeading": "Notifikasi Push",
+    "enablePush": {
+      "label": "Aktifkan Notifikasi Push",
+      "description": "Terima notifikasi untuk aktivitas pada unggahan Anda"
+    },
+    "unsupported": "Browser Anda tidak mendukung notifikasi push.",
+    "denied": "Notifikasi diblokir. Perbarui pengaturan browser Anda untuk mengizinkan notifikasi dari situs ini.",
+    "deliveryMethod": {
+      "heading": "Metode Pengiriman",
+      "intro": "Pilih cara notifikasi dikirim ke perangkat Anda.",
+      "push": {
+        "label": "Push",
+        "description": "Notifikasi standar. Tanpa ikon status bar yang menetap."
+      },
+      "persistent": {
+        "label": "Persisten",
+        "description": "Memeriksa relay langsung di latar belakang untuk notifikasi baru. Gunakan ini untuk pengiriman yang andal pada perangkat tanpa dukungan notifikasi push."
+      }
+    },
+    "notifyAbout": {
+      "heading": "Beritahu Saya Tentang",
+      "filterHeading": "Filter",
+      "typesHeading": "Jenis",
+      "onlyFollowing": {
+        "label": "Hanya dari orang yang saya ikuti",
+        "description": "Sembunyikan notifikasi dari akun yang tidak Anda ikuti"
+      }
+    },
+    "types": {
+      "reactions": {
+        "label": "Reaksi",
+        "description": "Ketika seseorang bereaksi terhadap unggahan Anda"
+      },
+      "reposts": {
+        "label": "Repost",
+        "description": "Ketika seseorang merepost catatan Anda"
+      },
+      "zaps": {
+        "label": "Zap",
+        "description": "Ketika seseorang mengirim zap Lightning atau on-chain kepada Anda"
+      },
+      "mentions": {
+        "label": "Sebutan",
+        "description": "Ketika seseorang menyebut Anda dalam catatan"
+      },
+      "comments": {
+        "label": "Komentar & Balasan",
+        "description": "Ketika seseorang berkomentar atau membalas unggahan Anda"
+      },
+      "badges": {
+        "label": "Pemberian Lencana",
+        "description": "Ketika seseorang memberi Anda lencana"
+      },
+      "letters": {
+        "label": "Surat",
+        "description": "Ketika seseorang mengirim surat kepada Anda"
+      },
+      "highlights": {
+        "label": "Sorotan",
+        "description": "Ketika seseorang menyoroti konten Anda"
+      }
+    },
+    "toast": {
+      "enableFailedTitle": "Gagal mengaktifkan notifikasi",
+      "enableFailedDesc": "Silakan coba lagi."
+    }
+  },
+  "search": {
+    "seoTitle": "Cari",
+    "seoDescription": "Cari di Nostr",
+    "title": "Cari",
+    "inputPlaceholder": "Cari",
+    "filtersAria": "Filter pencarian",
+    "tabs": {
+      "agora": "Agora",
+      "nostr": "Nostr",
+      "accounts": "Pengguna"
+    },
+    "filters": {
+      "title": "Filter",
+      "reset": "Setel ulang",
+      "from": "Dari",
+      "sort": "Urutkan",
+      "media": "Media",
+      "protocol": "Protokol",
+      "language": "Bahasa",
+      "kind": "Jenis",
+      "kindCustomPlaceholder": "mis. 1, 30023",
+      "includeReplies": "Sertakan balasan",
+      "authorScope": {
+        "anyone": "Siapa saja",
+        "follows": "Diikuti",
+        "people": "Orang"
+      },
+      "sortOptions": {
+        "recent": "Terbaru",
+        "hot": "Hot",
+        "trending": "Trending"
+      },
+      "mediaOptions": {
+        "all": "Semua",
+        "images": "Gambar",
+        "videos": "Video",
+        "shorts": "Shorts",
+        "none": "Tanpa media"
+      },
+      "protocolOptions": {
+        "nostr": "Nostr",
+        "mastodon": "Mastodon",
+        "bluesky": "Bluesky"
+      },
+      "langOptions": {
+        "global": "Global",
+        "en": "Inggris",
+        "es": "Spanyol",
+        "fr": "Prancis",
+        "de": "Jerman",
+        "ja": "Jepang",
+        "zh": "Mandarin"
+      }
+    },
+    "chips": {
+      "noReplies": "Tanpa balasan",
+      "images": "Gambar",
+      "videos": "Video",
+      "shortsAndDivines": "Shorts & Divines",
+      "noMedia": "Tanpa media",
+      "mastodon": "Mastodon",
+      "bluesky": "Bluesky",
+      "hot": "Hot",
+      "trending": "Trending",
+      "allKinds": "Semua jenis",
+      "customKind": "Jenis: {{kind}}",
+      "kindNumber": "Jenis {{kind}}",
+      "kindsCount_one": "{{count}} jenis",
+      "kindsCount_other": "{{count}} jenis",
+      "myFollows": "Yang saya ikuti",
+      "authorsCount_one": "{{count}} penulis",
+      "authorsCount_other": "{{count}} penulis"
+    },
+    "clear": "Bersihkan",
+    "searchLabel": "cari:",
+    "newPosts_one": "{{count}} unggahan baru",
+    "newPosts_other": "{{count}} unggahan baru",
+    "following": "Mengikuti",
+    "botAccount": "Akun bot",
+    "empty": {
+      "posts": "Tidak ada hasil yang cocok dengan pencarian Anda.",
+      "postsPrompt": "Masukkan kueri pencarian untuk menemukan konten Nostr.",
+      "accounts": "Tidak ada pengguna yang cocok dengan pencarian Anda.",
+      "followsPrompt": "Cari orang berdasarkan nama atau alamat NIP-05.",
+      "agora": "Tidak ada kampanye, ikrar, atau grup Agora yang cocok dengan pencarian Anda.",
+      "agoraPrompt": "Cari kampanye, ikrar, dan grup Agora, atau telusuri yang terbaru.",
+      "activeFilters": "Filter aktif:",
+      "clearAll": "Bersihkan semua filter"
+    }
+  },
+  "profile": {
+    "seoDescriptionFallback": "Profil Nostr",
+    "anonymous": "Anonim",
+    "namePlaceholder": "Nama Anda",
+    "userNotFound": "Pengguna tidak ditemukan.",
+    "userNotFoundNip05": "Pengguna tidak ditemukan: {{handle}}",
+    "couldNotResolveNip05": "Tidak dapat menyelesaikan pengenal NIP-05 ini.",
+    "tabs": {
+      "overview": "Ikhtisar",
+      "verified": "Terverifikasi",
+      "activity": "Aktivitas",
+      "campaigns": "Kampanye",
+      "groups": "Grup",
+      "pledges": "Ikrar"
+    },
+    "header": {
+      "editProfile": "Ubah",
+      "shareFollowLink": "Bagikan tautan follow",
+      "moreOptions": "Opsi lainnya",
+      "donate": "Donasi",
+      "campaignGoal": "Target ${{amount}}"
+    },
+    "stats": {
+      "followers": "Pengikut",
+      "following": "Mengikuti",
+      "raised": "Terkumpul",
+      "followersTitle_one": "{{count}} pengikut",
+      "followersTitle_other": "{{count}} pengikut",
+      "followingTitle": "{{count}} mengikuti"
+    },
+    "sections": {
+      "profile": "Profil",
+      "campaigns": "Kampanye",
+      "latestPledge": "Ikrar terbaru",
+      "groups": "Grup",
+      "seeAllCampaigns_one": "Lihat semua {{count}} kampanye →",
+      "seeAllCampaigns_other": "Lihat semua {{count}} kampanye →",
+      "viewCampaignsTab": "Lihat tab kampanye →",
+      "seeAllPledges_one": "Lihat semua {{count}} ikrar →",
+      "seeAllPledges_other": "Lihat semua {{count}} ikrar →",
+      "seeAllGroups": "Lihat semua {{count}} →"
+    },
+    "badges": {
+      "founder": "Pendiri",
+      "moderator": "Moderator",
+      "mod": "Mod",
+      "ended": "Berakhir",
+      "pledged": "Diikrarkan"
+    },
+    "imageMenu": {
+      "upload": "Unggah berkas",
+      "pasteUrl": "Tempel URL",
+      "remove": "Hapus"
+    },
+    "websitePlaceholder": "https://your-website.com",
+    "moreMenu": {
+      "title": "Opsi profil",
+      "copyPubkey": "Salin kunci publik",
+      "copyLink": "Salin tautan profil",
+      "addToList": "Tambah ke daftar",
+      "shareFollowLink": "Bagikan tautan follow",
+      "profileRecovery": "Pemulihan profil",
+      "zap": "Zap",
+      "awardBadge": "Beri lencana",
+      "writeLetter": "Tulis surat",
+      "mute": "Bisukan @{{name}}",
+      "unmute": "Aktifkan @{{name}}",
+      "report": "Laporkan @{{name}}",
+      "close": "Tutup"
+    },
+    "toast": {
+      "pubkeyCopied": "Kunci publik disalin ke papan klip",
+      "linkCopied": "Tautan profil disalin ke papan klip",
+      "muted": "Membisukan @{{name}}",
+      "unmuted": "Mengaktifkan @{{name}}",
+      "muteFailed": "Gagal membisukan pengguna",
+      "unmuteFailed": "Gagal mengaktifkan pengguna",
+      "followed": "Mengikuti @{{name}}",
+      "unfollowed": "Berhenti mengikuti @{{name}}",
+      "followFailed": "Gagal memperbarui daftar ikut",
+      "btcAddressCopied": "Alamat Bitcoin disalin ke papan klip"
+    },
+    "followingModal": {
+      "title": "{{name}} mengikuti",
+      "empty": "Belum mengikuti siapa pun."
+    },
+    "followersModal": {
+      "title": "Pengikut {{name}}",
+      "empty": "Tidak ada pengikut ditemukan."
+    },
+    "bitcoinModal": {
+      "title": "Bitcoin",
+      "qrAlt": "QR Bitcoin",
+      "copyAddress": "Salin alamat",
+      "showQr": "Tampilkan kode QR",
+      "viewOnMempool": "Lihat di mempool.space"
+    },
+    "lightbox": {
+      "openOriginal": "Buka asli",
+      "close": "Tutup (Esc)",
+      "imageAlt": "Gambar profil"
+    },
+    "activity": {
+      "empty": "Belum ada aktivitas dari {{name}}. Unggahan, kampanye, ikrar, dan donasi semuanya muncul di sini."
+    },
+    "campaigns": {
+      "count_one": "{{count}} kampanye",
+      "count_other": "{{count}} kampanye",
+      "sortNew": "Baru",
+      "sortTop": "Teratas",
+      "showHidden": "Tampilkan yang tersembunyi",
+      "hideHidden": "Sembunyikan yang tersembunyi",
+      "emptySelf": "Anda belum meluncurkan kampanye.",
+      "emptyOther": "{{name}} belum meluncurkan kampanye.",
+      "startLink": "Mulai kampanye →"
+    },
+    "verified": {
+      "count_one": "{{count}} kampanye terverifikasi",
+      "count_other": "{{count}} kampanye terverifikasi",
+      "empty": "{{name}} belum memverifikasi kampanye apa pun."
+    },
+    "pledgesTab": {
+      "active": "Aktif",
+      "ended": "Berakhir",
+      "emptySelf": "Anda belum membuat ikrar.",
+      "emptyOther": "{{name}} belum membuat ikrar.",
+      "createLink": "Buat ikrar →"
+    },
+    "groupsDialog": {
+      "title": "Semua grup"
+    }
+  },
+  "profileSettings": {
+    "seoTitle": "Profil | Pengaturan",
+    "seoDescription": "Ubah profil {{appName}} Anda",
+    "header": {
+      "title": "Profil",
+      "save": "Simpan"
+    },
+    "uploading": "Mengunggah…",
+    "fields": {
+      "heading": "Bidang Profil",
+      "website": "Situs web",
+      "websitePlaceholder": "https://situswebanda.com",
+      "lightning": "Lightning",
+      "lightningPlaceholder": "anda@walletofsatoshi.com",
+      "labelPlaceholder": "Label",
+      "tickerPlaceholder": "Ticker",
+      "addressPlaceholder": "Alamat",
+      "valuePlaceholder": "Nilai atau URL",
+      "mediaPlaceholder": "Unggah berkas atau tempel tautan berkas langsung",
+      "chooseFile": "Pilih berkas untuk diunggah",
+      "chooseMediaFile": "Pilih berkas media untuk diunggah"
+    },
+    "presets": {
+      "music": {
+        "label": "Musik",
+        "description": "Unggah lagu atau klip audio",
+        "valuePlaceholder": "Unggah audio atau tempel tautan berkas langsung"
+      },
+      "photo": {
+        "label": "Foto",
+        "description": "Unggah gambar",
+        "valuePlaceholder": "Unggah gambar atau tempel tautan berkas langsung"
+      },
+      "video": {
+        "label": "Video",
+        "description": "Unggah klip video",
+        "valuePlaceholder": "Unggah video atau tempel tautan berkas langsung"
+      },
+      "email": {
+        "label": "Email",
+        "defaultLabel": "Email",
+        "description": "Alamat email kontak",
+        "valuePlaceholder": "anda@example.com"
+      },
+      "wallet": {
+        "label": "Dompet",
+        "description": "Alamat dompet kripto",
+        "valuePlaceholder": "Alamat"
+      },
+      "link": {
+        "label": "Tautan",
+        "description": "Tautan ke situs web atau profil apa pun",
+        "valuePlaceholder": "https://..."
+      },
+      "weather": {
+        "label": "Cuaca",
+        "defaultLabel": "Cuaca",
+        "description": "Hubungkan stasiun cuaca Nostr",
+        "valuePlaceholder": "npub1... atau naddr1... (#station-id opsional)"
+      },
+      "custom": {
+        "label": "Kustom",
+        "description": "Buat bidang kustom apa pun",
+        "valuePlaceholder": "Nilai atau URL"
+      }
+    },
+    "warnings": {
+      "audioWrongType": "URL ini tidak mengarah ke berkas audio. Unggah berkas audio atau gunakan tautan langsung yang berakhir dengan .mp3, .ogg, .wav, dll.",
+      "audioUnknown": "URL ini mungkin tidak berfungsi sebagai pemutar audio. Untuk hasil terbaik, unggah berkas menggunakan tombol atau tempel tautan langsung ke berkas audio.",
+      "imageWrongType": "URL ini tidak mengarah ke gambar. Unggah gambar atau gunakan tautan langsung yang berakhir dengan .jpg, .png, .webp, dll.",
+      "imageUnknown": "URL ini mungkin tidak ditampilkan sebagai gambar. Untuk hasil terbaik, unggah berkas menggunakan tombol atau tempel tautan langsung ke berkas gambar.",
+      "videoWrongType": "URL ini tidak mengarah ke video. Unggah video atau gunakan tautan langsung yang berakhir dengan .mp4, .webm, .mov, dll.",
+      "videoUnknown": "URL ini mungkin tidak ditampilkan sebagai video. Untuk hasil terbaik, unggah berkas menggunakan tombol atau tempel tautan langsung ke berkas video."
+    },
+    "crop": {
+      "profile": "Potong Gambar Profil",
+      "banner": "Potong Banner"
+    },
+    "mobilePreview": "Pratinjau Bidang Profil",
+    "advanced": {
+      "heading": "Lanjutan",
+      "botLabel": "Akun Bot",
+      "botDescription": "Tandai akun ini sebagai otomatis"
+    },
+    "toast": {
+      "uploaded": "Terunggah",
+      "mediaUploaded": "Berkas media diunggah",
+      "uploadFailed": "Unggah gagal",
+      "tryAgain": "Silakan coba lagi.",
+      "profilePictureUpdated": "Gambar profil diperbarui",
+      "bannerUpdated": "Banner diperbarui",
+      "profileSaved": "Profil disimpan",
+      "saveFailed": "Gagal menyimpan profil."
+    },
+    "key": {
+      "heading": "Kunci Anda",
+      "extensionBody": "Anda masuk dengan ekstensi browser (NIP-07). Kunci rahasia Anda disimpan di sana — kelola atau ekspor dari ekstensi itu sendiri.",
+      "bunkerBody": "Anda masuk dengan penandatangan jarak jauh (NIP-46). Kunci rahasia Anda dipegang oleh penandatangan itu dan tidak bisa diekspor dari {{appName}}.",
+      "explainer": "Kunci rahasia ini mengontrol akun Anda di {{appName}}. Siapa pun yang memilikinya bisa memposting dan menyamar sebagai Anda. Simpan di pengelola kata sandi atau tempat lain yang hanya bisa Anda akses.",
+      "warning": "JANGAN PERNAH bagikan kunci rahasia Anda kepada siapa pun. Hindari memotretnya atau menempelnya di tempat selain pengelola kata sandi. Jika dibagikan, orang lain bisa mengakses akun Anda.",
+      "aria": "Kunci rahasia Anda",
+      "copyAria": "Salin kunci rahasia",
+      "revealAria": "Tampilkan kunci rahasia",
+      "hideAria": "Sembunyikan kunci rahasia",
+      "backupButton": "Cadangkan Kunci",
+      "saving": "Menyimpan…",
+      "saved": "Kunci rahasia disimpan",
+      "savedToFile": "Kunci rahasia Anda disimpan ke folder Documents di perangkat Anda.",
+      "saveFailed": "Penyimpanan gagal",
+      "saveFailedDescription": "Tidak dapat menyimpan kunci. Silakan salin secara manual.",
+      "copyFailed": "Penyalinan gagal",
+      "copyFailedDescription": "Tidak dapat mengakses papan klip. Tampilkan kunci dan salin secara manual."
+    }
+  },
+  "faq": {
+    "categories": {
+      "getting-started": {
+        "label": "Tentang Agora"
+      },
+      "payments": {
+        "label": "Donasi"
+      },
+      "verification": {
+        "label": "Verifikasi & Kepercayaan"
+      },
+      "about-nostr": {
+        "label": "Tentang Nostr"
+      },
+      "legacy": {
+        "label": "Legacy"
+      }
+    },
+    "items": {
+      "what-is-ditto": {
+        "question": "Apa itu {{appName}}?",
+        "answer": [
+          "{{appName}} adalah Jaringan Mikrofilantropi Tanpa Batas pertama di dunia — tempat untuk memberi Bitcoin langsung kepada orang dan perjuangan di seluruh dunia, secara publik atau privat. Tanpa batas negara, tanpa perantara, tanpa prosesor pembayaran, dan tanpa akun yang bisa dibekukan.",
+          "{{appName}} dibangun di atas Nostr, sehingga identitas Anda tidak terkunci ke situs ini — Andalah yang memilikinya."
+        ]
+      },
+      "cost-to-use": {
+        "question": "Apakah {{appName}} berbayar?",
+        "answer": [
+          "**Tidak.** {{appName}} tidak mengambil biaya platform. Saat Anda berdonasi, Anda hanya membayar biaya jaringan Bitcoin yang masuk ke penambang — bukan ke kami."
+        ]
+      },
+      "who-made-this": {
+        "question": "Siapa yang membuat {{appName}}?",
+        "answer": [
+          "{{appName}} dibangun oleh [Soapbox](https://soapbox.pub), tim sumber terbuka yang membangun alat untuk ekosistem Nostr, bekerja sama dengan [World Liberty Congress](https://worldlibertycongress.org/)."
+        ]
+      },
+      "send-bitcoin-onchain": {
+        "question": "Bagaimana cara kerja pengiriman Bitcoin?",
+        "answer": [
+          "Saat seorang penerima membuat kampanye, mereka memilih jenis pembayaran apa yang diterima: **publik**, **privat**, atau **keduanya**.",
+          "Donasi **publik** adalah Bitcoin asli di on-chain. Mereka diselesaikan di blockchain publik, berfungsi di setiap dompet Bitcoin, dan terlihat oleh siapa pun.",
+          "Donasi **privat** menggunakan **silent payments** (BIP-352). Mereka juga diselesaikan on-chain, tetapi transaksinya tidak bisa dihubungkan kembali ke kode donasi penerima — sehingga tetap di luar daftar donatur publik dan jumlah total. Donatur perlu dompet yang mendukung silent payments — kami merekomendasikan [Ditto Wallet](https://ditto.pub) atau [Dana](https://github.com/cygnet3/dana/releases/download/v0.7.4/app-live-release.apk).",
+          "Saat kampanye menerima **keduanya**, {{appName}} menampilkan satu kode QR yang mengencode kedua titik. Dompet silent-payment membacanya sebagai privat; dompet lain kembali ke alamat publik. Donatur tidak perlu memilih — dompet mereka memilih jalur yang tepat secara otomatis.",
+          "Dengan cara apa pun, pembayaran langsung ke penerima. {{appName}} tidak pernah menyentuh dananya."
+        ]
+      },
+      "agora-funds": {
+        "question": "Apa itu Agora Funds?",
+        "answer": [
+          "**Agora Funds** adalah kampanye yang dikelola oleh {{appName}} yang memungkinkan Anda memberi ke sekumpulan beberapa kampanye yang terkait dengan satu tujuan. Alih-alih memilih satu kampanye, Anda berdonasi sekali ke dana tersebut dan pemberian Anda mendukung setiap kampanye dalam tujuan itu.",
+          "Agora Funds menerima **pembayaran kartu via Stripe** selain Bitcoin — memberi donatur yang tidak ingin membayar dengan Bitcoin cara untuk tetap mendukung tujuan yang mereka pedulikan. Donasi kartu hanya tersedia pada **dana yang disponsori Agora**; kampanye biasa tetap menerima Bitcoin secara langsung, on-chain, tanpa pemroses pembayaran di antaranya."
+        ]
+      },
+      "connect-wallet": {
+        "question": "Apa itu dompet di {{appName}}?",
+        "answer": [
+          "Dompet {{appName}} Anda adalah dompet Bitcoin **self-custodial**, dibangun dari kunci Nostr Anda. {{appName}} tidak pernah menahan dana Anda — dompet berjalan di peramban Anda dan menandatangani transaksi secara lokal dengan kunci yang hanya Anda kendalikan. Ia dapat menerima Bitcoin dengan kedua cara — sebagai alamat publik yang bisa dibayar dompet Bitcoin apa pun, dan sebagai kode silent-payments yang bisa dibayar oleh dompet yang mendukung secara privat. Tidak ada yang perlu didaftarkan; dompet ada sejak Anda memiliki akun.",
+          "Dompet memiliki dua tab: **Publik** (alamat Bitcoin biasa Anda) dan **Privat** (silent payments). Kedua saldo dipisahkan secara ketat dan tidak pernah bisa dibelanjakan bersama — isolasi itulah yang menjaga donasi privat tetap tak terhubungkan di on-chain. Saat Anda membuat kampanye, Anda memilih apakah menerima pembayaran publik, pembayaran privat, atau keduanya. Untuk membelanjakan apa yang Anda terima, lihat **Panduan Penerima**.",
+          "Anda juga bisa mengekspor frasa seed 24 kata dari dompet Anda dan mengimpornya ke dompet Bitcoin standar apa pun — lihat \"Bisakah saya mengekspor dompet {{appName}} saya ke dompet Bitcoin lain?\" di bawah."
+        ]
+      },
+      "export-wallet": {
+        "question": "Bisakah saya mengekspor dompet {{appName}} saya ke dompet Bitcoin lain?",
+        "answer": [
+          "Ya. Dompet {{appName}} Anda sepenuhnya self-custodial. {{appName}} tidak pernah menahan Bitcoin Anda dan tidak pernah melihat kunci Anda — dompet berjalan sepenuhnya di peramban Anda, menandatangani transaksi secara lokal dengan kunci yang diturunkan dari kunci rahasia Nostr Anda (nsec).",
+          "Buka dompet dari menu, ketuk menu tiga titik di kanan atas, dan pilih **Cadangkan dompet**. Anda akan melihat frasa seed BIP-39 24 kata. Tuliskan di tempat yang aman (atau simpan di pengelola kata sandi) — **siapa pun yang memiliki kata-kata ini bisa membelanjakan Bitcoin Anda.**",
+          "Anda bisa mengimpor 24 kata tersebut ke dompet Bitcoin standar apa pun: **Sparrow**, **Electrum**, **BlueWallet**, **Phoenix**, **Trezor**, atau **Ledger**. {{appName}} menggunakan jalur derivasi standar BIP-86 (Taproot) dan BIP-352 (silent payments), jadi tidak diperlukan konfigurasi khusus.",
+          "Setelah diimpor, dompet lain menampilkan saldo dan riwayat yang sama dengan dompet {{appName}} Anda — keduanya adalah dompet yang sama, hanya dua tampilan darinya.",
+          "Ekspor frasa seed hanya tersedia saat Anda masuk dengan nsec. Login melalui ekstensi peramban dan remote-signer (bunker) menjaga kunci rahasia Anda tetap terisolasi, sehingga {{appName}} tidak bisa menurunkan seed dalam mode tersebut."
+        ]
+      },
+      "donations-are-public-general": {
+        "question": "Apakah donasi di {{appName}} publik?",
+        "answer": [
+          "Itu tergantung jenis pembayaran apa yang diterima penerima.",
+          "**Donasi publik** dicatat di blockchain Bitcoin dan di Nostr. Siapa pun bisa melihat jumlah, waktu, dan alamatnya.",
+          "**Donasi privat** menggunakan silent payments. Mereka tidak bisa dihubungkan secara publik ke kode donasi penerima, tidak muncul dalam daftar donatur, dan tidak dihitung dalam jumlah total publik.",
+          "Saat kampanye menerima keduanya, dompet donatur memutuskan jalur mana yang digunakan — dompet yang mendukung silent payments membayar secara privat, yang lain membayar alamat publik. Baca **Panduan Donatur** dan **Panduan Penerima** untuk gambaran lengkap."
+        ]
+      },
+      "why-donations-pending": {
+        "question": "Mengapa beberapa donasi tertulis \"pending\"?",
+        "answer": [
+          "Donasi **pending** adalah Bitcoin asli yang sudah dikirim — ia hanya menunggu untuk dikonfirmasi oleh jaringan. Dompet donatur telah menyiarkan transaksinya, tetapi belum dimasukkan ke dalam blok.",
+          "Bitcoin menghasilkan blok baru kira-kira setiap 10 menit, dan penambang memilih transaksi berdasarkan biaya yang dibayar donatur. Sebagian besar donasi terkonfirmasi dalam satu jam; donasi dengan biaya lebih rendah bisa memakan waktu lebih lama saat jaringan sedang sibuk. {{appName}} memeriksa ulang status konfirmasi secara otomatis, sehingga label **pending** hilang dengan sendirinya begitu blok masuk.",
+          "Dananya sedang dalam perjalanan — penerima akan melihat donasi tersebut dihitung ke dalam total kampanye segera setelah terkonfirmasi. Tidak ada yang bisa dilakukan penerima atau {{appName}} untuk mempercepatnya; hanya dompet donatur yang bisa menaikkan fee."
+        ]
+      },
+      "censorship-resistance": {
+        "question": "Apa yang dimaksud dengan \"anti-sensor\" di sini?",
+        "answer": [
+          "Tidak ada perusahaan yang berada di antara donatur dan penerima. {{appName}} tidak menahan dana dan tidak bisa membekukan alamat.",
+          "Selama jaringan Bitcoin berjalan, donasi bisa dikirim dan diterima. {{appName}} sendiri offline pun tidak akan menghentikannya."
+        ]
+      },
+      "why-onchain": {
+        "question": "Mengapa Bitcoin?",
+        "answer": [
+          "Bitcoin adalah jalur pembayaran yang paling didukung secara luas dan paling anti-sensor di dunia. Setiap dompet Bitcoin bisa mengirimnya.",
+          "Di {{appName}}, penerima memilih cara menerima: **publik** (alamat Bitcoin biasa) untuk jangkauan maksimum, **privat** (silent payments) untuk donasi tak terhubungkan, atau **keduanya** sehingga dompet setiap donatur memilih jalur yang tepat secara otomatis. Donatur yang hanya memiliki aplikasi Bitcoin konsumen masih bisa berkontribusi; donatur dengan dompet silent-payments mendapat privasi secara default.",
+          "Konsekuensinya adalah transaksi Bitcoin publik terlihat di blockchain dan membayar biaya penambang. Panduan Donatur dan Penerima menjelaskan cara menangani keduanya."
+        ]
+      },
+      "why-not-silent-payments": {
+        "question": "Apakah {{appName}} mendukung silent payments?",
+        "answer": [
+          "Ya — di kedua sisi. Dompet Bitcoin bawaan {{appName}} mendukung BIP-352, jadi saat Anda mengirim Bitcoin dari dompet {{appName}} Anda bisa membayar alamat silent-payment apa pun (`sp1…`) secara langsung. Dan saat seorang penerima membuat kampanye, mereka bisa menerima silent payments bersama dengan, atau sebagai pengganti, pembayaran Bitcoin publik.",
+          "Donasi silent-payment tetap diselesaikan on-chain, tetapi transaksinya tidak bisa dihubungkan kembali ke kode donasi penerima — jadi mereka tidak muncul di daftar donatur publik atau jumlah total.",
+          "Mengirim silent payment dari luar {{appName}} membutuhkan dompet yang mendukung BIP-352. Sebagian besar aplikasi konsumen belum mendukung, tetapi [Ditto Wallet](https://ditto.pub) dan [Dana](https://github.com/cygnet3/dana/releases/download/v0.7.4/app-live-release.apk) mendukung.",
+          "Saat kampanye menerima kedua jenis pembayaran, {{appName}} mengencode keduanya dalam satu kode QR. Dompet yang mendukung silent-payment membayar secara privat; yang lain membayar alamat publik. Tidak ada donatur yang tertutup, dan tidak ada penerima yang dipaksa memilih antara jangkauan dan privasi."
+        ]
+      },
+      "why-not-lightning": {
+        "question": "Mengapa {{appName}} tidak menggunakan Lightning?",
+        "answer": [
+          "Lightning membutuhkan dompet Lightning. Yang paling mudah (Wallet of Satoshi, Strike, Breez) bersifat **kustodial** — sebuah perusahaan memegang dana dan bisa ditutup, dibatasi secara geografis, atau ditekan untuk membekukan akun. Lightning non-kustodial menuntut teknis tinggi dan tidak andal untuk pemula.",
+          "Kami ingin {{appName}} berfungsi untuk seseorang yang pengalaman Bitcoin satu-satunya adalah aplikasi konsumen biasa seperti Cash App, Coinbase, Strike, Venmo, atau PayPal. Bitcoin on-chain berfungsi dengan setiap dompet di planet ini."
+        ]
+      },
+      "why-not-rotating-addresses": {
+        "question": "Mengapa {{appName}} tidak membuat alamat baru untuk setiap donasi?",
+        "answer": [
+          "Melakukan ini akan mengharuskan {{appName}} bertindak sebagai perantara penukar uang — pertama-tama mengambil kustodi atas Bitcoin dan kemudian meneruskannya ke penerima.",
+          "Itu akan menjadikan kami pemindah uang, tunduk pada regulasi yang menyertainya, dan titik kegagalan tunggal: matikan server {{appName}} maka Anda mematikan setiap donasi yang mengalir melaluinya.",
+          "Sebaliknya, alamat donasi setiap pengguna diturunkan dari kunci rahasia Nostr (nsec) mereka — kunci yang sama yang Anda gunakan untuk masuk. Donatur mengirim langsung ke penerima, {{appName}} tidak pernah menyentuh dana, dan platform itu sendiri tidak bisa dimatikan untuk menyensor siapa pun. Penerima yang ingin privasi per donasi bisa menerima silent payments, yang memberikan ketakterhubungan yang sama tanpa siapa pun memegang uang di tengah."
+        ]
+      },
+      "why-not-other-crypto": {
+        "question": "Mengapa bukan Monero atau kripto lain?",
+        "answer": [
+          "Bitcoin sejauh ini adalah kripto yang paling banyak diadopsi. Itu berarti paling mudah bagi donatur untuk dibeli dan dikirim, dan paling mudah bagi penerima untuk diterima, dipegang, dan dibelanjakan.",
+          "Koin berfokus privasi seperti Monero menawarkan konsekuensi privasi berbeda dari Bitcoin, tetapi tidak didukung oleh sebagian besar aplikasi konsumen dan lebih sulit dikonversi kembali ke mata uang lokal. Meminta salah satu sisi donasi untuk pertama-tama memperoleh kripto khusus adalah hambatan yang tidak akan diletakkan {{appName}}. Untuk donasi Bitcoin sendiri, silent payments mencakup kasus penggunaan ketakterhubungan tanpa meninggalkan ekosistem Bitcoin."
+        ]
+      },
+      "what-is-verification": {
+        "question": "Apa arti lencana \"Terverifikasi\" pada sebuah kampanye?",
+        "answer": [
+          "Kampanye terverifikasi adalah kampanye yang **penjamin tepercaya** telah menyatakan dukungannya secara publik. Penjamin tersebut menyatakan bahwa mereka mengenal langsung penyelenggaranya, atau telah memeriksa secara sungguh-sungguh bahwa klaim kampanye tersebut benar.",
+          "Lencana ini menunjukkan dengan tepat **siapa** yang memberikan jaminan, dan setiap penjamin menautkan ke profil mereka. Verifikasi adalah sebuah sinyal, bukan segel persetujuan dari {{appName}}. Kami tidak melakukan pemeriksaan latar belakang. Verifikasi ada agar Anda dapat memutuskan apakah *Anda* memercayai orang-orang yang berada di balik sebuah kampanye.",
+          "Ketika tidak ada sumber tepercaya yang memverifikasi sebuah kampanye, halamannya justru menampilkan pemberitahuan kehati-hatian. Pemberitahuan itu bukan sebuah tuduhan. Itu hanya berarti belum ada seorang pun dalam daftar tepercaya yang menjaminnya."
+        ]
+      },
+      "who-verifies": {
+        "question": "Siapa yang dianggap sebagai \"sumber tepercaya\"?",
+        "answer": [
+          "Para penjamin tepercaya adalah anggota dari dua paket ikuti terkurasi: **World Liberty Congress Verified** dan **Team Soapbox** (tim yang membangun {{appName}}, bekerja sama dengan [World Liberty Congress](https://worldlibertycongress.org/)).",
+          "Secara teknis, siapa pun di Nostr dapat menerbitkan label verifikasi untuk kampanye mana pun, dan itu akan tampil pada lencana. Namun, hanya jaminan dari anggota kedua paket tersebut yang menghilangkan pemberitahuan kehati-hatian dan dapat mengangkat sebuah kampanye ke bagian Verified Campaigns di halaman beranda. Penyelenggara yang memverifikasi kampanyenya sendiri tidak dihitung."
+        ]
+      },
+      "unverified-meaning": {
+        "question": "Sebuah kampanye tidak terverifikasi. Apakah itu penipuan?",
+        "answer": [
+          "**Belum tentu.** Verifikasi memang sengaja dibuat sulit untuk didapatkan, sehingga sebagian besar kampanye yang sah dimulai dalam keadaan belum terverifikasi, terutama yang baru dan yang berasal dari orang-orang yang belum ditemui oleh para penjamin tepercaya.",
+          "Perlakukan lencana sebagai keyakinan tambahan, bukan satu-satunya hal yang penting. Baca kampanyenya, lihat profil dan riwayat penyelenggaranya, dan ingat cara kerja {{appName}}: donasi masuk **langsung** ke alamat Bitcoin penyelenggara secara on-chain. {{appName}} tidak pernah menyimpan dananya dan tidak dapat membatalkan, mengembalikan, atau membekukan pembayaran, jadi berikanlah dengan cara seperti Anda menyerahkan uang tunai kepada seseorang."
+        ]
+      },
+      "why-campaigns-hidden": {
+        "question": "Mengapa beberapa kampanye disembunyikan, dan apakah saya masih bisa melihatnya?",
+        "answer": [
+          "Moderator dapat menyembunyikan kampanye yang terlihat seperti spam, penipuan, atau peniruan identitas orang lain. Kampanye tersembunyi dijauhkan dari umpan dan pencarian {{appName}} agar kebanyakan orang tidak menemukannya secara tidak sengaja.",
+          "**Ini bukan penyensoran, dan tidak ada yang dihapus.** Sebuah kampanye tetap hidup di jaringan Nostr yang terbuka, apa pun yang ditampilkan {{appName}}. Menyembunyikan hanya mengubah apa yang ditampilkan {{appName}} secara bawaan. Jika Anda membuka kampanye tersembunyi secara langsung, misalnya dari tautan yang dibagikan, Anda akan melihat pemberitahuan yang menjelaskan alasannya serta tombol untuk **tetap lanjutkan**. Pilihan untuk melihatnya, dan untuk berdonasi, selalu ada pada Anda.",
+          "Tujuannya hanyalah memberikan konteks kepada donatur sebelum mereka memberi: sebuah peringatan bahwa moderator tepercaya menandai sesuatu, bukan keputusan yang dibuat untuk Anda."
+        ]
+      },
+      "how-get-verified": {
+        "question": "Saya seorang penyelenggara. Bagaimana cara agar kampanye saya terverifikasi?",
+        "answer": [
+          "Anda tidak dapat memverifikasi diri sendiri; seorang penjamin tepercaya harus menjamin Anda. Jalur yang paling andal adalah membangun rekam jejak yang tulus: profil yang lengkap, kampanye yang jelas, dan hubungan yang nyata dengan orang-orang di komunitas.",
+          "Jika pekerjaan Anda terhubung dengan World Liberty Congress atau tim {{appName}}, hubungi melalui kontak Anda yang sudah ada di sana. Seorang penjamin yang mengenal Anda dapat menambahkan jaminannya, dan itu akan muncul pada kampanye Anda secara otomatis."
+        ]
+      },
+      "verification-guarantee": {
+        "question": "Apakah verifikasi menjamin bahwa donasi saya aman?",
+        "answer": [
+          "Tidak. Verifikasi memberi tahu Anda bahwa seseorang yang tepercaya menjamin kampanye tersebut. Itu **tidak** menjamin hasil, tidak mengasuransikan uang Anda, dan tidak membuat {{appName}} bertanggung jawab atas bagaimana dana digunakan.",
+          "Karena donasi bersifat non-kustodial dan on-chain, setiap pembayaran bersifat final begitu Anda mengirimnya. Seorang penjamin juga dapat **menarik** jaminannya di kemudian hari jika ada sesuatu yang berubah, yang akan menghapus lencananya. Selalu donasikan jumlah yang Anda nyaman berikan secara langsung kepada orang lain."
+        ]
+      },
+      "what-is-nostr": {
+        "question": "Apa itu Nostr?",
+        "answer": [
+          "Nostr adalah jaringan terbuka di mana **Anda** memiliki akun Anda, bukan perusahaan. Identitas Anda adalah kunci kriptografis yang Anda kendalikan, bukan nama pengguna di server orang lain.",
+          "Di {{appName}}, kunci yang sama itu juga adalah dari mana alamat donasi Anda diturunkan — kunci rahasia Nostr (nsec) Anda menjadi benih dompet Bitcoin Anda, itulah mengapa Anda bisa menerima Bitcoin tanpa mendaftar dengan siapa pun."
+        ]
+      },
+      "why-login-different": {
+        "question": "Mengapa cara masuk saya sangat berbeda dan panjang?",
+        "answer": [
+          "Alih-alih nama pengguna dan kata sandi yang dikendalikan perusahaan, Nostr menggunakan sepasang kunci kriptografis.",
+          "\"Kunci publik\" Anda (diawali dengan **npub**) adalah nama pengguna Anda. \"Kunci rahasia\" Anda (diawali dengan **nsec**) adalah kata sandi Anda. String panjang itulah yang membuatnya hampir mustahil ditebak."
+        ]
+      },
+      "lose-secret-key": {
+        "question": "Apa yang terjadi jika saya kehilangan kunci rahasia saya?",
+        "answer": [
+          "**Tidak ada tombol \"lupa kata sandi\".** Tidak ada yang bisa menyetelnya ulang untuk Anda. Jika Anda kehilangannya, akun Anda — dan Bitcoin apa pun yang ada di alamat donasi Anda — hilang selamanya.",
+          "**Simpan kunci rahasia Anda di tempat aman sekarang juga.** Untuk tips, baca [Mengelola Kunci Nostr Anda](https://soapbox.pub/blog/managing-nostr-keys)."
+        ]
+      },
+      "manage-secret-key": {
+        "question": "Bisakah saya menyimpan kunci rahasia saya di pengelola kata sandi ponsel?",
+        "answer": [
+          "Ya. Anda bisa menyimpannya di pengelola kata sandi perangkat Anda (iCloud Keychain, 1Password, Bitwarden, dll.). Di iPhone, menyimpannya di Passwords memungkinkan Anda menggunakan Face ID atau Touch ID untuk masuk.",
+          "Untuk panduan lengkap, lihat [Mengelola Kunci Nostr Anda](https://soapbox.pub/blog/managing-nostr-keys)."
+        ]
+      },
+      "send-bitcoin-lightning": {
+        "question": "Bagaimana cara kerja pengiriman Bitcoin melalui Lightning?",
+        "answer": [
+          "Jika penerima memiliki alamat Lightning di profil mereka, Anda bisa mengirim ke sana. Lightning diselesaikan dalam hitungan detik dan biayanya sangat kecil.",
+          "Pengiriman Lightning tidak menggunakan alamat donasi {{appName}} — mereka langsung ke dompet Lightning apa pun yang penerima atur sendiri. Alur donasi {{appName}} sendiri hanya on-chain."
+        ]
+      },
+      "what-are-zaps": {
+        "question": "Apa itu zap?",
+        "answer": [
+          "Zap adalah tip Lightning kecil di Nostr, terpisah dari alur donasi on-chain {{appName}}."
+        ]
+      },
+      "fyp": {
+        "question": "Bagaimana cara kerja feed?",
+        "answer": [
+          "Feed Anda menampilkan kampanye dan unggahan dari orang yang Anda ikuti. Tidak ada algoritma yang memutuskan apa yang Anda lihat."
+        ]
+      },
+      "what-are-relays": {
+        "question": "Apa itu relay?",
+        "answer": [
+          "Relay adalah server yang menyimpan dan mengirimkan event Nostr — unggahan, tanda terima donasi, info profil. Default berfungsi langsung; Anda bisa menambah atau menghapus relay di Pengaturan > Jaringan."
+        ]
+      },
+      "what-are-blossom": {
+        "question": "Apa itu server Blossom?",
+        "answer": [
+          "Server Blossom menyimpan berkas media (gambar kampanye, gambar profil) saat Anda mengunggahnya. Anda bisa mengelola server mana yang digunakan di Pengaturan > Jaringan."
+        ]
+      },
+      "report-content": {
+        "question": "Bagaimana cara melaporkan konten berbahaya?",
+        "answer": [
+          "Ketuk menu tiga titik (**...**) pada unggahan apa pun dan pilih \"Laporkan\". Anda bisa membisukan atau memblokir pengguna dari menu yang sama."
+        ]
+      },
+      "vs-mastodon-bluesky": {
+        "question": "Apa beda Nostr dengan Mastodon atau Bluesky?",
+        "answer": [
+          "Di Mastodon, akun Anda hidup di server tertentu. Di Bluesky, sebagian besar akun bergantung pada satu perusahaan. Di Nostr, identitas Anda adalah kunci yang Anda kendalikan, dan alamat donasi Anda ikut bersama Anda ke aplikasi Nostr mana pun."
+        ]
+      },
+      "profile-fields": {
+        "question": "Apa itu bidang profil?",
+        "answer": [
+          "Bidang profil memungkinkan Anda menambahkan info ekstra ke profil — tautan, alamat dompet, musik, foto, video."
+        ]
+      }
+    }
+  },
+  "guides": {
+    "shared": {
+      "tldrEyebrow": "Versi singkat",
+      "paymentBadge": {
+        "public": "Pembayaran Publik",
+        "silent": "Silent Payments"
+      },
+      "paymentComparison": {
+        "donorHeader": "Saat Anda berdonasi",
+        "recipientHeader": "Saat Anda membuat",
+        "donorRows": {
+          "whatYouSee": {
+            "label": "Apa yang Anda lihat",
+            "public": "Alamat Bitcoin biasa yang bisa Anda bayar dari mana saja.",
+            "silent": "QR yang sama. Dompet Anda memilih titik silent-payment jika mendukung BIP-352."
+          },
+          "walletSupport": {
+            "label": "Dukungan dompet",
+            "public": "Setiap dompet Bitcoin. Cash App, Coinbase, Strike, perangkat keras, apa saja.",
+            "silent": "Sedikit dompet saat ini. Kebanyakan kembali ke transaksi Bitcoin biasa."
+          },
+          "privacy": {
+            "label": "Privasi donasi",
+            "public": "Publik di on-chain. Alamat pengirim Anda terhubung permanen ke kampanye.",
+            "silent": "Sisi penerima tak terhubungkan di on-chain. Jejak dompet pengirim Anda tetap publik."
+          },
+          "settlement": {
+            "label": "Penyelesaian",
+            "public": "Konfirmasi Bitcoin biasa.",
+            "silent": "Konfirmasi on-chain yang sama, tetapi penerima harus memindai dompet mereka untuk menemukannya."
+          }
+        },
+        "recipientRows": {
+          "whatDonorsSee": {
+            "label": "Apa yang donatur lihat",
+            "public": "Alamat Bitcoin biasa. Berfungsi dengan setiap dompet di bumi.",
+            "silent": "Titik BIP-352. Dompet donatur perlu dukungan silent-payments; jika tidak, donasi kembali ke transaksi Bitcoin biasa."
+          },
+          "receivingSpeed": {
+            "label": "Kecepatan penerimaan",
+            "public": "Gaya push. Donasi muncul segera di halaman kampanye.",
+            "silent": "Pemindaian manual. Dompet Anda harus menelusuri blockchain mencarinya. Menit hingga jam, tergantung dompet."
+          },
+          "pushNotifications": {
+            "label": "Notifikasi push",
+            "public": "Ya. Anda melihat donasi baru saat tiba.",
+            "silent": "Tidak. Buka dompet dan picu pemindaian untuk menemukannya."
+          },
+          "donorList": {
+            "label": "Daftar donatur / jumlah total kampanye",
+            "public": "Publik selamanya. Jumlah dan alamat pengirim terlihat oleh siapa pun.",
+            "silent": "Privat. Halaman kampanye tidak bisa menampilkan jumlah atau total donasi silent-payments."
+          },
+          "ecosystem": {
+            "label": "Kematangan ekosistem",
+            "public": "Matang. Perangkat yang sudah mapan.",
+            "silent": "Bleeding-edge. Dompet masih sering bermasalah; harapkan pembayaran terlewat yang muncul pada pemindaian berikutnya."
+          },
+          "bestFor": {
+            "label": "Terbaik untuk",
+            "public": "Penggalangan dana terbuka di mana bukti sosial dan visibilitas membantu.",
+            "silent": "Kampanye di mana privasi donatur atau penerima lebih penting daripada total yang terlihat."
+          },
+          "watchOutFor": {
+            "label": "Perhatikan",
+            "public": "Rekaman publik permanen dari setiap donatur.",
+            "silent": "UX yang masih kasar saat ini. Beberapa donasi tidak akan muncul sampai penerima memindai."
+          }
+        }
+      }
+    },
+    "donor": {
+      "tldr": {
+        "lede": "Bayar alamat Bitcoin di halaman kampanye dari dompet apa pun yang sudah Anda miliki. Jika kampanye menerima silent payments dan dompet Anda mendukungnya, donasi Anda otomatis privat.",
+        "nextActions": [
+          "Bayar dari dompet Bitcoin apa pun",
+          "Tanpa perantara, tanpa periode penahanan",
+          "Mau privasi? Baca di bawah"
+        ]
+      },
+      "flow": {
+        "heading": "Bagaimana donasi mengalir",
+        "steps": {
+          "openCampaign": {
+            "title": "Buka kampanye",
+            "body": "Anda melihat satu kode QR. Jika kampanye menerima kedua opsi, ia mengencode kedua titik; dompet Anda memilih yang tepat."
+          },
+          "payFromAnyWallet": {
+            "title": "Bayar dari dompet apa pun",
+            "body": "Cash App, Coinbase, Strike, dompet perangkat keras, apa saja. Bayar jumlahnya ditambah biaya jaringan."
+          },
+          "arrivesDirectly": {
+            "title": "Tiba langsung",
+            "body": "Dana langsung diselesaikan ke penerima. {{appName}} tidak menahan atau merutekannya, dan alamatnya diturunkan dari kunci rahasia Nostr penerima."
+          }
+        }
+      },
+      "comparison": {
+        "footnote": "Kampanye bisa menerima Publik saja, Silent saja, atau keduanya. Jika keduanya, kode QR membawa kedua titik. Dompet Anda memilih yang bisa digunakan."
+      },
+      "publicVisible": {
+        "title": "Donasi publik terlihat di on-chain selamanya",
+        "body": "Donasi **Publik** mendarat di alamat Bitcoin biasa yang terikat ke kampanye. Siapa pun bisa mencari alamatnya dan melihat jumlah, waktu, dan alamat pengirim Anda. Donasi **Silent** juga diselesaikan on-chain, tetapi sisi penerima tak terhubungkan ke kampanye sehingga tetap di luar daftar donatur publik dan jumlah total."
+      },
+      "privacy": {
+        "heading": "Berdonasi secara privat",
+        "intro": "Langkah-langkah ini paling penting untuk donasi **Publik**, di mana setiap transaksi terikat permanen ke satu alamat. Donasi **Silent** sudah menyembunyikan sisi penerima, sehingga risikonya lebih rendah. Analisis terarah terhadap dompet pengirim Anda tetap mungkin terjadi dengan cara apa pun, jadi jika risiko Anda tinggi, langkah-langkah ini layak diambil. Pilih salah satu, atau gabungkan.",
+        "options": {
+          "silentWallet": {
+            "name": "Gunakan dompet silent-payments",
+            "purpose": "Bayar dengan dompet Bitcoin yang mendukung BIP-352. Jika kampanye menerima silent payments, dompet Anda menggunakan titik itu secara otomatis."
+          },
+          "nonKyc": {
+            "name": "Beli Bitcoin non-KYC",
+            "purpose": "Beli Bitcoin peer-to-peer agar tidak terhubung dengan ID pemerintah Anda sejak awal. Titik awal privasi terkuat."
+          },
+          "coinjoin": {
+            "name": "Coinjoin terlebih dahulu",
+            "purpose": "Campurkan Bitcoin Anda dengan koin orang lain sehingga outputnya tidak bisa dilacak ke pembelian KYC Anda. Berguna saat kampanye hanya menerima publik."
+          },
+          "freshWallet": {
+            "name": "Gunakan dompet baru",
+            "purpose": "Berdonasi dari dompet yang tidak pernah menyentuh identitas utama Anda atau bursa KYC."
+          }
+        }
+      },
+      "consumerApps": {
+        "title": "Aplikasi konsumen tidak bisa membuat Anda anonim",
+        "body": "Cash App, Coinbase, Strike, Venmo, Kraken, Binance, dan PayPal semuanya memverifikasi ID Anda. Bagaimanapun Anda mengirim donasi, setiap transaksi tetap terikat ke identitas asli Anda. Gunakan dompet non-kustodial yang Anda kendalikan."
+      },
+      "silentToday": {
+        "heading": "Catatan tentang silent payments saat ini",
+        "paragraphs": [
+          "Silent payments adalah cara paling privat untuk menerima Bitcoin secara on-chain, tetapi ekosistemnya masih muda. Sebagian besar dompet populer belum bisa mengirim ke titik silent-payment, jadi saat dompet tidak bisa, donasi kembali ke transaksi Bitcoin biasa ke alamat publik kampanye (jika kampanye menerima keduanya).",
+          "Untuk penerima, donasi silent-payment juga tiba tanpa notifikasi push dan hanya muncul setelah penerima memindai dompet mereka, yang bisa memakan menit hingga jam. Semua ini tidak memengaruhi keamanan dana Anda; ini hanya membentuk pengalaman."
+        ]
+      }
+    },
+    "recipient": {
+      "tldr": {
+        "lede": "Pilih apa yang diterima saat Anda membuat kampanye: Publik, Silent, atau keduanya. Kedua opsi bersifat non-kustodial. {{appName}} tidak pernah menahan dana Anda.",
+        "nextActions": [
+          "Bandingkan kedua opsi",
+          "Rencanakan cara Anda akan mencairkan",
+          "Sapu dana segera"
+        ]
+      },
+      "howReceiving": {
+        "heading": "Bagaimana penerimaan bekerja",
+        "paragraphs": [
+          "Alamat donasi {{appName}} Anda diturunkan dari kunci rahasia Nostr (nsec) Anda — kunci yang sama yang Anda gunakan untuk masuk menjadi benih dompet Bitcoin Anda. Saat Anda membuat kampanye, Anda memilih apa yang diterima:",
+          "**Hanya pembayaran publik.** Alamat Bitcoin biasa. Terlihat oleh semua orang, berfungsi dengan setiap dompet.",
+          "**Hanya silent payments.** Silent payments BIP-352. Sisi penerima tak terhubungkan di on-chain, sehingga donasi tetap di luar daftar donatur publik dan jumlah total. Donatur perlu dompet yang mendukung silent-payments untuk mengirim. Jika mereka tidak punya, donasi mereka tidak bisa sampai.",
+          "**Keduanya.** {{appName}} membuat satu kode QR yang mengencode kedua titik. Dompet silent-payments membacanya sebagai privat; dompet biasa membayar alamat publik. Donatur tidak perlu memilih.",
+          "Menerima keduanya biasanya pilihan tepat: Anda mendapat donasi privat dari pendukung yang menggunakan dompet silent-payments, dan Anda tetap terbuka bagi donatur yang Bitcoin satu-satunya ada di aplikasi konsumen.",
+          "Di dalam dompet {{appName}} Anda, donasi ini tiba sebagai **dua saldo terpisah** — tab **Publik** (alamat Bitcoin biasa Anda) dan tab **Privat** (silent payments) — yang ditampilkan pada tab Publik / Privat dompet. {{appName}} sengaja memisahkannya secara ketat: kedua saldo tidak pernah bisa dibelanjakan bersama. Mencampur dana privat dengan dana publik dalam satu transaksi akan menautkan donasi silent-payment Anda yang tak terhubungkan kembali ke alamat publik Anda di on-chain dan menghancurkan privasi yang menjadi alasan keberadaannya."
+        ]
+      },
+      "whatEveryoneSees": {
+        "heading": "Apa yang bisa dilihat semua orang",
+        "paragraphs": [
+          "Jika kampanye Anda menerima pembayaran publik, siapa pun yang mempertimbangkan mendukung Anda bisa mencari alamatnya dan melihat riwayat donasi publik.",
+          "Donasi silent-payment bukan bagian dari catatan itu. Mereka tidak terlihat oleh pengamat luar dan tidak muncul dalam jumlah total publik kampanye; donatur baru hanya melihat apa pun yang Anda publikasikan tentang kemajuan kampanye."
+        ]
+      },
+      "comparison": {
+        "footnote": "Anda tidak bisa mengubah opsi pembayaran yang diterima kampanye setelah dibuat. Jika berubah pikiran, buat kampanye baru."
+      },
+      "silentToday": {
+        "heading": "Catatan tentang silent payments saat ini",
+        "paragraphs": [
+          "Silent payments adalah cara paling privat untuk menerima Bitcoin secara on-chain, tetapi ekosistemnya masih muda. Sebagian besar dompet populer belum bisa mengirim ke titik silent-payment, jadi saat dompet donatur tidak bisa, donasi kembali ke transaksi Bitcoin biasa ke alamat publik Anda (jika Anda menerima keduanya).",
+          "Donasi silent-payment juga tiba tanpa notifikasi push dan hanya muncul setelah Anda memindai dompet, yang bisa memakan menit hingga jam. Semua ini tidak memengaruhi keamanan dana Anda; ini hanya membentuk pengalaman sehari-hari."
+        ]
+      },
+      "twoWallets": {
+        "title": "Pisahkan saldo Publik dan Privat Anda",
+        "body": "Dompet {{appName}} Anda menampilkan dua tab: **Publik** (alamat Bitcoin biasa Anda) dan **Privat** (silent payments). Keduanya dipisahkan secara ketat, dan kedua saldo tidak pernah bisa dibelanjakan dalam transaksi yang sama — isolasi itulah yang menjaga donasi privat Anda tetap tak terhubungkan. Saat Anda mencairkan dari tab **Privat**, kirim ke alamat silent-payment (**sp1…**), yang tetap privat. Jika Anda malah mengirim dana privat ke alamat on-chain biasa, {{appName}} memeriksanya: jika alamat itu pernah dipakai sebelumnya, atau milik dompet publik Anda sendiri, {{appName}} memperingatkan Anda dan mengharuskan Anda menekan **Tetap kirim**, karena melakukannya menautkan dana privat Anda ke riwayat publik alamat tersebut. Mengirim ke alamat **sp1…** tidak pernah memicu peringatan itu."
+      },
+      "movePromptly": {
+        "heading": "Pindahkan donasi segera",
+        "steps": {
+          "sweep": {
+            "title": "Sapu ke dompet yang Anda kendalikan",
+            "body": "Dompet {{appName}} Anda sudah self-custodial — Anda, dan hanya Anda, yang mengendalikan kuncinya. Untuk tampilan saldo yang sama di desktop atau dompet perangkat keras, buka menu dompet, pilih **Cadangkan dompet**, dan impor seed 24 kata ke [Sparrow](https://sparrowwallet.com), [BlueWallet](https://bluewallet.io), atau dompet perangkat keras (Trezor, Ledger). Jika Anda lebih ingin memindahkan dana ke kunci yang sepenuhnya berbeda — misalnya, ke dompet Lightning seperti [Phoenix](https://phoenix.acinq.co) — kirim transaksi Bitcoin biasa dari dompet {{appName}} Anda."
+          },
+          "dontSit": {
+            "title": "Jangan diamkan dana di peramban",
+            "body": "Khususnya untuk kampanye bernilai tinggi, simpan frasa seed dompet secara offline (kertas, cadangan logam, atau pengelola kata sandi di perangkat khusus) dan pertimbangkan dompet perangkat keras. Seed yang Anda cadangkan dari {{appName}} adalah dompet yang sama — amankan kata-katanya dan Anda sudah memiliki cold storage."
+          }
+        }
+      },
+      "cashout": {
+        "heading": "Mencairkan secara privat",
+        "intro": "Membelanjakan secara on-chain menciptakan jejak kecuali Anda memutuskannya dulu. Cairkan dari tab **Privat** agar donasi silent-payment tetap tak terhubungkan — kirim ke dompet silent-payments terlebih dahulu (alamat **sp1…**), lalu belanjakan lebih lanjut; lompatan itu memutus tautan antara kampanye Anda dan apa yang datang berikutnya. Jangan kirim dana privat ke alamat yang dipakai ulang atau alamat publik, yang akan menautkannya kembali. Opsi lain di bawah juga berfungsi dan memiliki konsekuensinya sendiri.",
+        "options": {
+          "silentHop": {
+            "name": "Lompatan dompet silent-payments",
+            "purpose": "Pindahkan donasi Anda ke dompet silent-payments ([Ditto Wallet](https://ditto.pub), [Dana](https://github.com/cygnet3/dana/releases/download/v0.7.4/app-live-release.apk)). Dari sana pengeluaran hilir Anda tidak terikat ke kampanye."
+          },
+          "lightningSwap": {
+            "name": "Tukar Lightning",
+            "purpose": "Atomic-swap Bitcoin on-chain ke Lightning. Pembayaran Lightning tidak masuk ke blockchain publik."
+          },
+          "coinjoin": {
+            "name": "Coinjoin",
+            "purpose": "Campurkan Bitcoin Anda dengan koin pengguna lain sehingga outputnya tidak bisa dihubungkan kembali ke inputnya."
+          },
+          "peerToPeer": {
+            "name": "Peer-to-peer",
+            "purpose": "Tukar Bitcoin dengan fiat langsung dengan orang lain atau melalui broker di Bisq, HodlHodl, atau RoboSats."
+          },
+          "spendDirectly": {
+            "name": "Belanjakan langsung",
+            "purpose": "Beli kartu hadiah (Amazon, Uber, bahan makanan, perjalanan) langsung dari Bitcoin tanpa mengonversi ke uang tunai terlebih dahulu."
+          }
+        }
+      },
+      "tumblers": {
+        "title": "Hindari tumbler tersentralisasi",
+        "body": "Mixer kustodial bisa mencuri koin Anda, mencatat siapa mengirim apa, atau ternyata adalah honeypot penegak hukum. Gunakan lompatan silent-payments atau coinjoin non-kustodial sebagai gantinya."
+      }
+    }
+  },
+  "walletMigrate": {
+    "seoTitle": "Migrasikan Dompet Lama",
+    "seoDescription": "Sapu dana dari dompet Agora lawas Anda (nsec-sebagai-seed) ke dompet BIP-39 yang baru.",
+    "title": "Migrasikan Dompet Lama",
+    "heading": "Migrasikan ke dompet baru Anda",
+    "subheading": "Dompet Bitcoin Agora kini menggunakan frasa seed BIP-39 sehingga bisa diimpor ke aplikasi dompet mana pun. Dana di alamat lama Anda tetap aman — halaman ini menyapunya ke dompet baru Anda dalam satu transaksi.",
+    "backToWallet": "Kembali ke dompet",
+    "loading": "Memeriksa dompet lama Anda…",
+    "warning": "Ini membangun satu transaksi penyapuan yang menghabiskan setiap UTXO dari dompet lama Anda dan mengirim totalnya (dikurangi biaya jaringan kecil) ke alamat penerimaan pertama dompet baru Anda. Setelah disiarkan, pemindahan ini bersifat final dan tidak dapat dibatalkan.",
+    "startButton": "Sapu ke dompet baru",
+    "loggedOut": {
+      "title": "Masuk untuk migrasi",
+      "description": "Masuk dengan identitas Nostr yang memiliki dompet lama agar dana bisa disapu ke alamat baru Anda."
+    },
+    "unsupported": {
+      "title": "Dompet tidak tersedia",
+      "description": "Migrasi hanya berfungsi untuk login nsec, karena kunci dompet lama diturunkan langsung dari nsec Anda. Login ekstensi browser dan penandatangan jarak jauh tidak bisa menjalankan migrasi ini."
+    },
+    "noBlockbook": {
+      "title": "Blockbook belum dikonfigurasi",
+      "description": "Migrasi memerlukan URL indexer Blockbook untuk memindai alamat lama Anda dan menyiarkan transaksi penyapuan."
+    },
+    "noFunds": {
+      "title": "Tidak ada yang perlu dimigrasikan",
+      "description": "Dompet lama Anda tidak memiliki saldo yang bisa dibelanjakan. Semuanya sudah ada di dompet baru Anda."
+    },
+    "detected": {
+      "title": "Dana di dompet lama Anda",
+      "description": "Dana ini akan dipindahkan ke dompet baru Anda dalam satu transaksi.",
+      "bip86": "On-chain",
+      "sp": "Silent payment",
+      "total": "Total"
+    },
+    "destination": {
+      "title": "Tujuan",
+      "description": "Alamat penerimaan pertama dompet baru Anda."
+    },
+    "progress": {
+      "building": "Membangun transaksi…",
+      "signing": "Menandatangani input…",
+      "broadcasting": "Menyiarkan transaksi…",
+      "dontClose": "Jangan tutup tab ini selama penyapuan berlangsung."
+    },
+    "success": {
+      "title": "Migrasi selesai",
+      "sent": "Mengirim {{sats}} sats ke dompet baru Anda (biaya {{fee}} sats).",
+      "viewTx": "Lihat transaksi"
+    },
+    "error": {
+      "title": "Migrasi gagal",
+      "tryAgain": "Coba lagi"
+    },
+    "errors": {
+      "noV1Account": "Tidak dapat mengakses kunci dompet lama.",
+      "noDestination": "Dompet baru Anda belum memiliki alamat penerimaan. Tunggu halaman dompet selesai dimuat dan coba lagi.",
+      "noBlockbook": "Indexer Blockbook belum dikonfigurasi. Migrasi tidak bisa memindai alamat lama Anda.",
+      "noFunds": "Tidak ada dana yang bisa dibelanjakan di alamat lama.",
+      "sweepGeneric": "Migrasi gagal. Silakan coba lagi."
+    },
+    "toast": {
+      "successTitle": "Migrasi selesai",
+      "successDesc": "{{sats}} sats dipindahkan ke dompet baru Anda."
+    }
+  },
+  "walletDoubleTweak": {
+    "seoTitle": "Perbaikan SP Double-tweak",
+    "seoDescription": "Pulihkan silent payment yang terdampar on-chain akibat bug pengiriman sebelumnya dan sapu ke dompet Anda.",
+    "title": "Perbaikan SP Double-tweak",
+    "heading": "Pulihkan silent payment yang terdampar",
+    "subheading": "Versi Agora sebelumnya mengkodekan beberapa output silent-payment ke kunci yang salah, sehingga tidak pernah muncul di dompet Anda. Alat ini memindai ulang rantai untuk output tersebut dan menyapu apa pun yang ditemukan ke dompet Anda.",
+    "back": "Kembali",
+    "loggedOut": "Masuk dengan identitas Nostr yang menerima silent payment tersebut agar bisa dipulihkan.",
+    "unsupported": {
+      "title": "Dompet tidak tersedia",
+      "description": "Pemulihan memerlukan dompet yang bisa menandatangani secara lokal. Masuk dengan nsec Anda untuk melanjutkan."
+    },
+    "noIndexer": {
+      "title": "Tidak ada indexer silent-payment yang dikonfigurasi",
+      "description": "URL indexer BIP-352 diperlukan untuk memindai pembayaran yang terdampar. Atur satu di pengaturan dompet dan coba lagi."
+    },
+    "scan": {
+      "title": "Pindai pembayaran yang terdampar",
+      "description": "Pilih tinggi blok untuk mulai memindai. Pemulihan memeriksa setiap blok dari sana hingga ujung rantai.",
+      "fromHeightLabel": "Tinggi blok awal",
+      "tipHint": "Ujung rantai saat ini: {{tip}}",
+      "start": "Pindai",
+      "cancel": "Batalkan pindaian",
+      "progress": "Memindai blok {{current}} dari {{to}} — {{found}} ditemukan",
+      "tipMissing": "Mencari ujung rantai…"
+    },
+    "noFunds": {
+      "title": "Tidak ada yang perlu dipulihkan",
+      "description": "Tidak ada silent payment yang terdampar ditemukan dalam rentang yang dipindai. Coba tinggi awal yang lebih lama jika Anda mengharapkan dana."
+    },
+    "found": {
+      "title": "Pembayaran terdampar ditemukan",
+      "description": "Output ini dapat disapu kembali ke dompet Anda.",
+      "count": "Output",
+      "recoverable": "Dapat dipulihkan"
+    },
+    "destination": {
+      "title": "Dana akan dikirim ke",
+      "description": "Alamat penerimaan baru di dompet Anda saat ini."
+    },
+    "sweepButton": "Pulihkan dana",
+    "sweeping": "Memulihkan dana Anda…",
+    "dontClose": "Jangan tutup halaman ini sampai pemulihan selesai.",
+    "success": {
+      "title": "Pemulihan selesai",
+      "sent": "{{sats}} sats dipulihkan ke dompet Anda.",
+      "viewTx": "Lihat transaksi"
+    },
+    "error": {
+      "title": "Pemulihan gagal",
+      "tryAgain": "Coba lagi"
+    },
+    "errors": {
+      "noDestination": "Tidak ada alamat tujuan yang tersedia. Buka dompet Anda terlebih dahulu.",
+      "noBlockbook": "Tidak ada server Blockbook yang dikonfigurasi. Atur satu di pengaturan dompet.",
+      "sweepGeneric": "Tidak dapat menyelesaikan penyapuan pemulihan."
+    },
+    "toast": {
+      "successTitle": "Dana dipulihkan",
+      "successDesc": "{{sats}} sats disapu ke dompet Anda."
+    },
+    "footnote": "Ini adalah penyapuan satu arah ke dompet Anda saat ini. Hanya silent payment yang terdampak yang disentuh; tidak ada yang lain berubah."
+  },
+  "spAutoScan": {
+    "scanning": "Memindai… blok {{current}} / {{to}}",
+    "caughtUp": "Sudah mutakhir",
+    "neverScanned": "Belum dipindai",
+    "lastScanned": "Dipindai hingga blok {{height}}",
+    "paused": "Pemindaian otomatis nonaktif",
+    "manualLink": "Opsi pindaian"
+  },
+  "support": {
+    "seoTitle": "Ada masalah?",
+    "seoDescription": "Laporkan bug atau masalah pada {{appName}}, dan lihat apa yang sudah dilaporkan orang lain.",
+    "title": "Ada masalah?",
+    "subtitle": "Laporkan masalah pada {{appName}}, atau periksa apakah masalahnya sudah diketahui.",
+    "existingTitle": "Masalah yang diketahui",
+    "openTracker": "Buka pelacak",
+    "loadError": "Tidak dapat memuat laporan yang ada. Relay masalah mungkin tidak dapat dijangkau.",
+    "retry": "Coba lagi",
+    "noIssues": "Belum ada laporan.",
+    "hiddenByModerator": "Tersembunyi",
+    "reportedBy": "Oleh {{name}} · {{time}} lalu",
+    "showAttachments": "Tampilkan lampiran ({{count}})",
+    "collapse": "Tampilkan lebih sedikit",
+    "readMore": "Selengkapnya",
+    "viewInTracker": "Lihat di pelacak",
+    "status": {
+      "open": "Terbuka",
+      "resolved": "Selesai",
+      "closed": "Ditutup",
+      "draft": "Draf"
+    },
+    "moderation": {
+      "aria": "Moderasi laporan ini",
+      "failed": "Tindakan moderasi gagal",
+      "hidden": "Laporan disembunyikan",
+      "unhidden": "Laporan ditampilkan kembali",
+      "featured": "Laporan disematkan",
+      "unfeatured": "Sematan laporan dilepas",
+      "pin": "Sematkan sebagai masalah yang diketahui",
+      "unpin": "Lepas sematan",
+      "pinnedState": "Disematkan"
+    },
+    "formTitle": "Buat laporan",
+    "form": {
+      "categoryLabel": "Masalah jenis apa ini?",
+      "category": {
+        "bug": "Ada yang rusak",
+        "wallet": "Dompet atau pembayaran",
+        "content": "Kampanye atau konten",
+        "feature": "Permintaan fitur"
+      },
+      "subjectLabel": "Ringkasan",
+      "subjectPlaceholder": "Satu baris yang menjelaskan masalahnya",
+      "bodyLabel": "Apa yang terjadi?",
+      "bodyPlaceholder": "Apa yang Anda lakukan, apa yang Anda harapkan, dan apa yang terjadi?",
+      "attachment": {
+        "add": "Tambah tangkapan layar",
+        "uploading": "Mengunggah…",
+        "item": "Tangkapan layar",
+        "remove": "Hapus tangkapan layar",
+        "failed": "Unggah tangkapan layar gagal"
+      },
+      "diagnosticsLabel": "Sertakan info versi & perangkat",
+      "anonymousLabel": "Kirim secara anonim",
+      "disclosureSigned": "Laporan bersifat publik dan ditandatangani oleh akun Anda.",
+      "disclosureAnonymous": "Laporan bersifat publik, ditandatangani dengan kunci sekali pakai.",
+      "secretWarning": "Ini tampaknya berisi data sensitif. Laporan akan dipublikasikan secara publik — hapus dulu semua yang bersifat privat.",
+      "nsecBlocked": "Ini berisi sesuatu yang tampak seperti kunci privat (nsec). Hapus sebelum mengirim — memublikasikannya berarti menyerahkan kendali atas akun tersebut.",
+      "secretKinds": {
+        "nsec": "Kunci privat",
+        "silentPayment": "Alamat silent payment",
+        "xpub": "Kunci publik diperluas",
+        "bitcoinAddress": "Alamat Bitcoin",
+        "seedPhrase": "Frasa pemulihan"
+      },
+      "submit": "Kirim laporan",
+      "submitting": "Mengirim…",
+      "errors": {
+        "cooldown": "Anda baru saja mengirim laporan. Tunggu sebentar sebelum mengirim lagi.",
+        "failed": "Tidak dapat mengirim laporan"
+      }
+    },
+    "success": {
+      "title": "Laporan terkirim",
+      "description": "Terima kasih — laporan kini ada di pelacak masalah pengembang.",
+      "copyId": "Salin ID laporan",
+      "copied": "Tersalin",
+      "viewTracker": "Lihat di pelacak",
+      "fileAnother": "Buat laporan lain"
+    },
+    "pinned": "Disematkan"
+  }
+}

@@ -1,0 +1,3481 @@
+{
+  "donateCallback": {
+    "successTitle": "បានទទួលការទូទាត់",
+    "successDescription": "សូមអរគុណសម្រាប់ការបរិច្ចាគរបស់អ្នក! វានឹងបង្ហាញឆាប់ៗនេះ។",
+    "cancelTitle": "បានលុបចោលការទូទាត់",
+    "cancelDescription": "ការបរិច្ចាគរបស់អ្នកមិនបានបញ្ចប់ទេ។"
+  },
+  "tor": {
+    "status": {
+      "disabled": "បិទ",
+      "connecting": "កំពុងភ្ជាប់…",
+      "connected": "បានភ្ជាប់",
+      "failed": "ការភ្ជាប់បានបរាជ័យ"
+    },
+    "banner": {
+      "connecting": "កំពុងភ្ជាប់ទៅ Tor — មាតិកានឹងមិនផ្ទុករហូតដល់វារួចរាល់។",
+      "failed": "មិនអាចភ្ជាប់ទៅ Tor បានទេ — មាតិកាត្រូវបានស្ទះរហូតដល់វាភ្ជាប់។",
+      "retry": "សូមព្យាយាមម្តងទៀត"
+    }
+  },
+  "common": {
+    "loading": "កំពុងផ្ទុក…",
+    "error": "កំហុស",
+    "success": "ជោគជ័យ",
+    "cancel": "បោះបង់",
+    "save": "រក្សាទុក",
+    "delete": "លុប",
+    "edit": "កែសម្រួល",
+    "close": "បិទ",
+    "back": "ត្រឡប់",
+    "next": "បន្ទាប់",
+    "refresh": "ផ្ទុកឡើងវិញ",
+    "search": "ស្វែងរក",
+    "filter": "តម្រង",
+    "clear": "សម្អាត",
+    "submit": "ដាក់ស្នើ",
+    "confirm": "បញ្ជាក់",
+    "copied": "បានចម្លង",
+    "goBack": "ត្រឡប់ក្រោយ",
+    "tryAgain": "សូមព្យាយាមម្តងទៀត។",
+    "showLess": "បង្ហាញតិចជាងមុន",
+    "readMore": "អានបន្ថែម",
+    "byAuthor": "ដោយ <0>{{name}}</0>",
+    "clearSearch": "សម្អាតការស្វែងរក",
+    "searching": "កំពុងស្វែងរក…",
+    "searchResultsCount_one": "លទ្ធផល {{count}}",
+    "searchResultsCount_other": "លទ្ធផល {{count}}",
+    "sortAriaLabel": "លំដាប់តម្រៀប",
+    "sortDefault": "លំនាំដើម",
+    "sortTop": "ល្បីបំផុត",
+    "sortNew": "ថ្មី",
+    "showHidden": "បង្ហាញដែលលាក់",
+    "filtersAriaLabel": "តម្រងស្វែងរក",
+    "countryFilterAriaLabel": "ច្រោះតាមប្រទេស",
+    "countrySearchPlaceholder": "ស្វែងរកប្រទេស…",
+    "countryNoResults": "រកមិនឃើញប្រទេសទេ។",
+    "countryGlobal": "សកល",
+    "continue": "បន្ត"
+  },
+  "imageCrop": {
+    "title": "កាត់រូបភាព",
+    "reset": "កំណត់ឡើងវិញ",
+    "hint": "អូសដើម្បីផ្លាស់ទីតាំង · ច្បិច ឬរំកិលដើម្បីពង្រីក",
+    "cancel": "បោះបង់",
+    "processing": "កំពុងដំណើរការ…",
+    "apply": "អនុវត្តការកាត់"
+  },
+  "translate": {
+    "translate": "បកប្រែ",
+    "translating": "កំពុងបកប្រែ…",
+    "showOriginal": "បង្ហាញអត្ថបទដើម",
+    "error": "ការបកប្រែបានបរាជ័យ"
+  },
+  "nav": {
+    "openMenu": "បើកម៉ឺនុយ",
+    "closeMenu": "បិទម៉ឺនុយ",
+    "brandHome": "ទំព័រដើម {{appName}}",
+    "activity": "សកម្មភាព",
+    "campaigns": "យុទ្ធនាការ",
+    "groups": "ក្រុម",
+    "pledge": "ការសន្យា",
+    "search": "ស្វែងរក",
+    "language": "ភាសា",
+    "dashboard": "ផ្ទាំងគ្រប់គ្រង",
+    "myDashboard": "ផ្ទាំងគ្រប់គ្រងរបស់ខ្ញុំ",
+    "wallet": "កាបូប",
+    "notifications": "ការជូនដំណឹង",
+    "messages": "សារ",
+    "profile": "ប្រវត្តិរូប",
+    "settings": "ការកំណត់",
+    "about": "អំពី",
+    "verify": "ផ្ទៀងផ្ទាត់",
+    "privacy": "ភាពឯកជន",
+    "safety": "សុវត្ថិភាព",
+    "changelog": "កំណត់ហេតុការផ្លាស់ប្តូរ",
+    "sourceCode": "កូដប្រភព",
+    "getApp": "ទាញយកកម្មវិធី",
+    "walletBalanceHidden": "សមតុល្យកាបូបត្រូវបានលាក់",
+    "issues": "បញ្ហា"
+  },
+  "messages": {
+    "title": "សារ",
+    "subtitle": "សារផ្ទាល់ខ្លួនដែលបានអ៊ីនគ្រីបរបស់អ្នក។",
+    "conversations": "ការសន្ទនា",
+    "empty": "មិនទាន់មានសារនៅឡើយទេ។ ការសន្ទនាដែលអ្នកមាននឹងបង្ហាញនៅទីនេះ។",
+    "selectPrompt": "ជ្រើសរើសការសន្ទនាមួយដើម្បីអានសាររបស់អ្នក។",
+    "composePlaceholder": "សរសេរសារ…",
+    "send": "ផ្ញើ",
+    "sendFailed": "ការផ្ញើសារបានបរាជ័យ",
+    "youPrefix": "អ្នក៖",
+    "encryptedSent": "សារដែលបានអ៊ីនគ្រីប",
+    "encryptedReceived": "សារដែលបានអ៊ីនគ្រីប",
+    "decryptFailed": "មិនអាចឌិគ្រីបសារនេះបានទេ។",
+    "unsupported": "វិធីសាស្ត្រចូលគណនីបច្ចុប្បន្នរបស់អ្នកមិនគាំទ្រសារផ្ទាល់ខ្លួនដែលបានអ៊ីនគ្រីបទេ។",
+    "searchConversation": "ស្វែងរកក្នុងការសន្ទនា",
+    "searchPlaceholder": "ស្វែងរកសារ",
+    "noSearchResults": "រកមិនឃើញសារដែលត្រូវគ្នាទេ។",
+    "visitProfile": "ចូលមើលប្រវត្តិរូបរបស់ {{name}}",
+    "muteUser": "បិទសំឡេង {{name}}",
+    "muteDialogTitle": "បិទសំឡេង {{name}}?",
+    "muteDialogDescription": "វានឹងបន្ថែម {{name}} ទៅក្នុងបញ្ជីបិទសំឡេងរបស់អ្នក ហើយលុបការសន្ទនានេះចេញពីសារ។ អ្នកអាចបើកសំឡេងវិញពេលក្រោយពីបញ្ជីបិទសំឡេងរបស់អ្នក។",
+    "confirmMute": "បិទសំឡេងអ្នកប្រើ",
+    "mutedToastTitle": "បានបិទសំឡេងអ្នកប្រើ",
+    "mutedToastDescription": "បានបិទសំឡេង {{name}} ហើយបានលុបការសន្ទនា។",
+    "muteFailed": "បិទសំឡេងអ្នកប្រើមិនបានទេ",
+    "showFriendsOnly": "បង្ហាញសារពីមនុស្សដែលអ្នកតាមដាន",
+    "showAllConversations": "បង្ហាញការសន្ទនាទាំងអស់",
+    "friendsEmpty": "គ្មានសារពីមនុស្សដែលអ្នកតាមដានទេ។",
+    "translateDialogTitle": "បកប្រែសារឯកជនឬ?",
+    "translateDialogDescription": "សារដែលបានទទួលនឹងត្រូវបានផ្ញើទៅសេវាបកប្រែដែលអ្នកបានកំណត់។ សារដែលបានផ្ញើនឹងមិនត្រូវបានបកប្រែទេ។ Agora នឹងចងចាំជម្រើសនេះនៅលើឧបករណ៍នេះ។",
+    "confirmTranslate": "បកប្រែសារ",
+    "newMessage": "សារថ្មី",
+    "newMessageTitle": "សារថ្មី",
+    "recipientLabel": "ទៅ",
+    "recipientPlaceholder": "ស្វែងរកតាមឈ្មោះ, NIP-05, ឬ npub…",
+    "recipientHint": "ស្វែងរកនរណាម្នាក់ដើម្បីចាប់ផ្តើមការសន្ទនាថ្មី។",
+    "recipientSearching": "កំពុងស្វែងរក…",
+    "noRecipientResults": "រកមិនឃើញនរណាម្នាក់ទេ។ សាកល្បងឈ្មោះ, NIP-05, ឬ npub ផ្សេង។",
+    "recipientFollowed": "អ្នកតាមដានមនុស្សនេះ"
+  },
+  "auth": {
+    "join": "ចូលរួម",
+    "login": "ចូលគណនី",
+    "signup": "ចុះឈ្មោះ",
+    "logout": "ចេញពីគណនី",
+    "addAccount": "បន្ថែមគណនីផ្សេងទៀត",
+    "createNewAccount": "បង្កើតគណនី",
+    "or": "ឬ",
+    "loginExisting": "ចូលដោយគណនីដែលមានស្រាប់",
+    "loginTitle": "ចូល",
+    "connectSignerTitle": "ភ្ជាប់កម្មវិធីចុះហត្ថលេខា",
+    "back": "ត្រឡប់",
+    "secretKeyLabel": "ប្រើសោសម្ងាត់",
+    "nsecPlaceholder": "nsec1…",
+    "loginInputPlaceholder": "nsec1… ឬ bunker://…",
+    "uploadKeyFile": "ផ្ទុកឯកសារសោឡើង",
+    "loggingIn": "កំពុងចូល…",
+    "loginWithExtension": "ចូលដោយផ្នែកបន្ថែម",
+    "useRemoteSigner": "ប្រើកម្មវិធីចុះហត្ថលេខាពីចម្ងាយ",
+    "tryAgain": "ព្យាយាមម្តងទៀត",
+    "cancel": "បោះបង់",
+    "openSignerApp": "បើកកម្មវិធីចុះហត្ថលេខា",
+    "enterBunkerManually": "បញ្ចូល URI bunker ដោយដៃ",
+    "bunkerPlaceholder": "bunker://…",
+    "moreLoginOptions": "ជម្រើសចូលបន្ថែម",
+    "scanSignerPrompt": "ស្កេនជាមួយកម្មវិធីចុះហត្ថលេខា ដើម្បីចូល។",
+    "invalidBunkerFormat": "ទម្រង់ URI bunker មិនត្រឹមត្រូវ។",
+    "connecting": "កំពុងភ្ជាប់…",
+    "connect": "ភ្ជាប់",
+    "waitingForSigner": "កំពុងរង់ចាំការភ្ជាប់កម្មវិធីចុះហត្ថលេខា…",
+    "gettingPublicKey": "កំពុងទាញយកសោសាធារណៈ…",
+    "errorEnterLoginInput": "បញ្ចូលកូនសោសម្ងាត់ ឬ URI bunker របស់អ្នក។",
+    "errorInvalidLoginInput": "បញ្ចូលកូនសោ nsec1… ឬ URI bunker://… ដែលត្រឹមត្រូវ។",
+    "errorEnterSecretKey": "បញ្ចូលសោសម្ងាត់របស់អ្នក។",
+    "errorInvalidSecretKey": "សោសម្ងាត់មិនត្រឹមត្រូវ។ ត្រូវចាប់ផ្តើមដោយ nsec1។",
+    "errorLoginFailed": "មិនអាចចូលដោយសោនេះបានទេ។",
+    "errorFileNoKey": "ឯកសារមិនមានសោសម្ងាត់ត្រឹមត្រូវទេ។",
+    "errorFileRead": "បរាជ័យក្នុងការអានឯកសារ។",
+    "errorExtensionFailed": "ការចូលដោយផ្នែកបន្ថែមបានបរាជ័យ។",
+    "errorBunkerConnect": "បរាជ័យក្នុងការភ្ជាប់។ ពិនិត្យ URI bunker។",
+    "extensionErrorTitle": "ការចូលដោយផ្នែកបន្ថែមបានបរាជ័យ"
+  },
+  "onboarding": {
+    "ariaLabel": "ការរៀបចំគណនី",
+    "close": "បិទ",
+    "back": "ត្រឡប់",
+    "role": {
+      "title": "តើអ្វីនាំអ្នកមកទីនេះ?",
+      "subtitle": "អ្នកអាចធ្វើទាំងពីរនៅពេលក្រោយ។ នេះគ្រាន់តែជួយយើងរៀបចំជំហានបន្ទាប់ឱ្យសមនឹងអ្នកប៉ុណ្ណោះ។",
+      "creator": {
+        "title": "ចាប់ផ្តើមយុទ្ធនាការ",
+        "description": "រៃអង្គាស Bitcoin សម្រាប់បុព្វហេតុដែលអ្នកយកចិត្តទុកដាក់។",
+        "finderNote": "អ្នកបរិច្ចាគនឹងផ្ញើ sats ដោយផ្ទាល់ទៅកាបូបរបស់អ្នក។"
+      },
+      "donor": {
+        "title": "ផ្តល់ដល់យុទ្ធនាការ",
+        "description": "គាំទ្របុព្វហេតុនានាដោយ Bitcoin។",
+        "finderNote": "ការបរិច្ចាគរបស់អ្នកនឹងចូលផ្ទាល់ទៅកាបូបរបស់អ្នករៀបចំ។"
+      },
+      "verifier": {
+        "title": "ផ្ទៀងផ្ទាត់យុទ្ធនាការ",
+        "description": "ធានាដល់យុទ្ធនាការក្នុងនាមជាអង្គការ។",
+        "finderNote": "អ្នកបរិច្ចាគនឹងឃើញផ្លាកសញ្ញានៅលើយុទ្ធនាការដែលអ្នកទុកចិត្ត។"
+      }
+    },
+    "keygen": {
+      "title": "កូនសោរបស់អ្នកគឺជាអត្តសញ្ញាណរបស់អ្នក",
+      "description": "យើងនឹងបង្កើតកូនសោសម្ងាត់សម្រាប់តែអ្នកប៉ុណ្ណោះ។ វាគឺជាមធ្យោបាយតែមួយគត់ដើម្បីចូលគណនី — គ្មានអ៊ីមែល គ្មានពាក្យសម្ងាត់។",
+      "generatingTitle": "កំពុងបង្កើតកូនសោរបស់អ្នក…",
+      "generatingDescription": "ការនេះចំណាយពេលតែបន្តិចប៉ុណ្ណោះ។",
+      "button": "បង្កើតកូនសោរបស់ខ្ញុំ"
+    },
+    "secure": {
+      "title": "រក្សាទុកកូនសោរបស់អ្នក",
+      "subtitle": "ទាញយកឯកសារ ហើយរក្សាទុកវានៅកន្លែងសុវត្ថិភាព។ កម្មវិធីគ្រប់គ្រងពាក្យសម្ងាត់ដំណើរការបានល្អ។",
+      "couplingNote": "គណនី និងកាបូបរបស់អ្នកប្រើកូនសោដូចគ្នានេះ។ វាចុះហត្ថលេខាលើការផុសរបស់អ្នកនៅលើ Nostr និងបើកកាបូប Bitcoin របស់អ្នកនៅលើ Agora។",
+      "permanenceHeadline": "មិនមានវិធីណាស្តារកូនសោនេះឡើងវិញទេ ប្រសិនបើអ្នកបាត់វា។",
+      "permanenceBody": "គ្មានការកំណត់ឡើងវិញ គ្មានបណ្តាញជំនួយ គ្មានការស្តារតាមអ៊ីមែលឡើយ។ សូមរក្សាទុកវាមុនពេលបន្ត។",
+      "button": "ទាញយក និងបន្ត",
+      "downloadFailedTitle": "ការទាញយកបរាជ័យ",
+      "downloadFailedDescription": "មិនអាចទាញយកឯកសារកូនសោបានទេ។ សូមចម្លងវាដោយដៃ។",
+      "secretKeyAriaLabel": "សោសម្ងាត់"
+    },
+    "verify": {
+      "title": "បញ្ជាក់សោរបស់អ្នក",
+      "subtitle": "បិទភ្ជាប់ ឬបញ្ចូលឡើងវិញនូវសោដែលអ្នកទើបតែរក្សាទុក។ វាធានាថាការបម្រុងទុករបស់អ្នកដំណើរការមុនពេលអ្នកបន្ត។",
+      "placeholder": "nsec1…",
+      "inputAriaLabel": "បិទភ្ជាប់សោសម្ងាត់របស់អ្នក",
+      "or": "ឬ",
+      "uploadButton": "បញ្ចូលឯកសារសោឡើង",
+      "mismatch": "វាមិនត្រូវនឹងសោដែលអ្នកទើបតែរក្សាទុកទេ។ សូមពិនិត្យការបម្រុងទុករបស់អ្នក ហើយព្យាយាមម្តងទៀត។",
+      "fileInvalid": "ឯកសារនោះមិនមានសោសម្ងាត់ត្រឹមត្រូវទេ។",
+      "fileReadFailed": "មិនអាចអានឯកសារនោះបានទេ។ សូមព្យាយាមម្តងទៀត។"
+    },
+    "profile": {
+      "title": "ធ្វើឱ្យវាក្លាយជារបស់អ្នក",
+      "subtitle": "ប្រាប់អ្នកដទៃបន្តិចអំពីខ្លួនអ្នក។ ទាំងអស់ស្រេចចិត្ត អាចផ្លាស់ប្តូរបានគ្រប់ពេល។",
+      "campaignTitle": "ដាក់មុខលើយុទ្ធនាការរបស់អ្នក",
+      "campaignSubtitle": "ឈ្មោះ និងរូបថតជួយឱ្យមនុស្សភ្ជាប់ទំនាក់ទំនងជាមួយយុទ្ធនាការរបស់អ្នក។",
+      "nameLabel": "ឈ្មោះបង្ហាញ",
+      "namePlaceholder": "ឈ្មោះរបស់អ្នក",
+      "campaignNamePlaceholder": "ចំណងជើងយុទ្ធនាការ",
+      "aboutLabel": "ប្រវត្តិសង្ខេប",
+      "aboutPlaceholder": "បន្តិចបន្តួចអំពីអ្នក…",
+      "avatarLabel": "រូបតំណាង",
+      "uploadAvatar": "ផ្ទុករូបតំណាង",
+      "advanced": "ច្រើនទៀត",
+      "finish": "បញ្ចប់",
+      "saving": "កំពុងរក្សាទុក…",
+      "skip": "រំលងជាមុនសិន",
+      "imageOnly": "សូមជ្រើសរើសរូបភាព។",
+      "imageTooLarge": "រូបភាពធំពេក (អតិបរមា 5MB)។",
+      "uploadFailed": "ការផ្ទុកបរាជ័យ។",
+      "publishFailedTitle": "ការរៀបចំប្រវត្តិរូបបរាជ័យ",
+      "publishFailedDescription": "គណនីរបស់អ្នកត្រូវបានបង្កើតប៉ុន្តែប្រវត្តិរូបមិនអាចរក្សាទុកបានទេ។ អ្នកអាចធ្វើបច្ចុប្បន្នភាពវានៅពេលក្រោយ។"
+    },
+    "verifier": {
+      "identity": {
+        "title": "រៀបចំអង្គការរបស់អ្នក",
+        "subtitle": "ឈ្មោះ និងឡូហ្គោ ត្រូវការ។ គេហទំព័រ និងបដា គឺស្រេចចិត្ត។",
+        "websiteInvalid": "បញ្ចូលគេហទំព័រត្រឹមត្រូវដែលចាប់ផ្តើមដោយ https://",
+        "cropAvatar": "កាត់ឡូហ្គោ",
+        "cropBanner": "កាត់បដា",
+        "uploading": "កំពុងផ្ទុករូបភាព…",
+        "clipboardFailed": "មិនអាចអានពីក្ដារតម្បៀតខ្ទាស់បានទេ។",
+        "pasteUrlInvalid": "ក្ដារតម្បៀតខ្ទាស់មិនមាន URL https ត្រឹមត្រូវទេ។",
+        "pasteUrlFetchFailed": "មិនអាចផ្ទុករូបភាពនោះបានទេ។ ពិនិត្យ URL ហើយព្យាយាមម្ដងទៀត។"
+      },
+      "bio": {
+        "title": "ប្រាប់យើងអំពីអង្គការរបស់អ្នក",
+        "subtitle": "ការពិពណ៌នាខ្លីសម្រាប់ប្រវត្តិរូបរបស់អ្នក។",
+        "label": "អំពីអង្គការរបស់អ្នក",
+        "placeholder": "យើងជាអង្គការមិនរកប្រាក់ចំណេញដែល…",
+        "publishing": "កំពុងរក្សាទុកប្រវត្តិរូបរបស់អ្នក…"
+      },
+      "publishFailedTitle": "ប្រវត្តិរូបមិនបានរក្សាទុក",
+      "publishFailedDescription": "គណនីរបស់អ្នករួចរាល់ហើយ ប៉ុន្តែប្រវត្តិរូបអង្គការមិនអាចផ្សព្វផ្សាយបានទេ។ អ្នកអាចបញ្ចប់វានៅពេលក្រោយពីការកំណត់។",
+      "statement": {
+        "title": "ផ្សព្វផ្សាយសេចក្តីថ្លែងការណ៍អ្នកផ្ទៀងផ្ទាត់របស់អ្នក",
+        "subtitle": "រៀបរាប់ពីរបៀបដែលអ្នកត្រួតពិនិត្យយុទ្ធនាការមុនពេលធានា។ ផ្សព្វផ្សាយជាសាធារណៈ ដើម្បីឱ្យអ្នកបរិច្ចាគអាចទុកចិត្តលើផ្លាកសញ្ញារបស់អ្នក។"
+      },
+      "howto": {
+        "title": "របៀបផ្ទៀងផ្ទាត់យុទ្ធនាការ",
+        "subtitle": "អ្នករួចរាល់ហើយ។ នេះជារបៀបធានាដល់យុទ្ធនាការមួយ បន្ទាប់ពីអ្នកបានត្រួតពិនិត្យវា។",
+        "finish": "មើលយុទ្ធនាការ"
+      }
+    }
+  },
+  "feed": {
+    "indexTagline": "ការឲ្យដោយគ្មានព្រំដែន។",
+    "getApp": {
+      "eyebrow": "ទាញយកកម្មវិធី",
+      "title": "{{appName}} សម្រាប់ Android",
+      "subtitle": "បទពិសោធន៍ {{appName}} ពេញលេញ",
+      "download": "ទាញយក"
+    },
+    "compose": {
+      "placeholder": "មានរឿងអ្វី?"
+    },
+    "tabs": {
+      "follows": "តាមដាន",
+      "following": "កំពុងតាមដាន",
+      "global": "សកល"
+    },
+    "empty": {
+      "homeAgora": "ពេលស្ងាត់នៅ Agora។ យុទ្ធនាការ ការសន្យា ការបរិច្ចាគ និងការប្រកាសថ្មីៗនឹងបង្ហាញនៅទីនេះនៅពេលដែលវាកើតឡើង។",
+      "homeFollowingLoggedIn": "Feed តាមដានរបស់អ្នកទទេ។ តាមដានមនុស្សមួយចំនួនដើម្បីមើលអ្វីដែលពួកគេកំពុងធ្វើ ឬប្តូរទៅ Agora ឬ សកល។",
+      "homeFollowingLoggedOut": "ចូលដើម្បីមើលការប្រកាសពីមនុស្សដែលអ្នកតាមដាន។",
+      "homeOther": "មិនមានអ្វីបង្ហាញ។ ពិនិត្យការតភ្ជាប់ relay របស់អ្នកឬព្យាយាមម្តងទៀតក្នុងពេលឆាប់ៗ។",
+      "follows": "Feed របស់អ្នកទទេ។ តាមដានមនុស្សមួយចំនួនដើម្បីមើលការប្រកាសរបស់ពួកគេនៅទីនេះ។",
+      "global": "មិនបានរកឃើញការប្រកាស។ ពិនិត្យការតភ្ជាប់ relay របស់អ្នកឬត្រឡប់មកវិញឆាប់ៗ។",
+      "browseAgora": "មើល Feed ថ្មីបំផុត",
+      "browseGlobal": "មើល Feed សកល",
+      "discoverPeople": "រកមនុស្សដែលត្រូវតាមដាន",
+      "logIn": "ចូល"
+    },
+    "error": {
+      "toast": "មិនអាចផ្ទុក Feed បានទេ។ ពិនិត្យការតភ្ជាប់របស់អ្នក ហើយព្យាយាមម្តងទៀត។",
+      "loadFailed": "មិនអាចផ្ទុក Feed បានទេ។ ជាធម្មតាវាបណ្តាលមកពី relay យឺត ឬមិនអាចតភ្ជាប់បាន — មាតិការបស់អ្នកនៅតែមាននៅទីនោះ។",
+      "retry": "ព្យាយាមម្តងទៀត"
+    },
+    "modeSwitcher": {
+      "agora": "ថ្មីបំផុត",
+      "allNostr": "សកល",
+      "following": "កំពុងតាមដាន",
+      "ariaLabel": "របៀប Feed: {{label}}។ ចុចដើម្បីប្តូរ។",
+      "loginRequired": "ចូលដើម្បីមើលការប្រកាសពីមនុស្សដែលអ្នកតាមដាន"
+    },
+    "replyContext": {
+      "replyingTo": "កំពុងឆ្លើយតបទៅ",
+      "and": "និង",
+      "andOthers_one": "និង​មាន​ {{count}} ផ្សេងទៀត",
+      "andOthers_other": "និងមាន {{count}} ផ្សេងទៀត"
+    },
+    "actions": {
+      "reply": "ឆ្លើយតប",
+      "repost": "ប្រកាសឡើងវិញ",
+      "undoRepost": "ដកការប្រកាសឡើងវិញ",
+      "react": "ប្រតិកម្ម",
+      "zap": "Zap",
+      "share": "ចែករំលែក",
+      "more": "បន្ថែម",
+      "linkCopied": "បានចម្លងតំណទៅក្ដារតម្បៀតខ្ទាស់"
+    }
+  },
+  "forms": {
+    "required": "ត្រូវការ",
+    "recommended": "ណែនាំ",
+    "optional": "ស្រេចចិត្ត",
+    "title": "ចំណងជើង",
+    "country": "ប្រទេស",
+    "tags": "ស្លាក",
+    "coverImage": "រូបភាពគម្រប",
+    "description": "ការពិពណ៌នា",
+    "timezone": "តំបន់ពេលវេលា",
+    "countrySearchPlaceholder": "ស្វែងរកប្រទេស",
+    "imageDropzone": "ចុច ឬអូសរូបភាពមកទីនេះ",
+    "countryClearAria": "សម្អាតប្រទេស",
+    "flagOfAria": "ទង់ជាតិ {{name}}",
+    "countryHint": "ផ្សព្វផ្សាយ <0>i: iso3166:{{code}}</0> សម្រាប់តម្រៀបតាមប្រទេស។",
+    "publishing": "កំពុងផ្សព្វផ្សាយ…",
+    "uploadingCover": "កំពុងផ្ទុកគម្រប…"
+  },
+  "organizationContext": {
+    "attachedToGroup": "បានភ្ជាប់ទៅក្រុម",
+    "groupFallback": "ក្រុម",
+    "editSubtext": "ការធ្វើបច្ចុប្បន្នភាពនឹងនៅតែភ្ជាប់ទៅសកម្មភាពផ្លូវការរបស់ក្រុមនេះ។",
+    "malformedParam": "មិនអាចអានក្រុមនៅក្នុងតំណបានទេ។ នឹងផ្សព្វផ្សាយក្រោមគណនីរបស់អ្នក។",
+    "checkingPermissions": "កំពុងពិនិត្យសិទ្ធិក្រុម…",
+    "unauthorized": "អ្នកមិនមែនជាស្ថាបនិក ឬអ្នកសម្របសម្រួលរបស់ក្រុមនោះទេ។ នឹងផ្សព្វផ្សាយក្រោមគណនីរបស់អ្នក។",
+    "publishingAsGroup": "កំពុងផ្សព្វផ្សាយជាក្រុម"
+  },
+  "notFound": {
+    "title": "404 - រកមិនឃើញទំព័រ",
+    "description": "មិនអាចរកឃើញទំព័រដែលអ្នកកំពុងរក។",
+    "heading": "ទំព័រនេះមិនមាន។",
+    "goHome": "ត្រឡប់ទៅទំព័រដើម"
+  },
+  "pledges": {
+    "list": {
+      "seoTitle": "ការសន្យា",
+      "seoTitleWithCountry": "ការសន្យា — {{country}}",
+      "seoDescription": "សន្យាផ្តល់មូលនិធិសម្រាប់សកម្មភាព ភស្តុតាង ឬលទ្ធផលជាក់ស្តែងដែលអ្នកចង់ជំរុញ។",
+      "heroKicker": "ការសន្យា",
+      "heroHeading": "ជំរុញការផ្លាស់ប្តូរ",
+      "heroHeadingLine2": "ដែលអ្នកចង់ឃើញ។",
+      "heroBody": "ផ្តល់មូលនិធិដល់សកម្មភាព ភស្តុតាង និងលទ្ធផលជាក់ស្តែង។ មនុស្សឆ្លើយតបជាមួយការដាក់ស្នើ ហើយសហគមន៍ឱ្យរង្វាន់ដល់ការងារដែលជំរុញគោលដៅទៅមុខ។",
+      "openCount_one": "ការសន្យាបើកនៅពេលនេះ",
+      "openCount_other": "ការសន្យាបើកនៅពេលនេះ",
+      "createPledge": "បង្កើតការសន្យា",
+      "loginToCreate": "ចូលដើម្បីបង្កើតការសន្យា",
+      "myPledges": "ការសន្យារបស់ខ្ញុំ",
+      "myPledgesTagline": "ការសន្យាដែលអ្នកបានបង្កើត។",
+      "featuredPledges": "ការសន្យាលេចធ្លោ",
+      "featuredPledgesTagline": "ការសន្យាដែលត្រូវបានរំលេចដោយក្រុម {{appName}}។",
+      "allPledges": "ការសន្យា",
+      "allPledgesTagline": "រំលេចដោយអ្នកសម្របសម្រួល។ ស្វែងរក ឬតម្រៀបដើម្បីរកមើលការសន្យាគ្រប់ៗមួយ។",
+      "sectionActive": "ការសន្យាសកម្ម",
+      "sectionUpcoming": "ការសន្យាខាងមុខ",
+      "sectionPast": "ការសន្យាកន្លងមក",
+      "sectionDefault": "ការសន្យា",
+      "sectionTagline": "ជួយផ្តល់មូលនិធិដល់សកម្មភាពដែលសមនឹងធ្វើ។",
+      "sortAriaLabel": "តម្រៀប",
+      "sortBy": "តម្រៀបតាម",
+      "sortRecent": "ថ្មីបំផុត",
+      "sortBounty": "ការសន្យាខ្ពស់បំផុត",
+      "sortDeadline": "ពេលកំណត់ខិតជិត",
+      "sortDeadlinePast": "បានបញ្ចប់ថ្មីៗ",
+      "filterAriaLabel": "ច្រោះតាមប្រទេស",
+      "countrySearchPlaceholder": "ស្វែងរក…",
+      "noResults": "រកមិនឃើញលទ្ធផល។",
+      "global": "សកល",
+      "dividerUpcoming": "ខាងមុខ",
+      "dividerPast": "កន្លងមក",
+      "showLess": "បង្ហាញតិច",
+      "showMore": "បង្ហាញបន្ថែម ({{count}} ទៀត)",
+      "emptyTitle": "មិនទាន់មានការសន្យាទេ",
+      "emptyHint": "ក្លាយជាមនុស្សដំបូងបង្កើតការសន្យា។",
+      "emptyHintCountry": "ក្លាយជាមនុស្សដំបូងបង្កើតការសន្យាសម្រាប់ {{country}}។",
+      "needsReview": "ត្រូវការត្រួតពិនិត្យ",
+      "needsReviewDesc": "ការសន្យា {{appName}} ដែលមិនទាន់ត្រូវបានលេចធ្លោ ឬលាក់នៅឡើយ។ លើកទៅធ្នើរលេចធ្លោ ឬបង្ក្រាបវាដោយលាក់។",
+      "needsReviewEmpty": "មិនមានអ្វីរង់ចាំការត្រួតពិនិត្យទេ។",
+      "hidden": "បានលាក់",
+      "hiddenDesc": "ការសន្យាដែលបានបង្ក្រាបពីការស្វែងរកសាធារណៈ។ ប្រើម៉ឺនុយ kebab លើកាតដើម្បីបង្ហាញឡើងវិញ។",
+      "hiddenEmpty": "បច្ចុប្បន្នមិនមានការសន្យាត្រូវបានលាក់ទេ។",
+      "searchPlaceholder": "ស្វែងរកការសន្យា…",
+      "searchAriaLabel": "ស្វែងរកការសន្យា",
+      "noMatch": "គ្មានការសន្យាណាដែលត្រូវនឹង «{{query}}»",
+      "noMatchHint": "សាកល្បងពាក្យស្វែងរកផ្សេង ឬសម្អាតការស្វែងរក។"
+    },
+    "card": {
+      "ended": "បានបញ្ចប់",
+      "pledged": "បានសន្យា",
+      "byAuthor": "ដោយ <0>{{name}}</0>",
+      "actionsAriaLabel": "សកម្មភាពកិច្ចសន្យា",
+      "deletePledge": "លុបការសន្យា",
+      "copyLink": "ចម្លងតំណ",
+      "linkCopied": "បានចម្លងតំណ",
+      "linkCopyFailed": "ចម្លងតំណបរាជ័យ",
+      "confirmDelete": "លុបការសន្យានេះមែនទេ? សកម្មភាពនេះមិនអាចត្រឡប់វិញបានទេ។",
+      "deleted": "បានលុបការសន្យា",
+      "deletedContent": "ការសន្យាដែលបានលុប",
+      "deleteFailed": "លុបការសន្យាបរាជ័យ"
+    },
+    "create": {
+      "seoTitle": "បង្កើតការសន្យា",
+      "seoDescription": "បង្កើតការសន្យារបស់អ្នកបរិច្ចាគ ដើម្បីជំរុញសកម្មភាពជាក់ស្តែងនៅលើ {{appName}}។",
+      "loginGateTitle": "ចូលដើម្បីបង្កើតការសន្យា",
+      "loginGateBody": "ការសន្យាគឺជាព្រឹត្តិការណ៍ Nostr ដែលបានចុះហត្ថលេខា។ អ្នកត្រូវការការចូល Nostr ដើម្បីផ្សព្វផ្សាយ។",
+      "heading": "បង្កើតការសន្យា",
+      "title": "ចំណងជើង",
+      "titlePlaceholder": "កត់ត្រាការសម្អាតឆ្នេរ",
+      "country": "ប្រទេស",
+      "countryPlaceholder": "ស្វែងរកប្រទេស",
+      "tags": "ស្លាក",
+      "coverImage": "រូបភាពគម្រប",
+      "description": "ការពិពណ៌នា",
+      "descriptionPlaceholder": "ពន្យល់សកម្មភាព ភស្តុតាង ឬលទ្ធផលដែលអ្នកចង់ជំរុញ អ្វីដែលការដាក់ស្នើគួរមាន និងរបៀបដែលអ្នកគ្រោងវាយតម្លៃពួកវា...",
+      "pledge": "ការសន្យា",
+      "pledgeAmountPlaceholder": "100",
+      "deadline": "ពេលកំណត់",
+      "timezone": "តំបន់ពេលវេលា",
+      "timezoneNote": "ពេលវេលាចាប់ផ្តើម និងពេលកំណត់នឹងត្រូវបានបកស្រាយក្នុងតំបន់ពេលវេលានេះ។",
+      "submit": "បង្កើតការសន្យា",
+      "altText": "ការសន្យា {{appName}}៖ {{title}}",
+      "successToast": "បានបង្កើតការសន្យា",
+      "errorToast": "មិនអាចបង្កើតការសន្យា",
+      "errorLoginRequired": "អ្នកត្រូវចូលដើម្បីបង្កើតការសន្យា។",
+      "errorTitleRequired": "ត្រូវការចំណងជើង។",
+      "errorDescriptionRequired": "ត្រូវការការពិពណ៌នា។",
+      "errorPledgeRequired": "ត្រូវការចំនួនការសន្យា។",
+      "errorPledgeInvalid": "ចំនួនការសន្យាត្រូវតែជាចំនួនវិជ្ជមានជា USD។",
+      "errorPriceUnavailable": "កំពុងរង់ចាំតម្លៃ BTC/USD ដើម្បីគណនាចំនួនការសន្យា។",
+      "errorCoverInvalid": "រូបភាពគម្របត្រូវតែជា URL https:// ត្រឹមត្រូវ។",
+      "errorDeadlinePast": "ពេលកំណត់មិនអាចស្ថិតក្នុងអតីតកាល។",
+      "wizard": {
+        "titleStepTitle": "ដាក់ឈ្មោះការសន្យារបស់អ្នក",
+        "titleStepSubtitle": "សំណើច្បាស់លាស់ និងការពន្យល់ខ្លីៗអំពីអ្វីដែលអ្នកនឹងផ្តល់មូលនិធិ។",
+        "pledgeStepTitle": "កំណត់ការសន្យារបស់អ្នក",
+        "pledgeStepSubtitle": "ចំនួនទឹកប្រាក់ដែលអ្នកនឹងបង់ ជា USD និងពេលកំណត់ស្រេចចិត្ត។",
+        "coverStepTitle": "បន្ថែមរូបភាពគម្រប",
+        "coverStepSubtitle": "រូបភាពមួយនាំការសន្យានៅលើកាតគ្រប់ទីកន្លែង។",
+        "tagsStepTitle": "ប្រទេស និងប្រភេទ",
+        "tagsStepSubtitle": "ជួយឱ្យមនុស្សត្រឹមត្រូវរកឃើញការសន្យារបស់អ្នក។",
+        "launchNow": "រំលងបន្ទាប់ ហើយចាប់ផ្តើម"
+      }
+    },
+    "detail": {
+      "seoTitle": "{{title}} | ការសន្យារបស់ {{appName}}",
+      "seoFallbackTitle": "ការសន្យា | {{appName}}",
+      "deadlineEndedOn": "បានបញ្ចប់នៅ {{date}}",
+      "deadlineEndsToday": "បញ្ចប់នៅថ្ងៃនេះ",
+      "deadlineDaysLeft_one": "នៅសល់ {{count}} ថ្ងៃ",
+      "deadlineDaysLeft_other": "នៅសល់ {{count}} ថ្ងៃ",
+      "deadlineEndsOn": "បញ្ចប់នៅ {{date}}",
+      "openEnded": "គ្មានពេលកំណត់",
+      "back": "ត្រឡប់",
+      "backToPledges": "ត្រឡប់ទៅការសន្យា",
+      "loadingPledge": "កំពុងផ្ទុកការសន្យា…",
+      "pledge": "ការសន្យា",
+      "byAuthor": "ដោយ <0>{{name}}</0>",
+      "submitLabel": "ដាក់ស្នើ",
+      "linkCopied": "បានចម្លងតំណទៅក្តារតម្បៀតខ្ទាស់",
+      "pinnedToast": "បានបោះខ្ទាស់ទៅការសន្យា",
+      "unpinnedToast": "បានដកខ្ទាស់ចេញពីការសន្យា",
+      "pinFailed": "មិនអាចធ្វើបច្ចុប្បន្នភាពខ្ទាស់ការសន្យា",
+      "submissions": "ការដាក់ស្នើ",
+      "submissionCount_one": "ការដាក់ស្នើ {{count}}",
+      "submissionCount_other": "ការដាក់ស្នើ {{count}}",
+      "submissionPlaceholder": "ចែករំលែកភស្តុតាង សក្ខីភាព ឬការងារដែលបានបញ្ចប់...",
+      "noSubmissionsTitle": "មិនទាន់មានការដាក់ស្នើទេ",
+      "noSubmissionsHint": "ក្លាយជាមនុស្សដំបូងឆ្លើយតបជាមួយភស្តុតាង សក្ខីភាព ឬការងារដែលបានបញ្ចប់។",
+      "funded": "បានផ្តល់មូលនិធិ",
+      "ofPledged": "នៃចំនួន {{amount}} ដែលបានសន្យា",
+      "trustNote": "ការសន្យានេះផ្អែកលើទំនុកចិត្ត។ ភាពរីកចម្រើននៃមូលនិធិបូកសរុបនៃ zaps និងបង្កាន់ដៃនៃការបរិច្ចាគនៅលើការដាក់ស្នើកម្រិតកំពូល។",
+      "share": "ចែករំលែក",
+      "storyHeading": "ការសន្យា",
+      "storyEmpty": "អ្នកសន្យាមិនទាន់សរសេរព័ត៌មានលម្អិតសម្រាប់ការសន្យានេះទេ។"
+    }
+  },
+  "groups": {
+    "list": {
+      "seoTitle": "ក្រុម",
+      "seoDescription": "ស្វែងរក និងចូលរួមក្រុមនៅលើ Nostr",
+      "heroKicker": "ក្រុម",
+      "heroHeading": "កម្លាំង",
+      "heroHeadingLine2": "នៅក្នុងចំនួន។",
+      "heroBody": "បង្កើតក្រុម ប្រមូលសមាជិក និងតាមដានអ្វីដែលកន្លែងរបស់អ្នកកំពុងធ្វើ។",
+      "createGroup": "បង្កើតក្រុម",
+      "createGroupLoginTitle": "ចូលដើម្បីបង្កើតក្រុម",
+      "createGroupLoginBody": "ការបង្កើតក្រុមផ្សព្វផ្សាយព្រឹត្តិការណ៍ Nostr ពីគណនីរបស់អ្នក។",
+      "myGroups": "ក្រុមរបស់ខ្ញុំ",
+      "myGroupsTagline": "ក្រុមដែលអ្នកបានបង្កើត គ្រប់គ្រង ឬដាក់តាមដាន។",
+      "featuredGroups": "ក្រុមលេចធ្លោ",
+      "featuredGroupsTagline": "ក្រុមលេចធ្លោដែលសក្តិសមនឹងការយកចិត្តទុកដាក់របស់អ្នក។",
+      "allGroups": "ក្រុម",
+      "allGroupsTagline": "រំលេចដោយអ្នកសម្របសម្រួល។ ស្វែងរក ឬតម្រៀបដើម្បីរកមើលក្រុមគ្រប់ៗមួយ។",
+      "loginToSeeTitle": "ចូលដើម្បីមើលក្រុមរបស់អ្នក",
+      "loginToSeeBody": "ក្រុមដែលអ្នកបានបង្កើត ឬគ្រប់គ្រងនឹងបង្ហាញនៅទីនេះ។",
+      "noGroupsTitle": "មិនទាន់មានក្រុមទេ",
+      "noGroupsBody": "បង្កើតក្រុមផ្ទាល់ខ្លួនរបស់អ្នកដើម្បីសម្របសម្រួលយុទ្ធនាការ ការសន្យា និងព្រឹត្តិការណ៍ជាមួយមនុស្សរបស់អ្នក។",
+      "noFeaturedTitle": "មិនទាន់មានក្រុមលេចធ្លោទេ",
+      "noFeaturedBody": "អ្នកសម្របសម្រួល {{appName}} លេចធ្លោក្រុមលេចធ្លោនៅទីនេះ។ ត្រឡប់មកវិញឆាប់ៗ។",
+      "connectingRelays": "កំពុងភ្ជាប់ទៅ relay…",
+      "showLess": "បង្ហាញតិច",
+      "showMore": "បង្ហាញ {{count}} បន្ថែម",
+      "needsReview": "ត្រូវការត្រួតពិនិត្យ",
+      "needsReviewDesc": "ក្រុម {{appName}} ដែលមិនទាន់ត្រូវបានលេចធ្លោ ឬលាក់នៅឡើយ។ លើកទៅធ្នើរលេចធ្លោ ឬបង្ក្រាបវាដោយលាក់។",
+      "needsReviewEmpty": "មិនមានអ្វីរង់ចាំការត្រួតពិនិត្យទេ។",
+      "hidden": "បានលាក់",
+      "hiddenDesc": "ក្រុមដែលបានបង្ក្រាបពីការស្វែងរកសាធារណៈ។ ប្រើម៉ឺនុយ kebab លើកាតដើម្បីបង្ហាញឡើងវិញ។",
+      "hiddenEmpty": "បច្ចុប្បន្នមិនមានក្រុមត្រូវបានលាក់ទេ។",
+      "tickerCampaignsRaised_one": "រៃអង្គាសបាននៅលើខ្សែសង្វាក់ឆ្លងកាត់យុទ្ធនាការ {{count}}",
+      "tickerCampaignsRaised_other": "រៃអង្គាសបាននៅលើខ្សែសង្វាក់ឆ្លងកាត់យុទ្ធនាការ {{count}}",
+      "tickerFeaturedGroups_one": "ក្រុមលេចធ្លោនៅលើ Nostr",
+      "tickerFeaturedGroups_other": "ក្រុមលេចធ្លោនៅលើ Nostr",
+      "tickerCountries_one": "ប្រទេសកំពុងបង្ហោះថ្ងៃនេះ",
+      "tickerCountries_other": "ប្រទេសកំពុងបង្ហោះថ្ងៃនេះ",
+      "searchPlaceholder": "ស្វែងរកក្រុម…",
+      "searchAriaLabel": "ស្វែងរកក្រុម",
+      "noMatch": "គ្មានក្រុមណាដែលត្រូវនឹង «{{query}}»",
+      "noMatchHint": "សាកល្បងពាក្យស្វែងរកផ្សេង ឬសម្អាតការស្វែងរក។"
+    },
+    "create": {
+      "seoTitleCreate": "បង្កើតក្រុម",
+      "seoTitleEdit": "កែសម្រួលក្រុម",
+      "seoDescriptionCreate": "ចាប់ផ្តើមក្រុមថ្មីនៅលើ {{appName}}។",
+      "seoDescriptionEdit": "ធ្វើបច្ចុប្បន្នភាពក្រុមរបស់អ្នកនៅលើ {{appName}}។",
+      "loginGateTitle": "ចូលដើម្បីចាប់ផ្តើមក្រុម",
+      "loginGateBody": "ក្រុមគឺជាព្រឹត្តិការណ៍ Nostr ដែលបានចុះហត្ថលេខា។ អ្នកត្រូវការការចូល Nostr ដើម្បីផ្សព្វផ្សាយ។",
+      "invalidEditTitle": "តំណកែសម្រួលមិនត្រឹមត្រូវ",
+      "invalidEditBody": "តំណកែសម្រួលក្រុមនេះមិនមានអាសយដ្ឋានក្រុមត្រឹមត្រូវ។",
+      "startNewGroup": "ចាប់ផ្តើមក្រុមថ្មី",
+      "loadingGroup": "កំពុងផ្ទុកក្រុម…",
+      "cannotEditTitle": "មិនអាចកែសម្រួលក្រុមបានទេ",
+      "cannotEditBody": "មានតែស្ថាបនិកក្រុមនេះប៉ុណ្ណោះដែលអាចធ្វើបច្ចុប្បន្នភាពវាបាន។",
+      "headingCreate": "បង្កើតក្រុម",
+      "headingEdit": "កែសម្រួលក្រុម",
+      "name": "ឈ្មោះ",
+      "namePlaceholder": "ឧ. អ្នកការពាររបស់អាជ្ញាកណ្តាល",
+      "urlPreview": "មើល URL ជាមុន៖",
+      "urlPlaceholder": "ឈ្មោះក្រុមរបស់អ្នក",
+      "urlKeptOriginal": "(រក្សាពីដើម)",
+      "description": "ការពិពណ៌នា",
+      "descriptionPlaceholder": "ក្រុមនេះនិយាយអំពីអ្វី?",
+      "country": "ប្រទេស",
+      "countryPlaceholder": "ស្វែងរកប្រទេស",
+      "tags": "ស្លាក",
+      "tagsPlaceholder": "ជំនួយគ្នាទៅវិញទៅមក, ព័ត៌មានក្នុងតំបន់, សិទ្ធិឌីជីថល",
+      "coverImage": "រូបភាពគម្រប",
+      "moderators": "អ្នកសម្របសម្រួល",
+      "moderatorsCount": "អ្នកសម្របសម្រួល ({{count}})",
+      "removeModeratorAria": "ដក {{name}} ចេញ",
+      "submitCreate": "បង្កើតក្រុម",
+      "submitEdit": "ធ្វើបច្ចុប្បន្នភាពក្រុម",
+      "creating": "កំពុងបង្កើត…",
+      "updating": "កំពុងធ្វើបច្ចុប្បន្នភាព…",
+      "uploadingCover": "កំពុងផ្ទុកគម្រប…",
+      "altText": "ក្រុម៖ {{name}}",
+      "successCreate": "បានបង្កើតក្រុម!",
+      "successEdit": "បានធ្វើបច្ចុប្បន្នភាពក្រុម!",
+      "errorTitleCreate": "មិនអាចបង្កើតក្រុម",
+      "errorTitleEdit": "មិនអាចធ្វើបច្ចុប្បន្នភាពក្រុម",
+      "errorLoginRequired": "អ្នកត្រូវចូលដើម្បីបង្កើតក្រុម។",
+      "errorEditLoadFailed": "មិនអាចផ្ទុកក្រុមដើម្បីកែសម្រួលបានទេ។",
+      "errorEditNotOwner": "មានតែស្ថាបនិកក្រុមប៉ុណ្ណោះដែលអាចកែសម្រួលក្រុមនេះបាន។",
+      "errorNameRequired": "ត្រូវការឈ្មោះ។",
+      "errorNameInvalid": "ឈ្មោះត្រូវតែមានអក្សរ ឬលេខ ដើម្បីបង្កើត URL ក្រុម។",
+      "errorEditLatestMissing": "មិនអាចស្វែងរកកំណែចុងក្រោយរបស់ក្រុមនេះដើម្បីធ្វើបច្ចុប្បន្នភាព។",
+      "errorCoverInvalid": "រូបភាពគម្របត្រូវតែជា URL https:// ត្រឹមត្រូវ។",
+      "errorSlugCollision": "អ្នកមានក្រុមដែលមានកំណត់អត្តសញ្ញាណ «{{slug}}» រួចហើយ។ ជ្រើសរើសឈ្មោះផ្សេង។",
+      "wizard": {
+        "nameStepTitle": "ដាក់ឈ្មោះក្រុមរបស់អ្នក",
+        "nameStepSubtitle": "ឈ្មោះខ្លី ច្បាស់លាស់ ដែលសមាជិកនឹងស្គាល់។",
+        "coverStepTitle": "បន្ថែមរូបភាពគម្រប",
+        "coverStepSubtitle": "រូបភាពមួយនាំក្រុមនៅលើកាតគ្រប់ទីកន្លែង។",
+        "moderatorsStepTitle": "អញ្ជើញអ្នកសម្របសម្រួល",
+        "moderatorsStepSubtitle": "ស្រេចចិត្ត — ពួកគេអាចអនុម័តខ្លឹមសារ និងដកសមាជិករួមជាមួយអ្នក។",
+        "tagsStepTitle": "ប្រទេស និងប្រភេទ",
+        "tagsStepSubtitle": "ជួយឱ្យមនុស្សត្រឹមត្រូវរកឃើញក្រុមរបស់អ្នក។",
+        "launchNow": "រំលងបន្ទាប់ ហើយចាប់ផ្តើម"
+      }
+    },
+    "detail": {
+      "by": "ដោយ",
+      "byAuthor": "ដោយ {{name}}",
+      "members": "សមាជិក",
+      "viewMembers": "មើលសមាជិក",
+      "moreMembers": "+{{count}} បន្ថែម",
+      "about": "អំពី",
+      "comments": "មតិយោបល់",
+      "comment": "មតិយោបល់",
+      "commentNoun_one": "មតិយោបល់",
+      "commentNoun_other": "មតិយោបល់",
+      "noCommentsTitle": "មិនទាន់មានមតិយោបល់",
+      "noCommentsHint": "ក្លាយជាមនុស្សដំបូងដែលចាប់ផ្តើមការពិភាក្សា។",
+      "noMembersFound": "រកមិនឃើញសមាជិក។",
+      "founder": "ស្ថាបនិក",
+      "moderator": "អ្នកសម្របសម្រួល",
+      "moreActions": "សកម្មភាពបន្ថែម",
+      "editGroup": "កែសម្រួលក្រុម",
+      "deleteGroup": "លុបក្រុម",
+      "officialActivity": "សកម្មភាពផ្លូវការ",
+      "officialTools": "ឧបករណ៍ផ្លូវការ",
+      "startSomething": "ចាប់ផ្តើមអ្វីមួយ",
+      "officialToolsDescription": "ផ្តល់ជំហានបន្ទាប់ជាក់ស្តែងដល់ {{name}}។",
+      "launchCampaign": "ចាប់ផ្តើមយុទ្ធនាការ",
+      "launchCampaignDescription": "ប្រមូលមូលនិធិជាមួយទំព័រក្រុមផ្លូវការ។",
+      "campaign": "យុទ្ធនាការ",
+      "pledge": "ការសន្យា",
+      "pledgeDescription": "ផ្តល់ជំនួយដែលមនុស្សអាចអនុវត្តបាន។",
+      "event": "ព្រឹត្តិការណ៍",
+      "eventDescription": "នាំអ្នកគាំទ្រមកជួបគ្នា។",
+      "untitledEvent": "ព្រឹត្តិការណ៍គ្មានចំណងជើង",
+      "interestedCount_one": "មនុស្ស {{count}} នាក់ចាប់អារម្មណ៍",
+      "interestedCount_other": "មនុស្ស {{count}} នាក់ចាប់អារម្មណ៍",
+      "allDay": "ពេញមួយថ្ងៃ"
+    }
+  },
+  "campaignsCreate": {
+    "seoTitleCreate": "ចាប់ផ្តើមយុទ្ធនាការ",
+    "seoTitleEdit": "កែសម្រួលយុទ្ធនាការ",
+    "seoDescriptionCreate": "បើកដំណើរយុទ្ធនាការរៃអង្គាសប្រាក់នៅលើ {{appName}}។",
+    "seoDescriptionEdit": "ធ្វើបច្ចុប្បន្នភាពយុទ្ធនាការរបស់អ្នកនៅលើ {{appName}}។",
+    "loginGateTitle": "ចូលដើម្បីចាប់ផ្តើមយុទ្ធនាការ",
+    "loginGateBody": "យុទ្ធនាការគឺជាព្រឹត្តិការណ៍ Nostr ដែលបានចុះហត្ថលេខា។ អ្នកត្រូវការការចូល Nostr ដើម្បីផ្សព្វផ្សាយ។",
+    "invalidEditTitle": "តំណកែសម្រួលមិនត្រឹមត្រូវ",
+    "invalidEditBody": "តំណកែសម្រួលយុទ្ធនាការនេះមិនមានអាសយដ្ឋានយុទ្ធនាការត្រឹមត្រូវ។",
+    "startNewCampaign": "ចាប់ផ្តើមយុទ្ធនាការថ្មី",
+    "loadingCampaign": "កំពុងផ្ទុកយុទ្ធនាការ…",
+    "cannotEditTitle": "មិនអាចកែសម្រួលយុទ្ធនាការបានទេ",
+    "cannotEditBody": "មានតែអ្នកនិពន្ធយុទ្ធនាការនេះប៉ុណ្ណោះដែលអាចធ្វើបច្ចុប្បន្នភាពវាបាន។",
+    "headingCreate": "ចាប់ផ្តើមយុទ្ធនាការ",
+    "headingEdit": "កែសម្រួលយុទ្ធនាការ",
+    "editTabs": {
+      "details": "ព័ត៌មានលម្អិត",
+      "funding": "មូលនិធិ",
+      "discovery": "ការស្វែងរក"
+    },
+    "title": "ចំណងជើង",
+    "titlePlaceholder": "សង្គ្រោះហាងសៀវភៅចុងក្រោយ",
+    "wallet": "កាបូបប៊ីតខញ",
+    "myWalletLabel": "កាបូបរបស់ {{name}}",
+    "myWalletDefault": "កាបូបរបស់ខ្ញុំ",
+    "walletHeroNote": "ការបរិច្ចាគហូរចូលដោយផ្ទាល់ទៅក្នុងកាបូប Agora ផ្ទាល់ខ្លួនរបស់អ្នក។\nគ្មានអ្នកកណ្ដាល។",
+    "walletHeroReassurance": "អ្នកកាន់កូនសោ ដូច្នេះអ្នកកាន់មូលនិធិ។ ដកប្រាក់បានគ្រប់ពេលពីផ្ទាំងកាបូប។",
+    "walletChoose": "ជ្រើសរើសកាបូប",
+    "walletCustom": "ផ្ទាល់ខ្លួន",
+    "walletUseCustom": "ប្រើកាបូបផ្ទាល់ខ្លួនជំនួសវិញ",
+    "walletUseMine": "ប្រើកាបូប Agora របស់ខ្ញុំ",
+    "acceptHeading": "តើអ្នកនឹងទទួលការបរិច្ចាគបែបណាខ្លះ?",
+    "acceptUnavailable": "មិនអាចប្រើបានជាមួយការចូលគណនីនេះទេ។",
+    "acceptAllTitle": "ការបរិច្ចាគគ្រប់ប្រភេទ",
+    "acceptPublicTitle": "ការបរិច្ចាគសាធារណៈតែប៉ុណ្ណោះ",
+    "acceptPrivateTitle": "ការបរិច្ចាគឯកជនតែប៉ុណ្ណោះ",
+    "acceptAllHint": "ទទួលយកការបរិច្ចាគទាំងសាធារណៈ និងឯកជន។",
+    "acceptPublicHint": "អ្នកបរិច្ចាគផ្ញើទៅកាន់អាសយដ្ឋាន Bitcoin ធម្មតា។ ការបរិច្ចាគទាំងនេះអ្នករាល់គ្នាអាចមើលឃើញ។",
+    "acceptPrivateHint": "អ្នកបរិច្ចាគផ្ញើដោយឯកជន ដូច្នេះអត្តសញ្ញាណរបស់ពួកគេនៅតែលាក់បាំងពីសាធារណៈ។",
+    "customWalletIntro": "បំពេញការបរិច្ចាគណាមួយដែលអ្នកចង់ទទួល៖ អាសយដ្ឋានសាធារណៈ លេខកូដឯកជន ឬទាំងពីរ។ ត្រូវការយ៉ាងហោចណាស់មួយ។",
+    "customOnchainMeaning": "សាធារណៈ។ អ្នករាល់គ្នាអាចមើលឃើញការបរិច្ចាគទាំងនេះ។",
+    "customSpMeaning": "ឯកជន។ អត្តសញ្ញាណរបស់អ្នកបរិច្ចាគនៅតែលាក់បាំង។",
+    "bitcoinAddress": "អាសយដ្ឋានប៊ីតខញ",
+    "bitcoinAddressPlaceholder": "bc1q… ឬ bc1p…",
+    "silentPaymentCode": "លេខកូដបង់ប្រាក់ស្ងាត់",
+    "silentPaymentCodePlaceholder": "sp1…",
+    "onchainInvalid": "មិនមែនជាអាសយដ្ឋានប៊ីតខញ mainnet ដែលត្រូវបានទទួលស្គាល់ទេ (bc1q… / bc1p…)។",
+    "spInvalid": "មិនមែនជាលេខកូដបង់ប្រាក់ស្ងាត់ BIP-352 ដែលត្រូវបានទទួលស្គាល់ទេ (sp1…)។",
+    "country": "ប្រទេស",
+    "countryPlaceholder": "ស្វែងរកប្រទេស",
+    "tags": "ស្លាក",
+    "tagsPlaceholder": "ការពារផ្នែកច្បាប់, ជំនួយគ្នាទៅវិញទៅមក, ព័ត៌មានក្នុងតំបន់",
+    "categories": {
+      "humanRights": "សិទ្ធិមនុស្ស",
+      "democracy": "លទ្ធិប្រជាធិបតេយ្យ",
+      "pressFreedom": "សេរីភាពសារព័ត៌មាន",
+      "politicalPrisoners": "អ្នកទោសនយោបាយ",
+      "humanitarianAid": "ជំនួយមនុស្សធម៌",
+      "civilResistance": "ការតស៊ូស៊ីវិល",
+      "digitalRights": "សិទ្ធិឌីជីថល",
+      "antiCorruption": "ប្រឆាំងអំពើពុករលួយ",
+      "womenGirls": "ស្ត្រី និងក្មេងស្រី",
+      "refugees": "ជនភៀសខ្លួន និងជននិរទេស",
+      "legalAid": "ជំនួយផ្នែកច្បាប់",
+      "emergencyRelief": "ជំនួយសង្គ្រោះបន្ទាន់",
+      "animalRights": "សិទ្ធិសត្វ",
+      "education": "ការអប់រំ",
+      "medical": "វេជ្ជសាស្ត្រ",
+      "community": "សហគមន៍"
+    },
+    "banner": "រូបភាពបដា",
+    "story": "រឿង",
+    "storyPlaceholder": "ចែករំលែកប្រវត្តិ អ្នកទទួលផល និងរបៀបដែលថវិកានឹងត្រូវប្រើ។",
+    "goal": "គោលដៅ",
+    "goalPlaceholder": "100",
+    "goalNote": "ដុល្លារអាមេរិកពេញ។ អ្នកបរិច្ចាគបង់ប្រាក់ជាប៊ីតខញ; អតិថិជនប៉ាន់ប្រមាណសមមូល USD នៅពេលមើល។",
+    "payUrl": "តំណបង់ប្រាក់តាមកាត",
+    "payUrlOptional": "(ស្រេចចិត្ត)",
+    "payUrlPlaceholder": "https://pay.example.com/your-campaign",
+    "payUrlNote": "ទំព័រពិនិត្យចេញខាងក្រៅ (ឧ. Stripe) ដែលអ្នកបរិច្ចាគអាចបង់ប្រាក់តាមកាត។ ការបរិច្ចាគតាមកាតត្រូវបានទូទាត់នៅក្រៅ Agora ហើយមិនរាប់បញ្ចូលក្នុងចំនួនសរុបដែលបានប្រមូលរបស់អ្នកទេ។",
+    "submitCreate": "បើកដំណើរយុទ្ធនាការ",
+    "submitEdit": "ធ្វើបច្ចុប្បន្នភាពយុទ្ធនាការ",
+    "publishing": "កំពុងផ្សព្វផ្សាយ…",
+    "updating": "កំពុងធ្វើបច្ចុប្បន្នភាព…",
+    "uploadingBanner": "កំពុងផ្ទុកបដា…",
+    "altText": "យុទ្ធនាការរៃអង្គាសប្រាក់៖ {{title}}",
+    "successCreate": "បានបើកដំណើរយុទ្ធនាការ",
+    "successCreateDesc": "ការរៃអង្គាសរបស់អ្នកដំណើរការហើយ។",
+    "successEdit": "បានធ្វើបច្ចុប្បន្នភាពយុទ្ធនាការ",
+    "successEditDesc": "ការផ្លាស់ប្តូររៃអង្គាសរបស់អ្នកដំណើរការហើយ។",
+    "categoryLimitTitle": "អ្នកអាចជ្រើសរើសបានតែ {{count}} ស្លាកប៉ុណ្ណោះ",
+    "categoryLimitDesc": "សូមលុបស្លាកមួយចេញ មុននឹងបន្ថែមស្លាកមួយទៀត។ យុទ្ធនាការត្រូវបានកំណត់ត្រឹម {{count}} ស្លាក។",
+    "errorTitleCreate": "មិនអាចផ្សព្វផ្សាយយុទ្ធនាការ",
+    "errorTitleEdit": "មិនអាចធ្វើបច្ចុប្បន្នភាពយុទ្ធនាការ",
+    "errorLoginRequired": "អ្នកត្រូវចូលដើម្បីបង្កើតយុទ្ធនាការ។",
+    "errorEditLoadFailed": "មិនអាចផ្ទុកយុទ្ធនាការដើម្បីកែសម្រួលបានទេ។",
+    "errorEditNotOwner": "មានតែអ្នកនិពន្ធយុទ្ធនាការប៉ុណ្ណោះដែលអាចកែសម្រួលវាបាន។",
+    "errorTitleRequired": "ត្រូវការចំណងជើង។",
+    "errorTitleInvalid": "ចំណងជើងត្រូវតែមានអក្សរ ឬលេខ ដើម្បីបង្កើត URL យុទ្ធនាការ។",
+    "errorSlugInvalid": "កំណត់អត្តសញ្ញាណត្រូវតែជាអក្សរតូច លេខ និងសហសញ្ញា។",
+    "errorHdUnavailable": "កាបូបដែលភ្ជាប់មកមិនអាចប្រើបានសម្រាប់ការចូលនេះ។",
+    "errorSpUnavailable": "អាសយដ្ឋានបង់ប្រាក់ស្ងាត់មិនអាចប្រើបានសម្រាប់ការចូលនេះ។",
+    "errorOnchainInvalid": "អាសយដ្ឋាន on-chain មិនមែនជាអាសយដ្ឋាន bech32(m) mainnet ដែលត្រូវបានទទួលស្គាល់ទេ (bc1q… / bc1p…)។",
+    "errorSpInvalid": "លេខកូដបង់ប្រាក់ស្ងាត់មិនមែនជាលេខកូដ BIP-352 ដែលត្រូវបានទទួលស្គាល់ទេ (sp1…)។",
+    "errorWalletRequired": "ផ្តល់យ៉ាងហោចណាស់ចំណុចកាបូបមួយ — អាសយដ្ឋានប៊ីតខញ mainnet (bc1q… / bc1p…) ឬលេខកូដបង់ប្រាក់ស្ងាត់ (sp1…)។",
+    "errorGoalInvalid": "គោលដៅត្រូវតែជាចំនួនវិជ្ជមានជា USD ពេញ។",
+    "errorPayUrlInvalid": "តំណបង់ប្រាក់តាមកាតត្រូវតែជា URL https:// ត្រឹមត្រូវ។",
+    "errorEditLatestMissing": "មិនអាចស្វែងរកកំណែចុងក្រោយរបស់យុទ្ធនាការនេះដើម្បីធ្វើបច្ចុប្បន្នភាព។",
+    "errorSlugCollision": "អ្នកមានយុទ្ធនាការដែលមានកំណត់អត្តសញ្ញាណ «{{slug}}» រួចហើយ។ ជ្រើសរើសផ្សេង។",
+    "errorBannerInvalid": "បដាត្រូវតែជា URL https:// ត្រឹមត្រូវ។",
+    "errorHdDeriveFailed": "មិនអាចទាញយកអាសយដ្ឋាន on-chain ស្រស់ពីកាបូបរបស់អ្នកបានទេ។",
+    "errorHdDeriveInvalid": "អាសយដ្ឋានដែលបានទាញយកបរាជ័យក្នុងការវាយតម្លៃ។ សូមបន្ថែមអាសយដ្ឋានផ្ទាល់ខ្លួនជំនួស។",
+    "errorWalletRequiredFallback": "ត្រូវការចំណុចកាបូប។",
+    "errorPublishedInvalid": "ព្រឹត្តិការណ៍ដែលបានផ្សព្វផ្សាយបរាជ័យក្នុងការវាយតម្លៃ។ សូមផ្ទុកឡើងវិញ ហើយព្យាយាមម្តងទៀត។",
+    "wizard": {
+      "titleStepTitle": "ដាក់ឈ្មោះយុទ្ធនាការរបស់អ្នក",
+      "titleStepSubtitle": "ឈ្មោះខ្លី ច្បាស់លាស់ ដែលអ្នកបរិច្ចាគនឹងស្គាល់។",
+      "walletStepTitle": "តើការបរិច្ចាគទៅទីណា?",
+      "walletStepSubtitle": "ជ្រើសរើសកាបូប Agora របស់អ្នក ឬបិទភ្ជាប់អាសយដ្ឋានផ្ទាល់ខ្លួន។",
+      "bannerStepTitle": "បន្ថែមបដា",
+      "bannerStepSubtitle": "រូបភាពគួរឱ្យចាប់អារម្មណ៍មួយ នាំយុទ្ធនាការនៅលើកាតគ្រប់ទីកន្លែង។",
+      "storyStepTitle": "ប្រាប់រឿងរបស់អ្នក",
+      "storyStepSubtitle": "នរណាខ្លះទទួលផល និងថវិកានឹងត្រូវប្រើយ៉ាងដូចម្តេច។",
+      "next": "បន្ទាប់",
+      "back": "ត្រឡប់",
+      "skip": "រំលង",
+      "launchNow": "រំលងបន្ទាប់ ហើយចាប់ផ្តើម",
+      "goalStepTitle": "គោលដៅ",
+      "goalStepSubtitle": "ស្រេចចិត្ត — ទុកឱ្យទទេសម្រាប់យុទ្ធនាការគ្មានកំណត់។",
+      "tagsStepTitle": "ប្រទេស និងប្រភេទ",
+      "tagsStepSubtitle": "ជួយឱ្យមនុស្សត្រឹមត្រូវរកឃើញយុទ្ធនាការរបស់អ្នក។"
+    }
+  },
+  "campaignsDetail": {
+    "seoTitle": "{{title}} | យុទ្ធនាការរបស់ {{appName}}",
+    "seoDescriptionFallback": "គាំទ្រ {{title}} នៅលើ {{appName}}។",
+    "back": "ត្រឡប់",
+    "edit": "កែសម្រួល",
+    "delete": "លុប",
+    "deleting": "កំពុងលុប…",
+    "openCover": "បើករូបភាពគម្រប",
+    "byAuthor": "ដោយ <0>{{name}}</0>",
+    "commentLabel": "មតិយោបល់",
+    "linkCopied": "បានចម្លងតំណទៅក្តារតម្បៀតខ្ទាស់",
+    "pinnedToast": "បានបោះខ្ទាស់ទៅយុទ្ធនាការ",
+    "unpinnedToast": "បានដកខ្ទាស់ចេញពីយុទ្ធនាការ",
+    "pinFailed": "មិនអាចធ្វើបច្ចុប្បន្នភាពខ្ទាស់យុទ្ធនាការ",
+    "deletedToast": "បានលុបយុទ្ធនាការ",
+    "deletedToastDesc": "សំណើលុបត្រូវបានផ្សព្វផ្សាយ។ Relay ដែលអនុលោមនឹងលុបយុទ្ធនាការចេញពី feed។",
+    "deleteErrorTitle": "មិនអាចលុបយុទ្ធនាការ",
+    "campaigner": "អ្នករៀបចំ",
+    "repost_one": "<0>{{formattedCount}}</0> Repost",
+    "repost_other": "<0>{{formattedCount}}</0> Reposts",
+    "quote_one": "<0>{{formattedCount}}</0> ការដកស្រង់",
+    "quote_other": "<0>{{formattedCount}}</0> ការដកស្រង់",
+    "like_one": "<0>{{formattedCount}}</0> ចូលចិត្ត",
+    "like_other": "<0>{{formattedCount}}</0> ចូលចិត្ត",
+    "tabComments": "មតិយោបល់ និងការបរិច្ចាគ",
+    "tabLedger": "សៀវភៅបញ្ជី",
+    "ledger": {
+      "publicAddress": "អាសយដ្ឋានសាធារណៈ",
+      "viewOnMempool": "មើលលើ mempool.space",
+      "openOnMempool": "បើកប្រតិបត្តិការលើ mempool.space",
+      "unconfirmed": "មិនទាន់បញ្ជាក់",
+      "block": "ប្លុក {{height}}",
+      "btcUnit": "BTC",
+      "empty": "មិនទាន់មានសកម្មភាពលើខ្សែសង្វាក់សម្រាប់អាសយដ្ឋាននេះទេ។",
+      "error": "មិនអាចផ្ទុកសកម្មភាពលើខ្សែសង្វាក់បានទេ។ សូមព្យាយាមម្ដងទៀតក្នុងពេលបន្តិច។",
+      "loadMore": "ផ្ទុកបន្ថែម",
+      "loadingMore": "កំពុងផ្ទុក…",
+      "donated": "បានបរិច្ចាគ",
+      "withdrawn": "បានដកប្រាក់"
+    },
+    "tombstone": {
+      "seoTitle": "យុទ្ធនាការដែលបានទុកក្នុងបណ្ណសារ | {{appName}}",
+      "title": "យុទ្ធនាការនេះលែងមានទៀតហើយ",
+      "deletedNotice": "អ្នករៀបចំបានលុបយុទ្ធនាការនេះនៅ {{date}}។ វាលែងទទួលការបរិច្ចាគទៀតហើយ។",
+      "unavailableNotice": "យុទ្ធនាការនេះត្រូវបានលុប ឬលែងមាននៅលើ relay របស់អ្នក។ វាលែងទទួលការបរិច្ចាគទៀតហើយ។",
+      "archiveIntro": "បង្កាន់ដៃបរិច្ចាគដែលបានផ្សាយនៅលើ Nostr ត្រូវបានរក្សាទុកខាងក្រោមជាកំណត់ត្រាសាធារណៈ។",
+      "receiptsHeading": "បណ្ណសារការបរិច្ចាគ",
+      "totalRecorded": "សរុបដែលបានកត់ត្រា៖ {{amount}}",
+      "unverifiedCaveat": "ចំនួនទឹកប្រាក់គឺតាមការអះអាងក្នុងបង្កាន់ដៃដែលបានចុះហត្ថលេខារបស់អ្នកបរិច្ចាគ។ ដោយសារយុទ្ធនាការ និងអាសយដ្ឋានកាបូបរបស់វាត្រូវបានលុប វាលែងអាចផ្ទៀងផ្ទាត់នៅលើខ្សែច្រវាក់បានទៀតហើយ។"
+    },
+    "noCommentsTitle": "មិនទាន់មានមតិយោបល់",
+    "noCommentsHint": "ក្លាយជាមនុស្សដំបូងផ្ញើសារគាំទ្រ។",
+    "deleteDialogTitle": "លុបយុទ្ធនាការនេះមែនទេ?",
+    "deleteDialogBody": "នេះផ្សព្វផ្សាយសំណើលុប NIP-09។ Relay ដែលអនុលោមនឹងលុបយុទ្ធនាការចេញពី feed និងតំណផ្ទាល់។ បង្កាន់ដៃនៃការបរិច្ចាគកន្លងមកនៅតែស្ថិតលើខ្សែសង្វាក់។ សកម្មភាពនេះមិនអាចត្រឡប់វិញបានទេ — ដើម្បីបន្តទទួលការបរិច្ចាគ កែសម្រួលយុទ្ធនាការជំនួស។",
+    "storyHeading": "រឿង",
+    "donate": "បរិច្ចាគ",
+    "share": "ចែករំលែក",
+    "target": "គោលដៅ៖ {{amount}}",
+    "raised": "បានរៃអង្គាស",
+    "raisedPublicly": "បានរៃអង្គាសជាសាធារណៈ",
+    "ofGoal": "នៃគោលដៅ {{amount}}",
+    "goalAmount": "គោលដៅ {{amount}}",
+    "beFirstDonor": "ក្លាយជាអ្នកបរិច្ចាគដំបូង!",
+    "privateCampaign": "យុទ្ធនាការឯកជន",
+    "privateMayAddMore": "ការបរិច្ចាគឯកជនអាចបន្ថែមទៀត",
+    "donationCount_one": "{{count}} ការបរិច្ចាគ",
+    "donationCount_other": "{{count}} ការបរិច្ចាគ",
+    "openInWallet": "បើកកាបូបខាងក្រៅ",
+    "payWithAgoraWallet": "បង់ដោយ Agora",
+    "payWithCard": "បង់ដោយកាត",
+    "paymentCount_one": "ការទូទាត់ដែលមិនអាចបញ្ឈប់បាន {{count}}",
+    "paymentCount_other": "ការទូទាត់ដែលមិនអាចបញ្ឈប់បាន {{count}}",
+    "openInWalletToast": {
+      "title": "កំពុងស្វែងរកកម្មវិធីកាបូប…",
+      "body": "ប្រសិនបើគ្មានអ្វីបើកទេ សូមចម្លងតំណទូទាត់ខាងលើ រួចបិទភ្ជាប់ក្នុងកាបូបរបស់អ្នក។"
+    },
+    "paymentUri": "URI ទូទាត់",
+    "copyLabelAction": "ចម្លង {{label}}",
+    "copiedLabel": "បានចម្លង {{label}}",
+    "copyFailed": "ការចម្លងបរាជ័យ",
+    "copyFailedBody": "សូមជ្រើសរើស ហើយចម្លងតម្លៃនេះដោយដៃ។"
+  },
+  "noBitcoin": {
+    "trigger": "មិនមាន Bitcoin មែនទេ?",
+    "title": "មិនទាន់មាន Bitcoin?",
+    "description": "ទិញ Bitcoin ពីសេវាកម្មមួយក្នុងចំណោមទាំងនេះ បន្ទាប់មកផ្ញើវាទៅអាសយដ្ឋានរបស់យុទ្ធនាការនេះ។",
+    "buyOn": "ទិញនៅលើ",
+    "mayBeUnavailable": "អាចមិនមាននៅក្នុងតំបន់របស់អ្នក",
+    "onramp": {
+      "descGlobalExchange": "ផ្សារប្តូរសកល",
+      "descBitcoinApp": "កម្មវិធីទូទាត់ Bitcoin",
+      "descLatam": "អាមេរិកឡាទីន",
+      "descEurope": "អឺរ៉ុប",
+      "descAfrica": "អាហ្វ្រិក",
+      "descIndia": "ឥណ្ឌា",
+      "descPhilippines": "ហ្វីលីពីន",
+      "descP2p": "បុគ្គលទៅបុគ្គល ដោយមិនចាំបាច់ចុះឈ្មោះ"
+    }
+  },
+  "campaignVerification": {
+    "verifiedBy": "បានផ្ទៀងផ្ទាត់ដោយ",
+    "verifiedLabel": "បានផ្ទៀងផ្ទាត់",
+    "verifiedByCount_one": "បានផ្ទៀងផ្ទាត់ដោយមនុស្ស {{count}} នាក់",
+    "verifiedByCount_other": "បានផ្ទៀងផ្ទាត់ដោយមនុស្ស {{count}} នាក់",
+    "verifyCampaign": "ផ្ទៀងផ្ទាត់យុទ្ធនាការនេះ",
+    "removeVerification": "លុបការផ្ទៀងផ្ទាត់របស់ខ្ញុំ",
+    "dialogTitle": "ផ្ទៀងផ្ទាត់យុទ្ធនាការនេះ",
+    "attestation": "ដោយការផ្ទៀងផ្ទាត់យុទ្ធនាការនេះ អ្នកបញ្ជាក់ថាយុទ្ធនាការនេះពិតប្រាកដ និងត្រឹមត្រូវ។ អ្នកស្គាល់អ្នករៀបចំយុទ្ធនាការផ្ទាល់ខ្លួន ឬបានផ្ទៀងផ្ទាត់យ៉ាងមានន័យថាការអះអាងរបស់ពួកគេពិតប្រាកដ។ ប្រយ័ត្នចំពោះអ្នកក្លែងបន្លំ និងអ្នកបោកប្រាស់។",
+    "verified": "យុទ្ធនាការត្រូវបានផ្ទៀងផ្ទាត់",
+    "unverified": "ការផ្ទៀងផ្ទាត់ត្រូវបានលុប",
+    "actionFailed": "សកម្មភាពបានបរាជ័យ",
+    "verifiedByCount_zero": "បានផ្ទៀងផ្ទាត់ដោយមនុស្ស {{count}} នាក់",
+    "verifiedByCount_two": "បានផ្ទៀងផ្ទាត់ដោយមនុស្ស {{count}} នាក់",
+    "verifiedByCount_few": "បានផ្ទៀងផ្ទាត់ដោយមនុស្ស {{count}} នាក់",
+    "verifiedByCount_many": "បានផ្ទៀងផ្ទាត់ដោយមនុស្ស {{count}} នាក់",
+    "unverifiedBanner": "យុទ្ធនាការនេះមិនទាន់ត្រូវបានផ្ទៀងផ្ទាត់ដោយប្រភពដែលអាចទុកចិត្តបានឡើយ។",
+    "unverifiedBannerReadMore": "ស្វែងយល់បន្ថែម"
+  },
+  "campaignHidden": {
+    "title": "យុទ្ធនាការនេះត្រូវបានលាក់",
+    "body": "យុទ្ធនាការនេះត្រូវបានលាក់ដោយអ្នកសម្រួល Agora ជាធម្មតាដោយសារវាមើលទៅដូចជាសារឥតបានការ ការបោកបញ្ឆោត ឬការក្លែងបន្លំអត្តសញ្ញាណ។ អ្នកនៅតែអាចជ្រើសរើសមើលវាបាន។",
+    "learnMore": "ស្វែងយល់បន្ថែម",
+    "back": "ត្រឡប់ក្រោយ",
+    "proceed": "បន្តទោះជាយ៉ាងណា"
+  },
+  "calendarEvents": {
+    "create": {
+      "seoTitle": "បង្កើតព្រឹត្តិការណ៍",
+      "seoDescription": "បង្កើតព្រឹត្តិការណ៍ប្រតិទិនលើ {{appName}}។",
+      "loginTitle": "ចូលគណនីដើម្បីបង្កើតព្រឹត្តិការណ៍",
+      "loginBody": "ព្រឹត្តិការណ៍គឺជាព្រឹត្តិការណ៍ Nostr ដែលបានចុះហត្ថលេខា។ អ្នកត្រូវការចូល Nostr ដើម្បីផ្សព្វផ្សាយ។",
+      "heading": "បង្កើតព្រឹត្តិការណ៍",
+      "titlePlaceholder": "សម្អាតសង្កាត់",
+      "descriptionPlaceholder": "ប្រាប់អ្នកចូលរួមអំពីអ្វីដែលនឹងកើតឡើង អ្វីត្រូវនាំមក និងអ្នកណាគួរចូលរួម...",
+      "schedule": "កាលវិភាគ",
+      "allDay": "ព្រឹត្តិការណ៍ពេញមួយថ្ងៃ",
+      "allDayHint": "បិទដើម្បីបន្ថែមម៉ោងចាប់ផ្តើម និងបញ្ចប់។",
+      "startDate": "កាលបរិច្ឆេទចាប់ផ្តើម",
+      "endDate": "កាលបរិច្ឆេទបញ្ចប់",
+      "startTime": "ម៉ោងចាប់ផ្តើម",
+      "endTime": "ម៉ោងបញ្ចប់",
+      "locationDetails": "ព័ត៌មានទីតាំង",
+      "locationPlaceholder": "អាសយដ្ឋាន ទីកន្លែង ឬតំណវីដេអូខល",
+      "tagsPlaceholder": "mutual-aid, workshop, local-news",
+      "submit": "បង្កើតព្រឹត្តិការណ៍",
+      "successToast": "បានបង្កើតព្រឹត្តិការណ៍",
+      "errorToast": "មិនអាចបង្កើតព្រឹត្តិការណ៍",
+      "altCalendar": "ព្រឹត្តិការណ៍ប្រតិទិន៖ {{title}}",
+      "altGroup": "ព្រឹត្តិការណ៍ក្រុម៖ {{title}}",
+      "errorLoginRequired": "អ្នកត្រូវចូលគណនីដើម្បីបង្កើតព្រឹត្តិការណ៍។",
+      "errorTitleRequired": "ត្រូវការចំណងជើង។",
+      "errorStartDateRequired": "ត្រូវការកាលបរិច្ឆេទចាប់ផ្តើម។",
+      "errorStartDatePast": "កាលបរិច្ឆេទចាប់ផ្តើមមិនអាចនៅអតីតកាល។",
+      "errorStartTimeRequired": "ត្រូវការម៉ោងចាប់ផ្តើមសម្រាប់ព្រឹត្តិការណ៍មានម៉ោង។",
+      "errorCoverInvalid": "រូបភាពគម្របត្រូវតែជា URL https:// ត្រឹមត្រូវ។",
+      "errorEndDateBeforeStart": "កាលបរិច្ឆេទបញ្ចប់ត្រូវតែស្ថិតនៅថ្ងៃចាប់ផ្តើម ឬបន្ទាប់ពីថ្ងៃចាប់ផ្តើម។",
+      "errorStartDateTimeInvalid": "កាលបរិច្ឆេទ ឬម៉ោងចាប់ផ្តើមមិនត្រឹមត្រូវ។",
+      "errorEndTimeAfterStart": "ម៉ោងបញ្ចប់ត្រូវតែបន្ទាប់ពីម៉ោងចាប់ផ្តើម។"
+    },
+    "detail": {
+      "untitledEvent": "ព្រឹត្តិការណ៍គ្មានចំណងជើង",
+      "dateNotSpecified": "មិនបានបញ្ជាក់កាលបរិច្ឆេទ",
+      "organizer": "អ្នករៀបចំ",
+      "rsvpUpdated": "បានធ្វើបច្ចុប្បន្នភាព RSVP",
+      "rsvpFailed": "មិនអាចធ្វើបច្ចុប្បន្នភាព RSVP",
+      "rsvp": "RSVP",
+      "youAreGoing": "អ្នកនឹងទៅ",
+      "youAreInterested": "អ្នកចាប់អារម្មណ៍",
+      "youCantGo": "អ្នកមិនអាចទៅបាន",
+      "chooseRsvp": "ជ្រើស RSVP របស់អ្នក",
+      "going": "ទៅ",
+      "interested": "ចាប់អារម្មណ៍",
+      "cantGo": "មិនអាចទៅបាន",
+      "attendees": "អ្នកចូលរួម",
+      "links": "តំណ",
+      "participants": "អ្នកចូលរួម",
+      "hostedBy": "រៀបចំដោយ",
+      "attendingCount_one": "{{count}} នាក់នឹងចូលរួម",
+      "attendingCount_other": "{{count}} នាក់នឹងចូលរួម",
+      "interestedCount_one": "{{count}} នាក់ចាប់អារម្មណ៍",
+      "interestedCount_other": "{{count}} នាក់ចាប់អារម្មណ៍",
+      "comment": "មតិយោបល់",
+      "description": "ការពិពណ៌នា",
+      "emptyDescription": "អ្នករៀបចំមិនទាន់បានបន្ថែមការពិពណ៌នាសម្រាប់ព្រឹត្តិការណ៍នេះទេ។",
+      "comments": "មតិយោបល់",
+      "commentNoun_one": "មតិយោបល់",
+      "commentNoun_other": "មតិយោបល់",
+      "noCommentsTitle": "មិនទាន់មានមតិយោបល់",
+      "noCommentsHint": "ក្លាយជាមនុស្សដំបូងដែលបញ្ចេញមតិ។",
+      "pinnedToast": "បានខ្ទាស់ទៅព្រឹត្តិការណ៍",
+      "unpinnedToast": "បានដកខ្ទាស់ពីព្រឹត្តិការណ៍",
+      "pinFailed": "មិនអាចធ្វើបច្ចុប្បន្នភាពការខ្ទាស់ព្រឹត្តិការណ៍"
+    }
+  },
+  "follow": {
+    "follow": "តាមដាន",
+    "following": "កំពុងតាមដាន",
+    "unfollow": "ឈប់តាមដាន",
+    "followed": "បានតាមដាន",
+    "unfollowed": "បានឈប់តាមដាន",
+    "updateFailed": "មិនអាចធ្វើបច្ចុប្បន្នភាពបញ្ជីតាមដាន"
+  },
+  "campaigns": {
+    "home": {
+      "seoTitle": "យុទ្ធនាការប្រមូលមូលនិធិ",
+      "seoDescription": "ការឲ្យដោយគ្មានព្រំដែន។ ការឲ្យដោយផ្ទាល់ ពីមនុស្សម្នាក់ទៅមនុស្សម្នាក់ ដំណើរការដោយ Bitcoin និង Nostr។",
+      "heroTagline": "ការរៃអង្គាសប្រាក់<1></1>ដោយគ្មាន<0>ព្រំដែន</0>",
+      "heroBody": "គាំទ្រមនុស្ស និងបុព្វហេតុនៅគ្រប់ទីកន្លែងលើពិភពលោកជាមួយ Bitcoin។ អំណោយនីមួយៗចូលទៅកាបូបរបស់អ្នកទទួលដោយផ្ទាល់ ដោយគ្មានព្រំដែន គ្មានអ្នកកណ្ដាល គ្មានការប្រគល់សងវិញ និងគ្មានវេទិកាណាមួយកាន់កាប់ប្រាក់ឡើយ។",
+      "startCampaign": "ចាប់ផ្ដើមយុទ្ធនាការ",
+      "howItWorks": "របៀបដំណើរការ",
+      "featuredTitle": "យុទ្ធនាការលេចធ្លោ",
+      "featuredDesc": "យុទ្ធនាការដែលបានជ្រើសរើសដោយដៃពីក្រុមការងារ {{appName}}។",
+      "verifiedTitle": "យុទ្ធនាការដែលបានផ្ទៀងផ្ទាត់",
+      "verifiedDesc": "យុទ្ធនាការដែលបានធានាដោយអ្នកផ្ទៀងផ្ទាត់ដែលទុកចិត្តនៅ World Liberty Congress និងក្រុមការងារ {{appName}}។",
+      "allCampaigns": "យុទ្ធនាការទាំងអស់",
+      "allCampaignsDesc": "យុទ្ធនាការទាំងអស់នៅលើបណ្តាញ តាមលំដាប់កាលប្បវត្តិ។",
+      "browseAll": "មើលយុទ្ធនាការទាំងអស់",
+      "hidden": "បានលាក់",
+      "hiddenDesc": "យុទ្ធនាការដែលត្រូវបានដកចេញពីទំព័រដើមសាធារណៈ។ ប្រើម៉ឺនុយលើកាតដើម្បីឈប់លាក់។",
+      "hiddenEmpty": "បច្ចុប្បន្នគ្មានយុទ្ធនាការត្រូវបានលាក់។",
+      "yourCampaigns": "យុទ្ធនាការរបស់អ្នក",
+      "yourCampaignsDesc": "យុទ្ធនាការរបស់អ្នកនៅរស់នៅលើ Nostr ហើយការបរិច្ចាគដំណើរការតាមរយៈតំណយុទ្ធនាការ។ រកមើលយុទ្ធនាការទាំងអស់នៅ /campaigns; ក្រុម {{appName}} បង្ហាញការជ្រើសរើសដែលបានសម្រិតសម្រាំងនៅទំព័រដើម។",
+      "empty": "មិនទាន់មានយុទ្ធនាការនៅឡើយ",
+      "emptyHint": "ធ្វើជាមនុស្សដំបូងដែលចាប់ផ្ដើមការប្រមូលមូលនិធិនៅ {{appName}}។ ប្រាប់រឿងរបស់អ្នក ជ្រើសរើសអ្នកទទួលផល និងចែករំលែកតំណ។",
+      "whyDifferent": {
+        "eyebrow": "ហេតុអ្វី {{appName}}",
+        "title": "សាងសង់ខុសប្លែក។",
+        "lede": "Bitcoin ដោយផ្ទាល់ ពីអ្នកបរិច្ចាគទៅអ្នកទទួល។ គ្មានវេទិកានៅរារាំង គ្មានអ្នកថែរក្សាកាន់ថង់ គ្មានការអនុញ្ញាតចាំបាច់ឡើយ។",
+        "block1": {
+          "heading": "មិនដូច GoFundMe",
+          "body": "គ្មានវេទិកាណាអាចបង្ខាំងការបរិច្ចាគរបស់អ្នក ទាមទារសំណង ឬបញ្ចប់យុទ្ធនាការរបស់អ្នកដោយសារភាពមិនយល់ស្របលើគោលនយោបាយឡើយ។ គ្មាន Stripe គ្មាន Visa គ្មានធនាគារដែលឈរនៅកណ្តាល ហើយអាចកាត់ផ្តាច់អ្នកនៅពាក់កណ្តាលយុទ្ធនាការ។",
+          "bullet1": "មិនអាចបង្ខាំងបាន គ្មានសិទ្ធិវេតូរបស់វេទិកា",
+          "bullet2": "គ្មានដំណើរការទូទាត់ណាអាចដកដោតបាន",
+          "bullet3": "សូន្យកម្រៃវេទិកា"
+        },
+        "block2": {
+          "heading": "មិនដូចវេទិកា ‘Bitcoin’ ផ្សេងទៀត",
+          "body": "គ្មាន Lightning node កណ្តាល អ្នកថែរក្សា ឬ LSP ដែលអាចបរាជ័យ ឬផ្តាច់ខ្លួនឡើយ។ មូលនិធិទូទាត់ដោយផ្ទាល់នៅលើ Bitcoin ទៅកាន់កាបូបដែលអ្នកគ្រប់គ្រង។ បើ {{appName}} បាត់ខ្លួននៅថ្ងៃស្អែក រាល់យុទ្ធនាការនឹងបន្តដំណើរការ។",
+          "bullet1": "គ្មានកាបូបអ្នកថែរក្សាដែលត្រូវបឺត ឬបង្ខាំង",
+          "bullet2": "ទូទាត់លើខ្សែសង្វាក់ទៅកាបូបដែលអ្នកជាម្ចាស់",
+          "bullet3": "ដំណើរការទោះបី {{appName}} បាត់ខ្លួន"
+        },
+        "block3": {
+          "heading": "សាធារណៈ ឬឯកជន។ ជម្រើសរបស់អ្នក។",
+          "body": "អ្នកទទួលជ្រើសរើសជម្រើសទទួលដែលត្រូវនឹងគំរូការគំរាមកំហែងរបស់ខ្លួន។ អ្នកបរិច្ចាគមើលឃើញ QR តែមួយ កាបូបជ្រើសរើសពិធីការត្រឹមត្រូវ។",
+          "publicLabel": "សាធារណៈ",
+          "publicSummary": "ដំណើរការក្នុងរាល់កាបូប Bitcoin។ លឿន និងផ្ទៀងផ្ទាត់បាននៅលើខ្សែសង្វាក់។",
+          "privateLabel": "ឯកជន",
+          "privateSummary": "ការទូទាត់ស្ងាត់ BIP-352។ ការបរិច្ចាគចូលទៅទិន្នផលដែលមិនអាចភ្ជាប់។"
+        },
+        "readMore": "អានការបំបែកពេញលេញ"
+      },
+      "searchPlaceholder": "ស្វែងរកយុទ្ធនាការ…",
+      "searchAriaLabel": "ស្វែងរកយុទ្ធនាការ",
+      "noMatch": "គ្មានយុទ្ធនាការណាដែលត្រូវនឹង «{{query}}»",
+      "noMatchHint": "សាកល្បងពាក្យស្វែងរកផ្សេង ឬសម្អាតការស្វែងរក។",
+      "verifyCampaigns": "ផ្ទៀងផ្ទាត់យុទ្ធនាការ"
+    },
+    "all": {
+      "title": "យុទ្ធនាការ",
+      "seoTitle": "យុទ្ធនាការទាំងអស់",
+      "description": "រកមើលរាល់យុទ្ធនាការដែលផ្សព្វផ្សាយលើ Agora។",
+      "sectionTagline": "យុទ្ធនាការលេចធ្លោជាមុន បន្ទាប់មកបណ្ដាញដែលនៅសល់។ ស្វែងរក ឬតម្រៀបដើម្បីបន្ថយលទ្ធផល។",
+      "newTitle": "យុទ្ធនាការថ្មី",
+      "newDesc": "រាល់យុទ្ធនាការផ្សេងទៀតនៅលើបណ្ដាញ ថ្មីបំផុតជាមុន។",
+      "viewAll": "មើលទាំងអស់",
+      "viewAllCount": "មើលទាំងអស់ {{count}}",
+      "heroKicker": "យុទ្ធនាការ",
+      "heroHeading": "រាល់បុព្វហេតុ",
+      "heroHeadingLine2": "នៅកន្លែងតែមួយ។",
+      "heroBody": "រាល់យុទ្ធនាការប្រមូលមូលនិធិដែលផ្សព្វផ្សាយលើ Nostr ត្រូវបានប្រមូលផ្ដុំនៅកន្លែងតែមួយ។ រកមើលបណ្ដាញទាំងមូល ស្វែងរកបុព្វហេតុដែលសក្តិសមសម្រាប់អ្នក និងគាំទ្រវាដោយផ្ទាល់ជាមួយ Bitcoin។",
+      "campaignsCount_one": "យុទ្ធនាការនៅលើបណ្ដាញ",
+      "campaignsCount_other": "យុទ្ធនាការនៅលើបណ្ដាញ",
+      "searchAriaLabel": "ស្វែងរកយុទ្ធនាការ",
+      "searchPlaceholder": "ស្វែងរកយុទ្ធនាការ…",
+      "clearSearch": "សម្អាតការស្វែងរក",
+      "sortAriaLabel": "លំដាប់",
+      "sortTop": "ល្បីបំផុត",
+      "sortNew": "ថ្មី",
+      "showHidden": "បង្ហាញដែលលាក់",
+      "startCampaign": "ចាប់ផ្ដើមយុទ្ធនាការ",
+      "noMatch": "មិនមានយុទ្ធនាការត្រូវនឹង «{{query}}»",
+      "noMatchHint": "សាកល្បងពាក្យស្វែងរកផ្សេង ឬសម្អាតការស្វែងរកដើម្បីមើលរាល់យុទ្ធនាការ។",
+      "allHidden": "មិនមានយុទ្ធនាការដើម្បីបង្ហាញ",
+      "allHiddenHint": "យុទ្ធនាការទាំងអស់នៅលើបណ្ដាញត្រូវបានលាក់ដោយអ្នកសម្របសម្រួល។ បើក «បង្ហាញដែលលាក់» ដើម្បីមើល។",
+      "empty": "មិនទាន់មានយុទ្ធនាការនៅឡើយ",
+      "emptyHint": "មិនទាន់មានយុទ្ធនាការផ្សព្វផ្សាយនៅឡើយទេ។ ធ្វើជាមនុស្សដំបូង។",
+      "verifyCampaigns": "ផ្ទៀងផ្ទាត់យុទ្ធនាការ"
+    },
+    "lists": {
+      "stripAria": "បញ្ជីប្រធានបទយុទ្ធនាការដែលបានសម្រិតសម្រាំង",
+      "create": "បញ្ជីថ្មី",
+      "showMore": "បង្ហាញ {{count}} ទៀត",
+      "showLess": "បង្ហាញតិច",
+      "createDesc": "បង្កើតបញ្ជីប្រធានបទថ្មី។ សម្រិតសម្រាំងយុទ្ធនាការទៅក្នុងវាពីទំព័រយុទ្ធនាការណាមួយ។",
+      "createSubmit": "បង្កើតបញ្ជី",
+      "createFailed": "បរាជ័យក្នុងការបង្កើតបញ្ជី",
+      "edit": "កែសម្រួលបញ្ជី",
+      "editDesc": "ធ្វើបច្ចុប្បន្នភាពចំណងជើង ការពិពណ៌នា ឬរូបតំណាងរបស់បញ្ជី។",
+      "editSubmit": "រក្សាទុកការផ្លាស់ប្ដូរ",
+      "updateFailed": "បរាជ័យក្នុងការធ្វើបច្ចុប្បន្នភាពបញ្ជី",
+      "delete": "លុបបញ្ជី",
+      "deleteFailed": "បរាជ័យក្នុងការលុបបញ្ជី",
+      "deleteConfirmTitle": "លុបបញ្ជីនេះមែនទេ?",
+      "deleteConfirmDesc": "\"{{title}}\" នឹងត្រូវដកចេញពីរបារប្រធានបទ។ យុទ្ធនាការដោយខ្លួនវាមិនត្រូវបានប៉ះពាល់ទេ។",
+      "titleField": "ចំណងជើង",
+      "titlePlaceholder": "ឧ. សេរីភាពសារព័ត៌មាន",
+      "descriptionField": "ការពិពណ៌នា",
+      "descriptionPlaceholder": "សេចក្តីសង្ខេបខ្លីពន្យល់ពីអ្វីដែលគួរស្ថិតក្នុងបញ្ជីនេះ។",
+      "iconField": "រូបតំណាង",
+      "coverField": "រូបភាពគម្រប",
+      "menuAria": "ជម្រើសបញ្ជី {{title}}",
+      "listActions": "សកម្មភាពបញ្ជី",
+      "memberMenuAria": "ជម្រើសបញ្ជីយុទ្ធនាការ",
+      "backToCampaigns": "ត្រឡប់ទៅយុទ្ធនាការ",
+      "detailTitle": "បញ្ជីយុទ្ធនាការ",
+      "campaignsCount_one": "យុទ្ធនាការ {{count}}",
+      "campaignsCount_other": "យុទ្ធនាការ {{count}}",
+      "addCampaign": "បន្ថែមយុទ្ធនាការ",
+      "addCampaignDesc": "ស្វែងរកនៅលើបណ្ដាញ ហើយជ្រើសរើសយុទ្ធនាការដើម្បីបន្ថែមទៅបញ្ជីនេះ។",
+      "addFailed": "បរាជ័យក្នុងការបន្ថែមទៅបញ្ជី",
+      "addToList": "បន្ថែម",
+      "alreadyAdded": "បានបន្ថែម",
+      "added": "បានបន្ថែម",
+      "membershipTitle": "បន្ថែមទៅបញ្ជី",
+      "membershipDesc": "ជ្រើសរើសបញ្ជីដែល \"{{title}}\" គួរលេចឡើង។",
+      "membershipEmpty": "មិនទាន់មានបញ្ជីទេ។ បង្កើតមួយដើម្បីចាប់ផ្ដើមសម្រិតសម្រាំង។",
+      "searchPlaceholder": "ស្វែងរកយុទ្ធនាការ…",
+      "searchEmpty": "គ្មានយុទ្ធនាការត្រូវនឹងការស្វែងរកនេះទេ។",
+      "removeFromList": "ដកចេញពីបញ្ជី",
+      "removeFailed": "បរាជ័យក្នុងការដកចេញពីបញ្ជី",
+      "empty": "បញ្ជីនេះទទេ។",
+      "emptyMod": "បញ្ជីនេះទទេ។ បន្ថែមយុទ្ធនាការដើម្បីចាប់ផ្ដើមសម្រិតសម្រាំងវា។",
+      "iconPicker": {
+        "title": "ជ្រើសរើសរូបតំណាង",
+        "description": "ជ្រើសរើសរូបតំណាងណាមួយពីបណ្ណាល័យ Lucide។",
+        "search": "ស្វែងរករូបតំណាង…",
+        "empty": "គ្មានរូបតំណាងត្រូវនឹងការស្វែងរកនេះទេ។"
+      }
+    }
+  },
+  "moderation": {
+    "hiddenBadge": "បានលាក់",
+    "menu": {
+      "ariaCampaign": "សម្របសម្រួលយុទ្ធនាការ",
+      "ariaPledge": "សម្របសម្រួលការសន្យា",
+      "ariaGroup": "សម្របសម្រួលក្រុម",
+      "failedAction": "បរាជ័យក្នុងការ {{action}}",
+      "failedReorder": "បរាជ័យក្នុងការរៀបចំឡើងវិញ",
+      "moveToTop": "ផ្លាស់ទីទៅកំពូល",
+      "moveUp": "ផ្លាស់ទីឡើងលើ",
+      "moveDown": "ផ្លាស់ទីចុះក្រោម",
+      "addToList": "បន្ថែមទៅបញ្ជី…",
+      "dragHandle": "អូសដើម្បីរៀបចំឡើងវិញ (ទីតាំង {{index}})",
+      "hide": "លាក់",
+      "unhide": "ឈប់លាក់",
+      "hiddenState": "បានលាក់",
+      "feature": "លេចធ្លោ",
+      "unfeature": "ដកការលេចធ្លោ",
+      "featuredState": "បានលេចធ្លោ",
+      "toastHidden": "បានលាក់",
+      "toastUnhidden": "បានឈប់លាក់",
+      "toastFeatured": "បានលេចធ្លោ",
+      "toastUnfeatured": "បានដកចេញពីការលេចធ្លោ",
+      "toast": {
+        "movedToTop": "បានផ្លាស់ទីទៅកំពូល",
+        "movedUp": "បានផ្លាស់ទីឡើងលើ",
+        "movedDown": "បានផ្លាស់ទីចុះក្រោម"
+      },
+      "label": "សកម្មភាពអ្នកសម្របសម្រួល"
+    }
+  },
+  "settings": {
+    "title": "ការកំណត់",
+    "description": "គ្រប់គ្រងការកំណត់ {{appName}} របស់អ្នក",
+    "deleteAccount": "លុបគណនី",
+    "groups": {
+      "account": "គណនី",
+      "app": "កម្មវិធី",
+      "system": "ប្រព័ន្ធ"
+    },
+    "sections": {
+      "profile": "ប្រវត្តិរូប",
+      "profileDesc": "ឈ្មោះបង្ហាញ ប្រវត្តិរូបសង្ខេប រូបតំណាង និងការផ្ទៀងផ្ទាត់។",
+      "appearance": "រូបរាង",
+      "appearanceDesc": "របៀបប្រព័ន្ធ ភ្លឺ ឬងងឹត។",
+      "language": "ភាសា",
+      "languageDesc": "ជ្រើសរើសភាសាដែលត្រូវប្រើពេញកម្មវិធី។",
+      "network": "បណ្តាញ",
+      "networkDesc": "ការប្រើទិន្នន័យ ម៉ាស៊ីនបញ្ជូនបន្ត និងម៉ាស៊ីនបម្រើផ្ទុកឯកសារ។",
+      "notifications": "ការជូនដំណឹង",
+      "notificationsDesc": "ចំណូលចិត្តការជូនដំណឹង push។",
+      "content": "មាតិកា",
+      "contentDesc": "គ្រប់គ្រងអ្នកប្រើ ហ្សាតថេក និងពាក្យដែលបានបិទសំឡេង។",
+      "advanced": "កម្រិតខ្ពស់",
+      "advancedDesc": "កាបូប ប្រព័ន្ធ និងជម្រើសសម្រាប់អ្នកប្រើជាន់ខ្ពស់។",
+      "organizers": "អ្នករៀបចំ",
+      "organizersDesc": "តែងតាំងអ្នករៀបចំប្រទេសដែលអាចខ្ទាស់ប្រកាសទៅ feed ប្រទេស។",
+      "support": "មានបញ្ហាមែនទេ?",
+      "supportDesc": "រាយការណ៍បញ្ហា ឬមើលបញ្ហាដែលបានដឹង"
+    },
+    "organizers": "អ្នករៀបចំ",
+    "signInToManage": "ចូលគណនីដើម្បីគ្រប់គ្រង",
+    "loginRequired": "អ្នកត្រូវចូលគណនីដើម្បីគ្រប់គ្រងអ្នករៀបចំ។",
+    "appearance": {
+      "title": "រូបរាង",
+      "subtitle": "ជ្រើសរើសរបៀបដែលកម្មវិធីបង្ហាញ។",
+      "colorMode": "របៀបពណ៌",
+      "system": "ប្រព័ន្ធ",
+      "systemDesc": "ធ្វើតាមការកំណត់ឧបករណ៍របស់អ្នក",
+      "light": "ភ្លឺ",
+      "lightDesc": "ប្រើរបៀបភ្លឺជានិច្ច",
+      "dark": "ងងឹត",
+      "darkDesc": "ប្រើរបៀបងងឹតជានិច្ច"
+    },
+    "network": {
+      "title": "បណ្តាញ",
+      "subtitle": "គ្រប់គ្រងការប្រើទិន្នន័យ ម៉ាស៊ីនបញ្ជូនបន្ត និងម៉ាស៊ីនបម្រើផ្ទុកឯកសារ។",
+      "lowBandwidthHeading": "របៀបបន្ទុកទាប",
+      "reduceDataUsage": "កាត់បន្ថយការប្រើទិន្នន័យ",
+      "reduceDataUsageDesc": "សម្រាប់ការតភ្ជាប់ដែលគិតថ្លៃ ឬយឺត។ វីដេអូនឹងមិនលេងដោយស្វ័យប្រវត្តិទេ ការមើលវីដេអូផ្ទៃខាងក្រោយត្រូវរំលង ហើយរូបភាពនឹងរង់ចាំការប៉ះមុនពេលផ្ទុក។",
+      "useImageProxy": "ប្រើប្រូកស៊ីរូបភាព",
+      "useImageProxyDesc": "ទាញកំណែ WebP តូចជាងនៃរូបភាព ជំនួសឲ្យឯកសារដើមដែលមានគុណភាពពេញលេញ។",
+      "proxyUrl": "URL ប្រូកស៊ី",
+      "proxyApiDesc": "ត្រូវតែស្គាល់ API <0>wsrv.nl / weserv</0>។ អ្នកដែលរៀបចំខ្លួនឯងអាចចង្អុលវាទៅឧទាហរណ៍ផ្ទាល់ខ្លួន។",
+      "reset": "កំណត់ឡើងវិញ",
+      "relays": "ម៉ាស៊ីនបញ្ជូនបន្ត",
+      "blossomServers": "ម៉ាស៊ីនបម្រើ Blossom",
+      "imageUploads": "ការផ្ទុករូបភាព",
+      "uploadQuality": "គុណភាពផ្ទុក",
+      "uploadQualityDesc": "«បង្ហាប់» ផ្លាស់ប្ដូរទំហំរូបភាពធំ ហើយជ្រើសរើសទម្រង់តូចបំផុត។ «ដើម» ផ្ទុករូបភាពដូចបេះបិទ។",
+      "compressed": "បង្ហាប់",
+      "original": "ដើម"
+    },
+    "advanced": {
+      "title": "កម្រិតខ្ពស់",
+      "subtitle": "ការតភ្ជាប់កាបូប ការកំណត់ប្រព័ន្ធ និងជម្រើសផ្សេងទៀតសម្រាប់អ្នកប្រើជាន់ខ្ពស់។",
+      "intro": "ការតភ្ជាប់កាបូប ការកំណត់ប្រព័ន្ធ និងជម្រើសកម្រិតខ្ពស់ផ្សេងទៀត។",
+      "wallet": "កាបូប",
+      "torHeading": "Tor",
+      "torToggle": "បញ្ជូនចរាចរណ៍តាម Tor",
+      "torToggleDesc": "ភ្ជាប់ទៅ relay និងផ្ទុកមេឌៀតាមបណ្តាញ Tor ដើម្បីការពារភាពឯកជនកាន់តែខ្លាំង។ រំពឹងថានឹងដំណើរការយឺតជាងមុន និងមានការពន្យារពេលបន្តិចខណៈ Tor កំពុងភ្ជាប់។",
+      "torApplyNote": "ការបើកនេះនឹងបញ្ជូនចរាចរណ៍ទាំងអស់តាម Tor។ ខណៈពេលភ្ជាប់ មាតិកាផ្សេងទៀតនឹងមិនផ្ទុក (បដាបង្ហាញស្ថានភាព) — គ្មានអ្វីត្រូវបានផ្ញើក្រៅ Tor ឡើយ។ ការបិទនឹងប្តូរត្រឡប់ទៅការភ្ជាប់ផ្ទាល់វិញ។",
+      "torStatusLabel": "ស្ថានភាព៖",
+      "torExitIp": "IP ចេញរបស់ Tor៖",
+      "torCheckAgain": "ពិនិត្យម្តងទៀត"
+    },
+    "wallet": {
+      "title": "កាបូប",
+      "subtitle": "គ្រប់គ្រងការតភ្ជាប់កាបូប និងការទូទាត់"
+    }
+  },
+  "language": {
+    "title": "ភាសា",
+    "subtitle": "ជ្រើសរើសភាសាដែលត្រូវប្រើពេញកម្មវិធី។",
+    "translationNote": "ការបកប្រែកំពុងដំណើរការ។ អត្ថបទដែលមិនបានបកប្រែនឹងបង្ហាញជាភាសាអង់គ្លេស។"
+  },
+  "verifier": {
+    "title": "អ្នកផ្ទៀងផ្ទាត់",
+    "subtitle": "ក្លាយជាអ្នកផ្ទៀងផ្ទាត់ដោយរៀបរាប់ពីរបៀបដែលអ្នកត្រួតពិនិត្យយុទ្ធនាការ។",
+    "promptLabel": "ដំណើរការផ្ទៀងផ្ទាត់របស់អ្នក",
+    "prompt": "ប្រាប់យើងពីជំហានដែលអ្នកអនុវត្តដើម្បីផ្ទៀងផ្ទាត់យុទ្ធនាការ។ បញ្ចូលព័ត៌មានលម្អិតឱ្យបានច្រើនតាមដែលអាចធ្វើទៅបាន ដើម្បីឱ្យអ្នកបរិច្ចាគដឹងថាពួកគេអាចទុកចិត្តលើការវិនិច្ឆ័យរបស់អ្នក។",
+    "placeholder": "រៀបរាប់ពីរបៀបដែលអ្នកផ្ទៀងផ្ទាត់យុទ្ធនាការ — ការត្រួតពិនិត្យដែលអ្នកធ្វើ ភស្តុតាងដែលអ្នកត្រូវការ របៀបដែលអ្នកបញ្ជាក់អត្តសញ្ញាណរបស់អ្នករៀបចំ និងអ្វីផ្សេងទៀតដែលជួយឱ្យអ្នកបរិច្ចាគទុកចិត្តលើការវិនិច្ឆ័យរបស់អ្នក។",
+    "previewLabel": "មើលជាមុន",
+    "publish": "ក្លាយជាអ្នកផ្ទៀងផ្ទាត់",
+    "update": "ធ្វើបច្ចុប្បន្នភាពសេចក្តីថ្លែងការណ៍",
+    "withdraw": "ដកវិញ",
+    "loading": "កំពុងផ្ទុកសេចក្តីថ្លែងការណ៍របស់អ្នក…",
+    "publishedToast": "សេចក្តីថ្លែងការណ៍អ្នកផ្ទៀងផ្ទាត់របស់អ្នកដំណើរការហើយ។",
+    "withdrawnToast": "សេចក្តីថ្លែងការណ៍អ្នកផ្ទៀងផ្ទាត់របស់អ្នកត្រូវបានដកវិញ។",
+    "errorToast": "មិនអាចរក្សាទុកសេចក្តីថ្លែងការណ៍អ្នកផ្ទៀងផ្ទាត់របស់អ្នកបានទេ។",
+    "disclaimer": "នរណាក៏អាចក្លាយជាអ្នកផ្ទៀងផ្ទាត់បានដែរ។ សេចក្តីថ្លែងការណ៍របស់អ្នកត្រូវបានផ្សព្វផ្សាយជាសាធារណៈទៅ Nostr ហើយបង្ហាញយ៉ាងលេចធ្លោនៅលើប្រវត្តិរូបរបស់អ្នក។ វាមិនផ្តល់សិទ្ធិពិសេសណាមួយឡើយ — វាគ្រាន់តែប្រាប់អ្នកបរិច្ចាគពីរបៀបដែលអ្នកត្រួតពិនិត្យយុទ្ធនាការ។",
+    "loginGateTitle": "ចូលគណនីដើម្បីក្លាយជាអ្នកផ្ទៀងផ្ទាត់",
+    "loginGateBody": "អ្នកត្រូវចូលគណនីដើម្បីផ្សព្វផ្សាយសេចក្តីថ្លែងការណ៍អ្នកផ្ទៀងផ្ទាត់។",
+    "howWeVerifyTitle": "របៀបដែលយើងផ្ទៀងផ្ទាត់",
+    "requestVerification": "ស្នើសុំការផ្ទៀងផ្ទាត់",
+    "withdrawConfirmTitle": "ដកសេចក្តីថ្លែងការណ៍អ្នកផ្ទៀងផ្ទាត់របស់អ្នកវិញ?",
+    "withdrawConfirmBody": "សេចក្តីថ្លែងការណ៍ «របៀបដែលយើងផ្ទៀងផ្ទាត់» របស់អ្នកនឹងត្រូវដកចេញពីប្រវត្តិរូបរបស់អ្នក។ អ្នកអាចផ្សព្វផ្សាយមួយថ្មីបាននៅពេលណាក៏បាន។"
+  },
+  "mdEditor": {
+    "toolbar": {
+      "bold": "ដិត",
+      "italic": "ទ្រេត",
+      "strikethrough": "គូសឆូត",
+      "inlineCode": "កូដក្នុងបន្ទាត់",
+      "heading1": "ចំណងជើង ១",
+      "heading2": "ចំណងជើង ២",
+      "heading3": "ចំណងជើង ៣",
+      "bulletList": "បញ្ជីចំណុច",
+      "numberedList": "បញ្ជីលេខ",
+      "blockquote": "សម្រង់",
+      "insertLink": "បញ្ចូលតំណ",
+      "insertImage": "បញ្ចូលរូបភាព",
+      "horizontalRule": "បន្ទាត់ផ្តេក"
+    },
+    "help": {
+      "title": "ឯកសារយោងរហ័ស Markdown",
+      "bold": "ដិត",
+      "italic": "ទ្រេត",
+      "bulletList": "ចំណុច",
+      "numberedList": "លេខ",
+      "link": "តំណ",
+      "quote": "សម្រង់",
+      "code": "កូដ"
+    },
+    "link": {
+      "title": "បញ្ចូលតំណ",
+      "textLabel": "អត្ថបទតំណ",
+      "textPlaceholder": "បញ្ចូលអត្ថបទតំណ…",
+      "urlLabel": "URL",
+      "cancel": "បោះបង់",
+      "insert": "បញ្ចូលតំណ"
+    }
+  },
+  "organizations": {
+    "seoTitle": "សម្រាប់អង្គការ",
+    "seoDescription": "ដាក់អង្គការរបស់អ្នកចូលក្នុង {{appName}} ផ្សព្វផ្សាយសេចក្តីថ្លែងការណ៍ផ្ទៀងផ្ទាត់ជាសាធារណៈ ហើយទទួលបានការទុកចិត្តពីអ្នកបរិច្ចាគ។",
+    "hero": {
+      "eyebrow": "សម្រាប់អង្គការ និងអ្នកផ្ទៀងផ្ទាត់",
+      "headlinePart1": "ជួយឱ្យអ្នកបរិច្ចាគ",
+      "headlineHighlight": "ទុកចិត្ត",
+      "body": "នាំអង្គការរបស់អ្នកចូលក្នុង {{appName}} ហើយផ្សព្វផ្សាយសេចក្តីថ្លែងការណ៍ជាសាធារណៈដែលរៀបរាប់ពីរបៀបដែលអ្នកត្រួតពិនិត្យយុទ្ធនាការដែលអ្នកគាំទ្រ។ គ្មានការដាក់ពាក្យ គ្មានអ្នកយាមទ្វារ — កេរ្តិ៍ឈ្មោះរបស់អ្នកធ្វើការងារនេះ។",
+      "trustChips": {
+        "noPermission": "មិនត្រូវការការអនុញ្ញាត",
+        "ownIdentity": "អត្តសញ្ញាណផ្ទាល់ខ្លួនរបស់អ្នក",
+        "public": "ជាសាធារណៈ និងអាចផ្ទៀងផ្ទាត់បាន"
+      },
+      "cta": "ចាប់ផ្តើម"
+    },
+    "steps": {
+      "eyebrow": "របៀបដែលវាដំណើរការ",
+      "title": "ចាប់ផ្តើមក្នុងបីជំហាន",
+      "lede": "{{appName}} ត្រូវបានបង្កើតឡើងនៅលើ Nostr ដូច្នេះអង្គការរបស់អ្នកនាំមកនូវអត្តសញ្ញាណផ្ទាល់ខ្លួនរបស់ខ្លួន។ ការរៀបចំចំណាយពេលត្រឹមតែប៉ុន្មាននាទីប៉ុណ្ណោះ។",
+      "step1": {
+        "title": "នាំមកនូវប្រវត្តិរូបរបស់អ្នក",
+        "body": "ចូលគណនីដោយប្រើប្រវត្តិរូប Nostr របស់អង្គការអ្នក — ឬបង្កើតមួយក្នុងរយៈពេលប៉ុន្មានវិនាទី។ អត្តសញ្ញាណរបស់អ្នកជារបស់អ្នក អាចចល័តបានឆ្លងកាត់គ្រប់កម្មវិធី Nostr ហើយមិនស្ថិតក្រោមការគ្រប់គ្រងរបស់ {{appName}} ឡើយ។"
+      },
+      "step2": {
+        "title": "រៀបរាប់ពីដំណើរការរបស់អ្នក",
+        "body": "សរសេរសេចក្តីថ្លែងការណ៍ជាសាធារណៈដែលពន្យល់ពីរបៀបដែលអ្នកផ្ទៀងផ្ទាត់យុទ្ធនាការ៖ ការត្រួតពិនិត្យដែលអ្នកធ្វើ ភស្តុតាងដែលអ្នកទាមទារ និងរបៀបដែលអ្នកបញ្ជាក់អត្តសញ្ញាណរបស់អ្នករៀបចំ។"
+      },
+      "step3": {
+        "title": "ផ្សព្វផ្សាយ និងទទួលបានការទុកចិត្ត",
+        "body": "សេចក្តីថ្លែងការណ៍របស់អ្នកលេចឡើងនៅលើប្រវត្តិរូបរបស់អ្នក ហើយបង្ហាញដល់អ្នកបរិច្ចាគថាអ្នកគាំទ្រយុទ្ធនាការដែលអ្នកផ្ទៀងផ្ទាត់។ ធ្វើបច្ចុប្បន្នភាព ឬដកវាចេញនៅពេលណាក៏បាន។"
+      }
+    },
+    "getStarted": {
+      "eyebrow": "ចាប់ផ្តើម",
+      "title": "ផ្សព្វផ្សាយសេចក្តីថ្លែងការណ៍របស់អ្នក",
+      "lede": "ចូលគណនីដោយប្រើប្រវត្តិរូបអង្គការរបស់អ្នក ដើម្បីផ្សព្វផ្សាយ ធ្វើបច្ចុប្បន្នភាព ឬដកសេចក្តីថ្លែងការណ៍ផ្ទៀងផ្ទាត់របស់អ្នកចេញ។"
+    },
+    "loginGateTitle": "ចូលគណនីដោយប្រើប្រវត្តិរូបអង្គការរបស់អ្នក",
+    "loginGateBody": "ចូលគណនីដោយប្រើប្រវត្តិរូប Nostr របស់អង្គការអ្នក ឬបង្កើតមួយ ដើម្បីចាប់ផ្តើម។ នៅពេលអ្នកបានចូលគណនីហើយ អ្នកអាចផ្សព្វផ្សាយសេចក្តីថ្លែងការណ៍ផ្ទៀងផ្ទាត់របស់អ្នកនៅទីនេះ។",
+    "tutorial": {
+      "eyebrow": "ឥឡូវនេះអ្នកជាអ្នកផ្ទៀងផ្ទាត់ហើយ",
+      "title": "របៀបផ្ទៀងផ្ទាត់យុទ្ធនាការ",
+      "lede": "សេចក្តីថ្លែងការណ៍របស់អ្នកកំពុងដំណើរការ។ នេះជារបៀបធានាដល់យុទ្ធនាការដែលអ្នកទុកចិត្ត — វាត្រូវការតែការប៉ះពីរដងពីកាតយុទ្ធនាការណាមួយប៉ុណ្ណោះ។",
+      "steps": {
+        "open": {
+          "title": "បើកម៉ឺនុយ",
+          "body": "នៅលើកាតយុទ្ធនាការណាមួយ សូមប៉ះប៊ូតុងចំណុចបីនៅជ្រុងខាងស្តាំផ្នែកខាងលើនៃផ្ទាំងបដា។"
+        },
+        "verify": {
+          "title": "ជ្រើសរើស \"ផ្ទៀងផ្ទាត់យុទ្ធនាការនេះ\"",
+          "body": "ម៉ឺនុយនឹងបង្ហាញសកម្មភាពផ្ទៀងផ្ទាត់ — មើលឃើញតែសម្រាប់អ្នកសម្របសម្រួល និងអ្នកផ្ទៀងផ្ទាត់ដូចជាអ្នកប៉ុណ្ណោះ។"
+        },
+        "confirm": {
+          "title": "បញ្ជាក់ ហើយអ្នកបានបញ្ចប់",
+          "body": "បញ្ជាក់ថាយុទ្ធនាការនេះពិតប្រាកដ។ ផ្លាកសញ្ញារបស់អ្នកនឹងភ្ជាប់ទៅកាត ដើម្បីឱ្យអ្នកបរិច្ចាគដឹងថាអ្នកគាំទ្រវា។"
+        }
+      },
+      "demo": {
+        "menuVerify": "ផ្ទៀងផ្ទាត់យុទ្ធនាការនេះ"
+      }
+    },
+    "getStartedCard": {
+      "title": "រៀបចំអង្គការរបស់អ្នក",
+      "body": "យើងនឹងណែនាំអ្នកឆ្លងកាត់ការបង្កើតប្រវត្តិរូបអង្គការរបស់អ្នក ការផ្សព្វផ្សាយសេចក្តីថ្លែងការណ៍ផ្ទៀងផ្ទាត់របស់អ្នក និងការផ្ទៀងផ្ទាត់យុទ្ធនាការដំបូងរបស់អ្នក។",
+      "cta": "ចាប់ផ្តើមផ្ទៀងផ្ទាត់"
+    }
+  },
+  "organizers": {
+    "appoint": "តែងតាំងអ្នករៀបចំ",
+    "appointDesc": "ផ្តល់សិទ្ធិដល់អ្នកប្រើខ្ទាស់ប្រកាសនៅលើ feed ប្រទេសជាក់លាក់។",
+    "appointing": "កំពុងតែងតាំង…",
+    "appointed": "បានតែងតាំងអ្នករៀបចំ",
+    "appointedSuccess": "បានតែងតាំងអ្នករៀបចំសម្រាប់ {{country}}",
+    "userNpub": "npub របស់អ្នកប្រើ",
+    "country": "ប្រទេស",
+    "selectCountry": "ជ្រើសរើសប្រទេស",
+    "invalidNpub": "ទម្រង់ npub មិនត្រឹមត្រូវ",
+    "alreadyOrganizer": "អ្នកប្រើនេះជាអ្នករៀបចំសម្រាប់ប្រទេសនោះរួចហើយ",
+    "current": "អ្នករៀបចំបច្ចុប្បន្ន",
+    "noOrganizers": "មិនទាន់មានអ្នករៀបចំត្រូវបានតែងតាំងនៅឡើយទេ។",
+    "removed": "បានដកអ្នករៀបចំ",
+    "removedSuccess": "បានដក {{name}} ចេញពី {{country}}",
+    "refreshed": "បានធ្វើបច្ចុប្បន្នភាព",
+    "refreshedDesc": "បានធ្វើបច្ចុប្បន្នភាពបញ្ជីអ្នករៀបចំពីម៉ាស៊ីនបញ្ជូនបន្ត។",
+    "adminRequired": "ត្រូវការសិទ្ធិអ្នកគ្រប់គ្រង",
+    "adminRequiredDesc": "មានតែអ្នកគ្រប់គ្រងវេទិកាប៉ុណ្ណោះដែលអាចតែងតាំង ឬដកអ្នករៀបចំ។"
+  },
+  "wallet": {
+    "seoTitle": "កាបូបលុយ",
+    "seoDescription": "កាបូបលុយ Bitcoin បែបឋានានុក្រមកំណត់ឲ្យបាន ដែលបង្កើតពី nsec នៅលើ Nostr របស់អ្នក។",
+    "loggedOut": {
+      "title": "កាបូបលុយ Bitcoin",
+      "description": "កាបូបលុយឋានានុក្រមដែលបង្កើតពីអត្តសញ្ញាណ Nostr របស់អ្នក។ មានអាសយដ្ឋានថ្មីសម្រាប់ការទទួលនីមួយៗ ប្រវត្តិប្រតិបត្តិការពេញលេញ និងគ្មានការប្រើអាសយដ្ឋានឡើងវិញ។",
+      "requiresNsec": "ត្រូវការការចូលដោយប្រើ nsec (សោឯកជន Nostr របស់អ្នក)។"
+    },
+    "unsupported": {
+      "title": "កាបូបលុយមិនអាចប្រើបាន",
+      "extension": "ផ្នែកបន្ថែមកម្មវិធីរុករករបស់អ្នករក្សាសោសម្ងាត់ដាច់ដោយឡែក ដូច្នេះយើងមិនអាចបង្កើតសោកូនសម្រាប់កាបូបលុយរបស់អ្នកបានទេ។",
+      "bunker": "អ្នកចុះហត្ថលេខាពីចម្ងាយ (NIP-46 bunker) របស់អ្នករក្សាសោសម្ងាត់នៅផ្នែក bunker ដូច្នេះយើងមិនអាចបង្កើតសោកូនសម្រាប់កាបូបលុយរបស់អ្នកបានទេ។",
+      "other": "ប្រភេទចូលរបស់អ្នកមិនបង្ហាញសោសម្ងាត់ដែលត្រូវការសម្រាប់បង្កើតកាបូបលុយរបស់អ្នកទេ។",
+      "instructions": "ចុះចេញ ហើយចូលម្ដងទៀតដោយប្រើ nsec ដើម្បីប្រើកាបូបលុយ។"
+    },
+    "scanFailed": "ការស្កេនកាបូបលុយបរាជ័យ",
+    "retry": "ព្យាយាមម្ដងទៀត",
+    "refreshBalance": "ផ្ទុកសមតុល្យឡើងវិញ",
+    "refreshBalanceTitle": "ចុចដើម្បីផ្ទុកសមតុល្យឡើងវិញ",
+    "amountPending": "{{amount}} កំពុងរង់ចាំ",
+    "pending": "កំពុងរង់ចាំ",
+    "send": "ផ្ញើ",
+    "transactions": "ប្រតិបត្តិការ",
+    "receiveDialog": {
+      "title": "ទទួល Bitcoin",
+      "description": "ចែករំលែកអាសយដ្ឋានដើម្បីទទួល Bitcoin។",
+      "addressIndex": "អាសយដ្ឋាន #{{index}}",
+      "scanForNew": "ពិនិត្យមើលការទូទាត់ថ្មី"
+    },
+    "tx": {
+      "pending": "កំពុងរង់ចាំ",
+      "today": "ថ្ងៃនេះ",
+      "yesterday": "ម្សិលមិញ",
+      "daysAgo_one": "{{count}} ថ្ងៃមុន",
+      "daysAgo_other": "{{count}} ថ្ងៃមុន",
+      "received": "បានទទួល",
+      "sent": "បានផ្ញើ"
+    },
+    "openMenu": "ម៉ឺនុយកាបូប",
+    "sendPublic": "ផ្ញើ",
+    "sendPrivate": "ផ្ញើជាឯកជន",
+    "tabs": {
+      "public": "សាធារណៈ",
+      "private": "ឯកជន"
+    },
+    "hideBalance": "លាក់សមតុល្យ",
+    "showBalance": "បង្ហាញសមតុល្យ"
+  },
+  "walletSettings": {
+    "backup": {
+      "label": "បម្រុងទុកកាបូប"
+    },
+    "legacy": {
+      "label": "សង្គ្រោះកាបូបចាស់"
+    }
+  },
+  "walletLegacy": {
+    "seoTitle": "សង្គ្រោះកាបូបចាស់",
+    "seoDescription": "សង្គ្រោះមូលនិធិពីជំនាន់កាបូប Agora ពីមុន។",
+    "title": "សង្គ្រោះកាបូបចាស់",
+    "subtitle": "ជ្រើសរើសកាបូបពីមុនដែលអ្នកធ្លាប់ប្រើ ហើយបោសសម្អាតសមតុល្យរបស់វាទៅកាបូបបច្ចុប្បន្នរបស់អ្នក។",
+    "loggedOut": "ចូលដោយប្រើអត្តសញ្ញាណ Nostr របស់អ្នកដើម្បីស្វែងរកមូលនិធិក្នុងកាបូបចាស់របស់អ្នក។",
+    "scanning": "កំពុងស្កេនកាបូប V2 beta សម្រាប់មូលនិធិ…",
+    "v2Detected": {
+      "title": "បានរកឃើញមូលនិធិក្នុង V2 Prelaunch Beta Wallet",
+      "body": "យើងបានរកឃើញ <0>{{amount}}</0> នៅអាសយដ្ឋានពីកាបូប V2 beta ចាស់របស់អ្នក។ បើកការបោសសម្អាត V2 ខាងក្រោមដើម្បីផ្លាស់ប្ដូរពួកវាទៅកាបូបបច្ចុប្បន្នរបស់អ្នក។"
+    },
+    "options": {
+      "v2Beta": {
+        "label": "V2 Prelaunch Beta Wallet",
+        "description": "បោសសម្អាតមូលនិធិពីកាបូប BIP-86 ដែលប្រើ nsec-ជា-seed ដែលបានចេញផ្សាយមុនការដេរីវេ BIP-39។"
+      },
+      "v1Breeze": {
+        "label": "V1 Breeze Wallet",
+        "description": "បោសសម្អាតសមតុល្យលើខ្សែសង្វាក់ពីការគ្រប់គ្រង Lightning ចាស់។"
+      },
+      "doubleTweak": {
+        "label": "ការជួសជុល SP Double-tweak",
+        "description": "សង្គ្រោះការទូទាត់ស្ងាត់ដែលជាប់គាំងដោយកំហុសផ្ញើពីមុន ហើយបោសសម្អាតពួកវាត្រឡប់ទៅកាបូបរបស់អ្នកវិញ។"
+      }
+    },
+    "footnote": "ជម្រើសនីមួយៗគឺជាការបោសសម្អាតម្ដងគត់ទៅកាបូបបច្ចុប្បន្នរបស់អ្នក។ កាបូបចាស់ខ្លួនវាមិនត្រូវបានស្ដារទេ — មានតែមូលនិធិដែលវាបានកាន់កាប់ប៉ុណ្ណោះដែលត្រូវបានសង្គ្រោះ។"
+  },
+  "walletRecovery": {
+    "seoTitle": "សង្គ្រោះកាបូបលុយចាស់",
+    "seoDescription": "សង្គ្រោះមូលនិធិពីកាបូបលុយ Lightning ពីមុន ហើយផ្ទេរទៅអាសយដ្ឋាន Bitcoin ដែលបង្កើតពី Nostr របស់អ្នក។",
+    "title": "សង្គ្រោះកាបូបលុយចាស់",
+    "heading": "សង្គ្រោះកាបូបលុយចាស់របស់អ្នក",
+    "subheading": "បើអ្នកធ្លាប់មានមូលនិធិក្នុងកាបូបលុយ Lightning អ្នកអាចបោសសម្អាតវាទៅអាសយដ្ឋាន Bitcoin ដែលបង្កើតពី Nostr របស់អ្នក។ កាបូបលុយចាស់របស់អ្នកនឹងមិនត្រូវបានស្ដារទេ — នេះគឺការផ្ទេរម្ដងគត់ និងតែម្ដងនេះប៉ុណ្ណោះ។",
+    "backToWallet": "ត្រឡប់ទៅកាបូបលុយ",
+    "loggedOut": {
+      "title": "ចូលដើម្បីសង្គ្រោះ",
+      "description": "ចូលដោយប្រើអត្តសញ្ញាណ Nostr ដែលជាម្ចាស់កាបូបលុយ Lightning ចាស់ ដើម្បីឲ្យមូលនិធិអាចត្រូវបានបោសសម្អាតទៅអាសយដ្ឋាន Bitcoin របស់វា។"
+    },
+    "destination": {
+      "title": "មូលនិធិនឹងត្រូវផ្ញើទៅ",
+      "description": "អាសយដ្ឋាន Taproot ដែលបង្កើតពី Nostr របស់អ្នក។"
+    },
+    "phrase": {
+      "title": "ឃ្លាសង្គ្រោះ",
+      "description": "បិទភ្ជាប់ឃ្លាសង្គ្រោះ ១២ ពាក្យពីកាបូបលុយចាស់របស់អ្នក។",
+      "checkingRelays": "កំពុងពិនិត្យម៉ាស៊ីនបញ្ជូនបន្តរបស់អ្នកសម្រាប់ការបម្រុងទុកដែលត្រូវបានអ៊ិនគ្រីប…",
+      "backupFoundTitle": "រកឃើញការបម្រុងទុកនៅលើម៉ាស៊ីនបញ្ជូនបន្តរបស់អ្នក",
+      "backupFoundDesc": "យើងបានរកឃើញការបម្រុងទុកដែលត្រូវបានអ៊ិនគ្រីបនៃឃ្លាសង្គ្រោះកាបូបលុយចាស់របស់អ្នកដែលបានបោះផ្សាយពីគណនីនេះ។",
+      "decryptAndUse": "ឌិគ្រីប និងប្រើ",
+      "placeholder": "ពាក្យ១ ពាក្យ២ ពាក្យ៣ …",
+      "warning": "បិទភ្ជាប់តែឃ្លាសង្គ្រោះដែលអ្នកជឿទុកចិត្តប៉ុណ្ណោះ។ អ្នកណាដែលមានឃ្លានេះអាចចំណាយលុយបាន។ បន្ទាប់ពីការផ្ទេរបានបញ្ចប់ សូមលុបវាចេញពីកន្លែងណាមួយដែលអ្នកបានចម្លងវា។",
+      "sweepButton": "បោសសម្អាតមូលនិធិទៅអាសយដ្ឋាន Bitcoin របស់ខ្ញុំ"
+    },
+    "sweeping": {
+      "working": "កំពុងដំណើរការ…",
+      "dontClose": "កុំបិទផ្ទាំងនេះ។ វាអាចចំណាយពេលរហូតដល់មួយនាទីខណៈដែលកាបូបលុយចាស់ធ្វើសមកាលកម្ម ហើយប្រតិបត្តិការត្រូវបានផ្សាយ។"
+    },
+    "success": {
+      "title": "ការសង្គ្រោះបានបញ្ចប់",
+      "sent": "បានផ្ញើ {{sats}} sats ទៅអាសយដ្ឋាន Bitcoin របស់អ្នក។",
+      "viewTransaction": "មើលប្រតិបត្តិការ"
+    },
+    "error": {
+      "title": "ការសង្គ្រោះបានបរាជ័យ",
+      "tryAgain": "ព្យាយាមម្ដងទៀត"
+    },
+    "errors": {
+      "noNip44": "អ្នកចុះហត្ថលេខារបស់អ្នកមិនគាំទ្រការឌិគ្រីប NIP-44 ដែលត្រូវការសម្រាប់អានការបម្រុងទុកពីម៉ាស៊ីនបញ្ជូនបន្តទេ។ សូមបិទភ្ជាប់ឃ្លាសង្គ្រោះ ១២ ពាក្យដោយដៃជំនួសវិញ។",
+      "decryptFailed": "មិនអាចឌិគ្រីបការបម្រុងទុកពីម៉ាស៊ីនបញ្ជូនបន្តបានទេ។ សូមបិទភ្ជាប់ឃ្លាសង្គ្រោះ ១២ ពាក្យដោយដៃជំនួសវិញ។",
+      "decryptGeneric": "ការឌិគ្រីបការបម្រុងទុកពីម៉ាស៊ីនបញ្ជូនបន្តបានបរាជ័យ។",
+      "invalidWordCount": "ឃ្លាសង្គ្រោះត្រូវតែមាន ១២ ឬ ២៤ ពាក្យ។",
+      "noBalance": "កាបូបលុយចាស់របស់អ្នកមិនមានសមតុល្យដែលអាចចំណាយបានទេ។ គ្មានអ្វីសម្រាប់សង្គ្រោះទេ។",
+      "sweepGeneric": "ការសង្គ្រោះបានបរាជ័យ។ សូមព្យាយាមម្ដងទៀត។"
+    },
+    "progress": {
+      "loadingSdk": "កំពុងផ្ទុក SDK កាបូបលុយ…",
+      "connecting": "កំពុងភ្ជាប់ទៅកាបូបលុយចាស់របស់អ្នក…",
+      "checkingBalance": "កំពុងពិនិត្យសមតុល្យ…",
+      "preparingTransfer": "កំពុងរៀបចំការផ្ទេរ {{sats}} sats…",
+      "broadcasting": "កំពុងផ្សាយប្រតិបត្តិការ…"
+    },
+    "toast": {
+      "backupLoadedTitle": "បានផ្ទុកការបម្រុងទុក",
+      "backupLoadedDesc": "ឃ្លាសង្គ្រោះត្រូវបានឌិគ្រីបពីម៉ាស៊ីនបញ្ជូនបន្តរបស់អ្នក។"
+    }
+  },
+  "walletBackup": {
+    "heading": "ឃ្លា seed របស់កាបូប",
+    "dialogDescription": "អ្នកអាចចូលប្រើកាបូប Agora របស់អ្នកនៅក្នុងកាបូប Bitcoin ណាមួយ ដោយនាំចូលការបម្រុងទុក 24 ពាក្យនេះ។",
+    "hidden": "ចុចដើម្បីបង្ហាញឃ្លា seed 24 ពាក្យរបស់អ្នក។",
+    "revealAria": "បង្ហាញឃ្លា seed",
+    "hideAria": "លាក់ឃ្លា seed",
+    "warning": "អ្នកណាដែលមានពាក្យទាំងនេះអាចចំណាយ Bitcoin របស់អ្នកបាន។ កុំចែករំលែកវាជាដាច់ខាត កុំវាយវាចូលគេហទំព័រណាមួយ កុំរក្សាទុកវាជាអក្សរធម្មតានៅខាងក្រៅកម្មវិធីគ្រប់គ្រងពាក្យសម្ងាត់។"
+  },
+  "walletMigrate": {
+    "seoTitle": "ផ្ទេរកាបូបចាស់",
+    "seoDescription": "បោសសម្អាតមូលនិធិពីកាបូប Agora ចាស់ (nsec-ជា-seed) ទៅកាបូប BIP-39 ថ្មី។",
+    "title": "ផ្ទេរកាបូបចាស់",
+    "heading": "ផ្ទេរទៅកាបូបថ្មីរបស់អ្នក",
+    "subheading": "កាបូប Bitcoin របស់ Agora ឥឡូវនេះប្រើឃ្លា seed BIP-39 ដូច្នេះវាអាចនាំចូលទៅកាបូបណាមួយបាន។ មូលនិធិនៅអាសយដ្ឋានចាស់របស់អ្នកនៅតែមានសុវត្ថិភាព — ទំព័រនេះបោសសម្អាតពួកវាទៅកាបូបថ្មីរបស់អ្នកក្នុងប្រតិបត្តិការតែមួយ។",
+    "backToWallet": "ត្រឡប់ទៅកាបូប",
+    "loading": "កំពុងពិនិត្យកាបូបចាស់របស់អ្នក…",
+    "warning": "នេះបង្កើតប្រតិបត្តិការបោសសម្អាតតែមួយដែលប្រើ UTXO ទាំងអស់ពីកាបូបចាស់របស់អ្នក ហើយផ្ញើចំនួនសរុប (ដកថ្លៃបណ្តាញតិចតួច) ទៅអាសយដ្ឋានទទួលដំបូងនៃកាបូបថ្មីរបស់អ្នក។ បន្ទាប់ពីផ្សព្វផ្សាយ ការផ្ទេរនេះចុងក្រោយហើយ មិនអាចត្រឡប់វិញបានទេ។",
+    "startButton": "បោសសម្អាតទៅកាបូបថ្មី",
+    "loggedOut": {
+      "title": "ចូលដើម្បីផ្ទេរ",
+      "description": "ចូលជាមួយអត្តសញ្ញាណ Nostr ដែលជាម្ចាស់នៃកាបូបចាស់ ដើម្បីឱ្យមូលនិធិអាចត្រូវបានបោសសម្អាតទៅអាសយដ្ឋានថ្មីរបស់អ្នក។"
+    },
+    "unsupported": {
+      "title": "កាបូបមិនអាចប្រើបាន",
+      "description": "ការផ្ទេរដំណើរការសម្រាប់តែការចូលតាម nsec ប៉ុណ្ណោះ ព្រោះសោកាបូបចាស់ត្រូវបានបង្កើតដោយផ្ទាល់ពី nsec របស់អ្នក។ ការចូលតាមផ្នែកបន្ថែម browser និងអ្នកចុះហត្ថលេខាពីចម្ងាយមិនអាចដំណើរការការផ្ទេរនេះទេ។"
+    },
+    "noBlockbook": {
+      "title": "Blockbook មិនបានកំណត់",
+      "description": "ការផ្ទេរត្រូវការ URL Blockbook indexer ដើម្បីស្កេនអាសយដ្ឋានចាស់របស់អ្នក និងផ្សព្វផ្សាយប្រតិបត្តិការបោសសម្អាត។"
+    },
+    "noFunds": {
+      "title": "គ្មានអ្វីត្រូវផ្ទេរ",
+      "description": "កាបូបចាស់របស់អ្នកគ្មានសមតុល្យដែលអាចចំណាយបានទេ។ អ្វីៗទាំងអស់ស្ថិតនៅក្នុងកាបូបថ្មីរបស់អ្នករួចហើយ។"
+    },
+    "detected": {
+      "title": "មូលនិធិក្នុងកាបូបចាស់របស់អ្នក",
+      "description": "មូលនិធិទាំងនេះនឹងត្រូវផ្លាស់ប្ដូរទៅកាបូបថ្មីរបស់អ្នកក្នុងប្រតិបត្តិការតែមួយ។",
+      "bip86": "លើខ្សែសង្វាក់",
+      "sp": "ការទូទាត់ស្ងាត់",
+      "total": "សរុប"
+    },
+    "destination": {
+      "title": "គោលដៅ",
+      "description": "អាសយដ្ឋានទទួលដំបូងនៃកាបូបថ្មីរបស់អ្នក។"
+    },
+    "progress": {
+      "building": "កំពុងបង្កើតប្រតិបត្តិការ…",
+      "signing": "កំពុងចុះហត្ថលេខាលើ inputs…",
+      "broadcasting": "កំពុងផ្សព្វផ្សាយប្រតិបត្តិការ…",
+      "dontClose": "កុំបិទផ្ទាំងនេះខណៈពេលដែលការបោសសម្អាតកំពុងដំណើរការ។"
+    },
+    "success": {
+      "title": "ការផ្ទេរបានបញ្ចប់",
+      "sent": "បានផ្ញើ {{sats}} sats ទៅកាបូបថ្មីរបស់អ្នក (ថ្លៃ {{fee}} sats)។",
+      "viewTx": "មើលប្រតិបត្តិការ"
+    },
+    "error": {
+      "title": "ការផ្ទេរបរាជ័យ",
+      "tryAgain": "ព្យាយាមម្តងទៀត"
+    },
+    "errors": {
+      "noV1Account": "មិនអាចចូលប្រើសោកាបូបចាស់បានទេ។",
+      "noDestination": "កាបូបថ្មីរបស់អ្នកមិនទាន់មានអាសយដ្ឋានទទួលនៅឡើយទេ។ រង់ចាំទំព័រកាបូបផ្ទុក រួចព្យាយាមម្តងទៀត។",
+      "noBlockbook": "Blockbook indexer មិនបានកំណត់។ ការផ្ទេរមិនអាចស្កេនអាសយដ្ឋានចាស់របស់អ្នកបានទេ។",
+      "noFunds": "រកមិនឃើញមូលនិធិដែលអាចចំណាយបាននៅអាសយដ្ឋានចាស់។",
+      "sweepGeneric": "ការផ្ទេរបរាជ័យ។ សូមព្យាយាមម្តងទៀត។"
+    },
+    "toast": {
+      "successTitle": "ការផ្ទេរបានបញ្ចប់",
+      "successDesc": "{{sats}} sats ត្រូវបានផ្លាស់ប្ដូរទៅកាបូបថ្មីរបស់អ្នក។"
+    }
+  },
+  "walletConnect": {
+    "status": "ស្ថានភាព",
+    "ready": "រួចរាល់",
+    "notFound": "រកមិនឃើញ",
+    "none": "គ្មាន",
+    "add": "បន្ថែម",
+    "active": "សកម្ម",
+    "connectionLabel": "ការតភ្ជាប់ NWC",
+    "defaultWalletName": "កាបូបលុយ Lightning",
+    "setActiveTitle": "កំណត់ឲ្យសកម្ម",
+    "removeTitle": "លុបកាបូបលុយ",
+    "helpText": "ដំឡើងផ្នែកបន្ថែមកម្មវិធីរុករក WebLN ឬភ្ជាប់កាបូបលុយ NWC ដើម្បីផ្ញើ zap។",
+    "webln": {
+      "name": "WebLN",
+      "description": "ផ្នែកបន្ថែមកម្មវិធីរុករក"
+    },
+    "nwc": {
+      "name": "Nostr Wallet Connect",
+      "description": "ការតភ្ជាប់កាបូបលុយពីចម្ងាយ",
+      "connectedCount_one": "បានភ្ជាប់កាបូបលុយ {{count}}",
+      "connectedCount_other": "បានភ្ជាប់កាបូបលុយ {{count}}"
+    },
+    "empty": {
+      "title": "គ្មានកាបូបលុយត្រូវបានភ្ជាប់",
+      "description": "បន្ថែមការតភ្ជាប់ NWC ដើម្បីបើកដំណើរការ zap ភ្លាមៗ។"
+    },
+    "dialog": {
+      "title": "ភ្ជាប់កាបូបលុយ NWC",
+      "description": "បិទភ្ជាប់ខ្សែតភ្ជាប់ពីកាបូបលុយដែលអាចប្រើ NWC របស់អ្នក។",
+      "aliasPlaceholder": "ឈ្មោះកាបូបលុយ (ស្រេចចិត្ត)",
+      "connect": "ភ្ជាប់",
+      "connecting": "កំពុងភ្ជាប់..."
+    },
+    "toast": {
+      "uriRequiredTitle": "ត្រូវការ URI តភ្ជាប់",
+      "uriRequiredDesc": "សូមបញ្ចូល URI តភ្ជាប់ NWC ដែលត្រឹមត្រូវ។",
+      "activeChangedTitle": "បានប្ដូរកាបូបលុយសកម្ម",
+      "activeChangedDesc": "កាបូបលុយដែលបានជ្រើសរើសឥឡូវនេះសកម្មសម្រាប់ zap។"
+    }
+  },
+  "walletSend": {
+    "title": "ផ្ញើ Bitcoin",
+    "send": "ផ្ញើ Bitcoin",
+    "max": "MAX",
+    "tapAgainToConfirm": "ប៉ះម្ដងទៀតដើម្បីបញ្ជាក់",
+    "satPerVB": "{{rate}} sat/vB",
+    "notEnoughBitcoin": "មិនមាន Bitcoin គ្រប់គ្រាន់",
+    "emptyWallet": "កាបូបលុយរបស់អ្នកទទេ។ សូមបញ្ចូល Bitcoin មុននឹងអាចផ្ញើបាន។",
+    "recipient": {
+      "placeholder": "bc1…, sp1…",
+      "scan": "ស្កេនកូដ QR",
+      "sendToOnchain": "ផ្ញើទៅអាសយដ្ឋាន Bitcoin",
+      "sendToSilentPayment": "ផ្ញើទៅអាសយដ្ឋានទូទាត់ស្ងាត់",
+      "bitcoinAddress": "អាសយដ្ឋាន Bitcoin",
+      "silentPayment": "អាសយដ្ឋានទូទាត់ស្ងាត់",
+      "toLabel": "ជូន",
+      "clear": "សម្អាតអ្នកទទួល",
+      "choosePaymentMethod": "ជ្រើសរើសវិធីសាស្ត្រទូទាត់ដើម្បីបន្ត"
+    },
+    "feeSpeed": {
+      "fastest": "~១០ នាទី",
+      "halfHour": "~៣០ នាទី",
+      "hour": "~១ ម៉ោង",
+      "economy": "~១ ថ្ងៃ",
+      "custom": "ផ្ទាល់ខ្លួន"
+    },
+    "fee": {
+      "loading": "កំពុងផ្ទុក…",
+      "unavailable": "មិនអាចប្រើបាន",
+      "loadFailed": "មិនអាចផ្ទុកអត្រាថ្លៃបានទេ។",
+      "retry": "ព្យាយាមម្ដងទៀត",
+      "orCustom": "ឬបញ្ចូលអត្រាផ្ទាល់ខ្លួននៅខាងក្រោម។",
+      "loadingTiers": "កំពុងផ្ទុកអត្រាថ្លៃ…",
+      "customPlaceholder": "ឧ. 5",
+      "customAriaLabel": "អត្រាថ្លៃផ្ទាល់ខ្លួនជា sat/vB"
+    },
+    "progress": {
+      "building": "កំពុងបង្កើតប្រតិបត្តិការ…",
+      "signing": "កំពុងចុះហត្ថលេខា…",
+      "broadcasting": "កំពុងផ្សាយ…",
+      "sending": "កំពុងផ្ញើ…"
+    },
+    "errors": {
+      "unavailable": "កាបូបលុយ HD មិនអាចប្រើបានសម្រាប់ប្រភេទចូលនេះទេ។",
+      "enterRecipient": "បញ្ចូលអាសយដ្ឋាន Bitcoin ឬអាសយដ្ឋានទូទាត់ស្ងាត់ sp1…។",
+      "noSpendable": "គ្មាន Bitcoin ដែលអាចចំណាយបាននៅក្នុងកាបូបលុយនេះទេ។",
+      "feesNotLoaded": "អត្រាថ្លៃមិនបានផ្ទុក។",
+      "enterAmount": "បញ្ចូលចំនួន។",
+      "insufficient": "មិនមាន Bitcoin គ្រប់គ្រាន់សម្រាប់ចំនួននេះ + ថ្លៃបណ្តាញ។",
+      "waitingPrice": "កំពុងរង់ចាំតម្លៃ BTC…",
+      "noneYet": "អ្នកមិនទាន់មាន Bitcoin ទេ។",
+      "feesNotLoadedYet": "អត្រាថ្លៃមិនទាន់បានផ្ទុកនៅឡើយទេ។",
+      "feeRateTooLow": "បញ្ចូលអត្រាថ្លៃយ៉ាងហោចណាស់ 1 sat/vB។"
+    },
+    "scanError": {
+      "title": "មិនអាចអានកូដ QR នេះបានទេ",
+      "description": "រំពឹងថានឹងមានអាសយដ្ឋាន Bitcoin, អាសយដ្ឋានទូទាត់ស្ងាត់ (sp1…) ឬ URI bitcoin:។"
+    },
+    "toast": {
+      "failedTitle": "ប្រតិបត្តិការបរាជ័យ",
+      "followUpFailedTitle": "បានផ្ញើការទូទាត់ ប៉ុន្តែការផ្សព្វផ្សាយបង្កាន់ដៃសាធារណៈបានបរាជ័យ"
+    },
+    "broadcastError": {
+      "feeTooLowTitle": "ថ្លៃបណ្តាញទាបពេក",
+      "feeTooLowBodyWithMin": "បណ្តាញ Bitcoin កំពុងបដិសេធថ្លៃនេះ។ អប្បបរមាបច្ចុប្បន្នគឺប្រហែល {{min}} sat/vB។",
+      "feeTooLowBody": "បណ្តាញ Bitcoin កំពុងបដិសេធថ្លៃនេះ។ ជ្រើសរើសកម្រិតលឿនជាង ឬបង្កើនអត្រាផ្ទាល់ខ្លួនរបស់អ្នក។",
+      "rbfTitle": "ការជំនួសត្រូវការថ្លៃខ្ពស់ជាង",
+      "rbfBody": "ប្រតិបត្តិការជំនួសត្រូវតែបង់ច្រើនជាងប្រតិបត្តិការដើម។ បង្កើនថ្លៃ ហើយព្យាយាមម្តងទៀត។",
+      "mempoolFullTitle": "បណ្តាញ Bitcoin កំពុងកក",
+      "mempoolFullBody": "mempool ពេញ ហើយថ្លៃរបស់អ្នកមិនមានការប្រកួតប្រជែងទេ។ បង្កើនថ្លៃដើម្បីឆ្លងកាត់។",
+      "networkTitle": "មិនអាចភ្ជាប់ទៅបណ្តាញ Bitcoin បានទេ",
+      "networkBody": "ពិនិត្យការតភ្ជាប់របស់អ្នក ហើយព្យាយាមម្តងទៀត។",
+      "mempoolConflictTitle": "ប្រតិបត្តិការប៉ះទង្គិច",
+      "mempoolConflictBody": "ធាតុចូលណាមួយត្រូវបានចំណាយរួចហើយ ឬកំពុងត្រូវបានចំណាយដោយប្រតិបត្តិការមួយផ្សេងទៀត។",
+      "staleUtxoTitle": "កាបូបមិនស៊ីសង្វាក់គ្នា",
+      "staleUtxoBody": "កាក់មួយចំនួនក្នុងកាបូបនេះមិនត្រូវគ្នានឹងកំណត់ត្រា blockchain ដូច្នេះប្រតិបត្តិការត្រូវបានបញ្ឈប់មុនពេលផ្សាយ។ កាបូបបានធ្វើសមកាលកម្មឡើងវិញនូវអ្វីដែលអាចធ្វើបាន — សូមព្យាយាមម្តងទៀត។",
+      "tooLongChainTitle": "ប្រតិបត្តិការមិនទាន់បញ្ជាក់ច្រើនពេក",
+      "tooLongChainBody": "អ្នកមានខ្សែសង្វាក់ប្រតិបត្តិការមិនទាន់បញ្ជាក់វែង។ រង់ចាំឱ្យមួយបានបញ្ជាក់ ហើយព្យាយាមម្តងទៀត។",
+      "badInputsTitle": "ប្រតិបត្តិការត្រូវបានបដិសេធ",
+      "badInputsBody": "បណ្តាញបានបដិសេធប្រតិបត្តិការនេះ។ កែសម្រួលចំនួន ឬអ្នកទទួល ហើយព្យាយាមម្តងទៀត។",
+      "absurdlyHighFeeTitle": "ថ្លៃខ្ពស់មិនធម្មតា",
+      "absurdlyHighFeeBody": "ថ្លៃប៉ាន់ស្មានគួរឱ្យសង្ស័យខ្ពស់ពេក។ ផ្ទុកអត្រាថ្លៃឡើងវិញ ហើយព្យាយាមម្តងទៀត។",
+      "unknownTitle": "ប្រតិបត្តិការបរាជ័យ",
+      "useHigherFee": "ប្រើថ្លៃខ្ពស់ជាង",
+      "tryAgain": "ព្យាយាមម្ដងទៀត",
+      "atMaxFeeTier": "អ្នកស្ថិតនៅកម្រិតលឿនបំផុតរួចហើយ។"
+    },
+    "success": {
+      "title": "បានផ្ញើ Bitcoin",
+      "satsAmount": "{{sats}} sats",
+      "viewTransaction": "មើលប្រតិបត្តិការ",
+      "done": "រួចរាល់"
+    },
+    "titlePublic": "ផ្ញើ Bitcoin",
+    "titlePrivate": "ផ្ញើជាឯកជន",
+    "reuse": {
+      "checking": "កំពុងពិនិត្យអាសយដ្ឋាន…",
+      "sendAnyway": "ផ្ញើទោះយ៉ាងណា",
+      "acknowledge": "ខ្ញុំយល់ពីហានិភ័យ — ផ្ញើទោះយ៉ាងណា",
+      "historyWarning": "អាសយដ្ឋាននេះត្រូវបានប្រើរួចហើយនៅលើខ្សែសង្វាក់។ ការផ្ញើថវិកាឯកជនរបស់អ្នកមកទីនេះ ភ្ជាប់វាជាមួយប្រវត្តិប្រតិបត្តិការដែលមានស្រាប់ ហើយលុបបំបាត់ភាពឯកជននៃការទូទាត់ស្ងាត់របស់អ្នក។ សូមប្រើអាសយដ្ឋានទូទាត់ស្ងាត់ (sp1…) ជំនួសវិញ ឬផ្ញើទោះយ៉ាងណា។",
+      "ownPublicWarning": "នេះជាអាសយដ្ឋានពីកាបូបសាធារណៈផ្ទាល់ខ្លួនរបស់អ្នក។ ការផ្ញើថវិកាឯកជនទៅវា បញ្ចូលកាបូបទាំងពីរ និងភ្ជាប់វាជាមួយគ្នា។ សូមប្រើអាសយដ្ឋានទូទាត់ស្ងាត់ (sp1…) ជំនួសវិញ ឬផ្ញើទោះយ៉ាងណា។"
+    },
+    "ownSilentPaymentBlocked": "នេះជាអាសយដ្ឋានទូទាត់ស្ងាត់ផ្ទាល់ខ្លួនរបស់អ្នក។ អ្នកមិនអាចផ្ញើពីកាបូបសាធារណៈរបស់អ្នកទៅកាបូបឯកជនរបស់អ្នកបានទេ — ការធ្វើដូច្នេះបញ្ចូលថវិកាទូទាត់ស្ងាត់ឯកជនរបស់អ្នកជាមួយកាក់ដែលបានលាតត្រដាងរួចហើយនៅលើបញ្ជីសាធារណៈ ដោយភ្ជាប់កាបូបឯកជនរបស់អ្នកជាមួយអត្តសញ្ញាណដែលគេស្គាល់ ហើយលុបបំបាត់ភាពឯកជនរបស់វា។ សូមផ្ញើទៅអាសយដ្ឋានផ្សេងជំនួសវិញ។"
+  },
+  "qrScanner": {
+    "title": "ស្កេនកូដ QR",
+    "close": "បិទ",
+    "starting": "កំពុងចាប់ផ្ដើមកាមេរ៉ា…",
+    "aim": "តម្រង់កាមេរ៉ារបស់អ្នកទៅកាន់កូដ QR។",
+    "flashOn": "បើកពិល",
+    "flashOff": "បិទពិល",
+    "errors": {
+      "generic": "មិនអាចចូលប្រើកាមេរ៉ាបានទេ។",
+      "insecure": "ការចូលប្រើកាមេរ៉ាទាមទារការតភ្ជាប់សុវត្ថិភាព (HTTPS)។",
+      "unsupported": "កម្មវិធីរុករកនេះមិនគាំទ្រការចូលប្រើកាមេរ៉ាទេ។",
+      "notFound": "រកមិនឃើញកាមេរ៉ានៅលើឧបករណ៍នេះទេ។",
+      "denied": "ការអនុញ្ញាតកាមេរ៉ាត្រូវបានបដិសេធ។ បើកវានៅក្នុងការកំណត់របស់អ្នកដើម្បីស្កេនកូដ QR។",
+      "busy": "កម្មវិធីផ្សេងទៀតកំពុងប្រើកាមេរ៉ា។ បិទវាហើយព្យាយាមម្តងទៀត។",
+      "overconstrained": "កាមេរ៉ានៃឧបករណ៍នេះមិនគាំទ្រការកំណត់ដែលបានស្នើទេ។",
+      "didntStart": "កាមេរ៉ាមិនបានចាប់ផ្ដើមទេ។ កម្មវិធីផ្សេងទៀតប្រហែលជាកំពុងប្រើវា ឬកម្មវិធីរុករករបស់អ្នកប្រហែលជាបានរារាំងម៉ាស៊ីនស្កេន។"
+    }
+  },
+  "spScan": {
+    "title": "ពិនិត្យមើលការទូទាត់ថ្មី",
+    "subtitle": "ស្កេនប្លុកឆេនរកការទូទាត់ឯកជន",
+    "descriptionHelp": "ព័ត៌មានបន្ថែម",
+    "description": "ដើរតាមអ្នកធ្វើលិបិក្រម BIP-352 ដែលបានកំណត់ ប្លុកម្ដងមួយៗ ដើម្បីរកការទូទាត់ស្ងាត់ដែលចូលមក។",
+    "since": "ចាប់តាំងពី",
+    "preset": {
+      "lastHour": "មួយម៉ោងចុងក្រោយ",
+      "last3h": "៣ ម៉ោងចុងក្រោយ",
+      "last24h": "២៤ ម៉ោងចុងក្រោយ",
+      "lastWeek": "សប្ដាហ៍មុន",
+      "lastMonth": "ខែមុន",
+      "custom": "ផ្ទាល់ខ្លួន…"
+    },
+    "customHours": "ម៉ោង",
+    "customHoursPlaceholder": "ឧ. ១២",
+    "advanced": "កម្រិតខ្ពស់",
+    "connectingIndexer": "កំពុងភ្ជាប់ទៅអ្នកធ្វើលិបិក្រម…",
+    "upToDate": "អ្នកមានព័ត៌មានថ្មីបំផុតរួចហើយ។",
+    "fromBlock": "ពីប្លុក",
+    "indexerTip": "កំពូលអ្នកធ្វើលិបិក្រម",
+    "lastFullyScanned": "ការស្កេនពេញលេញចុងក្រោយ",
+    "never": "មិនដែលទេ",
+    "includeSpent": "រួមបញ្ចូលអ្វីដែលបានចំណាយ",
+    "includeSpentDesc": "រកការទូទាត់ស្ងាត់ដែលបានចំណាយរួចហើយផងដែរ។ ប្រើនៅពេលកសាងប្រវត្តិទទួលឡើងវិញ បន្ទាប់ពីការស្កេនដែលបាត់ឬការកំណត់ឡើងវិញ។",
+    "blockProgress": "ប្លុក {{current}} / {{to}}",
+    "matches_one": "ការផ្គូផ្គង {{count}}",
+    "matches_other": "ការផ្គូផ្គង {{count}}",
+    "scannedRange": "ប្លុកដែលបានស្កេន {{from}} → {{to}}។",
+    "foundOutputs_one": "រកឃើញលទ្ធផលថ្មី {{count}}។",
+    "foundOutputs_other": "រកឃើញលទ្ធផលថ្មី {{count}}។",
+    "noNewPayments": "គ្មានការទូទាត់ថ្មីទេ។",
+    "startScan": "ចាប់ផ្ដើមស្កេន",
+    "resolveFailed": {
+      "title": "មិនអាចស្វែងរកប្លុកចាប់ផ្ដើមបានទេ",
+      "description": "mempool.space មិនអាចចូលប្រើបានឥឡូវនេះ។ បញ្ចូលប្លុកចាប់ផ្ដើមនៅក្រោម កម្រិតខ្ពស់ → ពីប្លុក ដើម្បីស្កេនយ៉ាងណាក៏ដោយ។"
+    },
+    "reconcile": {
+      "title": "ត្រួតពិនិត្យ UTXO ដែលបានចំណាយ",
+      "description": "ពិនិត្យ UTXO នៃការទូទាត់ស្ងាត់ដែលបានរក្សាទុកនីមួយៗធៀបនឹង Blockbook ហើយយកចេញនូវ UTXO ដែលបានចំណាយ។ ប្រើប្រសិនបើសមតុល្យខ្ពស់ជាងគួរដឹង បន្ទាប់ពីការផ្ញើ។",
+      "checking": "កំពុងពិនិត្យ {{checked}} / {{total}}…",
+      "checked_one": "បានពិនិត្យ UTXO {{count}} · បានកាត់ {{pruned}}។",
+      "checked_other": "បានពិនិត្យ UTXO {{count}} · បានកាត់ {{pruned}}។",
+      "reconciling": "កំពុងត្រួតពិនិត្យ…",
+      "reconcileNow": "ត្រួតពិនិត្យឥឡូវ"
+    },
+    "autoScan": {
+      "label": "ស្កេនដោយស្វ័យប្រវត្តិ",
+      "description": "បន្តពិនិត្យរកការទូទាត់ឯកជនថ្មីនៅផ្ទៃខាងក្រោយ ទោះបីជាអ្នកចាកចេញពីទំព័រនេះក៏ដោយ។"
+    }
+  },
+  "spAutoScan": {
+    "scanning": "កំពុងស្កេន… ប្លុក {{current}} / {{to}}",
+    "caughtUp": "ថ្មីបំផុត",
+    "neverScanned": "មិនទាន់ស្កេន",
+    "lastScanned": "បានស្កេនដល់ប្លុក {{height}}",
+    "paused": "ការស្កេនដោយស្វ័យប្រវត្តិបានបិទ",
+    "manualLink": "ជម្រើសស្កេន"
+  },
+  "notifications": {
+    "seoTitle": "ការជូនដំណឹង",
+    "seoDescription": "ការជូនដំណឹង Nostr របស់អ្នក",
+    "title": "ការជូនដំណឹង",
+    "tabs": {
+      "all": "ទាំងអស់",
+      "mentions": "ការនិយាយដល់"
+    },
+    "loginPrompt": "ចូលដើម្បីមើលការជូនដំណឹងរបស់អ្នក។",
+    "empty": "មិនទាន់មានការជូនដំណឹងទេ។",
+    "subject": {
+      "twoActors": "<0></0> និង <1></1>",
+      "andOthers_one": " និងអ្នកផ្សេងទៀត {{count}} នាក់",
+      "andOthers_other": " និងអ្នកផ្សេងទៀត {{count}} នាក់"
+    },
+    "actorAvatars": {
+      "moreCount": "+{{count}} ផ្សេងទៀត"
+    },
+    "actions": {
+      "reactedToYour": "បានឆ្លើយតបទៅ{{noun}}របស់អ្នក",
+      "repostedYour": "បានបង្ហោះ{{noun}}របស់អ្នកម្ដងទៀត",
+      "zappedYou": "បានផ្ដល់ zap ឲ្យអ្នក",
+      "zappedYouWithAmount": "បានផ្ដល់ zap {{sats}} sats ឲ្យអ្នក",
+      "repliedToYourNote": "បានឆ្លើយតបទៅកំណត់ត្រារបស់អ្នក",
+      "mentionedYou": "បាននិយាយដល់អ្នក",
+      "repliedToYourComment": "បានឆ្លើយតបទៅមតិយោបល់របស់អ្នក",
+      "commentedOnYour": "បានបញ្ចេញមតិលើ{{noun}}របស់អ្នក",
+      "sentYouLetter": "បានផ្ញើសំបុត្រឲ្យអ្នក",
+      "highlightedYour": "បានបន្លិច{{noun}}របស់អ្នក",
+      "awardedBadge": "បានផ្ដល់ផ្លាកសញ្ញាមួយដល់អ្នក",
+      "awardedBadges": "បានផ្ដល់ផ្លាកសញ្ញាដល់អ្នក"
+    },
+    "letter": {
+      "viewAll": "មើលសំបុត្រទាំងអស់",
+      "reply": "ឆ្លើយតប"
+    },
+    "kinds": {
+      "profile": "ប្រវត្តិរូប",
+      "post": "ការបង្ហោះ",
+      "encryptedMessage": "សារដែលអ៊ិនគ្រីប",
+      "repost": "ការបង្ហោះម្ដងទៀត",
+      "reaction": "ការឆ្លើយតប",
+      "badgeAward": "ការផ្ដល់ផ្លាកសញ្ញា",
+      "photo": "រូបថត",
+      "video": "វីដេអូ",
+      "requestToVanish": "សំណើបាត់ខ្លួន",
+      "file": "ឯកសារ",
+      "poll": "ការស្ទង់មតិ",
+      "comment": "មតិយោបល់",
+      "voiceMessage": "សារសំឡេង",
+      "patch": "patch",
+      "pullRequest": "pull request",
+      "highlight": "ការបន្លិច",
+      "birdDetection": "ការរកឃើញសត្វស្លាប",
+      "birdex": "Birdex",
+      "colorMoment": "ពេលវេលាពណ៌",
+      "foundLog": "កំណត់ហេតុរកឃើញ",
+      "nsite": "nsite",
+      "profileBadges": "ផ្លាកសញ្ញាប្រវត្តិរូប",
+      "badge": "ផ្លាកសញ្ញា",
+      "article": "អត្ថបទ",
+      "emojiPack": "កញ្ចប់អេម៉ូជី",
+      "podcastEpisode": "វគ្គ podcast",
+      "podcastTrailer": "ការមើលជាមុន podcast",
+      "zapstoreAsset": "ទ្រព្យ Zapstore",
+      "zapstoreRelease": "ការចេញផ្សាយ Zapstore",
+      "stream": "ការផ្សាយផ្ទាល់",
+      "status": "ស្ថានភាព",
+      "repository": "ឃ្លាំង",
+      "customNip": "NIP កំណត់ផ្ទាល់ខ្លួន",
+      "calendarEvent": "ព្រឹត្តិការណ៍ប្រតិទិន",
+      "zapstoreApp": "កម្មវិធី Zapstore",
+      "playlist": "បញ្ជីចាក់",
+      "divine": "ការទស្សន៍ទាយ",
+      "community": "សហគមន៍",
+      "goal": "គោលដៅ",
+      "track": "បទ",
+      "magicDeck": "ឆ្នុក Magic",
+      "treasure": "កំណប់",
+      "constellation": "រាសីផ្កាយ",
+      "followPack": "កញ្ចប់ការតាមដាន"
+    }
+  },
+  "notifSettings": {
+    "seoTitle": "ការជូនដំណឹង",
+    "seoDescription": "កំណត់ចំណូលចិត្តការជូនដំណឹងរបស់អ្នក",
+    "title": "ការជូនដំណឹង",
+    "pushHeading": "ការជូនដំណឹង Push",
+    "enablePush": {
+      "label": "បើកការជូនដំណឹង Push",
+      "description": "ទទួលការជូនដំណឹងសម្រាប់សកម្មភាពលើការបង្ហោះរបស់អ្នក"
+    },
+    "unsupported": "កម្មវិធីរុករករបស់អ្នកមិនគាំទ្រការជូនដំណឹង push ទេ។",
+    "denied": "ការជូនដំណឹងត្រូវបានបិទ។ ធ្វើបច្ចុប្បន្នភាពការកំណត់កម្មវិធីរុករករបស់អ្នកដើម្បីអនុញ្ញាតការជូនដំណឹងពីគេហទំព័រនេះ។",
+    "deliveryMethod": {
+      "heading": "វិធីសាស្ត្រដឹកជញ្ជូន",
+      "intro": "ជ្រើសរើសរបៀបដែលការជូនដំណឹងត្រូវបានដឹកជញ្ជូនមកឧបករណ៍របស់អ្នក។",
+      "push": {
+        "label": "Push",
+        "description": "ការជូនដំណឹងស្តង់ដារ។ គ្មានរូបតំណាងស្ថិរនៅរបារស្ថានភាពទេ។"
+      },
+      "persistent": {
+        "label": "ស្ថិរ",
+        "description": "ប្រឹក្សាម៉ាស៊ីនបញ្ជូនបន្តដោយផ្ទាល់នៅផ្ទៃខាងក្រោយសម្រាប់ការជូនដំណឹងថ្មី។ ប្រើនេះសម្រាប់ការដឹកជញ្ជូនដែលជឿទុកចិត្តបាននៅលើឧបករណ៍ដែលគ្មានការគាំទ្រការជូនដំណឹង push ។"
+      }
+    },
+    "notifyAbout": {
+      "heading": "ជូនដំណឹងខ្ញុំអំពី",
+      "filterHeading": "ត្រង",
+      "typesHeading": "ប្រភេទ",
+      "onlyFollowing": {
+        "label": "តែពីអ្នកដែលខ្ញុំតាមដាន",
+        "description": "លាក់ការជូនដំណឹងពីគណនីដែលអ្នកមិនតាមដាន"
+      }
+    },
+    "types": {
+      "reactions": {
+        "label": "ការឆ្លើយតប",
+        "description": "នៅពេលនរណាម្នាក់ឆ្លើយតបទៅការបង្ហោះរបស់អ្នក"
+      },
+      "reposts": {
+        "label": "ការបង្ហោះម្ដងទៀត",
+        "description": "នៅពេលនរណាម្នាក់បង្ហោះកំណត់ត្រារបស់អ្នកម្ដងទៀត"
+      },
+      "zaps": {
+        "label": "Zaps",
+        "description": "នៅពេលនរណាម្នាក់ផ្ញើ zap មកអ្នកតាមរយៈ Lightning ឬលើខ្សែសង្វាក់"
+      },
+      "mentions": {
+        "label": "ការនិយាយដល់",
+        "description": "នៅពេលនរណាម្នាក់និយាយដល់អ្នកនៅក្នុងកំណត់ត្រា"
+      },
+      "comments": {
+        "label": "មតិយោបល់ និងការឆ្លើយតប",
+        "description": "នៅពេលនរណាម្នាក់ផ្ដល់មតិឬឆ្លើយតបទៅការបង្ហោះរបស់អ្នក"
+      },
+      "badges": {
+        "label": "ការផ្ដល់ផ្លាកសញ្ញា",
+        "description": "នៅពេលនរណាម្នាក់ផ្ដល់ផ្លាកសញ្ញាដល់អ្នក"
+      },
+      "letters": {
+        "label": "សំបុត្រ",
+        "description": "នៅពេលនរណាម្នាក់ផ្ញើសំបុត្រមកអ្នក"
+      },
+      "highlights": {
+        "label": "ការបន្លិច",
+        "description": "នៅពេលនរណាម្នាក់បន្លិចមាតិការបស់អ្នក"
+      }
+    },
+    "toast": {
+      "enableFailedTitle": "ការបើកការជូនដំណឹងបរាជ័យ",
+      "enableFailedDesc": "សូមព្យាយាមម្ដងទៀត។"
+    }
+  },
+  "search": {
+    "seoTitle": "ស្វែងរក",
+    "seoDescription": "ស្វែងរក Nostr",
+    "title": "ស្វែងរក",
+    "inputPlaceholder": "ស្វែងរក",
+    "filtersAria": "តម្រងស្វែងរក",
+    "tabs": {
+      "agora": "អាហ្គូរ៉ា",
+      "nostr": "Nostr",
+      "accounts": "អ្នកប្រើប្រាស់"
+    },
+    "filters": {
+      "title": "តម្រង",
+      "reset": "កំណត់ឡើងវិញ",
+      "from": "ពី",
+      "sort": "តម្រៀប",
+      "media": "មេឌា",
+      "protocol": "ប្រូតូកូល",
+      "language": "ភាសា",
+      "kind": "ប្រភេទ",
+      "kindCustomPlaceholder": "ឧ. 1, 30023",
+      "includeReplies": "រួមបញ្ចូលការឆ្លើយតប",
+      "authorScope": {
+        "anyone": "អ្នកណាក៏បាន",
+        "follows": "ដែលខ្ញុំតាមដាន",
+        "people": "មនុស្ស"
+      },
+      "sortOptions": {
+        "recent": "ថ្មីៗ",
+        "hot": "ក្ដៅ",
+        "trending": "និន្នាការ"
+      },
+      "mediaOptions": {
+        "all": "ទាំងអស់",
+        "images": "រូបភាព",
+        "videos": "វីដេអូ",
+        "shorts": "ខ្លី",
+        "none": "គ្មានមេឌា"
+      },
+      "protocolOptions": {
+        "nostr": "Nostr",
+        "mastodon": "Mastodon",
+        "bluesky": "Bluesky"
+      },
+      "langOptions": {
+        "global": "សកល",
+        "en": "អង់គ្លេស",
+        "es": "អេស្ប៉ាញ",
+        "fr": "បារាំង",
+        "de": "អាល្លឺម៉ង់",
+        "ja": "ជប៉ុន",
+        "zh": "ចិន"
+      }
+    },
+    "chips": {
+      "noReplies": "គ្មានការឆ្លើយតប",
+      "images": "រូបភាព",
+      "videos": "វីដេអូ",
+      "shortsAndDivines": "ខ្លី និង Divines",
+      "noMedia": "គ្មានមេឌា",
+      "mastodon": "Mastodon",
+      "bluesky": "Bluesky",
+      "hot": "ក្ដៅ",
+      "trending": "និន្នាការ",
+      "allKinds": "គ្រប់ប្រភេទ",
+      "customKind": "ប្រភេទ៖ {{kind}}",
+      "kindNumber": "ប្រភេទ {{kind}}",
+      "kindsCount_one": "{{count}} ប្រភេទ",
+      "kindsCount_other": "{{count}} ប្រភេទ",
+      "myFollows": "អ្នកដែលខ្ញុំតាមដាន",
+      "authorsCount_one": "{{count}} អ្នកនិពន្ធ",
+      "authorsCount_other": "{{count}} អ្នកនិពន្ធ"
+    },
+    "clear": "លុប",
+    "searchLabel": "ស្វែងរក៖",
+    "newPosts_one": "ការបង្ហោះថ្មី {{count}}",
+    "newPosts_other": "ការបង្ហោះថ្មី {{count}}",
+    "following": "កំពុងតាមដាន",
+    "botAccount": "គណនីបូត",
+    "empty": {
+      "posts": "រកមិនឃើញលទ្ធផលដែលត្រូវនឹងការស្វែងរករបស់អ្នកទេ។",
+      "postsPrompt": "បញ្ចូលពាក្យស្វែងរកដើម្បីរកមាតិកា Nostr។",
+      "accounts": "រកមិនឃើញអ្នកប្រើប្រាស់ដែលត្រូវនឹងការស្វែងរករបស់អ្នកទេ។",
+      "followsPrompt": "ស្វែងរកមនុស្សតាមឈ្មោះ ឬអាសយដ្ឋាន NIP-05។",
+      "agora": "រកមិនឃើញយុទ្ធនាការ pledges ឬក្រុម Agora ដែលត្រូវនឹងការស្វែងរករបស់អ្នកទេ។",
+      "agoraPrompt": "ស្វែងរកយុទ្ធនាការ pledges និងក្រុម Agora ឬរុករកអ្វីដែលថ្មីបំផុត។",
+      "activeFilters": "តម្រងសកម្ម៖",
+      "clearAll": "លុបតម្រងទាំងអស់"
+    }
+  },
+  "profile": {
+    "seoDescriptionFallback": "ប្រវត្តិរូប Nostr",
+    "anonymous": "អនាមិក",
+    "namePlaceholder": "ឈ្មោះរបស់អ្នក",
+    "userNotFound": "មិនបានរកឃើញអ្នកប្រើ។",
+    "userNotFoundNip05": "មិនបានរកឃើញអ្នកប្រើ៖ {{handle}}",
+    "couldNotResolveNip05": "មិនអាចបកស្រាយឧបករណ៍សម្គាល់ NIP-05 នេះបានទេ។",
+    "tabs": {
+      "overview": "ទិដ្ឋភាពទូទៅ",
+      "verified": "បានផ្ទៀងផ្ទាត់",
+      "activity": "សកម្មភាព",
+      "campaigns": "យុទ្ធនាការ",
+      "groups": "ក្រុម",
+      "pledges": "ការសន្យា"
+    },
+    "header": {
+      "editProfile": "កែ",
+      "shareFollowLink": "ចែករំលែកតំណតាមដាន",
+      "moreOptions": "ជម្រើសច្រើនទៀត",
+      "donate": "បរិច្ចាគ",
+      "campaignGoal": "គោលដៅ ${{amount}}"
+    },
+    "stats": {
+      "followers": "អ្នកតាមដាន",
+      "following": "កំពុងតាមដាន",
+      "raised": "បានប្រមូល",
+      "followersTitle_one": "អ្នកតាមដាន {{count}} នាក់",
+      "followersTitle_other": "អ្នកតាមដាន {{count}} នាក់",
+      "followingTitle": "កំពុងតាមដាន {{count}}"
+    },
+    "sections": {
+      "profile": "ប្រវត្តិរូប",
+      "campaigns": "យុទ្ធនាការ",
+      "latestPledge": "ការសន្យាចុងក្រោយ",
+      "groups": "ក្រុម",
+      "seeAllCampaigns_one": "មើលយុទ្ធនាការទាំងអស់ {{count}} →",
+      "seeAllCampaigns_other": "មើលយុទ្ធនាការទាំងអស់ {{count}} →",
+      "viewCampaignsTab": "មើលផ្ទាំងយុទ្ធនាការ →",
+      "seeAllPledges_one": "មើលការសន្យាទាំងអស់ {{count}} →",
+      "seeAllPledges_other": "មើលការសន្យាទាំងអស់ {{count}} →",
+      "seeAllGroups": "មើលទាំងអស់ {{count}} →"
+    },
+    "badges": {
+      "founder": "ស្ថាបនិក",
+      "moderator": "អ្នកសម្របសម្រួល",
+      "mod": "អ្នកសម្របសម្រួល",
+      "ended": "បានបញ្ចប់",
+      "pledged": "បានសន្យា"
+    },
+    "imageMenu": {
+      "upload": "ផ្ទុកឯកសារឡើង",
+      "pasteUrl": "បិទភ្ជាប់ URL",
+      "remove": "លុបចេញ"
+    },
+    "websitePlaceholder": "https://your-website.com",
+    "moreMenu": {
+      "title": "ជម្រើសប្រវត្តិរូប",
+      "copyPubkey": "ចម្លងសោសាធារណៈ",
+      "copyLink": "ចម្លងតំណប្រវត្តិរូប",
+      "addToList": "បន្ថែមទៅបញ្ជី",
+      "shareFollowLink": "ចែករំលែកតំណតាមដាន",
+      "profileRecovery": "ការសង្គ្រោះប្រវត្តិរូប",
+      "zap": "Zap",
+      "awardBadge": "ផ្តល់សញ្ញាសម្គាល់",
+      "writeLetter": "សរសេរសំបុត្រ",
+      "mute": "បិទសំឡេង @{{name}}",
+      "unmute": "បើកសំឡេង @{{name}}",
+      "report": "រាយការណ៍ @{{name}}",
+      "close": "បិទ"
+    },
+    "toast": {
+      "pubkeyCopied": "បានចម្លងសោសាធារណៈទៅក្ដារតម្បៀតខ្ទាស់",
+      "linkCopied": "បានចម្លងតំណប្រវត្តិរូបទៅក្ដារតម្បៀតខ្ទាស់",
+      "muted": "បានបិទសំឡេង @{{name}}",
+      "unmuted": "បានបើកសំឡេង @{{name}}",
+      "muteFailed": "បរាជ័យក្នុងការបិទសំឡេងអ្នកប្រើ",
+      "unmuteFailed": "បរាជ័យក្នុងការបើកសំឡេង",
+      "followed": "កំពុងតាមដាន @{{name}}",
+      "unfollowed": "បានឈប់តាមដាន @{{name}}",
+      "followFailed": "បរាជ័យក្នុងការធ្វើបច្ចុប្បន្នភាពបញ្ជីតាមដាន",
+      "btcAddressCopied": "បានចម្លងអាសយដ្ឋាន Bitcoin ទៅក្ដារតម្បៀតខ្ទាស់"
+    },
+    "followingModal": {
+      "title": "{{name}} កំពុងតាមដាន",
+      "empty": "មិនទាន់តាមដាននរណាម្នាក់ទេ។"
+    },
+    "followersModal": {
+      "title": "អ្នកតាមដាន​ {{name}}",
+      "empty": "មិនបានរកឃើញអ្នកតាមដាន។"
+    },
+    "bitcoinModal": {
+      "title": "Bitcoin",
+      "qrAlt": "QR Code Bitcoin",
+      "copyAddress": "ចម្លងអាសយដ្ឋាន",
+      "showQr": "បង្ហាញ QR Code",
+      "viewOnMempool": "មើលលើ mempool.space"
+    },
+    "lightbox": {
+      "openOriginal": "បើកដើម",
+      "close": "បិទ (Esc)",
+      "imageAlt": "រូបភាពប្រវត្តិរូប"
+    },
+    "activity": {
+      "empty": "មិនមានសកម្មភាពពី {{name}} នៅឡើយទេ។ ការប្រកាស យុទ្ធនាការ ការសន្យា និងការបរិច្ចាគទាំងអស់នឹងបង្ហាញនៅទីនេះ។"
+    },
+    "campaigns": {
+      "count_one": "យុទ្ធនាការ {{count}}",
+      "count_other": "យុទ្ធនាការ {{count}}",
+      "sortNew": "ថ្មី",
+      "sortTop": "កំពូល",
+      "showHidden": "បង្ហាញបានលាក់",
+      "hideHidden": "លាក់បានលាក់",
+      "emptySelf": "អ្នកមិនទាន់បានបើកយុទ្ធនាការនៅឡើយ។",
+      "emptyOther": "{{name}} មិនទាន់បានបើកយុទ្ធនាការនៅឡើយ។",
+      "startLink": "ចាប់ផ្តើមយុទ្ធនាការ →"
+    },
+    "verified": {
+      "count_one": "យុទ្ធនាការដែលបានផ្ទៀងផ្ទាត់ {{count}}",
+      "count_other": "យុទ្ធនាការដែលបានផ្ទៀងផ្ទាត់ {{count}}",
+      "empty": "{{name}} មិនទាន់បានផ្ទៀងផ្ទាត់យុទ្ធនាការណាមួយនៅឡើយ។"
+    },
+    "pledgesTab": {
+      "active": "សកម្ម",
+      "ended": "បានបញ្ចប់",
+      "emptySelf": "អ្នកមិនទាន់បានបង្កើតការសន្យានៅឡើយ។",
+      "emptyOther": "{{name}} មិនទាន់បានបង្កើតការសន្យានៅឡើយ។",
+      "createLink": "បង្កើតការសន្យា →"
+    },
+    "groupsDialog": {
+      "title": "ក្រុមទាំងអស់"
+    }
+  },
+  "profileSettings": {
+    "seoTitle": "ប្រវត្តិរូប | ការកំណត់",
+    "seoDescription": "កែសម្រួលប្រវត្តិរូប {{appName}} របស់អ្នក",
+    "header": {
+      "title": "ប្រវត្តិរូប",
+      "save": "រក្សាទុក"
+    },
+    "uploading": "កំពុងផ្ទុកឡើង…",
+    "fields": {
+      "heading": "វាលប្រវត្តិរូប",
+      "website": "វេបសាយ",
+      "websitePlaceholder": "https://yourwebsite.com",
+      "lightning": "Lightning",
+      "lightningPlaceholder": "you@walletofsatoshi.com",
+      "labelPlaceholder": "ស្លាក",
+      "tickerPlaceholder": "ស្លាកសញ្ញា",
+      "addressPlaceholder": "អាសយដ្ឋាន",
+      "valuePlaceholder": "តម្លៃឬ URL",
+      "mediaPlaceholder": "ផ្ទុកឡើងឯកសារឬបិទភ្ជាប់តំណផ្ទាល់",
+      "chooseFile": "ជ្រើសរើសឯកសារដើម្បីផ្ទុកឡើង",
+      "chooseMediaFile": "ជ្រើសរើសឯកសារមេឌៀដើម្បីផ្ទុកឡើង"
+    },
+    "presets": {
+      "music": {
+        "label": "តន្ត្រី",
+        "description": "ផ្ទុកឡើងបទចម្រៀងឬឯកសារសំឡេង",
+        "valuePlaceholder": "ផ្ទុកឡើងសំឡេងឬបិទភ្ជាប់តំណផ្ទាល់"
+      },
+      "photo": {
+        "label": "រូបថត",
+        "description": "ផ្ទុកឡើងរូបភាព",
+        "valuePlaceholder": "ផ្ទុកឡើងរូបភាពឬបិទភ្ជាប់តំណផ្ទាល់"
+      },
+      "video": {
+        "label": "វីដេអូ",
+        "description": "ផ្ទុកឡើងវីដេអូ",
+        "valuePlaceholder": "ផ្ទុកឡើងវីដេអូឬបិទភ្ជាប់តំណផ្ទាល់"
+      },
+      "email": {
+        "label": "អ៊ីមែល",
+        "defaultLabel": "អ៊ីមែល",
+        "description": "អាសយដ្ឋានអ៊ីមែលទំនាក់ទំនង",
+        "valuePlaceholder": "you@example.com"
+      },
+      "wallet": {
+        "label": "កាបូប",
+        "description": "អាសយដ្ឋានកាបូបគ្រីបតូ",
+        "valuePlaceholder": "អាសយដ្ឋាន"
+      },
+      "link": {
+        "label": "តំណ",
+        "description": "តំណទៅគេហទំព័រឬប្រវត្តិរូបណាមួយ",
+        "valuePlaceholder": "https://..."
+      },
+      "weather": {
+        "label": "អាកាសធាតុ",
+        "defaultLabel": "អាកាសធាតុ",
+        "description": "ភ្ជាប់ស្ថានីយ៍អាកាសធាតុ Nostr",
+        "valuePlaceholder": "npub1... ឬ naddr1... (#station-id ស្រេចចិត្ត)"
+      },
+      "custom": {
+        "label": "ផ្ទាល់ខ្លួន",
+        "description": "បង្កើតវាលផ្ទាល់ខ្លួនណាមួយ",
+        "valuePlaceholder": "តម្លៃឬ URL"
+      }
+    },
+    "warnings": {
+      "audioWrongType": "URL នេះមិនចង្អុលទៅឯកសារសំឡេងទេ។ ផ្ទុកឡើងឯកសារសំឡេងឬប្រើតំណផ្ទាល់ដែលបញ្ចប់ដោយ .mp3, .ogg, .wav ជាដើម។",
+      "audioUnknown": "URL នេះប្រហែលជាមិនដំណើរការជាកម្មវិធីលេងសំឡេងទេ។ សម្រាប់លទ្ធផលល្អបំផុត ផ្ទុកឡើងឯកសារដោយប្រើប៊ូតុងឬបិទភ្ជាប់តំណផ្ទាល់ទៅឯកសារសំឡេង។",
+      "imageWrongType": "URL នេះមិនចង្អុលទៅរូបភាពទេ។ ផ្ទុកឡើងរូបភាពឬប្រើតំណផ្ទាល់ដែលបញ្ចប់ដោយ .jpg, .png, .webp ជាដើម។",
+      "imageUnknown": "URL នេះប្រហែលជាមិនបង្ហាញជារូបភាពទេ។ សម្រាប់លទ្ធផលល្អបំផុត ផ្ទុកឡើងឯកសារដោយប្រើប៊ូតុងឬបិទភ្ជាប់តំណផ្ទាល់ទៅឯកសាររូបភាព។",
+      "videoWrongType": "URL នេះមិនចង្អុលទៅវីដេអូទេ។ ផ្ទុកឡើងវីដេអូឬប្រើតំណផ្ទាល់ដែលបញ្ចប់ដោយ .mp4, .webm, .mov ជាដើម។",
+      "videoUnknown": "URL នេះប្រហែលជាមិនបង្ហាញជាវីដេអូទេ។ សម្រាប់លទ្ធផលល្អបំផុត ផ្ទុកឡើងឯកសារដោយប្រើប៊ូតុងឬបិទភ្ជាប់តំណផ្ទាល់ទៅឯកសារវីដេអូ។"
+    },
+    "crop": {
+      "profile": "កាត់រូបប្រវត្តិរូប",
+      "banner": "កាត់ផ្ទាំងបដា"
+    },
+    "mobilePreview": "មើលជាមុនវាលប្រវត្តិរូប",
+    "advanced": {
+      "heading": "កម្រិតខ្ពស់",
+      "botLabel": "គណនី Bot",
+      "botDescription": "សម្គាល់គណនីនេះថាស្វ័យប្រវត្តិ"
+    },
+    "toast": {
+      "uploaded": "បានផ្ទុកឡើង",
+      "mediaUploaded": "បានផ្ទុកឡើងឯកសារមេឌៀ",
+      "uploadFailed": "ការផ្ទុកឡើងបរាជ័យ",
+      "tryAgain": "សូមព្យាយាមម្តងទៀត។",
+      "profilePictureUpdated": "រូបប្រវត្តិរូបបានធ្វើបច្ចុប្បន្នភាព",
+      "bannerUpdated": "ផ្ទាំងបដាបានធ្វើបច្ចុប្បន្នភាព",
+      "profileSaved": "បានរក្សាទុកប្រវត្តិរូប",
+      "saveFailed": "មិនអាចរក្សាទុកប្រវត្តិរូបបានទេ។"
+    },
+    "key": {
+      "heading": "សោរបស់អ្នក",
+      "extensionBody": "អ្នកបានចូលដោយប្រើផ្នែកបន្ថែមកម្មវិធីរុករក (NIP-07)។ សោសម្ងាត់របស់អ្នកត្រូវបានរក្សាទុកនៅទីនោះ — គ្រប់គ្រងឬនាំចេញវាពីផ្នែកបន្ថែមផ្ទាល់។",
+      "bunkerBody": "អ្នកបានចូលដោយប្រើអ្នកចុះហត្ថលេខាពីចម្ងាយ (NIP-46)។ សោសម្ងាត់របស់អ្នកត្រូវបានកាន់កាប់ដោយអ្នកចុះហត្ថលេខានោះ និងមិនអាចនាំចេញពី {{appName}} បានទេ។",
+      "explainer": "សោសម្ងាត់នេះគ្រប់គ្រងគណនីរបស់អ្នកនៅលើ {{appName}} ហើយជា seed សម្រាប់កាបូប Bitcoin របស់អ្នក។ អ្នកណាដែលមានសោនេះអាចបង្ហោះជាអ្នក និងចំណាយ Bitcoin របស់អ្នកបាន។ ទុកវានៅក្នុងកម្មវិធីគ្រប់គ្រងពាក្យសម្ងាត់ឬកន្លែងផ្សេងដែលមានតែអ្នកទេអាចចូលប្រើបាន។ បើអ្នកចង់នាំចូលកាបូប Bitcoin ទៅកម្មវិធីផ្សេង សូមប្រើឃ្លា seed ខាងក្រោម — វាមានសុវត្ថិភាពជាងក្នុងការចែករំលែក គ្រប់គ្រងតែកាបូបប៉ុណ្ណោះ ហើយមិនអាចបន្លំខ្លួនជាអ្នកបានទេ។",
+      "warning": "កុំចែករំលែកសោសម្ងាត់របស់អ្នកជាមួយនរណាម្នាក់។ ជៀសវាងការថតអេក្រង់វាឬបិទភ្ជាប់វានៅកន្លែងណាមួយក្រៅពីកម្មវិធីគ្រប់គ្រងពាក្យសម្ងាត់។ បើបានចែករំលែក អ្នកដទៃនឹងអាចចូលប្រើគណនីរបស់អ្នកបាន។",
+      "aria": "សោសម្ងាត់របស់អ្នក",
+      "copyAria": "ចម្លងសោសម្ងាត់",
+      "revealAria": "បង្ហាញសោសម្ងាត់",
+      "hideAria": "លាក់សោសម្ងាត់",
+      "backupButton": "បម្រុងទុកសោ",
+      "saving": "កំពុងរក្សាទុក…",
+      "saved": "បានរក្សាទុកសោសម្ងាត់",
+      "savedToFile": "សោសម្ងាត់របស់អ្នកត្រូវបានរក្សាទុកនៅក្នុងថត Documents លើឧបករណ៍របស់អ្នក។",
+      "saveFailed": "ការរក្សាទុកបរាជ័យ",
+      "saveFailedDescription": "មិនអាចរក្សាទុកសោបានទេ។ សូមចម្លងវាដោយដៃ។",
+      "copyFailed": "ការចម្លងបរាជ័យ",
+      "copyFailedDescription": "មិនអាចចូលប្រើក្ដារតម្បៀតខ្ទាស់បានទេ។ បង្ហាញសោហើយចម្លងវាដោយដៃ។"
+    }
+  },
+  "compose": {
+    "placeholderDefault": "មានរឿងអ្វី?",
+    "placeholderPoll": "សួរសំណួរ…",
+    "placeholderCountry": "មានរឿងអ្វីនៅ {{country}}?",
+    "placeholderCwReason": "មូលហេតុនៃការព្រមាន (ស្រេចចិត្ត)",
+    "submitDefault": "ប្រកាស!",
+    "preview": {
+      "edit": "កែសម្រួល",
+      "previewMode": "មើលជាមុន"
+    },
+    "autocomplete": {
+      "campaignFallback": "យុទ្ធនាការ"
+    },
+    "poll": {
+      "addOption": "បន្ថែមជម្រើស",
+      "optionLabel": "ជម្រើស {{number}}",
+      "singleChoice": "ជម្រើសតែមួយ",
+      "multipleChoice": "ជម្រើសច្រើន",
+      "backToPost": "ត្រឡប់ទៅប្រកាស",
+      "publishing": "កំពុងបោះពុម្ព...",
+      "publish": "បោះពុម្ពការស្ទង់មតិ",
+      "published": "បោះពុម្ពការស្ទង់មតិហើយ!",
+      "publishFailed": "មិនអាចបោះពុម្ពការស្ទង់មតិបានទេ។"
+    },
+    "voice": {
+      "cancel": "បោះបង់",
+      "send": "ផ្ញើ",
+      "sending": "កំពុងផ្ញើ...",
+      "sentTitle": "បានផ្ញើសារសំឡេង!",
+      "sentBody": "សារសំឡេងរបស់អ្នកត្រូវបានបោះពុម្ព។",
+      "sendFailed": "មិនអាចផ្ញើសារសំឡេងបានទេ។",
+      "micDeniedTitle": "ការចូលប្រើមីក្រូហ្វូនត្រូវបានបដិសេធ",
+      "micDeniedBody": "សូមអនុញ្ញាតការចូលប្រើមីក្រូហ្វូនដើម្បីថតសារសំឡេង។",
+      "voiceMessage": "សារសំឡេង"
+    },
+    "toolbar": {
+      "attachFile": "ភ្ជាប់ឯកសារ",
+      "emojiGif": "Emoji / GIF",
+      "more": "បន្ថែម",
+      "poll": "ស្ទង់មតិ",
+      "spoiler": "Spoiler",
+      "emoji": "Emoji",
+      "stickers": "ស្ទីកឃ័រ"
+    },
+    "submit": {
+      "posting": "កំពុងបោះពុម្ព...",
+      "uploadFailed": "ការផ្ទុកឡើងបរាជ័យ",
+      "uploadFailedBody": "មិនអាចផ្ទុកឡើងឯកសារបានទេ។",
+      "publishFailed": "មិនអាចបោះពុម្ពកំណត់ត្រាបានទេ។",
+      "posted": "បានបោះពុម្ព!",
+      "replyPublished": "ការឆ្លើយតបរបស់អ្នកបានបោះពុម្ព។",
+      "quotePublished": "ការដកស្រង់របស់អ្នកបានបោះពុម្ព។",
+      "notePublished": "កំណត់ត្រារបស់អ្នកបានបោះពុម្ព។"
+    },
+    "destination": {
+      "label": "បោះពុម្ពទៅ",
+      "ariaHelp": "តើមានភាពខុសគ្នាអ្វីខ្លះរវាងការប្រកាសសកល និងការប្រកាសសហគមន៍?",
+      "ariaTrigger": "ទីដៅប្រកាស",
+      "global": "សកល",
+      "globalExplainer": "ការប្រកាសធម្មតាដែលអាចមើលឃើញដោយអ្នកគ្រប់គ្នានៅលើ Nostr។ នរណាក៏អាចមើលឃើញដែរ។",
+      "community": "សហគមន៍ប្រទេសរបស់អ្នក",
+      "communityExplainer": "បង្ហាញនៅក្នុង Feed ក្នុងស្រុករបស់ប្រទេសនោះ ជាមួយការប្រកាសរបស់អ្នកជិតខាង។ ល្អបំផុតសម្រាប់ព័ត៌មានទាក់ទងសហគមន៍។",
+      "chooseAnother": "ជ្រើសប្រទេសផ្សេង…",
+      "searchPlaceholder": "ស្វែងរកប្រទេស...",
+      "noResults": "មិនបានរកឃើញប្រទេស។",
+      "isDefault": "{{name}} គឺជាលំនាំដើមរបស់អ្នក",
+      "globalIsDefault": "សកលគឺជាលំនាំដើមរបស់អ្នក",
+      "thisIsDefault": "នេះគឺជាលំនាំដើមរបស់អ្នក",
+      "setAsDefault": "កំណត់ជាលំនាំដើម",
+      "defaultUpdated": "បានធ្វើបច្ចុប្បន្នភាពលំនាំដើម",
+      "defaultUpdatedCountry": "ការប្រកាសថ្មីនឹងទៅ {{name}} តាមលំនាំដើម។",
+      "defaultUpdatedGlobal": "ការប្រកាសថ្មីនឹងជាសកលតាមលំនាំដើម។"
+    }
+  },
+  "replyModal": {
+    "title": {
+      "newPoll": "ការស្ទង់មតិថ្មី",
+      "newComment": "មតិយោបល់ថ្មី",
+      "commentOnProfile": "មតិលើប្រវត្តិរូប",
+      "replyToPost": "ឆ្លើយតបទៅប្រកាស",
+      "quotePost": "ដកស្រង់ប្រកាស",
+      "newPost": "ប្រកាសថ្មី"
+    },
+    "placeholder": {
+      "writeComment": "សរសេរមតិយោបល់...",
+      "writeReply": "សរសេរការឆ្លើយតប...",
+      "addComment": "បន្ថែមមតិយោបល់...",
+      "whatsHappening": "មានរឿងអ្វី?"
+    },
+    "blueskyDisclaimer": "មនុស្សនៅលើ Bluesky មិនអាចមើលឃើញអ្នកទេ ព្រោះតាមពិតពួកគេមិនមែនជាការវិមជ្ឈការទេ។"
+  },
+  "postDetail": {
+    "repliesHeading": "ការឆ្លើយតប",
+    "commentsHeading": "មតិយោបល់",
+    "replyCount_one": "ការឆ្លើយតប",
+    "replyCount_other": "ការឆ្លើយតប",
+    "commentCount_one": "មតិយោបល់",
+    "commentCount_other": "មតិយោបល់"
+  },
+  "noteCard": {
+    "botAccount": "គណនី Bot",
+    "showLess": "បង្ហាញតិច",
+    "readMore": "អានបន្ថែម",
+    "reacted": "បានឆ្លើយតប",
+    "reposted": "បានប្រកាសឡើងវិញ",
+    "voted": "បានបោះឆ្នោត",
+    "zap": {
+      "donatedTo": "បានបរិច្ចាគទៅ",
+      "donatedAmountTo": "បានបរិច្ចាគ {{amount}} ទៅ",
+      "sat_one": "{{formattedCount}} sat",
+      "sat_other": "{{formattedCount}} sats"
+    },
+    "stream": {
+      "untitled": "ការផ្សាយដែលគ្មានចំណងជើង",
+      "live": "ផ្សាយផ្ទាល់",
+      "ended": "បានបញ្ចប់",
+      "planned": "បានគ្រោងទុក",
+      "unknown": "មិនស្គាល់"
+    },
+    "kindHeader": {
+      "photo": {
+        "action": "បានចែករំលែក",
+        "noun": "រូបថត"
+      },
+      "encryptedMessage": {
+        "action": "បានផ្ញើ",
+        "noun": "សារដែលបានបម្លែង"
+      },
+      "letter": {
+        "action": "បានផ្ញើ",
+        "noun": "សំបុត្រ"
+      },
+      "treasureHidCreated": "បានលាក់",
+      "treasureHidUpdated": "បានធ្វើបច្ចុប្បន្នភាព",
+      "treasureNoun": "កំណប់",
+      "treasureFound": "បានរកឃើញ",
+      "deckCreated": "បានបង្កើត",
+      "deckUpdated": "បានធ្វើបច្ចុប្បន្នភាព",
+      "deckFallback": "បានចែករំលែក",
+      "deckNoun": "សន្លឹក",
+      "emojiPackCreated": "បានបង្កើត",
+      "emojiPackUpdated": "បានធ្វើបច្ចុប្បន្នភាព",
+      "emojiPackFallback": "បានចែករំលែក",
+      "emojiPackNoun": "កញ្ចប់ Emoji",
+      "groupCreated": "បានបង្កើត",
+      "groupUpdated": "បានធ្វើបច្ចុប្បន្នភាព",
+      "groupFallback": "បានចែករំលែក",
+      "groupNoun": "ក្រុម",
+      "campaignLaunched": "បានបើកដំណើរការ",
+      "campaignUpdated": "បានធ្វើបច្ចុប្បន្នភាព",
+      "campaignFallback": "បានចែករំលែក",
+      "campaignNoun": "យុទ្ធនាការ",
+      "badgeAwarded": "បានផ្តល់",
+      "badgeNoun": "សញ្ញាសម្គាល់",
+      "badgeCreated": "បានបង្កើត",
+      "badgeDefUpdated": "បានធ្វើបច្ចុប្បន្នភាព",
+      "badgesNoun": "សញ្ញាសម្គាល់",
+      "badgesCreatedTheir": "បានបង្កើត",
+      "badgesUpdatedTheir": "បានធ្វើបច្ចុប្បន្នភាព",
+      "streamingLive": "កំពុងផ្សាយផ្ទាល់",
+      "streamed": "បានផ្សាយ",
+      "zapstoreAppPublished": "បានបោះពុម្ភ Zapstore app",
+      "zapstoreAppUpdated": "បានធ្វើបច្ចុប្បន្នភាព Zapstore app",
+      "zapstoreReleasePublished": "បានបោះពុម្ភ Zapstore release",
+      "zapstoreReleaseUpdated": "បានធ្វើបច្ចុប្បន្នភាព Zapstore release",
+      "zapstoreAssetPublished": "បានបោះពុម្ភ Zapstore asset",
+      "appPublished": "បានបោះពុម្ភកម្មវិធី",
+      "appUpdated": "បានធ្វើបច្ចុប្បន្នភាពកម្មវិធី",
+      "repoCreated": "បានបង្កើត",
+      "repoUpdated": "បានធ្វើបច្ចុប្បន្នភាព",
+      "repoFallback": "បានចែករំលែក",
+      "repoNoun": "repository",
+      "patchSubmitted": "បានដាក់ស្នើ",
+      "patchNoun": "patch",
+      "prOpened": "បានបើក",
+      "prNoun": "pull request",
+      "nipProposed": "បានស្នើ",
+      "nipUpdated": "បានធ្វើបច្ចុប្បន្នភាព",
+      "nipNoun": "NIP",
+      "nsiteDeployed": "បានដាក់ឱ្យដំណើរការ",
+      "nsiteRedeployed": "បានដាក់ឱ្យដំណើរការឡើងវិញ",
+      "nsiteNoun": "nsite",
+      "zapped": "បានធ្វើ zap",
+      "pledgeCreated": "បានបង្កើត",
+      "pledgeUpdated": "បានធ្វើបច្ចុប្បន្នភាព",
+      "pledgeNoun": "ការសន្យា",
+      "followPackCreated": "បានបង្កើត",
+      "followPackUpdated": "បានធ្វើបច្ចុប្បន្នភាព",
+      "followPackFallback": "បានចែករំលែក",
+      "followPackNoun": "កញ្ចប់តាមដាន",
+      "followSetCreated": "បានបង្កើត",
+      "followSetUpdated": "បានធ្វើបច្ចុប្បន្នភាព",
+      "followSetFallback": "បានចែករំលែក",
+      "followSetNoun": "សំណុំតាមដាន"
+    }
+  },
+  "embedCampaign": {
+    "iframeTitle": "យុទ្ធនាការរៃអង្គាសប្រាក់ Agora",
+    "notFound": "រកមិនឃើញយុទ្ធនាការ។",
+    "dialogTitle": "បង្កប់យុទ្ធនាការនេះ",
+    "dialogDescription": "ជ្រើសរើសធាតុក្រាហ្វិក មើលវាជាមុន រួចបិទភ្ជាប់កូដទៅក្នុងគេហទំព័ររបស់អ្នក។",
+    "variantLabel": "ធាតុក្រាហ្វិក",
+    "variant": {
+      "card": "កាត",
+      "donate": "បរិច្ចាគ",
+      "full": "ពេញ"
+    },
+    "themeLabel": "រូបរាង",
+    "snippetLabel": "កូដបង្កប់",
+    "openStandalone": "បើកក្នុងផ្ទាំងថ្មី",
+    "viewOnAgora": "មើលលើ Agora"
+  },
+  "noteMoreMenu": {
+    "title": "ជម្រើសប្រកាស",
+    "viewPost": "មើលព័ត៌មានលម្អិតប្រកាស",
+    "embedWidget": "បង្កប់ធាតុក្រាហ្វិក",
+    "viewEventJson": "មើល JSON ព្រឹត្តិការណ៍",
+    "bookmark": "ចំណាំ",
+    "removeBookmark": "លុបការចំណាំ",
+    "addToList": "បន្ថែមទៅបញ្ជី",
+    "addToSidebar": "បន្ថែមទៅរបារចំហៀង",
+    "removeFromSidebar": "យកចេញពីរបារចំហៀង",
+    "pinProfile": "ខ្ទាស់ទៅប្រវត្តិរូប",
+    "unpinProfile": "ដោះខ្ទាស់ពីប្រវត្តិរូប",
+    "pinCountry": "ខ្ទាស់ទៅ Feed ប្រទេស",
+    "unpinCountry": "ដោះខ្ទាស់ពី Feed ប្រទេស",
+    "mute": "បិទសំឡេង @{{name}}",
+    "unmute": "បើកសំឡេង @{{name}}",
+    "report": "រាយការណ៍ @{{name}}",
+    "reportToGroup": "រាយការណ៍ប្រកាសទៅក្រុម",
+    "removeFromGroup": "យកចេញពីក្រុម",
+    "delete": "លុបការប្រកាស",
+    "close": "បិទ",
+    "encryptedContent": "មាតិកាដែលបានបម្លែង",
+    "toast": {
+      "removedFromSidebar": "បានយកចេញពីរបារចំហៀង",
+      "addedToSidebar": "បានបន្ថែមទៅរបារចំហៀង",
+      "pinned": "បានខ្ទាស់ទៅប្រវត្តិរូប",
+      "unpinned": "បានដោះខ្ទាស់ពីប្រវត្តិរូប",
+      "pinFailed": "បរាជ័យក្នុងការធ្វើបច្ចុប្បន្នភាពប្រកាសដែលបានខ្ទាស់",
+      "countryPinned": "បានខ្ទាស់ទៅ Feed ប្រទេស",
+      "countryUnpinned": "បានដោះខ្ទាស់ពី Feed ប្រទេស",
+      "countryPinFailed": "បរាជ័យក្នុងការខ្ទាស់ទៅ Feed ប្រទេស",
+      "countryUnpinFailed": "បរាជ័យក្នុងការដោះខ្ទាស់ពី Feed ប្រទេស",
+      "muted": "បានបិទសំឡេង @{{name}}",
+      "unmuted": "បានបើកសំឡេង @{{name}}",
+      "muteFailed": "បរាជ័យក្នុងការបិទសំឡេងអ្នកប្រើ",
+      "unmuteFailed": "បរាជ័យក្នុងការបើកសំឡេង",
+      "postDeleted": "ប្រកាសត្រូវបានលុប",
+      "deleteFailed": "បរាជ័យក្នុងការលុបការប្រកាស",
+      "eventBroadcast": "ព្រឹត្តិការណ៍ត្រូវបានផ្សាយទៅ relays",
+      "broadcastFailed": "បរាជ័យក្នុងការផ្សាយព្រឹត្តិការណ៍",
+      "copied": "បានចម្លង {{label}} ទៅក្ដារតម្បៀតខ្ទាស់",
+      "embedCopied": "កូដបង្កប់ត្រូវបានចម្លងទៅក្ដារតម្បៀតខ្ទាស់"
+    },
+    "deleteDialog": {
+      "title": "លុបការប្រកាស?",
+      "description": "នេះនឹងស្នើសុំការលុបចេញពី relays។ ស្ថានីយ៍ relay មួយចំនួនអាចនៅតែរក្សាការចម្លងនៃព្រឹត្តិការណ៍ដើម។ សកម្មភាពនេះមិនអាចមិនធ្វើបានទេ។",
+      "cancel": "បោះបង់",
+      "delete": "លុប",
+      "deleting": "កំពុងលុប..."
+    },
+    "jsonDialog": {
+      "title": "ព័ត៌មានលម្អិតព្រឹត្តិការណ៍",
+      "eventId": "ID ព្រឹត្តិការណ៍",
+      "eventIdLabel": "ID ព្រឹត្តិការណ៍",
+      "rawJson": "JSON ដើម",
+      "eventJsonLabel": "JSON ព្រឹត្តិការណ៍",
+      "broadcast": "ផ្សាយព្រឹត្តិការណ៍",
+      "broadcasting": "កំពុងផ្សាយ..."
+    }
+  },
+  "content": {
+    "title": "មាតិកា",
+    "description": "គ្រប់គ្រងអ្នកប្រើ ហ្សាតថេក និងពាក្យដែលបានបិទសំឡេង។",
+    "muted": {
+      "heading": "មាតិកាដែលបានបិទសំឡេង",
+      "subheading": "អ្នកសម្រេចថាអ្វីខ្លះបង្ហាញនៅក្នុង feed របស់អ្នក។ លុបធាតុមួយដើម្បីបើកសំឡេងវាឡើងវិញ។ ការបិទសំឡេងត្រូវបានអ៊ិនគ្រីប និងឯកជន។",
+      "empty": "អ្នកមិនទាន់បានបិទសំឡេងនរណាម្នាក់នៅឡើយទេ។",
+      "removed": "បានលុបចេញពីបញ្ជីបិទសំឡេង",
+      "removeFailed": "បរាជ័យក្នុងការលុបចេញពីបញ្ជីបិទសំឡេង",
+      "removeAria": "លុបការបិទសំឡេងសម្រាប់ {{value}}",
+      "types": {
+        "pubkey": "អ្នកប្រើ",
+        "hashtag": "ហ្សាតថេក",
+        "word": "ពាក្យ",
+        "thread": "ខ្សែស្រឡាយ"
+      }
+    }
+  },
+  "mutedGuard": {
+    "title": "មាតិកាដែលបានបិទសំឡេង",
+    "description": "ប្រកាសនេះមកពីនរណាម្នាក់ដែលអ្នកបានបិទសំឡេង។",
+    "showAnyway": "បង្ហាញយ៉ាងណាក៏ដោយ",
+    "manageMutes": "គ្រប់គ្រងមាតិកាដែលបានបិទសំឡេង"
+  },
+  "policyPages": {
+    "privacy": {
+      "seoTitle": "គោលនយោបាយឯកជនភាព",
+      "seoDescription": "គោលនយោបាយឯកជនភាពសម្រាប់ {{appName}} — របៀបដែលទិន្នន័យរបស់អ្នកត្រូវបានដោះស្រាយនៅលើបណ្តាញ Nostr",
+      "title": "គោលនយោបាយឯកជនភាព"
+    },
+    "csae": {
+      "seoTitle": "គោលនយោបាយសុវត្ថិភាពកុមារ",
+      "seoDescription": "គោលនយោបាយរបស់ {{appName}} ស្តីពីការរំលោភបំពានផ្លូវភេទនិងការកេងប្រវ័ញ្ចកុមារ (CSAE) — ការប្តេជ្ញារបស់យើងចំពោះសុវត្ថិភាពកុមារនៅលើបណ្តាញ Nostr",
+      "title": "គោលនយោបាយសុវត្ថិភាពកុមារ"
+    },
+    "donorGuide": {
+      "seoTitle": "មគ្គុទេសក៍សម្រាប់អ្នកបរិច្ចាគ",
+      "seoDescription": "របៀបដែលការបរិច្ចាគដំណើរការនៅលើ {{appName}} និងរបៀបការពារឯកជនភាពរបស់អ្នក។",
+      "title": "មគ្គុទេសក៍សម្រាប់អ្នកបរិច្ចាគ",
+      "subtitle": "Bitcoin ពិតប្រាកដ ផ្ញើដោយផ្ទាល់។ ដំណើរការទាំងមូលនៅក្នុងទំព័រខ្លីមួយ។"
+    },
+    "recipientGuide": {
+      "seoTitle": "មគ្គុទេសក៍សម្រាប់អ្នកទទួល",
+      "seoDescription": "របៀបទទួលការបរិច្ចាគនៅលើ {{appName}} និងដកប្រាក់ដោយឯកជន។",
+      "title": "មគ្គុទេសក៍សម្រាប់អ្នកទទួល",
+      "subtitle": "ជ្រើសរើសអ្វីដែលត្រូវទទួល ទទួលការបរិច្ចាគ ដកប្រាក់។"
+    },
+    "changelog": {
+      "seoTitle": "កំណត់ហេតុការផ្លាស់ប្តូរ",
+      "seoDescription": "តើមានអ្វីថ្មីនៅក្នុង {{appName}}",
+      "title": "កំណត់ហេតុការផ្លាស់ប្តូរ",
+      "loadError": "បរាជ័យក្នុងការផ្ទុក changelog ។",
+      "empty": "មិនទាន់មានការចេញផ្សាយទេ។",
+      "pastReleases": "ការចេញផ្សាយពីមុន",
+      "showLess": "បង្ហាញតិច",
+      "readMore": "អានបន្ថែម",
+      "preReleaseLabel": "ការសាងសង់មុនចេញផ្សាយ",
+      "preReleaseBody": "ការសាងសង់នេះមានការផ្លាស់ប្តូរដែលមិនទាន់រួមបញ្ចូលក្នុងការចេញផ្សាយទេ។",
+      "viewUnreleased": "មើលការផ្លាស់ប្តូរដែលមិនទាន់ចេញផ្សាយ",
+      "categories": {
+        "Added": "បានបន្ថែម",
+        "Changed": "បានផ្លាស់ប្តូរ",
+        "Deprecated": "បានបោះបង់ចោល",
+        "Removed": "បានដក",
+        "Fixed": "បានជួសជុល",
+        "Security": "សុវត្ថិភាព"
+      }
+    }
+  },
+  "about": {
+    "seoTitle": "អំពី",
+    "seoDescription": "{{appName}} គឺជាបណ្តាញ Micro-Philanthropy គ្មានព្រំដែនដំបូងគេបង្អស់នៅលើពិភពលោក — ការឲ្យដោយផ្ទាល់ ពីមនុស្សម្នាក់ទៅមនុស្សម្នាក់ ដំណើរការដោយ Bitcoin និង Nostr។",
+    "hero": {
+      "eyebrow": "អំពី {{appName}}",
+      "headlinePart1": "របៀប",
+      "headlineAppName": "{{appName}}",
+      "headlinePart2": "ដំណើរការ។",
+      "body": "{{appName}} គឺជាបណ្តាញ Micro-Philanthropy គ្មានព្រំដែនដំបូងគេបង្អស់នៅលើពិភពលោក។ វាអនុញ្ញាតឲ្យនរណាម្នាក់ នៅគ្រប់ទីកន្លែង ឲ្យដោយផ្ទាល់ទៅមនុស្ស និងបុព្វហេតុនៅគ្រប់ទីកន្លែងលើពិភពលោកជាមួយ Bitcoin — គ្មានព្រំដែន គ្មានអ្នកកណ្ដាល គ្មានថ្លៃវេទិកា។ គ្មានគណនីធនាគារដែលត្រូវបានបង្ខាំង គ្មានការបិទក្រុមហ៊ុន។ មានតែការគាំទ្រដោយផ្ទាល់ពីមនុស្សដែលជឿជាក់លើបុព្វហេតុរបស់អ្នក។",
+      "trustChips": {
+        "decentralized": "វិមជ្ឈការ",
+        "openSource": "បើកប្រភព",
+        "censorshipResistant": "ធន់នឹងការត្រួតពិនិត្យ"
+      },
+      "ctaDonor": "អានមគ្គុទេសក៍សម្រាប់អ្នកបរិច្ចាគ",
+      "ctaRecipient": "អានមគ្គុទេសក៍សម្រាប់អ្នកទទួល",
+      "sampleCard": {
+        "countryName": "វេនេស៊ុយអេឡា",
+        "public": "សាធារណៈ",
+        "imageAlt": "ប្រជាជនវេនេស៊ុយអេឡានៅឯការប្រគុំទៀនកាន់ផ្ទាំងសញ្ញាដែលសរសេរថា 'Liberen a todos los presos políticos · ¡Cese la represión!'",
+        "orgName": "Venezolanos Libres",
+        "title": "ដោះលែងអ្នកទោសនយោបាយវេនេស៊ុយអេឡា",
+        "description": "ការការពារផ្នែកច្បាប់ និងការគាំទ្រគ្រួសារសម្រាប់អ្នកទោសនយោបាយជាង 800 នាក់ដែលត្រូវបានឃុំខ្លួនដោយរបបម៉ាឌូរ៉ូ។",
+        "raised": "បានប្រមូល",
+        "ofGoal": "នៃ $10,000",
+        "donorsLine": "247 អ្នកបរិច្ចាគ · 12 ប្រទេស",
+        "donate": "បរិច្ចាគ Bitcoin"
+      }
+    },
+    "howItWorks": {
+      "eyebrow": "របៀបដំណើរការ",
+      "title": "បីជំហាន។ គ្មានអ្នកកណ្តាល។",
+      "lede": "គ្មានធនាគារ គ្មានព្រំដែន គ្មានការអនុញ្ញាត។",
+      "step1": {
+        "imageAlt": "កូនសោអ៊ីនគ្រីបពណ៌ទឹកក្រូចចែងចាំងអណ្តែតក្នុងលំហអវកាសងងឹត តំណាងឲ្យអត្តសញ្ញាណគ្រប់គ្រងដោយខ្លួនឯង",
+        "title": "អ្នកទទួលចុះឈ្មោះក្នុងពេលប៉ុន្មានវិនាទី។",
+        "body": "គ្មានធនាគារ។ គ្មានឯកសារ។ គ្មានការអនុម័ត។ ភ្លាមៗដែលអ្នកទទួលបង្កើតគណនីលើ {{appName}} ពួកគេមានអាសយដ្ឋាន Bitcoin រួចហើយដើម្បីទទួលការគាំទ្រនៅគ្រប់ទីកន្លែងលើពិភពលោក។"
+      },
+      "step2": {
+        "imageAlt": "កាក់ Bitcoin ចែងចាំងហើរឆ្លងផែនទីពិភពលោកងងឹត តំណាងឲ្យការបង់ប្រាក់ឆ្លងព្រំដែនភ្លាមៗ",
+        "title": "អ្នកបរិច្ចាគផ្ញើ Bitcoin ដោយផ្ទាល់។",
+        "body": "អ្នកបរិច្ចាគផ្ញើ Bitcoin ពីកាបូបណាមួយដែលពួកគេធ្លាប់ប្រើ (Cash App, Coinbase, Strike, កាបូបហាដវែរ) ដោយផ្ទាល់ទៅអ្នកទទួល។ {{appName}} មិនធ្លាប់ប៉ះប្រាក់ឡើយ។ គ្មានម៉ាស៊ីនបម្រើនៅកណ្តាល គ្មានអ្នកថែរក្សា។"
+      },
+      "step3": {
+        "imageAlt": "ដៃបើកមួយដែលមានពន្លឺពណ៌ទឹកក្រូចកក់ក្តៅចែងចាំងពីបាតដៃ តំណាងឲ្យការទទួល និងសិទ្ធិសម្រេចចិត្ត",
+        "title": "ការគាំទ្រទៅដល់កន្លែងដែលសំខាន់។",
+        "body": "មូលនិធិទៅដល់អ្នកទទួលដោយផ្ទាល់។ ពួកគេរក្សាសិទ្ធិជាម្ចាស់ ពួកគេរក្សាការគ្រប់គ្រង។ ផ្លាស់ប្តូរ ប្តូរ ឬចំណាយ មគ្គុទេសក៍ខាងក្រោមពន្យល់របៀបធ្វើវាដោយឯកជន និងសុវត្ថិភាព។"
+      }
+    },
+    "twoWays": {
+      "eyebrow": "Bitcoin · QR មួយ ជម្រើសពីរ",
+      "title": "ពីរវិធីដើម្បីទទួលប្រាក់។",
+      "lede": "ជម្រើសទាំងពីរគឺ Bitcoin។ ភាពខុសគ្នាគឺអ្វីដែលអ្នកដោះដូរសម្រាប់ឯកជនភាព។ នៅពេលដែលអ្នកទទួលបង្កើតយុទ្ធនាការ ពួកគេជ្រើសរើសជម្រើសណាដែលត្រូវទទួល។ បើទាំងពីរ ទំព័របរិច្ចាគបង្ហាញកូដ QR តែមួយដែលដំណើរការសម្រាប់កាបូបណាមួយ។",
+      "public": {
+        "kicker": "ការទូទាត់ Bitcoin សាធារណៈ",
+        "tagline": "សកល · លឿន · តម្លាភាព",
+        "title": "ដំណើរការជាមួយរាល់កាបូបនៅលើផែនដី។",
+        "description": "ការបរិច្ចាគចូលទៅអាសយដ្ឋាន Bitcoin ធម្មតាដែលអ្នកទទួលគ្រប់គ្រង។ នរណាម្នាក់ដែលមានកាបូប Bitcoin ណាក៏អាចផ្ញើបាន។ គ្មានកម្មវិធីថ្មី គ្មានគណនីថ្មី គ្មានខ្សែរៀន។",
+        "bullet1": "ដំណើរការក្នុងរាល់កាបូប Bitcoin: Cash App, Coinbase, Strike, ហាដវែរ",
+        "bullet2": "ការទូទាត់លឿនបំផុត៖ បញ្ជាក់ Bitcoin តែប៉ុណ្ណោះ",
+        "bullet3": "អាចផ្ទៀងផ្ទាត់លើខ្សែសង្វាក់៖ នរណាក៏អាចមើលអ្វីដែលអ្នកទទួលបានទទួល",
+        "tradeoffTitle": "ការដោះដូរ៖ សាធារណៈនៅលើខ្សែសង្វាក់។",
+        "tradeoffIntro": "រាល់ការបរិច្ចាគគឺសាធារណៈនៅលើខ្សែសង្វាក់ Bitcoin និងនៅលើ Nostr។ {{appName}} ត្រូវបានណែនាំសម្រាប់យុទ្ធនាការចំហតែប៉ុណ្ណោះ។ បើអ្នកឬអ្នកបរិច្ចាគរបស់អ្នកត្រូវការឯកជនភាពខ្លាំងបំផុត រួមទាំងពីអ្នកសម្តែងរដ្ឋ សូមអាន<0>មគ្គុទេសក៍សម្រាប់អ្នកបរិច្ចាគ</0> និង<1>មគ្គុទេសក៍សម្រាប់អ្នកទទួល</1> មុនពេលចូលរួម។"
+      },
+      "silent": {
+        "kicker": "ការទូទាត់ Bitcoin ស្ងាត់",
+        "tagline": "មិនអាចភ្ជាប់ · ផ្ទាល់ · BIP-352",
+        "title": "មិនអាចភ្ជាប់ លើខ្សែសង្វាក់ ផ្ទាល់។",
+        "description": "ការបរិច្ចាគត្រូវបានផ្ញើជាការទូទាត់ស្ងាត់ BIP-352។ មួយៗចូលទៅទិន្នផល Bitcoin ថ្មីដែលមិនអាចភ្ជាប់ ដែលអ្នកសង្កេតមើលខ្សែសង្វាក់មិនអាចភ្ជាប់ត្រឡប់ទៅយុទ្ធនាការវិញ។",
+        "bullet1": "ដាននៃការបរិច្ចាគមិនអាចសាងសង់ឡើងវិញនៅលើខ្សែសង្វាក់",
+        "bullet2": "ការពារអ្នកទទួលដែលប្រឈមនឹងសត្រូវធ្ងន់ធ្ងរ",
+        "bullet3": "រក្សាក្នុងសមតុល្យឯកជនដាច់ដោយឡែក មិនលាយឡំជាមួយមូលនិធិសាធារណៈឡើយ",
+        "tradeoffTitle": "ការដោះដូរ៖ ការទូទាត់ស្ងាត់នៅដំបូងដំបូង។",
+        "tradeoffIntro": "វិធីឯកជនបំផុតក្នុងការទទួល Bitcoin លើខ្សែសង្វាក់ ប៉ុន្តែប្រព័ន្ធអេកូស្បាក់ភពនៅខ្ចីៗនៅឡើយ៖",
+        "tradeoffBullet1": "កាបូបតិចតួចដែលគាំទ្រ។",
+        "tradeoffBullet2": "ការទទួលយឺត។",
+        "tradeoffBullet3": "គ្មានការជូនដំណឹង push។",
+        "tradeoffBullet4": "កាបូបនៅតែមានកំហុស។",
+        "tradeoffBullet5": "ចំនួនបរិច្ចាគមិនមែនជាសាធារណៈ។"
+      },
+      "noCustody": {
+        "title": "គ្មានការគ្រប់គ្រង។ គ្មានអ្នកកណ្តាល។",
+        "body": "{{appName}} មិនធ្លាប់កាន់មូលនិធិឡើយ។ ការបរិច្ចាគផ្លាស់ប្តូរពីកាបូបទៅកាបូបនៅលើ Bitcoin។ គ្មានម៉ាស៊ីនបម្រើឈរនៅចន្លោះអ្នកបរិច្ចាគ និងអ្នកទទួលនៅក្នុងជម្រើសណាមួយឡើយ។ បើ {{appName}} បាត់ខ្លួននៅថ្ងៃស្អែក រាល់យុទ្ធនាការនឹងបន្តដំណើរការ។",
+        "gofundme": {
+          "heading": "មិនដូច GoFundMe",
+          "body": "គ្មានវេទិកាណាអាចបង្ខាំងការបរិច្ចាគរបស់អ្នក ទាមទារសំណង ឬបញ្ចប់យុទ្ធនាការរបស់អ្នកដោយសារភាពមិនយល់ស្របលើគោលនយោបាយ។"
+        },
+        "givesendgo": {
+          "heading": "មិនដូច GiveSendGo",
+          "body": "គ្មានដំណើរការទូទាត់នៅកណ្តាល ដូច្នេះគ្មាន Stripe គ្មាន Visa គ្មានធនាគារដែលអាចកាត់ផ្តាច់អ្នកនៅពាក់កណ្តាលយុទ្ធនាការ។"
+        },
+        "otherBitcoin": {
+          "heading": "មិនដូចវេទិកា 'Bitcoin' ផ្សេងទៀត",
+          "body": "គ្មាន Lightning node កណ្តាល អ្នកថែរក្សា ឬ LSP ដែលអាចបរាជ័យ ឬផ្តាច់ខ្លួន។ មូលនិធិត្រូវបានទូទាត់ដោយផ្ទាល់នៅលើខ្សែសង្វាក់ទៅកាបូបដែលអ្នកគ្រប់គ្រង។"
+        }
+      }
+    },
+    "faq": {
+      "eyebrow": "សំណួរ",
+      "title": "សួរញឹកញាប់។",
+      "chapter1": {
+        "label": "ការចាប់ផ្តើម",
+        "description": "តើ Agora ជាអ្វី នរណាបង្កើត និងតម្លៃប៉ុន្មាន។"
+      },
+      "chapter2": {
+        "label": "ការបរិច្ចាគ Bitcoin",
+        "description": "របៀបដែលការទូទាត់ដំណើរការ ហេតុអ្វីលើខ្សែសង្វាក់ ហេតុអ្វីសាធារណៈ ហេតុអ្វីការដោះដូរទាំងនេះ។"
+      },
+      "chapter3": {
+        "label": "អំពី Nostr",
+        "description": "ពិធីការបើកដែល Agora ត្រូវបានសាងសង់លើ និងរបៀបដែលគណនីរបស់អ្នកដំណើរការ។"
+      },
+      "chapter4": {
+        "label": "ការផ្ទៀងផ្ទាត់ និងទំនុកចិត្ត",
+        "description": "តើសញ្ញាសម្គាល់ដែលបានផ្ទៀងផ្ទាត់មានន័យយ៉ាងណា អ្នកណាជាអ្នកផ្តល់វា និងរបៀបដែលអ្នកអាចវិនិច្ឆ័យយុទ្ធនាការមួយដោយខ្លួនឯង។"
+      }
+    },
+    "guides": {
+      "eyebrow": "មគ្គុទេសក៍",
+      "title": "ជ្រើសរើសភាគីដែលអ្នកស្ថិត។",
+      "lede": "មិនថាអ្នកផ្ញើឬទទួល ស្វែងយល់របៀបធ្វើវាដោយសុវត្ថិភាព និងឯកជន។",
+      "donor": {
+        "imageAlt": "អ្នកប្រឆាំងពាក់មួកដើរក្បួនតាមផ្លូវក្នុងទីក្រុងអឺរ៉ុបនៅពេលព្រលប់ កាន់ផ្លែភ្លើងក្រហមឆេះនិងបដា 'FREEDOM' និង 'LIBERTAD'",
+        "role": "សម្រាប់អ្នកបរិច្ចាគ",
+        "title": "គាំទ្របុព្វហេតុដែលធនាគារនឹងមិនគាំទ្រ។",
+        "description": "ផ្ញើ Bitcoin ដោយផ្ទាល់ទៅអ្នកទទួល និងចលនានៅគ្រប់ទីកន្លែងលើពិភពលោក ដោយមិនបាច់សុំការអនុញ្ញាតពីដំណើរការទូទាត់។",
+        "bullet1": "ប្រើកាបូប Bitcoin ណាមួយដែលអ្នកធ្លាប់មាន។",
+        "bullet2": "ការបរិច្ចាគចូលដោយផ្ទាល់ទៅអ្នកទទួល។ គ្មានអ្នកថែរក្សា គ្មានអ្នកកណ្តាល។",
+        "bullet3": "សម្រាប់ឯកជនភាព សូមប្រើកាបូបដែលគាំទ្រការទូទាត់ស្ងាត់។",
+        "cta": "អានមគ្គុទេសក៍សម្រាប់អ្នកបរិច្ចាគ"
+      },
+      "recipient": {
+        "imageAlt": "ទិដ្ឋភាពតាមអាកាសនៃអ្នកប្រឆាំងរាប់ពាន់នាក់ប្រមូលផ្តុំនៅពេលយប់នៅទីលានទីក្រុងជាមួយផ្លែភ្លើងក្រហមឆេះ នៅក្រោមបដា 'UNITY IN DARKNESS' ដែលបានបញ្ចាំងលើអាគារជុំវិញ",
+        "role": "សម្រាប់អ្នកទទួល",
+        "title": "ទទួលមូលនិធិដោយមិនបាច់សុំការអនុញ្ញាត។",
+        "description": "ទទួលការគាំទ្រដោយផ្ទាល់ពីមនុស្សដែលជឿជាក់លើបុព្វហេតុរបស់អ្នក។ គ្មានគណនីធនាគារ គ្មានទម្រង់ស្នើសុំ គ្មានក្រុមហ៊ុននៅកណ្តាល។",
+        "bullet1": "ចាប់ផ្តើមទទួលការបរិច្ចាគភ្លាមៗដែលអ្នកចុះឈ្មោះ។",
+        "bullet2": "ជ្រើសប្រភេទការទូទាត់ដែលត្រូវទទួល៖ សាធារណៈ ការទូទាត់ស្ងាត់ ឬទាំងពីរ។",
+        "bullet3": "សម្រាប់ការដកប្រាក់ឯកជន ផ្ញើទៅកាបូបការទូទាត់ស្ងាត់មុន រួចបញ្ជូនបន្តទៅគ្រប់ទីកន្លែង។",
+        "cta": "អានមគ្គុទេសក៍សម្រាប់អ្នកទទួល"
+      },
+      "stillStuck": "នៅតែជាប់?",
+      "followTeam": "តាមដាន Team Soapbox នៅលើ Nostr",
+      "stillStuckSuffix": "។ យើងដោះស្រាយសំណួរនៅទីនោះ។"
+    }
+  },
+  "corporateSponsorship": {
+    "seoDescription": "ចាប់ដៃគូជាមួយ {{appName}} ដើម្បីផ្តល់មូលនិធិដល់បុព្វហេតុដែលមានសារៈសំខាន់។ បរិច្ចាគទៅមូលនិធិបុព្វហេតុ Agora ផ្គូផ្គងការបរិច្ចាគទៅយុទ្ធនាការដែលអ្នកយកចិត្តទុកដាក់ ឬផ្សព្វផ្សាយ {{appName}} ដល់អតិថិជនរបស់អ្នក ជាផ្នែកនៃគំនិតផ្តួចផ្តើមសប្បុរសធម៌របស់អ្នក។",
+    "intro": {
+      "eyebrow": "ហេតុអ្វីចាប់ដៃគូ",
+      "title": "ការឲ្យរបស់ក្រុមហ៊ុនដែលស្របនឹងគោលដៅរបស់អ្នក",
+      "lede": "ផ្ទាល់ តម្លាភាព អាចផ្ទៀងផ្ទាត់បាន។ ការឲ្យដែលក្រុមហ៊ុនរបស់អ្នកអាចគាំទ្របានពេញទំហឹង។",
+      "cards": {
+        "bitcoin": {
+          "title": "វេទិកាផ្អែកលើ Bitcoin",
+          "body": "ការបរិច្ចាគត្រូវបានទូទាត់នៅលើប្លុកឆេន Bitcoin។ វាគ្មានព្រំដែន គ្មាននរណាបញ្ឈប់បាន ហើយនរណាក៏អាចផ្ទៀងផ្ទាត់បានដែរ។"
+        },
+        "verified": {
+          "title": "មូលនិធិយុទ្ធនាការដែលបានផ្ទៀងផ្ទាត់",
+          "body": "យុទ្ធនាការនីមួយៗត្រូវបានពិនិត្យ និងផ្ទៀងផ្ទាត់ មុនពេលមូលនិធិត្រូវបានចែកចាយ។"
+        },
+        "fees": {
+          "title": "គ្មានថ្លៃវេទិកា",
+          "body": "100% នៃអំណោយរបស់អ្នកទៅដល់បុព្វហេតុ។ យើងមិនយកអ្វីទាំងអស់។"
+        }
+      }
+    },
+    "ways": {
+      "causeFunds": {
+        "kicker": "01 · ការគាំទ្រផ្ទាល់",
+        "title": "បរិច្ចាគទៅមូលនិធិបុព្វហេតុ {{appName}}",
+        "description": "ថវិការួមសម្រាប់បុព្វហេតុដែលអ្នកយកចិត្តទុកដាក់។ {{appName}} ចែកចាយវាទៅយុទ្ធនាការដែលបានផ្ទៀងផ្ទាត់ និងទុកចិត្តបាន។",
+        "bullet1": "ឲ្យជា Bitcoin (BTC) ឬដុល្លារអាមេរិក (USD)",
+        "bullet2": "ដាក់រួមជាមួយអ្នកបរិច្ចាគផ្សេងទៀត ដើម្បីឥទ្ធិពលកាន់តែធំ",
+        "bullet3": "ចែកចាយទៅយុទ្ធនាការដែលបានផ្ទៀងផ្ទាត់ និងទុកចិត្តបាន",
+        "cta": "ស្វែងយល់ពីមូលនិធិបុព្វហេតុ"
+      }
+    },
+    "fundsShowcase": {
+      "eyebrow": "មូលនិធិបុព្វហេតុ",
+      "title": "មូលនិធិយុទ្ធនាការដែលបានផ្ទៀងផ្ទាត់របស់ {{appName}}",
+      "lede": "មូលនិធិនីមួយៗប្រមូលការបរិច្ចាគរួមគ្នា ហើយចែកចាយវាទៅយុទ្ធនាការដែលបានផ្ទៀងផ្ទាត់។",
+      "browseAll": "ឬរកមើលយុទ្ធនាការទាំងអស់"
+    },
+    "cta": {
+      "body": "ប្រាប់យើងពីរបៀបដែលអ្នកចង់ចូលរួម ហើយយើងនឹងជួយអ្នករៀបចំភាពជាដៃគូដែលសមស្រប៖ អំណោយមូលនិធិបុព្វហេតុ ថវិកាផ្គូផ្គង ឬយុទ្ធនាការអតិថិជន។"
+    }
+  },
+  "partners": {
+    "partnersTitle": "កសាងក្នុងកិច្ចសហការជាមួយ៖",
+    "pressTitle": "បានបង្ហាញនៅក្នុង៖"
+  },
+  "faq": {
+    "categories": {
+      "getting-started": {
+        "label": "អំពី Agora"
+      },
+      "payments": {
+        "label": "ការបរិច្ចាគ"
+      },
+      "verification": {
+        "label": "ការផ្ទៀងផ្ទាត់ និងទំនុកចិត្ត"
+      },
+      "about-nostr": {
+        "label": "អំពី Nostr"
+      },
+      "legacy": {
+        "label": "មាតិកាចាស់"
+      }
+    },
+    "items": {
+      "what-is-ditto": {
+        "question": "តើ {{appName}} ជាអ្វី?",
+        "answer": [
+          "{{appName}} គឺជាបណ្តាញ Micro-Philanthropy គ្មានព្រំដែនដំបូងគេបង្អស់នៅលើពិភពលោក — កន្លែងសម្រាប់ឲ្យ Bitcoin ដោយផ្ទាល់ទៅមនុស្ស និងបុព្វហេតុនៅគ្រប់ទីកន្លែងលើពិភពលោក ជាសាធារណៈ ឬឯកជន។ គ្មានព្រំដែន គ្មានអ្នកកណ្ដាល គ្មានអ្នកដំណើរការការទូទាត់ និងគ្មានគណនីដែលអាចត្រូវបានបង្កកនោះទេ។",
+          "{{appName}} ត្រូវបានកសាងនៅលើ Nostr ដូច្នេះអត្តសញ្ញាណរបស់អ្នកមិនត្រូវបានចងភ្ជាប់នឹងគេហទំព័រនេះទេ — អ្នកជាម្ចាស់របស់វា។"
+        ]
+      },
+      "cost-to-use": {
+        "question": "តើ {{appName}} មានតម្លៃអ្វីទេ?",
+        "answer": [
+          "**មិនទេ។** {{appName}} មិនយកថ្លៃវេទិកាណាមួយឡើយ។ ពេលអ្នកបរិច្ចាគ អ្នកបង់តែថ្លៃបណ្ដាញ Bitcoin ដែលទៅកាន់អ្នកជីកប៉ុណ្ណោះ — មិនមែនមកយើងទេ។"
+        ]
+      },
+      "who-made-this": {
+        "question": "តើនរណាបង្កើត {{appName}}?",
+        "answer": [
+          "{{appName}} ត្រូវបានកសាងដោយ [Soapbox](https://soapbox.pub) ដែលជាក្រុមកូដប្រភពចំហដែលកសាងឧបករណ៍សម្រាប់ប្រព័ន្ធអេកូ Nostr ដោយសហការជាមួយ [សភាសេរីភាពពិភពលោក (World Liberty Congress)](https://worldlibertycongress.org/)។"
+        ]
+      },
+      "send-bitcoin-onchain": {
+        "question": "តើការផ្ញើ Bitcoin ដំណើរការយ៉ាងដូចម្ដេច?",
+        "answer": [
+          "នៅពេលដែលអ្នកសកម្មនិយមបង្កើតយុទ្ធនាការ ពួកគេជ្រើសរើសប្រភេទនៃការទូទាត់ដែលត្រូវទទួលយក៖ **សាធារណៈ** **ឯកជន** ឬ **ទាំងពីរ**។",
+          "ការបរិច្ចាគ **សាធារណៈ** គឺជា Bitcoin ពិតប្រាកដនៅលើខ្សែ។ ពួកវាបញ្ចប់នៅលើ blockchain សាធារណៈ ដំណើរការក្នុងគ្រប់កាបូប Bitcoin ហើយអាចមើលឃើញដោយនរណាក៏បាន។",
+          "ការបរិច្ចាគ **ឯកជន** ប្រើ **ការទូទាត់ស្ងាត់ (silent payments)** (BIP-352)។ ពួកវាក៏បញ្ចប់នៅលើខ្សែដែរ ប៉ុន្តែប្រតិបត្តិការមិនអាចត្រូវបានភ្ជាប់មកវិញនឹងលេខកូដបរិច្ចាគរបស់អ្នកសកម្មនិយមឡើយ — ដូច្នេះពួកវានៅក្រៅបញ្ជីនិងសរុបបរិច្ចាគជាសាធារណៈ។ អ្នកបរិច្ចាគត្រូវការកាបូបដែលគាំទ្រការទូទាត់ស្ងាត់ — យើងសូមផ្ដល់អនុសាសន៍ [Ditto Wallet](https://ditto.pub) ឬ [Dana](https://github.com/cygnet3/dana/releases/download/v0.7.4/app-live-release.apk)។",
+          "នៅពេលដែលយុទ្ធនាការទទួលយក **ទាំងពីរ** {{appName}} បង្ហាញកូដ QR តែមួយដែលអ៊ីនកូដចំណុចបញ្ចប់ទាំងពីរ។ កាបូបការទូទាត់ស្ងាត់អានវាជាឯកជន។ កាបូបផ្សេងទៀតធ្លាក់ចុះទៅអាសយដ្ឋានសាធារណៈវិញ។ អ្នកបរិច្ចាគមិនចាំបាច់ជ្រើសរើស — កាបូបរបស់ពួកគេជ្រើសផ្លូវត្រឹមត្រូវដោយស្វ័យប្រវត្តិ។",
+          "ទោះបីជាយ៉ាងណាក៏ដោយ ការបង់ប្រាក់ត្រូវផ្ទៀងផ្ទាត់ដោយផ្ទាល់ទៅអ្នកសកម្មនិយម។ {{appName}} មិនដែលប៉ះប្រាក់ឡើយ។"
+        ]
+      },
+      "agora-funds": {
+        "question": "តើ Agora Funds ជាអ្វី?",
+        "answer": [
+          "**Agora Funds** គឺជាយុទ្ធនាការដែលគ្រប់គ្រងដោយ {{appName}} ដែលអនុញ្ញាតឲ្យអ្នកបរិច្ចាគទៅកាន់ក្រុមនៃយុទ្ធនាការច្រើនដែលចងភ្ជាប់នឹងបុព្វហេតុតែមួយ។ ជំនួសឲ្យការជ្រើសរើសយុទ្ធនាការតែមួយ អ្នកបរិច្ចាគម្ដងទៅមូលនិធិ ហើយអំណោយរបស់អ្នកគាំទ្រគ្រប់យុទ្ធនាការក្នុងបុព្វហេតុនោះ។",
+          "Agora Funds ទទួលយក **ការទូទាត់ដោយកាតតាមរយៈ Stripe** បន្ថែមលើ Bitcoin — ដោយផ្ដល់ឲ្យអ្នកបរិច្ចាគដែលមិនចង់បង់ជា Bitcoin នូវមធ្យោបាយក្នុងការគាំទ្របុព្វហេតុដែលពួកគេយកចិត្តទុកដាក់។ ការបរិច្ចាគដោយកាតមានតែនៅលើ **មូលនិធិដែលឧបត្ថម្ភដោយ Agora** ប៉ុណ្ណោះ។ យុទ្ធនាការធម្មតានៅតែទទួល Bitcoin ដោយផ្ទាល់ នៅលើខ្សែ ដោយគ្មានអ្នកដំណើរការការទូទាត់នៅចន្លោះ។"
+        ]
+      },
+      "connect-wallet": {
+        "question": "តើកាបូបនៅលើ {{appName}} ជាអ្វី?",
+        "answer": [
+          "កាបូប {{appName}} របស់អ្នកគឺជាកាបូប Bitcoin **រក្សាដោយខ្លួនឯង** ដែលត្រូវបានកសាងពីកូនសោ Nostr របស់អ្នក។ {{appName}} មិនដែលកាន់មូលនិធិរបស់អ្នកឡើយ — កាបូបដំណើរការនៅក្នុងកម្មវិធីរុករករបស់អ្នក ហើយចុះហត្ថលេខាប្រតិបត្តិការនៅមូលដ្ឋានដោយប្រើកូនសោដែលមានតែអ្នកគ្រប់គ្រងប៉ុណ្ណោះ។ វាអាចទទួល Bitcoin តាមរបៀបពីរ — ជាអាសយដ្ឋានសាធារណៈដែលកាបូប Bitcoin ណាមួយក៏អាចបង់ប្រាក់បាន និងជាលេខកូដការទូទាត់ស្ងាត់ដែលកាបូបដែលមានសមត្ថភាពអាចបង់ប្រាក់ឯកជន។ គ្មានអ្វីត្រូវចុះឈ្មោះទេ; វាមានវត្តមាននៅពេលដែលអ្នកមានគណនី។",
+          "កាបូបនេះមានផ្ទាំងពីរ៖ **សាធារណៈ** (អាសយដ្ឋាន Bitcoin ធម្មតារបស់អ្នក) និង **ឯកជន** (ការទូទាត់ស្ងាត់)។ សមតុល្យទាំងពីរត្រូវបានរក្សាដាច់ដោយឡែកយ៉ាងម៉ឺងម៉ាត់ ហើយមិនអាចចំណាយជាមួយគ្នាបានឡើយ — ការដាច់ដោយឡែកនោះហើយជាអ្វីដែលរក្សាការបរិច្ចាគឯកជនឱ្យមិនអាចភ្ជាប់នៅលើខ្សែ។ ពេលអ្នកបង្កើតយុទ្ធនាការ អ្នកជ្រើសរើសថាតើទទួលយកការទូទាត់សាធារណៈ ឯកជន ឬទាំងពីរ។ ដើម្បីប្រើប្រាស់នូវអ្វីដែលអ្នកទទួលបាន សូមមើល **មគ្គុទេសក៍សកម្មនិយម**។",
+          "អ្នកក៏អាចនាំចេញឃ្លា seed ២៤ ពាក្យនៃកាបូបរបស់អ្នក ហើយនាំចូលទៅក្នុងកាបូប Bitcoin ស្ដង់ដារណាមួយក៏បាន — សូមមើល \"តើខ្ញុំអាចនាំចេញកាបូប {{appName}} របស់ខ្ញុំទៅកាបូប Bitcoin ផ្សេងទៀតបានទេ?\" ខាងក្រោម។"
+        ]
+      },
+      "export-wallet": {
+        "question": "តើខ្ញុំអាចនាំចេញកាបូប {{appName}} របស់ខ្ញុំទៅកាបូប Bitcoin ផ្សេងទៀតបានទេ?",
+        "answer": [
+          "បាទ/ចាស។ កាបូប {{appName}} របស់អ្នកជាកាបូបរក្សាដោយខ្លួនឯងពេញលេញ។ {{appName}} មិនដែលកាន់ Bitcoin របស់អ្នក និងមិនដែលឃើញកូនសោរបស់អ្នកឡើយ — កាបូបដំណើរការទាំងស្រុងនៅក្នុងកម្មវិធីរុករករបស់អ្នក ដោយចុះហត្ថលេខាប្រតិបត្តិការនៅមូលដ្ឋានដោយប្រើកូនសោដែលដេរីវេពីកូនសោសម្ងាត់ Nostr (nsec) របស់អ្នក។",
+          "បើកកាបូបពីម៉ឺនុយ ចុចលើម៉ឺនុយចំណុចបីនៅខាងលើស្ដាំ ហើយជ្រើសរើស **បម្រុងទុកកាបូប**។ អ្នកនឹងឃើញឃ្លា seed BIP-39 ដែលមាន ២៤ ពាក្យ។ សរសេរវាទុកនៅកន្លែងសុវត្ថិភាព (ឬរក្សាទុកក្នុងកម្មវិធីគ្រប់គ្រងពាក្យសម្ងាត់) — **នរណាដែលមានពាក្យទាំងនេះអាចចំណាយ Bitcoin របស់អ្នកបាន។**",
+          "អ្នកអាចនាំចូលពាក្យ ២៤ ទាំងនោះទៅក្នុងកាបូប Bitcoin ស្ដង់ដារណាមួយក៏បាន៖ **Sparrow**, **Electrum**, **BlueWallet**, **Phoenix**, **Trezor**, ឬ **Ledger**។ {{appName}} ប្រើផ្លូវដេរីវេស្ដង់ដារ BIP-86 (Taproot) និង BIP-352 (silent payments) ដូច្នេះមិនត្រូវការការកំណត់ពិសេសណាមួយឡើយ។",
+          "បន្ទាប់ពីការនាំចូល កាបូបផ្សេងទៀតបង្ហាញសមតុល្យនិងប្រវត្តិដូចគ្នានឹងកាបូប {{appName}} របស់អ្នក — ពួកវាជាកាបូបតែមួយ គ្រាន់តែជាទិដ្ឋភាពពីរផ្សេងគ្នាប៉ុណ្ណោះ។",
+          "ការនាំចេញឃ្លា seed មានតែនៅពេលដែលអ្នកចូលដោយប្រើ nsec ប៉ុណ្ណោះ។ ការចូលដោយប្រើផ្នែកបន្ថែមកម្មវិធីរុករក និងអ្នកចុះហត្ថលេខាពីចម្ងាយ (bunker) រក្សាកូនសោសម្ងាត់របស់អ្នកដាច់ដោយឡែក ដូច្នេះ {{appName}} មិនអាចដេរីវេឃ្លា seed ក្នុងរបៀបទាំងនោះបានទេ។"
+        ]
+      },
+      "donations-are-public-general": {
+        "question": "តើការបរិច្ចាគនៅលើ {{appName}} ជាសាធារណៈឬ?",
+        "answer": [
+          "វាអាស្រ័យលើប្រភេទនៃការទូទាត់ដែលអ្នកសកម្មនិយមទទួលយក។",
+          "**ការបរិច្ចាគសាធារណៈ** ត្រូវបានកត់ត្រានៅលើ blockchain Bitcoin និងនៅលើ Nostr។ នរណាក៏អាចមើលឃើញចំនួនទឹកប្រាក់ ពេលវេលា និងអាសយដ្ឋាន។",
+          "**ការបរិច្ចាគឯកជន** ប្រើការទូទាត់ស្ងាត់។ ពួកវាមិនអាចភ្ជាប់ជាសាធារណៈទៅនឹងលេខកូដបរិច្ចាគរបស់អ្នកសកម្មនិយម មិនលេចឡើងក្នុងបញ្ជីអ្នកបរិច្ចាគ និងមិនរាប់ចូលក្នុងសរុបសាធារណៈ។",
+          "នៅពេលដែលយុទ្ធនាការទទួលយកទាំងពីរ កាបូបរបស់អ្នកបរិច្ចាគសម្រេចថាតើផ្លូវមួយណាដែលត្រូវប្រើ — កាបូបដែលគាំទ្រការទូទាត់ស្ងាត់បង់ប្រាក់ឯកជន ឯផ្សេងទៀតបង់ប្រាក់ទៅអាសយដ្ឋានសាធារណៈ។ សូមអាន **មគ្គុទេសក៍អ្នកបរិច្ចាគ** និង **មគ្គុទេសក៍សកម្មនិយម** សម្រាប់ទិដ្ឋភាពពេញលេញ។"
+        ]
+      },
+      "why-donations-pending": {
+        "question": "ហេតុអ្វីបានជាការបរិច្ចាគខ្លះបង្ហាញថា \"pending\"?",
+        "answer": [
+          "ការបរិច្ចាគ **pending** គឺជា Bitcoin ពិតប្រាកដដែលត្រូវបានផ្ញើរួចហើយ — វាគ្រាន់តែកំពុងរង់ចាំការបញ្ជាក់ដោយបណ្តាញប៉ុណ្ណោះ។ កាបូបរបស់អ្នកបរិច្ចាគបានផ្សព្វផ្សាយប្រតិបត្តិការនេះហើយ ប៉ុន្តែវាមិនទាន់ត្រូវបានបញ្ចូលក្នុងប្លុកនៅឡើយទេ។",
+          "Bitcoin បង្កើតប្លុកថ្មីប្រហែលរៀងរាល់ ១០ នាទីម្ដង ហើយអ្នករុករករ៉ែជ្រើសរើសប្រតិបត្តិការផ្អែកលើថ្លៃដែលអ្នកបរិច្ចាគបានបង់។ ការបរិច្ចាគភាគច្រើនត្រូវបានបញ្ជាក់ក្នុងមួយម៉ោង; ការបរិច្ចាគដែលមានថ្លៃទាបអាចចំណាយពេលយូរជាងនេះនៅពេលដែលបណ្តាញមានភាពមមាញឹក។ {{appName}} នឹងពិនិត្យឡើងវិញនូវស្ថានភាពនៃការបញ្ជាក់ដោយស្វ័យប្រវត្តិ ដូច្នេះស្លាក **pending** នឹងបាត់ដោយខ្លួនឯងនៅពេលដែលប្លុកមួយចេញមកដល់។",
+          "មូលនិធិកំពុងនៅផ្លូវ — អ្នកសកម្មនិយមនឹងឃើញការបរិច្ចាគនេះត្រូវបានរាប់បញ្ចូលក្នុងសរុបនៃយុទ្ធនាការភ្លាមៗនៅពេលដែលវាត្រូវបានបញ្ជាក់។ គ្មានអ្វីដែលអ្នកសកម្មនិយម ឬ {{appName}} អាចធ្វើបានដើម្បីពន្លឿនវាឡើយ; មានតែកាបូបរបស់អ្នកបរិច្ចាគប៉ុណ្ណោះដែលអាចបង្កើនថ្លៃបាន។"
+        ]
+      },
+      "censorship-resistance": {
+        "question": "តើ «ការប្រឆាំងការត្រួតពិនិត្យ» នៅទីនេះមានន័យអ្វី?",
+        "answer": [
+          "គ្មានក្រុមហ៊ុនណាមួយឈរនៅចន្លោះអ្នកបរិច្ចាគនិងអ្នកសកម្មនិយមឡើយ។ {{appName}} មិនកាន់ប្រាក់ និងមិនអាចបង្កកអាសយដ្ឋានឡើយ។",
+          "ដរាបណាបណ្ដាញ Bitcoin កំពុងដំណើរការ ការបរិច្ចាគអាចត្រូវផ្ញើនិងទទួលបាន។ ទោះបី {{appName}} ខ្លួនឯងធ្លាក់ផុតពីបណ្ដាញ ក៏មិនបញ្ឈប់វាដែរ។"
+        ]
+      },
+      "why-onchain": {
+        "question": "ហេតុអ្វីបានជា Bitcoin?",
+        "answer": [
+          "Bitcoin គឺជាប្រព័ន្ធទូទាត់ដែលគាំទ្រយ៉ាងទូលំទូលាយបំផុត និងធន់នឹងការត្រួតពិនិត្យបំផុតក្នុងពិភពលោក។ កាបូប Bitcoin ណាមួយក៏អាចផ្ញើវាបាន។",
+          "នៅលើ {{appName}} អ្នកសកម្មនិយមជ្រើសរើសរបៀបទទួល៖ **សាធារណៈ** (អាសយដ្ឋាន Bitcoin ធម្មតា) សម្រាប់ឈានដល់អតិបរមា **ឯកជន** (ការទូទាត់ស្ងាត់) សម្រាប់ការបរិច្ចាគដែលមិនអាចភ្ជាប់បាន ឬ **ទាំងពីរ** ដើម្បីឱ្យកាបូបរបស់អ្នកបរិច្ចាគនីមួយៗជ្រើសផ្លូវត្រឹមត្រូវដោយស្វ័យប្រវត្តិ។ អ្នកបរិច្ចាគដែលមានតែកម្មវិធី Bitcoin សម្រាប់អ្នកប្រើទូទៅអាចបរិច្ចាគបាន។ អ្នកបរិច្ចាគដែលមានកាបូបការទូទាត់ស្ងាត់ទទួលបានភាពឯកជនជាលំនាំដើម។",
+          "ការដោះដូរគឺថា ប្រតិបត្តិការ Bitcoin សាធារណៈអាចមើលឃើញនៅលើ blockchain និងបង់ថ្លៃអ្នកជីក។ មគ្គុទេសក៍អ្នកបរិច្ចាគ និងមគ្គុទេសក៍សកម្មនិយមពន្យល់ពីរបៀបដោះស្រាយទាំងពីរ។"
+        ]
+      },
+      "why-not-silent-payments": {
+        "question": "តើ {{appName}} គាំទ្រការទូទាត់ស្ងាត់ឬទេ?",
+        "answer": [
+          "បាទ/ចាស — ទាំងសងខាង។ កាបូប Bitcoin ដែលភ្ជាប់មកជាមួយរបស់ {{appName}} គាំទ្រ BIP-352 ដូច្នេះពេលអ្នកផ្ញើ Bitcoin ពីកាបូប {{appName}} របស់អ្នក អ្នកអាចបង់ប្រាក់ទៅអាសយដ្ឋានការទូទាត់ស្ងាត់ណាមួយ (`sp1…`) ដោយផ្ទាល់។ ហើយពេលអ្នកសកម្មនិយមបង្កើតយុទ្ធនាការ ពួកគេអាចទទួលយកការទូទាត់ស្ងាត់ជាមួយ ឬជំនួសឱ្យការទូទាត់ Bitcoin សាធារណៈ។",
+          "ការបរិច្ចាគការទូទាត់ស្ងាត់នៅតែបញ្ចប់នៅលើខ្សែ ប៉ុន្តែប្រតិបត្តិការមិនអាចភ្ជាប់ទៅនឹងលេខកូដបរិច្ចាគរបស់អ្នកសកម្មនិយម — ដូច្នេះវាមិនលេចឡើងក្នុងបញ្ជី ឬសរុបបរិច្ចាគជាសាធារណៈ។",
+          "ការផ្ញើការទូទាត់ស្ងាត់ពីខាងក្រៅ {{appName}} ត្រូវការកាបូបដែលគាំទ្រ BIP-352។ កម្មវិធីសម្រាប់អ្នកប្រើទូទៅភាគច្រើនមិនទាន់គាំទ្រ ប៉ុន្តែ [Ditto Wallet](https://ditto.pub) និង [Dana](https://github.com/cygnet3/dana/releases/download/v0.7.4/app-live-release.apk) គាំទ្រ។",
+          "ពេលដែលយុទ្ធនាការទទួលយកការទូទាត់ទាំងពីរប្រភេទ {{appName}} អ៊ីនកូដវាក្នុងកូដ QR តែមួយ។ កាបូបដែលគាំទ្រការទូទាត់ស្ងាត់បង់ប្រាក់ឯកជន។ ផ្សេងទៀតបង់ប្រាក់ទៅអាសយដ្ឋានសាធារណៈ។ គ្មានអ្នកបរិច្ចាគណាមួយត្រូវបានបោះបង់ និងគ្មានអ្នកសកម្មនិយមណាមួយត្រូវបានបង្ខំឱ្យជ្រើសរើសរវាងការឈានទៅដល់ និងភាពឯកជន។"
+        ]
+      },
+      "why-not-lightning": {
+        "question": "ហេតុអ្វី {{appName}} មិនប្រើ Lightning?",
+        "answer": [
+          "Lightning ត្រូវការកាបូប Lightning។ កាបូបងាយស្រួលបំផុត (Wallet of Satoshi, Strike, Breez) គឺ **កាន់កាប់ (custodial)** — ក្រុមហ៊ុនកាន់ប្រាក់ ហើយអាចត្រូវបិទ បិទតាមតំបន់ភូមិសាស្ត្រ ឬត្រូវសម្ពាធដើម្បីបង្កកគណនី។ Lightning មិនកាន់កាប់គឺមានភាពលំបាកផ្នែកបច្ចេកទេស និងមិនអាចទុកចិត្តបានសម្រាប់អ្នកថ្មី។",
+          "យើងចង់ឱ្យ {{appName}} ដំណើរការសម្រាប់នរណាម្នាក់ដែលបទពិសោធន៍ Bitcoin តែមួយគត់របស់ខ្លួនគឺកម្មវិធីសម្រាប់អ្នកប្រើទូទៅធម្មតាដូចជា Cash App, Coinbase, Strike, Venmo, ឬ PayPal។ Bitcoin លើខ្សែដំណើរការជាមួយគ្រប់កាបូបនៅលើភពផែនដី។"
+        ]
+      },
+      "why-not-rotating-addresses": {
+        "question": "ហេតុអ្វី {{appName}} មិនបង្កើតអាសយដ្ឋានថ្មីសម្រាប់រាល់ការបរិច្ចាគ?",
+        "answer": [
+          "ការធ្វើបែបនេះនឹងតម្រូវឱ្យ {{appName}} ដើរតួជាអន្តរការីដោះដូរប្រាក់ — ដោយយក Bitcoin ជាប្រាក់សន្សំជាមុនសិន ហើយបន្ទាប់មកបញ្ជូនទៅអ្នកសកម្មនិយម។",
+          "នោះនឹងធ្វើឱ្យយើងក្លាយជាអ្នកបញ្ជូនប្រាក់ ស្ថិតក្រោមបទប្បញ្ញត្តិដែលអនុវត្តចំពោះវា និងជាចំណុចបរាជ័យតែមួយ៖ បិទម៉ាស៊ីនមេរបស់ {{appName}} នោះអ្នកនឹងបិទរាល់ការបរិច្ចាគដែលធ្វើដំណើរតាមរយៈវា។",
+          "ផ្ទុយទៅវិញ អាសយដ្ឋានបរិច្ចាគរបស់អ្នកប្រើនីមួយៗត្រូវបានចេញពីកូនសោឯកជន Nostr (nsec) របស់ខ្លួន — ជាកូនសោដដែលដែលអ្នកប្រើដើម្បីចូល។ អ្នកបរិច្ចាគផ្ញើដោយផ្ទាល់ទៅអ្នកសកម្មនិយម។ {{appName}} មិនដែលប៉ះប្រាក់ ហើយវេទិកាខ្លួនឯងក៏មិនអាចត្រូវបានបិទដើម្បីសង្កត់សង្កិននរណាម្នាក់ឡើយ។ អ្នកសកម្មនិយមដែលចង់បានភាពឯកជនក្នុងការបរិច្ចាគនីមួយៗអាចទទួលយកការទូទាត់ស្ងាត់ ដែលផ្ដល់នូវភាពមិនអាចភ្ជាប់បានដូចគ្នាដោយគ្មាននរណាម្នាក់កាន់ប្រាក់នៅចំកណ្ដាល។"
+        ]
+      },
+      "why-not-other-crypto": {
+        "question": "ហេតុអ្វីមិន Monero ឬគ្រីបតូផ្សេងទៀត?",
+        "answer": [
+          "Bitcoin គឺជាគ្រីបតូដែលត្រូវបានទទួលយកយ៉ាងទូលំទូលាយបំផុត។ នេះមានន័យថាវាជាការងាយស្រួលបំផុតសម្រាប់អ្នកបរិច្ចាគទិញនិងផ្ញើ និងជាការងាយស្រួលបំផុតសម្រាប់អ្នកសកម្មនិយមទទួល កាន់ និងចំណាយ។",
+          "កាក់ដែលផ្ដោតលើភាពឯកជនដូចជា Monero ផ្ដល់នូវការដោះដូរភាពឯកជនខុសពី Bitcoin ប៉ុន្តែវាមិនត្រូវបានគាំទ្រដោយកម្មវិធីសម្រាប់អ្នកប្រើទូទៅភាគច្រើនទេ ហើយវាពិបាកបំលែងទៅជារូបិយប័ណ្ណមូលដ្ឋានវិញ។ ការសុំឱ្យភាគីណាមួយនៃការបរិច្ចាគទទួលគ្រីបតូដែលមិនសូវសាមញ្ញជាមុនសិន គឺជារនាំងមួយដែល {{appName}} នឹងមិនដាក់ឡើយ។ សម្រាប់ការបរិច្ចាគ Bitcoin ខ្លួនវាផ្ទាល់ ការទូទាត់ស្ងាត់គ្របដណ្ដប់លើករណីប្រើភាពមិនអាចភ្ជាប់បាន ដោយមិនចាំបាច់ចេញពីប្រព័ន្ធអេកូ Bitcoin ឡើយ។"
+        ]
+      },
+      "what-is-verification": {
+        "question": "តើសញ្ញាសម្គាល់ \"បានផ្ទៀងផ្ទាត់\" នៅលើយុទ្ធនាការមួយមានន័យយ៉ាងណា?",
+        "answer": [
+          "យុទ្ធនាការដែលបានផ្ទៀងផ្ទាត់គឺជាយុទ្ធនាការមួយដែល **អ្នកផ្ទៀងផ្ទាត់ដែលអាចទុកចិត្តបាន** បានធានាជាសាធារណៈ។ អ្នកផ្ទៀងផ្ទាត់នោះនិយាយថាគាត់ស្គាល់អ្នករៀបចំដោយផ្ទាល់ ឬបានពិនិត្យយ៉ាងមានន័យថាការអះអាងរបស់យុទ្ធនាការគឺពិត។",
+          "សញ្ញាសម្គាល់នេះបង្ហាញយ៉ាងច្បាស់ថា **អ្នកណា** ជាអ្នកបានធានា ហើយអ្នកផ្ទៀងផ្ទាត់នីមួយៗភ្ជាប់ទៅកាន់ប្រវត្តិរូបរបស់ខ្លួន។ ការផ្ទៀងផ្ទាត់គឺជាសញ្ញាមួយ មិនមែនជាការយល់ព្រមផ្តាច់មុខពី {{appName}} ឡើយ។ យើងមិនធ្វើការត្រួតពិនិត្យប្រវត្តិទេ។ វាមានវត្តមានដើម្បីឱ្យអ្នកអាចសម្រេចថាតើ *អ្នក* ទុកចិត្តលើមនុស្សដែលឈរនៅពីក្រោយយុទ្ធនាការមួយឬអត់។",
+          "នៅពេលដែលគ្មានប្រភពដែលអាចទុកចិត្តបានផ្ទៀងផ្ទាត់យុទ្ធនាការមួយ ទំព័ររបស់វានឹងបង្ហាញការជូនដំណឹងប្រុងប្រយ័ត្នជំនួសវិញ។ ការជូនដំណឹងនោះមិនមែនជាការចោទប្រកាន់ឡើយ។ វាគ្រាន់តែមានន័យថាមិនទាន់មានអ្នកណានៅក្នុងបញ្ជីដែលអាចទុកចិត្តបានធានាឱ្យវាឡើយ។"
+        ]
+      },
+      "who-verifies": {
+        "question": "តើអ្នកណាចាត់ទុកជា \"ប្រភពដែលអាចទុកចិត្តបាន\"?",
+        "answer": [
+          "អ្នកផ្ទៀងផ្ទាត់ដែលអាចទុកចិត្តបានគឺជាសមាជិកនៃកញ្ចប់តាមដានដែលបានរៀបចំពីរ៖ **World Liberty Congress Verified** និង **Team Soapbox** (ក្រុមដែលបង្កើត {{appName}} ក្នុងកិច្ចសហការជាមួយ [World Liberty Congress](https://worldlibertycongress.org/))។",
+          "តាមបច្ចេកទេស អ្នកណាម្នាក់នៅលើ Nostr អាចផ្សព្វផ្សាយស្លាកផ្ទៀងផ្ទាត់សម្រាប់យុទ្ធនាការណាមួយ ហើយវានឹងបង្ហាញនៅលើសញ្ញាសម្គាល់។ ប៉ុន្តែមានតែការធានាពីសមាជិកនៃកញ្ចប់ទាំងពីរនោះទេ ដែលអាចដកការជូនដំណឹងប្រុងប្រយ័ត្នចេញ និងអាចលើកកម្ពស់យុទ្ធនាការមួយចូលទៅក្នុងផ្នែក Verified Campaigns នៃទំព័រដើម។ អ្នករៀបចំដែលផ្ទៀងផ្ទាត់យុទ្ធនាការផ្ទាល់ខ្លួនមិនរាប់បញ្ចូលឡើយ។"
+        ]
+      },
+      "unverified-meaning": {
+        "question": "យុទ្ធនាការមួយមិនបានផ្ទៀងផ្ទាត់។ តើវាជាការបោកបញ្ឆោតឬ?",
+        "answer": [
+          "**មិនចាំបាច់ដូច្នេះទេ។** ការផ្ទៀងផ្ទាត់ត្រូវបានធ្វើឱ្យពិបាកទទួលបានដោយចេតនា ដូច្នេះយុទ្ធនាការស្របច្បាប់ភាគច្រើនចាប់ផ្តើមដោយមិនបានផ្ទៀងផ្ទាត់ ជាពិសេសយុទ្ធនាការថ្មី និងយុទ្ធនាការពីមនុស្សដែលអ្នកផ្ទៀងផ្ទាត់ដែលអាចទុកចិត្តបានមិនទាន់បានជួប។",
+          "ចាត់ទុកសញ្ញាសម្គាល់ជាទំនុកចិត្តបន្ថែម មិនមែនជារឿងតែមួយគត់ដែលសំខាន់នោះទេ។ អានយុទ្ធនាការ មើលប្រវត្តិរូប និងប្រវត្តិរបស់អ្នករៀបចំ ហើយចងចាំពីរបៀបដែល {{appName}} ដំណើរការ៖ ការបរិច្ចាគទៅ **ដោយផ្ទាល់** កាន់អាសយដ្ឋាន Bitcoin របស់អ្នករៀបចំនៅលើ chain។ {{appName}} មិនដែលកាន់មូលនិធិ និងមិនអាចបញ្ច្រាស សងវិញ ឬបង្កកការទូទាត់បានឡើយ ដូច្នេះសូមផ្តល់ដូចជាអ្នកកំពុងប្រគល់សាច់ប្រាក់ឱ្យនរណាម្នាក់។"
+        ]
+      },
+      "why-campaigns-hidden": {
+        "question": "ហេតុអ្វីបានជាយុទ្ធនាការមួយចំនួនត្រូវបានលាក់ ហើយតើខ្ញុំនៅតែអាចមើលឃើញពួកវាបានទេ?",
+        "answer": [
+          "អ្នកសម្រួលអាចលាក់យុទ្ធនាការដែលមើលទៅដូចជាសារឥតបានការ ការបោកបញ្ឆោត ឬការក្លែងបន្លំអត្តសញ្ញាណរបស់អ្នកដទៃ។ យុទ្ធនាការដែលបានលាក់ត្រូវបានទុកចេញពី feed និងការស្វែងរករបស់ {{appName}} ដូច្នេះមនុស្សភាគច្រើនមិនចៃដន្យ ជួបប្រទះពួកវាឡើយ។",
+          "**នេះមិនមែនជាការត្រួតពិនិត្យទប់ស្កាត់ឡើយ ហើយគ្មានអ្វីត្រូវបានលុបចោលទេ។** យុទ្ធនាការមួយរស់នៅលើបណ្តាញ Nostr ដ៏ចំហ ដោយមិនគិតពីអ្វីដែល {{appName}} បង្ហាញ។ ការលាក់គ្រាន់តែផ្លាស់ប្តូរនូវអ្វីដែល {{appName}} បង្ហាញតាមលំនាំដើមប៉ុណ្ណោះ។ ប្រសិនបើអ្នកបើកយុទ្ធនាការដែលបានលាក់ដោយផ្ទាល់ ដូចជាពីតំណដែលបានចែករំលែក អ្នកនឹងឃើញការជូនដំណឹងពន្យល់ពីមូលហេតុ និងប៊ូតុងដើម្បី **បន្តទោះជាយ៉ាងណា**។ ជម្រើសក្នុងការមើលវា និងបរិច្ចាគ គឺជារបស់អ្នកជានិច្ច។",
+          "គោលដៅគ្រាន់តែផ្តល់បរិបទដល់អ្នកបរិច្ចាគមុនពេលពួកគេឱ្យ៖ ការជូនដំណឹងថាអ្នកសម្រួលដែលអាចទុកចិត្តបានបានសម្គាល់អ្វីមួយ មិនមែនជាការសម្រេចចិត្តដែលធ្វើឡើងជំនួសអ្នកឡើយ។"
+        ]
+      },
+      "how-get-verified": {
+        "question": "ខ្ញុំជាអ្នករៀបចំ។ តើខ្ញុំធ្វើឱ្យយុទ្ធនាការរបស់ខ្ញុំបានផ្ទៀងផ្ទាត់ដោយរបៀបណា?",
+        "answer": [
+          "អ្នកមិនអាចផ្ទៀងផ្ទាត់ខ្លួនឯងបានទេ អ្នកផ្ទៀងផ្ទាត់ដែលអាចទុកចិត្តបានត្រូវធានាឱ្យអ្នក។ ផ្លូវដែលអាចទុកចិត្តបានបំផុតគឺការកសាងកំណត់ត្រាការងារពិតប្រាកដ៖ ប្រវត្តិរូបពេញលេញ យុទ្ធនាការច្បាស់លាស់ និងទំនាក់ទំនងពិតប្រាកដជាមួយមនុស្សនៅក្នុងសហគមន៍។",
+          "ប្រសិនបើការងាររបស់អ្នកភ្ជាប់ទៅនឹង World Liberty Congress ឬក្រុម {{appName}} សូមទាក់ទងតាមរយៈទំនាក់ទំនងដែលមានស្រាប់របស់អ្នកនៅទីនោះ។ អ្នកផ្ទៀងផ្ទាត់ដែលស្គាល់អ្នកអាចបន្ថែមការធានារបស់គាត់ ហើយវានឹងបង្ហាញនៅលើយុទ្ធនាការរបស់អ្នកដោយស្វ័យប្រវត្តិ។"
+        ]
+      },
+      "verification-guarantee": {
+        "question": "តើការផ្ទៀងផ្ទាត់ធានាថាការបរិច្ចាគរបស់ខ្ញុំមានសុវត្ថិភាពទេ?",
+        "answer": [
+          "ទេ។ ការផ្ទៀងផ្ទាត់ប្រាប់អ្នកថាមនុស្សដែលអាចទុកចិត្តបានធានាឱ្យយុទ្ធនាការ។ វា **មិន** ធានាលទ្ធផល ធានារ៉ាប់រងលុយរបស់អ្នក ឬធ្វើឱ្យ {{appName}} ទទួលខុសត្រូវចំពោះរបៀបប្រើប្រាស់មូលនិធិឡើយ។",
+          "ដោយសារការបរិច្ចាគមិនមានការឃុំទុក និងស្ថិតនៅលើ chain ការទូទាត់ទាំងអស់គឺជាចុងក្រោយ នៅពេលដែលអ្នកផ្ញើវា។ អ្នកផ្ទៀងផ្ទាត់ក៏អាច **ដក** ការធានារបស់គាត់ចេញនៅពេលក្រោយ ប្រសិនបើមានអ្វីមួយផ្លាស់ប្តូរ ដែលនឹងលុបសញ្ញាសម្គាល់ចេញ។ សូមបរិច្ចាគចំនួនទឹកប្រាក់ដែលអ្នកមានផាសុកភាពក្នុងការឱ្យដោយផ្ទាល់ទៅមនុស្សម្នាក់ទៀត។"
+        ]
+      },
+      "what-is-nostr": {
+        "question": "តើ Nostr ជាអ្វី?",
+        "answer": [
+          "Nostr ជាបណ្ដាញបើកចំហដែល **អ្នក** ជាម្ចាស់គណនីរបស់ខ្លួនអ្នក មិនមែនជាក្រុមហ៊ុនណាមួយឡើយ។ អត្តសញ្ញាណរបស់អ្នកគឺកូនសោគ្រីបតូដែលអ្នកគ្រប់គ្រង មិនមែនជាឈ្មោះអ្នកប្រើនៅលើម៉ាស៊ីនមេរបស់អ្នកដទៃនោះទេ។",
+          "នៅលើ {{appName}} កូនសោដដែលនោះក៏ជាអ្វីដែលអាសយដ្ឋានបរិច្ចាគរបស់អ្នកត្រូវបានចេញពី — កូនសោឯកជន Nostr (nsec) របស់អ្នកជាគ្រាប់ពូជសម្រាប់កាបូប Bitcoin របស់អ្នក នោះហើយជាមូលហេតុដែលអ្នកអាចទទួល Bitcoin ដោយមិនចាំបាច់ចុះឈ្មោះជាមួយនរណាម្នាក់។"
+        ]
+      },
+      "why-login-different": {
+        "question": "ហេតុអ្វីការចូលរបស់ខ្ញុំខុសគ្នា និងវែងម៉្លេះ?",
+        "answer": [
+          "ជំនួសឱ្យឈ្មោះអ្នកប្រើ និងពាក្យសម្ងាត់ដែលគ្រប់គ្រងដោយក្រុមហ៊ុន Nostr ប្រើជាគូនៃកូនសោគ្រីបតូ។",
+          "«កូនសោសាធារណៈ» របស់អ្នក (ចាប់ផ្ដើមដោយ **npub**) គឺជាឈ្មោះអ្នកប្រើរបស់អ្នក។ «កូនសោឯកជន» របស់អ្នក (ចាប់ផ្ដើមដោយ **nsec**) គឺជាពាក្យសម្ងាត់របស់អ្នក។ ខ្សែវែងគឺជាអ្វីដែលធ្វើឱ្យវាស្ទើរតែមិនអាចទាយបាន។"
+        ]
+      },
+      "lose-secret-key": {
+        "question": "តើនឹងមានអ្វីកើតឡើងបើខ្ញុំបាត់កូនសោឯកជន?",
+        "answer": [
+          "**មិនមានប៊ូតុង «ភ្លេចពាក្យសម្ងាត់» ឡើយ។** គ្មាននរណាម្នាក់អាចកំណត់ឡើងវិញសម្រាប់អ្នកបាន។ បើអ្នកបាត់វា គណនីរបស់អ្នក — និង Bitcoin ណាមួយដែលស្ថិតនៅអាសយដ្ឋានបរិច្ចាគរបស់អ្នក — នឹងបាត់បង់ជារៀងរហូត។",
+          "**រក្សាទុកកូនសោឯកជនរបស់អ្នកនៅកន្លែងសុវត្ថិភាពឥឡូវនេះ។** សម្រាប់ការណែនាំ សូមអាន [ការគ្រប់គ្រងកូនសោ Nostr របស់អ្នក](https://soapbox.pub/blog/managing-nostr-keys)។"
+        ]
+      },
+      "manage-secret-key": {
+        "question": "តើខ្ញុំអាចរក្សាទុកកូនសោឯកជននៅក្នុងកម្មវិធីគ្រប់គ្រងពាក្យសម្ងាត់ទូរស័ព្ទបានឬ?",
+        "answer": [
+          "បាន។ អ្នកអាចរក្សាទុកវាក្នុងកម្មវិធីគ្រប់គ្រងពាក្យសម្ងាត់របស់ឧបករណ៍អ្នក (iCloud Keychain, 1Password, Bitwarden ។ល។)។ នៅលើ iPhone ការរក្សាទុកវានៅក្នុង Passwords អនុញ្ញាតឱ្យអ្នកប្រើ Face ID ឬ Touch ID ដើម្បីចូល។",
+          "សម្រាប់ការណែនាំពេញលេញ សូមមើល [ការគ្រប់គ្រងកូនសោ Nostr របស់អ្នក](https://soapbox.pub/blog/managing-nostr-keys)។"
+        ]
+      },
+      "send-bitcoin-lightning": {
+        "question": "តើការផ្ញើ Bitcoin តាមរយៈ Lightning ដំណើរការយ៉ាងដូចម្ដេច?",
+        "answer": [
+          "ប្រសិនបើអ្នកទទួលមានអាសយដ្ឋាន Lightning នៅលើប្រវត្តិរូបរបស់គេ អ្នកអាចផ្ញើទៅអាសយដ្ឋាននោះ។ Lightning បញ្ចប់ក្នុងរយៈពេលប៉ុន្មានវិនាទីហើយថ្លៃសេវាមានតិចតួច។",
+          "ការផ្ញើ Lightning មិនប្រើអាសយដ្ឋានបរិច្ចាគរបស់ {{appName}} ទេ — ពួកវាទៅដោយផ្ទាល់ទៅកាបូប Lightning ណាមួយដែលអ្នកទទួលរៀបចំដោយខ្លួនឯង។ លំហូរបរិច្ចាគផ្ទាល់ខ្លួនរបស់ {{appName}} គឺនៅលើខ្សែតែប៉ុណ្ណោះ។"
+        ]
+      },
+      "what-are-zaps": {
+        "question": "តើ Zaps ជាអ្វី?",
+        "answer": [
+          "Zaps គឺការផ្ដល់រង្វាន់ Lightning តូចៗនៅលើ Nostr ដាច់ដោយឡែកពីលំហូរបរិច្ចាគលើខ្សែរបស់ {{appName}}។"
+        ]
+      },
+      "fyp": {
+        "question": "តើព័ត៌មានរបស់ខ្ញុំដំណើរការយ៉ាងដូចម្ដេច?",
+        "answer": [
+          "ព័ត៌មានរបស់អ្នកបង្ហាញយុទ្ធនាការ និងការប្រកាសពីមនុស្សដែលអ្នកតាមដាន។ គ្មានក្បួនដោះស្រាយដែលសម្រេចថាអ្នកឃើញអ្វីឡើយ។"
+        ]
+      },
+      "what-are-relays": {
+        "question": "តើ Relays ជាអ្វី?",
+        "answer": [
+          "Relays គឺជាម៉ាស៊ីនមេដែលរក្សាទុក និងបញ្ជូនព្រឹត្តិការណ៍ Nostr — ការប្រកាស វិក្កយបត្របរិច្ចាគ ព័ត៌មានប្រវត្តិរូប។ ការកំណត់លំនាំដើមដំណើរការតាំងពីដំបូង។ អ្នកអាចបន្ថែម ឬដកចេញ relays នៅក្នុង ការកំណត់ > បណ្ដាញ។"
+        ]
+      },
+      "what-are-blossom": {
+        "question": "តើម៉ាស៊ីនមេ Blossom ជាអ្វី?",
+        "answer": [
+          "ម៉ាស៊ីនមេ Blossom រក្សាទុកឯកសារមេឌៀ (រូបភាពយុទ្ធនាការ រូបភាពប្រវត្តិរូប) នៅពេលអ្នកអាប់ឡូត។ អ្នកអាចគ្រប់គ្រងម៉ាស៊ីនមេណាដែលអ្នកប្រើនៅក្នុង ការកំណត់ > បណ្ដាញ។"
+        ]
+      },
+      "report-content": {
+        "question": "តើខ្ញុំរាយការណ៍មាតិកាគ្រោះថ្នាក់យ៉ាងដូចម្ដេច?",
+        "answer": [
+          "ចុចលើម៉ឺនុយបីចំណុច (**...**) លើការប្រកាសណាមួយ ហើយជ្រើស «រាយការណ៍»។ អ្នកអាចបិទសម្លេង ឬទប់ស្កាត់អ្នកប្រើពីម៉ឺនុយដដែលនេះ។"
+        ]
+      },
+      "vs-mastodon-bluesky": {
+        "question": "តើ Nostr ខុសពី Mastodon ឬ Bluesky យ៉ាងដូចម្ដេច?",
+        "answer": [
+          "នៅ Mastodon គណនីរបស់អ្នករស់នៅលើម៉ាស៊ីនមេជាក់លាក់។ នៅ Bluesky គណនីភាគច្រើនពឹងផ្អែកលើក្រុមហ៊ុនមួយ។ នៅ Nostr អត្តសញ្ញាណរបស់អ្នកគឺកូនសោដែលអ្នកគ្រប់គ្រង ហើយអាសយដ្ឋានបរិច្ចាគរបស់អ្នកនឹងទៅជាមួយអ្នកទៅកម្មវិធី Nostr ណាក៏បាន។"
+        ]
+      },
+      "profile-fields": {
+        "question": "តើប្រអប់ប្រវត្តិរូបជាអ្វី?",
+        "answer": [
+          "ប្រអប់ប្រវត្តិរូបអនុញ្ញាតឱ្យអ្នកបន្ថែមព័ត៌មានបន្ថែមទៅប្រវត្តិរូបរបស់អ្នក — តំណ អាសយដ្ឋានកាបូប តន្ត្រី រូបថត វីដេអូ។"
+        ]
+      }
+    }
+  },
+  "guides": {
+    "shared": {
+      "tldrEyebrow": "កំណែខ្លី",
+      "paymentBadge": {
+        "public": "ការទូទាត់សាធារណៈ",
+        "silent": "ការទូទាត់ស្ងាត់"
+      },
+      "paymentComparison": {
+        "donorHeader": "ពេលអ្នកបរិច្ចាគ",
+        "recipientHeader": "ពេលអ្នកបង្កើតយុទ្ធនាការ",
+        "donorRows": {
+          "whatYouSee": {
+            "label": "អ្វីដែលអ្នកឃើញ",
+            "public": "អាសយដ្ឋាន Bitcoin ធម្មតាដែលអ្នកអាចបង់ប្រាក់ពីកន្លែងណាក៏បាន។",
+            "silent": "QR ដដែលនោះ។ កាបូបរបស់អ្នកជ្រើសរើសចំណុចបញ្ចប់ការទូទាត់ស្ងាត់ បើវាគាំទ្រ BIP-352។"
+          },
+          "walletSupport": {
+            "label": "ការគាំទ្រកាបូប",
+            "public": "កាបូប Bitcoin គ្រប់ប្រភេទ។ Cash App, Coinbase, Strike, ហាតវែ និងផ្សេងទៀត។",
+            "silent": "កាបូបតិចតួចសព្វថ្ងៃ។ ភាគច្រើនធ្លាក់ចុះទៅប្រតិបត្តិការ Bitcoin ធម្មតា។"
+          },
+          "privacy": {
+            "label": "ភាពឯកជននៃការបរិច្ចាគ",
+            "public": "សាធារណៈនៅលើខ្សែ។ អាសយដ្ឋានផ្ញើរបស់អ្នកត្រូវបានភ្ជាប់ជារៀងរហូតទៅយុទ្ធនាការ។",
+            "silent": "ផ្នែកទទួលមិនអាចភ្ជាប់នៅលើខ្សែ។ ដាននៃកាបូបផ្ញើរបស់អ្នកនៅតែសាធារណៈ។"
+          },
+          "settlement": {
+            "label": "ការបញ្ចប់",
+            "public": "ការបញ្ជាក់ Bitcoin ធម្មតា។",
+            "silent": "ការបញ្ជាក់នៅលើខ្សែដូចគ្នា ប៉ុន្តែអ្នកសកម្មនិយមត្រូវស្កេនកាបូបរបស់គេដើម្បីរកវា។"
+          }
+        },
+        "recipientRows": {
+          "whatDonorsSee": {
+            "label": "អ្វីដែលអ្នកបរិច្ចាគឃើញ",
+            "public": "អាសយដ្ឋាន Bitcoin ធម្មតា។ ដំណើរការជាមួយរាល់កាបូបនៅលើផែនដី។",
+            "silent": "ចំណុចបញ្ចប់ BIP-352។ កាបូបអ្នកបរិច្ចាគត្រូវការការគាំទ្រការទូទាត់ស្ងាត់ បើមិនដូច្នេះការបរិច្ចាគធ្លាក់ចុះទៅប្រតិបត្តិការ Bitcoin ធម្មតា។"
+          },
+          "receivingSpeed": {
+            "label": "ល្បឿនទទួល",
+            "public": "បែប Push។ ការបរិច្ចាគបង្ហាញភ្លាមៗនៅលើទំព័រយុទ្ធនាការ។",
+            "silent": "ស្កេនដោយដៃ។ កាបូបរបស់អ្នកត្រូវដើរលើ blockchain ដើម្បីរកវា។ ពីប៉ុន្មាននាទីដល់ប៉ុន្មានម៉ោង អាស្រ័យលើកាបូប។"
+          },
+          "pushNotifications": {
+            "label": "ការជូនដំណឹង Push",
+            "public": "មាន។ អ្នកឃើញការបរិច្ចាគថ្មីពេលវាមកដល់។",
+            "silent": "គ្មាន។ បើកកាបូប និងចាប់ផ្ដើមស្កេនដើម្បីរកវា។"
+          },
+          "donorList": {
+            "label": "បញ្ជីអ្នកបរិច្ចាគ / សរុបយុទ្ធនាការ",
+            "public": "សាធារណៈជារៀងរហូត។ ចំនួន និងអាសយដ្ឋានផ្ញើអាចមើលឃើញដោយនរណាក៏បាន។",
+            "silent": "ឯកជន។ ទំព័រយុទ្ធនាការមិនអាចបង្ហាញចំនួន ឬសរុបការបរិច្ចាគទូទាត់ស្ងាត់ឡើយ។"
+          },
+          "ecosystem": {
+            "label": "ភាពចាស់ទុំនៃប្រព័ន្ធអេកូ",
+            "public": "ចាស់ទុំ។ ឧបករណ៍ស្ថិតស្ថេរ។",
+            "silent": "ច្នៃប្រឌិតថ្មី។ កាបូបនៅមាន bug; រំពឹងថាការទូទាត់ខ្លះនឹងបាត់ ហើយលេចឡើងក្នុងការស្កេនលើកក្រោយ។"
+          },
+          "bestFor": {
+            "label": "ល្អបំផុតសម្រាប់",
+            "public": "យុទ្ធនាការបើកចំហ ដែលភ័ស្តុតាងសង្គម និងភាពអាចមើលឃើញជួយ។",
+            "silent": "យុទ្ធនាការដែលភាពឯកជនរបស់អ្នកបរិច្ចាគ ឬអ្នកសកម្មនិយមសំខាន់ជាងសរុបដែលអាចមើលឃើញ។"
+          },
+          "watchOutFor": {
+            "label": "ចូររប្បវ័ត្តិពី",
+            "public": "កំណត់ត្រាសាធារណៈអចិន្ត្រៃយ៍នៃអ្នកបរិច្ចាគទាំងអស់។",
+            "silent": "បទពិសោធន៍ប្រើប្រាស់នាពេលនេះមិនរលូន។ ការបរិច្ចាគខ្លះនឹងមិនបង្ហាញរហូតដល់អ្នកសកម្មនិយមស្កេន។"
+          }
+        }
+      }
+    },
+    "donor": {
+      "tldr": {
+        "lede": "បង់ប្រាក់ទៅអាសយដ្ឋាន Bitcoin នៅលើទំព័រយុទ្ធនាការពីកាបូបណាមួយដែលអ្នកមានស្រាប់។ បើយុទ្ធនាការទទួលយកការទូទាត់ស្ងាត់ ហើយកាបូបអ្នកគាំទ្រ ការបរិច្ចាគរបស់អ្នកជាឯកជនដោយស្វ័យប្រវត្តិ។",
+        "nextActions": [
+          "បង់ប្រាក់ពីកាបូប Bitcoin ណាមួយ",
+          "គ្មានភ្នាក់ងារកណ្ដាល គ្មានរយៈពេលរក្សា",
+          "ចង់បានភាពឯកជន? អានខាងក្រោម"
+        ]
+      },
+      "flow": {
+        "heading": "ការបរិច្ចាគដំណើរការយ៉ាងដូចម្ដេច",
+        "steps": {
+          "openCampaign": {
+            "title": "បើកយុទ្ធនាការ",
+            "body": "អ្នកឃើញកូដ QR តែមួយ។ បើយុទ្ធនាការទទួលយកជម្រើសទាំងពីរ វាអ៊ីនកូដចំណុចបញ្ចប់ទាំងពីរ; កាបូបរបស់អ្នកជ្រើសរើសចំណុចត្រឹមត្រូវ។"
+          },
+          "payFromAnyWallet": {
+            "title": "បង់ប្រាក់ពីកាបូបណាមួយ",
+            "body": "Cash App, Coinbase, Strike, កាបូបហាតវែ ឬផ្សេងទៀត។ បង់ប្រាក់ ព្រមទាំងថ្លៃបណ្ដាញ។"
+          },
+          "arrivesDirectly": {
+            "title": "ទៅដល់ដោយផ្ទាល់",
+            "body": "មូលនិធិបង់ទៅអ្នកសកម្មនិយមដោយផ្ទាល់។ {{appName}} មិនកាន់កាប់ ឬនាំផ្លូវវាទេ ហើយអាសយដ្ឋានគឺចេញពីកូនសោឯកជន Nostr របស់អ្នកសកម្មនិយម។"
+          }
+        }
+      },
+      "comparison": {
+        "footnote": "យុទ្ធនាការអាចទទួលយកសាធារណៈតែម្នាក់ឯង ស្ងាត់តែម្នាក់ឯង ឬទាំងពីរ។ បើទាំងពីរ កូដ QR ផ្ទុកចំណុចបញ្ចប់ទាំងពីរ។ កាបូបអ្នកជ្រើសរើសចំណុចដែលវាអាចប្រើបាន។"
+      },
+      "publicVisible": {
+        "title": "ការបរិច្ចាគសាធារណៈអាចមើលឃើញនៅលើខ្សែជារៀងរហូត",
+        "body": "ការបរិច្ចាគ **សាធារណៈ** ធ្លាក់ទៅអាសយដ្ឋាន Bitcoin ធម្មតាដែលភ្ជាប់ទៅយុទ្ធនាការ។ នរណាក៏អាចស្វែងរកអាសយដ្ឋាន និងឃើញចំនួន ពេលវេលា និងអាសយដ្ឋានផ្ញើរបស់អ្នក។ ការបរិច្ចាគ **ស្ងាត់** ក៏បញ្ចប់នៅលើខ្សែដែរ ប៉ុន្តែផ្នែកទទួលមិនអាចភ្ជាប់ទៅយុទ្ធនាការ ដូច្នេះវានៅក្រៅបញ្ជី និងសរុបបរិច្ចាគជាសាធារណៈ។"
+      },
+      "privacy": {
+        "heading": "បរិច្ចាគដោយឯកជន",
+        "intro": "ជំហានទាំងនេះមានសារៈសំខាន់បំផុតសម្រាប់ការបរិច្ចាគ **សាធារណៈ** ដែលរាល់ប្រតិបត្តិការត្រូវភ្ជាប់ជារៀងរហូតទៅអាសយដ្ឋានតែមួយ។ ការបរិច្ចាគ **ស្ងាត់** បានលាក់ផ្នែកទទួលរួចហើយ ដូច្នេះហានិភ័យតិចជាង។ ការវិភាគដែលផ្ដោតលើកាបូបផ្ញើរបស់អ្នកនៅតែអាចធ្វើបាន ដូច្នេះបើហានិភ័យរបស់អ្នកខ្ពស់ ជំហានទាំងនេះមានតម្លៃត្រូវធ្វើ។ ជ្រើសរើសមួយ ឬប្រើជាមួយគ្នា។",
+        "options": {
+          "silentWallet": {
+            "name": "ប្រើកាបូបការទូទាត់ស្ងាត់",
+            "purpose": "បង់ប្រាក់ដោយកាបូប Bitcoin ដែលគាំទ្រ BIP-352។ បើយុទ្ធនាការទទួលយកការទូទាត់ស្ងាត់ កាបូបអ្នកប្រើចំណុចបញ្ចប់នោះដោយស្វ័យប្រវត្តិ។"
+          },
+          "nonKyc": {
+            "name": "ទិញ Bitcoin គ្មាន KYC",
+            "purpose": "ទិញ Bitcoin ពីបុគ្គលដោយផ្ទាល់ដើម្បីកុំឱ្យវាភ្ជាប់ទៅអត្តសញ្ញាណរដ្ឋាភិបាលរបស់អ្នកតាំងពីដំបូង។ ចំណុចចាប់ផ្ដើមដែលមានភាពឯកជនខ្លាំងបំផុត។"
+          },
+          "coinjoin": {
+            "name": "Coinjoin មុនសិន",
+            "purpose": "បញ្ចូល Bitcoin របស់អ្នកជាមួយកាក់របស់អ្នកដទៃ ដើម្បីកុំឱ្យលទ្ធផលត្រូវបានតាមដានទៅការទិញ KYC របស់អ្នក។ មានប្រយោជន៍នៅពេលយុទ្ធនាការទទួលយកសាធារណៈតែប៉ុណ្ណោះ។"
+          },
+          "freshWallet": {
+            "name": "ប្រើកាបូបថ្មី",
+            "purpose": "បរិច្ចាគពីកាបូបដែលមិនដែលប៉ះអត្តសញ្ញាណចម្បងរបស់អ្នក ឬកន្លែងផ្លាស់ប្ដូរ KYC ឡើយ។"
+          }
+        }
+      },
+      "consumerApps": {
+        "title": "កម្មវិធីសម្រាប់អ្នកប្រើទូទៅមិនអាចធ្វើឱ្យអ្នកអនាមិកបានទេ",
+        "body": "Cash App, Coinbase, Strike, Venmo, Kraken, Binance និង PayPal សុទ្ធតែផ្ទៀងផ្ទាត់អត្តសញ្ញាណរបស់អ្នក។ មិនថាអ្នកផ្ញើការបរិច្ចាគយ៉ាងណាទេ រាល់ប្រតិបត្តិការនៅតែភ្ជាប់ទៅអត្តសញ្ញាណពិតប្រាកដរបស់អ្នក។ ប្រើកាបូបមិនកាន់កាប់ដែលអ្នកគ្រប់គ្រង។"
+      },
+      "silentToday": {
+        "heading": "កំណត់ចំណាំអំពីការទូទាត់ស្ងាត់សព្វថ្ងៃ",
+        "paragraphs": [
+          "ការទូទាត់ស្ងាត់គឺជាមធ្យោបាយឯកជនបំផុតក្នុងការទទួល Bitcoin នៅលើខ្សែ ប៉ុន្តែប្រព័ន្ធអេកូនៅក្មេង។ កាបូបពេញនិយមភាគច្រើនមិនទាន់អាចផ្ញើទៅចំណុចបញ្ចប់ការទូទាត់ស្ងាត់នៅឡើយទេ ដូច្នេះនៅពេលដែលកាបូបធ្វើមិនបាន ការបរិច្ចាគធ្លាក់ចុះទៅប្រតិបត្តិការ Bitcoin ធម្មតាទៅអាសយដ្ឋានសាធារណៈរបស់យុទ្ធនាការ (បើយុទ្ធនាការទទួលយកទាំងពីរ)។",
+          "សម្រាប់អ្នកសកម្មនិយម ការបរិច្ចាគទូទាត់ស្ងាត់ក៏មកដល់ដោយគ្មានការជូនដំណឹង Push ហើយលេចឡើងតែបន្ទាប់ពីអ្នកសកម្មនិយមស្កេនកាបូបរបស់គេ ដែលអាចចំណាយពេលប៉ុន្មាននាទីដល់ប៉ុន្មានម៉ោង។ មិនមានអ្វីប៉ះពាល់ដល់សុវត្ថិភាពនៃមូលនិធិរបស់អ្នកទេ វាគ្រាន់តែបង្កើតបទពិសោធន៍ប៉ុណ្ណោះ។"
+        ]
+      }
+    },
+    "recipient": {
+      "tldr": {
+        "lede": "ជ្រើសរើសអ្វីដែលត្រូវទទួលយកនៅពេលបង្កើតយុទ្ធនាការ៖ សាធារណៈ ស្ងាត់ ឬទាំងពីរ។ ជម្រើសណាមួយក៏មិនកាន់កាប់ដែរ។ {{appName}} មិនដែលកាន់មូលនិធិរបស់អ្នកឡើយ។",
+        "nextActions": [
+          "ប្រៀបធៀបជម្រើសទាំងពីរ",
+          "រៀបចំផែនការរបៀបនៃការដកប្រាក់",
+          "ផ្លាស់ប្ដូរមូលនិធិឱ្យបានឆាប់"
+        ]
+      },
+      "howReceiving": {
+        "heading": "របៀបទទួលដំណើរការ",
+        "paragraphs": [
+          "អាសយដ្ឋានបរិច្ចាគ {{appName}} របស់អ្នកត្រូវបានចេញពីកូនសោឯកជន Nostr (nsec) របស់អ្នក ដែលជាគ្រាប់ពូជសម្រាប់កាបូប Bitcoin របស់អ្នក។ នៅពេលបង្កើតយុទ្ធនាការ អ្នកជ្រើសរើសអ្វីដែលត្រូវទទួល៖",
+          "**ការទូទាត់សាធារណៈតែម្នាក់ឯង។** អាសយដ្ឋាន Bitcoin ធម្មតា។ មើលឃើញដោយអ្នកគ្រប់គ្នា ដំណើរការជាមួយរាល់កាបូប។",
+          "**ការទូទាត់ស្ងាត់តែម្នាក់ឯង។** ការទូទាត់ស្ងាត់ BIP-352។ ផ្នែកទទួលមិនអាចភ្ជាប់នៅលើខ្សែ ដូច្នេះការបរិច្ចាគនៅក្រៅបញ្ជី និងសរុបអ្នកបរិច្ចាគជាសាធារណៈ។ អ្នកបរិច្ចាគត្រូវការកាបូបដែលមានសមត្ថភាពទូទាត់ស្ងាត់ដើម្បីផ្ញើ។ បើគេមិនមាន ការបរិច្ចាគរបស់គេមិនអាចឆ្លងបានទេ។",
+          "**ទាំងពីរ។** {{appName}} បង្កើតកូដ QR តែមួយដែលអ៊ីនកូដចំណុចបញ្ចប់ទាំងពីរ។ កាបូបការទូទាត់ស្ងាត់អានវាជាឯកជន។ កាបូបធម្មតាបង់ប្រាក់ទៅអាសយដ្ឋានសាធារណៈ។ អ្នកបរិច្ចាគមិនចាំបាច់ជ្រើសរើស។",
+          "ការទទួលយកទាំងពីរជារឿយៗគឺជាការសម្រេចចិត្តត្រឹមត្រូវ៖ អ្នកទទួលបានការបរិច្ចាគជាឯកជនពីអ្នកគាំទ្រដែលប្រើកាបូបការទូទាត់ស្ងាត់ ហើយអ្នកនៅតែបើកចំហសម្រាប់អ្នកបរិច្ចាគដែលមាន Bitcoin តែក្នុងកម្មវិធីសម្រាប់អ្នកប្រើទូទៅ។",
+          "នៅក្នុងកាបូប {{appName}} របស់អ្នក ការបរិច្ចាគទាំងនេះមកដល់ជា **សមតុល្យពីរដាច់ដោយឡែក** — ផ្ទាំង **សាធារណៈ** (អាសយដ្ឋាន Bitcoin ធម្មតារបស់អ្នក) និងផ្ទាំង **ឯកជន** (ការទូទាត់ស្ងាត់) — បង្ហាញនៅលើផ្ទាំងសាធារណៈ / ឯកជននៃកាបូប។ {{appName}} រក្សាពួកវាដាច់ដោយឡែកយ៉ាងម៉ឺងម៉ាត់ដោយចេតនា៖ សមតុល្យទាំងពីរមិនអាចចំណាយជាមួយគ្នាបានឡើយ។ ការលាយឡំមូលនិធិឯកជនជាមួយមូលនិធិសាធារណៈក្នុងប្រតិបត្តិការតែមួយ នឹងភ្ជាប់ការបរិច្ចាគទូទាត់ស្ងាត់ដែលមិនអាចភ្ជាប់របស់អ្នកត្រឡប់ទៅអាសយដ្ឋានសាធារណៈរបស់អ្នកនៅលើខ្សែ ហើយបំផ្លាញឯកជនភាពដែលពួកវាមានវត្តមានដើម្បីផ្តល់ឱ្យ។"
+        ]
+      },
+      "whatEveryoneSees": {
+        "heading": "អ្វីដែលនរណាក៏អាចមើលឃើញ",
+        "paragraphs": [
+          "បើយុទ្ធនាការរបស់អ្នកទទួលយកការទូទាត់សាធារណៈ នរណាក៏ដោយដែលកំពុងគិតពិចារណាគាំទ្រអ្នកអាចស្វែងរកអាសយដ្ឋាន និងឃើញប្រវត្តិបរិច្ចាគជាសាធារណៈ។",
+          "ការបរិច្ចាគទូទាត់ស្ងាត់មិនមែនជាផ្នែកនៃកំណត់ត្រានោះទេ។ ពួកវាមើលមិនឃើញសម្រាប់អ្នកសង្កេតមើលពីខាងក្រៅ និងមិនបង្ហាញនៅក្នុងសរុបសាធារណៈរបស់យុទ្ធនាការ។ អ្នកបរិច្ចាគថ្មីឃើញតែអ្វីដែលអ្នកបោះផ្សាយអំពីដំណើរយុទ្ធនាការប៉ុណ្ណោះ។"
+        ]
+      },
+      "comparison": {
+        "footnote": "អ្នកមិនអាចប្ដូរជម្រើសការទូទាត់ដែលត្រូវបានទទួលយករបស់យុទ្ធនាការ បន្ទាប់ពីបង្កើតវាបានទេ។ បើអ្នកប្ដូរចិត្ត សូមបង្កើតយុទ្ធនាការថ្មី។"
+      },
+      "silentToday": {
+        "heading": "កំណត់ចំណាំអំពីការទូទាត់ស្ងាត់សព្វថ្ងៃ",
+        "paragraphs": [
+          "ការទូទាត់ស្ងាត់គឺជាមធ្យោបាយឯកជនបំផុតក្នុងការទទួល Bitcoin នៅលើខ្សែ ប៉ុន្តែប្រព័ន្ធអេកូនៅក្មេង។ កាបូបពេញនិយមភាគច្រើនមិនទាន់អាចផ្ញើទៅចំណុចបញ្ចប់ការទូទាត់ស្ងាត់នៅឡើយទេ ដូច្នេះនៅពេលដែលកាបូបអ្នកបរិច្ចាគធ្វើមិនបាន ការបរិច្ចាគធ្លាក់ចុះទៅប្រតិបត្តិការ Bitcoin ធម្មតាទៅអាសយដ្ឋានសាធារណៈរបស់អ្នក (បើអ្នកទទួលយកទាំងពីរ)។",
+          "ការបរិច្ចាគទូទាត់ស្ងាត់ក៏មកដល់ដោយគ្មានការជូនដំណឹង Push ហើយលេចឡើងតែបន្ទាប់ពីអ្នកស្កេនកាបូបរបស់អ្នក ដែលអាចចំណាយពេលប៉ុន្មាននាទីដល់ប៉ុន្មានម៉ោង។ មិនមានអ្វីប៉ះពាល់ដល់សុវត្ថិភាពនៃមូលនិធិរបស់អ្នកទេ វាគ្រាន់តែបង្កើតបទពិសោធន៍ប្រចាំថ្ងៃប៉ុណ្ណោះ។"
+        ]
+      },
+      "twoWallets": {
+        "title": "រក្សាសមតុល្យសាធារណៈ និងឯកជនរបស់អ្នកឱ្យដាច់ដោយឡែក",
+        "body": "កាបូប {{appName}} របស់អ្នកបង្ហាញផ្ទាំងពីរ៖ **សាធារណៈ** (អាសយដ្ឋាន Bitcoin ធម្មតារបស់អ្នក) និង **ឯកជន** (ការទូទាត់ស្ងាត់)។ ពួកវាត្រូវបានរក្សាដាច់ដោយឡែកយ៉ាងម៉ឺងម៉ាត់ ហើយសមតុល្យទាំងពីរមិនអាចចំណាយក្នុងប្រតិបត្តិការតែមួយបានឡើយ — ការដាច់ដោយឡែកនោះហើយជាអ្វីដែលរក្សាការបរិច្ចាគឯកជនរបស់អ្នកឱ្យមិនអាចភ្ជាប់បាន។ ពេលអ្នកដកប្រាក់ពីផ្ទាំង **ឯកជន** សូមផ្ញើទៅអាសយដ្ឋានការទូទាត់ស្ងាត់ (**sp1…**) ដែលនៅតែឯកជន។ បើផ្ទុយទៅវិញអ្នកផ្ញើមូលនិធិឯកជនទៅអាសយដ្ឋានលើខ្សែធម្មតា {{appName}} ពិនិត្យវា៖ បើអាសយដ្ឋាននោះធ្លាប់ត្រូវបានប្រើពីមុន ឬជារបស់កាបូបសាធារណៈរបស់អ្នកផ្ទាល់ វាព្រមានអ្នក ហើយតម្រូវឱ្យអ្នកចុច **ផ្ញើទោះយ៉ាងណា** ព្រោះការធ្វើដូច្នេះភ្ជាប់មូលនិធិឯកជនរបស់អ្នកទៅប្រវត្តិសាធារណៈនៃអាសយដ្ឋាននោះ។ ការផ្ញើទៅអាសយដ្ឋាន **sp1…** មិនដែលធ្វើឱ្យកើតការព្រមាននោះឡើយ។"
+      },
+      "movePromptly": {
+        "heading": "ផ្លាស់ប្ដូរការបរិច្ចាគឱ្យបានឆាប់",
+        "steps": {
+          "sweep": {
+            "title": "ដកទៅកាបូបដែលអ្នកគ្រប់គ្រង",
+            "body": "កាបូប {{appName}} របស់អ្នកគឺជាកាបូបរក្សាដោយខ្លួនឯងរួចស្រេច — មានតែអ្នកប៉ុណ្ណោះដែលគ្រប់គ្រងកូនសោ។ ដើម្បីមើលសមតុល្យដូចគ្នាពីកាបូបលើកុំព្យូទ័រ ឬកាបូបផ្នែករឹង សូមបើកម៉ឺនុយកាបូប ជ្រើសរើស **បម្រុងទុកកាបូប** ហើយនាំចូលឃ្លា seed ២៤ ពាក្យទៅក្នុង [Sparrow](https://sparrowwallet.com), [BlueWallet](https://bluewallet.io), ឬកាបូបផ្នែករឹង (Trezor, Ledger)។ បើអ្នកចង់ផ្លាស់ប្ដូរមូលនិធិទៅកូនសោផ្សេងគ្នាទាំងស្រុង — ឧទាហរណ៍ ទៅកាបូប Lightning ដូចជា [Phoenix](https://phoenix.acinq.co) — សូមផ្ញើប្រតិបត្តិការ Bitcoin ធម្មតាពីកាបូប {{appName}} របស់អ្នក។"
+          },
+          "dontSit": {
+            "title": "កុំទុកមូលនិធិនៅក្នុងកម្មវិធីរុករក",
+            "body": "ជាពិសេសសម្រាប់យុទ្ធនាការដែលមានតម្លៃខ្ពស់ សូមរក្សាទុកឃ្លា seed នៃកាបូបក្រៅបណ្ដាញ (ក្រដាស ការបម្រុងទុកលើដែក ឬកម្មវិធីគ្រប់គ្រងពាក្យសម្ងាត់នៅលើឧបករណ៍ឯកោ) និងពិចារណាប្រើកាបូបផ្នែករឹង។ ឃ្លា seed ដែលអ្នកបម្រុងទុកពី {{appName}} គឺជាកាបូបតែមួយ — ការពារពាក្យទាំងនោះឱ្យបានសុវត្ថិភាព នោះអ្នកមានឃ្លាំងត្រជាក់ហើយ។"
+          }
+        }
+      },
+      "cashout": {
+        "heading": "ដកប្រាក់ដោយឯកជន",
+        "intro": "ការចំណាយនៅលើខ្សែបង្កើតដាន លុះត្រាតែអ្នកបំបែកវាជាមុនសិន។ ដកប្រាក់ពីផ្ទាំង **ឯកជន** ដើម្បីរក្សាការបរិច្ចាគទូទាត់ស្ងាត់ឱ្យមិនអាចភ្ជាប់បាន — ផ្ញើទៅកាបូបការទូទាត់ស្ងាត់ជាមុនសិន (អាសយដ្ឋាន **sp1…**) បន្ទាប់មកចំណាយបន្ត; ការលោតបំបែកការតភ្ជាប់រវាងយុទ្ធនាការរបស់អ្នកនិងអ្វីដែលនឹងមកដល់។ កុំផ្ញើមូលនិធិឯកជនទៅអាសយដ្ឋានដែលបានប្រើឡើងវិញ ឬអាសយដ្ឋានសាធារណៈ ដែលនឹងភ្ជាប់ពួកវាឡើងវិញ។ ជម្រើសផ្សេងទៀតខាងក្រោមក៏ដំណើរការដែរ ហើយមានការប្ដូរផ្ដាច់ផ្ដួលរបស់ខ្លួន។",
+        "options": {
+          "silentHop": {
+            "name": "ការលោតកាបូបការទូទាត់ស្ងាត់",
+            "purpose": "ផ្លាស់ប្ដូរការបរិច្ចាគរបស់អ្នកទៅកាបូបការទូទាត់ស្ងាត់ ([Ditto Wallet](https://ditto.pub), [Dana](https://github.com/cygnet3/dana/releases/download/v0.7.4/app-live-release.apk))។ ពីទីនោះ ការចំណាយបន្ទាប់របស់អ្នកមិនត្រូវបានភ្ជាប់ទៅយុទ្ធនាការទេ។"
+          },
+          "lightningSwap": {
+            "name": "ការផ្លាស់ប្ដូរ Lightning",
+            "purpose": "ការផ្លាស់ប្ដូរអាតូមនៃ Bitcoin លើខ្សែទៅ Lightning។ ការទូទាត់ Lightning មិនធ្លាក់នៅលើ blockchain សាធារណៈឡើយ។"
+          },
+          "coinjoin": {
+            "name": "Coinjoin",
+            "purpose": "បញ្ចូល Bitcoin របស់អ្នកជាមួយកាក់របស់អ្នកប្រើដទៃ ដើម្បីកុំឱ្យលទ្ធផលត្រូវបានភ្ជាប់ត្រឡប់ទៅធាតុចូល។"
+          },
+          "peerToPeer": {
+            "name": "បុគ្គលទៅបុគ្គល",
+            "purpose": "ផ្លាស់ប្ដូរ Bitcoin ទៅ fiat ដោយផ្ទាល់ជាមួយបុគ្គលផ្សេងទៀត ឬតាមរយៈអន្តរការី នៅលើ Bisq, HodlHodl, ឬ RoboSats។"
+          },
+          "spendDirectly": {
+            "name": "ចំណាយវាដោយផ្ទាល់",
+            "purpose": "ទិញកាតអំណោយ (Amazon, Uber, គ្រឿងទេស, ការធ្វើដំណើរ) ដោយផ្ទាល់ពី Bitcoin ដោយមិនបំប្លែងជាសាច់ប្រាក់ជាមុនសិន។"
+          }
+        }
+      },
+      "tumblers": {
+        "title": "ជៀសវាង tumblers ចាប់សារកណ្ដាល",
+        "body": "កម្មវិធីលាយដែលកាន់កាប់អាចលួចកាក់របស់អ្នក កត់ត្រាថានរណាបានផ្ញើអ្វី ឬមានភាពជាការអូសទាញរបស់អ្នកអនុវត្តច្បាប់។ ប្រើការលោតការទូទាត់ស្ងាត់ ឬ coinjoin មិនកាន់កាប់ជំនួសវិញ។"
+      }
+    }
+  },
+  "walletDoubleTweak": {
+    "seoTitle": "ការជួសជុល SP Double-tweak",
+    "seoDescription": "សង្គ្រោះការទូទាត់ស្ងាត់ដែលជាប់គាំងលើខ្សែសង្វាក់ដោយកំហុសផ្ញើពីមុន ហើយបោសសម្អាតពួកវាទៅកាបូបរបស់អ្នក។",
+    "title": "ការជួសជុល SP Double-tweak",
+    "heading": "សង្គ្រោះការទូទាត់ស្ងាត់ដែលជាប់គាំង",
+    "subheading": "កំណែ Agora ពីមុនបានអ៊ិនកូដ output ការទូទាត់ស្ងាត់មួយចំនួនទៅសោខុស ដូច្នេះពួកវាមិនបានបង្ហាញនៅក្នុងកាបូបរបស់អ្នកទេ។ ឧបករណ៍នេះស្កេនខ្សែសង្វាក់ឡើងវិញសម្រាប់ output ទាំងនោះ ហើយបោសសម្អាតអ្វីៗដែលវារកឃើញទៅកាបូបរបស់អ្នក។",
+    "back": "ត្រឡប់",
+    "loggedOut": "ចូលដោយប្រើអត្តសញ្ញាណ Nostr ដែលបានទទួលការទូទាត់ស្ងាត់ ដើម្បីឱ្យពួកវាអាចត្រូវបានសង្គ្រោះ។",
+    "unsupported": {
+      "title": "កាបូបមិនអាចប្រើបាន",
+      "description": "ការសង្គ្រោះត្រូវការកាបូបដែលអាចចុះហត្ថលេខាក្នុងមូលដ្ឋាន។ ចូលដោយប្រើ nsec របស់អ្នកដើម្បីបន្ត។"
+    },
+    "noIndexer": {
+      "title": "មិនបានកំណត់ indexer ការទូទាត់ស្ងាត់",
+      "description": "URL indexer BIP-352 ត្រូវការដើម្បីស្កេនរកការទូទាត់ដែលជាប់គាំង។ កំណត់មួយនៅក្នុងការកំណត់កាបូប ហើយព្យាយាមម្ដងទៀត។"
+    },
+    "scan": {
+      "title": "ស្កេនរកការទូទាត់ដែលជាប់គាំង",
+      "description": "ជ្រើសរើសកម្ពស់ប្លុកដែលត្រូវចាប់ផ្តើមស្កេនពី។ ការសង្គ្រោះពិនិត្យរាល់ប្លុកពីទីនោះរហូតដល់ចុងខ្សែសង្វាក់។",
+      "fromHeightLabel": "កម្ពស់ប្លុកចាប់ផ្តើម",
+      "tipHint": "ចុងខ្សែសង្វាក់បច្ចុប្បន្ន៖ {{tip}}",
+      "start": "ស្កេន",
+      "cancel": "បោះបង់ការស្កេន",
+      "progress": "កំពុងស្កេនប្លុក {{current}} នៃ {{to}} — រកឃើញ {{found}}",
+      "tipMissing": "កំពុងដោះស្រាយចុងខ្សែសង្វាក់…"
+    },
+    "noFunds": {
+      "title": "គ្មានអ្វីត្រូវសង្គ្រោះ",
+      "description": "រកមិនឃើញការទូទាត់ស្ងាត់ដែលជាប់គាំងនៅក្នុងជួរដែលបានស្កេនទេ។ ព្យាយាមកម្ពស់ចាប់ផ្តើមមុនជាងនេះ ប្រសិនបើអ្នករំពឹងថាមានមូលនិធិ។"
+    },
+    "found": {
+      "title": "រកឃើញការទូទាត់ដែលជាប់គាំង",
+      "description": "output ទាំងនេះអាចត្រូវបានបោសសម្អាតត្រឡប់ទៅកាបូបរបស់អ្នកវិញ។",
+      "count": "Outputs",
+      "recoverable": "អាចសង្គ្រោះបាន"
+    },
+    "destination": {
+      "title": "មូលនិធិនឹងត្រូវផ្ញើទៅ",
+      "description": "អាសយដ្ឋានទទួលថ្មីនៅក្នុងកាបូបបច្ចុប្បន្នរបស់អ្នក។"
+    },
+    "sweepButton": "សង្គ្រោះមូលនិធិ",
+    "sweeping": "កំពុងសង្គ្រោះមូលនិធិរបស់អ្នក…",
+    "dontClose": "កុំបិទទំព័រនេះរហូតដល់ការសង្គ្រោះបញ្ចប់។",
+    "success": {
+      "title": "ការសង្គ្រោះបានបញ្ចប់",
+      "sent": "បានសង្គ្រោះ {{sats}} sats ទៅកាបូបរបស់អ្នក។",
+      "viewTx": "មើលប្រតិបត្តិការ"
+    },
+    "error": {
+      "title": "ការសង្គ្រោះបានបរាជ័យ",
+      "tryAgain": "ព្យាយាមម្ដងទៀត"
+    },
+    "errors": {
+      "noDestination": "គ្មានអាសយដ្ឋានគោលដៅ។ បើកកាបូបរបស់អ្នកជាមុនសិន។",
+      "noBlockbook": "មិនបានកំណត់ម៉ាស៊ីនបម្រើ Blockbook។ កំណត់មួយនៅក្នុងការកំណត់កាបូប។",
+      "sweepGeneric": "មិនអាចបញ្ចប់ការបោសសម្អាតសង្គ្រោះបានទេ។"
+    },
+    "toast": {
+      "successTitle": "បានសង្គ្រោះមូលនិធិ",
+      "successDesc": "{{sats}} sats ត្រូវបានបោសសម្អាតចូលកាបូបរបស់អ្នក។"
+    },
+    "footnote": "នេះគឺការបោសសម្អាតម្ដងគត់ទៅកាបូបបច្ចុប្បន្នរបស់អ្នក។ មានតែការទូទាត់ស្ងាត់ដែលរងផលប៉ះពាល់ប៉ុណ្ណោះដែលត្រូវប៉ះ — គ្មានអ្វីផ្សេងទៀតផ្លាស់ប្ដូរទេ។"
+  },
+  "support": {
+    "seoTitle": "មានបញ្ហាមែនទេ?",
+    "seoDescription": "រាយការណ៍កំហុស ឬបញ្ហាជាមួយ {{appName}} និងមើលអ្វីដែលអ្នកដទៃបានរាយការណ៍រួចហើយ។",
+    "title": "មានបញ្ហាមែនទេ?",
+    "subtitle": "រាយការណ៍បញ្ហាជាមួយ {{appName}} ឬពិនិត្យមើលថាតើវាត្រូវបានដឹងរួចហើយឬអត់។",
+    "existingTitle": "បញ្ហាដែលបានដឹង",
+    "openTracker": "បើកកម្មវិធីតាមដានបញ្ហា",
+    "loadError": "មិនអាចផ្ទុករបាយការណ៍ដែលមានស្រាប់បានទេ។ relay បញ្ហាប្រហែលជាមិនអាចតភ្ជាប់បាន។",
+    "retry": "ព្យាយាមម្តងទៀត",
+    "noIssues": "មិនទាន់មានការរាយការណ៍ណាមួយទេ។",
+    "hiddenByModerator": "បានលាក់",
+    "reportedBy": "ដោយ {{name}} · {{time}} មុន",
+    "showAttachments": "បង្ហាញឯកសារភ្ជាប់ ({{count}})",
+    "collapse": "បង្ហាញតិច",
+    "readMore": "អានបន្ថែម",
+    "viewInTracker": "មើលក្នុងកម្មវិធីតាមដាន",
+    "status": {
+      "open": "បើក",
+      "resolved": "បានដោះស្រាយ",
+      "closed": "បានបិទ",
+      "draft": "សេចក្តីព្រាង"
+    },
+    "moderation": {
+      "aria": "សម្របសម្រួលរបាយការណ៍នេះ",
+      "failed": "សកម្មភាពសម្របសម្រួលបានបរាជ័យ",
+      "hidden": "បានលាក់របាយការណ៍",
+      "unhidden": "បានបង្ហាញរបាយការណ៍ឡើងវិញ",
+      "featured": "បានខ្ទាស់របាយការណ៍",
+      "unfeatured": "បានដោះខ្ទាស់របាយការណ៍",
+      "pin": "ខ្ទាស់ជាបញ្ហាដែលបានដឹង",
+      "unpin": "ដោះខ្ទាស់",
+      "pinnedState": "បានខ្ទាស់"
+    },
+    "formTitle": "ដាក់ស្នើរបាយការណ៍",
+    "form": {
+      "categoryLabel": "តើនេះជាបញ្ហាប្រភេទណា?",
+      "category": {
+        "bug": "មានអ្វីមួយខូច",
+        "wallet": "កាបូប ឬការទូទាត់",
+        "content": "យុទ្ធនាការ ឬមាតិកា",
+        "feature": "សំណើមុខងារ"
+      },
+      "subjectLabel": "សេចក្តីសង្ខេប",
+      "subjectPlaceholder": "មួយបន្ទាត់រៀបរាប់ពីបញ្ហា",
+      "bodyLabel": "តើមានអ្វីកើតឡើង?",
+      "bodyPlaceholder": "តើអ្នកបានធ្វើអ្វី តើអ្នករំពឹងអ្វី ហើយអ្វីបានកើតឡើងជំនួសវិញ?",
+      "attachment": {
+        "add": "បន្ថែមរូបថតអេក្រង់",
+        "uploading": "កំពុងផ្ទុកឡើង…",
+        "item": "រូបថតអេក្រង់",
+        "remove": "លុបរូបថតអេក្រង់",
+        "failed": "ការផ្ទុករូបថតអេក្រង់បានបរាជ័យ"
+      },
+      "diagnosticsLabel": "រួមបញ្ចូលព័ត៌មានកំណែ និងឧបករណ៍",
+      "anonymousLabel": "ដាក់ស្នើដោយអនាមិក",
+      "disclosureSigned": "របាយការណ៍គឺសាធារណៈ ហើយត្រូវបានចុះហត្ថលេខាដោយគណនីរបស់អ្នក។",
+      "disclosureAnonymous": "របាយការណ៍គឺសាធារណៈ ចុះហត្ថលេខាដោយសោប្រើម្តងរួចបោះចោល។",
+      "secretWarning": "នេះមើលទៅដូចជាមានទិន្នន័យរសើប។ វានឹងត្រូវផ្សព្វផ្សាយជាសាធារណៈ — សូមលុបអ្វីដែលឯកជនចេញជាមុនសិន។",
+      "nsecBlocked": "នេះមានអ្វីដែលមើលទៅដូចជាសោឯកជន (nsec)។ សូមលុបវាចេញមុនពេលដាក់ស្នើ — ការផ្សព្វផ្សាយវានឹងប្រគល់ការគ្រប់គ្រងគណនីនោះទៅអ្នកដទៃ។",
+      "secretKinds": {
+        "nsec": "សោឯកជន",
+        "silentPayment": "អាសយដ្ឋានការទូទាត់ស្ងាត់",
+        "xpub": "សោសាធារណៈពង្រីក",
+        "bitcoinAddress": "អាសយដ្ឋាន Bitcoin",
+        "seedPhrase": "ឃ្លា seed"
+      },
+      "submit": "ដាក់ស្នើរបាយការណ៍",
+      "submitting": "កំពុងដាក់ស្នើ…",
+      "errors": {
+        "cooldown": "អ្នកទើបតែដាក់ស្នើរបាយការណ៍មួយ។ សូមរង់ចាំបន្តិចមុនពេលដាក់ស្នើមួយទៀត។",
+        "failed": "មិនអាចដាក់ស្នើរបាយការណ៍បានទេ"
+      }
+    },
+    "success": {
+      "title": "បានដាក់ស្នើរបាយការណ៍",
+      "description": "អរគុណ — ឥឡូវវាស្ថិតក្នុងកម្មវិធីតាមដានបញ្ហារបស់អ្នកអភិវឌ្ឍន៍។",
+      "copyId": "ចម្លងលេខសម្គាល់របាយការណ៍",
+      "copied": "បានចម្លង",
+      "viewTracker": "មើលក្នុងកម្មវិធីតាមដាន",
+      "fileAnother": "ដាក់ស្នើមួយទៀត"
+    },
+    "pinned": "បានខ្ទាស់"
+  }
+}

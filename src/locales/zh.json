@@ -1,0 +1,3481 @@
+{
+  "donateCallback": {
+    "successTitle": "已收到付款",
+    "successDescription": "感谢您的捐赠！稍后即可显示。",
+    "cancelTitle": "付款已取消",
+    "cancelDescription": "您的捐赠未完成。"
+  },
+  "tor": {
+    "status": {
+      "disabled": "已关闭",
+      "connecting": "连接中…",
+      "connected": "已连接",
+      "failed": "连接失败"
+    },
+    "banner": {
+      "connecting": "正在连接 Tor — 连接完成前内容无法加载。",
+      "failed": "无法连接到 Tor — 内容已被屏蔽，等待连接成功后恢复。",
+      "retry": "重试"
+    }
+  },
+  "common": {
+    "loading": "加载中…",
+    "error": "错误",
+    "success": "成功",
+    "cancel": "取消",
+    "save": "保存",
+    "delete": "删除",
+    "edit": "编辑",
+    "close": "关闭",
+    "back": "返回",
+    "next": "下一步",
+    "refresh": "刷新",
+    "search": "搜索",
+    "filter": "筛选",
+    "clear": "清除",
+    "submit": "提交",
+    "confirm": "确认",
+    "copied": "已复制",
+    "goBack": "返回",
+    "tryAgain": "请重试。",
+    "showLess": "收起",
+    "readMore": "阅读更多",
+    "byAuthor": "由 <0>{{name}}</0>",
+    "clearSearch": "清除搜索",
+    "searching": "搜索中…",
+    "searchResultsCount_one": "{{count}} 个结果",
+    "searchResultsCount_other": "{{count}} 个结果",
+    "sortAriaLabel": "排序",
+    "sortDefault": "默认",
+    "sortTop": "热门",
+    "sortNew": "最新",
+    "showHidden": "显示已隐藏",
+    "filtersAriaLabel": "搜索筛选",
+    "countryFilterAriaLabel": "按国家筛选",
+    "countrySearchPlaceholder": "搜索国家…",
+    "countryNoResults": "未找到国家。",
+    "countryGlobal": "全球",
+    "continue": "继续"
+  },
+  "imageCrop": {
+    "title": "裁剪图片",
+    "reset": "重置",
+    "hint": "拖动以重新定位 · 双指捏合或滚动以缩放",
+    "cancel": "取消",
+    "processing": "处理中…",
+    "apply": "应用裁剪"
+  },
+  "translate": {
+    "translate": "翻译",
+    "translating": "正在翻译…",
+    "showOriginal": "显示原文",
+    "error": "翻译失败"
+  },
+  "nav": {
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单",
+    "brandHome": "{{appName}} 首页",
+    "activity": "动态",
+    "campaigns": "活动",
+    "groups": "群组",
+    "pledge": "承诺",
+    "search": "搜索",
+    "language": "语言",
+    "dashboard": "仪表板",
+    "myDashboard": "我的仪表板",
+    "wallet": "钱包",
+    "notifications": "通知",
+    "messages": "私信",
+    "profile": "个人资料",
+    "settings": "设置",
+    "about": "关于",
+    "verify": "验证",
+    "privacy": "隐私",
+    "safety": "安全",
+    "changelog": "更新日志",
+    "sourceCode": "源代码",
+    "getApp": "获取应用",
+    "walletBalanceHidden": "钱包余额已隐藏",
+    "issues": "问题反馈"
+  },
+  "messages": {
+    "title": "私信",
+    "subtitle": "您的私密加密私信。",
+    "conversations": "对话",
+    "empty": "暂无消息。您的对话将显示在此处。",
+    "selectPrompt": "选择一个对话以阅读您的消息。",
+    "composePlaceholder": "写一条消息…",
+    "send": "发送",
+    "sendFailed": "消息发送失败",
+    "youPrefix": "您：",
+    "encryptedSent": "加密消息",
+    "encryptedReceived": "加密消息",
+    "decryptFailed": "无法解密此消息。",
+    "unsupported": "您当前的登录方式不支持加密私信。",
+    "searchConversation": "搜索对话",
+    "searchPlaceholder": "搜索消息",
+    "noSearchResults": "没有匹配的消息。",
+    "visitProfile": "访问 {{name}} 的个人资料",
+    "muteUser": "屏蔽 {{name}}",
+    "muteDialogTitle": "屏蔽 {{name}}？",
+    "muteDialogDescription": "这会将 {{name}} 添加到您的屏蔽列表，并从消息中移除此对话。您稍后可以从屏蔽列表中取消屏蔽。",
+    "confirmMute": "屏蔽用户",
+    "mutedToastTitle": "用户已屏蔽",
+    "mutedToastDescription": "已屏蔽 {{name}}，并移除了该对话。",
+    "muteFailed": "屏蔽用户失败",
+    "showFriendsOnly": "显示我关注的人的消息",
+    "showAllConversations": "显示所有对话",
+    "friendsEmpty": "没有来自您关注的人的消息。",
+    "translateDialogTitle": "要翻译私信吗？",
+    "translateDialogDescription": "收到的消息将发送到你配置的翻译服务。已发送的消息不会被翻译。Agora 会在此设备上记住此选择。",
+    "confirmTranslate": "翻译消息",
+    "newMessage": "新消息",
+    "newMessageTitle": "新消息",
+    "recipientLabel": "收件人",
+    "recipientPlaceholder": "按名称、NIP-05 或 npub 搜索…",
+    "recipientHint": "搜索某人以开始新的对话。",
+    "recipientSearching": "正在搜索…",
+    "noRecipientResults": "未找到任何人。请尝试其他名称、NIP-05 或 npub。",
+    "recipientFollowed": "你关注了此人"
+  },
+  "auth": {
+    "join": "加入",
+    "login": "登录",
+    "signup": "注册",
+    "logout": "退出登录",
+    "addAccount": "添加其他账户",
+    "createNewAccount": "创建账户",
+    "or": "或",
+    "loginExisting": "使用现有账户登录",
+    "loginTitle": "登录",
+    "connectSignerTitle": "连接签名器",
+    "back": "返回",
+    "secretKeyLabel": "使用私钥",
+    "nsecPlaceholder": "nsec1…",
+    "loginInputPlaceholder": "nsec1… 或 bunker://…",
+    "uploadKeyFile": "上传密钥文件",
+    "loggingIn": "正在登录…",
+    "loginWithExtension": "使用扩展登录",
+    "useRemoteSigner": "使用远程签名器",
+    "tryAgain": "重试",
+    "cancel": "取消",
+    "openSignerApp": "打开签名器应用",
+    "enterBunkerManually": "手动输入 bunker URI",
+    "bunkerPlaceholder": "bunker://…",
+    "moreLoginOptions": "更多登录选项",
+    "scanSignerPrompt": "使用签名应用扫描以登录。",
+    "invalidBunkerFormat": "bunker URI 格式无效。",
+    "connecting": "正在连接…",
+    "connect": "连接",
+    "waitingForSigner": "正在等待签名器连接…",
+    "gettingPublicKey": "正在获取公钥…",
+    "errorEnterLoginInput": "请输入你的私钥或 bunker URI。",
+    "errorInvalidLoginInput": "请输入有效的 nsec1… 密钥或 bunker://… URI。",
+    "errorEnterSecretKey": "请输入您的私钥。",
+    "errorInvalidSecretKey": "私钥无效。必须以 nsec1 开头。",
+    "errorLoginFailed": "无法使用此密钥登录。",
+    "errorFileNoKey": "文件不包含有效的私钥。",
+    "errorFileRead": "读取文件失败。",
+    "errorExtensionFailed": "扩展登录失败。",
+    "errorBunkerConnect": "连接失败。请检查 bunker URI。",
+    "extensionErrorTitle": "扩展登录失败"
+  },
+  "onboarding": {
+    "ariaLabel": "账户设置",
+    "close": "关闭",
+    "back": "返回",
+    "role": {
+      "title": "你来这里想做什么？",
+      "subtitle": "两件事之后都可以做。这只是帮我们为你定制接下来的步骤。",
+      "creator": {
+        "title": "发起一个活动",
+        "description": "为你关心的事业筹集 Bitcoin。",
+        "finderNote": "捐赠者将 sats 直接发送到你的钱包。"
+      },
+      "donor": {
+        "title": "支持活动",
+        "description": "用 Bitcoin 支持你认同的事业。",
+        "finderNote": "你的捐款直接进入发起人的钱包。"
+      },
+      "verifier": {
+        "title": "验证活动",
+        "description": "以组织身份为活动背书。",
+        "finderNote": "捐赠者会在你信任的活动上看到徽章。"
+      }
+    },
+    "keygen": {
+      "title": "你的密钥就是你的身份",
+      "description": "我们将为你专属生成一把密钥。它是唯一的登录方式——无需邮箱，无需密码。",
+      "generatingTitle": "正在创建你的密钥……",
+      "generatingDescription": "只需片刻。",
+      "button": "生成我的密钥"
+    },
+    "secure": {
+      "title": "保存你的密钥",
+      "subtitle": "下载文件并妥善保存。密码管理器是一个不错的选择。",
+      "couplingNote": "你的账户和钱包共用这把密钥。它既为你的 Nostr 帖子签名，也用于打开你在 Agora 上的 Bitcoin 钱包。",
+      "permanenceHeadline": "一旦丢失，这把密钥就无法找回。",
+      "permanenceBody": "没有重置、没有客服热线，也无法通过邮箱恢复。请先保存好，再继续。",
+      "button": "下载并继续",
+      "downloadFailedTitle": "下载失败",
+      "downloadFailedDescription": "无法下载密钥文件。请手动复制保存。",
+      "secretKeyAriaLabel": "私钥"
+    },
+    "verify": {
+      "title": "确认你的密钥",
+      "subtitle": "粘贴或上传你刚刚保存的密钥。这可以在你继续之前确保备份有效。",
+      "placeholder": "nsec1…",
+      "inputAriaLabel": "粘贴你的私钥",
+      "or": "或",
+      "uploadButton": "上传密钥文件",
+      "mismatch": "这与你刚刚保存的密钥不匹配。请检查你的备份后重试。",
+      "fileInvalid": "该文件不包含有效的私钥。",
+      "fileReadFailed": "无法读取该文件。请重试。"
+    },
+    "profile": {
+      "title": "打造属于你的个人资料",
+      "subtitle": "向他人介绍一下你自己。全部为选填，随时可以修改。",
+      "campaignTitle": "为你的众筹活动添个面孔",
+      "campaignSubtitle": "名字和照片能帮助人们与你的众筹活动建立联系。",
+      "nameLabel": "显示名称",
+      "namePlaceholder": "你的名字",
+      "campaignNamePlaceholder": "众筹标题",
+      "aboutLabel": "简介",
+      "aboutPlaceholder": "介绍一下你自己……",
+      "avatarLabel": "头像",
+      "uploadAvatar": "上传头像",
+      "advanced": "更多",
+      "finish": "完成",
+      "saving": "正在保存……",
+      "skip": "暂时跳过",
+      "imageOnly": "请选择图片文件。",
+      "imageTooLarge": "图片过大（最大 5MB）。",
+      "uploadFailed": "上传失败。",
+      "publishFailedTitle": "个人资料设置失败",
+      "publishFailedDescription": "你的账户已创建，但个人资料未能保存。你可以稍后再更新。"
+    },
+    "verifier": {
+      "identity": {
+        "title": "设置你的组织",
+        "subtitle": "名称和徽标为必填项。网站和横幅为选填。",
+        "websiteInvalid": "请输入以 https:// 开头的有效网站地址",
+        "cropAvatar": "裁剪徽标",
+        "cropBanner": "裁剪横幅",
+        "uploading": "正在上传图片…",
+        "clipboardFailed": "无法读取剪贴板。",
+        "pasteUrlInvalid": "剪贴板未包含有效的 https URL。",
+        "pasteUrlFetchFailed": "无法加载该图片。请检查 URL 后重试。"
+      },
+      "bio": {
+        "title": "介绍一下你的组织",
+        "subtitle": "为你的个人资料撰写一段简短的描述。",
+        "label": "关于你的组织",
+        "placeholder": "我们是一家致力于……的非营利组织",
+        "publishing": "正在保存你的个人资料…"
+      },
+      "publishFailedTitle": "个人资料未保存",
+      "publishFailedDescription": "你的账户已就绪，但组织个人资料未能发布。你可以稍后在设置中完成它。",
+      "statement": {
+        "title": "发布你的验证者声明",
+        "subtitle": "描述你在背书前如何审核活动。该声明会公开发布，让捐赠者能够信任你的徽章。"
+      },
+      "howto": {
+        "title": "如何验证一个活动",
+        "subtitle": "一切准备就绪。下面介绍在核实活动后如何为其背书。",
+        "finish": "查看活动"
+      }
+    }
+  },
+  "feed": {
+    "indexTagline": "无国界地给予。",
+    "getApp": {
+      "eyebrow": "获取应用",
+      "title": "适用于 Android 的 {{appName}}",
+      "subtitle": "完整的 {{appName}} 体验",
+      "download": "下载"
+    },
+    "compose": {
+      "placeholder": "有什么新鲜事？"
+    },
+    "tabs": {
+      "follows": "已关注",
+      "following": "关注中",
+      "global": "全球"
+    },
+    "empty": {
+      "homeAgora": "Agora 暂时安静。新的活动、承诺、捐赠和帖子将在发生时显示在这里。",
+      "homeFollowingLoggedIn": "你的关注 Feed 为空。关注一些人来看看他们在做什么，或切换到 Agora 或全球。",
+      "homeFollowingLoggedOut": "登录以查看你关注的人的帖子。",
+      "homeOther": "暂无内容。请检查你的中继连接，或稍后再试。",
+      "follows": "你的 Feed 为空。关注一些人，以便在此处看到他们的帖子。",
+      "global": "未找到帖子。请检查你的中继连接，或稍后再来。",
+      "browseAgora": "浏览最新 Feed",
+      "browseGlobal": "浏览全球 Feed",
+      "discoverPeople": "发现可关注的人",
+      "logIn": "登录"
+    },
+    "error": {
+      "toast": "无法加载 Feed。请检查你的连接并重试。",
+      "loadFailed": "无法加载 Feed。这通常是由于中继缓慢或无法连接——你的内容仍然还在。",
+      "retry": "重试"
+    },
+    "modeSwitcher": {
+      "agora": "最新",
+      "allNostr": "全球",
+      "following": "关注中",
+      "ariaLabel": "Feed 模式：{{label}}。点击更改。",
+      "loginRequired": "登录以查看你关注的人的帖子"
+    },
+    "replyContext": {
+      "replyingTo": "回复",
+      "and": "和",
+      "andOthers_one": "及其他 {{count}} 人",
+      "andOthers_other": "及其他 {{count}} 人"
+    },
+    "actions": {
+      "reply": "回复",
+      "repost": "转发",
+      "undoRepost": "撤销转发",
+      "react": "反应",
+      "zap": "Zap",
+      "share": "分享",
+      "more": "更多",
+      "linkCopied": "链接已复制到剪贴板"
+    }
+  },
+  "forms": {
+    "required": "必填",
+    "recommended": "建议",
+    "optional": "可选",
+    "title": "标题",
+    "country": "国家/地区",
+    "tags": "标签",
+    "coverImage": "封面图片",
+    "description": "描述",
+    "timezone": "时区",
+    "countrySearchPlaceholder": "搜索国家/地区",
+    "imageDropzone": "点击或拖拽图片到这里",
+    "countryClearAria": "清除国家",
+    "flagOfAria": "{{name}} 国旗",
+    "countryHint": "发布 <0>i: iso3166:{{code}}</0> 用于按国家排序。",
+    "publishing": "发布中…",
+    "uploadingCover": "上传封面中…"
+  },
+  "organizationContext": {
+    "attachedToGroup": "已关联到群组",
+    "groupFallback": "群组",
+    "editSubtext": "更新将继续关联到此群组的官方活动。",
+    "malformedParam": "无法读取链接中的群组。将以你的账号发布。",
+    "checkingPermissions": "正在检查群组权限…",
+    "unauthorized": "你不是该群组的创始人或版主。将以你的账号发布。",
+    "publishingAsGroup": "以群组身份发布"
+  },
+  "notFound": {
+    "title": "404 - 找不到页面",
+    "description": "找不到你要查找的页面。",
+    "heading": "此页面不存在。",
+    "goHome": "返回首页"
+  },
+  "pledges": {
+    "list": {
+      "seoTitle": "悬赏",
+      "seoTitleWithCountry": "悬赏 — {{country}}",
+      "seoDescription": "为你想推动的具体行动、证据或成果承诺资金。",
+      "heroKicker": "悬赏",
+      "heroHeading": "激发你想看到的",
+      "heroHeadingLine2": "改变。",
+      "heroBody": "为具体的行动、证据和成果提供资金。人们通过提交作品回应，社区会奖励那些推动目标向前的工作。",
+      "openCount_one": "个悬赏正在进行中",
+      "openCount_other": "个悬赏正在进行中",
+      "createPledge": "创建悬赏",
+      "loginToCreate": "登录以创建悬赏",
+      "myPledges": "我的悬赏",
+      "myPledgesTagline": "你创建的悬赏。",
+      "featuredPledges": "精选悬赏",
+      "featuredPledgesTagline": "{{appName}} 团队重点推荐的悬赏。",
+      "allPledges": "悬赏",
+      "allPledgesTagline": "由版主精选推荐。可搜索或排序以浏览全部悬赏。",
+      "sectionActive": "进行中的悬赏",
+      "sectionUpcoming": "即将开始的悬赏",
+      "sectionPast": "已结束的悬赏",
+      "sectionDefault": "悬赏",
+      "sectionTagline": "资助值得去做的行动。",
+      "sortAriaLabel": "排序",
+      "sortBy": "排序方式",
+      "sortRecent": "最新",
+      "sortBounty": "最高悬赏",
+      "sortDeadline": "即将截止",
+      "sortDeadlinePast": "最近结束",
+      "filterAriaLabel": "按国家筛选",
+      "countrySearchPlaceholder": "搜索…",
+      "noResults": "未找到结果。",
+      "global": "全球",
+      "dividerUpcoming": "即将开始",
+      "dividerPast": "已结束",
+      "showLess": "收起",
+      "showMore": "展开更多（还有 {{count}} 个）",
+      "emptyTitle": "还没有悬赏",
+      "emptyHint": "成为第一个创建悬赏的人。",
+      "emptyHintCountry": "成为第一个为 {{country}} 创建悬赏的人。",
+      "searchPlaceholder": "搜索悬赏…",
+      "searchAriaLabel": "搜索悬赏",
+      "noMatch": "没有悬赏匹配「{{query}}」",
+      "noMatchHint": "尝试其他搜索词，或清除搜索。",
+      "needsReview": "待审核",
+      "needsReviewDesc": "尚未被推荐或隐藏的 {{appName}} 悬赏。把它们提升到精选栏，或用「隐藏」抑制。",
+      "needsReviewEmpty": "没有待审核的内容。",
+      "hidden": "已隐藏",
+      "hiddenDesc": "从公开发现中抑制的悬赏。使用卡片上的菜单取消隐藏。",
+      "hiddenEmpty": "目前没有隐藏的悬赏。"
+    },
+    "card": {
+      "ended": "已结束",
+      "pledged": "已悬赏",
+      "byAuthor": "由 <0>{{name}}</0>",
+      "actionsAriaLabel": "悬赏操作",
+      "deletePledge": "删除悬赏",
+      "copyLink": "复制链接",
+      "linkCopied": "已复制链接",
+      "linkCopyFailed": "复制链接失败",
+      "confirmDelete": "删除此悬赏？此操作无法撤销。",
+      "deleted": "已删除悬赏",
+      "deletedContent": "已删除的悬赏",
+      "deleteFailed": "删除悬赏失败"
+    },
+    "create": {
+      "seoTitle": "创建悬赏",
+      "seoDescription": "创建一个捐赠者悬赏，在 {{appName}} 上激发具体的行动。",
+      "loginGateTitle": "登录以创建悬赏",
+      "loginGateBody": "悬赏是签名的 Nostr 事件。你需要 Nostr 登录才能发布。",
+      "heading": "创建悬赏",
+      "title": "标题",
+      "titlePlaceholder": "记录一次海滩清理",
+      "country": "国家",
+      "countryPlaceholder": "搜索国家/地区",
+      "tags": "标签",
+      "coverImage": "封面图片",
+      "description": "描述",
+      "descriptionPlaceholder": "说明你想激发的行动、证据或成果，提交应该包含什么，以及你打算如何评估它们……",
+      "pledge": "悬赏",
+      "pledgeAmountPlaceholder": "100",
+      "deadline": "截止日期",
+      "timezone": "时区",
+      "timezoneNote": "开始时间和截止时间将以此时区解释。",
+      "submit": "创建悬赏",
+      "altText": "{{appName}} 悬赏：{{title}}",
+      "successToast": "已创建悬赏",
+      "errorToast": "无法创建悬赏",
+      "errorLoginRequired": "你必须登录才能创建悬赏。",
+      "errorTitleRequired": "标题为必填项。",
+      "errorDescriptionRequired": "描述为必填项。",
+      "errorPledgeRequired": "悬赏金额为必填项。",
+      "errorPledgeInvalid": "悬赏金额必须是正的 USD 金额。",
+      "errorPriceUnavailable": "正在等待 BTC/USD 价格以计算悬赏金额。",
+      "errorCoverInvalid": "封面图片必须是有效的 https:// URL。",
+      "errorDeadlinePast": "截止日期不能在过去。",
+      "wizard": {
+        "titleStepTitle": "为你的悬赏起个名字",
+        "titleStepSubtitle": "清晰的诉求，加上一段简短说明，介绍你将资助什么。",
+        "pledgeStepTitle": "设置你的悬赏",
+        "pledgeStepSubtitle": "你将以 USD 支付多少，以及可选的截止日期。",
+        "coverStepTitle": "添加封面图片",
+        "coverStepSubtitle": "一张图片，让悬赏在每张卡片上脱颖而出。",
+        "tagsStepTitle": "国家和分类",
+        "tagsStepSubtitle": "帮助合适的人发现你的悬赏。",
+        "launchNow": "跳过并直接发布"
+      }
+    },
+    "detail": {
+      "seoTitle": "{{title}} | {{appName}} 悬赏",
+      "seoFallbackTitle": "悬赏 | {{appName}}",
+      "deadlineEndedOn": "{{date}} 已结束",
+      "deadlineEndsToday": "今天截止",
+      "deadlineDaysLeft_one": "还剩 {{count}} 天",
+      "deadlineDaysLeft_other": "还剩 {{count}} 天",
+      "deadlineEndsOn": "{{date}} 截止",
+      "openEnded": "无期限",
+      "back": "返回",
+      "backToPledges": "返回悬赏",
+      "loadingPledge": "正在加载悬赏……",
+      "pledge": "悬赏",
+      "byAuthor": "由 <0>{{name}}</0>",
+      "submitLabel": "提交",
+      "linkCopied": "已复制链接到剪贴板",
+      "pinnedToast": "已置顶到悬赏",
+      "unpinnedToast": "已取消置顶",
+      "pinFailed": "更新置顶失败",
+      "submissions": "提交",
+      "submissionCount_one": "{{count}} 个提交",
+      "submissionCount_other": "{{count}} 个提交",
+      "submissionPlaceholder": "分享证据、佐证或已完成的工作……",
+      "noSubmissionsTitle": "暂无提交",
+      "noSubmissionsHint": "成为第一个以证据、佐证或已完成工作回应的人。",
+      "funded": "已资助",
+      "ofPledged": "目标 {{amount}}",
+      "trustNote": "此悬赏基于信任。资助进度汇总顶级提交上的 zaps 和捐赠收据。",
+      "share": "分享",
+      "storyHeading": "悬赏",
+      "storyEmpty": "发起人尚未为此悬赏撰写详情。"
+    }
+  },
+  "groups": {
+    "list": {
+      "seoTitle": "群组",
+      "seoDescription": "在 Nostr 上发现并加入群组",
+      "heroKicker": "群组",
+      "heroHeading": "众志",
+      "heroHeadingLine2": "成城。",
+      "heroBody": "创建群组、聚集成员，并随时了解你的空间在做什么。",
+      "createGroup": "创建群组",
+      "createGroupLoginTitle": "登录以创建群组",
+      "createGroupLoginBody": "创建群组会从你的账号发布一个 Nostr 事件。",
+      "myGroups": "我的群组",
+      "myGroupsTagline": "你创建、管理或关注的群组。",
+      "featuredGroups": "精选群组",
+      "featuredGroupsTagline": "值得你关注的出色群组。",
+      "allGroups": "群组",
+      "allGroupsTagline": "由版主精选推荐。可搜索或排序以浏览全部群组。",
+      "loginToSeeTitle": "登录以查看你的群组",
+      "loginToSeeBody": "你创建或管理的群组会显示在这里。",
+      "noGroupsTitle": "还没有群组",
+      "noGroupsBody": "创建你自己的群组，与你的伙伴一起协调活动、悬赏和事件。",
+      "noFeaturedTitle": "暂无精选群组",
+      "noFeaturedBody": "{{appName}} 管理员会在这里推荐出色的群组。请稍后再来。",
+      "connectingRelays": "正在连接中继……",
+      "showLess": "收起",
+      "showMore": "再显示 {{count}} 个",
+      "needsReview": "待审核",
+      "needsReviewDesc": "尚未被推荐或隐藏的 {{appName}} 群组。把它们提升到精选栏，或用「隐藏」抑制。",
+      "needsReviewEmpty": "没有待审核的内容。",
+      "hidden": "已隐藏",
+      "hiddenDesc": "从公开发现中抑制的群组。使用卡片上的菜单取消隐藏。",
+      "hiddenEmpty": "目前没有隐藏的群组。",
+      "tickerCampaignsRaised_one": "在 {{count}} 个活动中链上募得",
+      "tickerCampaignsRaised_other": "在 {{count}} 个活动中链上募得",
+      "tickerFeaturedGroups_one": "个 Nostr 精选群组",
+      "tickerFeaturedGroups_other": "个 Nostr 精选群组",
+      "tickerCountries_one": "个国家今天发帖",
+      "tickerCountries_other": "个国家今天发帖",
+      "searchPlaceholder": "搜索群组…",
+      "searchAriaLabel": "搜索群组",
+      "noMatch": "没有群组匹配「{{query}}」",
+      "noMatchHint": "尝试其他搜索词，或清除搜索。"
+    },
+    "create": {
+      "seoTitleCreate": "创建群组",
+      "seoTitleEdit": "编辑群组",
+      "seoDescriptionCreate": "在 {{appName}} 上发起一个新群组。",
+      "seoDescriptionEdit": "在 {{appName}} 上更新你的群组。",
+      "loginGateTitle": "登录以发起群组",
+      "loginGateBody": "群组是签名的 Nostr 事件。你需要 Nostr 登录才能发布。",
+      "invalidEditTitle": "编辑链接无效",
+      "invalidEditBody": "此群组编辑链接缺少有效的群组地址。",
+      "startNewGroup": "发起一个新群组",
+      "loadingGroup": "正在加载群组……",
+      "cannotEditTitle": "此群组无法编辑",
+      "cannotEditBody": "只有此群组的创建者可以更新它。",
+      "headingCreate": "创建群组",
+      "headingEdit": "编辑群组",
+      "name": "名称",
+      "namePlaceholder": "例如：仲裁者之卫",
+      "urlPreview": "URL 预览：",
+      "urlPlaceholder": "你的群组名称",
+      "urlKeptOriginal": "（保留原始值）",
+      "description": "描述",
+      "descriptionPlaceholder": "这个群组是关于什么的？",
+      "country": "国家",
+      "countryPlaceholder": "搜索国家/地区",
+      "tags": "标签",
+      "tagsPlaceholder": "互助, 本地新闻, 数字权利",
+      "coverImage": "封面图片",
+      "moderators": "管理员",
+      "moderatorsCount": "管理员（{{count}}）",
+      "removeModeratorAria": "移除 {{name}}",
+      "submitCreate": "创建群组",
+      "submitEdit": "更新群组",
+      "creating": "创建中……",
+      "updating": "更新中……",
+      "uploadingCover": "上传封面中……",
+      "altText": "群组：{{name}}",
+      "successCreate": "群组已创建！",
+      "successEdit": "群组已更新！",
+      "errorTitleCreate": "无法创建群组",
+      "errorTitleEdit": "无法更新群组",
+      "errorLoginRequired": "你必须登录才能创建群组。",
+      "errorEditLoadFailed": "无法加载群组以进行编辑。",
+      "errorEditNotOwner": "只有群组创建者可以编辑此群组。",
+      "errorNameRequired": "名称为必填项。",
+      "errorNameInvalid": "名称必须包含字母或数字，才能创建群组 URL。",
+      "errorEditLatestMissing": "找不到此群组的最新版本以更新。",
+      "errorCoverInvalid": "封面图片必须是有效的 https:// URL。",
+      "errorSlugCollision": "你已有一个标识符为「{{slug}}」的群组。请选择其他名称。",
+      "wizard": {
+        "nameStepTitle": "为你的群组起个名字",
+        "nameStepSubtitle": "一个简短清晰、成员易于辨识的名称。",
+        "coverStepTitle": "添加封面图片",
+        "coverStepSubtitle": "一张图片，让群组在每张卡片上脱颖而出。",
+        "moderatorsStepTitle": "邀请管理员",
+        "moderatorsStepSubtitle": "可选 — 他们可以与你一同审批内容和移除成员。",
+        "tagsStepTitle": "国家和分类",
+        "tagsStepSubtitle": "帮助合适的人发现你的群组。",
+        "launchNow": "跳过并直接发布"
+      }
+    },
+    "detail": {
+      "by": "由",
+      "byAuthor": "由 {{name}} 发布",
+      "members": "成员",
+      "viewMembers": "查看成员",
+      "moreMembers": "+{{count}} 更多",
+      "about": "关于",
+      "comments": "评论",
+      "comment": "评论",
+      "commentNoun_one": "条评论",
+      "commentNoun_other": "条评论",
+      "noCommentsTitle": "还没有评论",
+      "noCommentsHint": "成为第一个发起讨论的人。",
+      "noMembersFound": "未找到成员。",
+      "founder": "创建者",
+      "moderator": "管理员",
+      "moreActions": "更多操作",
+      "editGroup": "编辑群组",
+      "deleteGroup": "删除群组",
+      "officialActivity": "官方动态",
+      "officialTools": "官方工具",
+      "startSomething": "开始行动",
+      "officialToolsDescription": "给 {{name}} 一个具体的下一步。",
+      "launchCampaign": "发起活动",
+      "launchCampaignDescription": "用官方群组页面筹集资金。",
+      "campaign": "活动",
+      "pledge": "悬赏",
+      "pledgeDescription": "提供人们可以行动的帮助。",
+      "event": "事件",
+      "eventDescription": "把支持者聚在一起。",
+      "untitledEvent": "未命名事件",
+      "interestedCount_one": "{{count}} 人感兴趣",
+      "interestedCount_other": "{{count}} 人感兴趣",
+      "allDay": "全天"
+    }
+  },
+  "campaignsCreate": {
+    "seoTitleCreate": "发起活动",
+    "seoTitleEdit": "编辑活动",
+    "seoDescriptionCreate": "在 {{appName}} 上发起一个募款活动。",
+    "seoDescriptionEdit": "在 {{appName}} 上更新你的募款活动。",
+    "loginGateTitle": "登录以发起活动",
+    "loginGateBody": "活动是签名的 Nostr 事件。你需要 Nostr 登录才能发布。",
+    "invalidEditTitle": "编辑链接无效",
+    "invalidEditBody": "此活动编辑链接缺少有效的活动地址。",
+    "startNewCampaign": "发起一个新活动",
+    "loadingCampaign": "正在加载活动……",
+    "cannotEditTitle": "此活动无法编辑",
+    "cannotEditBody": "只有此活动的作者可以更新它。",
+    "headingCreate": "发起活动",
+    "headingEdit": "编辑活动",
+    "editTabs": {
+      "details": "详情",
+      "funding": "资金",
+      "discovery": "发现"
+    },
+    "title": "标题",
+    "titlePlaceholder": "拯救最后一家书店",
+    "wallet": "比特币钱包",
+    "myWalletLabel": "{{name}} 的钱包",
+    "myWalletDefault": "我的钱包",
+    "walletHeroNote": "捐款将直接进入你自己的 Agora 钱包。\n没有中间人。",
+    "walletHeroReassurance": "你掌握密钥，就掌握资金。随时可在钱包标签页提现。",
+    "walletChoose": "选择钱包",
+    "walletCustom": "自定义",
+    "walletUseCustom": "改用自定义钱包",
+    "walletUseMine": "使用我的 Agora 钱包",
+    "acceptHeading": "你愿意接受哪些捐款？",
+    "acceptUnavailable": "此登录方式无法使用。",
+    "acceptAllTitle": "任何捐款",
+    "acceptPublicTitle": "仅接受公开捐款",
+    "acceptPrivateTitle": "仅接受私密捐款",
+    "acceptAllHint": "公开和私密捐款都接受。",
+    "acceptPublicHint": "捐赠者将款项发送到一个普通的 Bitcoin 地址。这些捐款任何人都能看到。",
+    "acceptPrivateHint": "捐赠者以私密方式捐款，因此他们的身份不会对外公开。",
+    "customWalletIntro": "填写您愿意接受的任意捐赠方式：公开地址、私密代码，或两者皆可。至少需要填写一项。",
+    "customOnchainMeaning": "公开。任何人都能看到这些捐赠。",
+    "customSpMeaning": "私密。捐赠者的身份将保持隐藏。",
+    "bitcoinAddress": "比特币地址",
+    "bitcoinAddressPlaceholder": "bc1q… 或 bc1p…",
+    "silentPaymentCode": "静默支付代码",
+    "silentPaymentCodePlaceholder": "sp1…",
+    "onchainInvalid": "不是已识别的主网比特币地址（bc1q… / bc1p…）。",
+    "spInvalid": "不是已识别的 BIP-352 静默支付代码（sp1…）。",
+    "country": "国家",
+    "countryPlaceholder": "搜索国家/地区",
+    "tags": "标签",
+    "tagsPlaceholder": "法律辩护, 互助, 本地新闻",
+    "categories": {
+      "humanRights": "人权",
+      "democracy": "民主",
+      "pressFreedom": "新闻自由",
+      "politicalPrisoners": "政治犯",
+      "humanitarianAid": "人道援助",
+      "civilResistance": "公民抗争",
+      "digitalRights": "数字权利",
+      "antiCorruption": "反腐败",
+      "womenGirls": "妇女与女童",
+      "refugees": "难民与流亡者",
+      "legalAid": "法律援助",
+      "emergencyRelief": "紧急救援",
+      "animalRights": "动物权利",
+      "education": "教育",
+      "medical": "医疗",
+      "community": "社区"
+    },
+    "banner": "横幅图片",
+    "story": "故事",
+    "storyPlaceholder": "分享背景、受益对象，以及资金的使用方式。",
+    "goal": "目标",
+    "goalPlaceholder": "100",
+    "goalNote": "整数美元。捐赠者以比特币支付；客户端在查看时估算美元等值。",
+    "payUrl": "银行卡支付链接",
+    "payUrlOptional": "（可选）",
+    "payUrlPlaceholder": "https://pay.example.com/your-campaign",
+    "payUrlNote": "一个外部结账页面（例如 Stripe），捐赠者可在此使用银行卡付款。银行卡捐款在 Agora 之外结算，不计入您的筹款总额。",
+    "submitCreate": "发起活动",
+    "submitEdit": "更新活动",
+    "publishing": "发布中……",
+    "updating": "更新中……",
+    "uploadingBanner": "上传横幅中……",
+    "altText": "募款活动：{{title}}",
+    "successCreate": "活动已发起",
+    "successCreateDesc": "你的募款已上线。",
+    "successEdit": "活动已更新",
+    "successEditDesc": "你的募款更改已生效。",
+    "categoryLimitTitle": "你最多只能选择 {{count}} 个标签",
+    "categoryLimitDesc": "添加新标签前请先移除一个标签。活动最多只能有 {{count}} 个标签。",
+    "errorTitleCreate": "无法发布活动",
+    "errorTitleEdit": "无法更新活动",
+    "errorLoginRequired": "你必须登录才能创建活动。",
+    "errorEditLoadFailed": "无法加载活动以进行编辑。",
+    "errorEditNotOwner": "只有活动作者可以编辑此活动。",
+    "errorTitleRequired": "标题为必填项。",
+    "errorTitleInvalid": "标题必须包含字母或数字，才能创建活动 URL。",
+    "errorSlugInvalid": "标识符必须是小写字母、数字和连字符。",
+    "errorHdUnavailable": "此登录方式不支持内置钱包。",
+    "errorSpUnavailable": "此登录方式不支持静默支付地址。",
+    "errorOnchainInvalid": "链上地址不是已识别的主网 bech32(m) 地址（bc1q… / bc1p…）。",
+    "errorSpInvalid": "静默支付代码不是已识别的 BIP-352 代码（sp1…）。",
+    "errorWalletRequired": "至少提供一个钱包端点 — 一个比特币主网地址（bc1q… / bc1p…）或一个静默支付代码（sp1…）。",
+    "errorGoalInvalid": "目标必须是正整数美元金额。",
+    "errorPayUrlInvalid": "银行卡支付链接必须是有效的 https:// URL。",
+    "errorEditLatestMissing": "找不到此活动的最新版本以更新。",
+    "errorSlugCollision": "你已有一个标识符为「{{slug}}」的活动。请选择其他。",
+    "errorBannerInvalid": "横幅必须是有效的 https:// URL。",
+    "errorHdDeriveFailed": "无法从你的钱包派生新的链上地址。",
+    "errorHdDeriveInvalid": "派生的钱包地址未通过验证。请改为添加自定义地址。",
+    "errorWalletRequiredFallback": "需要钱包端点。",
+    "errorPublishedInvalid": "已发布的事件未通过验证。请刷新并重试。",
+    "wizard": {
+      "titleStepTitle": "为你的活动起个名字",
+      "titleStepSubtitle": "一个简短清晰、捐赠者易于辨识的名称。",
+      "walletStepTitle": "捐款流向何处？",
+      "walletStepSubtitle": "选择你的 Agora 钱包，或粘贴你自己的地址。",
+      "bannerStepTitle": "添加横幅",
+      "bannerStepSubtitle": "一张醒目的图片，让活动在每张卡片上脱颖而出。",
+      "storyStepTitle": "讲述你的故事",
+      "storyStepSubtitle": "谁将从中受益，资金将如何使用。",
+      "goalStepTitle": "目标",
+      "goalStepSubtitle": "可选 — 留空则为开放式活动。",
+      "next": "下一步",
+      "back": "返回",
+      "skip": "跳过",
+      "launchNow": "跳过并直接发布",
+      "tagsStepTitle": "国家和分类",
+      "tagsStepSubtitle": "帮助合适的人发现你的活动。"
+    }
+  },
+  "campaignsDetail": {
+    "seoTitle": "{{title}} | {{appName}} 募款",
+    "seoDescriptionFallback": "在 {{appName}} 上支持 {{title}}。",
+    "back": "返回",
+    "edit": "编辑",
+    "delete": "删除",
+    "deleting": "删除中……",
+    "openCover": "打开封面图片",
+    "byAuthor": "由 <0>{{name}}</0>",
+    "commentLabel": "评论",
+    "linkCopied": "已复制链接到剪贴板",
+    "pinnedToast": "已置顶到活动",
+    "unpinnedToast": "已取消置顶",
+    "pinFailed": "更新置顶失败",
+    "deletedToast": "活动已删除",
+    "deletedToastDesc": "删除请求已发布。行为良好的中继会将活动从信息流中移除。",
+    "deleteErrorTitle": "无法删除活动",
+    "campaigner": "发起人",
+    "repost_one": "<0>{{formattedCount}}</0> 转发",
+    "repost_other": "<0>{{formattedCount}}</0> 转发",
+    "quote_one": "<0>{{formattedCount}}</0> 引用",
+    "quote_other": "<0>{{formattedCount}}</0> 引用",
+    "like_one": "<0>{{formattedCount}}</0> 点赞",
+    "like_other": "<0>{{formattedCount}}</0> 点赞",
+    "tabComments": "评论与捐赠",
+    "tabLedger": "账本",
+    "ledger": {
+      "publicAddress": "公开地址",
+      "viewOnMempool": "在 mempool.space 查看",
+      "openOnMempool": "在 mempool.space 打开交易",
+      "unconfirmed": "未确认",
+      "block": "区块 {{height}}",
+      "btcUnit": "BTC",
+      "empty": "此地址暂无链上活动。",
+      "error": "无法加载链上活动。请稍后再试。",
+      "loadMore": "加载更多",
+      "loadingMore": "加载中……",
+      "donated": "已捐赠",
+      "withdrawn": "已提取"
+    },
+    "tombstone": {
+      "seoTitle": "已归档的活动 | {{appName}}",
+      "title": "此活动已不可用",
+      "deletedNotice": "发起人已于 {{date}} 删除此活动。它不再接受捐赠。",
+      "unavailableNotice": "此活动已被删除，或在您的中继上已不可用。它不再接受捐赠。",
+      "archiveIntro": "发布到 Nostr 的捐赠凭证已在下方保留，作为公开记录。",
+      "receiptsHeading": "捐赠档案",
+      "totalRecorded": "记录总额：{{amount}}",
+      "unverifiedCaveat": "金额以捐赠者签名凭证中的申报为准。由于活动及其钱包地址已被删除，这些金额已无法在链上验证。"
+    },
+    "noCommentsTitle": "暂无评论",
+    "noCommentsHint": "成为第一个留下支持留言的人。",
+    "deleteDialogTitle": "删除此活动？",
+    "deleteDialogBody": "这将发布一个 NIP-09 删除请求。行为良好的中继会将活动从信息流和直接链接中移除。过往的捐赠收据无论如何都会保留在链上。此操作无法撤销 — 若要继续接受捐赠，请改为编辑活动。",
+    "storyHeading": "故事",
+    "donate": "捐赠",
+    "share": "分享",
+    "target": "目标：{{amount}}",
+    "raised": "已募",
+    "raisedPublicly": "公开募得",
+    "ofGoal": "目标 {{amount}}",
+    "goalAmount": "目标 {{amount}}",
+    "beFirstDonor": "成为第一位捐赠者！",
+    "privateCampaign": "私密活动",
+    "privateMayAddMore": "私密捐赠可能会增加总额",
+    "donationCount_one": "{{count}} 笔捐赠",
+    "donationCount_other": "{{count}} 笔捐赠",
+    "openInWallet": "打开外部钱包",
+    "payWithAgoraWallet": "使用 Agora 支付",
+    "payWithCard": "使用银行卡支付",
+    "paymentCount_one": "{{count}} 笔不可阻挡的付款",
+    "paymentCount_other": "{{count}} 笔不可阻挡的付款",
+    "openInWalletToast": {
+      "title": "正在查找钱包应用…",
+      "body": "如果没有打开任何应用，请复制上方的付款链接并粘贴到你的钱包中。"
+    },
+    "paymentUri": "付款 URI",
+    "copyLabelAction": "复制{{label}}",
+    "copiedLabel": "{{label}}已复制",
+    "copyFailed": "复制失败",
+    "copyFailedBody": "请手动选择并复制该内容。"
+  },
+  "noBitcoin": {
+    "trigger": "没有比特币？",
+    "title": "还没有比特币？",
+    "description": "从以下任一服务购买比特币，然后将其发送到此活动的地址。",
+    "buyOn": "购买于",
+    "mayBeUnavailable": "在您所在的地区可能无法使用",
+    "onramp": {
+      "descGlobalExchange": "全球交易所",
+      "descBitcoinApp": "比特币支付应用",
+      "descLatam": "拉丁美洲",
+      "descEurope": "欧洲",
+      "descAfrica": "非洲",
+      "descIndia": "印度",
+      "descPhilippines": "菲律宾",
+      "descP2p": "点对点，无需注册"
+    }
+  },
+  "campaignVerification": {
+    "verifiedBy": "验证者",
+    "verifiedLabel": "已验证",
+    "verifiedByCount_one": "已由 {{count}} 人验证",
+    "verifiedByCount_other": "已由 {{count}} 人验证",
+    "verifyCampaign": "验证此活动",
+    "removeVerification": "移除我的验证",
+    "dialogTitle": "验证此活动",
+    "attestation": "验证此活动即表示您证实该活动真实可信。您本人认识活动组织者，或已切实核实其声明属实。谨防冒充者和骗子。",
+    "verified": "活动已验证",
+    "unverified": "验证已移除",
+    "actionFailed": "操作失败",
+    "verifiedByCount_zero": "已由 {{count}} 人验证",
+    "verifiedByCount_two": "已由 {{count}} 人验证",
+    "verifiedByCount_few": "已由 {{count}} 人验证",
+    "verifiedByCount_many": "已由 {{count}} 人验证",
+    "unverifiedBanner": "此众筹项目尚未经过可信来源验证。",
+    "unverifiedBannerReadMore": "了解更多"
+  },
+  "campaignHidden": {
+    "title": "此众筹项目已被隐藏",
+    "body": "此众筹项目已被 Agora 审核员隐藏，通常是因为它看起来像垃圾信息、诈骗或冒充他人。你仍然可以选择查看它。",
+    "learnMore": "了解更多",
+    "back": "返回",
+    "proceed": "仍然继续"
+  },
+  "calendarEvents": {
+    "create": {
+      "seoTitle": "创建事件",
+      "seoDescription": "在 {{appName}} 上创建日历事件。",
+      "loginTitle": "登录以创建事件",
+      "loginBody": "事件是已签名的 Nostr 事件。你需要登录 Nostr 才能发布。",
+      "heading": "创建事件",
+      "titlePlaceholder": "社区清理",
+      "descriptionPlaceholder": "告诉大家会发生什么、需要带什么，以及谁适合参加...",
+      "schedule": "日程",
+      "allDay": "全天事件",
+      "allDayHint": "关闭后可添加开始和结束时间。",
+      "startDate": "开始日期",
+      "endDate": "结束日期",
+      "startTime": "开始时间",
+      "endTime": "结束时间",
+      "locationDetails": "地点详情",
+      "locationPlaceholder": "地址、场地或视频通话链接",
+      "tagsPlaceholder": "互助, 工作坊, 本地新闻",
+      "submit": "创建事件",
+      "successToast": "事件已创建",
+      "errorToast": "无法创建事件",
+      "altCalendar": "日历事件：{{title}}",
+      "altGroup": "群组事件：{{title}}",
+      "errorLoginRequired": "你必须登录才能创建事件。",
+      "errorTitleRequired": "标题为必填项。",
+      "errorStartDateRequired": "开始日期为必填项。",
+      "errorStartDatePast": "开始日期不能是过去的日期。",
+      "errorStartTimeRequired": "定时事件需要开始时间。",
+      "errorCoverInvalid": "封面图片必须是有效的 https:// URL。",
+      "errorEndDateBeforeStart": "结束日期必须等于或晚于开始日期。",
+      "errorStartDateTimeInvalid": "开始日期或时间无效。",
+      "errorEndTimeAfterStart": "结束时间必须晚于开始时间。"
+    },
+    "detail": {
+      "untitledEvent": "未命名事件",
+      "dateNotSpecified": "未指定日期",
+      "organizer": "组织者",
+      "rsvpUpdated": "RSVP 已更新",
+      "rsvpFailed": "无法更新 RSVP",
+      "rsvp": "RSVP",
+      "youAreGoing": "你将参加",
+      "youAreInterested": "你感兴趣",
+      "youCantGo": "你不能参加",
+      "chooseRsvp": "选择你的 RSVP",
+      "going": "参加",
+      "interested": "感兴趣",
+      "cantGo": "不能参加",
+      "attendees": "参加者",
+      "links": "链接",
+      "participants": "参与者",
+      "hostedBy": "主办者",
+      "attendingCount_one": "{{count}} 人参加",
+      "attendingCount_other": "{{count}} 人参加",
+      "interestedCount_one": "{{count}} 人感兴趣",
+      "interestedCount_other": "{{count}} 人感兴趣",
+      "comment": "评论",
+      "description": "描述",
+      "emptyDescription": "组织者还没有为此事件添加描述。",
+      "comments": "评论",
+      "commentNoun_one": "条评论",
+      "commentNoun_other": "条评论",
+      "noCommentsTitle": "还没有评论",
+      "noCommentsHint": "成为第一个评论的人。",
+      "pinnedToast": "已固定到事件",
+      "unpinnedToast": "已从事件取消固定",
+      "pinFailed": "无法更新事件固定"
+    }
+  },
+  "follow": {
+    "follow": "关注",
+    "following": "已关注",
+    "unfollow": "取消关注",
+    "followed": "已关注",
+    "unfollowed": "已取消关注",
+    "updateFailed": "无法更新关注列表"
+  },
+  "campaigns": {
+    "home": {
+      "seoTitle": "众筹活动",
+      "seoDescription": "无国界地给予。由比特币和 Nostr 驱动的直接的、人与人之间的给予。",
+      "heroTagline": "筹款<1></1>无<0>国界</0>",
+      "heroBody": "用比特币支持世界各地的人和事业。每一份馈赠都直达受款人的钱包：没有国界，没有中间人，没有退单，也没有任何平台扣押资金。",
+      "startCampaign": "发起活动",
+      "howItWorks": "运作方式",
+      "featuredTitle": "精选活动",
+      "featuredDesc": "由 {{appName}} 团队精心挑选的活动。",
+      "verifiedTitle": "已验证活动",
+      "verifiedDesc": "由 World Liberty Congress 的可信验证方和 {{appName}} 团队担保的活动。",
+      "allCampaigns": "所有活动",
+      "allCampaignsDesc": "网络上的所有活动，按时间顺序排列。",
+      "browseAll": "浏览所有活动",
+      "hidden": "已隐藏",
+      "hiddenDesc": "已从公共首页隐藏的活动。使用卡片上的菜单可以取消隐藏。",
+      "hiddenEmpty": "当前没有被隐藏的活动。",
+      "yourCampaigns": "你的活动",
+      "yourCampaignsDesc": "你的活动已在 Nostr 上线,通过活动链接即可接收捐款。在 /campaigns 浏览所有活动;{{appName}} 团队会在首页展示精选活动。",
+      "empty": "暂无活动",
+      "emptyHint": "成为在 {{appName}} 发起众筹的第一人。讲述你的故事、选择受益人、并分享链接。",
+      "whyDifferent": {
+        "eyebrow": "为什么选 {{appName}}",
+        "title": "我们与众不同。",
+        "lede": "Bitcoin 从捐赠者直达受款人。没有平台横在中间，没有托管方握着资金，无需任何许可。",
+        "block1": {
+          "heading": "不像 GoFundMe",
+          "body": "没有平台可以冻结你的捐款、要求退款或因政策分歧而终止你的活动。没有 Stripe、没有 Visa、没有银行夹在中间，可以在活动中途切断你。",
+          "bullet1": "防冻结，平台无否决权",
+          "bullet2": "没有支付处理商可以拔掉插头",
+          "bullet3": "零平台费用"
+        },
+        "block2": {
+          "heading": "不像其他「比特币」平台",
+          "body": "没有中央 Lightning 节点、托管方或 LSP 可能出现故障或下线。资金直接在 Bitcoin 上结算到你控制的钱包。如果 {{appName}} 明天消失，每个活动都会继续运作。",
+          "bullet1": "没有可被掏空或冻结的托管钱包",
+          "bullet2": "直接在链上结算到你拥有的钱包",
+          "bullet3": "即使 {{appName}} 消失也能运作"
+        },
+        "block3": {
+          "heading": "公开或私密。由你选择。",
+          "body": "受款人选择与自身威胁模型相匹配的收款方式。捐赠者只看到一个 QR；钱包会自动选择正确的协议。",
+          "publicLabel": "公开",
+          "publicSummary": "适用于每一个 Bitcoin 钱包。链上快速且可验证。",
+          "privateLabel": "私密",
+          "privateSummary": "BIP-352 静默支付。捐款到达不可链接的输出。"
+        },
+        "readMore": "阅读完整说明"
+      },
+      "searchPlaceholder": "搜索活动…",
+      "searchAriaLabel": "搜索活动",
+      "noMatch": "没有活动匹配「{{query}}」",
+      "noMatchHint": "尝试其他搜索词，或清除搜索。",
+      "verifyCampaigns": "验证活动"
+    },
+    "all": {
+      "title": "活动",
+      "seoTitle": "所有活动",
+      "description": "浏览 Agora 上发布的所有活动。",
+      "sectionTagline": "精选活动优先展示，其余来自整个网络。可搜索或排序以进一步筛选。",
+      "newTitle": "新活动",
+      "newDesc": "网络上的其余所有活动，最新的优先显示。",
+      "viewAll": "查看全部",
+      "viewAllCount": "查看全部 {{count}} 个",
+      "heroKicker": "活动",
+      "heroHeading": "每一个理念，",
+      "heroHeadingLine2": "汇聚于此。",
+      "heroBody": "Nostr 上发布的每一个筹款活动，汇聚于一处。浏览整个网络，找到你关心的事业，直接用比特币支持它。",
+      "campaignsCount_one": "个网络上的活动",
+      "campaignsCount_other": "个网络上的活动",
+      "searchAriaLabel": "搜索活动",
+      "searchPlaceholder": "搜索活动…",
+      "clearSearch": "清除搜索",
+      "sortAriaLabel": "排序",
+      "sortTop": "热门",
+      "sortNew": "最新",
+      "showHidden": "显示已隐藏",
+      "startCampaign": "发起活动",
+      "noMatch": "没有活动匹配「{{query}}」",
+      "noMatchHint": "尝试其他搜索词,或清除搜索以查看所有活动。",
+      "allHidden": "没有活动可显示",
+      "allHiddenHint": "网络上的所有活动都已被版主隐藏。打开「显示已隐藏」即可查看。",
+      "empty": "暂无活动",
+      "emptyHint": "尚未发布任何活动。来当第一个吧。",
+      "verifyCampaigns": "验证活动"
+    },
+    "lists": {
+      "stripAria": "精选活动主题列表",
+      "create": "新建列表",
+      "showMore": "再显示 {{count}} 个",
+      "showLess": "显示较少",
+      "createDesc": "创建一个新的主题列表。可以从任意活动页面将活动收录其中。",
+      "createSubmit": "创建列表",
+      "createFailed": "创建列表失败",
+      "edit": "编辑列表",
+      "editDesc": "更新列表的标题、描述或图标。",
+      "editSubmit": "保存更改",
+      "updateFailed": "更新列表失败",
+      "delete": "删除列表",
+      "deleteFailed": "删除列表失败",
+      "deleteConfirmTitle": "删除此列表？",
+      "deleteConfirmDesc": "「{{title}}」将从主题栏中移除。活动本身不会受到影响。",
+      "titleField": "标题",
+      "titlePlaceholder": "例如：新闻自由",
+      "descriptionField": "描述",
+      "descriptionPlaceholder": "用一段简短的说明阐明此列表收录的内容。",
+      "iconField": "图标",
+      "coverField": "封面图片",
+      "menuAria": "{{title}} 列表选项",
+      "listActions": "列表操作",
+      "memberMenuAria": "活动列表选项",
+      "backToCampaigns": "返回活动",
+      "detailTitle": "活动列表",
+      "campaignsCount_one": "{{count}} 个活动",
+      "campaignsCount_other": "{{count}} 个活动",
+      "addCampaign": "添加活动",
+      "addCampaignDesc": "搜索网络，挑选一个活动加入此列表。",
+      "addFailed": "添加到列表失败",
+      "addToList": "添加",
+      "alreadyAdded": "已添加",
+      "added": "已添加",
+      "membershipTitle": "添加到列表",
+      "membershipDesc": "选择 \"{{title}}\" 应出现在哪些列表中。",
+      "membershipEmpty": "尚无列表。创建一个以开始整理。",
+      "searchPlaceholder": "搜索活动…",
+      "searchEmpty": "没有活动匹配此搜索。",
+      "removeFromList": "从列表中移除",
+      "removeFailed": "从列表中移除失败",
+      "empty": "此列表为空。",
+      "emptyMod": "此列表为空。添加活动以开始整理。",
+      "iconPicker": {
+        "title": "选择一个图标",
+        "description": "从 Lucide 图标库中任选一个图标。",
+        "search": "搜索图标…",
+        "empty": "没有图标匹配此搜索。"
+      }
+    }
+  },
+  "moderation": {
+    "hiddenBadge": "已隐藏",
+    "menu": {
+      "ariaCampaign": "管理活动",
+      "ariaPledge": "管理悬赏",
+      "ariaGroup": "管理群组",
+      "failedAction": "操作失败：{{action}}",
+      "failedReorder": "重新排序失败",
+      "moveToTop": "移到顶部",
+      "moveUp": "上移",
+      "moveDown": "下移",
+      "addToList": "添加到列表…",
+      "dragHandle": "拖动以重新排序（位置 {{index}}）",
+      "hide": "隐藏",
+      "unhide": "取消隐藏",
+      "hiddenState": "已隐藏",
+      "feature": "精选",
+      "unfeature": "取消精选",
+      "featuredState": "已精选",
+      "toastHidden": "已隐藏",
+      "toastUnhidden": "已取消隐藏",
+      "toastFeatured": "已精选",
+      "toastUnfeatured": "已从精选移除",
+      "toast": {
+        "movedToTop": "已移到顶部",
+        "movedUp": "已上移",
+        "movedDown": "已下移"
+      },
+      "label": "版主操作"
+    }
+  },
+  "settings": {
+    "title": "设置",
+    "description": "管理你的 {{appName}} 设置",
+    "deleteAccount": "删除账户",
+    "groups": {
+      "account": "账户",
+      "app": "应用",
+      "system": "系统"
+    },
+    "sections": {
+      "profile": "个人资料",
+      "profileDesc": "显示名称、简介、头像和验证。",
+      "appearance": "外观",
+      "appearanceDesc": "系统、浅色或深色模式。",
+      "language": "语言",
+      "languageDesc": "选择整个应用使用的语言。",
+      "network": "网络",
+      "networkDesc": "数据使用、中继和文件上传服务器。",
+      "notifications": "通知",
+      "notificationsDesc": "推送通知偏好。",
+      "content": "内容",
+      "contentDesc": "管理已静音的用户、标签和词语。",
+      "advanced": "高级",
+      "advancedDesc": "钱包、系统和高级用户选项。",
+      "organizers": "组织者",
+      "organizersDesc": "任命可将帖子置顶到国家信息流的国家组织者。",
+      "support": "遇到问题？",
+      "supportDesc": "报告问题或查看已知问题"
+    },
+    "organizers": "组织者",
+    "signInToManage": "登录以管理",
+    "loginRequired": "你需要登录才能管理组织者。",
+    "appearance": {
+      "title": "外观",
+      "subtitle": "选择应用的外观。",
+      "colorMode": "颜色模式",
+      "system": "跟随系统",
+      "systemDesc": "跟随你的设备设置",
+      "light": "浅色",
+      "lightDesc": "始终使用浅色模式",
+      "dark": "深色",
+      "darkDesc": "始终使用深色模式"
+    },
+    "network": {
+      "title": "网络",
+      "subtitle": "管理数据使用、中继和文件上传服务器。",
+      "lowBandwidthHeading": "低带宽模式",
+      "reduceDataUsage": "减少数据使用",
+      "reduceDataUsageDesc": "适用于计量或缓慢的网络连接。视频不会自动播放，跳过后台视频预览，图片需要点击后才加载。",
+      "useImageProxy": "使用图片代理",
+      "useImageProxyDesc": "获取图片的较小 WebP 版本，而不是完整分辨率的原图。",
+      "proxyUrl": "代理 URL",
+      "proxyApiDesc": "必须支持 <0>wsrv.nl / weserv</0> API。自托管者可以指向自己的实例。",
+      "reset": "重置",
+      "relays": "中继",
+      "blossomServers": "Blossom 服务器",
+      "imageUploads": "图片上传",
+      "uploadQuality": "上传质量",
+      "uploadQualityDesc": "「压缩」会调整大图尺寸并选择最小的格式。「原始」按原样上传图片。",
+      "compressed": "压缩",
+      "original": "原始"
+    },
+    "advanced": {
+      "title": "高级",
+      "subtitle": "钱包连接、系统配置和其他面向高级用户的选项。",
+      "intro": "钱包连接、系统配置和其他高级选项。",
+      "wallet": "钱包",
+      "torHeading": "Tor",
+      "torToggle": "通过 Tor 路由流量",
+      "torToggleDesc": "连接到中继并通过 Tor 网络加载媒体内容，以获得更强的隐私保护。预计性能会有所下降，且 Tor 连接时会有短暂延迟。",
+      "torApplyNote": "开启后，所有流量将通过 Tor 路由。连接期间，其他内容将无法加载（横幅会显示状态）——不会有任何数据在 Tor 之外发送。关闭后将切换回直连。",
+      "torStatusLabel": "状态：",
+      "torExitIp": "Tor 出口 IP：",
+      "torCheckAgain": "重新检查"
+    },
+    "wallet": {
+      "title": "钱包",
+      "subtitle": "管理钱包连接和支付"
+    }
+  },
+  "language": {
+    "title": "语言",
+    "subtitle": "选择整个应用使用的语言。",
+    "translationNote": "翻译仍在进行中。未翻译的文本将以英文显示。"
+  },
+  "verifier": {
+    "title": "验证者",
+    "subtitle": "通过描述你如何审核活动来成为验证者。",
+    "promptLabel": "你的验证流程",
+    "prompt": "告诉我们你为验证活动所采取的步骤。请尽可能详细，让捐赠者知道他们可以信任你的判断。",
+    "placeholder": "描述你如何验证活动——你执行的检查、你要求的证据、你如何确认组织者的身份，以及任何有助于捐赠者信任你判断的内容。",
+    "previewLabel": "预览",
+    "publish": "成为验证者",
+    "update": "更新声明",
+    "withdraw": "撤回",
+    "loading": "正在加载你的声明…",
+    "publishedToast": "你的验证者声明已上线。",
+    "withdrawnToast": "你的验证者声明已撤回。",
+    "errorToast": "无法保存你的验证者声明。",
+    "disclaimer": "任何人都可以成为验证者。你的声明会公开发布到 Nostr 并在你的个人资料上醒目显示。它不会授予任何特殊权限——只是告诉捐赠者你如何审核活动。",
+    "loginGateTitle": "登录以成为验证者",
+    "loginGateBody": "你需要登录才能发布验证者声明。",
+    "howWeVerifyTitle": "我们如何验证",
+    "requestVerification": "请求验证",
+    "withdrawConfirmTitle": "撤回你的验证者声明？",
+    "withdrawConfirmBody": "你的「我们如何验证」声明将从你的个人资料中移除。你可以随时发布新的声明。"
+  },
+  "mdEditor": {
+    "toolbar": {
+      "bold": "粗体",
+      "italic": "斜体",
+      "strikethrough": "删除线",
+      "inlineCode": "行内代码",
+      "heading1": "一级标题",
+      "heading2": "二级标题",
+      "heading3": "三级标题",
+      "bulletList": "无序列表",
+      "numberedList": "有序列表",
+      "blockquote": "引用",
+      "insertLink": "插入链接",
+      "insertImage": "插入图片",
+      "horizontalRule": "分隔线"
+    },
+    "help": {
+      "title": "Markdown 快速参考",
+      "bold": "粗体",
+      "italic": "斜体",
+      "bulletList": "项目符号",
+      "numberedList": "编号",
+      "link": "链接",
+      "quote": "引用",
+      "code": "代码"
+    },
+    "link": {
+      "title": "插入链接",
+      "textLabel": "链接文字",
+      "textPlaceholder": "输入链接文字…",
+      "urlLabel": "URL",
+      "cancel": "取消",
+      "insert": "插入链接"
+    }
+  },
+  "organizations": {
+    "seoTitle": "面向组织",
+    "seoDescription": "将你的组织接入 {{appName}},发布一份公开的验证声明,赢得捐赠者的信任。",
+    "hero": {
+      "eyebrow": "面向组织与验证者",
+      "headlinePart1": "帮助捐赠者建立",
+      "headlineHighlight": "信任",
+      "body": "把你的组织带到 {{appName}},发布一份公开声明,说明你如何审核你所支持的活动。无需申请,没有看门人——靠的是你的声誉。",
+      "trustChips": {
+        "noPermission": "无需许可",
+        "ownIdentity": "你自己的身份",
+        "public": "公开且可验证"
+      },
+      "cta": "开始使用"
+    },
+    "steps": {
+      "eyebrow": "运作方式",
+      "title": "三步即可接入",
+      "lede": "{{appName}} 构建于 Nostr 之上,因此你的组织拥有自己的身份。完成设置只需几分钟。",
+      "step1": {
+        "title": "带上你的个人资料",
+        "body": "使用组织的 Nostr 个人资料登录——或在几秒内创建一个。你的身份归你所有,可在每个 Nostr 应用之间通用,且不受 {{appName}} 控制。"
+      },
+      "step2": {
+        "title": "说明你的流程",
+        "body": "撰写一份公开声明,说明你如何验证活动:你执行的检查、你要求的证据,以及你如何确认组织者的身份。"
+      },
+      "step3": {
+        "title": "发布并赢得信任",
+        "body": "你的声明会显示在你的个人资料上,向捐赠者表明你为所验证的活动背书。你可以随时更新或撤回。"
+      }
+    },
+    "getStarted": {
+      "eyebrow": "开始使用",
+      "title": "发布你的声明",
+      "lede": "使用组织的个人资料登录,即可发布、更新或撤回你的验证声明。"
+    },
+    "loginGateTitle": "使用你组织的个人资料登录",
+    "loginGateBody": "使用你组织的 Nostr 个人资料登录,或创建一个,即可开始。登录后,你可以在这里发布你的验证声明。",
+    "tutorial": {
+      "eyebrow": "你现在是验证者了",
+      "title": "如何验证一个活动",
+      "lede": "你的声明已生效。下面教你如何为信任的活动背书——从任意活动卡片只需两步即可完成。",
+      "steps": {
+        "open": {
+          "title": "打开菜单",
+          "body": "在任意活动卡片上,点击横幅右上角的三点按钮。"
+        },
+        "verify": {
+          "title": "选择\"验证此活动\"",
+          "body": "菜单会显示一个验证操作——仅对你这样的版主和验证者可见。"
+        },
+        "confirm": {
+          "title": "确认即可完成",
+          "body": "证明该活动真实可信。你的徽章会出现在卡片上,让捐赠者知道你为它背书。"
+        }
+      },
+      "demo": {
+        "menuVerify": "验证此活动"
+      }
+    },
+    "getStartedCard": {
+      "title": "设置你的组织",
+      "body": "我们将引导你创建组织的个人资料、发布你的验证声明，并验证你的第一个活动。",
+      "cta": "开始验证"
+    }
+  },
+  "organizers": {
+    "appoint": "任命组织者",
+    "appointDesc": "授予用户权限,可在特定国家信息流上置顶帖子。",
+    "appointing": "正在任命…",
+    "appointed": "组织者已任命",
+    "appointedSuccess": "已为 {{country}} 任命组织者",
+    "userNpub": "用户 npub",
+    "country": "国家",
+    "selectCountry": "选择国家",
+    "invalidNpub": "无效的 npub 格式",
+    "alreadyOrganizer": "该用户已是该国家的组织者",
+    "current": "当前组织者",
+    "noOrganizers": "尚未任命任何组织者。",
+    "removed": "组织者已移除",
+    "removedSuccess": "已将 {{name}} 从 {{country}} 移除",
+    "refreshed": "已刷新",
+    "refreshedDesc": "已从中继刷新组织者列表。",
+    "adminRequired": "需要管理员权限",
+    "adminRequiredDesc": "只有平台管理员才能任命或移除组织者。"
+  },
+  "wallet": {
+    "seoTitle": "钱包",
+    "seoDescription": "由你的 Nostr nsec 派生出的分层确定性比特币钱包。",
+    "loggedOut": {
+      "title": "比特币钱包",
+      "description": "一个由你的 Nostr 身份派生出的分层钱包。每次收款都使用新地址，完整的交易历史，地址不复用。",
+      "requiresNsec": "需要使用 nsec（你的 Nostr 私钥）登录。"
+    },
+    "unsupported": {
+      "title": "钱包不可用",
+      "extension": "你的浏览器扩展将密钥隔离保存，因此我们无法为你的钱包派生子密钥。",
+      "bunker": "你的远程签名器（NIP-46 bunker）将密钥保存在 bunker 一侧，因此我们无法为你的钱包派生子密钥。",
+      "other": "你的登录方式不暴露派生钱包所需的密钥。",
+      "instructions": "请退出并使用 nsec 重新登录以使用钱包。"
+    },
+    "scanFailed": "扫描钱包失败",
+    "retry": "重试",
+    "refreshBalance": "刷新余额",
+    "refreshBalanceTitle": "点击刷新余额",
+    "amountPending": "{{amount}} 待确认",
+    "pending": "待确认",
+    "send": "发送",
+    "transactions": "交易",
+    "receiveDialog": {
+      "title": "接收比特币",
+      "description": "分享一个地址以接收比特币。",
+      "addressIndex": "地址 #{{index}}",
+      "scanForNew": "检查新付款"
+    },
+    "tx": {
+      "pending": "待确认",
+      "today": "今天",
+      "yesterday": "昨天",
+      "daysAgo_one": "{{count}} 天前",
+      "daysAgo_other": "{{count}} 天前",
+      "received": "已收到",
+      "sent": "已发送"
+    },
+    "openMenu": "钱包菜单",
+    "sendPublic": "发送",
+    "sendPrivate": "私密发送",
+    "tabs": {
+      "public": "公开",
+      "private": "私密"
+    },
+    "hideBalance": "隐藏余额",
+    "showBalance": "显示余额"
+  },
+  "walletSettings": {
+    "backup": {
+      "label": "备份钱包"
+    },
+    "legacy": {
+      "label": "旧钱包恢复"
+    }
+  },
+  "walletLegacy": {
+    "seoTitle": "旧钱包恢复",
+    "seoDescription": "从之前各代 Agora 钱包中恢复资金。",
+    "title": "旧钱包恢复",
+    "subtitle": "选择你之前使用的钱包，将其余额归集到你当前的钱包中。",
+    "loggedOut": "请使用你的 Nostr 身份登录，以查找旧钱包中的资金。",
+    "scanning": "正在扫描 V2 测试版钱包中的资金……",
+    "v2Detected": {
+      "title": "在 V2 预发布测试版钱包中发现资金",
+      "body": "我们在你旧的 V2 测试版钱包的地址上发现了 <0>{{amount}}</0>。请打开下方的 V2 归集，将其转入你当前的钱包。"
+    },
+    "options": {
+      "v2Beta": {
+        "label": "V2 预发布测试版钱包",
+        "description": "归集来自 BIP-39 派生之前以 nsec 作为种子的 BIP-86 钱包中的资金。"
+      },
+      "v1Breeze": {
+        "label": "V1 Breeze 钱包",
+        "description": "归集旧 Lightning 托管钱包中的链上余额。"
+      },
+      "doubleTweak": {
+        "label": "Double-tweak SP 修复",
+        "description": "找回因早先发送漏洞而滞留的静默支付，并将它们归集回你的钱包。"
+      }
+    },
+    "footnote": "每个选项都是一次性的单向归集到你当前的钱包。旧钱包本身不会被恢复——只有其中保存的资金会被找回。"
+  },
+  "walletRecovery": {
+    "seoTitle": "恢复旧钱包",
+    "seoDescription": "从之前的 Lightning 钱包中恢复资金，并将其转入你由 Nostr 派生的比特币地址。",
+    "title": "恢复旧钱包",
+    "heading": "恢复你的旧钱包",
+    "subheading": "如果你之前在 Lightning 钱包中有资金，你可以将其全部转入由你的 Nostr 派生出的比特币地址。旧钱包不会被恢复——这是一次性的单向转移。",
+    "backToWallet": "返回钱包",
+    "loggedOut": {
+      "title": "登录以恢复",
+      "description": "请使用拥有旧 Lightning 钱包的 Nostr 身份登录，以便将资金转入其比特币地址。"
+    },
+    "destination": {
+      "title": "资金将被发送到",
+      "description": "你由 Nostr 派生的 Taproot 地址。"
+    },
+    "phrase": {
+      "title": "恢复短语",
+      "description": "粘贴你旧钱包的 12 词恢复短语。",
+      "checkingRelays": "正在中继上查找加密备份…",
+      "backupFoundTitle": "在你的中继上找到备份",
+      "backupFoundDesc": "我们在此账号发布的事件中找到了你旧钱包恢复短语的加密备份。",
+      "decryptAndUse": "解密并使用",
+      "placeholder": "word1 word2 word3 …",
+      "warning": "只粘贴你信任的恢复短语。任何拥有此短语的人都可以花费资金。转移完成后，请从你复制过它的任何地方删除它。",
+      "sweepButton": "将资金转入我的比特币地址"
+    },
+    "sweeping": {
+      "working": "处理中…",
+      "dontClose": "请不要关闭此标签页。旧钱包同步并广播交易可能需要最多一分钟。"
+    },
+    "success": {
+      "title": "恢复完成",
+      "sent": "已向你的比特币地址发送 {{sats}} sats。",
+      "viewTransaction": "查看交易"
+    },
+    "error": {
+      "title": "恢复失败",
+      "tryAgain": "重试"
+    },
+    "errors": {
+      "noNip44": "你的签名器不支持读取中继备份所需的 NIP-44 解密。请改为手动粘贴你的 12 词恢复短语。",
+      "decryptFailed": "无法解密中继备份。请改为手动粘贴你的 12 词恢复短语。",
+      "decryptGeneric": "解密中继备份失败。",
+      "invalidWordCount": "恢复短语必须是 12 或 24 个单词。",
+      "noBalance": "你的旧钱包没有可花费的余额。没有可以恢复的内容。",
+      "sweepGeneric": "恢复失败。请重试。"
+    },
+    "progress": {
+      "loadingSdk": "正在加载钱包 SDK…",
+      "connecting": "正在连接你的旧钱包…",
+      "checkingBalance": "正在查看余额…",
+      "preparingTransfer": "正在准备转移 {{sats}} sats…",
+      "broadcasting": "正在广播交易…"
+    },
+    "toast": {
+      "backupLoadedTitle": "已加载备份",
+      "backupLoadedDesc": "已从你的中继解密恢复短语。"
+    }
+  },
+  "walletBackup": {
+    "heading": "钱包助记词",
+    "dialogDescription": "你可以将这 24 词备份导入任何比特币钱包，以访问你的 Agora 钱包。",
+    "hidden": "点击以显示你的 24 词助记词。",
+    "revealAria": "显示助记词",
+    "hideAria": "隐藏助记词",
+    "warning": "任何拥有这些词的人都可以花掉你的比特币。切勿分享，切勿在任何网站上输入，切勿以明文存储在密码管理器之外的地方。"
+  },
+  "walletMigrate": {
+    "seoTitle": "迁移旧钱包",
+    "seoDescription": "将资金从你旧的 Agora 钱包（以 nsec 作为种子）转入新的 BIP-39 钱包。",
+    "title": "迁移旧钱包",
+    "heading": "迁移到你的新钱包",
+    "subheading": "Agora 的比特币钱包现在使用 BIP-39 助记词，因此可以导入任何钱包应用。你旧地址上的资金依然安全——此页面将通过一笔交易把它们转入你的新钱包。",
+    "backToWallet": "返回钱包",
+    "loading": "正在检查你的旧钱包…",
+    "warning": "这将构建一笔归集交易，消耗你旧钱包的全部 UTXO，并把总额（扣除少量网络手续费后）发送到你新钱包的第一个接收地址。一旦广播，此操作不可撤销。",
+    "startButton": "归集到新钱包",
+    "loggedOut": {
+      "title": "登录以进行迁移",
+      "description": "请使用拥有旧钱包的 Nostr 身份登录，以便将资金转入你的新地址。"
+    },
+    "unsupported": {
+      "title": "钱包不可用",
+      "description": "迁移仅适用于 nsec 登录，因为旧钱包的密钥是直接从你的 nsec 派生的。浏览器扩展和远程签名器登录无法执行此迁移。"
+    },
+    "noBlockbook": {
+      "title": "未配置 Blockbook",
+      "description": "迁移需要一个 Blockbook 索引器 URL 来扫描你的旧地址并广播归集交易。"
+    },
+    "noFunds": {
+      "title": "无需迁移",
+      "description": "你的旧钱包没有可花费的余额。所有资金都已在你的新钱包中。"
+    },
+    "detected": {
+      "title": "旧钱包中的资金",
+      "description": "这些资金将通过一笔交易转入你的新钱包。",
+      "bip86": "链上",
+      "sp": "静默支付",
+      "total": "总计"
+    },
+    "destination": {
+      "title": "目标地址",
+      "description": "你新钱包的第一个接收地址。"
+    },
+    "progress": {
+      "building": "正在构建交易…",
+      "signing": "正在签名输入…",
+      "broadcasting": "正在广播交易…",
+      "dontClose": "归集进行中，请勿关闭此标签页。"
+    },
+    "success": {
+      "title": "迁移完成",
+      "sent": "已向你的新钱包发送 {{sats}} sats（手续费 {{fee}} sats）。",
+      "viewTx": "查看交易"
+    },
+    "error": {
+      "title": "迁移失败",
+      "tryAgain": "重试"
+    },
+    "errors": {
+      "noV1Account": "无法访问旧钱包的密钥。",
+      "noDestination": "你的新钱包尚无接收地址。请等待钱包页面加载完成后重试。",
+      "noBlockbook": "未配置 Blockbook 索引器。迁移无法扫描你的旧地址。",
+      "noFunds": "在旧地址中未找到可花费的资金。",
+      "sweepGeneric": "迁移失败。请重试。"
+    },
+    "toast": {
+      "successTitle": "迁移完成",
+      "successDesc": "已将 {{sats}} sats 转入你的新钱包。"
+    }
+  },
+  "walletConnect": {
+    "status": "状态",
+    "ready": "就绪",
+    "notFound": "未找到",
+    "none": "无",
+    "add": "添加",
+    "active": "激活",
+    "connectionLabel": "NWC 连接",
+    "defaultWalletName": "Lightning 钱包",
+    "setActiveTitle": "设为激活",
+    "removeTitle": "移除钱包",
+    "helpText": "安装 WebLN 浏览器扩展或连接 NWC 钱包以发送 zap。",
+    "webln": {
+      "name": "WebLN",
+      "description": "浏览器扩展"
+    },
+    "nwc": {
+      "name": "Nostr Wallet Connect",
+      "description": "远程钱包连接",
+      "connectedCount_one": "已连接 {{count}} 个钱包",
+      "connectedCount_other": "已连接 {{count}} 个钱包"
+    },
+    "empty": {
+      "title": "未连接钱包",
+      "description": "添加一个 NWC 连接以启用即时 zap。"
+    },
+    "dialog": {
+      "title": "连接 NWC 钱包",
+      "description": "从你兼容 NWC 的钱包中粘贴连接字符串。",
+      "aliasPlaceholder": "钱包名称（可选）",
+      "connect": "连接",
+      "connecting": "连接中..."
+    },
+    "toast": {
+      "uriRequiredTitle": "需要连接 URI",
+      "uriRequiredDesc": "请输入有效的 NWC 连接 URI。",
+      "activeChangedTitle": "已切换激活钱包",
+      "activeChangedDesc": "所选钱包现在已激活用于 zap。"
+    }
+  },
+  "walletSend": {
+    "title": "发送比特币",
+    "send": "发送比特币",
+    "max": "MAX",
+    "tapAgainToConfirm": "再次点击确认",
+    "satPerVB": "{{rate}} sat/vB",
+    "notEnoughBitcoin": "比特币不足",
+    "emptyWallet": "你的钱包是空的。请先添加比特币才能发送。",
+    "recipient": {
+      "placeholder": "bc1…、sp1…",
+      "scan": "扫描二维码",
+      "sendToOnchain": "发送到比特币地址",
+      "sendToSilentPayment": "发送到静默支付地址",
+      "bitcoinAddress": "比特币地址",
+      "silentPayment": "静默支付地址",
+      "toLabel": "收件人",
+      "clear": "清除收件人",
+      "choosePaymentMethod": "请选择支付方式以继续"
+    },
+    "feeSpeed": {
+      "fastest": "~10 分钟",
+      "halfHour": "~30 分钟",
+      "hour": "~1 小时",
+      "economy": "~1 天",
+      "custom": "自定义"
+    },
+    "fee": {
+      "loading": "加载中…",
+      "unavailable": "不可用",
+      "loadFailed": "无法加载费率。",
+      "retry": "重试",
+      "orCustom": "或在下方输入自定义费率。",
+      "loadingTiers": "正在加载费率…",
+      "customPlaceholder": "例如 5",
+      "customAriaLabel": "自定义费率（sat/vB）"
+    },
+    "progress": {
+      "building": "正在构建交易…",
+      "signing": "正在签名…",
+      "broadcasting": "正在广播…",
+      "sending": "正在发送…"
+    },
+    "errors": {
+      "unavailable": "当前登录方式不支持 HD 钱包。",
+      "enterRecipient": "请输入比特币地址或 sp1… 静默支付地址。",
+      "noSpendable": "此钱包中没有可花费的比特币。",
+      "feesNotLoaded": "费率未加载。",
+      "enterAmount": "请输入金额。",
+      "insufficient": "比特币不足以支付该金额和网络费用。",
+      "waitingPrice": "正在等待 BTC 价格…",
+      "noneYet": "你还没有任何比特币。",
+      "feesNotLoadedYet": "费率尚未加载。",
+      "feeRateTooLow": "请输入至少 1 sat/vB 的费率。"
+    },
+    "scanError": {
+      "title": "无法读取该二维码",
+      "description": "需要的是比特币地址、静默支付地址（sp1…）或 bitcoin: URI。"
+    },
+    "toast": {
+      "failedTitle": "交易失败",
+      "followUpFailedTitle": "付款已发送，但公开收据发布失败"
+    },
+    "broadcastError": {
+      "feeTooLowTitle": "网络费用过低",
+      "feeTooLowBodyWithMin": "Bitcoin 网络拒绝了该费用。当前最低费率约为 {{min}} sat/vB。",
+      "feeTooLowBody": "Bitcoin 网络拒绝了该费用。请选择更快的档位，或提高你的自定义费率。",
+      "rbfTitle": "替换交易需要更高的费用",
+      "rbfBody": "替换交易支付的费用必须高于原始交易。请提高费用后再试。",
+      "mempoolFullTitle": "Bitcoin 网络拥堵",
+      "mempoolFullBody": "mempool 已满，你的费用没有竞争力。请提高费用以便通过。",
+      "networkTitle": "无法连接到 Bitcoin 网络",
+      "networkBody": "请检查你的网络连接后再试。",
+      "mempoolConflictTitle": "交易冲突",
+      "mempoolConflictBody": "其中一个输入已被花费，或正在被另一笔交易花费。",
+      "staleUtxoTitle": "钱包与区块链不同步",
+      "staleUtxoBody": "钱包中的部分资金与区块链记录不符，因此交易在广播前被中止。钱包已尽可能重新同步——请重试。",
+      "tooLongChainTitle": "未确认交易过多",
+      "tooLongChainBody": "你有一长串未确认的交易。请等待其中一笔确认后再试。",
+      "badInputsTitle": "交易被拒绝",
+      "badInputsBody": "网络拒绝了此交易。请调整金额或收款人后再试。",
+      "absurdlyHighFeeTitle": "费用异常偏高",
+      "absurdlyHighFeeBody": "估算的费用高得可疑。请重新加载费率后再试。",
+      "unknownTitle": "交易失败",
+      "useHigherFee": "使用更高的费用",
+      "tryAgain": "重试",
+      "atMaxFeeTier": "你已选择最快的档位。"
+    },
+    "success": {
+      "title": "比特币已发送",
+      "satsAmount": "{{sats}} sats",
+      "viewTransaction": "查看交易",
+      "done": "完成"
+    },
+    "titlePublic": "发送比特币",
+    "titlePrivate": "私密发送",
+    "reuse": {
+      "checking": "正在检查地址…",
+      "sendAnyway": "仍然发送",
+      "acknowledge": "我了解风险——仍然发送",
+      "historyWarning": "该地址已在链上使用过。把你的私密资金发送到这里，会将其与该地址已有的交易历史关联，从而破坏静默支付的隐私性。请改用静默支付地址（sp1…），或仍然发送。",
+      "ownPublicWarning": "这是你自己公开钱包中的地址。把私密资金发送到它会合并两个钱包并将它们关联起来。请改用静默支付地址（sp1…），或仍然发送。"
+    },
+    "ownSilentPaymentBlocked": "这是你自己的静默支付地址。你不能从公开钱包向私密钱包发送资金——这样做会把你的私密静默支付资金与已在公开账本上暴露的币混合在一起，从而将你的私密钱包与一个已知身份关联，彻底破坏其隐私性。请改用其他地址发送。"
+  },
+  "qrScanner": {
+    "title": "扫描二维码",
+    "close": "关闭",
+    "starting": "正在启动摄像头…",
+    "aim": "将摄像头对准二维码。",
+    "flashOn": "打开闪光灯",
+    "flashOff": "关闭闪光灯",
+    "errors": {
+      "generic": "无法访问摄像头。",
+      "insecure": "访问摄像头需要安全（HTTPS）连接。",
+      "unsupported": "此浏览器不支持访问摄像头。",
+      "notFound": "此设备上未找到摄像头。",
+      "denied": "摄像头权限被拒绝。请在设置中启用以扫描二维码。",
+      "busy": "另一个应用正在使用摄像头。请关闭它后再试。",
+      "overconstrained": "此设备的摄像头不支持所请求的设置。",
+      "didntStart": "摄像头未启动。可能有其他应用正在使用它，或者你的浏览器阻止了扫描器。"
+    }
+  },
+  "spScan": {
+    "title": "检查新付款",
+    "subtitle": "扫描区块链以查找私密支付",
+    "descriptionHelp": "了解更多",
+    "description": "逐块遍历已配置的 BIP-352 索引器，以检测传入的静默支付。",
+    "since": "起始时间",
+    "preset": {
+      "lastHour": "最近一小时",
+      "last3h": "最近 3 小时",
+      "last24h": "最近 24 小时",
+      "lastWeek": "最近一周",
+      "lastMonth": "最近一个月",
+      "custom": "自定义…"
+    },
+    "customHours": "小时",
+    "customHoursPlaceholder": "例如 12",
+    "advanced": "高级选项",
+    "connectingIndexer": "正在连接索引器…",
+    "upToDate": "已是最新状态。",
+    "fromBlock": "起始区块",
+    "indexerTip": "索引器链尖",
+    "lastFullyScanned": "上次完整扫描",
+    "never": "从未",
+    "includeSpent": "包括已花费",
+    "includeSpentDesc": "同时检测已经被花费的静默支付。在错过扫描或重置后重建收款历史时使用。",
+    "blockProgress": "区块 {{current}} / {{to}}",
+    "matches_one": "{{count}} 项匹配",
+    "matches_other": "{{count}} 项匹配",
+    "scannedRange": "已扫描区块 {{from}} → {{to}}。",
+    "foundOutputs_one": "发现 {{count}} 个新输出。",
+    "foundOutputs_other": "发现 {{count}} 个新输出。",
+    "noNewPayments": "没有新的支付。",
+    "startScan": "开始扫描",
+    "resolveFailed": {
+      "title": "无法获取起始区块",
+      "description": "目前无法访问 mempool.space。请在“高级选项 → 起始区块”中手动输入起始区块以继续扫描。"
+    },
+    "reconcile": {
+      "title": "对账已花费的 UTXO",
+      "description": "将每个存储的静默支付 UTXO 与 Blockbook 进行比对，并移除那些已被花费的。如果发送后余额高于应有数额，请使用此功能。",
+      "checking": "正在检查 {{checked}} / {{total}}…",
+      "checked_one": "已检查 {{count}} 个 UTXO · 已清理 {{pruned}}。",
+      "checked_other": "已检查 {{count}} 个 UTXO · 已清理 {{pruned}}。",
+      "reconciling": "正在对账…",
+      "reconcileNow": "立即对账"
+    },
+    "autoScan": {
+      "label": "自动扫描",
+      "description": "在后台持续检查新的私密支付，即使你离开此页面也会继续。"
+    }
+  },
+  "spAutoScan": {
+    "scanning": "正在扫描…区块 {{current}} / {{to}}",
+    "caughtUp": "已是最新",
+    "neverScanned": "尚未扫描",
+    "lastScanned": "已扫描至区块 {{height}}",
+    "paused": "自动扫描已关闭",
+    "manualLink": "扫描选项"
+  },
+  "notifications": {
+    "seoTitle": "通知",
+    "seoDescription": "你的 Nostr 通知",
+    "title": "通知",
+    "tabs": {
+      "all": "全部",
+      "mentions": "提及"
+    },
+    "loginPrompt": "登录以查看你的通知。",
+    "empty": "还没有通知。",
+    "subject": {
+      "twoActors": "<0></0> 和 <1></1>",
+      "andOthers_one": "和另外 {{count}} 人",
+      "andOthers_other": "和另外 {{count}} 人"
+    },
+    "actorAvatars": {
+      "moreCount": "+ 还有 {{count}}"
+    },
+    "actions": {
+      "reactedToYour": "回应了你的{{noun}}",
+      "repostedYour": "转发了你的{{noun}}",
+      "zappedYou": "给你打了 zap",
+      "zappedYouWithAmount": "给你打了 {{sats}} sats",
+      "repliedToYourNote": "回复了你的笔记",
+      "mentionedYou": "提到了你",
+      "repliedToYourComment": "回复了你的评论",
+      "commentedOnYour": "评论了你的{{noun}}",
+      "sentYouLetter": "给你寄了一封信",
+      "highlightedYour": "高亮了你的{{noun}}",
+      "awardedBadge": "给你颁发了一枚徽章",
+      "awardedBadges": "给你颁发了徽章"
+    },
+    "letter": {
+      "viewAll": "查看所有信件",
+      "reply": "回复"
+    },
+    "kinds": {
+      "profile": "资料",
+      "post": "帖子",
+      "encryptedMessage": "加密消息",
+      "repost": "转发",
+      "reaction": "回应",
+      "badgeAward": "徽章授予",
+      "photo": "照片",
+      "video": "视频",
+      "requestToVanish": "消失请求",
+      "file": "文件",
+      "poll": "投票",
+      "comment": "评论",
+      "voiceMessage": "语音消息",
+      "patch": "补丁",
+      "pullRequest": "合并请求",
+      "highlight": "高亮",
+      "birdDetection": "鸟类识别",
+      "birdex": "Birdex",
+      "colorMoment": "色彩瞬间",
+      "foundLog": "发现日志",
+      "nsite": "nsite",
+      "profileBadges": "资料徽章",
+      "badge": "徽章",
+      "article": "文章",
+      "emojiPack": "表情包",
+      "podcastEpisode": "播客单集",
+      "podcastTrailer": "播客预告",
+      "zapstoreAsset": "Zapstore 资源",
+      "zapstoreRelease": "Zapstore 发布",
+      "stream": "直播",
+      "status": "状态",
+      "repository": "仓库",
+      "customNip": "自定义 NIP",
+      "calendarEvent": "日历事件",
+      "zapstoreApp": "Zapstore 应用",
+      "playlist": "播放列表",
+      "divine": "占卜",
+      "community": "社区",
+      "goal": "目标",
+      "track": "曲目",
+      "magicDeck": "Magic 牌组",
+      "treasure": "宝藏",
+      "constellation": "星座",
+      "followPack": "关注包"
+    }
+  },
+  "notifSettings": {
+    "seoTitle": "通知",
+    "seoDescription": "配置你的通知偏好",
+    "title": "通知",
+    "pushHeading": "推送通知",
+    "enablePush": {
+      "label": "启用推送通知",
+      "description": "在你的帖子上有活动时接收通知"
+    },
+    "unsupported": "你的浏览器不支持推送通知。",
+    "denied": "通知已被屏蔽。请更新你的浏览器设置以允许本站发送通知。",
+    "deliveryMethod": {
+      "heading": "送达方式",
+      "intro": "选择如何将通知发送到你的设备。",
+      "push": {
+        "label": "推送",
+        "description": "标准通知。没有持续的状态栏图标。"
+      },
+      "persistent": {
+        "label": "持续",
+        "description": "在后台直接轮询中继以获取新通知。在不支持推送通知的设备上使用此选项可获得可靠的送达。"
+      }
+    },
+    "notifyAbout": {
+      "heading": "通知我",
+      "filterHeading": "过滤",
+      "typesHeading": "类型",
+      "onlyFollowing": {
+        "label": "仅来自我关注的人",
+        "description": "隐藏来自你未关注的账户的通知"
+      }
+    },
+    "types": {
+      "reactions": {
+        "label": "回应",
+        "description": "有人回应你的帖子时"
+      },
+      "reposts": {
+        "label": "转发",
+        "description": "有人转发你的笔记时"
+      },
+      "zaps": {
+        "label": "Zap",
+        "description": "有人通过 Lightning 或链上给你 zap 时"
+      },
+      "mentions": {
+        "label": "提及",
+        "description": "有人在笔记中提到你时"
+      },
+      "comments": {
+        "label": "评论和回复",
+        "description": "有人评论或回复你的帖子时"
+      },
+      "badges": {
+        "label": "徽章授予",
+        "description": "有人给你颁发徽章时"
+      },
+      "letters": {
+        "label": "信件",
+        "description": "有人给你寄信时"
+      },
+      "highlights": {
+        "label": "高亮",
+        "description": "有人高亮你的内容时"
+      }
+    },
+    "toast": {
+      "enableFailedTitle": "启用通知失败",
+      "enableFailedDesc": "请重试。"
+    }
+  },
+  "search": {
+    "seoTitle": "搜索",
+    "seoDescription": "搜索 Nostr",
+    "title": "搜索",
+    "inputPlaceholder": "搜索",
+    "filtersAria": "搜索过滤器",
+    "tabs": {
+      "agora": "Agora",
+      "nostr": "Nostr",
+      "accounts": "用户"
+    },
+    "filters": {
+      "title": "过滤器",
+      "reset": "重置",
+      "from": "来自",
+      "sort": "排序",
+      "media": "媒体",
+      "protocol": "协议",
+      "language": "语言",
+      "kind": "类型",
+      "kindCustomPlaceholder": "例如 1, 30023",
+      "includeReplies": "包含回复",
+      "authorScope": {
+        "anyone": "任何人",
+        "follows": "我的关注",
+        "people": "指定的人"
+      },
+      "sortOptions": {
+        "recent": "最新",
+        "hot": "热门",
+        "trending": "趋势"
+      },
+      "mediaOptions": {
+        "all": "全部",
+        "images": "图片",
+        "videos": "视频",
+        "shorts": "短片",
+        "none": "无媒体"
+      },
+      "protocolOptions": {
+        "nostr": "Nostr",
+        "mastodon": "Mastodon",
+        "bluesky": "Bluesky"
+      },
+      "langOptions": {
+        "global": "全球",
+        "en": "英语",
+        "es": "西班牙语",
+        "fr": "法语",
+        "de": "德语",
+        "ja": "日语",
+        "zh": "中文"
+      }
+    },
+    "chips": {
+      "noReplies": "不含回复",
+      "images": "图片",
+      "videos": "视频",
+      "shortsAndDivines": "短片与 Divines",
+      "noMedia": "无媒体",
+      "mastodon": "Mastodon",
+      "bluesky": "Bluesky",
+      "hot": "热门",
+      "trending": "趋势",
+      "allKinds": "所有类型",
+      "customKind": "类型：{{kind}}",
+      "kindNumber": "类型 {{kind}}",
+      "kindsCount_one": "{{count}} 种类型",
+      "kindsCount_other": "{{count}} 种类型",
+      "myFollows": "我的关注",
+      "authorsCount_one": "{{count}} 位作者",
+      "authorsCount_other": "{{count}} 位作者"
+    },
+    "clear": "清除",
+    "searchLabel": "搜索：",
+    "newPosts_one": "{{count}} 条新帖子",
+    "newPosts_other": "{{count}} 条新帖子",
+    "following": "关注中",
+    "botAccount": "机器人账号",
+    "empty": {
+      "posts": "没有找到匹配你搜索的结果。",
+      "postsPrompt": "输入搜索关键词以查找 Nostr 内容。",
+      "accounts": "没有找到匹配你搜索的用户。",
+      "followsPrompt": "通过名字或 NIP-05 地址搜索用户。",
+      "agora": "没有找到匹配你搜索的 Agora 竞选、pledge 或群组。",
+      "agoraPrompt": "搜索 Agora 的竞选、pledge 和群组，或浏览最新内容。",
+      "activeFilters": "已生效的过滤器：",
+      "clearAll": "清除所有过滤器"
+    }
+  },
+  "profile": {
+    "seoDescriptionFallback": "Nostr 资料",
+    "anonymous": "匿名",
+    "namePlaceholder": "你的名字",
+    "userNotFound": "未找到用户。",
+    "userNotFoundNip05": "未找到用户：{{handle}}",
+    "couldNotResolveNip05": "无法解析此 NIP-05 标识符。",
+    "tabs": {
+      "overview": "概览",
+      "verified": "已验证",
+      "activity": "动态",
+      "campaigns": "活动",
+      "groups": "群组",
+      "pledges": "承诺"
+    },
+    "header": {
+      "editProfile": "编辑",
+      "shareFollowLink": "分享关注链接",
+      "moreOptions": "更多选项",
+      "donate": "捐赠",
+      "campaignGoal": "目标 ${{amount}}"
+    },
+    "stats": {
+      "followers": "粉丝",
+      "following": "关注中",
+      "raised": "已筹集",
+      "followersTitle_one": "{{count}} 位粉丝",
+      "followersTitle_other": "{{count}} 位粉丝",
+      "followingTitle": "关注 {{count}} 人"
+    },
+    "sections": {
+      "profile": "资料",
+      "campaigns": "活动",
+      "latestPledge": "最新承诺",
+      "groups": "群组",
+      "seeAllCampaigns_one": "查看全部 {{count}} 个活动 →",
+      "seeAllCampaigns_other": "查看全部 {{count}} 个活动 →",
+      "viewCampaignsTab": "查看活动标签 →",
+      "seeAllPledges_one": "查看全部 {{count}} 个承诺 →",
+      "seeAllPledges_other": "查看全部 {{count}} 个承诺 →",
+      "seeAllGroups": "查看全部 {{count}} 个 →"
+    },
+    "badges": {
+      "founder": "创始人",
+      "moderator": "版主",
+      "mod": "版主",
+      "ended": "已结束",
+      "pledged": "已承诺"
+    },
+    "imageMenu": {
+      "upload": "上传文件",
+      "pasteUrl": "粘贴网址",
+      "remove": "移除"
+    },
+    "websitePlaceholder": "https://your-website.com",
+    "moreMenu": {
+      "title": "资料选项",
+      "copyPubkey": "复制公钥",
+      "copyLink": "复制资料链接",
+      "addToList": "添加到列表",
+      "shareFollowLink": "分享关注链接",
+      "profileRecovery": "资料恢复",
+      "zap": "Zap",
+      "awardBadge": "颁发徽章",
+      "writeLetter": "写信",
+      "mute": "静音 @{{name}}",
+      "unmute": "取消静音 @{{name}}",
+      "report": "举报 @{{name}}",
+      "close": "关闭"
+    },
+    "toast": {
+      "pubkeyCopied": "公钥已复制到剪贴板",
+      "linkCopied": "资料链接已复制到剪贴板",
+      "muted": "已静音 @{{name}}",
+      "unmuted": "已取消静音 @{{name}}",
+      "muteFailed": "静音用户失败",
+      "unmuteFailed": "取消静音失败",
+      "followed": "已关注 @{{name}}",
+      "unfollowed": "已取消关注 @{{name}}",
+      "followFailed": "更新关注列表失败",
+      "btcAddressCopied": "比特币地址已复制到剪贴板"
+    },
+    "followingModal": {
+      "title": "{{name}} 关注的人",
+      "empty": "还没有关注任何人。"
+    },
+    "followersModal": {
+      "title": "{{name}} 的粉丝",
+      "empty": "没有找到粉丝。"
+    },
+    "bitcoinModal": {
+      "title": "比特币",
+      "qrAlt": "比特币二维码",
+      "copyAddress": "复制地址",
+      "showQr": "显示二维码",
+      "viewOnMempool": "在 mempool.space 查看"
+    },
+    "lightbox": {
+      "openOriginal": "打开原图",
+      "close": "关闭 (Esc)",
+      "imageAlt": "资料图片"
+    },
+    "activity": {
+      "empty": "{{name}} 暂无动态。帖子、活动、承诺和捐赠都会显示在这里。"
+    },
+    "campaigns": {
+      "count_one": "{{count}} 个活动",
+      "count_other": "{{count}} 个活动",
+      "sortNew": "最新",
+      "sortTop": "热门",
+      "showHidden": "显示隐藏",
+      "hideHidden": "隐藏",
+      "emptySelf": "你还没有发起任何活动。",
+      "emptyOther": "{{name}} 还没有发起任何活动。",
+      "startLink": "发起活动 →"
+    },
+    "verified": {
+      "count_one": "{{count}} 个已验证活动",
+      "count_other": "{{count}} 个已验证活动",
+      "empty": "{{name}} 尚未验证任何活动。"
+    },
+    "pledgesTab": {
+      "active": "进行中",
+      "ended": "已结束",
+      "emptySelf": "你还没有创建承诺。",
+      "emptyOther": "{{name}} 还没有创建承诺。",
+      "createLink": "创建承诺 →"
+    },
+    "groupsDialog": {
+      "title": "所有群组"
+    }
+  },
+  "profileSettings": {
+    "seoTitle": "资料 | 设置",
+    "seoDescription": "编辑你的 {{appName}} 资料",
+    "header": {
+      "title": "资料",
+      "save": "保存"
+    },
+    "uploading": "上传中…",
+    "fields": {
+      "heading": "资料字段",
+      "website": "网站",
+      "websitePlaceholder": "https://yourwebsite.com",
+      "lightning": "Lightning",
+      "lightningPlaceholder": "you@walletofsatoshi.com",
+      "labelPlaceholder": "标签",
+      "tickerPlaceholder": "代码",
+      "addressPlaceholder": "地址",
+      "valuePlaceholder": "值或 URL",
+      "mediaPlaceholder": "上传文件或粘贴直接文件链接",
+      "chooseFile": "选择要上传的文件",
+      "chooseMediaFile": "选择要上传的媒体文件"
+    },
+    "presets": {
+      "music": {
+        "label": "音乐",
+        "description": "上传歌曲或音频片段",
+        "valuePlaceholder": "上传音频或粘贴直接文件链接"
+      },
+      "photo": {
+        "label": "照片",
+        "description": "上传图片",
+        "valuePlaceholder": "上传图片或粘贴直接文件链接"
+      },
+      "video": {
+        "label": "视频",
+        "description": "上传视频片段",
+        "valuePlaceholder": "上传视频或粘贴直接文件链接"
+      },
+      "email": {
+        "label": "邮箱",
+        "defaultLabel": "邮箱",
+        "description": "联系电子邮件地址",
+        "valuePlaceholder": "you@example.com"
+      },
+      "wallet": {
+        "label": "钱包",
+        "description": "加密货币钱包地址",
+        "valuePlaceholder": "地址"
+      },
+      "link": {
+        "label": "链接",
+        "description": "链接到任何网站或资料",
+        "valuePlaceholder": "https://..."
+      },
+      "weather": {
+        "label": "天气",
+        "defaultLabel": "天气",
+        "description": "连接 Nostr 天气站",
+        "valuePlaceholder": "npub1... 或 naddr1...（#station-id 可选）"
+      },
+      "custom": {
+        "label": "自定义",
+        "description": "创建任何自定义字段",
+        "valuePlaceholder": "值或 URL"
+      }
+    },
+    "warnings": {
+      "audioWrongType": "此 URL 不是音频文件。请上传音频文件或使用以 .mp3、.ogg、.wav 等结尾的直接链接。",
+      "audioUnknown": "此 URL 可能无法作为音频播放器使用。为获得最佳效果，请使用按钮上传文件或粘贴音频文件的直接链接。",
+      "imageWrongType": "此 URL 不是图片。请上传图片或使用以 .jpg、.png、.webp 等结尾的直接链接。",
+      "imageUnknown": "此 URL 可能无法显示为图片。为获得最佳效果，请使用按钮上传文件或粘贴图片文件的直接链接。",
+      "videoWrongType": "此 URL 不是视频。请上传视频或使用以 .mp4、.webm、.mov 等结尾的直接链接。",
+      "videoUnknown": "此 URL 可能无法显示为视频。为获得最佳效果，请使用按钮上传文件或粘贴视频文件的直接链接。"
+    },
+    "crop": {
+      "profile": "裁剪头像",
+      "banner": "裁剪横幅"
+    },
+    "mobilePreview": "资料字段预览",
+    "advanced": {
+      "heading": "高级",
+      "botLabel": "机器人账号",
+      "botDescription": "将此账号标记为自动化"
+    },
+    "toast": {
+      "uploaded": "已上传",
+      "mediaUploaded": "媒体文件已上传",
+      "uploadFailed": "上传失败",
+      "tryAgain": "请重试。",
+      "profilePictureUpdated": "头像已更新",
+      "bannerUpdated": "横幅已更新",
+      "profileSaved": "资料已保存",
+      "saveFailed": "保存资料失败。"
+    },
+    "key": {
+      "heading": "你的密钥",
+      "extensionBody": "你已使用浏览器扩展（NIP-07）登录。你的私钥保存在那里——请从扩展本身管理或导出。",
+      "bunkerBody": "你已使用远程签名器（NIP-46）登录。你的私钥由该签名器保管，无法从 {{appName}} 导出。",
+      "explainer": "此私钥控制你在 {{appName}} 上的账号，并作为你比特币钱包的种子。任何拥有它的人都可以代你发帖，也能花掉你的比特币。请存储在密码管理器或只有你能访问的地方。如果你想把比特币钱包导入其他应用，请使用下方的助记词——它分享起来更安全，只控制钱包，无法用来冒充你。",
+      "warning": "切勿与任何人分享你的私钥。避免截图或粘贴到密码管理器之外的任何地方。如果分享，其他人将能够访问你的账号。",
+      "aria": "你的私钥",
+      "copyAria": "复制私钥",
+      "revealAria": "显示私钥",
+      "hideAria": "隐藏私钥",
+      "backupButton": "备份密钥",
+      "saving": "保存中…",
+      "saved": "私钥已保存",
+      "savedToFile": "你的私钥已保存到设备的“文档”文件夹中。",
+      "saveFailed": "保存失败",
+      "saveFailedDescription": "无法保存密钥。请手动复制。",
+      "copyFailed": "复制失败",
+      "copyFailedDescription": "无法访问剪贴板。请显示密钥后手动复制。"
+    }
+  },
+  "compose": {
+    "placeholderDefault": "有什么新鲜事？",
+    "placeholderPoll": "提个问题…",
+    "placeholderCountry": "{{country}} 发生了什么？",
+    "placeholderCwReason": "内容警告原因（可选）",
+    "submitDefault": "发布！",
+    "preview": {
+      "edit": "编辑",
+      "previewMode": "预览"
+    },
+    "autocomplete": {
+      "campaignFallback": "活动"
+    },
+    "poll": {
+      "addOption": "添加选项",
+      "optionLabel": "选项 {{number}}",
+      "singleChoice": "单选",
+      "multipleChoice": "多选",
+      "backToPost": "返回帖子",
+      "publishing": "发布中...",
+      "publish": "发布投票",
+      "published": "投票已发布！",
+      "publishFailed": "投票发布失败。"
+    },
+    "voice": {
+      "cancel": "取消",
+      "send": "发送",
+      "sending": "发送中...",
+      "sentTitle": "语音消息已发送！",
+      "sentBody": "你的语音消息已发布。",
+      "sendFailed": "发送语音消息失败。",
+      "micDeniedTitle": "麦克风访问被拒绝",
+      "micDeniedBody": "请允许麦克风访问以录制语音消息。",
+      "voiceMessage": "语音消息"
+    },
+    "toolbar": {
+      "attachFile": "附加文件",
+      "emojiGif": "表情 / GIF",
+      "more": "更多",
+      "poll": "投票",
+      "spoiler": "剧透",
+      "emoji": "表情",
+      "stickers": "贴纸"
+    },
+    "submit": {
+      "posting": "发布中...",
+      "uploadFailed": "上传失败",
+      "uploadFailedBody": "无法上传文件。",
+      "publishFailed": "无法发布笔记。",
+      "posted": "已发布！",
+      "replyPublished": "你的回复已发布。",
+      "quotePublished": "你的引用已发布。",
+      "notePublished": "你的笔记已发布。"
+    },
+    "destination": {
+      "label": "发布到",
+      "ariaHelp": "全球帖子和社区帖子有什么区别？",
+      "ariaTrigger": "发布目标",
+      "global": "全球",
+      "globalExplainer": "Nostr 上所有人都能看到的普通帖子。任何人都能看到。",
+      "community": "你的国家社区",
+      "communityExplainer": "在该国家的本地 Feed 中与邻居的帖子一起显示。适合社区相关的更新。",
+      "chooseAnother": "选择其他国家…",
+      "searchPlaceholder": "搜索国家...",
+      "noResults": "未找到国家。",
+      "isDefault": "{{name}} 是你的默认",
+      "globalIsDefault": "全球是你的默认",
+      "thisIsDefault": "这是你的默认",
+      "setAsDefault": "设为默认",
+      "defaultUpdated": "默认已更新",
+      "defaultUpdatedCountry": "新帖子将默认发布到 {{name}}。",
+      "defaultUpdatedGlobal": "新帖子将默认为全球。"
+    }
+  },
+  "replyModal": {
+    "title": {
+      "newPoll": "新投票",
+      "newComment": "新评论",
+      "commentOnProfile": "评论资料",
+      "replyToPost": "回复帖子",
+      "quotePost": "引用帖子",
+      "newPost": "新帖子"
+    },
+    "placeholder": {
+      "writeComment": "写一条评论...",
+      "writeReply": "写一条回复...",
+      "addComment": "添加评论...",
+      "whatsHappening": "有什么新鲜事？"
+    },
+    "blueskyDisclaimer": "Bluesky 上的人看不到你，因为它们实际上不是去中心化的。"
+  },
+  "postDetail": {
+    "repliesHeading": "回复",
+    "commentsHeading": "评论",
+    "replyCount_one": "条回复",
+    "replyCount_other": "条回复",
+    "commentCount_one": "条评论",
+    "commentCount_other": "条评论"
+  },
+  "noteCard": {
+    "botAccount": "机器人账号",
+    "showLess": "显示较少",
+    "readMore": "阅读更多",
+    "reacted": "做出了反应",
+    "reposted": "转发",
+    "voted": "投了票",
+    "zap": {
+      "donatedTo": "捐赠给",
+      "donatedAmountTo": "捐赠 {{amount}} 给",
+      "sat_one": "{{formattedCount}} sat",
+      "sat_other": "{{formattedCount}} sats"
+    },
+    "stream": {
+      "untitled": "未命名直播",
+      "live": "直播中",
+      "ended": "已结束",
+      "planned": "计划中",
+      "unknown": "未知"
+    },
+    "kindHeader": {
+      "photo": {
+        "action": "分享了一张",
+        "noun": "照片"
+      },
+      "encryptedMessage": {
+        "action": "发送了一条",
+        "noun": "加密消息"
+      },
+      "letter": {
+        "action": "发送了一封",
+        "noun": "信件"
+      },
+      "treasureHidCreated": "藏了一个",
+      "treasureHidUpdated": "更新了一个",
+      "treasureNoun": "宝藏",
+      "treasureFound": "发现了一个",
+      "deckCreated": "创建了一个",
+      "deckUpdated": "更新了一个",
+      "deckFallback": "分享了一个",
+      "deckNoun": "卡组",
+      "emojiPackCreated": "创建了一个",
+      "emojiPackUpdated": "更新了一个",
+      "emojiPackFallback": "分享了一个",
+      "emojiPackNoun": "表情包",
+      "groupCreated": "创建了一个",
+      "groupUpdated": "更新了一个",
+      "groupFallback": "分享了一个",
+      "groupNoun": "群组",
+      "campaignLaunched": "发起了一个",
+      "campaignUpdated": "更新了一个",
+      "campaignFallback": "分享了一个",
+      "campaignNoun": "活动",
+      "badgeAwarded": "颁发了一个",
+      "badgeNoun": "徽章",
+      "badgeCreated": "创建了一个",
+      "badgeDefUpdated": "更新了一个",
+      "badgesNoun": "徽章",
+      "badgesCreatedTheir": "创建了他们的",
+      "badgesUpdatedTheir": "更新了他们的",
+      "streamingLive": "正在直播",
+      "streamed": "已直播",
+      "zapstoreAppPublished": "发布了一个 Zapstore 应用",
+      "zapstoreAppUpdated": "更新了一个 Zapstore 应用",
+      "zapstoreReleasePublished": "发布了一个 Zapstore 版本",
+      "zapstoreReleaseUpdated": "更新了一个 Zapstore 版本",
+      "zapstoreAssetPublished": "发布了一个 Zapstore 资源",
+      "appPublished": "发布了一个应用",
+      "appUpdated": "更新了一个应用",
+      "repoCreated": "创建了一个",
+      "repoUpdated": "更新了一个",
+      "repoFallback": "分享了一个",
+      "repoNoun": "代码仓库",
+      "patchSubmitted": "提交了一个",
+      "patchNoun": "补丁",
+      "prOpened": "打开了一个",
+      "prNoun": "Pull Request",
+      "nipProposed": "提议了一个",
+      "nipUpdated": "更新了一个",
+      "nipNoun": "NIP",
+      "nsiteDeployed": "部署了一个",
+      "nsiteRedeployed": "重新部署了一个",
+      "nsiteNoun": "nsite",
+      "zapped": "进行了 zap",
+      "pledgeCreated": "创建了一个",
+      "pledgeUpdated": "更新了一个",
+      "pledgeNoun": "承诺",
+      "followPackCreated": "创建了一个",
+      "followPackUpdated": "更新了一个",
+      "followPackFallback": "分享了一个",
+      "followPackNoun": "关注包",
+      "followSetCreated": "创建了一个",
+      "followSetUpdated": "更新了一个",
+      "followSetFallback": "分享了一个",
+      "followSetNoun": "关注集"
+    }
+  },
+  "embedCampaign": {
+    "iframeTitle": "Agora 筹款活动",
+    "notFound": "未找到活动。",
+    "dialogTitle": "嵌入此活动",
+    "dialogDescription": "选择一个小组件，预览效果，然后把代码粘贴到你的网站中。",
+    "variantLabel": "小组件",
+    "variant": {
+      "card": "卡片",
+      "donate": "捐赠",
+      "full": "完整"
+    },
+    "themeLabel": "主题",
+    "snippetLabel": "嵌入代码",
+    "openStandalone": "在新标签页中打开",
+    "viewOnAgora": "在 Agora 查看"
+  },
+  "noteMoreMenu": {
+    "title": "帖子选项",
+    "viewPost": "查看帖子详情",
+    "embedWidget": "嵌入小组件",
+    "viewEventJson": "查看事件 JSON",
+    "bookmark": "书签",
+    "removeBookmark": "移除书签",
+    "addToList": "添加到列表",
+    "addToSidebar": "添加到侧边栏",
+    "removeFromSidebar": "从侧边栏移除",
+    "pinProfile": "置顶到资料",
+    "unpinProfile": "取消置顶资料",
+    "pinCountry": "置顶到国家 Feed",
+    "unpinCountry": "取消置顶国家 Feed",
+    "mute": "静音 @{{name}}",
+    "unmute": "取消静音 @{{name}}",
+    "report": "举报 @{{name}}",
+    "reportToGroup": "向群组举报帖子",
+    "removeFromGroup": "从群组移除",
+    "delete": "删除帖子",
+    "close": "关闭",
+    "encryptedContent": "加密内容",
+    "toast": {
+      "removedFromSidebar": "已从侧边栏移除",
+      "addedToSidebar": "已添加到侧边栏",
+      "pinned": "已置顶到资料",
+      "unpinned": "已取消置顶资料",
+      "pinFailed": "更新置顶帖子失败",
+      "countryPinned": "已置顶到国家 Feed",
+      "countryUnpinned": "已从国家 Feed 取消置顶",
+      "countryPinFailed": "置顶到国家 Feed 失败",
+      "countryUnpinFailed": "从国家 Feed 取消置顶失败",
+      "muted": "已静音 @{{name}}",
+      "unmuted": "已取消静音 @{{name}}",
+      "muteFailed": "静音用户失败",
+      "unmuteFailed": "取消静音失败",
+      "postDeleted": "帖子已删除",
+      "deleteFailed": "删除帖子失败",
+      "eventBroadcast": "事件已广播到中继",
+      "broadcastFailed": "广播事件失败",
+      "copied": "{{label}} 已复制到剪贴板",
+      "embedCopied": "嵌入代码已复制到剪贴板"
+    },
+    "deleteDialog": {
+      "title": "删除帖子？",
+      "description": "这将请求从中继删除。某些中继可能仍保留原事件的副本。此操作无法撤消。",
+      "cancel": "取消",
+      "delete": "删除",
+      "deleting": "删除中..."
+    },
+    "jsonDialog": {
+      "title": "事件详情",
+      "eventId": "事件 ID",
+      "eventIdLabel": "事件 ID",
+      "rawJson": "原始 JSON",
+      "eventJsonLabel": "事件 JSON",
+      "broadcast": "广播事件",
+      "broadcasting": "广播中..."
+    }
+  },
+  "content": {
+    "title": "内容",
+    "description": "管理已静音的用户、标签和词语。",
+    "muted": {
+      "heading": "已静音内容",
+      "subheading": "由你决定信息流中显示什么。移除某项即可取消静音。静音记录经过加密且保密。",
+      "empty": "你还没有静音任何人。",
+      "removed": "已从静音列表移除",
+      "removeFailed": "从静音列表移除失败",
+      "removeAria": "取消对 {{value}} 的静音",
+      "types": {
+        "pubkey": "用户",
+        "hashtag": "标签",
+        "word": "词语",
+        "thread": "话题"
+      }
+    }
+  },
+  "mutedGuard": {
+    "title": "已静音内容",
+    "description": "此帖子来自你已静音的人。",
+    "showAnyway": "仍然显示",
+    "manageMutes": "管理已静音内容"
+  },
+  "policyPages": {
+    "privacy": {
+      "seoTitle": "隐私政策",
+      "seoDescription": "{{appName}} 的隐私政策——你的数据如何在 Nostr 网络上处理",
+      "title": "隐私政策"
+    },
+    "csae": {
+      "seoTitle": "儿童安全政策",
+      "seoDescription": "{{appName}} 关于儿童性虐待和剥削（CSAE）的政策——我们在 Nostr 网络上对儿童安全的承诺",
+      "title": "儿童安全政策"
+    },
+    "donorGuide": {
+      "seoTitle": "捐赠者指南",
+      "seoDescription": "在 {{appName}} 上捐赠如何运作以及如何保护你的隐私。",
+      "title": "捐赠者指南",
+      "subtitle": "真正的比特币，直接发送。所有流程在一个简短页面中。"
+    },
+    "recipientGuide": {
+      "seoTitle": "受款人指南",
+      "seoDescription": "如何在 {{appName}} 上接收捐款并私下兑现。",
+      "title": "受款人指南",
+      "subtitle": "选择接受什么、接收捐款、兑现。"
+    },
+    "changelog": {
+      "seoTitle": "更新日志",
+      "seoDescription": "{{appName}} 的新功能",
+      "title": "更新日志",
+      "loadError": "无法加载更新日志。",
+      "empty": "尚无发布版本。",
+      "pastReleases": "过往版本",
+      "showLess": "显示较少",
+      "readMore": "阅读更多",
+      "preReleaseLabel": "预发布构建",
+      "preReleaseBody": "此构建包含尚未包含在发布版本中的更改。",
+      "viewUnreleased": "查看未发布的更改",
+      "categories": {
+        "Added": "新增",
+        "Changed": "更改",
+        "Deprecated": "弃用",
+        "Removed": "移除",
+        "Fixed": "修复",
+        "Security": "安全"
+      }
+    }
+  },
+  "about": {
+    "seoTitle": "关于",
+    "seoDescription": "{{appName}} 是全球首个无国界微慈善网络——由比特币和 Nostr 驱动的直接的、人与人之间的给予。",
+    "hero": {
+      "eyebrow": "关于 {{appName}}",
+      "headlinePart1": "How",
+      "headlineAppName": "{{appName}}",
+      "headlinePart2": "works.",
+      "body": "{{appName}} 是全球首个无国界微慈善网络。它让任何人、在任何地方，都能用比特币直接向世界各地的人和事业给予——没有国界，没有中间方，没有平台费。没有被冻结的银行账户，没有公司关停。只有相信你事业的人提供的直接支持。",
+      "trustChips": {
+        "decentralized": "去中心化",
+        "openSource": "开源",
+        "censorshipResistant": "抗审查"
+      },
+      "ctaDonor": "阅读捐赠者指南",
+      "ctaRecipient": "阅读受款人指南",
+      "sampleCard": {
+        "countryName": "委内瑞拉",
+        "public": "公开",
+        "imageAlt": "委内瑞拉人在烛光守夜中举着写有 'Liberen a todos los presos políticos · ¡Cese la represión!' 的标语",
+        "orgName": "Venezolanos Libres",
+        "title": "释放委内瑞拉的政治犯",
+        "description": "为被马杜罗政权拘押的 800 多名政治犯提供法律辩护和家庭支持。",
+        "raised": "已筹集",
+        "ofGoal": "目标 $10,000",
+        "donorsLine": "247 位捐赠者 · 12 个国家",
+        "donate": "捐赠比特币"
+      }
+    },
+    "howItWorks": {
+      "eyebrow": "运作方式",
+      "title": "三步。无中间人。",
+      "lede": "没有银行，没有边界，无需许可。",
+      "step1": {
+        "imageAlt": "一把发光的橙色加密密钥漂浮在黑暗空间中，象征自我主权身份",
+        "title": "受款人几秒钟内即可注册。",
+        "body": "无银行。无文件。无审批。一旦受款人在 {{appName}} 上创建账户，他们就有了一个比特币地址，可以在世界任何地方接收支持。"
+      },
+      "step2": {
+        "imageAlt": "一枚发光的比特币硬币飞越黑暗的世界地图，象征即时跨境支付",
+        "title": "捐赠者直接发送比特币。",
+        "body": "捐赠者从他们已经使用的任何钱包（Cash App、Coinbase、Strike、硬件钱包）直接发送比特币给受款人。{{appName}} 从不接触资金。没有中间服务器，没有托管方。"
+      },
+      "step3": {
+        "imageAlt": "一只张开的手，手掌上散发着温暖的橙色光芒，象征接收和能动性",
+        "title": "支持送达真正需要的地方。",
+        "body": "资金直接到达受款人。他们保留所有权，保留控制权。转移、兑换或花费；下面的指南解释了如何私密、安全地完成。"
+      }
+    },
+    "twoWays": {
+      "eyebrow": "比特币 · 一个 QR，两种选择",
+      "title": "两种收款方式。",
+      "lede": "两种选择都是比特币。区别在于为隐私付出什么代价。受款人创建活动时，选择接受哪些方式。如果两者都接受，捐赠页面会显示一个适用于任何钱包的 QR 码。",
+      "public": {
+        "kicker": "比特币公开支付",
+        "tagline": "通用 · 快速 · 透明",
+        "title": "适用于地球上所有钱包。",
+        "description": "捐款直接到达受款人控制的普通比特币地址。任何拥有比特币钱包的人都可以发送。无需新应用，无需新账户，无需学习曲线。",
+        "bullet1": "适用于所有比特币钱包：Cash App、Coinbase、Strike、硬件",
+        "bullet2": "最快结算：仅需比特币确认",
+        "bullet3": "链上可验证：任何人都可以看到受款人收到的金额",
+        "tradeoffTitle": "权衡：链上公开。",
+        "tradeoffIntro": "每一笔捐款在比特币区块链和 Nostr 上都是公开的。{{appName}} 仅推荐用于公开活动。如果你或你的捐赠者需要极致的隐私，包括来自国家行为者的隐私，请在参与前阅读<0>捐赠者指南</0>和<1>受款人指南</1>。"
+      },
+      "silent": {
+        "kicker": "比特币静默支付",
+        "tagline": "不可链接 · 直接 · BIP-352",
+        "title": "不可链接、链上、直接。",
+        "description": "捐款以 BIP-352 静默支付的形式发送。每一笔都到达一个全新的、不可链接的比特币输出，盯着区块链的观察者无法将其与活动联系起来。",
+        "bullet1": "捐赠轨迹无法在链上被重建",
+        "bullet2": "保护面临严重对手的受款人",
+        "bullet3": "保存在独立的私密余额中，永不与公开资金混合",
+        "tradeoffTitle": "权衡：静默支付尚处早期阶段。",
+        "tradeoffIntro": "在链上接收比特币最私密的方式，但生态系统目前还年轻和粗糙：",
+        "tradeoffBullet1": "支持的钱包很少。",
+        "tradeoffBullet2": "接收较慢。",
+        "tradeoffBullet3": "没有推送通知。",
+        "tradeoffBullet4": "钱包仍有错误。",
+        "tradeoffBullet5": "捐赠计数不公开。"
+      },
+      "noCustody": {
+        "title": "无托管。无中间人。",
+        "body": "{{appName}} 从不持有资金。捐款在比特币上以钱包对钱包的方式移动。两种选项中，没有服务器在捐赠者和受款人之间。如果 {{appName}} 明天消失，每个活动都会继续运作。",
+        "gofundme": {
+          "heading": "不像 GoFundMe",
+          "body": "没有平台可以冻结你的捐款、要求退款或因政策分歧而终止你的活动。"
+        },
+        "givesendgo": {
+          "heading": "不像 GiveSendGo",
+          "body": "没有支付处理商在中间，所以没有 Stripe、没有 Visa、没有银行可以在活动中切断你。"
+        },
+        "otherBitcoin": {
+          "heading": "不像其他'比特币'平台",
+          "body": "没有中央 Lightning 节点、托管方或 LSP 可能出现故障或下线。资金直接在链上结算到你控制的钱包。"
+        }
+      }
+    },
+    "faq": {
+      "eyebrow": "问题",
+      "title": "常见问题。",
+      "chapter1": {
+        "label": "入门",
+        "description": "Agora 是什么、谁建造的、费用如何。"
+      },
+      "chapter2": {
+        "label": "比特币捐赠",
+        "description": "支付如何运作、为什么链上、为什么公开、为什么有这些权衡。"
+      },
+      "chapter3": {
+        "label": "关于 Nostr",
+        "description": "Agora 所基于的开放协议，以及你的账户如何运作。"
+      },
+      "chapter4": {
+        "label": "验证与信任",
+        "description": "验证徽章的含义、由谁授予，以及你如何自行判断一个众筹项目。"
+      }
+    },
+    "guides": {
+      "eyebrow": "指南",
+      "title": "选择你站在哪一边。",
+      "lede": "无论你是发送还是接收，了解如何安全、私密地完成。",
+      "donor": {
+        "imageAlt": "戴着兜帽的抗议者在黄昏时分穿过欧洲城市街道游行，手持燃烧的红色信号弹和写有 'FREEDOM' 和 'LIBERTAD' 的横幅",
+        "role": "捐赠者",
+        "title": "支持银行不会支持的事业。",
+        "description": "无需向支付处理商请求许可，直接向世界各地的受款人和运动发送比特币。",
+        "bullet1": "使用你已有的任何比特币钱包。",
+        "bullet2": "捐款直接到达受款人。没有托管方，没有中间人。",
+        "bullet3": "为了隐私，请使用支持静默支付的钱包。",
+        "cta": "阅读捐赠者指南"
+      },
+      "recipient": {
+        "imageAlt": "数千名抗议者在夜晚聚集在城市广场上的鸟瞰图，手持燃烧的红色信号弹，在周围建筑物上投射出 'UNITY IN DARKNESS' 横幅",
+        "role": "受款人",
+        "title": "无需许可获得资金。",
+        "description": "直接从相信你事业的人那里接收支持。无需银行账户，无需申请表，中间没有公司。",
+        "bullet1": "注册后即可开始接收捐赠。",
+        "bullet2": "选择接受哪些支付类型：公开、静默支付或两者。",
+        "bullet3": "为了私密提现，先发送到静默支付钱包，然后再转发到任何地方。",
+        "cta": "阅读受款人指南"
+      },
+      "stillStuck": "还有问题？",
+      "followTeam": "在 Nostr 上关注 Team Soapbox",
+      "stillStuckSuffix": "。我们在那里处理问题。"
+    }
+  },
+  "corporateSponsorship": {
+    "seoDescription": "与 {{appName}} 合作，资助真正重要的事业。向 Agora 公益基金捐款、为您关心的活动提供配捐，或向您的客户推广 {{appName}}，作为贵公司慈善计划的一部分。",
+    "intro": {
+      "eyebrow": "为何合作",
+      "title": "契合贵公司目标的企业公益",
+      "lede": "直接、透明、可验证：贵公司可以放心支持的捐赠方式。",
+      "cards": {
+        "bitcoin": {
+          "title": "比特币原生平台",
+          "body": "捐款直接在比特币区块链上结算，无国界、不可阻挡、任何人都可验证。"
+        },
+        "verified": {
+          "title": "经过验证的活动资金",
+          "body": "每个活动在资金发放前都会经过审查与验证。"
+        },
+        "fees": {
+          "title": "零平台费用",
+          "body": "您的捐赠 100% 到达受助事业，我们分文不取。"
+        }
+      }
+    },
+    "ways": {
+      "causeFunds": {
+        "kicker": "01 · 直接支持",
+        "title": "向 {{appName}} 公益基金捐款",
+        "description": "为您关心的事业设立的集体资金池。{{appName}} 会将资金分配给经过验证、值得信赖的活动。",
+        "bullet1": "以比特币（BTC）或美元（USD）捐赠",
+        "bullet2": "与其他捐赠者的资金汇集，影响更大",
+        "bullet3": "分配给经过验证、值得信赖的活动",
+        "cta": "探索公益基金"
+      }
+    },
+    "fundsShowcase": {
+      "eyebrow": "公益基金",
+      "title": "{{appName}} 已验证活动基金",
+      "lede": "每个基金都会汇集捐款，并将其分配给经过验证的活动。",
+      "browseAll": "或浏览所有活动"
+    },
+    "cta": {
+      "body": "告诉我们您希望以何种方式参与，我们将帮助您建立合适的合作方式：公益基金捐赠、配捐资金池或客户活动。"
+    }
+  },
+  "partners": {
+    "partnersTitle": "携手合作，共同打造：",
+    "pressTitle": "媒体报道："
+  },
+  "faq": {
+    "categories": {
+      "getting-started": {
+        "label": "关于 Agora"
+      },
+      "payments": {
+        "label": "捐款"
+      },
+      "verification": {
+        "label": "验证与信任"
+      },
+      "about-nostr": {
+        "label": "关于 Nostr"
+      },
+      "legacy": {
+        "label": "遗留内容"
+      }
+    },
+    "items": {
+      "what-is-ditto": {
+        "question": "{{appName}} 是什么？",
+        "answer": [
+          "{{appName}} 是全球首个无国界微慈善网络——一个可以公开或私密地向世界各地的人和事业直接给予比特币的地方。没有国界，没有中间人，没有支付处理商，也没有可被冻结的账户。",
+          "{{appName}} 构建在 Nostr 之上，因此你的身份不会被锁定在本网站——它属于你自己。"
+        ]
+      },
+      "cost-to-use": {
+        "question": "{{appName}} 需要费用吗？",
+        "answer": [
+          "**不需要。** {{appName}} 不收取任何平台费。当你捐款时，你只需支付给矿工的比特币网络费——并非给我们。"
+        ]
+      },
+      "who-made-this": {
+        "question": "{{appName}} 是谁开发的？",
+        "answer": [
+          "{{appName}} 由 [Soapbox](https://soapbox.pub) 构建——一个为 Nostr 生态系统打造工具的开源团队，与 [世界自由大会（World Liberty Congress）](https://worldlibertycongress.org/) 合作完成。"
+        ]
+      },
+      "send-bitcoin-onchain": {
+        "question": "发送比特币是如何运作的？",
+        "answer": [
+          "当一位受款人创建一项活动时，他们可以选择接受哪种类型的支付：**公开**、**私密**或**两者皆可**。",
+          "**公开**捐款是真实的链上比特币。它们在公开区块链上结算，可在任何比特币钱包中使用，并且对所有人可见。",
+          "**私密**捐款使用**静默支付**（BIP-352）。它们同样在链上结算，但交易无法关联回受款人的捐款代码——因此不会出现在公开的捐款人列表或总额中。捐款人需要支持静默支付的钱包——我们推荐 [Ditto Wallet](https://ditto.pub) 或 [Dana](https://github.com/cygnet3/dana/releases/download/v0.7.4/app-live-release.apk)。",
+          "当一项活动同时接受**两者**时，{{appName}} 会显示一个同时编码两种端点的二维码。支持静默支付的钱包会将其识别为私密支付；其他钱包会退回到公开地址支付。捐款人无需选择——他们的钱包会自动选取正确的路径。",
+          "无论哪种方式，款项都会直接到达受款人。{{appName}} 从不接触这些资金。"
+        ]
+      },
+      "agora-funds": {
+        "question": "什么是 Agora Funds？",
+        "answer": [
+          "**Agora Funds** 是由 {{appName}} 管理的活动，让你可以向绑定于同一事业的多项活动组成的资金池给予捐款。你无需挑选某一项活动，只需向该基金捐款一次，你的捐款便会支持该事业中的每一项活动。",
+          "除比特币外，Agora Funds 还接受**通过 Stripe 进行的银行卡支付**——为那些不想以比特币付款的捐款人提供一种依然能够支持他们所关心事业的方式。银行卡捐款仅在 **Agora 赞助的基金**中可用；常规活动仍然直接、在链上接收比特币，中间没有任何支付处理商。"
+        ]
+      },
+      "connect-wallet": {
+        "question": "{{appName}} 上的钱包是什么？",
+        "answer": [
+          "你的 {{appName}} 钱包是一个**自托管**的比特币钱包，由你的 Nostr 密钥派生而来。{{appName}} 从不持有你的资金——钱包运行在你的浏览器中，并使用一把只有你掌控的密钥在本地签署交易。它可以以两种方式接收比特币——作为任何比特币钱包都能支付的公开地址，以及作为受支持钱包可以私密支付的静默支付代码。无需注册任何东西；只要你拥有账户，它就存在了。",
+          "钱包有两个标签页：**公开**（你的普通比特币地址）和**私密**（静默支付）。这两笔余额被严格分开，永远无法一起花费——正是这种隔离让私密捐款在链上保持不可链接。当你创建活动时，你可以选择接受公开支付、私密支付，或两者皆可。要使用你收到的资金，请参阅**受款人指南**。",
+          "你也可以导出钱包的 24 个助记词，并将其导入任何标准的比特币钱包——参见下方“我能把我的 {{appName}} 钱包导出到其他比特币钱包吗？”。"
+        ]
+      },
+      "export-wallet": {
+        "question": "我能把我的 {{appName}} 钱包导出到其他比特币钱包吗？",
+        "answer": [
+          "可以。你的 {{appName}} 钱包是完全自托管的。{{appName}} 从不持有你的比特币，也从不接触你的密钥——钱包完全运行在你的浏览器中，使用一把由你的 Nostr 私钥（nsec）派生的密钥在本地签署交易。",
+          "从菜单中打开钱包，点击右上角的三点菜单，选择**备份钱包**。你会看到一段 24 个词的 BIP-39 助记词。请将其抄写在安全的地方（或保存在密码管理器中）——**任何拥有这些词的人都可以花掉你的比特币。**",
+          "你可以把这 24 个词导入任何标准的比特币钱包：**Sparrow**、**Electrum**、**BlueWallet**、**Phoenix**、**Trezor** 或 **Ledger**。{{appName}} 使用标准的 BIP-86（Taproot）和 BIP-352（静默支付）派生路径，因此无需任何特殊配置。",
+          "导入之后，另一个钱包会显示与你的 {{appName}} 钱包相同的余额和历史——它们是同一个钱包，只是从两个不同的视角查看而已。",
+          "助记词导出仅在你使用 nsec 登录时可用。浏览器扩展和远程签名器（bunker）登录会将你的私钥隔离开来，因此 {{appName}} 在这些模式下无法派生助记词。"
+        ]
+      },
+      "donations-are-public-general": {
+        "question": "{{appName}} 上的捐款是公开的吗？",
+        "answer": [
+          "这取决于受款人所接受的支付类型。",
+          "**公开捐款**会被记录在比特币区块链和 Nostr 上。任何人都可以看到金额、时间和地址。",
+          "**私密捐款**使用静默支付。它们无法被公开关联到受款人的捐款代码，不会出现在捐款人列表中，也不计入公开总额。",
+          "当一项活动同时接受两者时，由捐款人的钱包决定使用哪条路径——支持静默支付的钱包私密支付，其他钱包则支付公开地址。完整图景请阅读**捐款人指南**和**受款人指南**。"
+        ]
+      },
+      "why-donations-pending": {
+        "question": "为什么有些捐款显示为“**待确认**”？",
+        "answer": [
+          "**待确认**的捐款是真实的、已经发送出去的比特币——只是还在等待网络确认。捐款人的钱包已经广播了这笔交易，但它尚未被打包进区块。",
+          "比特币大约每 10 分钟产生一个新区块，矿工会根据捐款人支付的手续费来挑选交易。大多数捐款会在一小时内确认；当网络拥堵时，手续费较低的交易可能需要更长时间。{{appName}} 会自动重新检查确认状态，所以一旦有区块打包，**待确认**标签就会自行消失。",
+          "款项已经在路上——一旦确认，受款人就会看到这笔捐款计入活动总额。无论是受款人还是 {{appName}} 都无法加快它的速度；只有捐款人的钱包可以通过追加手续费来提速。"
+        ]
+      },
+      "censorship-resistance": {
+        "question": "这里所说的“抗审查”是什么意思？",
+        "answer": [
+          "没有任何公司处于捐款人和受款人之间。{{appName}} 不持有资金，也无法冻结地址。",
+          "只要比特币网络在运行，捐款就可以发送和接收。即使 {{appName}} 自身下线，也无法阻止这些交易。"
+        ]
+      },
+      "why-onchain": {
+        "question": "为什么选择比特币？",
+        "answer": [
+          "比特币是世界上支持最广泛、最具抗审查能力的支付通道。每一个比特币钱包都可以发送它。",
+          "在 {{appName}} 上，受款人可以选择如何接收：**公开**（普通的比特币地址）以获得最大触达；**私密**（静默支付）以获得不可关联的捐款；或者**两者皆可**——这样每位捐款人的钱包都会自动挑选合适的路径。只有面向大众的比特币应用的捐款人仍可贡献；拥有静默支付钱包的捐款人则默认获得隐私。",
+          "代价是：公开的比特币交易在区块链上可见，且需支付矿工费。捐款人指南和受款人指南会说明如何应对这两种情况。"
+        ]
+      },
+      "why-not-silent-payments": {
+        "question": "{{appName}} 支持静默支付吗？",
+        "answer": [
+          "支持——发送和接收两端都支持。{{appName}} 内置的比特币钱包支持 BIP-352，因此当你从 {{appName}} 钱包发送比特币时，可以直接向任意静默支付地址（`sp1…`）付款。而当受款人创建活动时，他们可以选择与公开比特币支付一起接受静默支付，或者用静默支付完全替代公开支付。",
+          "静默支付捐款同样在链上结算，但交易无法关联回受款人的捐款代码——因此不会出现在公开的捐款人列表或总额中。",
+          "从 {{appName}} 之外发送静默支付需要支持 BIP-352 的钱包。多数面向大众的应用尚不支持，但 [Ditto Wallet](https://ditto.pub) 和 [Dana](https://github.com/cygnet3/dana/releases/download/v0.7.4/app-live-release.apk) 支持。",
+          "当一项活动同时接受两种类型的支付时，{{appName}} 会将其编码进同一个二维码中。支持静默支付的钱包以私密方式支付；其他人则支付公开地址。没有捐款人会被拒之门外，也没有受款人会被迫在触达与隐私之间做选择。"
+        ]
+      },
+      "why-not-lightning": {
+        "question": "为什么 {{appName}} 不使用闪电网络？",
+        "answer": [
+          "闪电网络需要一个闪电钱包。最容易上手的（Wallet of Satoshi、Strike、Breez）都是**托管的**——由公司持有资金，可能被关停、被地理屏蔽，或被施压冻结账户。非托管的闪电网络对新人而言技术门槛高且不够可靠。",
+          "我们希望 {{appName}} 能够服务于那些只用过 Cash App、Coinbase、Strike、Venmo 或 PayPal 这类大众比特币应用的人。链上比特币能与全世界的所有钱包兼容。"
+        ]
+      },
+      "why-not-rotating-addresses": {
+        "question": "为什么 {{appName}} 不为每笔捐款生成新地址？",
+        "answer": [
+          "这样做将要求 {{appName}} 充当资金交易的中间人——先托管比特币，然后再转发给受款人。",
+          "那会使我们成为汇款服务商，承担相应的监管义务，并形成单点故障：关停 {{appName}} 的服务器就等于关停了流经它的每一笔捐款。",
+          "相反，每位用户的捐款地址都是由其 Nostr 密钥（nsec）——也就是你登录时使用的同一把密钥——派生的。捐款人直接发送给受款人，{{appName}} 从不接触资金，平台本身也不能被关停以审查任何人。希望按笔获得隐私的受款人可以接受静默支付——它在不让中间方持有资金的前提下，提供同样的不可关联性。"
+        ]
+      },
+      "why-not-other-crypto": {
+        "question": "为什么不用 Monero 或其他加密货币？",
+        "answer": [
+          "比特币是迄今为止采用最广泛的加密货币。这意味着对捐款人来说最容易购买和发送，对受款人来说也最容易接收、持有和使用。",
+          "像 Monero 这样的隐私币提供了与比特币不同的隐私权衡，但绝大多数面向大众的应用都不支持它们，转换回本地法币也更困难。要求捐款的任一方先获取一种小众加密货币是 {{appName}} 不会设置的门槛。就比特币捐款本身而言，静默支付已经覆盖了不可关联性这一使用场景，且无需离开比特币生态。"
+        ]
+      },
+      "what-is-verification": {
+        "question": "众筹项目上的\"已验证\"徽章是什么意思？",
+        "answer": [
+          "已验证的众筹项目是指有**可信验证者**公开为其担保的项目。该验证者表示他们本人认识发起人，或已切实核实过该项目的说法属实。",
+          "徽章会明确显示是**谁**进行了担保，并且每位验证者都会链接到他们的个人资料。验证是一种参考信号，而不是来自 {{appName}} 的认可印章。我们不进行背景调查。它的存在是为了让*你*决定是否信任支持某个众筹项目的人。",
+          "当没有可信来源验证某个众筹项目时，其页面会改为显示一条谨慎提示。该提示并非指控，仅表示可信名单上还没有人为其担保。"
+        ]
+      },
+      "who-verifies": {
+        "question": "谁算是\"可信来源\"？",
+        "answer": [
+          "可信验证者是两个精选关注列表的成员：**World Liberty Congress Verified** 和 **Team Soapbox**（构建 {{appName}} 的团队，与 [World Liberty Congress](https://worldlibertycongress.org/) 合作）。",
+          "从技术上讲，Nostr 上的任何人都可以为任何众筹项目发布验证标签，它都会显示在徽章上。但只有来自这两个列表成员的担保才能清除谨慎提示，并可将众筹项目提升至主页的 Verified Campaigns 版块。发起人验证自己的众筹项目不算数。"
+        ]
+      },
+      "unverified-meaning": {
+        "question": "一个众筹项目未经验证。它是诈骗吗？",
+        "answer": [
+          "**不一定。**验证被刻意设计得难以获得，因此大多数合法众筹项目一开始都未经验证，尤其是新项目以及那些来自可信验证者尚未见过的人的项目。",
+          "把徽章当作额外的信心来源，而不是唯一重要的东西。阅读众筹项目内容，查看发起人的个人资料和历史记录，并记住 {{appName}} 的运作方式：捐款会**直接**通过链上转入发起人的 Bitcoin 地址。{{appName}} 从不持有资金，也无法撤销、退款或冻结付款，所以请像亲手把现金递给别人那样谨慎捐赠。"
+        ]
+      },
+      "why-campaigns-hidden": {
+        "question": "为什么有些众筹项目被隐藏，我还能看到它们吗？",
+        "answer": [
+          "审核员可以隐藏看起来像垃圾信息、诈骗或冒充他人的众筹项目。被隐藏的众筹项目会被排除在 {{appName}} 的动态和搜索之外，这样大多数人就不会意外碰到它们。",
+          "**这不是审查，也不会删除任何内容。**无论 {{appName}} 显示什么，众筹项目都存续在开放的 Nostr 网络上。隐藏只改变 {{appName}} 默认呈现的内容。如果你直接打开一个被隐藏的众筹项目，比如通过分享的链接，你会看到一条说明原因的提示以及一个**仍然继续**的按钮。查看它以及捐赠的选择，始终由你自己决定。",
+          "目标只是在捐赠者出手之前为其提供背景信息：提醒你有一位可信审核员标记了某些内容，而不是替你做决定。"
+        ]
+      },
+      "how-get-verified": {
+        "question": "我是发起人。如何让我的众筹项目获得验证？",
+        "answer": [
+          "你无法验证自己；必须由可信验证者为你担保。最可靠的途径是建立真实的过往记录：完整的个人资料、清晰的众筹项目，以及与社区中人们的真实关系。",
+          "如果你的工作与 World Liberty Congress 或 {{appName}} 团队有关，请通过你在那里现有的联系人取得联络。认识你的验证者可以添加他们的担保，它会自动显示在你的众筹项目上。"
+        ]
+      },
+      "verification-guarantee": {
+        "question": "验证能保证我的捐款安全吗？",
+        "answer": [
+          "不能。验证告诉你有一位可信的人为该众筹项目担保。它**不**保证结果，不为你的资金提供保险，也不会让 {{appName}} 对资金的使用方式负责。",
+          "由于捐款是非托管且链上进行的，一旦你发送付款，每一笔都是最终不可逆的。如果情况有变，验证者之后也可以**撤回**他们的担保，这将移除徽章。请始终只捐赠你愿意直接交给他人的金额。"
+        ]
+      },
+      "what-is-nostr": {
+        "question": "Nostr 是什么？",
+        "answer": [
+          "Nostr 是一个开放网络，在这里**你**拥有自己的账户，而不是某家公司。你的身份是你自己掌控的加密密钥，而不是别人服务器上的一个用户名。",
+          "在 {{appName}} 上，同一把密钥也是你的捐款地址的派生来源——你的 Nostr 密钥（nsec）为你的比特币钱包提供种子，这就是为什么你无需在任何人那里注册就能接收比特币。"
+        ]
+      },
+      "why-login-different": {
+        "question": "为什么我的登录方式如此不同且很长？",
+        "answer": [
+          "Nostr 没有由公司掌控的用户名和密码，而是使用一对加密密钥。",
+          "你的“公钥”（以 **npub** 开头）是你的用户名。你的“私钥”（以 **nsec** 开头）是你的密码。那串很长的字符让它几乎无法被猜中。"
+        ]
+      },
+      "lose-secret-key": {
+        "question": "如果我丢失了私钥会怎样？",
+        "answer": [
+          "**没有“忘记密码”按钮。** 没有人能为你重置。如果你弄丢了它，你的账户——以及你捐款地址上的所有比特币——将永远消失。",
+          "**现在就把你的私钥保存到安全的地方。** 想了解技巧，请阅读 [管理你的 Nostr 密钥](https://soapbox.pub/blog/managing-nostr-keys)。"
+        ]
+      },
+      "manage-secret-key": {
+        "question": "我可以把私钥保存到手机的密码管理器里吗？",
+        "answer": [
+          "可以。你可以把它存进设备的密码管理器（iCloud 钥匙串、1Password、Bitwarden 等）。在 iPhone 上，把它存进“密码”应用后，你可以使用 Face ID 或 Touch ID 登录。",
+          "完整指南请参阅 [管理你的 Nostr 密钥](https://soapbox.pub/blog/managing-nostr-keys)。"
+        ]
+      },
+      "send-bitcoin-lightning": {
+        "question": "通过闪电网络发送比特币是如何运作的？",
+        "answer": [
+          "如果接收方在其个人资料中放置了闪电地址，你可以向那里发送。闪电网络在数秒内完成结算，手续费极低。",
+          "闪电网络发送不使用 {{appName}} 的捐款地址——它们会直接进入接收方自行设置的任意闪电钱包。{{appName}} 自身的捐款流程仅限于链上。"
+        ]
+      },
+      "what-are-zaps": {
+        "question": "Zaps 是什么？",
+        "answer": [
+          "Zaps 是 Nostr 上的小额闪电网络打赏，独立于 {{appName}} 的链上捐款流程。"
+        ]
+      },
+      "fyp": {
+        "question": "信息流是如何运作的？",
+        "answer": [
+          "你的信息流展示来自你所关注的人的活动和帖子。没有算法决定你看到什么。"
+        ]
+      },
+      "what-are-relays": {
+        "question": "中继是什么？",
+        "answer": [
+          "中继是存储和分发 Nostr 事件——帖子、捐款回执、个人资料信息——的服务器。默认设置开箱即用；你可以在“设置 > 网络”中添加或移除中继。"
+        ]
+      },
+      "what-are-blossom": {
+        "question": "Blossom 服务器是什么？",
+        "answer": [
+          "当你上传文件时，Blossom 服务器会存储媒体文件（活动图片、头像）。你可以在“设置 > 网络”中管理使用哪些服务器。"
+        ]
+      },
+      "report-content": {
+        "question": "我该如何举报有害内容？",
+        "answer": [
+          "在任意帖子上点按三点菜单（**...**）并选择“举报”。在同一菜单中，你也可以静音或屏蔽用户。"
+        ]
+      },
+      "vs-mastodon-bluesky": {
+        "question": "Nostr 与 Mastodon 或 Bluesky 有何不同？",
+        "answer": [
+          "在 Mastodon 上，你的账户位于某个特定服务器上。在 Bluesky 上，大多数账户依赖于一家公司。在 Nostr 上，你的身份是你自己掌控的密钥，你的捐款地址也会跟随你到任何 Nostr 应用。"
+        ]
+      },
+      "profile-fields": {
+        "question": "个人资料字段是什么？",
+        "answer": [
+          "个人资料字段让你为自己的个人资料添加额外信息——链接、钱包地址、音乐、照片、视频。"
+        ]
+      }
+    }
+  },
+  "guides": {
+    "shared": {
+      "tldrEyebrow": "简短版本",
+      "paymentBadge": {
+        "public": "公开支付",
+        "silent": "静默支付"
+      },
+      "paymentComparison": {
+        "donorHeader": "当你捐款时",
+        "recipientHeader": "当你创建活动时",
+        "donorRows": {
+          "whatYouSee": {
+            "label": "你所看到的",
+            "public": "一个普通的比特币地址，你可以从任何地方付款。",
+            "silent": "同一个二维码。如果你的钱包支持 BIP-352，它会选择静默支付端点。"
+          },
+          "walletSupport": {
+            "label": "钱包支持",
+            "public": "所有比特币钱包。Cash App、Coinbase、Strike、硬件钱包，任何一种。",
+            "silent": "目前支持的钱包很少。大多数会退回到普通的比特币交易。"
+          },
+          "privacy": {
+            "label": "捐款的隐私",
+            "public": "在链上公开。你的发送地址将永久与该活动关联。",
+            "silent": "接收端在链上无法被关联。你的发送钱包的踪迹仍是公开的。"
+          },
+          "settlement": {
+            "label": "结算",
+            "public": "正常的比特币确认。",
+            "silent": "同样的链上确认，但受款人必须扫描其钱包才能发现它。"
+          }
+        },
+        "recipientRows": {
+          "whatDonorsSee": {
+            "label": "捐款人所看到的",
+            "public": "一个普通的比特币地址。可与全世界的所有钱包一起使用。",
+            "silent": "一个 BIP-352 端点。捐款人的钱包需要支持静默支付；否则该捐款会退回到普通的比特币交易。"
+          },
+          "receivingSpeed": {
+            "label": "接收速度",
+            "public": "推送式。捐款立刻显示在活动页面上。",
+            "silent": "手动扫描。你的钱包必须沿着区块链查找。视钱包而定，可能需要数分钟至数小时。"
+          },
+          "pushNotifications": {
+            "label": "推送通知",
+            "public": "有。新捐款到达的瞬间你就能看到。",
+            "silent": "无。打开钱包并触发一次扫描才能发现它们。"
+          },
+          "donorList": {
+            "label": "捐款人列表 / 活动总额",
+            "public": "永久公开。金额和发送地址对任何人可见。",
+            "silent": "私密。活动页面无法显示静默支付捐款的数量或总额。"
+          },
+          "ecosystem": {
+            "label": "生态成熟度",
+            "public": "成熟。工具已经稳定。",
+            "silent": "前沿。钱包仍有 bug；预计会有错过的支付，要等到稍后扫描才显示出来。"
+          },
+          "bestFor": {
+            "label": "适合",
+            "public": "公开的众筹活动，社会证明和可见度对其有帮助。",
+            "silent": "捐款人或受款人的隐私比可见总额更重要的活动。"
+          },
+          "watchOutFor": {
+            "label": "需要留意",
+            "public": "每一位捐款人的永久公开记录。",
+            "silent": "目前体验颠簸。一些捐款要等到受款人扫描后才会显示。"
+          }
+        }
+      }
+    },
+    "donor": {
+      "tldr": {
+        "lede": "用你已经拥有的任何钱包，向活动页面上的比特币地址付款。如果该活动接受静默支付且你的钱包支持，你的捐款将自动获得隐私保护。",
+        "nextActions": [
+          "用任何比特币钱包付款",
+          "无中间方、无托管期",
+          "想要隐私？请继续阅读"
+        ]
+      },
+      "flow": {
+        "heading": "一笔捐款的流动方式",
+        "steps": {
+          "openCampaign": {
+            "title": "打开活动",
+            "body": "你会看到一个二维码。如果活动同时接受两种选项，它会编码两个端点；你的钱包会选择合适的一个。"
+          },
+          "payFromAnyWallet": {
+            "title": "用任意钱包付款",
+            "body": "Cash App、Coinbase、Strike、硬件钱包，任何一种。支付金额加上网络费用。"
+          },
+          "arrivesDirectly": {
+            "title": "直接到达",
+            "body": "款项直接结算给受款人。{{appName}} 既不持有也不路由它们，地址是从受款人的 Nostr 私钥派生出来的。"
+          }
+        }
+      },
+      "comparison": {
+        "footnote": "活动可以仅接受公开、仅接受静默或同时接受两者。如果两者皆接受，二维码会携带两个端点。你的钱包会挑选它能使用的那一个。"
+      },
+      "publicVisible": {
+        "title": "公开捐款会永远在链上可见",
+        "body": "**公开**捐款会落到一个与该活动绑定的普通比特币地址上。任何人都可以查询该地址并看到金额、时间以及你的发送地址。**静默**捐款也在链上结算，但接收端无法被关联到该活动，因此不会出现在公开的捐款人列表和总额中。"
+      },
+      "privacy": {
+        "heading": "私密地捐款",
+        "intro": "这些步骤对**公开**捐款最为重要，因为其每一笔交易都永久绑定到同一个地址。**静默**捐款已经隐藏了接收端，因此风险更低。但无论哪种方式，针对你发送钱包的定向分析仍然可能；如果你的风险较高，这些步骤值得采取。挑一种，或者多管齐下。",
+        "options": {
+          "silentWallet": {
+            "name": "使用支持静默支付的钱包",
+            "purpose": "使用支持 BIP-352 的比特币钱包付款。如果活动接受静默支付，你的钱包会自动使用该端点。"
+          },
+          "nonKyc": {
+            "name": "购买非 KYC 的比特币",
+            "purpose": "点对点购买比特币，使其从一开始就不与你的政府身份相关联。最强的隐私起点。"
+          },
+          "coinjoin": {
+            "name": "先做 Coinjoin",
+            "purpose": "把你的比特币与其他人的硬币混合，使其输出无法追溯到你的 KYC 购买记录。在活动只接受公开支付时尤其有用。"
+          },
+          "freshWallet": {
+            "name": "使用全新钱包",
+            "purpose": "从未接触过你主要身份或任何 KYC 交易所的钱包中捐款。"
+          }
+        }
+      },
+      "consumerApps": {
+        "title": "面向大众的应用无法让你匿名",
+        "body": "Cash App、Coinbase、Strike、Venmo、Kraken、Binance 和 PayPal 都会验证你的身份。无论你如何发送捐款，每笔交易都会与你的真实身份挂钩。请使用你自己掌控的非托管钱包。"
+      },
+      "silentToday": {
+        "heading": "关于静默支付当前状况的备注",
+        "paragraphs": [
+          "静默支付是链上接收比特币最具隐私性的方式，但生态仍处于早期阶段。大多数热门钱包尚不能向静默支付端点发送，因此当一个钱包无法做到时，该捐款会退回到一笔指向该活动公开地址的普通比特币交易（如果该活动同时接受两者）。",
+          "对于受款人而言，静默支付捐款也不会有推送通知，只有在受款人扫描其钱包之后才会出现，这可能需要数分钟到数小时。这一切并不影响你资金的安全，只是塑造了体验。"
+        ]
+      }
+    },
+    "recipient": {
+      "tldr": {
+        "lede": "创建活动时选择接受方式：公开、静默或两者皆可。两种选项都是非托管的。{{appName}} 从不持有你的资金。",
+        "nextActions": [
+          "比较两种选项",
+          "规划如何提现",
+          "及时清扫资金"
+        ]
+      },
+      "howReceiving": {
+        "heading": "接收是如何运作的",
+        "paragraphs": [
+          "你的 {{appName}} 捐款地址是由你的 Nostr 密钥（nsec）派生而来——你的 Nostr 密钥为你的比特币钱包提供种子。创建活动时，你选择接受哪种方式：",
+          "**仅公开支付。** 普通的比特币地址。所有人可见，可与任何钱包配合使用。",
+          "**仅静默支付。** BIP-352 静默支付。接收端在链上无法被关联，因此捐款不会出现在公开的捐款人列表和总额中。捐款人需要具备静默支付能力的钱包才能发送。如果他们没有，其捐款无法完成。",
+          "**两者皆可。** {{appName}} 生成一个同时编码两种端点的二维码。支持静默支付的钱包以私密方式读取；普通钱包支付到公开地址。捐款人无需选择。",
+          "通常同时接受两者是正确的选择：你能从使用静默支付钱包的支持者那里获得私密的捐款，同时仍对只在大众应用中持有比特币的捐款人保持开放。",
+          "在你的 {{appName}} 钱包里，这些资金会以**两笔独立的余额**形式到达——一个**公开**标签页（你的普通比特币地址）和一个**私密**标签页（静默支付）——分别显示在钱包的公开 / 私密标签页上。{{appName}} 有意把它们严格分开：这两笔余额永远无法一起花费。在同一笔交易中把私密资金与公开资金混在一起，会把你那些本应不可链接的静默支付捐款在链上重新关联回你的公开地址，从而摧毁它们本应提供的隐私。"
+        ]
+      },
+      "whatEveryoneSees": {
+        "heading": "任何人都能看到什么",
+        "paragraphs": [
+          "如果你的活动接受公开支付，任何打算支持你的人都可以查询该地址并看到公开的捐款历史。",
+          "静默支付的捐款不属于该记录。它们对外部观察者不可见，也不会出现在活动的公开总额中；新捐款人只看到你所公布的活动进展。"
+        ]
+      },
+      "comparison": {
+        "footnote": "一个活动在创建后不能更改其接受的支付选项。如果你改变主意，请创建新的活动。"
+      },
+      "silentToday": {
+        "heading": "关于静默支付当前状况的备注",
+        "paragraphs": [
+          "静默支付是链上接收比特币最具隐私性的方式，但生态仍处于早期阶段。大多数热门钱包尚不能向静默支付端点发送，因此当捐款人的钱包无法做到时，该捐款会退回到一笔指向你公开地址的普通比特币交易（如果你同时接受两者）。",
+          "静默支付捐款也不会有推送通知，只有在你扫描你的钱包之后才会出现，这可能需要数分钟到数小时。这一切并不影响你资金的安全，只是塑造了日常体验。"
+        ]
+      },
+      "twoWallets": {
+        "title": "让你的公开余额与私密余额保持分离",
+        "body": "你的 {{appName}} 钱包会显示两个标签页：**公开**（你的普通比特币地址）和**私密**（静默支付）。它们被严格分开，这两笔余额永远无法在同一笔交易中花费——正是这种隔离让你的私密捐款保持不可链接。当你从**私密**标签页提现时，请发送到一个静默支付地址（**sp1…**），它会保持私密。如果你转而把私密资金发送到一个裸露的链上地址，{{appName}} 会进行检查：如果该地址此前被使用过，或属于你自己的公开钱包，它会向你发出警告，并要求你点击**仍然发送**，因为这样做会把你的私密资金与该地址的公开历史关联起来。发送到 **sp1…** 地址永远不会触发该警告。"
+      },
+      "movePromptly": {
+        "heading": "及时转移捐款",
+        "steps": {
+          "sweep": {
+            "title": "把资金清扫到你掌控的钱包",
+            "body": "你的 {{appName}} 钱包已经是自托管的——只有你掌控密钥。如果想在桌面或硬件钱包中查看同样的余额，请打开钱包菜单，选择**备份钱包**，然后把 24 个助记词导入 [Sparrow](https://sparrowwallet.com)、[BlueWallet](https://bluewallet.io) 或一个硬件钱包（Trezor、Ledger）。如果你更想把资金完全转移到另一把密钥下——例如转到 [Phoenix](https://phoenix.acinq.co) 这样的闪电网络钱包——只需从你的 {{appName}} 钱包发送一笔普通的比特币交易即可。"
+          },
+          "dontSit": {
+            "title": "不要让资金停留在浏览器中",
+            "body": "对于价值较高的活动尤其如此：请把钱包的助记词离线保管（纸质、金属备份，或保存在专用设备上的密码管理器中），并考虑使用硬件钱包。你从 {{appName}} 备份出来的助记词对应的就是同一个钱包——只要把这些词保护好，你就拥有了冷存储。"
+          }
+        }
+      },
+      "cashout": {
+        "heading": "以私密方式提现",
+        "intro": "在链上消费会留下踪迹，除非你先打断它。请从**私密**标签页提现，以保持静默支付捐款的不可链接性——先发送到一个静默支付钱包（一个 **sp1…** 地址），然后再向外消费；这一跳会切断你的活动与之后行为之间的联系。不要把私密资金发送到一个被重复使用过的或公开的地址，那样会重新关联它们。下面其他选项也可行，并各有取舍。",
+        "options": {
+          "silentHop": {
+            "name": "静默支付钱包中转",
+            "purpose": "把你的捐款转到静默支付钱包（[Ditto Wallet](https://ditto.pub)、[Dana](https://github.com/cygnet3/dana/releases/download/v0.7.4/app-live-release.apk)）。从那里开始，你的后续支出便不再与活动绑定。"
+          },
+          "lightningSwap": {
+            "name": "闪电网络兑换",
+            "purpose": "把链上比特币原子换成闪电网络支付。闪电网络支付不会进入公开区块链。"
+          },
+          "coinjoin": {
+            "name": "Coinjoin",
+            "purpose": "把你的比特币与其他用户的硬币混合，使输出无法关联回输入。"
+          },
+          "peerToPeer": {
+            "name": "点对点交易",
+            "purpose": "直接与另一个人交易，或通过 Bisq、HodlHodl 或 RoboSats 上的经纪人将比特币兑换为法币。"
+          },
+          "spendDirectly": {
+            "name": "直接消费",
+            "purpose": "直接使用比特币购买礼品卡（Amazon、Uber、生鲜、旅行），无需先兑换成现金。"
+          }
+        }
+      },
+      "tumblers": {
+        "title": "避免中心化的混币器",
+        "body": "托管型混币器可能盗取你的硬币、记录谁向谁发送了什么，或最终被证明是执法部门的诱饵。改用静默支付中转或非托管的 coinjoin 吧。"
+      }
+    }
+  },
+  "walletDoubleTweak": {
+    "seoTitle": "Double-tweak SP 修复",
+    "seoDescription": "找回因早先发送漏洞而滞留在链上的静默支付，并将它们归集到你的钱包。",
+    "title": "Double-tweak SP 修复",
+    "heading": "找回滞留的静默支付",
+    "subheading": "早先版本的 Agora 将部分静默支付输出编码到了错误的密钥，因此它们从未出现在你的钱包中。此工具会重新扫描链上的这些输出，并将找到的任何一笔归集到你的钱包。",
+    "back": "返回",
+    "loggedOut": "请使用收到这些静默支付的 Nostr 身份登录，以便将其找回。",
+    "unsupported": {
+      "title": "钱包不可用",
+      "description": "找回功能需要一个可在本地签名的钱包。请使用你的 nsec 登录以继续。"
+    },
+    "noIndexer": {
+      "title": "未配置静默支付索引器",
+      "description": "扫描滞留的支付需要一个 BIP-352 索引器 URL。请在钱包设置中设置一个后重试。"
+    },
+    "scan": {
+      "title": "扫描滞留的支付",
+      "description": "选择开始扫描的区块高度。找回功能会从该高度逐块检查至链尖。",
+      "fromHeightLabel": "起始区块高度",
+      "tipHint": "当前链尖：{{tip}}",
+      "start": "扫描",
+      "cancel": "取消扫描",
+      "progress": "正在扫描区块 {{current}} / {{to}} — 已发现 {{found}} 笔",
+      "tipMissing": "正在解析链尖…"
+    },
+    "noFunds": {
+      "title": "无可找回的资金",
+      "description": "在扫描范围内未发现滞留的静默支付。如果你预期有资金，请尝试更早的起始高度。"
+    },
+    "found": {
+      "title": "发现滞留的支付",
+      "description": "这些输出可以被归集回你的钱包。",
+      "count": "输出",
+      "recoverable": "可找回"
+    },
+    "destination": {
+      "title": "资金将发送至",
+      "description": "你当前钱包中的一个新接收地址。"
+    },
+    "sweepButton": "找回资金",
+    "sweeping": "正在找回你的资金…",
+    "dontClose": "找回完成前请勿关闭此页面。",
+    "success": {
+      "title": "找回完成",
+      "sent": "已将 {{sats}} sats 找回到你的钱包。",
+      "viewTx": "查看交易"
+    },
+    "error": {
+      "title": "找回失败",
+      "tryAgain": "重试"
+    },
+    "errors": {
+      "noDestination": "没有可用的目标地址。请先打开你的钱包。",
+      "noBlockbook": "未配置 Blockbook 服务器。请在钱包设置中设置一个。",
+      "sweepGeneric": "无法完成找回归集。"
+    },
+    "toast": {
+      "successTitle": "资金已找回",
+      "successDesc": "已将 {{sats}} sats 归集到你的钱包。"
+    },
+    "footnote": "这是一次单向归集到你当前钱包的操作。只会处理受影响的静默支付；其他一切保持不变。"
+  },
+  "support": {
+    "seoTitle": "遇到问题？",
+    "seoDescription": "报告 {{appName}} 的缺陷或问题，并查看其他人已经报告过的内容。",
+    "title": "遇到问题？",
+    "subtitle": "报告 {{appName}} 的问题，或查看它是否已被知晓。",
+    "existingTitle": "已知问题",
+    "openTracker": "打开追踪器",
+    "loadError": "无法加载已有报告。问题中继可能无法连接。",
+    "retry": "重试",
+    "noIssues": "暂无报告。",
+    "hiddenByModerator": "已隐藏",
+    "reportedBy": "由 {{name}} 发布 · {{time}}前",
+    "showAttachments": "显示附件（{{count}}）",
+    "collapse": "收起",
+    "readMore": "阅读更多",
+    "viewInTracker": "在追踪器中查看",
+    "status": {
+      "open": "待处理",
+      "resolved": "已解决",
+      "closed": "已关闭",
+      "draft": "草稿"
+    },
+    "moderation": {
+      "aria": "管理此报告",
+      "failed": "管理操作失败",
+      "hidden": "报告已隐藏",
+      "unhidden": "报告已取消隐藏",
+      "featured": "报告已置顶",
+      "unfeatured": "报告已取消置顶",
+      "pin": "置顶为已知问题",
+      "unpin": "取消置顶",
+      "pinnedState": "已置顶"
+    },
+    "formTitle": "提交报告",
+    "form": {
+      "categoryLabel": "这是哪一类问题？",
+      "category": {
+        "bug": "功能异常",
+        "wallet": "钱包或支付",
+        "content": "活动或内容",
+        "feature": "功能建议"
+      },
+      "subjectLabel": "摘要",
+      "subjectPlaceholder": "用一句话描述问题",
+      "bodyLabel": "发生了什么？",
+      "bodyPlaceholder": "你做了什么？你期望发生什么？实际又发生了什么？",
+      "attachment": {
+        "add": "添加截图",
+        "uploading": "上传中…",
+        "item": "截图",
+        "remove": "移除截图",
+        "failed": "截图上传失败"
+      },
+      "diagnosticsLabel": "包含版本与设备信息",
+      "anonymousLabel": "匿名提交",
+      "disclosureSigned": "报告是公开的，并由你的账户签名。",
+      "disclosureAnonymous": "报告是公开的，使用一次性密钥签名。",
+      "secretWarning": "这里似乎包含敏感数据。内容将被公开发布——请先移除任何私密信息。",
+      "nsecBlocked": "这里包含看起来像私钥（nsec）的内容。请在提交前移除——公开它将交出该账户的控制权。",
+      "secretKinds": {
+        "nsec": "私钥",
+        "silentPayment": "静默支付地址",
+        "xpub": "扩展公钥",
+        "bitcoinAddress": "Bitcoin 地址",
+        "seedPhrase": "助记词"
+      },
+      "submit": "提交报告",
+      "submitting": "提交中…",
+      "errors": {
+        "cooldown": "你刚刚提交过报告。请稍候再提交下一条。",
+        "failed": "无法提交报告"
+      }
+    },
+    "success": {
+      "title": "报告已提交",
+      "description": "谢谢——它已进入开发者的问题追踪器。",
+      "copyId": "复制报告 ID",
+      "copied": "已复制",
+      "viewTracker": "在追踪器中查看",
+      "fileAnother": "再提交一条"
+    },
+    "pinned": "已置顶"
+  }
+}

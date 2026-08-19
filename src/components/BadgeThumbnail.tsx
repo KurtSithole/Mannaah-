@@ -1,0 +1,114 @@
+import { useCallback, useState } from 'react';
+import { Award } from 'lucide-react';
+
+import type { BadgeData } from '@/lib/parseBadgeDefinition';
+import { useCardTilt } from '@/hooks/useCardTilt';
+import { useImageProxy } from '@/hooks/useImageProxy';
+import { cn } from '@/lib/utils';
+
+interface BadgeThumbnailProps {
+  badge: BadgeData;
+  /** Pixel size for both width and height. Default: 48 */
+  size?: number;
+  className?: string;
+}
+
+/**
+ * Renders a badge thumbnail with appropriate image resolution for the given size.
+ * Falls back to an Award icon when no image is available.
+ *
+ * Includes a mouse-only 3D tilt effect. Touch events are ignored so tapping
+ * through to badge detail views and normal scrolling are not disrupted.
+ */
+export function BadgeThumbnail({ badge, size = 48, className }: BadgeThumbnailProps) {
+  const thumbUrl = pickThumb(badge, size);
+  const proxy = useImageProxy();
+  const [proxyFailed, setProxyFailed] = useState(false);
+  // Tight perspective relative to the small thumbnail makes the 3D rotation
+  // clearly visible even on 28-48px elements.
+  const tilt = useCardTilt(35, 1.15, size * 3);
+
+  const handlePointerMove = useCallback(
+    (e: React.PointerEvent<HTMLDivElement>) => {
+      if (e.pointerType === 'touch') return;
+      tilt.onPointerMove(e);
+    },
+    [tilt],
+  );
+
+  const handlePointerLeave = useCallback(
+    (e: React.PointerEvent<HTMLDivElement>) => {
+      if (e.pointerType === 'touch') return;
+      tilt.onPointerLeave(e);
+    },
+    [tilt],
+  );
+
+  const style: React.CSSProperties = {
+    ...tilt.style,
+    touchAction: 'auto',
+  };
+
+  // Proxy at 2× the rendered size (retina), with a floor of 128 so the smallest
+  // 28px callouts still get a reasonable image. wsrv.nl won't upscale below
+  // the source's natural size.
+  const proxyWidth = Math.max(size * 2, 128);
+  const proxied = thumbUrl ? proxy(thumbUrl, proxyWidth) : thumbUrl;
+  const usingProxy = proxied !== thumbUrl;
+  const finalSrc = proxyFailed || !usingProxy ? thumbUrl : proxied;
+
+  return (
+    <div
+      ref={tilt.ref}
+      style={style}
+      onPointerMove={handlePointerMove}
+      onPointerLeave={handlePointerLeave}
+    >
+      {finalSrc ? (
+        <img
+          src={finalSrc}
+          alt={badge.name}
+          className={cn('rounded-lg object-cover', className)}
+          style={{ width: size, height: size }}
+          loading="lazy"
+          decoding="async"
+          onError={() => {
+            if (usingProxy && !proxyFailed) setProxyFailed(true);
+          }}
+        />
+      ) : (
+        <div
+          className={cn(
+            'rounded-lg border border-border bg-gradient-to-br from-primary/10 via-primary/5 to-transparent flex items-center justify-center',
+            className,
+          )}
+          style={{ width: size, height: size }}
+        >
+          <Award className="text-primary" style={{ width: size * 0.5, height: size * 0.5 }} />
+        </div>
+      )}
+    </div>
+  );
+}
+
+/** Pick the best thumbnail or image for a target pixel size. */
+function pickThumb(badge: BadgeData, targetSize: number): string | undefined {
+  const sorted = [...badge.thumbs].sort((a, b) => {
+    const aSize = parseDimension(a.dimensions);
+    const bSize = parseDimension(b.dimensions);
+    return aSize - bSize;
+  });
+
+  for (const thumb of sorted) {
+    const dim = parseDimension(thumb.dimensions);
+    if (dim >= targetSize) return thumb.url;
+  }
+
+  return sorted[sorted.length - 1]?.url ?? badge.image;
+}
+
+function parseDimension(dim?: string): number {
+  if (!dim) return 0;
+  const match = dim.match(/^(\d+)/);
+  return match ? parseInt(match[1], 10) : 0;
+}

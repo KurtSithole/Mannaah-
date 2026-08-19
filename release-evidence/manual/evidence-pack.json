@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-13T16:22:25.867Z",
+  "evidence": [
+    {
+      "name": "BITCOIN_RECONCILIATION",
+      "status": "NOT_RUN",
+      "executed_at": null,
+      "operator": null,
+      "environment": null,
+      "artifact": null,
+      "notes": ""
+    },
+    {
+      "name": "LIGHTNING_SETTLEMENT",
+      "status": "NOT_RUN",
+      "executed_at": null,
+      "operator": null,
+      "environment": null,
+      "artifact": null,
+      "notes": ""
+    },
+    {
+      "name": "SIGNER_RECOVERY",
+      "status": "NOT_RUN",
+      "executed_at": null,
+      "operator": null,
+      "environment": null,
+      "artifact": null,
+      "notes": ""
+    },
+    {
+      "name": "PRIVACY_REVIEW",
+      "status": "NOT_RUN",
+      "executed_at": null,
+      "operator": null,
+      "environment": null,
+      "artifact": null,
+      "notes": ""
+    },
+    {
+      "name": "BACKUP_RESTORE",
+      "status": "NOT_RUN",
+      "executed_at": null,
+      "operator": null,
+      "environment": null,
+      "artifact": null,
+      "notes": ""
+    },
+    {
+      "name": "STAGING_E2E",
+      "status": "NOT_RUN",
+      "executed_at": null,
+      "operator": null,
+      "environment": null,
+      "artifact": null,
+      "notes": ""
+    },
+    {
+      "name": "PRODUCTION_DEPLOYMENT",
+      "status": "NOT_RUN",
+      "executed_at": null,
+      "operator": null,
+      "environment": null,
+      "artifact": null,
+      "notes": ""
+    }
+  ]
+}

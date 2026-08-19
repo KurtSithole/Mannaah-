@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <title>Agora — Give Without Borders.</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, interactive-widget=resizes-content" />
+    <meta name="description" content="Agora — the world's first Borderless Micro-Philanthropy Network. Give directly to people and causes anywhere in the world with Bitcoin. No borders, no middlemen, no platform fees." />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Mannaah" />
+    <meta property="og:description" content="Give Without Borders. The world's first Borderless Micro-Philanthropy Network, powered by Bitcoin and Nostr." />
+    <meta property="og:image" content="https://agora.spot/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://agora.spot" />
+    <meta property="og:site_name" content="Mannaah" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Mannaah" />
+    <meta name="twitter:description" content="Give Without Borders. The world's first Borderless Micro-Philanthropy Network, powered by Bitcoin and Nostr." />
+    <meta name="twitter:image" content="https://agora.spot/og-image.jpg" />
+
+    <meta http-equiv="content-security-policy" content="default-src 'none'; script-src 'self' 'wasm-unsafe-eval'; worker-src 'self' blob:; child-src 'self' blob:; style-src 'self' 'unsafe-inline'; frame-src 'self' https:; font-src 'self' https:; base-uri 'self'; manifest-src 'self'; connect-src 'self' blob: https: wss:; img-src 'self' data: blob: https:; media-src 'self' blob: https:">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <meta name="theme-color" content="#0a0c14" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#ff6600" media="(prefers-color-scheme: light)">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <style>@keyframes agora-spin{to{transform:rotate(360deg)}}</style>
+  </head>
+  <body style="margin:0;background:hsl(0 0% 10%)">
+    <!-- Pre-React loading screen. Lives OUTSIDE #root so React doesn't
+         touch it. Removed by main.tsx once the app has mounted. -->
+    <div id="preloader" style="position:fixed;inset:0;z-index:9999;display:flex;align-items:center;justify-content:center;background:hsl(0 0% 10%)">
+      <div style="display:flex;flex-direction:column;align-items:center;gap:24px">
+        <div data-logo style="width:48px;height:48px;background:hsl(14 79% 58%);-webkit-mask:url(/logo.svg) center/contain no-repeat;mask:url(/logo.svg) center/contain no-repeat"></div>
+        <div data-spinner style="width:24px;height:24px;border:2.5px solid hsl(14 79% 58% / 0.25);border-top-color:hsl(14 79% 58%);border-radius:50%;animation:agora-spin .7s linear infinite"></div>
+      </div>
+    </div>
+    <!-- Blocking script: reads theme from localStorage and applies it
+         before first paint so the preloader matches the user's theme. -->
+    <script src="/theme.js"></script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

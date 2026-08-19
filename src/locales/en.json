@@ -1,0 +1,3523 @@
+{
+  "donateCallback": {
+    "successTitle": "Payment received",
+    "successDescription": "Thank you for your donation! It will appear shortly.",
+    "cancelTitle": "Payment canceled",
+    "cancelDescription": "Your donation was not completed."
+  },
+  "tor": {
+    "status": {
+      "disabled": "Off",
+      "connecting": "Connecting…",
+      "connected": "Connected",
+      "failed": "Connection failed"
+    },
+    "banner": {
+      "connecting": "Connecting to Tor — content won't load until it's ready.",
+      "failed": "Couldn't connect to Tor — content is blocked until it connects.",
+      "retry": "Try again"
+    }
+  },
+  "common": {
+    "loading": "Loading…",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "continue": "Continue",
+    "refresh": "Refresh",
+    "search": "Search",
+    "filter": "Filter",
+    "clear": "Clear",
+    "submit": "Submit",
+    "confirm": "Confirm",
+    "copied": "Copied",
+    "goBack": "Go back",
+    "tryAgain": "Please try again.",
+    "showLess": "Show less",
+    "readMore": "Read more",
+    "byAuthor": "by <0>{{name}}</0>",
+    "clearSearch": "Clear search",
+    "searching": "Searching…",
+    "searchResultsCount_one": "{{count}} result",
+    "searchResultsCount_other": "{{count}} results",
+    "sortAriaLabel": "Sort order",
+    "sortDefault": "Default",
+    "sortTop": "Top",
+    "sortNew": "New",
+    "showHidden": "Show hidden",
+    "filtersAriaLabel": "Search filters",
+    "countryFilterAriaLabel": "Filter by country",
+    "countrySearchPlaceholder": "Search countries…",
+    "countryNoResults": "No countries found.",
+    "countryGlobal": "Global"
+  },
+  "imageCrop": {
+    "title": "Crop Image",
+    "reset": "Reset",
+    "hint": "Drag to reposition · Pinch or scroll to zoom",
+    "cancel": "Cancel",
+    "processing": "Processing…",
+    "apply": "Apply Crop"
+  },
+  "translate": {
+    "translate": "Translate",
+    "translating": "Translating…",
+    "showOriginal": "Show original",
+    "error": "Translation failed"
+  },
+  "nav": {
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "brandHome": "{{appName}} home",
+    "activity": "Activity",
+    "campaigns": "Campaigns",
+    "groups": "Groups",
+    "pledge": "Pledge",
+    "search": "Search",
+    "language": "Language",
+    "dashboard": "Dashboard",
+    "myDashboard": "My Dashboard",
+    "wallet": "Wallet",
+    "walletBalanceHidden": "Wallet balance hidden",
+    "notifications": "Notifications",
+    "messages": "Messages",
+    "profile": "Profile",
+    "settings": "Settings",
+    "about": "About",
+    "sponsors": "Sponsors",
+    "verify": "Verify",
+    "privacy": "Privacy",
+    "safety": "Safety",
+    "changelog": "Changelog",
+    "sourceCode": "Source code",
+    "getApp": "Get the app",
+    "issues": "Issues"
+  },
+  "messages": {
+    "title": "Messages",
+    "subtitle": "Your private encrypted direct messages.",
+    "conversations": "Conversations",
+    "empty": "No messages yet. Conversations you have will appear here.",
+    "selectPrompt": "Select a conversation to read your messages.",
+    "composePlaceholder": "Write a message…",
+    "send": "Send",
+    "sendFailed": "Failed to send message",
+    "youPrefix": "You:",
+    "encryptedSent": "Encrypted message",
+    "encryptedReceived": "Encrypted message",
+    "decryptFailed": "Unable to decrypt this message.",
+    "unsupported": "Your current login method does not support encrypted direct messages.",
+    "searchConversation": "Search conversation",
+    "searchPlaceholder": "Search messages",
+    "noSearchResults": "No matching messages.",
+    "visitProfile": "Visit {{name}}'s profile",
+    "muteUser": "Mute {{name}}",
+    "muteDialogTitle": "Mute {{name}}?",
+    "muteDialogDescription": "This will add {{name}} to your mute list and remove this conversation from Messages. You can unmute them later from your mute list.",
+    "confirmMute": "Mute user",
+    "mutedToastTitle": "User muted",
+    "mutedToastDescription": "{{name}} was muted and the conversation was removed.",
+    "muteFailed": "Failed to mute user",
+    "showFriendsOnly": "Show messages from people you follow",
+    "showAllConversations": "Show all conversations",
+    "friendsEmpty": "No messages from people you follow.",
+    "translateDialogTitle": "Translate private messages?",
+    "translateDialogDescription": "Received messages will be sent to your configured translation service. Sent messages will not be translated. Agora will remember this choice on this device.",
+    "confirmTranslate": "Translate messages",
+    "newMessage": "New message",
+    "newMessageTitle": "New message",
+    "recipientLabel": "To",
+    "recipientPlaceholder": "Search by name, NIP-05, or npub…",
+    "recipientHint": "Search for someone to start a new conversation.",
+    "recipientSearching": "Searching…",
+    "noRecipientResults": "No people found. Try a different name, NIP-05, or npub.",
+    "recipientFollowed": "You follow this person"
+  },
+  "auth": {
+    "join": "Join",
+    "login": "Log in",
+    "signup": "Sign up",
+    "logout": "Log out",
+    "addAccount": "Add another account",
+    "createNewAccount": "Create account",
+    "or": "or",
+    "loginExisting": "Log in with existing",
+    "loginTitle": "Log in",
+    "connectSignerTitle": "Connect signer",
+    "back": "Back",
+    "secretKeyLabel": "Use secret key",
+    "nsecPlaceholder": "nsec1…",
+    "loginInputPlaceholder": "nsec1… or bunker://…",
+    "uploadKeyFile": "Upload key file",
+    "loggingIn": "Logging in…",
+    "loginWithExtension": "Log in with extension",
+    "useRemoteSigner": "Use a remote signer",
+    "tryAgain": "Try again",
+    "cancel": "Cancel",
+    "openSignerApp": "Open signer app",
+    "enterBunkerManually": "Enter bunker URI manually",
+    "bunkerPlaceholder": "bunker://…",
+    "moreLoginOptions": "More login options",
+    "scanSignerPrompt": "Scan with a signer app to log in.",
+    "invalidBunkerFormat": "Invalid bunker URI format.",
+    "connecting": "Connecting…",
+    "connect": "Connect",
+    "waitingForSigner": "Waiting for signer connection…",
+    "gettingPublicKey": "Getting public key…",
+    "errorEnterLoginInput": "Enter your secret key or bunker URI.",
+    "errorInvalidLoginInput": "Enter a valid nsec1… key or bunker://… URI.",
+    "errorEnterSecretKey": "Enter your secret key.",
+    "errorInvalidSecretKey": "Invalid secret key. Must start with nsec1.",
+    "errorLoginFailed": "Couldn't log in with this key.",
+    "errorFileNoKey": "File does not contain a valid secret key.",
+    "errorFileRead": "Failed to read file.",
+    "errorExtensionFailed": "Extension login failed.",
+    "errorBunkerConnect": "Failed to connect. Check the bunker URI.",
+    "extensionErrorTitle": "Extension login failed"
+  },
+  "onboarding": {
+    "ariaLabel": "Account setup",
+    "close": "Close",
+    "back": "Back",
+    "role": {
+      "title": "What brings you here?",
+      "subtitle": "You can do both later. This just helps us tailor the next steps.",
+      "creator": {
+        "title": "Start a campaign",
+        "description": "Raise Bitcoin for a cause you care about.",
+        "finderNote": "Donors send sats directly to your wallet."
+      },
+      "donor": {
+        "title": "Give to campaigns",
+        "description": "Support causes with Bitcoin.",
+        "finderNote": "100% of your donation goes to the campaign."
+      },
+      "verifier": {
+        "title": "Verify campaigns",
+        "description": "Vouch for campaigns as an organization.",
+        "finderNote": "Donors see badge on campaigns you trust."
+      }
+    },
+    "keygen": {
+      "title": "Your key is your identity",
+      "description": "We'll generate a secret key just for you. It's the only way to log in — no email, no password.",
+      "generatingTitle": "Creating your key…",
+      "generatingDescription": "This only takes a moment.",
+      "button": "Generate my key"
+    },
+    "secure": {
+      "title": "Save your key",
+      "subtitle": "Download the file and store it somewhere safe. A password manager works well.",
+      "couplingNote": "Your account and your wallet share this key. It signs your Nostr posts and opens your Bitcoin wallet on Agora.",
+      "permanenceHeadline": "There's no way to recover this key if you lose it.",
+      "permanenceBody": "No reset, no support line, no email recovery. Save it before continuing.",
+      "button": "Download & continue",
+      "downloadFailedTitle": "Download failed",
+      "downloadFailedDescription": "Could not download the key file. Please copy it manually.",
+      "secretKeyAriaLabel": "Secret key"
+    },
+    "verify": {
+      "title": "Confirm your key",
+      "subtitle": "Paste or upload the key you just saved. This makes sure your backup works before you continue.",
+      "placeholder": "nsec1…",
+      "inputAriaLabel": "Paste your secret key",
+      "or": "or",
+      "uploadButton": "Upload key file",
+      "mismatch": "That doesn't match the key you just saved. Check your backup and try again.",
+      "fileInvalid": "That file doesn't contain a valid secret key.",
+      "fileReadFailed": "Could not read that file. Please try again."
+    },
+    "profile": {
+      "title": "Make it yours",
+      "subtitle": "Tell others a bit about yourself. All optional, change it any time.",
+      "campaignTitle": "Put a face to your campaign",
+      "campaignSubtitle": "A name and photo help people connect with your campaign.",
+      "nameLabel": "Display name",
+      "namePlaceholder": "Your name",
+      "campaignNamePlaceholder": "Campaign title",
+      "aboutLabel": "Bio",
+      "aboutPlaceholder": "A little about you…",
+      "avatarLabel": "Avatar",
+      "uploadAvatar": "Upload avatar",
+      "advanced": "More",
+      "finish": "Finish",
+      "saving": "Saving…",
+      "skip": "Skip for now",
+      "imageOnly": "Please select an image.",
+      "imageTooLarge": "Image too large (max 5MB).",
+      "uploadFailed": "Upload failed.",
+      "publishFailedTitle": "Profile setup failed",
+      "publishFailedDescription": "Your account was created but the profile could not be saved. You can update it later."
+    },
+    "verifier": {
+      "identity": {
+        "title": "Set up your organization",
+        "subtitle": "Name and logo are required. Website and banner are optional.",
+        "websiteInvalid": "Enter a valid website starting with https://",
+        "cropAvatar": "Crop logo",
+        "cropBanner": "Crop banner",
+        "uploading": "Uploading image…",
+        "clipboardFailed": "Couldn't read from clipboard.",
+        "pasteUrlInvalid": "Clipboard doesn't contain a valid https URL.",
+        "pasteUrlFetchFailed": "Couldn't load that image. Check the URL and try again."
+      },
+      "bio": {
+        "title": "Tell us about your organization",
+        "subtitle": "A short description for your profile.",
+        "label": "About your organization",
+        "placeholder": "We're a nonprofit that…",
+        "publishing": "Saving your profile…"
+      },
+      "publishFailedTitle": "Profile not saved",
+      "publishFailedDescription": "Your account is ready, but the organization profile couldn't be published. You can finish it later from settings.",
+      "statement": {
+        "title": "Publish your verifier statement",
+        "subtitle": "Describe how you vet campaigns before vouching. Published publicly so donors can trust your badge."
+      },
+      "howto": {
+        "title": "How to verify a campaign",
+        "subtitle": "You're all set. Here's how to vouch for a campaign once you've checked it out.",
+        "finish": "View campaigns"
+      }
+    }
+  },
+  "feed": {
+    "indexTagline": "Give Without Borders.",
+    "getApp": {
+      "eyebrow": "Get the app",
+      "title": "{{appName}} for Android",
+      "subtitle": "The full {{appName}} experience",
+      "download": "Download"
+    },
+    "compose": {
+      "placeholder": "What's happening?"
+    },
+    "tabs": {
+      "follows": "Follows",
+      "following": "Following",
+      "global": "Global"
+    },
+    "empty": {
+      "homeAgora": "Quiet moment on Agora. New campaigns, pledges, donations, and posts will appear here as they happen.",
+      "homeFollowingLoggedIn": "Your follow feed is empty. Follow some people to see what they're up to, or switch to Agora or Global.",
+      "homeFollowingLoggedOut": "Log in to see posts from people you follow.",
+      "homeOther": "Nothing to show. Check your relay connections or try again in a moment.",
+      "follows": "Your feed is empty. Follow some people to see their posts here.",
+      "global": "No posts found. Check your relay connections or come back soon.",
+      "browseAgora": "Browse the Latest feed",
+      "browseGlobal": "Browse the Global feed",
+      "discoverPeople": "Discover people to follow",
+      "logIn": "Log in"
+    },
+    "error": {
+      "toast": "Couldn't load the feed. Check your connection and try again.",
+      "loadFailed": "Couldn't load the feed. This is usually a slow or unreachable relay — your content is still there.",
+      "retry": "Try again"
+    },
+    "modeSwitcher": {
+      "agora": "Latest",
+      "allNostr": "Global",
+      "following": "Following",
+      "ariaLabel": "Feed mode: {{label}}. Click to change.",
+      "loginRequired": "Log in to see posts from people you follow"
+    },
+    "replyContext": {
+      "replyingTo": "Replying to",
+      "and": "and",
+      "andOthers_one": "and {{count}} other",
+      "andOthers_other": "and {{count}} others"
+    },
+    "actions": {
+      "reply": "Reply",
+      "repost": "Repost",
+      "undoRepost": "Undo repost",
+      "react": "React",
+      "zap": "Zap",
+      "share": "Share",
+      "more": "More",
+      "linkCopied": "Link copied to clipboard"
+    }
+  },
+  "compose": {
+    "placeholderDefault": "What's happening?",
+    "placeholderPoll": "Ask a question…",
+    "placeholderCountry": "What's happening in {{country}}?",
+    "placeholderCwReason": "Content warning reason (optional)",
+    "submitDefault": "Post!",
+    "preview": {
+      "edit": "Edit",
+      "previewMode": "Preview"
+    },
+    "autocomplete": {
+      "campaignFallback": "Campaign"
+    },
+    "poll": {
+      "addOption": "Add option",
+      "optionLabel": "Option {{number}}",
+      "singleChoice": "Single choice",
+      "multipleChoice": "Multiple choice",
+      "backToPost": "Back to post",
+      "publishing": "Publishing...",
+      "publish": "Publish poll",
+      "published": "Poll published!",
+      "publishFailed": "Failed to publish poll."
+    },
+    "voice": {
+      "cancel": "Cancel",
+      "send": "Send",
+      "sending": "Sending...",
+      "sentTitle": "Voice message sent!",
+      "sentBody": "Your voice message has been published.",
+      "sendFailed": "Failed to send voice message.",
+      "micDeniedTitle": "Microphone access denied",
+      "micDeniedBody": "Please allow microphone access to record voice messages.",
+      "voiceMessage": "Voice message"
+    },
+    "toolbar": {
+      "attachFile": "Attach file",
+      "emojiGif": "Emoji / GIF",
+      "more": "More",
+      "poll": "Poll",
+      "spoiler": "Spoiler",
+      "emoji": "Emoji",
+      "stickers": "Stickers"
+    },
+    "submit": {
+      "posting": "Posting...",
+      "uploadFailed": "Upload failed",
+      "uploadFailedBody": "Could not upload file.",
+      "publishFailed": "Failed to publish note.",
+      "posted": "Posted!",
+      "replyPublished": "Your reply has been published.",
+      "quotePublished": "Your quote has been published.",
+      "notePublished": "Your note has been published."
+    },
+    "destination": {
+      "label": "Post to",
+      "ariaHelp": "What's the difference between global and community posts?",
+      "ariaTrigger": "Post destination",
+      "global": "Global",
+      "globalExplainer": "A regular post visible to everyone on Nostr. Anyone, anywhere can see it.",
+      "community": "Your country community",
+      "communityExplainer": "Shown in that country's local feed alongside posts from neighbors. Best for community-relevant updates.",
+      "chooseAnother": "Choose another country…",
+      "searchPlaceholder": "Search countries...",
+      "noResults": "No countries found.",
+      "isDefault": "{{name}} is your default",
+      "globalIsDefault": "Global is your default",
+      "thisIsDefault": "This is your default",
+      "setAsDefault": "Set as default",
+      "defaultUpdated": "Default updated",
+      "defaultUpdatedCountry": "New posts will go to {{name}} by default.",
+      "defaultUpdatedGlobal": "New posts will be global by default."
+    }
+  },
+  "replyModal": {
+    "title": {
+      "newPoll": "New poll",
+      "newComment": "New comment",
+      "commentOnProfile": "Comment on profile",
+      "replyToPost": "Reply to post",
+      "quotePost": "Quote post",
+      "newPost": "New post"
+    },
+    "placeholder": {
+      "writeComment": "Write a comment...",
+      "writeReply": "Write a reply...",
+      "addComment": "Add a comment...",
+      "whatsHappening": "What's happening?"
+    },
+    "blueskyDisclaimer": "People on Bluesky can't see you because they're not actually decentralized."
+  },
+  "postDetail": {
+    "repliesHeading": "Replies",
+    "commentsHeading": "Comments",
+    "replyCount_one": "reply",
+    "replyCount_other": "replies",
+    "commentCount_one": "comment",
+    "commentCount_other": "comments"
+  },
+  "noteCard": {
+    "botAccount": "Bot account",
+    "showLess": "Show less",
+    "readMore": "Read more",
+    "reacted": "reacted",
+    "reposted": "reposted",
+    "voted": "voted",
+    "zap": {
+      "donatedTo": "Donated to",
+      "donatedAmountTo": "Donated {{amount}} to",
+      "sat_one": "{{formattedCount}} sat",
+      "sat_other": "{{formattedCount}} sats"
+    },
+    "stream": {
+      "untitled": "Untitled Stream",
+      "live": "LIVE",
+      "ended": "ENDED",
+      "planned": "PLANNED",
+      "unknown": "UNKNOWN"
+    },
+    "kindHeader": {
+      "photo": {
+        "action": "shared a",
+        "noun": "photo"
+      },
+      "encryptedMessage": {
+        "action": "sent an",
+        "noun": "encrypted message"
+      },
+      "letter": {
+        "action": "sent a",
+        "noun": "letter"
+      },
+      "treasureHidCreated": "hid a",
+      "treasureHidUpdated": "updated a",
+      "treasureNoun": "treasure",
+      "treasureFound": "found a",
+      "deckCreated": "created a",
+      "deckUpdated": "updated a",
+      "deckFallback": "shared a",
+      "deckNoun": "deck",
+      "emojiPackCreated": "created an",
+      "emojiPackUpdated": "updated an",
+      "emojiPackFallback": "shared an",
+      "emojiPackNoun": "emoji pack",
+      "groupCreated": "created a",
+      "groupUpdated": "updated a",
+      "groupFallback": "shared a",
+      "groupNoun": "group",
+      "campaignLaunched": "launched a",
+      "campaignUpdated": "updated a",
+      "campaignFallback": "shared a",
+      "campaignNoun": "campaign",
+      "badgeAwarded": "awarded a",
+      "badgeNoun": "badge",
+      "badgeCreated": "created a",
+      "badgeDefUpdated": "updated a",
+      "badgesNoun": "badges",
+      "badgesCreatedTheir": "created their",
+      "badgesUpdatedTheir": "updated their",
+      "streamingLive": "is streaming",
+      "streamed": "streamed",
+      "zapstoreAppPublished": "published a Zapstore app",
+      "zapstoreAppUpdated": "updated a Zapstore app",
+      "zapstoreReleasePublished": "published a Zapstore release",
+      "zapstoreReleaseUpdated": "updated a Zapstore release",
+      "zapstoreAssetPublished": "published a Zapstore asset",
+      "appPublished": "published an app",
+      "appUpdated": "updated an app",
+      "repoCreated": "created a",
+      "repoUpdated": "updated a",
+      "repoFallback": "shared a",
+      "repoNoun": "repository",
+      "patchSubmitted": "submitted a",
+      "patchNoun": "patch",
+      "prOpened": "opened a",
+      "prNoun": "pull request",
+      "nipProposed": "proposed a",
+      "nipUpdated": "updated a",
+      "nipNoun": "NIP",
+      "nsiteDeployed": "deployed an",
+      "nsiteRedeployed": "redeployed an",
+      "nsiteNoun": "nsite",
+      "zapped": "zapped",
+      "pledgeCreated": "created a",
+      "pledgeUpdated": "updated a",
+      "pledgeNoun": "pledge",
+      "followPackCreated": "created a",
+      "followPackUpdated": "updated a",
+      "followPackFallback": "shared a",
+      "followPackNoun": "follow pack",
+      "followSetCreated": "created a",
+      "followSetUpdated": "updated a",
+      "followSetFallback": "shared a",
+      "followSetNoun": "follow set"
+    }
+  },
+  "embedCampaign": {
+    "iframeTitle": "Agora fundraiser campaign",
+    "notFound": "Campaign not found.",
+    "dialogTitle": "Embed this campaign",
+    "dialogDescription": "Choose a widget, preview it, then paste the code into your site.",
+    "variantLabel": "Widget",
+    "variant": {
+      "card": "Card",
+      "donate": "Donate",
+      "full": "Full"
+    },
+    "themeLabel": "Theme",
+    "snippetLabel": "Embed code",
+    "openStandalone": "Open in new tab",
+    "viewOnAgora": "View on Agora"
+  },
+  "noteMoreMenu": {
+    "title": "Post options",
+    "viewPost": "View post details",
+    "embedWidget": "Embed widget",
+    "viewEventJson": "View Event JSON",
+    "bookmark": "Bookmark",
+    "removeBookmark": "Remove Bookmark",
+    "addToList": "Add to list",
+    "addToSidebar": "Add to sidebar",
+    "removeFromSidebar": "Remove from sidebar",
+    "pinProfile": "Pin on profile",
+    "unpinProfile": "Unpin from profile",
+    "pinCountry": "Pin to country feed",
+    "unpinCountry": "Unpin from country feed",
+    "mute": "Mute @{{name}}",
+    "unmute": "Unmute @{{name}}",
+    "report": "Report @{{name}}",
+    "reportToGroup": "Report post to group",
+    "removeFromGroup": "Remove from group",
+    "delete": "Delete post",
+    "close": "Close",
+    "encryptedContent": "Encrypted content",
+    "toast": {
+      "removedFromSidebar": "Removed from sidebar",
+      "addedToSidebar": "Added to sidebar",
+      "pinned": "Pinned to profile",
+      "unpinned": "Unpinned from profile",
+      "pinFailed": "Failed to update pinned posts",
+      "countryPinned": "Pinned to country feed",
+      "countryUnpinned": "Unpinned from country feed",
+      "countryPinFailed": "Failed to pin to country feed",
+      "countryUnpinFailed": "Failed to unpin from country feed",
+      "muted": "Muted @{{name}}",
+      "unmuted": "Unmuted @{{name}}",
+      "muteFailed": "Failed to mute user",
+      "unmuteFailed": "Failed to unmute user",
+      "postDeleted": "Post deleted",
+      "deleteFailed": "Failed to delete post",
+      "eventBroadcast": "Event broadcast to relays",
+      "broadcastFailed": "Failed to broadcast event",
+      "copied": "{{label}} copied to clipboard",
+      "embedCopied": "Embed code copied to clipboard"
+    },
+    "deleteDialog": {
+      "title": "Delete post?",
+      "description": "This will request deletion from relays. Some relays may still keep a copy of the original event. This action cannot be undone.",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "deleting": "Deleting..."
+    },
+    "jsonDialog": {
+      "title": "Event Details",
+      "eventId": "Event ID",
+      "eventIdLabel": "Event ID",
+      "rawJson": "Raw JSON",
+      "eventJsonLabel": "Event JSON",
+      "broadcast": "Broadcast Event",
+      "broadcasting": "Broadcasting..."
+    }
+  },
+  "content": {
+    "title": "Content",
+    "description": "Manage muted users, hashtags, and words.",
+    "muted": {
+      "heading": "Muted Content",
+      "subheading": "You decide what shows up in your feeds. Remove an item to unmute it. Mutes are encrypted and private.",
+      "empty": "You haven't muted anyone yet.",
+      "removed": "Removed from mute list",
+      "removeFailed": "Failed to remove from mute list",
+      "removeAria": "Remove mute for {{value}}",
+      "types": {
+        "pubkey": "Users",
+        "hashtag": "Hashtags",
+        "word": "Words",
+        "thread": "Threads"
+      }
+    }
+  },
+  "mutedGuard": {
+    "title": "Muted Content",
+    "description": "This post is from someone you've muted.",
+    "showAnyway": "Show Anyway",
+    "manageMutes": "Manage muted content"
+  },
+  "policyPages": {
+    "privacy": {
+      "seoTitle": "Privacy Policy",
+      "seoDescription": "Privacy policy for {{appName}} — how your data is handled on the Nostr network",
+      "title": "Privacy Policy"
+    },
+    "csae": {
+      "seoTitle": "Child Safety Policy",
+      "seoDescription": "{{appName}}'s policy on child sexual abuse and exploitation (CSAE) — our commitment to child safety on the Nostr network",
+      "title": "Child Safety Policy"
+    },
+    "donorGuide": {
+      "seoTitle": "Donor Guide",
+      "seoDescription": "How donating works on {{appName}} and how to protect your privacy.",
+      "title": "Donor Guide",
+      "subtitle": "Real Bitcoin, sent directly. The whole flow in one short page."
+    },
+    "recipientGuide": {
+      "seoTitle": "Recipient Guide",
+      "seoDescription": "How to receive donations on {{appName}} and cash out privately.",
+      "title": "Recipient Guide",
+      "subtitle": "Pick what to accept, receive donations, cash out."
+    },
+    "changelog": {
+      "seoTitle": "Changelog",
+      "seoDescription": "What's new in {{appName}}",
+      "title": "Changelog",
+      "loadError": "Failed to load changelog.",
+      "empty": "No releases yet.",
+      "pastReleases": "Past releases",
+      "showLess": "Show less",
+      "readMore": "Read more",
+      "preReleaseLabel": "Pre-release build",
+      "preReleaseBody": "This build contains changes not yet included in a release.",
+      "viewUnreleased": "View unreleased changes",
+      "categories": {
+        "Added": "Added",
+        "Changed": "Changed",
+        "Deprecated": "Deprecated",
+        "Removed": "Removed",
+        "Fixed": "Fixed",
+        "Security": "Security"
+      }
+    }
+  },
+  "about": {
+    "seoTitle": "About",
+    "seoDescription": "{{appName}} is the world's first Borderless Micro-Philanthropy Network — direct, person-to-person giving powered by Bitcoin and Nostr.",
+    "hero": {
+      "eyebrow": "About {{appName}}",
+      "headlinePart1": "How",
+      "headlineAppName": "{{appName}}",
+      "headlinePart2": "works.",
+      "body": "{{appName}} is the world's first Borderless Micro-Philanthropy Network. It lets anyone, anywhere, give directly to people and causes anywhere in the world with Bitcoin — no borders, no intermediaries, no platform fees. No frozen bank accounts, no corporate shut-downs. Just direct support from people who believe in your cause.",
+      "trustChips": {
+        "decentralized": "Decentralized",
+        "openSource": "Open source",
+        "censorshipResistant": "Censorship resistant"
+      },
+      "ctaDonor": "Read the Donor Guide",
+      "ctaRecipient": "Read the Recipient Guide",
+      "sampleCard": {
+        "countryName": "Venezuela",
+        "public": "Public",
+        "imageAlt": "Venezuelans at a candlelight vigil holding a sign reading 'Liberen a todos los presos políticos · ¡Cese la represión!'",
+        "orgName": "Venezolanos Libres",
+        "title": "Free Venezuela's Political Prisoners",
+        "description": "Legal defense and family support for 800+ political prisoners detained by the Maduro regime.",
+        "raised": "raised",
+        "ofGoal": "of $10,000",
+        "donorsLine": "247 donors · 12 countries",
+        "donate": "Donate Bitcoin"
+      }
+    },
+    "howItWorks": {
+      "eyebrow": "How it works",
+      "title": "Three steps. No middleman.",
+      "lede": "No banks, no borders, no permission.",
+      "step1": {
+        "imageAlt": "A glowing orange cryptographic key floating in dark space, symbolizing self-sovereign identity",
+        "title": "Recipients sign up in seconds.",
+        "body": "No bank. No paperwork. No approval. The moment a recipient creates an account on {{appName}}, they have a Bitcoin address ready to receive support, anywhere in the world."
+      },
+      "step2": {
+        "imageAlt": "A glowing Bitcoin coin flying through the air across a dark world map, symbolizing instant cross-border payment",
+        "title": "Donors send Bitcoin directly.",
+        "body": "Donors send Bitcoin from any wallet they already use (Cash App, Coinbase, Strike, a hardware wallet) straight to the recipient. {{appName}} never touches the money. No server in the middle, no custodian."
+      },
+      "step3": {
+        "imageAlt": "An open hand with warm orange light radiating from the palm, symbolizing receiving and agency",
+        "title": "Support lands where it matters.",
+        "body": "Funds arrive at the recipient directly. They keep custody, they keep control. Move it, swap it, or spend it; the guides below explain how to do it privately and safely."
+      }
+    },
+    "twoWays": {
+      "eyebrow": "Bitcoin · One QR, two options",
+      "title": "Two ways to get paid.",
+      "lede": "Both options are Bitcoin. The difference is what you trade off for privacy. When a recipient creates a campaign, they choose which options to accept. If both, the donation page shows a single QR code that works for any wallet.",
+      "public": {
+        "kicker": "Bitcoin Public Payments",
+        "tagline": "Universal · Fast · Transparent",
+        "title": "Works with every wallet on earth.",
+        "description": "Donations land at a regular Bitcoin address the recipient controls. Anyone with any Bitcoin wallet can send. No new app, no new account, no learning curve.",
+        "bullet1": "Works in every Bitcoin wallet: Cash App, Coinbase, Strike, hardware",
+        "bullet2": "Fastest settlement: Bitcoin confirmations only",
+        "bullet3": "Verifiable on-chain: anyone can see what a recipient has received",
+        "tradeoffTitle": "Trade-off: Public on-chain.",
+        "tradeoffIntro": "Every donation is public on the Bitcoin blockchain and on Nostr. {{appName}} is recommended only for above-ground campaigns. If you or your donors require extreme privacy, including from state actors, read the <0>Donor Guide</0> and <1>Recipient Guide</1> before participating."
+      },
+      "silent": {
+        "kicker": "Bitcoin Silent Payments",
+        "tagline": "Unlinkable · Direct · BIP-352",
+        "title": "Unlinkable, on-chain, direct.",
+        "description": "Donations are sent as BIP-352 silent payments. Each one lands at a fresh, unlinkable Bitcoin output that an observer staring at the blockchain can't tie back to the campaign.",
+        "bullet1": "Donation trail can't be reconstructed on-chain",
+        "bullet2": "Protects recipients facing serious adversaries",
+        "bullet3": "Kept in a separate private balance, never mixed with public funds",
+        "tradeoffTitle": "Trade-off: Silent payments are early.",
+        "tradeoffIntro": "The most private way to receive Bitcoin on-chain, but the ecosystem is young and rough today:",
+        "tradeoffBullet1": "Few wallets support it.",
+        "tradeoffBullet2": "Receiving is slow.",
+        "tradeoffBullet3": "No push notifications.",
+        "tradeoffBullet4": "Wallets are still buggy.",
+        "tradeoffBullet5": "Donation counts aren't public."
+      },
+      "noCustody": {
+        "title": "No custody. No middleman.",
+        "body": "{{appName}} never holds funds. Donations move wallet-to-wallet on Bitcoin. There's no server standing between donor and recipient on either option. If {{appName}} disappeared tomorrow, every campaign would keep working.",
+        "gofundme": {
+          "heading": "Unlike GoFundMe",
+          "body": "No platform can freeze your donations, demand refunds, or terminate your campaign over policy disagreements."
+        },
+        "givesendgo": {
+          "heading": "Unlike GiveSendGo",
+          "body": "No payment processor sits in the middle, so no Stripe, no Visa, no bank can cut you off mid-campaign."
+        },
+        "otherBitcoin": {
+          "heading": "Unlike other ‘Bitcoin’ platforms",
+          "body": "No central Lightning node, custodian, or LSP to fail or go offline. Funds settle directly on-chain to a wallet you control."
+        }
+      }
+    },
+    "faq": {
+      "eyebrow": "Questions",
+      "title": "Frequently asked.",
+      "chapter1": {
+        "label": "Getting started",
+        "description": "What Agora is, who built it, and what it costs."
+      },
+      "chapter2": {
+        "label": "Bitcoin donations",
+        "description": "How payments work, why on-chain, why public, why these trade-offs."
+      },
+      "chapter3": {
+        "label": "About Nostr",
+        "description": "The open protocol Agora is built on, and how your account works."
+      },
+      "chapter4": {
+        "label": "Verification & trust",
+        "description": "What the verified badge means, who grants it, and how to judge a campaign yourself."
+      }
+    },
+    "guides": {
+      "eyebrow": "Guides",
+      "title": "Pick the side you're on.",
+      "lede": "Whether you're sending or receiving, learn how to do it safely and privately.",
+      "donor": {
+        "imageAlt": "Hooded protesters marching through a European city street at dusk, holding burning red flares and 'FREEDOM' and 'LIBERTAD' banners",
+        "role": "For Donors",
+        "title": "Support causes the banks won't.",
+        "description": "Send Bitcoin directly to recipients and movements anywhere in the world, without asking a payment processor for permission.",
+        "bullet1": "Use any Bitcoin wallet you already have.",
+        "bullet2": "Donations land directly with the recipient. No custodian, no middleman.",
+        "bullet3": "For privacy, use a wallet that supports silent payments.",
+        "cta": "Read the Donor Guide"
+      },
+      "recipient": {
+        "imageAlt": "Aerial view of thousands of protesters gathered at night in a city square with burning red flares, beneath a 'UNITY IN DARKNESS' banner projected on the surrounding buildings",
+        "role": "For Recipients",
+        "title": "Get funded without permission.",
+        "description": "Receive support directly from people who believe in your cause. No bank account, no application form, no company in the middle.",
+        "bullet1": "Start receiving donations as soon as you sign up.",
+        "bullet2": "Pick which payment types to accept: public, silent payments, or both.",
+        "bullet3": "For private cash-out, send to a silent-payments wallet first, then forward anywhere.",
+        "cta": "Read the Recipient Guide"
+      },
+      "stillStuck": "Still stuck?",
+      "followTeam": "Follow Team Soapbox on Nostr",
+      "stillStuckSuffix": ". We triage questions there."
+    }
+  },
+  "corporateSponsorship": {
+    "seoTitle": "Corporate Sponsorship",
+    "seoDescription": "Partner with {{appName}} to fund causes that matter. Donate to Agora Cause Funds, match donations to campaigns you care about, or promote {{appName}} to your customers as part of your philanthropic initiatives.",
+    "hero": {
+      "eyebrow": "Partner with {{appName}}",
+      "headlinePart1": "Fund what",
+      "headlineHighlight": "matters.",
+      "body": "{{appName}} connects donors directly to causes through Bitcoin. No frozen accounts, no middlemen, no platform taking a cut. Bring the same uncensorable, transparent giving to your company's philanthropy.",
+      "trustChips": {
+        "nonCustodial": "Non-custodial",
+        "transparent": "Transparent on-chain",
+        "noFees": "No platform fees"
+      },
+      "ctaPrimary": "Get in touch",
+      "ctaSecondary": "See the ways to partner"
+    },
+    "intro": {
+      "eyebrow": "Why partner",
+      "title": "Corporate giving that aligns with your goals",
+      "lede": "Direct, transparent, and verifiable. Giving your company can stand behind.",
+      "cards": {
+        "bitcoin": {
+          "title": "Bitcoin-native platform",
+          "body": "Donations settle on the Bitcoin blockchain. Borderless, unstoppable, and verifiable by anyone."
+        },
+        "verified": {
+          "title": "Verified campaign funds",
+          "body": "Every campaign is vetted and verified before funds are distributed."
+        },
+        "fees": {
+          "title": "No platform fees",
+          "body": "100% of your gift reaches the cause. We take nothing."
+        }
+      }
+    },
+    "ways": {
+      "eyebrow": "Ways to get involved",
+      "title": "Three ways to partner",
+      "lede": "Pick the level of involvement that fits your company, or combine all three.",
+      "causeFunds": {
+        "kicker": "01 · Direct support",
+        "title": "Donate to {{appName}} Cause Funds",
+        "description": "Collective pools for the causes you care about. {{appName}} distributes them to verified, trusted campaigns.",
+        "bullet1": "Give in Bitcoin (BTC) or US dollars (USD)",
+        "bullet2": "Pooled with other donors for bigger impact",
+        "bullet3": "Distributed to verified, trusted campaigns",
+        "cta": "Explore Cause Funds"
+      },
+      "matching": {
+        "kicker": "02 · Multiply impact",
+        "title": "Match donations to campaigns",
+        "description": "Commit a matching pool and we will double every donor's gift up to your cap. Choose exactly what your company stands behind:",
+        "bullet1": "Match an individual campaign you care about",
+        "bullet2": "Match a featured or staff-picked campaign",
+        "bullet3": "Match {{appName}} Cause Funds to multiply your impact across multiple campaigns",
+        "cta": "Set up a match"
+      },
+      "promote": {
+        "kicker": "03 · Amplify",
+        "title": "Promote {{appName}} to your customers",
+        "description": "Invite your customers to give alongside you and turn your reach into real funding for causes.",
+        "bullet1": "Co-branded campaigns and drives",
+        "bullet2": "Checkout round-ups and match prompts",
+        "bullet3": "On-chain reports customers can verify",
+        "cta": "Plan a campaign"
+      }
+    },
+    "fundsShowcase": {
+      "eyebrow": "Cause Funds",
+      "title": "{{appName}} Verified Campaign Funds",
+      "lede": "Each fund pools donations and distributes them to verified campaigns.",
+      "browseAll": "or browse all campaigns"
+    },
+    "cta": {
+      "eyebrow": "Let's talk",
+      "title": "Ready to put your company behind a cause?",
+      "body": "Tell us how you'd like to get involved and we'll help you set up the right partnership: a Cause Fund gift, a matching pool, or a customer campaign.",
+      "button": "Contact the {{appName}} team",
+      "followLine": "Prefer Nostr?",
+      "followLink": "Follow Team Soapbox",
+      "followSuffix": " and send us a message."
+    }
+  },
+  "partners": {
+    "partnersTitle": "Build in collaboration with:",
+    "pressTitle": "As seen in:"
+  },
+  "forms": {
+    "required": "Required",
+    "recommended": "Recommended",
+    "optional": "Optional",
+    "title": "Title",
+    "country": "Country",
+    "tags": "Tags",
+    "coverImage": "Cover image",
+    "description": "Description",
+    "timezone": "Timezone",
+    "publishing": "Publishing…",
+    "uploadingCover": "Uploading cover…",
+    "countrySearchPlaceholder": "Search countries",
+    "countryClearAria": "Clear country",
+    "flagOfAria": "Flag of {{name}}",
+    "countryHint": "Publishes <0>i: iso3166:{{code}}</0> for country sorting.",
+    "imageDropzone": "Click or drag an image here"
+  },
+  "organizationContext": {
+    "attachedToGroup": "Attached to group",
+    "groupFallback": "Group",
+    "editSubtext": "Updates will stay connected to this group's official activity.",
+    "malformedParam": "Couldn't read the group in the link. Publishing under your account.",
+    "checkingPermissions": "Checking group permissions…",
+    "unauthorized": "You aren't a founder or moderator of that group. Publishing under your account.",
+    "publishingAsGroup": "Publishing as group"
+  },
+  "notFound": {
+    "title": "404 - Page Not Found",
+    "description": "The page you are looking for could not be found.",
+    "heading": "This page doesn't exist.",
+    "goHome": "Go home"
+  },
+  "pledges": {
+    "list": {
+      "seoTitle": "Pledges",
+      "seoTitleWithCountry": "Pledges — {{country}}",
+      "seoDescription": "Pledge funding for concrete actions, evidence, or outcomes you want to inspire.",
+      "heroKicker": "Pledge",
+      "heroHeading": "Inspire the change",
+      "heroHeadingLine2": "you want to see.",
+      "heroBody": "Fund concrete actions, evidence, and outcomes. People reply with submissions, and the community rewards the work that moves the goal forward.",
+      "openCount_one": "pledge open right now",
+      "openCount_other": "pledges open right now",
+      "createPledge": "Create pledge",
+      "loginToCreate": "Log in to create a pledge",
+      "myPledges": "My pledges",
+      "myPledgesTagline": "Pledges you've created.",
+      "featuredPledges": "Featured pledges",
+      "featuredPledgesTagline": "Pledges highlighted by the {{appName}} team.",
+      "allPledges": "Pledges",
+      "allPledgesTagline": "Highlighted by moderators. Search or sort to browse every pledge.",
+      "sectionActive": "Active pledges",
+      "sectionUpcoming": "Upcoming pledges",
+      "sectionPast": "Past pledges",
+      "sectionDefault": "Pledges",
+      "sectionTagline": "Help fund the actions worth making.",
+      "searchPlaceholder": "Search pledges…",
+      "searchAriaLabel": "Search pledges",
+      "noMatch": "No pledges match “{{query}}”",
+      "noMatchHint": "Try a different search term, or clear the search.",
+      "sortAriaLabel": "Sort",
+      "sortBy": "Sort by",
+      "sortRecent": "Most recent",
+      "sortBounty": "Highest pledge",
+      "sortDeadline": "Deadline soon",
+      "sortDeadlinePast": "Recently ended",
+      "filterAriaLabel": "Filter by country",
+      "countrySearchPlaceholder": "Search…",
+      "noResults": "No results found.",
+      "global": "Global",
+      "dividerUpcoming": "Upcoming",
+      "dividerPast": "Past",
+      "showLess": "Show less",
+      "showMore": "Show more ({{count}} more)",
+      "emptyTitle": "No pledges yet",
+      "emptyHint": "Be the first to create a pledge.",
+      "emptyHintCountry": "Be the first to create a pledge for {{country}}.",
+      "needsReview": "Needs review",
+      "needsReviewDesc": "{{appName}} pledges that haven't been featured or hidden yet. Lift one into the Featured shelf or suppress it with Hide.",
+      "needsReviewEmpty": "Nothing awaiting review.",
+      "hidden": "Hidden",
+      "hiddenDesc": "Pledges suppressed from public discovery. Use the kebab menu on a card to unhide.",
+      "hiddenEmpty": "No pledges are currently hidden."
+    },
+    "card": {
+      "ended": "Ended",
+      "pledged": "Pledged",
+      "byAuthor": "by <0>{{name}}</0>",
+      "actionsAriaLabel": "Pledge actions",
+      "deletePledge": "Delete pledge",
+      "copyLink": "Copy link",
+      "linkCopied": "Link copied",
+      "linkCopyFailed": "Failed to copy link",
+      "confirmDelete": "Delete this pledge? This cannot be undone.",
+      "deleted": "Pledge deleted",
+      "deletedContent": "Deleted pledge",
+      "deleteFailed": "Failed to delete pledge"
+    },
+    "create": {
+      "seoTitle": "Create pledge",
+      "seoDescription": "Create a donor pledge to inspire concrete action on {{appName}}.",
+      "loginGateTitle": "Log in to create a pledge",
+      "loginGateBody": "Pledges are signed Nostr events. You need a Nostr login to publish one.",
+      "heading": "Create pledge",
+      "title": "Title",
+      "titlePlaceholder": "Document a beach cleanup",
+      "country": "Country",
+      "countryPlaceholder": "Search countries",
+      "tags": "Tags",
+      "coverImage": "Cover image",
+      "description": "Description",
+      "descriptionPlaceholder": "Explain the action, evidence, or outcome you want to inspire, what submissions should include, and how you plan to evaluate them...",
+      "pledge": "Pledge",
+      "pledgeAmountPlaceholder": "100",
+      "deadline": "Deadline",
+      "timezone": "Timezone",
+      "timezoneNote": "Start and deadline times will be interpreted in this timezone.",
+      "submit": "Create pledge",
+      "altText": "{{appName}} pledge: {{title}}",
+      "successToast": "Pledge created",
+      "errorToast": "Could not create pledge",
+      "errorLoginRequired": "You must be logged in to create a pledge.",
+      "errorTitleRequired": "Title is required.",
+      "errorDescriptionRequired": "Description is required.",
+      "errorPledgeRequired": "Pledge amount is required.",
+      "errorPledgeInvalid": "Pledge amount must be a positive USD amount.",
+      "errorPriceUnavailable": "Waiting for BTC/USD price to calculate the pledge amount.",
+      "errorCoverInvalid": "Cover image must be a valid https:// URL.",
+      "errorDeadlinePast": "Deadline cannot be in the past.",
+      "wizard": {
+        "titleStepTitle": "Name your pledge",
+        "titleStepSubtitle": "A clear ask and a short explanation of what you'll fund.",
+        "pledgeStepTitle": "Set your pledge",
+        "pledgeStepSubtitle": "How much you'll pay, in USD, and an optional deadline.",
+        "coverStepTitle": "Add a cover image",
+        "coverStepSubtitle": "One image carries the pledge on every card.",
+        "tagsStepTitle": "Country and categories",
+        "tagsStepSubtitle": "Help the right people find your pledge.",
+        "launchNow": "Skip Next & Launch"
+      }
+    },
+    "detail": {
+      "seoTitle": "{{title}} | {{appName}} Pledge",
+      "seoFallbackTitle": "Pledge | {{appName}}",
+      "deadlineEndedOn": "Ended {{date}}",
+      "deadlineEndsToday": "Ends today",
+      "deadlineDaysLeft_one": "{{count}} day left",
+      "deadlineDaysLeft_other": "{{count}} days left",
+      "deadlineEndsOn": "Ends {{date}}",
+      "openEnded": "Open-ended",
+      "back": "Back",
+      "backToPledges": "Back to pledges",
+      "loadingPledge": "Loading pledge…",
+      "pledge": "Pledge",
+      "byAuthor": "by <0>{{name}}</0>",
+      "submitLabel": "Submit",
+      "linkCopied": "Link copied to clipboard",
+      "pinnedToast": "Pinned to pledge",
+      "unpinnedToast": "Unpinned from pledge",
+      "pinFailed": "Failed to update pledge pins",
+      "submissions": "Submissions",
+      "submissionCount_one": "{{count}} submission",
+      "submissionCount_other": "{{count}} submissions",
+      "submissionPlaceholder": "Share proof, evidence, or completed work...",
+      "noSubmissionsTitle": "No submissions yet",
+      "noSubmissionsHint": "Be the first to reply with proof, evidence, or completed work.",
+      "funded": "funded",
+      "ofPledged": "of {{amount}} pledged",
+      "trustNote": "This pledge is trust-based. Funding progress sums zaps and donation receipts on top-level submissions.",
+      "share": "Share",
+      "storyHeading": "The pledge",
+      "storyEmpty": "The pledger hasn't written details for this pledge yet."
+    }
+  },
+  "groups": {
+    "list": {
+      "seoTitle": "Groups",
+      "seoDescription": "Discover and join groups on Nostr",
+      "heroKicker": "Groups",
+      "heroHeading": "Strength",
+      "heroHeadingLine2": "in numbers.",
+      "heroBody": "Create groups, gather members, and keep up with what your spaces are doing.",
+      "createGroup": "Create a group",
+      "createGroupLoginTitle": "Log in to create a group",
+      "createGroupLoginBody": "Creating a group publishes a Nostr event from your account.",
+      "myGroups": "My groups",
+      "myGroupsTagline": "Groups you've founded, moderate, or follow.",
+      "featuredGroups": "Featured groups",
+      "featuredGroupsTagline": "Standout groups worth your attention.",
+      "allGroups": "Groups",
+      "allGroupsTagline": "Highlighted by moderators. Search or sort to browse every group.",
+      "searchPlaceholder": "Search groups…",
+      "searchAriaLabel": "Search groups",
+      "noMatch": "No groups match “{{query}}”",
+      "noMatchHint": "Try a different search term, or clear the search.",
+      "loginToSeeTitle": "Log in to see your groups",
+      "loginToSeeBody": "Groups you've founded or moderate will appear here.",
+      "noGroupsTitle": "No groups yet",
+      "noGroupsBody": "Create your own group to start coordinating campaigns, pledges, and events with your people.",
+      "noFeaturedTitle": "No featured groups yet",
+      "noFeaturedBody": "{{appName}} moderators feature standout groups here. Check back soon.",
+      "connectingRelays": "Connecting to relays…",
+      "showLess": "Show less",
+      "showMore": "Show {{count}} more",
+      "needsReview": "Needs review",
+      "needsReviewDesc": "{{appName}} groups that haven't been featured or hidden yet. Lift one into the Featured shelf or suppress it with Hide.",
+      "needsReviewEmpty": "Nothing awaiting review.",
+      "hidden": "Hidden",
+      "hiddenDesc": "Groups suppressed from public discovery. Use the kebab menu on a card to unhide.",
+      "hiddenEmpty": "No groups are currently hidden.",
+      "tickerCampaignsRaised_one": "raised on-chain across {{count}} campaign",
+      "tickerCampaignsRaised_other": "raised on-chain across {{count}} campaigns",
+      "tickerFeaturedGroups_one": "featured group on Nostr",
+      "tickerFeaturedGroups_other": "featured groups on Nostr",
+      "tickerCountries_one": "country posting today",
+      "tickerCountries_other": "countries posting today"
+    },
+    "create": {
+      "seoTitleCreate": "Create group",
+      "seoTitleEdit": "Edit group",
+      "seoDescriptionCreate": "Start a new group on {{appName}}.",
+      "seoDescriptionEdit": "Update your group on {{appName}}.",
+      "loginGateTitle": "Log in to start a group",
+      "loginGateBody": "Groups are signed Nostr events. You need a Nostr login to publish one.",
+      "invalidEditTitle": "Invalid edit link",
+      "invalidEditBody": "This group edit link is missing a valid group address.",
+      "startNewGroup": "Start a new group",
+      "loadingGroup": "Loading group…",
+      "cannotEditTitle": "Group cannot be edited",
+      "cannotEditBody": "Only the founder of this group can update it.",
+      "headingCreate": "Create group",
+      "headingEdit": "Edit group",
+      "name": "Name",
+      "namePlaceholder": "e.g. The Arbiter's Guard",
+      "urlPreview": "URL preview:",
+      "urlPlaceholder": "your-group-name",
+      "urlKeptOriginal": "(kept from original)",
+      "description": "Description",
+      "descriptionPlaceholder": "What is this group about?",
+      "country": "Country",
+      "countryPlaceholder": "Search countries",
+      "tags": "Tags",
+      "tagsPlaceholder": "mutual-aid, local-news, digital-rights",
+      "coverImage": "Cover image",
+      "moderators": "Moderators",
+      "moderatorsCount": "Moderators ({{count}})",
+      "removeModeratorAria": "Remove {{name}}",
+      "submitCreate": "Create group",
+      "submitEdit": "Update group",
+      "creating": "Creating…",
+      "updating": "Updating…",
+      "uploadingCover": "Uploading cover…",
+      "altText": "Group: {{name}}",
+      "successCreate": "Group created!",
+      "successEdit": "Group updated!",
+      "errorTitleCreate": "Could not create group",
+      "errorTitleEdit": "Could not update group",
+      "errorLoginRequired": "You must be logged in to create a group.",
+      "errorEditLoadFailed": "Group could not be loaded for editing.",
+      "errorEditNotOwner": "Only the group founder can edit this group.",
+      "errorNameRequired": "Name is required.",
+      "errorNameInvalid": "Name must include letters or numbers so a group URL can be created.",
+      "errorEditLatestMissing": "Could not find the latest version of this group to update.",
+      "errorCoverInvalid": "Cover image must be a valid https:// URL.",
+      "errorSlugCollision": "You already have a group with the identifier \"{{slug}}\". Choose another name.",
+      "wizard": {
+        "nameStepTitle": "Name your group",
+        "nameStepSubtitle": "A short, clear name members will recognize.",
+        "coverStepTitle": "Add a cover image",
+        "coverStepSubtitle": "One image carries the group on every card.",
+        "moderatorsStepTitle": "Invite moderators",
+        "moderatorsStepSubtitle": "Optional — they can approve content and remove members alongside you.",
+        "tagsStepTitle": "Country and categories",
+        "tagsStepSubtitle": "Help the right people find your group.",
+        "launchNow": "Skip Next & Launch"
+      }
+    },
+    "detail": {
+      "by": "by",
+      "byAuthor": "by {{name}}",
+      "members": "Members",
+      "viewMembers": "View members",
+      "moreMembers": "+{{count}} more",
+      "about": "About",
+      "comments": "Comments",
+      "comment": "Comment",
+      "commentNoun_one": "comment",
+      "commentNoun_other": "comments",
+      "noCommentsTitle": "No comments yet",
+      "noCommentsHint": "Be the first to start a discussion.",
+      "noMembersFound": "No members found.",
+      "founder": "Founder",
+      "moderator": "Moderator",
+      "moreActions": "More actions",
+      "editGroup": "Edit group",
+      "deleteGroup": "Delete group",
+      "officialActivity": "Official activity",
+      "officialTools": "Official tools",
+      "startSomething": "Start something",
+      "officialToolsDescription": "Give {{name}} a concrete next step.",
+      "launchCampaign": "Launch a campaign",
+      "launchCampaignDescription": "Raise funds with an official group page.",
+      "campaign": "Campaign",
+      "pledge": "Pledge",
+      "pledgeDescription": "Offer help people can act on.",
+      "event": "Event",
+      "eventDescription": "Bring supporters together.",
+      "untitledEvent": "Untitled event",
+      "interestedCount_one": "{{count}} person interested",
+      "interestedCount_other": "{{count}} people interested",
+      "allDay": "All-day"
+    }
+  },
+  "campaignsCreate": {
+    "seoTitleCreate": "Start a campaign",
+    "seoTitleEdit": "Edit campaign",
+    "seoDescriptionCreate": "Launch a fundraising campaign on {{appName}}.",
+    "seoDescriptionEdit": "Update your fundraising campaign on {{appName}}.",
+    "loginGateTitle": "Log in to start a campaign",
+    "loginGateBody": "Campaigns are signed Nostr events. You need a Nostr login to publish one.",
+    "invalidEditTitle": "Invalid edit link",
+    "invalidEditBody": "This campaign edit link is missing a valid campaign address.",
+    "startNewCampaign": "Start a new campaign",
+    "loadingCampaign": "Loading campaign…",
+    "cannotEditTitle": "Campaign cannot be edited",
+    "cannotEditBody": "Only the author of this campaign can update it.",
+    "headingCreate": "Start a campaign",
+    "headingEdit": "Edit campaign",
+    "editTabs": {
+      "details": "Details",
+      "funding": "Funding",
+      "discovery": "Discovery"
+    },
+    "title": "Title",
+    "titlePlaceholder": "Save the Last Bookstore",
+    "wallet": "Bitcoin wallet",
+    "myWalletLabel": "{{name}}'s wallet",
+    "myWalletDefault": "My wallet",
+    "walletHeroNote": "Donations flow straight into your own Agora wallet.\nNo middleman.",
+    "walletHeroReassurance": "You hold the key, so you hold the funds. Withdraw any time from the wallet tab.",
+    "walletChoose": "Choose a wallet",
+    "walletCustom": "Custom wallet",
+    "walletUseCustom": "Use a custom wallet instead",
+    "walletUseMine": "Use my Agora wallet",
+    "acceptHeading": "What donations will you accept?",
+    "acceptUnavailable": "Not available with this login.",
+    "acceptAllTitle": "Any donation",
+    "acceptPublicTitle": "Public donations only",
+    "acceptPrivateTitle": "Private donations only",
+    "acceptAllHint": "Take both public and private donations.",
+    "acceptPublicHint": "Donors give to a regular Bitcoin address. These donations are visible to anyone.",
+    "acceptPrivateHint": "Donors give privately, so their identity stays hidden from the public.",
+    "customWalletIntro": "Fill in whichever donations you want to accept: a public address, a private code, or both. At least one is required.",
+    "customOnchainMeaning": "Public. Anyone can see these donations.",
+    "customSpMeaning": "Private. The donor's identity stays hidden.",
+    "bitcoinAddress": "Bitcoin address",
+    "bitcoinAddressPlaceholder": "bc1q… or bc1p…",
+    "silentPaymentCode": "Silent-payment code",
+    "silentPaymentCodePlaceholder": "sp1…",
+    "onchainInvalid": "Not a recognized mainnet Bitcoin address (bc1q… / bc1p…).",
+    "spInvalid": "Not a recognized BIP-352 silent-payment code (sp1…).",
+    "country": "Country",
+    "countryPlaceholder": "Search countries",
+    "tags": "Tags",
+    "tagsPlaceholder": "legal-defense, mutual-aid, local-news",
+    "categories": {
+      "humanRights": "Human Rights",
+      "democracy": "Democracy",
+      "pressFreedom": "Press Freedom",
+      "politicalPrisoners": "Political Prisoners",
+      "humanitarianAid": "Humanitarian Aid",
+      "civilResistance": "Civil Resistance",
+      "digitalRights": "Digital Rights",
+      "antiCorruption": "Anti-Corruption",
+      "womenGirls": "Women & Girls",
+      "refugees": "Refugees & Exiles",
+      "legalAid": "Legal Aid",
+      "emergencyRelief": "Emergency Relief",
+      "animalRights": "Animal Rights",
+      "education": "Education",
+      "medical": "Medical",
+      "community": "Community"
+    },
+    "banner": "Banner image",
+    "story": "Story",
+    "storyPlaceholder": "Share the background, who benefits, and how funds will be used.",
+    "goal": "Goal",
+    "goalPlaceholder": "100",
+    "goalNote": "Whole US Dollars. Donors pay in Bitcoin; clients estimate the USD-equivalent at view time.",
+    "payUrl": "Card payment link",
+    "payUrlOptional": "(optional)",
+    "payUrlPlaceholder": "https://pay.example.com/your-campaign",
+    "payUrlNote": "An external checkout page (e.g. Stripe) where donors can pay by card. Card donations settle off-Agora and don't count toward your raised total.",
+    "submitCreate": "Launch campaign",
+    "submitEdit": "Update campaign",
+    "publishing": "Publishing…",
+    "updating": "Updating…",
+    "uploadingBanner": "Uploading banner…",
+    "altText": "Fundraising campaign: {{title}}",
+    "successCreate": "Campaign launched",
+    "successCreateDesc": "Your fundraiser is live.",
+    "successEdit": "Campaign updated",
+    "successEditDesc": "Your fundraiser changes are live.",
+    "categoryLimitTitle": "You can only select {{count}} tags",
+    "categoryLimitDesc": "Remove a tag before adding another. Campaigns are limited to {{count}} tags.",
+    "errorTitleCreate": "Could not publish campaign",
+    "errorTitleEdit": "Could not update campaign",
+    "errorLoginRequired": "You must be logged in to create a campaign.",
+    "errorEditLoadFailed": "Campaign could not be loaded for editing.",
+    "errorEditNotOwner": "Only the campaign author can edit this campaign.",
+    "errorTitleRequired": "Title is required.",
+    "errorTitleInvalid": "Title must include letters or numbers so a campaign URL can be created.",
+    "errorSlugInvalid": "Identifier must be lowercase letters, numbers, and hyphens.",
+    "errorHdUnavailable": "Built-in wallet is unavailable for this login.",
+    "errorSpUnavailable": "Silent-payment address is unavailable for this login.",
+    "errorOnchainInvalid": "The on-chain address is not a recognized mainnet bech32(m) address (bc1q… / bc1p…).",
+    "errorSpInvalid": "The silent-payment code is not a recognized BIP-352 code (sp1…).",
+    "errorWalletRequired": "Provide at least one wallet endpoint — a Bitcoin mainnet address (bc1q… / bc1p…) or a silent-payment code (sp1…).",
+    "errorGoalInvalid": "Goal must be a positive whole-dollar amount.",
+    "errorPayUrlInvalid": "Card payment link must be a valid https:// URL.",
+    "errorEditLatestMissing": "Could not find the latest version of this campaign to update.",
+    "errorSlugCollision": "You already have a campaign with the identifier \"{{slug}}\". Choose another.",
+    "errorBannerInvalid": "Banner must be a valid https:// URL.",
+    "errorHdDeriveFailed": "Could not derive a fresh on-chain address from your wallet.",
+    "errorHdDeriveInvalid": "Derived wallet address failed validation. Please add a custom address instead.",
+    "errorWalletRequiredFallback": "Wallet endpoint is required.",
+    "errorPublishedInvalid": "Published event failed validation. Please refresh and try again.",
+    "wizard": {
+      "titleStepTitle": "Name your campaign",
+      "titleStepSubtitle": "A short, clear name and a striking banner donors will recognize.",
+      "walletStepTitle": "Where do donations go?",
+      "walletStepSubtitle": "Pick your Agora wallet or paste your own address.",
+      "bannerStepTitle": "Add a banner",
+      "bannerStepSubtitle": "One striking image carries the campaign on every card.",
+      "storyStepTitle": "Tell your story",
+      "storyStepSubtitle": "Who benefits and how the funds will be used.",
+      "goalStepTitle": "Goal",
+      "goalStepSubtitle": "Optional — leave blank for an open-ended campaign.",
+      "tagsStepTitle": "Country and categories",
+      "tagsStepSubtitle": "Help the right people find your campaign.",
+      "next": "Next",
+      "back": "Back",
+      "skip": "Skip",
+      "launchNow": "Skip Next & Launch"
+    }
+  },
+  "campaignsDetail": {
+    "seoTitle": "{{title}} | {{appName}} Fundraisers",
+    "seoDescriptionFallback": "Support {{title}} on {{appName}}.",
+    "back": "Back",
+    "edit": "Edit",
+    "delete": "Delete",
+    "deleting": "Deleting…",
+    "openCover": "Open cover image",
+    "byAuthor": "by <0>{{name}}</0>",
+    "commentLabel": "Comment",
+    "linkCopied": "Link copied to clipboard",
+    "pinnedToast": "Pinned to campaign",
+    "unpinnedToast": "Unpinned from campaign",
+    "pinFailed": "Failed to update campaign pins",
+    "deletedToast": "Campaign deleted",
+    "deletedToastDesc": "A deletion request was published. Well-behaved relays will drop the campaign from feeds.",
+    "deleteErrorTitle": "Could not delete campaign",
+    "campaigner": "Campaigner",
+    "repost_one": "<0>{{formattedCount}}</0> Repost",
+    "repost_other": "<0>{{formattedCount}}</0> Reposts",
+    "quote_one": "<0>{{formattedCount}}</0> Quote",
+    "quote_other": "<0>{{formattedCount}}</0> Quotes",
+    "like_one": "<0>{{formattedCount}}</0> Like",
+    "like_other": "<0>{{formattedCount}}</0> Likes",
+    "tabComments": "Comments & donations",
+    "tabLedger": "Ledger",
+    "ledger": {
+      "publicAddress": "Public address",
+      "viewOnMempool": "View on mempool.space",
+      "openOnMempool": "Open transaction on mempool.space",
+      "unconfirmed": "Unconfirmed",
+      "block": "Block {{height}}",
+      "btcUnit": "BTC",
+      "empty": "No on-chain activity yet for this address.",
+      "error": "Couldn't load on-chain activity. Try again in a moment.",
+      "loadMore": "Load more",
+      "loadingMore": "Loading…",
+      "donated": "Donated",
+      "withdrawn": "Withdrawn"
+    },
+    "tombstone": {
+      "seoTitle": "Archived campaign | {{appName}}",
+      "title": "This campaign is no longer available",
+      "deletedNotice": "The organizer removed this campaign on {{date}}. It no longer accepts donations.",
+      "unavailableNotice": "This campaign was removed or is no longer available from your relays. It no longer accepts donations.",
+      "archiveIntro": "The donation receipts published to Nostr are preserved below as a public record.",
+      "receiptsHeading": "Donation archive",
+      "totalRecorded": "Total recorded: {{amount}}",
+      "unverifiedCaveat": "Amounts are as claimed in donors' signed receipts. Because the campaign and its wallet address were removed, they can no longer be verified on-chain."
+    },
+    "noCommentsTitle": "No comments yet",
+    "noCommentsHint": "Be the first to leave a message of support.",
+    "deleteDialogTitle": "Delete this campaign?",
+    "deleteDialogBody": "This publishes a NIP-09 deletion request. Well-behaved relays will drop the campaign from feeds and direct links. Past donation receipts stay on-chain regardless. This action cannot be undone — to keep accepting donations, edit the campaign instead.",
+    "storyHeading": "The story",
+    "donate": "Donate",
+    "share": "Share",
+    "target": "Target: {{amount}}",
+    "raised": "raised",
+    "raisedPublicly": "raised publicly",
+    "ofGoal": "of {{amount}} goal",
+    "goalAmount": "{{amount}} goal",
+    "beFirstDonor": "Be the first donor!",
+    "privateCampaign": "Private campaign",
+    "privateMayAddMore": "Private donations may add more",
+    "donationCount_one": "{{count}} donation",
+    "donationCount_other": "{{count}} donations",
+    "paymentCount_one": "{{count}} unstoppable payment",
+    "paymentCount_other": "{{count}} unstoppable payments",
+    "openInWallet": "Open external wallet",
+    "payWithAgoraWallet": "Pay with Agora",
+    "payWithCard": "Pay with card",
+    "openInWalletToast": {
+      "title": "Looking for a wallet app…",
+      "body": "If nothing opens, copy the payment link above and paste it in your wallet."
+    },
+    "paymentUri": "Payment URI",
+    "copyLabelAction": "Copy {{label}}",
+    "copiedLabel": "{{label}} copied",
+    "copyFailed": "Copy failed",
+    "copyFailedBody": "Select and copy the value manually."
+  },
+  "noBitcoin": {
+    "trigger": "Don't have Bitcoin?",
+    "title": "No Bitcoin yet?",
+    "description": "Buy Bitcoin from one of these services, then send it to this campaign's address.",
+    "buyOn": "Buy on",
+    "mayBeUnavailable": "May be unavailable in your region",
+    "onramp": {
+      "descGlobalExchange": "Global exchange",
+      "descBitcoinApp": "Bitcoin payments app",
+      "descLatam": "Latin America",
+      "descEurope": "Europe",
+      "descAfrica": "Africa",
+      "descIndia": "India",
+      "descPhilippines": "Philippines",
+      "descP2p": "Peer-to-peer, no signup"
+    }
+  },
+  "campaignVerification": {
+    "verifiedBy": "Verified by",
+    "verifiedLabel": "Verified",
+    "verifiedByCount_zero": "Verified by {{count}} people",
+    "verifiedByCount_one": "Verified by {{count}} person",
+    "verifiedByCount_two": "Verified by {{count}} people",
+    "verifiedByCount_few": "Verified by {{count}} people",
+    "verifiedByCount_many": "Verified by {{count}} people",
+    "verifiedByCount_other": "Verified by {{count}} people",
+    "verifyCampaign": "Verify this campaign",
+    "removeVerification": "Remove my verification",
+    "dialogTitle": "Verify this campaign",
+    "attestation": "By verifying this campaign you attest that the campaign is authentic and true. You know the campaign organizer personally or have verified meaningfully that their claims are true. Beware of impersonators and scammers.",
+    "verified": "Campaign verified",
+    "unverified": "Verification removed",
+    "actionFailed": "Action failed",
+    "unverifiedBanner": "This campaign has not been verified by a trusted source.",
+    "unverifiedBannerReadMore": "Learn more"
+  },
+  "campaignHidden": {
+    "title": "This campaign has been hidden",
+    "body": "This campaign has been hidden by Agora moderators, usually because it looks like spam, a scam, or an impersonation. You can still choose to view it.",
+    "learnMore": "Learn more",
+    "back": "Back",
+    "proceed": "Proceed anyway"
+  },
+  "calendarEvents": {
+    "create": {
+      "seoTitle": "Create event",
+      "seoDescription": "Create a calendar event on {{appName}}.",
+      "loginTitle": "Log in to create an event",
+      "loginBody": "Events are signed Nostr events. You need a Nostr login to publish one.",
+      "heading": "Create event",
+      "titlePlaceholder": "Neighborhood cleanup",
+      "descriptionPlaceholder": "Tell people what to expect, what to bring, and who should attend...",
+      "schedule": "Schedule",
+      "allDay": "All-day event",
+      "allDayHint": "Turn off to add start and end times.",
+      "startDate": "Start date",
+      "endDate": "End date",
+      "startTime": "Start time",
+      "endTime": "End time",
+      "locationDetails": "Location details",
+      "locationPlaceholder": "Address, venue, or video call link",
+      "tagsPlaceholder": "mutual-aid, workshop, local-news",
+      "submit": "Create event",
+      "successToast": "Event created",
+      "errorToast": "Could not create event",
+      "altCalendar": "Calendar event: {{title}}",
+      "altGroup": "Group event: {{title}}",
+      "errorLoginRequired": "You must be logged in to create an event.",
+      "errorTitleRequired": "Title is required.",
+      "errorStartDateRequired": "Start date is required.",
+      "errorStartDatePast": "Start date cannot be in the past.",
+      "errorStartTimeRequired": "Start time is required for timed events.",
+      "errorCoverInvalid": "Cover image must be a valid https:// URL.",
+      "errorEndDateBeforeStart": "End date must be on or after the start date.",
+      "errorStartDateTimeInvalid": "Start date or time is invalid.",
+      "errorEndTimeAfterStart": "End time must be after the start time."
+    },
+    "detail": {
+      "untitledEvent": "Untitled event",
+      "dateNotSpecified": "Date not specified",
+      "organizer": "Organizer",
+      "rsvpUpdated": "RSVP updated",
+      "rsvpFailed": "Failed to update RSVP",
+      "rsvp": "RSVP",
+      "youAreGoing": "You are going",
+      "youAreInterested": "You are interested",
+      "youCantGo": "You can't go",
+      "chooseRsvp": "Choose your RSVP",
+      "going": "Going",
+      "interested": "Interested",
+      "cantGo": "Can't Go",
+      "attendees": "Attendees",
+      "links": "Links",
+      "participants": "Participants",
+      "hostedBy": "hosted by",
+      "attendingCount_one": "{{count}} attending",
+      "attendingCount_other": "{{count}} attending",
+      "interestedCount_one": "{{count}} interested",
+      "interestedCount_other": "{{count}} interested",
+      "comment": "Comment",
+      "description": "Description",
+      "emptyDescription": "The organizer hasn't added a description for this event yet.",
+      "comments": "Comments",
+      "commentNoun_one": "comment",
+      "commentNoun_other": "comments",
+      "noCommentsTitle": "No comments yet",
+      "noCommentsHint": "Be the first to comment.",
+      "pinnedToast": "Pinned to event",
+      "unpinnedToast": "Unpinned from event",
+      "pinFailed": "Failed to update event pins"
+    }
+  },
+  "follow": {
+    "follow": "Follow",
+    "following": "Following",
+    "unfollow": "Unfollow",
+    "followed": "Followed",
+    "unfollowed": "Unfollowed",
+    "updateFailed": "Failed to update follow list"
+  },
+  "campaigns": {
+    "home": {
+      "seoTitle": "Fundraisers",
+      "seoDescription": "Give Without Borders. Direct, person-to-person giving powered by Bitcoin and Nostr.",
+      "heroTagline": "Fundraise<1></1>Without <0>Borders</0>",
+      "heroBody": "Support people and causes anywhere in the world with Bitcoin. Every gift goes straight to the recipient's wallet, with no borders, no middlemen, no chargebacks, and no platform holding the funds.",
+      "startCampaign": "Start a campaign",
+      "verifyCampaigns": "Verify campaigns",
+      "howItWorks": "How it works",
+      "featuredTitle": "Featured Campaigns",
+      "featuredDesc": "Campaigns hand-picked by the {{appName}} team.",
+      "verifiedTitle": "Verified Campaigns",
+      "verifiedDesc": "Campaigns vouched for by trusted verifiers at the World Liberty Congress and {{appName}} team.",
+      "allCampaigns": "All campaigns",
+      "allCampaignsDesc": "Every campaign on the network, in chronological order.",
+      "browseAll": "Browse all campaigns",
+      "searchPlaceholder": "Search campaigns…",
+      "searchAriaLabel": "Search campaigns",
+      "noMatch": "No campaigns match “{{query}}”",
+      "noMatchHint": "Try a different search term, or clear the search.",
+      "hidden": "Hidden",
+      "hiddenDesc": "Campaigns suppressed from public discovery. Use the kebab menu on a card to unhide.",
+      "hiddenEmpty": "No campaigns are currently hidden.",
+      "yourCampaigns": "Your campaigns",
+      "yourCampaignsDesc": "Your campaigns are live on Nostr and donations work via the campaign link. Browse all campaigns at /campaigns; the {{appName}} team features a curated selection on the homepage.",
+      "empty": "No campaigns yet",
+      "emptyHint": "Be the first to start a fundraiser on {{appName}}. Tell your story, choose your beneficiaries, and share the link.",
+      "whyDifferent": {
+        "eyebrow": "Why {{appName}}",
+        "title": "Built different.",
+        "lede": "Direct Bitcoin from donor to recipient. No platform in the way, no custodian holding the bag, no permission required.",
+        "block1": {
+          "heading": "Unlike GoFundMe",
+          "body": "No platform can freeze your donations, demand refunds, or terminate your campaign over policy disagreements. No Stripe, no Visa, no bank sits in the middle and can cut you off mid-campaign.",
+          "bullet1": "Freeze-proof, no platform veto",
+          "bullet2": "No payment processor can pull the plug",
+          "bullet3": "Zero platform fees"
+        },
+        "block2": {
+          "heading": "Unlike other ‘Bitcoin’ platforms",
+          "body": "No central Lightning node, custodian, or LSP to fail or go offline. Funds settle directly on Bitcoin to a wallet you control. If {{appName}} disappeared tomorrow, every campaign would keep working.",
+          "bullet1": "No custodial wallet to drain or freeze",
+          "bullet2": "Settles on-chain to a wallet you own",
+          "bullet3": "Works even if {{appName}} vanishes"
+        },
+        "block3": {
+          "heading": "Public or private. Your choice.",
+          "body": "Recipients pick the receiving option that matches their threat model. Donors see a single QR; the wallet picks the right protocol.",
+          "publicLabel": "Public",
+          "publicSummary": "Works in every Bitcoin wallet. Fast and verifiable on-chain.",
+          "privateLabel": "Private",
+          "privateSummary": "BIP-352 silent payments. Donations land at unlinkable outputs."
+        },
+        "readMore": "Read the full breakdown"
+      }
+    },
+    "all": {
+      "title": "Campaigns",
+      "seoTitle": "All campaigns",
+      "description": "Browse every campaign published on Agora.",
+      "sectionTagline": "Featured campaigns first, then the rest of the network. Search or sort to refine.",
+      "newTitle": "New campaigns",
+      "newDesc": "Every other campaign on the network, newest first.",
+      "viewAll": "View all",
+      "viewAllCount": "View all {{count}}",
+      "heroKicker": "Campaigns",
+      "heroHeading": "Every cause,",
+      "heroHeadingLine2": "in one place.",
+      "heroBody": "Every fundraiser published on Nostr, gathered into one place. Browse the full network, find a cause that matters to you, and back it directly with Bitcoin.",
+      "campaignsCount_one": "campaign on the network",
+      "campaignsCount_other": "campaigns on the network",
+      "searchAriaLabel": "Search campaigns",
+      "searchPlaceholder": "Search campaigns…",
+      "clearSearch": "Clear search",
+      "sortAriaLabel": "Sort order",
+      "sortTop": "Top",
+      "sortNew": "New",
+      "showHidden": "Show hidden",
+      "startCampaign": "Start a campaign",
+      "verifyCampaigns": "Verify campaigns",
+      "noMatch": "No campaigns match “{{query}}”",
+      "noMatchHint": "Try a different search term, or clear the search to see every campaign.",
+      "allHidden": "No campaigns to show",
+      "allHiddenHint": "Every campaign on the network has been hidden by moderators. Toggle “Show hidden” to view them.",
+      "empty": "No campaigns yet",
+      "emptyHint": "No campaigns have been published yet. Be the first."
+    },
+    "lists": {
+      "stripAria": "Curated campaign topic lists",
+      "create": "New list",
+      "showMore": "Show {{count}} more",
+      "showLess": "Show less",
+      "createDesc": "Create a new topic list. Curate campaigns into it from any campaign page.",
+      "createSubmit": "Create list",
+      "createFailed": "Failed to create list",
+      "edit": "Edit list",
+      "editDesc": "Update the list's title, description, or icon.",
+      "editSubmit": "Save changes",
+      "updateFailed": "Failed to update list",
+      "delete": "Delete list",
+      "deleteFailed": "Failed to delete list",
+      "deleteConfirmTitle": "Delete this list?",
+      "deleteConfirmDesc": "\"{{title}}\" will be removed from the topic strip. The campaigns themselves are not affected.",
+      "titleField": "Title",
+      "titlePlaceholder": "e.g. Press Freedom",
+      "descriptionField": "Description",
+      "descriptionPlaceholder": "A short blurb explaining what belongs in this list.",
+      "iconField": "Icon",
+      "coverField": "Cover image",
+      "menuAria": "{{title}} list options",
+      "listActions": "List actions",
+      "memberMenuAria": "Campaign list options",
+      "backToCampaigns": "Back to campaigns",
+      "detailTitle": "Campaign list",
+      "campaignsCount_one": "{{count}} campaign",
+      "campaignsCount_other": "{{count}} campaigns",
+      "addCampaign": "Add campaign",
+      "addCampaignDesc": "Search the network and pick a campaign to add to this list.",
+      "addFailed": "Failed to add to list",
+      "addToList": "Add",
+      "added": "Added",
+      "alreadyAdded": "Added",
+      "membershipTitle": "Add to lists",
+      "membershipDesc": "Choose which lists \"{{title}}\" should appear in.",
+      "membershipEmpty": "No lists yet. Create one to start curating.",
+      "searchPlaceholder": "Search campaigns…",
+      "searchEmpty": "No campaigns match this search.",
+      "removeFromList": "Remove from list",
+      "removeFailed": "Failed to remove from list",
+      "empty": "This list is empty.",
+      "emptyMod": "This list is empty. Add campaigns to start curating it.",
+      "iconPicker": {
+        "title": "Choose an icon",
+        "description": "Pick any icon from the Lucide library.",
+        "search": "Search icons…",
+        "empty": "No icons match this search."
+      }
+    }
+  },
+  "moderation": {
+    "hiddenBadge": "Hidden",
+    "menu": {
+      "label": "Moderator actions",
+      "ariaCampaign": "Moderate campaign",
+      "ariaPledge": "Moderate pledge",
+      "ariaGroup": "Moderate group",
+      "failedAction": "Failed to {{action}}",
+      "failedReorder": "Failed to reorder",
+      "hide": "Hide",
+      "unhide": "Unhide",
+      "hiddenState": "Hidden",
+      "feature": "Feature",
+      "unfeature": "Unfeature",
+      "featuredState": "Featured",
+      "moveToTop": "Move to top",
+      "moveUp": "Move up",
+      "moveDown": "Move down",
+      "addToList": "Add to list…",
+      "dragHandle": "Drag to reorder (position {{index}})",
+      "toastHidden": "Hidden",
+      "toastUnhidden": "Unhidden",
+      "toastFeatured": "Featured",
+      "toastUnfeatured": "Removed from featured",
+      "toast": {
+        "movedToTop": "Moved to top",
+        "movedUp": "Moved up",
+        "movedDown": "Moved down"
+      }
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "description": "Manage your {{appName}} settings",
+    "deleteAccount": "Delete account",
+    "groups": {
+      "account": "Account",
+      "app": "App",
+      "system": "System"
+    },
+    "sections": {
+      "profile": "Profile",
+      "profileDesc": "Display name, bio, avatar, and verification.",
+      "appearance": "Appearance",
+      "appearanceDesc": "System, light, or dark mode.",
+      "language": "Language",
+      "languageDesc": "Choose the language used throughout the app.",
+      "network": "Network",
+      "networkDesc": "Data usage, relays, and file upload servers.",
+      "notifications": "Notifications",
+      "notificationsDesc": "Push notification preferences.",
+      "content": "Content",
+      "contentDesc": "Manage muted users, hashtags, and words.",
+      "advanced": "Advanced",
+      "advancedDesc": "Wallet, system, and power-user options.",
+      "organizers": "Organizers",
+      "organizersDesc": "Appoint country organizers who can pin posts to country feeds.",
+      "support": "Something wrong?",
+      "supportDesc": "Report a problem or see known issues"
+    },
+    "organizers": "Organizers",
+    "signInToManage": "Sign in to manage",
+    "loginRequired": "You need to be signed in to manage organizers.",
+    "appearance": {
+      "title": "Appearance",
+      "subtitle": "Choose how the app looks.",
+      "colorMode": "Color Mode",
+      "system": "System",
+      "systemDesc": "Follows your device setting",
+      "light": "Light",
+      "lightDesc": "Always use light mode",
+      "dark": "Dark",
+      "darkDesc": "Always use dark mode"
+    },
+    "network": {
+      "title": "Network",
+      "subtitle": "Manage data usage, relays, and file upload servers.",
+      "lowBandwidthHeading": "Low-Bandwidth Mode",
+      "reduceDataUsage": "Reduce data usage",
+      "reduceDataUsageDesc": "For metered or slow connections. Videos won't autoplay, background video previews are skipped, and images wait for a tap before loading.",
+      "useImageProxy": "Use image proxy",
+      "useImageProxyDesc": "Fetches smaller WebP versions of images instead of full-resolution originals.",
+      "proxyUrl": "Proxy URL",
+      "proxyApiDesc": "Must speak the <0>wsrv.nl / weserv</0> API. Self-hosters can point this at their own instance.",
+      "reset": "Reset",
+      "relays": "Relays",
+      "blossomServers": "Blossom Servers",
+      "imageUploads": "Image Uploads",
+      "uploadQuality": "Upload quality",
+      "uploadQualityDesc": "Compressed resizes large images and picks the smallest format. Original uploads images exactly as-is.",
+      "compressed": "Compressed",
+      "original": "Original"
+    },
+    "advanced": {
+      "title": "Advanced",
+      "subtitle": "Wallet connections, system configuration, and other advanced options for power users.",
+      "intro": "Wallet connections, system configuration, and other advanced options.",
+      "wallet": "Wallet",
+      "torHeading": "Tor",
+      "torToggle": "Route traffic through Tor",
+      "torToggleDesc": "Connects to relays and loads media over the Tor network for stronger privacy. Expect slower performance and a short delay while Tor connects.",
+      "torApplyNote": "Turning this on routes all traffic through Tor. While it connects, other content won't load (a banner shows the status) — nothing is sent outside Tor. Turning it off switches back to a direct connection.",
+      "torStatusLabel": "Status:",
+      "torExitIp": "Tor exit IP:",
+      "torCheckAgain": "Check again"
+    },
+    "wallet": {
+      "title": "Wallet",
+      "subtitle": "Manage wallet connections and payments"
+    }
+  },
+  "language": {
+    "title": "Language",
+    "subtitle": "Choose the language used throughout the app.",
+    "translationNote": "Translations are a work in progress. Untranslated text falls back to English."
+  },
+  "verifier": {
+    "title": "Verifier",
+    "subtitle": "Become a verifier by describing how you vet campaigns.",
+    "promptLabel": "Your verification process",
+    "prompt": "Tell us what steps you take to verify campaigns. Include as much detail as possible so donors know they can trust your judgement.",
+    "placeholder": "Describe how you verify campaigns — the checks you run, the evidence you require, how you confirm an organizer's identity, and anything else that helps donors trust your judgement.",
+    "previewLabel": "Preview",
+    "publish": "Become a verifier",
+    "update": "Update statement",
+    "withdraw": "Withdraw",
+    "withdrawConfirmTitle": "Withdraw your verifier statement?",
+    "withdrawConfirmBody": "Your \"How We Verify\" statement will be removed from your profile. You can publish a new one anytime.",
+    "loading": "Loading your statement…",
+    "publishedToast": "Your verifier statement is live.",
+    "withdrawnToast": "Your verifier statement has been withdrawn.",
+    "errorToast": "Couldn't save your verifier statement.",
+    "disclaimer": "Anyone can become a verifier. Your statement is published publicly to Nostr and shown prominently on your profile. It does not grant any special permissions — it simply tells donors how you vet campaigns.",
+    "loginGateTitle": "Sign in to become a verifier",
+    "loginGateBody": "You need to be signed in to publish a verifier statement.",
+    "howWeVerifyTitle": "How We Verify",
+    "requestVerification": "Request Verification"
+  },
+  "mdEditor": {
+    "toolbar": {
+      "bold": "Bold",
+      "italic": "Italic",
+      "strikethrough": "Strikethrough",
+      "inlineCode": "Inline code",
+      "heading1": "Heading 1",
+      "heading2": "Heading 2",
+      "heading3": "Heading 3",
+      "bulletList": "Bullet list",
+      "numberedList": "Numbered list",
+      "blockquote": "Blockquote",
+      "insertLink": "Insert link",
+      "insertImage": "Insert image",
+      "horizontalRule": "Horizontal rule"
+    },
+    "help": {
+      "title": "Markdown quick reference",
+      "bold": "bold",
+      "italic": "italic",
+      "bulletList": "bullet",
+      "numberedList": "numbered",
+      "link": "link",
+      "quote": "quote",
+      "code": "code"
+    },
+    "link": {
+      "title": "Insert link",
+      "textLabel": "Link text",
+      "textPlaceholder": "Enter link text…",
+      "urlLabel": "URL",
+      "cancel": "Cancel",
+      "insert": "Insert link"
+    }
+  },
+  "organizations": {
+    "seoTitle": "For organizations",
+    "seoDescription": "Onboard your organization onto {{appName}}, publish a public verification statement, and earn donor trust.",
+    "hero": {
+      "eyebrow": "For organizations & verifiers",
+      "headlinePart1": "Help donors",
+      "headlineHighlight": "trust",
+      "body": "Bring your organization onto {{appName}} and publish a public statement describing how you vet the campaigns you stand behind. No application, no gatekeepers — your reputation does the work.",
+      "trustChips": {
+        "noPermission": "No permission needed",
+        "ownIdentity": "Your own identity",
+        "public": "Public & verifiable"
+      },
+      "cta": "Get started"
+    },
+    "steps": {
+      "eyebrow": "How it works",
+      "title": "Onboard in three steps",
+      "lede": "{{appName}} is built on Nostr, so your organization brings its own identity. Getting set up takes minutes.",
+      "step1": {
+        "title": "Bring your profile",
+        "body": "Sign in with your organization's Nostr profile — or create one in seconds. Your identity is yours, portable across every Nostr app, and not controlled by {{appName}}."
+      },
+      "step2": {
+        "title": "Describe your process",
+        "body": "Write a public statement explaining how you verify campaigns: the checks you run, the evidence you require, and how you confirm an organizer's identity."
+      },
+      "step3": {
+        "title": "Publish & earn trust",
+        "body": "Your statement appears on your profile and signals to donors that you stand behind the campaigns you verify. Update or withdraw it any time."
+      }
+    },
+    "getStarted": {
+      "eyebrow": "Get started",
+      "title": "Become a verifier",
+      "lede": "Set up your organization and publish your verification statement in a few quick steps."
+    },
+    "getStartedCard": {
+      "title": "Set up your organization",
+      "body": "We'll walk you through creating your organization's profile, publishing your verification statement, and verifying your first campaign.",
+      "cta": "Start verifying"
+    },
+    "loginGateTitle": "Sign in with your organization's profile",
+    "loginGateBody": "Log in with your organization's Nostr profile, or create one, to get started. Once you're signed in, you can publish your verification statement here.",
+    "tutorial": {
+      "eyebrow": "You're a verifier now",
+      "title": "How to verify a campaign",
+      "lede": "Your statement is live. Here's how to vouch for a campaign you trust — it takes two taps from any campaign card.",
+      "steps": {
+        "open": {
+          "title": "Open the menu",
+          "body": "Tap the three-dots button on any campaign card."
+        },
+        "verify": {
+          "title": "Choose \"Verify this campaign\"",
+          "body": "Pick the verify action — shown only to verifiers."
+        },
+        "confirm": {
+          "title": "Confirm & you're done",
+          "body": "Attest it's authentic. Your badge joins the card."
+        }
+      },
+      "demo": {
+        "menuVerify": "Verify this campaign"
+      }
+    }
+  },
+  "organizers": {
+    "appoint": "Appoint Organizer",
+    "appointDesc": "Grant a user permission to pin posts on a specific country feed.",
+    "appointing": "Appointing…",
+    "appointed": "Organizer appointed",
+    "appointedSuccess": "Organizer appointed for {{country}}",
+    "userNpub": "User npub",
+    "country": "Country",
+    "selectCountry": "Select a country",
+    "invalidNpub": "Invalid npub format",
+    "alreadyOrganizer": "This user is already an organizer for that country",
+    "current": "Current Organizers",
+    "noOrganizers": "No organizers appointed yet.",
+    "removed": "Organizer removed",
+    "removedSuccess": "Removed {{name}} from {{country}}",
+    "refreshed": "Refreshed",
+    "refreshedDesc": "Organizer list refreshed from relays.",
+    "adminRequired": "Admin access required",
+    "adminRequiredDesc": "Only platform admins can appoint or remove organizers."
+  },
+  "wallet": {
+    "seoTitle": "Wallet",
+    "seoDescription": "Hierarchical-deterministic Bitcoin wallet derived from your Nostr nsec.",
+    "loggedOut": {
+      "title": "Bitcoin Wallet",
+      "description": "A hierarchical wallet derived from your Nostr identity. Fresh address per receive, full transaction history, no address reuse.",
+      "requiresNsec": "Requires login with an nsec (your Nostr private key)."
+    },
+    "unsupported": {
+      "title": "Wallet unavailable",
+      "extension": "Your browser extension keeps your secret key isolated, so we can't derive child keys for your wallet.",
+      "bunker": "Your remote signer (NIP-46 bunker) keeps your secret key on the bunker side, so we can't derive child keys for your wallet.",
+      "other": "Your login type doesn't expose the secret key needed to derive your wallet.",
+      "instructions": "Log out and sign in again with your nsec to use the wallet."
+    },
+    "scanFailed": "Failed to scan wallet",
+    "retry": "Retry",
+    "refreshBalance": "Refresh balance",
+    "refreshBalanceTitle": "Click to refresh balance",
+    "hideBalance": "Hide balance",
+    "showBalance": "Show balance",
+    "amountPending": "{{amount}} pending",
+    "pending": "pending",
+    "send": "Send",
+    "sendPublic": "Send",
+    "sendPrivate": "Send privately",
+    "transactions": "Transactions",
+    "tabs": {
+      "public": "Public",
+      "private": "Private"
+    },
+    "receiveDialog": {
+      "title": "Receive Bitcoin",
+      "description": "Share an address to receive bitcoin.",
+      "addressIndex": "Address #{{index}}",
+      "scanForNew": "Check for new payments"
+    },
+    "tx": {
+      "pending": "Pending",
+      "today": "Today",
+      "yesterday": "Yesterday",
+      "daysAgo_one": "{{count}}d ago",
+      "daysAgo_other": "{{count}}d ago",
+      "received": "Received",
+      "sent": "Sent"
+    },
+    "openMenu": "Wallet menu"
+  },
+  "walletSettings": {
+    "backup": {
+      "label": "Back up wallet"
+    },
+    "legacy": {
+      "label": "Legacy wallet recovery"
+    }
+  },
+  "walletLegacy": {
+    "seoTitle": "Legacy Wallet Recovery",
+    "seoDescription": "Recover funds from previous Agora wallet generations.",
+    "title": "Legacy wallet recovery",
+    "subtitle": "Pick the previous wallet you used and sweep its balance into your current wallet.",
+    "loggedOut": "Log in with your Nostr identity to look up funds in your old wallets.",
+    "scanning": "Scanning the V2 beta wallet for funds…",
+    "v2Detected": {
+      "title": "Funds found in the V2 Prelaunch Beta Wallet",
+      "body": "We found <0>{{amount}}</0> at addresses from your old V2 beta wallet. Open the V2 sweep below to move them into your current wallet."
+    },
+    "options": {
+      "v2Beta": {
+        "label": "V2 Prelaunch Beta Wallet",
+        "description": "Sweep funds from the nsec-as-seed BIP-86 wallet that shipped before BIP-39 derivation."
+      },
+      "v1Breeze": {
+        "label": "V1 Breeze Wallet",
+        "description": "Sweep the on-chain balance from the legacy Lightning custody."
+      },
+      "doubleTweak": {
+        "label": "Double-tweak SP Fix",
+        "description": "Recover silent payments stranded by an earlier sending bug and sweep them back into your wallet."
+      }
+    },
+    "footnote": "Each option is a one-way sweep into your current wallet. The legacy wallet itself is not restored — only the funds it held are recovered."
+  },
+  "walletRecovery": {
+    "seoTitle": "Recover Old Wallet",
+    "seoDescription": "Recover funds from a previous Lightning wallet and transfer them to your Nostr-derived Bitcoin address.",
+    "title": "Recover Old Wallet",
+    "heading": "Recover your old wallet",
+    "subheading": "If you previously held funds in the Lightning wallet, you can sweep them to your Nostr-derived Bitcoin address. Your old wallet is not restored — this is a one-time, one-way transfer.",
+    "backToWallet": "Back to wallet",
+    "loggedOut": {
+      "title": "Log in to recover",
+      "description": "Log in with the Nostr identity that owned the old Lightning wallet so the funds can be swept to its Bitcoin address."
+    },
+    "destination": {
+      "title": "Funds will be sent to",
+      "description": "Your Nostr-derived Taproot address."
+    },
+    "phrase": {
+      "title": "Recovery phrase",
+      "description": "Paste the 12-word recovery phrase from your old wallet.",
+      "checkingRelays": "Checking your relays for an encrypted backup…",
+      "backupFoundTitle": "Backup found on your relays",
+      "backupFoundDesc": "We found an encrypted backup of your old wallet's recovery phrase published from this account.",
+      "decryptAndUse": "Decrypt and use it",
+      "placeholder": "word1 word2 word3 …",
+      "warning": "Only paste a recovery phrase you trust. Anyone with this phrase can spend the funds. After the sweep completes, delete it from any place you copied it from.",
+      "sweepButton": "Sweep funds to my Bitcoin address"
+    },
+    "sweeping": {
+      "working": "Working…",
+      "dontClose": "Don't close this tab. This can take up to a minute while the old wallet syncs and the transaction is broadcast."
+    },
+    "success": {
+      "title": "Recovery complete",
+      "sent": "Sent {{sats}} sats to your Bitcoin address.",
+      "viewTransaction": "View transaction"
+    },
+    "error": {
+      "title": "Recovery failed",
+      "tryAgain": "Try again"
+    },
+    "errors": {
+      "noNip44": "Your signer does not support NIP-44 decryption, which is required to read the relay backup. Paste your 12-word recovery phrase manually instead.",
+      "decryptFailed": "Could not decrypt the relay backup. Paste your 12-word recovery phrase manually instead.",
+      "decryptGeneric": "Failed to decrypt relay backup.",
+      "invalidWordCount": "Recovery phrase must be 12 or 24 words.",
+      "noBalance": "Your old wallet has no spendable balance. There is nothing to recover.",
+      "sweepGeneric": "Recovery failed. Please try again."
+    },
+    "progress": {
+      "loadingSdk": "Loading wallet SDK…",
+      "connecting": "Connecting to your old wallet…",
+      "checkingBalance": "Checking balance…",
+      "preparingTransfer": "Preparing transfer of {{sats}} sats…",
+      "broadcasting": "Broadcasting transaction…"
+    },
+    "toast": {
+      "backupLoadedTitle": "Backup loaded",
+      "backupLoadedDesc": "Recovery phrase decrypted from your relays."
+    }
+  },
+  "walletBackup": {
+    "heading": "Wallet seed phrase",
+    "dialogDescription": "You can access your Agora wallet in any Bitcoin wallet by importing this 24-word backup.",
+    "hidden": "Tap to display your 24-word seed phrase.",
+    "revealAria": "Reveal seed phrase",
+    "hideAria": "Hide seed phrase",
+    "warning": "Anyone with these words can spend your Bitcoin. Never share them, never type them into a website, never store them in plaintext outside a password manager."
+  },
+  "walletMigrate": {
+    "seoTitle": "Migrate Old Wallet",
+    "seoDescription": "Sweep funds from your legacy Agora wallet (nsec-as-seed) into the new BIP-39 wallet.",
+    "title": "Migrate Old Wallet",
+    "heading": "Migrate to your new wallet",
+    "subheading": "Agora's Bitcoin wallet now uses a BIP-39 seed phrase so it imports into any wallet app. Funds at your old addresses are still safe — this page sweeps them into your new wallet in one transaction.",
+    "backToWallet": "Back to wallet",
+    "loading": "Checking your old wallet…",
+    "warning": "This builds a single sweep transaction that consumes every UTXO from your old wallet and sends the total (minus a small network fee) to your new wallet's first receive address. Once broadcast, the move is final and cannot be undone.",
+    "startButton": "Sweep to new wallet",
+    "loggedOut": {
+      "title": "Log in to migrate",
+      "description": "Log in with the Nostr identity that owns the old wallet so the funds can be swept to your new address."
+    },
+    "unsupported": {
+      "title": "Wallet not available",
+      "description": "Migration only works for nsec logins, because the old wallet's keys were derived directly from your nsec. Browser-extension and remote-signer logins cannot run this migration."
+    },
+    "noBlockbook": {
+      "title": "Blockbook not configured",
+      "description": "Migration needs a Blockbook indexer URL to scan your old addresses and broadcast the sweep transaction."
+    },
+    "noFunds": {
+      "title": "Nothing to migrate",
+      "description": "Your old wallet has no spendable balance. Everything is already in your new wallet."
+    },
+    "detected": {
+      "title": "Funds in your old wallet",
+      "description": "These funds will be moved to your new wallet in one transaction.",
+      "bip86": "On-chain",
+      "sp": "Silent payments",
+      "total": "Total"
+    },
+    "destination": {
+      "title": "Destination",
+      "description": "Your new wallet's first receive address."
+    },
+    "progress": {
+      "building": "Building transaction…",
+      "signing": "Signing inputs…",
+      "broadcasting": "Broadcasting transaction…",
+      "dontClose": "Don't close this tab while the sweep is in progress."
+    },
+    "success": {
+      "title": "Migration complete",
+      "sent": "Sent {{sats}} sats to your new wallet ({{fee}} sats fee).",
+      "viewTx": "View transaction"
+    },
+    "error": {
+      "title": "Migration failed",
+      "tryAgain": "Try again"
+    },
+    "errors": {
+      "noV1Account": "Could not access the old wallet's keys.",
+      "noDestination": "Your new wallet has no receive address yet. Wait for the wallet page to load and try again.",
+      "noBlockbook": "Blockbook indexer is not configured. Migration cannot scan your old addresses.",
+      "noFunds": "No spendable funds found at the old addresses.",
+      "sweepGeneric": "Migration failed. Please try again."
+    },
+    "toast": {
+      "successTitle": "Migration complete",
+      "successDesc": "{{sats}} sats moved to your new wallet."
+    }
+  },
+  "walletDoubleTweak": {
+    "seoTitle": "Double-tweak SP Fix",
+    "seoDescription": "Recover silent payments stranded on-chain by an earlier sending bug and sweep them into your wallet.",
+    "title": "Double-tweak SP Fix",
+    "heading": "Recover stranded silent payments",
+    "subheading": "An earlier version of Agora encoded some silent-payment outputs to the wrong key, so they never showed up in your wallet. This tool re-scans the chain for those outputs and sweeps any it finds into your wallet.",
+    "back": "Back",
+    "loggedOut": "Log in with the Nostr identity that received the silent payments so they can be recovered.",
+    "unsupported": {
+      "title": "Wallet unavailable",
+      "description": "Recovery needs a wallet that can sign locally. Log in with your nsec to continue."
+    },
+    "noIndexer": {
+      "title": "No silent-payment indexer configured",
+      "description": "A BIP-352 indexer URL is required to scan for stranded payments. Set one in wallet settings and try again."
+    },
+    "scan": {
+      "title": "Scan for stranded payments",
+      "description": "Choose the block height to start scanning from. Recovery checks every block from there to the chain tip.",
+      "fromHeightLabel": "Start block height",
+      "tipHint": "Current chain tip: {{tip}}",
+      "start": "Scan",
+      "cancel": "Cancel scan",
+      "progress": "Scanning block {{current}} of {{to}} — {{found}} found",
+      "tipMissing": "Resolving chain tip…"
+    },
+    "noFunds": {
+      "title": "Nothing to recover",
+      "description": "No stranded silent payments were found in the scanned range. Try an earlier start height if you expected funds."
+    },
+    "found": {
+      "title": "Stranded payments found",
+      "description": "These outputs can be swept back into your wallet.",
+      "count": "Outputs",
+      "recoverable": "Recoverable"
+    },
+    "destination": {
+      "title": "Funds will be sent to",
+      "description": "A fresh receive address in your current wallet."
+    },
+    "sweepButton": "Recover funds",
+    "sweeping": "Recovering your funds…",
+    "dontClose": "Don't close this page until the recovery finishes.",
+    "success": {
+      "title": "Recovery complete",
+      "sent": "{{sats}} sats recovered to your wallet.",
+      "viewTx": "View transaction"
+    },
+    "error": {
+      "title": "Recovery failed",
+      "tryAgain": "Try again"
+    },
+    "errors": {
+      "noDestination": "No destination address available. Open your wallet first.",
+      "noBlockbook": "No Blockbook server configured. Set one in wallet settings.",
+      "sweepGeneric": "Could not complete the recovery sweep."
+    },
+    "toast": {
+      "successTitle": "Funds recovered",
+      "successDesc": "{{sats}} sats swept into your wallet."
+    },
+    "footnote": "This is a one-way sweep into your current wallet. Only affected silent payments are touched; nothing else changes."
+  },
+  "walletConnect": {
+    "status": "Status",
+    "ready": "Ready",
+    "notFound": "Not Found",
+    "none": "None",
+    "add": "Add",
+    "active": "Active",
+    "connectionLabel": "NWC Connection",
+    "defaultWalletName": "Lightning Wallet",
+    "setActiveTitle": "Set as active",
+    "removeTitle": "Remove wallet",
+    "helpText": "Install a WebLN browser extension or connect a NWC wallet to send zaps.",
+    "webln": {
+      "name": "WebLN",
+      "description": "Browser extension"
+    },
+    "nwc": {
+      "name": "Nostr Wallet Connect",
+      "description": "Remote wallet connection",
+      "connectedCount_one": "{{count}} wallet connected",
+      "connectedCount_other": "{{count}} wallets connected"
+    },
+    "empty": {
+      "title": "No wallets connected",
+      "description": "Add an NWC connection to enable instant zaps."
+    },
+    "dialog": {
+      "title": "Connect NWC Wallet",
+      "description": "Paste a connection string from your NWC-compatible wallet.",
+      "aliasPlaceholder": "Wallet name (optional)",
+      "connect": "Connect",
+      "connecting": "Connecting..."
+    },
+    "toast": {
+      "uriRequiredTitle": "Connection URI required",
+      "uriRequiredDesc": "Please enter a valid NWC connection URI.",
+      "activeChangedTitle": "Active wallet changed",
+      "activeChangedDesc": "The selected wallet is now active for zaps."
+    }
+  },
+  "walletSend": {
+    "title": "Send Bitcoin",
+    "titlePublic": "Send Bitcoin",
+    "titlePrivate": "Send privately",
+    "send": "Send Bitcoin",
+    "max": "MAX",
+    "notEnoughBitcoin": "Not enough Bitcoin",
+    "emptyWallet": "Your wallet is empty. Add Bitcoin to it before you can send.",
+    "tapAgainToConfirm": "Tap again to confirm",
+    "satPerVB": "{{rate}} sat/vB",
+    "reuse": {
+      "checking": "Checking address…",
+      "sendAnyway": "Send anyway",
+      "acknowledge": "I understand the risk — send anyway",
+      "historyWarning": "This address has already been used on-chain. Sending your private funds here links them to its existing transaction history and undoes the privacy of your silent payments. Use a silent payment address (sp1…) instead, or send anyway.",
+      "ownPublicWarning": "This is an address from your own public wallet. Sending your private funds to it merges the two wallets and links them together. Use a silent payment address (sp1…) instead, or send anyway."
+    },
+    "ownSilentPaymentBlocked": "This is your own silent payment address. You can't send from your public wallet to your private wallet — doing so co-mingles your private silent payment funds with coins already exposed on the public ledger, linking your private wallet to a known identity and destroying its privacy. Send to a different address instead.",
+    "recipient": {
+      "placeholder": "bc1…, sp1…",
+      "scan": "Scan QR code",
+      "sendToOnchain": "Send to Bitcoin address",
+      "sendToSilentPayment": "Send to silent payment address",
+      "bitcoinAddress": "Bitcoin address",
+      "silentPayment": "Silent payment address",
+      "toLabel": "To",
+      "clear": "Clear recipient",
+      "choosePaymentMethod": "Choose a payment method to continue"
+    },
+    "feeSpeed": {
+      "fastest": "~10 min",
+      "halfHour": "~30 min",
+      "hour": "~1 hour",
+      "economy": "~1 day",
+      "custom": "Custom"
+    },
+    "fee": {
+      "loading": "loading…",
+      "unavailable": "unavailable",
+      "loadFailed": "Couldn't load fee rates.",
+      "retry": "Retry",
+      "orCustom": "Or enter a custom rate below.",
+      "loadingTiers": "Loading fee rates…",
+      "customPlaceholder": "e.g. 5",
+      "customAriaLabel": "Custom fee rate in sat/vB"
+    },
+    "progress": {
+      "building": "Building transaction…",
+      "signing": "Signing…",
+      "broadcasting": "Broadcasting…",
+      "sending": "Sending…"
+    },
+    "errors": {
+      "unavailable": "HD wallet is not available for this login type.",
+      "enterRecipient": "Enter a Bitcoin address or sp1… silent payment address.",
+      "noSpendable": "No spendable Bitcoin in this wallet.",
+      "feesNotLoaded": "Fee rates not loaded.",
+      "feesNotLoadedYet": "Fee rates haven't loaded yet.",
+      "feeRateTooLow": "Enter a fee rate of at least 1 sat/vB.",
+      "enterAmount": "Enter an amount.",
+      "insufficient": "Not enough Bitcoin for this amount + network fee.",
+      "waitingPrice": "Waiting for BTC price…",
+      "noneYet": "You don't have any Bitcoin yet."
+    },
+    "scanError": {
+      "title": "Couldn't read that QR code",
+      "description": "Expected a Bitcoin address, a silent payment address (sp1…), or a bitcoin: URI."
+    },
+    "toast": {
+      "failedTitle": "Transaction failed",
+      "followUpFailedTitle": "Payment sent, but the public receipt failed"
+    },
+    "broadcastError": {
+      "feeTooLowTitle": "Network fee too low",
+      "feeTooLowBodyWithMin": "The Bitcoin network is rejecting this fee. The minimum right now is about {{min}} sat/vB.",
+      "feeTooLowBody": "The Bitcoin network is rejecting this fee. Pick a faster tier or raise your custom rate.",
+      "rbfTitle": "Replacement needs a higher fee",
+      "rbfBody": "The replacement transaction must pay more than the original. Raise the fee and try again.",
+      "mempoolFullTitle": "Bitcoin network is congested",
+      "mempoolFullBody": "The mempool is full and your fee isn't competitive. Raise the fee to get through.",
+      "networkTitle": "Couldn't reach the Bitcoin network",
+      "networkBody": "Check your connection and try again.",
+      "mempoolConflictTitle": "Conflicting transaction",
+      "mempoolConflictBody": "One of the inputs has already been spent or is being spent by another transaction.",
+      "staleUtxoTitle": "Wallet out of sync",
+      "staleUtxoBody": "Some coins in this wallet didn't match the blockchain record, so the transaction was stopped before broadcasting. The wallet has re-synced what it can — please try again.",
+      "tooLongChainTitle": "Too many unconfirmed transactions",
+      "tooLongChainBody": "You have a long chain of unconfirmed transactions. Wait for one to confirm and try again.",
+      "badInputsTitle": "Transaction was rejected",
+      "badInputsBody": "The network rejected this transaction. Adjust the amount or recipient and try again.",
+      "absurdlyHighFeeTitle": "Fee is unusually high",
+      "absurdlyHighFeeBody": "The estimated fee is suspiciously high. Reload fee rates and try again.",
+      "unknownTitle": "Transaction failed",
+      "useHigherFee": "Use a higher fee",
+      "tryAgain": "Try again",
+      "atMaxFeeTier": "You're already on the fastest tier."
+    },
+    "success": {
+      "title": "Bitcoin sent",
+      "satsAmount": "{{sats}} sats",
+      "viewTransaction": "View transaction",
+      "done": "Done"
+    }
+  },
+  "qrScanner": {
+    "title": "Scan QR code",
+    "close": "Close",
+    "starting": "Starting camera…",
+    "aim": "Point your camera at a QR code.",
+    "flashOn": "Turn flash on",
+    "flashOff": "Turn flash off",
+    "errors": {
+      "generic": "Could not access the camera.",
+      "insecure": "Camera access requires a secure (HTTPS) connection.",
+      "unsupported": "This browser doesn't support camera access.",
+      "notFound": "No camera was found on this device.",
+      "denied": "Camera permission was denied. Enable it in your settings to scan QR codes.",
+      "busy": "Another app is using the camera. Close it and try again.",
+      "overconstrained": "This device's camera doesn't support the requested settings.",
+      "didntStart": "Camera didn't start. Another app may be using it, or your browser may have blocked the scanner."
+    }
+  },
+  "spScan": {
+    "title": "Check for new payments",
+    "subtitle": "Scan the blockchain for private payments",
+    "descriptionHelp": "More info",
+    "description": "Walks the configured BIP-352 indexer block-by-block to detect incoming silent payments.",
+    "since": "Since",
+    "preset": {
+      "lastHour": "Last hour",
+      "last3h": "Last 3 hours",
+      "last24h": "Last 24 hours",
+      "lastWeek": "Last week",
+      "lastMonth": "Last month",
+      "custom": "Custom…"
+    },
+    "customHours": "Hours",
+    "customHoursPlaceholder": "e.g. 12",
+    "advanced": "Advanced",
+    "connectingIndexer": "Connecting to indexer…",
+    "upToDate": "You're already up to date.",
+    "fromBlock": "From block",
+    "indexerTip": "Indexer tip",
+    "lastFullyScanned": "Last fully scanned",
+    "never": "never",
+    "includeSpent": "Include already-spent",
+    "includeSpentDesc": "Also detect silent payments that have since been spent. Use when rebuilding receive history after a missed scan or a reset.",
+    "blockProgress": "Block {{current}} / {{to}}",
+    "matches_one": "{{count}} match",
+    "matches_other": "{{count}} matches",
+    "scannedRange": "Scanned blocks {{from}} → {{to}}.",
+    "foundOutputs_one": "Found {{count}} new output.",
+    "foundOutputs_other": "Found {{count}} new outputs.",
+    "noNewPayments": "No new payments.",
+    "startScan": "Start scan",
+    "resolveFailed": {
+      "title": "Couldn't look up the start block",
+      "description": "mempool.space is unreachable right now. Enter a starting block under Advanced → From block to scan anyway."
+    },
+    "reconcile": {
+      "title": "Reconcile spent UTXOs",
+      "description": "Checks each stored silent-payment UTXO against Blockbook and removes any that have been spent. Use this if the balance is higher than it should be after a send.",
+      "checking": "Checking {{checked}} / {{total}}…",
+      "checked_one": "Checked {{count}} UTXO · pruned {{pruned}}.",
+      "checked_other": "Checked {{count}} UTXOs · pruned {{pruned}}.",
+      "reconciling": "Reconciling…",
+      "reconcileNow": "Reconcile now"
+    },
+    "autoScan": {
+      "label": "Scan automatically",
+      "description": "Keep checking for new private payments in the background, even when you leave this page."
+    }
+  },
+  "spAutoScan": {
+    "scanning": "Scanning… block {{current}} / {{to}}",
+    "caughtUp": "Up to date",
+    "neverScanned": "Not scanned yet",
+    "lastScanned": "Scanned to block {{height}}",
+    "paused": "Automatic scanning is off",
+    "manualLink": "Scan options"
+  },
+  "notifications": {
+    "seoTitle": "Notifications",
+    "seoDescription": "Your Nostr notifications",
+    "title": "Notifications",
+    "tabs": {
+      "all": "All",
+      "mentions": "Mentions"
+    },
+    "loginPrompt": "Log in to see your notifications.",
+    "empty": "No notifications yet.",
+    "subject": {
+      "twoActors": "<0></0> and <1></1>",
+      "andOthers_one": " and {{count}} other",
+      "andOthers_other": " and {{count}} others"
+    },
+    "actorAvatars": {
+      "moreCount": "+{{count}} more"
+    },
+    "actions": {
+      "reactedToYour": "reacted to your {{noun}}",
+      "repostedYour": "reposted your {{noun}}",
+      "zappedYou": "zapped you",
+      "zappedYouWithAmount": "zapped you {{sats}} sats",
+      "repliedToYourNote": "replied to your note",
+      "mentionedYou": "mentioned you",
+      "repliedToYourComment": "replied to your comment",
+      "commentedOnYour": "commented on your {{noun}}",
+      "sentYouLetter": "sent you a letter",
+      "highlightedYour": "highlighted your {{noun}}",
+      "awardedBadge": "awarded you a badge",
+      "awardedBadges": "awarded you badges"
+    },
+    "letter": {
+      "viewAll": "View all letters",
+      "reply": "Reply"
+    },
+    "kinds": {
+      "profile": "profile",
+      "post": "post",
+      "encryptedMessage": "encrypted message",
+      "repost": "repost",
+      "reaction": "reaction",
+      "badgeAward": "badge award",
+      "photo": "photo",
+      "video": "video",
+      "requestToVanish": "request to vanish",
+      "file": "file",
+      "poll": "poll",
+      "comment": "comment",
+      "voiceMessage": "voice message",
+      "patch": "patch",
+      "pullRequest": "pull request",
+      "highlight": "highlight",
+      "birdDetection": "bird detection",
+      "birdex": "Birdex",
+      "colorMoment": "color moment",
+      "foundLog": "found log",
+      "nsite": "nsite",
+      "profileBadges": "profile badges",
+      "badge": "badge",
+      "article": "article",
+      "emojiPack": "emoji pack",
+      "podcastEpisode": "podcast episode",
+      "podcastTrailer": "podcast trailer",
+      "zapstoreAsset": "Zapstore asset",
+      "zapstoreRelease": "Zapstore release",
+      "stream": "stream",
+      "status": "status",
+      "repository": "repository",
+      "customNip": "custom NIP",
+      "calendarEvent": "calendar event",
+      "zapstoreApp": "Zapstore app",
+      "playlist": "playlist",
+      "divine": "divine",
+      "community": "community",
+      "goal": "goal",
+      "track": "track",
+      "magicDeck": "Magic deck",
+      "treasure": "treasure",
+      "constellation": "constellation",
+      "followPack": "follow pack"
+    }
+  },
+  "notifSettings": {
+    "seoTitle": "Notifications",
+    "seoDescription": "Configure your notification preferences",
+    "title": "Notifications",
+    "pushHeading": "Push Notifications",
+    "enablePush": {
+      "label": "Enable Push Notifications",
+      "description": "Receive notifications for activity on your posts"
+    },
+    "unsupported": "Your browser does not support push notifications.",
+    "denied": "Notifications are blocked. Update your browser settings to allow notifications from this site.",
+    "deliveryMethod": {
+      "heading": "Delivery Method",
+      "intro": "Choose how notifications are delivered to your device.",
+      "push": {
+        "label": "Push",
+        "description": "Standard notifications. No persistent status bar icon."
+      },
+      "persistent": {
+        "label": "Persistent",
+        "description": "Polls relays directly in the background for new notifications. Use this for reliable delivery on devices without push notification support."
+      }
+    },
+    "notifyAbout": {
+      "heading": "Notify Me About",
+      "filterHeading": "Filter",
+      "typesHeading": "Types",
+      "onlyFollowing": {
+        "label": "Only from people I follow",
+        "description": "Hide notifications from accounts you don't follow"
+      }
+    },
+    "types": {
+      "reactions": {
+        "label": "Reactions",
+        "description": "When someone reacts to your posts"
+      },
+      "reposts": {
+        "label": "Reposts",
+        "description": "When someone reposts your notes"
+      },
+      "zaps": {
+        "label": "Zaps",
+        "description": "When someone sends you a lightning or on-chain zap"
+      },
+      "mentions": {
+        "label": "Mentions",
+        "description": "When someone mentions you in a note"
+      },
+      "comments": {
+        "label": "Comments & Replies",
+        "description": "When someone comments on or replies to your posts"
+      },
+      "badges": {
+        "label": "Badge Awards",
+        "description": "When someone awards you a badge"
+      },
+      "letters": {
+        "label": "Letters",
+        "description": "When someone sends you a letter"
+      },
+      "highlights": {
+        "label": "Highlights",
+        "description": "When someone highlights your content"
+      }
+    },
+    "toast": {
+      "enableFailedTitle": "Failed to enable notifications",
+      "enableFailedDesc": "Please try again."
+    }
+  },
+  "search": {
+    "seoTitle": "Search",
+    "seoDescription": "Search Nostr",
+    "title": "Search",
+    "inputPlaceholder": "Search",
+    "filtersAria": "Search filters",
+    "tabs": {
+      "agora": "Agora",
+      "nostr": "Nostr",
+      "accounts": "Users"
+    },
+    "filters": {
+      "title": "Filters",
+      "reset": "Reset",
+      "from": "From",
+      "sort": "Sort",
+      "media": "Media",
+      "protocol": "Protocol",
+      "language": "Language",
+      "kind": "Kind",
+      "kindCustomPlaceholder": "e.g. 1, 30023",
+      "includeReplies": "Include replies",
+      "authorScope": {
+        "anyone": "Anyone",
+        "follows": "Follows",
+        "people": "People"
+      },
+      "sortOptions": {
+        "recent": "Recent",
+        "hot": "Hot",
+        "trending": "Trending"
+      },
+      "mediaOptions": {
+        "all": "All",
+        "images": "Images",
+        "videos": "Videos",
+        "shorts": "Shorts",
+        "none": "No media"
+      },
+      "protocolOptions": {
+        "nostr": "Nostr",
+        "mastodon": "Mastodon",
+        "bluesky": "Bluesky"
+      },
+      "langOptions": {
+        "global": "Global",
+        "en": "English",
+        "es": "Spanish",
+        "fr": "French",
+        "de": "German",
+        "ja": "Japanese",
+        "zh": "Chinese"
+      }
+    },
+    "chips": {
+      "noReplies": "No replies",
+      "images": "Images",
+      "videos": "Videos",
+      "shortsAndDivines": "Shorts & Divines",
+      "noMedia": "No media",
+      "mastodon": "Mastodon",
+      "bluesky": "Bluesky",
+      "hot": "Hot",
+      "trending": "Trending",
+      "allKinds": "All kinds",
+      "customKind": "Kind: {{kind}}",
+      "kindNumber": "Kind {{kind}}",
+      "kindsCount_one": "{{count}} kind",
+      "kindsCount_other": "{{count}} kinds",
+      "myFollows": "My follows",
+      "authorsCount_one": "{{count}} author",
+      "authorsCount_other": "{{count}} authors"
+    },
+    "clear": "Clear",
+    "searchLabel": "search:",
+    "newPosts_one": "{{count}} new post",
+    "newPosts_other": "{{count}} new posts",
+    "following": "Following",
+    "botAccount": "Bot account",
+    "empty": {
+      "posts": "No results found matching your search.",
+      "postsPrompt": "Enter a search query to find Nostr content.",
+      "accounts": "No users found matching your search.",
+      "followsPrompt": "Search for people by name or NIP-05 address.",
+      "agora": "No Agora campaigns, pledges, or groups found matching your search.",
+      "agoraPrompt": "Search Agora campaigns, pledges, and groups, or browse the latest.",
+      "activeFilters": "Active filters:",
+      "clearAll": "Clear all filters"
+    }
+  },
+  "profile": {
+    "seoDescriptionFallback": "Nostr profile",
+    "anonymous": "Anonymous",
+    "namePlaceholder": "Your name",
+    "userNotFound": "User not found.",
+    "userNotFoundNip05": "User not found: {{handle}}",
+    "couldNotResolveNip05": "Could not resolve this NIP-05 identifier.",
+    "tabs": {
+      "overview": "Overview",
+      "verified": "Verified",
+      "activity": "Activity",
+      "campaigns": "Campaigns",
+      "groups": "Groups",
+      "pledges": "Pledges"
+    },
+    "header": {
+      "editProfile": "Edit",
+      "shareFollowLink": "Share follow link",
+      "moreOptions": "More options",
+      "donate": "Donate",
+      "campaignGoal": "Goal ${{amount}}"
+    },
+    "stats": {
+      "followers": "Followers",
+      "following": "Following",
+      "raised": "Raised",
+      "followersTitle_one": "{{count}} follower",
+      "followersTitle_other": "{{count}} followers",
+      "followingTitle": "{{count}} following"
+    },
+    "sections": {
+      "profile": "Profile",
+      "campaigns": "Campaigns",
+      "latestPledge": "Latest pledge",
+      "groups": "Groups",
+      "seeAllCampaigns_one": "See all {{count}} campaign →",
+      "seeAllCampaigns_other": "See all {{count}} campaigns →",
+      "viewCampaignsTab": "View campaigns tab →",
+      "seeAllPledges_one": "See all {{count}} pledge →",
+      "seeAllPledges_other": "See all {{count}} pledges →",
+      "seeAllGroups": "See all {{count}} →"
+    },
+    "badges": {
+      "founder": "Founder",
+      "moderator": "Moderator",
+      "mod": "Mod",
+      "ended": "Ended",
+      "pledged": "Pledged"
+    },
+    "imageMenu": {
+      "upload": "Upload file",
+      "pasteUrl": "Paste URL",
+      "remove": "Remove"
+    },
+    "websitePlaceholder": "https://your-website.com",
+    "moreMenu": {
+      "title": "Profile options",
+      "copyPubkey": "Copy public key",
+      "copyLink": "Copy profile link",
+      "addToList": "Add to list",
+      "shareFollowLink": "Share follow link",
+      "profileRecovery": "Profile recovery",
+      "zap": "Zap",
+      "awardBadge": "Award badge",
+      "writeLetter": "Write a letter",
+      "mute": "Mute @{{name}}",
+      "unmute": "Unmute @{{name}}",
+      "report": "Report @{{name}}",
+      "close": "Close"
+    },
+    "toast": {
+      "pubkeyCopied": "Public key copied to clipboard",
+      "linkCopied": "Profile link copied to clipboard",
+      "muted": "Muted @{{name}}",
+      "unmuted": "Unmuted @{{name}}",
+      "muteFailed": "Failed to mute user",
+      "unmuteFailed": "Failed to unmute user",
+      "followed": "Followed @{{name}}",
+      "unfollowed": "Unfollowed @{{name}}",
+      "followFailed": "Failed to update follow list",
+      "btcAddressCopied": "Bitcoin address copied to clipboard"
+    },
+    "followingModal": {
+      "title": "{{name}} follows",
+      "empty": "Not following anyone yet."
+    },
+    "followersModal": {
+      "title": "{{name}}'s followers",
+      "empty": "No followers found."
+    },
+    "bitcoinModal": {
+      "title": "Bitcoin",
+      "qrAlt": "Bitcoin QR",
+      "copyAddress": "Copy address",
+      "showQr": "Show QR code",
+      "viewOnMempool": "View on mempool.space"
+    },
+    "lightbox": {
+      "openOriginal": "Open original",
+      "close": "Close (Esc)",
+      "imageAlt": "Profile image"
+    },
+    "activity": {
+      "empty": "No activity from {{name}} yet. Posts, campaigns, pledges, and donations all show up here."
+    },
+    "campaigns": {
+      "count_one": "{{count}} campaign",
+      "count_other": "{{count}} campaigns",
+      "sortNew": "New",
+      "sortTop": "Top",
+      "showHidden": "Show hidden",
+      "hideHidden": "Hide hidden",
+      "emptySelf": "You haven't launched a campaign yet.",
+      "emptyOther": "{{name}} hasn't launched a campaign yet.",
+      "startLink": "Start a campaign →"
+    },
+    "verified": {
+      "count_one": "{{count}} verified campaign",
+      "count_other": "{{count}} verified campaigns",
+      "empty": "{{name}} hasn't verified any campaigns yet."
+    },
+    "pledgesTab": {
+      "active": "Active",
+      "ended": "Ended",
+      "emptySelf": "You haven't created a pledge yet.",
+      "emptyOther": "{{name}} hasn't created a pledge yet.",
+      "createLink": "Create a pledge →"
+    },
+    "groupsDialog": {
+      "title": "All groups"
+    }
+  },
+  "profileSettings": {
+    "seoTitle": "Profile | Settings",
+    "seoDescription": "Edit your {{appName}} profile",
+    "header": {
+      "title": "Profile",
+      "save": "Save"
+    },
+    "uploading": "Uploading…",
+    "fields": {
+      "heading": "Profile Fields",
+      "website": "Website",
+      "websitePlaceholder": "https://yourwebsite.com",
+      "lightning": "Lightning",
+      "lightningPlaceholder": "you@walletofsatoshi.com",
+      "labelPlaceholder": "Label",
+      "tickerPlaceholder": "Ticker",
+      "addressPlaceholder": "Address",
+      "valuePlaceholder": "Value or URL",
+      "mediaPlaceholder": "Upload file or paste direct file link",
+      "chooseFile": "Choose file to upload",
+      "chooseMediaFile": "Choose a media file to upload"
+    },
+    "presets": {
+      "music": {
+        "label": "Music",
+        "description": "Upload a song or audio clip",
+        "valuePlaceholder": "Upload audio or paste direct file link"
+      },
+      "photo": {
+        "label": "Photo",
+        "description": "Upload an image",
+        "valuePlaceholder": "Upload image or paste direct file link"
+      },
+      "video": {
+        "label": "Video",
+        "description": "Upload a video clip",
+        "valuePlaceholder": "Upload video or paste direct file link"
+      },
+      "email": {
+        "label": "Email",
+        "defaultLabel": "Email",
+        "description": "Contact email address",
+        "valuePlaceholder": "you@example.com"
+      },
+      "wallet": {
+        "label": "Wallet",
+        "description": "Cryptocurrency wallet address",
+        "valuePlaceholder": "Address"
+      },
+      "link": {
+        "label": "Link",
+        "description": "Link to any website or profile",
+        "valuePlaceholder": "https://..."
+      },
+      "weather": {
+        "label": "Weather",
+        "defaultLabel": "Weather",
+        "description": "Connect a Nostr weather station",
+        "valuePlaceholder": "npub1... or naddr1... (#station-id optional)"
+      },
+      "custom": {
+        "label": "Custom",
+        "description": "Create any custom field",
+        "valuePlaceholder": "Value or URL"
+      }
+    },
+    "warnings": {
+      "audioWrongType": "This URL doesn’t point to an audio file. Upload an audio file or use a direct link ending in .mp3, .ogg, .wav, etc.",
+      "audioUnknown": "This URL may not work as an audio player. For best results, upload a file using the button or paste a direct link to an audio file.",
+      "imageWrongType": "This URL doesn’t point to an image. Upload an image or use a direct link ending in .jpg, .png, .webp, etc.",
+      "imageUnknown": "This URL may not display as an image. For best results, upload a file using the button or paste a direct link to an image file.",
+      "videoWrongType": "This URL doesn’t point to a video. Upload a video or use a direct link ending in .mp4, .webm, .mov, etc.",
+      "videoUnknown": "This URL may not display as a video. For best results, upload a file using the button or paste a direct link to a video file."
+    },
+    "crop": {
+      "profile": "Crop Profile Picture",
+      "banner": "Crop Banner"
+    },
+    "mobilePreview": "Profile Fields Preview",
+    "advanced": {
+      "heading": "Advanced",
+      "botLabel": "Bot Account",
+      "botDescription": "Mark this account as automated"
+    },
+    "toast": {
+      "uploaded": "Uploaded",
+      "mediaUploaded": "Media file uploaded",
+      "uploadFailed": "Upload failed",
+      "tryAgain": "Please try again.",
+      "profilePictureUpdated": "Profile picture updated",
+      "bannerUpdated": "Banner updated",
+      "profileSaved": "Profile saved",
+      "saveFailed": "Failed to save profile."
+    },
+    "key": {
+      "heading": "Your Key",
+      "extensionBody": "You're signed in with a browser extension (NIP-07). Your secret key is stored there — manage or export it from the extension itself.",
+      "bunkerBody": "You're signed in with a remote signer (NIP-46). Your secret key is held by that signer and cannot be exported from {{appName}}.",
+      "explainer": "This secret key controls your account on {{appName}} and seeds your Bitcoin wallet. Anyone with it can post as you AND spend your Bitcoin. Store it in a password manager or somewhere else only you can access. If you want to import the Bitcoin wallet into another app, use the seed phrase below — it's safer to share, only controls the wallet, and can't be used to impersonate you.",
+      "warning": "NEVER share your secret key with anyone. Avoid screenshotting it or pasting it anywhere except a password manager. If shared, others will be able to access your account.",
+      "aria": "Your secret key",
+      "copyAria": "Copy secret key",
+      "revealAria": "Reveal secret key",
+      "hideAria": "Hide secret key",
+      "backupButton": "Back Up Key",
+      "saving": "Saving…",
+      "saved": "Secret key saved",
+      "savedToFile": "Your secret key was saved to the Documents folder on your device.",
+      "saveFailed": "Save failed",
+      "saveFailedDescription": "Could not save the key. Please copy it manually.",
+      "copyFailed": "Copy failed",
+      "copyFailedDescription": "Could not access the clipboard. Reveal the key and copy it manually."
+    }
+  },
+  "faq": {
+    "categories": {
+      "getting-started": {
+        "label": "About Agora"
+      },
+      "payments": {
+        "label": "Donations"
+      },
+      "verification": {
+        "label": "Verification & Trust"
+      },
+      "about-nostr": {
+        "label": "About Nostr"
+      },
+      "legacy": {
+        "label": "Legacy"
+      }
+    },
+    "items": {
+      "what-is-ditto": {
+        "question": "What is {{appName}}?",
+        "answer": [
+          "{{appName}} is the world's first Borderless Micro-Philanthropy Network — a place to give Bitcoin directly to people and causes anywhere in the world, publicly or privately. No borders, no middleman, no payment processor, and no account that can be frozen.",
+          "{{appName}} is built on Nostr, so your identity isn't locked to this site — you own it."
+        ]
+      },
+      "cost-to-use": {
+        "question": "Does {{appName}} cost anything?",
+        "answer": [
+          "**No.** {{appName}} takes no platform fee. When you donate, you pay only the Bitcoin network fee that goes to miners — not to us."
+        ]
+      },
+      "who-made-this": {
+        "question": "Who made {{appName}}?",
+        "answer": [
+          "{{appName}} is built by [Soapbox](https://soapbox.pub), an open-source team building tools for the Nostr ecosystem, in collaboration with the [World Liberty Congress](https://worldlibertycongress.org/)."
+        ]
+      },
+      "send-bitcoin-onchain": {
+        "question": "How does sending Bitcoin work?",
+        "answer": [
+          "When a recipient creates a campaign, they choose what kinds of payments to accept: **public**, **private**, or **both**.",
+          "**Public** donations are real Bitcoin on-chain. They settle on the public blockchain, work in every Bitcoin wallet, and are visible to anyone.",
+          "**Private** donations use **silent payments** (BIP-352). They settle on-chain too, but the transaction can't be linked back to the recipient's donation code — so they stay out of public donor lists and totals. The donor needs a wallet that supports silent payments — we recommend [Ditto Wallet](https://ditto.pub) or [Dana](https://github.com/cygnet3/dana/releases/download/v0.7.4/app-live-release.apk).",
+          "When a campaign accepts **both**, {{appName}} shows a single QR code that encodes both endpoints. Silent-payment wallets read it as private; other wallets fall back to the public address. Donors don't have to choose — their wallet picks the right path automatically.",
+          "Either way, the payment goes straight to the recipient. {{appName}} never touches the funds."
+        ]
+      },
+      "agora-funds": {
+        "question": "What are Agora Funds?",
+        "answer": [
+          "**Agora Funds** are campaigns managed by {{appName}} that let you give to a pool of multiple campaigns tied to a single cause. Instead of picking one campaign, you donate once to the fund and your gift supports every campaign in that cause.",
+          "Agora Funds accept **card payments via Stripe** in addition to Bitcoin — giving donors who don't want to pay in Bitcoin a way to still support the causes they care about. Card donations are only available on **Agora-sponsored funds**; regular campaigns still receive Bitcoin directly, on-chain, with no payment processor in between."
+        ]
+      },
+      "connect-wallet": {
+        "question": "What is the wallet on {{appName}}?",
+        "answer": [
+          "Your {{appName}} wallet is a **self-custodial** Bitcoin wallet, built from your Nostr key. {{appName}} never holds your funds — the wallet runs in your browser and signs transactions locally with a key only you control. It can receive Bitcoin both ways — as a public address that any Bitcoin wallet can pay, and as a silent-payments code that capable wallets can pay privately. There's nothing to sign up for; it exists the moment you have an account.",
+          "The wallet has two tabs: **Public** (your regular Bitcoin address) and **Private** (silent payments). The two balances are kept strictly separate and can never be spent together — that isolation is what keeps private donations unlinkable on-chain. When you create a campaign, you pick whether to accept public payments, private payments, or both. To spend what you receive, see the **Recipient Guide**.",
+          "You can also export your wallet's 24-word seed phrase and import it into any standard Bitcoin wallet — see \"Can I export my {{appName}} wallet to another Bitcoin wallet?\" below."
+        ]
+      },
+      "export-wallet": {
+        "question": "Can I export my {{appName}} wallet to another Bitcoin wallet?",
+        "answer": [
+          "Yes. Your {{appName}} wallet is fully self-custodial. {{appName}} never holds your Bitcoin and never sees your keys — the wallet runs entirely in your browser, signing transactions locally with a key derived from your Nostr secret key (nsec).",
+          "Open the wallet from the menu, tap the three-dot menu in the top right, and choose **Back up wallet**. You'll see a 24-word BIP-39 seed phrase. Write it down somewhere safe (or save it in a password manager) — **anyone with these words can spend your Bitcoin.**",
+          "You can import those 24 words into any standard Bitcoin wallet: **Sparrow**, **Electrum**, **BlueWallet**, **Phoenix**, a **Trezor**, or a **Ledger**. {{appName}} uses standard BIP-86 (Taproot) and BIP-352 (silent payments) derivation paths, so no special configuration is needed.",
+          "After importing, the other wallet shows the same balance and history as your {{appName}} wallet — they're the same wallet, just two views of it.",
+          "Seed-phrase export is only available when you sign in with an nsec. Browser-extension and remote-signer (bunker) logins keep your secret key isolated, so {{appName}} can't derive the seed in those modes."
+        ]
+      },
+      "donations-are-public-general": {
+        "question": "Are donations on {{appName}} public?",
+        "answer": [
+          "It depends on which kind of payment the recipient accepts.",
+          "**Public donations** are recorded on the Bitcoin blockchain and on Nostr. Anyone can see the amounts, timing, and addresses.",
+          "**Private donations** use silent payments. They're not publicly linkable to the recipient's donation code, don't appear in donor lists, and don't count toward public totals.",
+          "When a campaign accepts both, the donor's wallet decides which path to use — silent-payment-capable wallets pay privately, others pay the public address. Read the **Donor Guide** and **Recipient Guide** for the full picture."
+        ]
+      },
+      "why-donations-pending": {
+        "question": "Why do some donations say \"pending\"?",
+        "answer": [
+          "A **pending** donation is real Bitcoin that's already been sent — it's just waiting to be confirmed by the network. The donor's wallet has broadcast the transaction, but it hasn't been included in a block yet.",
+          "Bitcoin produces a new block roughly every 10 minutes, and miners pick transactions based on the fee the donor paid. Most donations confirm within an hour; lower-fee ones can take longer when the network is busy. {{appName}} re-checks confirmation status automatically, so the **pending** label disappears on its own once a block lands.",
+          "The funds are on the way — the recipient will see the donation count toward the campaign total as soon as it confirms. There's nothing the recipient or {{appName}} can do to speed it up; only the donor's wallet can bump the fee."
+        ]
+      },
+      "censorship-resistance": {
+        "question": "What does \"censorship-resistant\" mean here?",
+        "answer": [
+          "No company sits between a donor and a recipient. {{appName}} doesn't hold the funds and can't freeze the address.",
+          "As long as the Bitcoin network is running, donations can be sent and received. {{appName}} itself going offline wouldn't stop them."
+        ]
+      },
+      "why-onchain": {
+        "question": "Why Bitcoin?",
+        "answer": [
+          "Bitcoin is the most widely supported and censorship-resistant payment rail in the world. Every Bitcoin wallet can send it.",
+          "On {{appName}}, recipients choose how to receive: **public** (a regular Bitcoin address) for maximum reach, **private** (silent payments) for unlinkable donations, or **both** so each donor's wallet picks the right path automatically. Donors who only have a consumer Bitcoin app can still contribute; donors with a silent-payments wallet get privacy by default.",
+          "The tradeoff is that public Bitcoin transactions are visible on the blockchain and pay a miner fee. The Donor and Recipient guides explain how to handle both."
+        ]
+      },
+      "why-not-silent-payments": {
+        "question": "Does {{appName}} support silent payments?",
+        "answer": [
+          "Yes — on both sides. {{appName}}'s built-in Bitcoin wallet supports BIP-352, so when you send Bitcoin from your {{appName}} wallet you can pay any silent-payment address (`sp1…`) directly. And when a recipient creates a campaign, they can accept silent payments alongside, or instead of, public Bitcoin payments.",
+          "Silent-payment donations still settle on-chain, but the transaction can't be linked back to the recipient's donation code — so they don't appear in public donor lists or totals.",
+          "Sending a silent payment from outside {{appName}} requires a wallet that supports BIP-352. Most consumer apps don't yet, but [Ditto Wallet](https://ditto.pub) and [Dana](https://github.com/cygnet3/dana/releases/download/v0.7.4/app-live-release.apk) do.",
+          "When a campaign accepts both kinds of payment, {{appName}} encodes them in a single QR code. Silent-payment-capable wallets pay privately; everyone else pays the public address. No donor is shut out, and no recipient is forced to choose between reach and privacy."
+        ]
+      },
+      "why-not-lightning": {
+        "question": "Why doesn't {{appName}} use Lightning?",
+        "answer": [
+          "Lightning requires a Lightning wallet. The easiest ones (Wallet of Satoshi, Strike, Breez) are **custodial** — a company holds the funds and can be shut down, geo-blocked, or pressured into freezing accounts. Non-custodial Lightning is technically demanding and unreliable for newcomers.",
+          "We want {{appName}} to work for someone whose only Bitcoin experience is a regular consumer app like Cash App, Coinbase, Strike, Venmo, or PayPal. On-chain Bitcoin works with every wallet on the planet."
+        ]
+      },
+      "why-not-rotating-addresses": {
+        "question": "Why doesn't {{appName}} generate a new address for every donation?",
+        "answer": [
+          "Doing this would require {{appName}} to act as a money-exchanging middleman — taking custody of the Bitcoin first and then forwarding it on to the recipient.",
+          "That would make us a money transmitter, subject to the regulations that come with that, and a single point of failure: shut down {{appName}}'s server and you've shut down every donation flowing through it.",
+          "Instead, each user's donation address is derived from their Nostr secret key (nsec) — the same key you sign in with. Donors send directly to the recipient, {{appName}} never touches the funds, and the platform itself can't be turned off to censor anyone. Recipients who want per-donation privacy can accept silent payments, which give the same unlinkability without anyone holding the money in the middle."
+        ]
+      },
+      "why-not-other-crypto": {
+        "question": "Why not Monero or another cryptocurrency?",
+        "answer": [
+          "Bitcoin is by far the most widely adopted cryptocurrency. That means it's the easiest for donors to buy and send, and the easiest for recipients to receive, hold, and spend.",
+          "Privacy-focused coins like Monero offer different privacy tradeoffs than Bitcoin, but they're unsupported by most consumer apps and harder to convert back to local currency. Asking either side of a donation to first acquire a niche cryptocurrency is a barrier {{appName}} won't put in the way. For Bitcoin donations themselves, silent payments cover the unlinkability use case without leaving the Bitcoin ecosystem."
+        ]
+      },
+      "what-is-verification": {
+        "question": "What does the \"Verified\" badge on a campaign mean?",
+        "answer": [
+          "A verified campaign is one that a **trusted verifier** has publicly vouched for. That verifier says they personally know the organizer, or has meaningfully checked that the campaign's claims are true.",
+          "The badge shows exactly **who** did the vouching, and each verifier links to their profile. Verification is a signal, not a seal of approval from {{appName}}. We don't run background checks. It exists so you can decide whether *you* trust the people standing behind a campaign.",
+          "When no trusted source has verified a campaign, its page shows a caution notice instead. That notice isn't an accusation. It just means nobody on the trusted list has vouched for it yet."
+        ]
+      },
+      "who-verifies": {
+        "question": "Who counts as a \"trusted source\"?",
+        "answer": [
+          "The trusted verifiers are the members of two curated follow packs: **World Liberty Congress Verified** and **Team Soapbox** (the team that builds {{appName}}, in collaboration with the [World Liberty Congress](https://worldlibertycongress.org/)).",
+          "Anyone on Nostr can technically publish a verification label for any campaign, and it will show on the badge. But only a vouch from a member of those two packs clears the caution notice and can promote a campaign into the home page's Verified Campaigns section. An organizer verifying their own campaign doesn't count."
+        ]
+      },
+      "unverified-meaning": {
+        "question": "A campaign isn't verified. Is it a scam?",
+        "answer": [
+          "**Not necessarily.** Verification is deliberately hard to earn, so most legitimate campaigns start out unverified, especially new ones and those from people the trusted verifiers haven't met yet.",
+          "Treat the badge as extra confidence, not the only thing that matters. Read the campaign, look at the organizer's profile and history, and remember how {{appName}} works: donations go **directly** to the organizer's Bitcoin address on-chain. {{appName}} never holds the funds and can't reverse, refund, or freeze a payment, so give the way you'd hand someone cash."
+        ]
+      },
+      "why-campaigns-hidden": {
+        "question": "Why are some campaigns hidden, and can I still see them?",
+        "answer": [
+          "Moderators can hide a campaign that looks like spam, a scam, or an impersonation of someone else. Hidden campaigns are kept out of the {{appName}} feeds and search so most people don't stumble into them by accident.",
+          "**This isn't censorship, and nothing is deleted.** A campaign lives on the open Nostr network no matter what {{appName}} shows. Hiding only changes what {{appName}} surfaces by default. If you open a hidden campaign directly, such as from a shared link, you'll see a notice explaining why and a button to **proceed anyway**. The choice to view it, and to donate, is always yours.",
+          "The goal is simply to give donors context before they give: a heads-up that a trusted moderator flagged something, not a decision made for you."
+        ]
+      },
+      "how-get-verified": {
+        "question": "I'm an organizer. How do I get my campaign verified?",
+        "answer": [
+          "You can't verify yourself; a trusted verifier has to vouch for you. The most reliable path is to build a genuine track record: a complete profile, a clear campaign, and a real relationship with people in the community.",
+          "If your work is connected to the World Liberty Congress or the {{appName}} team, reach out through your existing contacts there. A verifier who knows you can add their vouch, and it will appear on your campaign automatically."
+        ]
+      },
+      "verification-guarantee": {
+        "question": "Does verification guarantee my donation is safe?",
+        "answer": [
+          "No. Verification tells you a trusted person vouches for the campaign. It does **not** guarantee outcomes, insure your money, or make {{appName}} responsible for how funds are used.",
+          "Because donations are non-custodial and on-chain, every payment is final the moment you send it. A verifier can also **withdraw** their vouch later if something changes, which would remove the badge. Always donate an amount you're comfortable giving directly to another person."
+        ]
+      },
+      "what-is-nostr": {
+        "question": "What is Nostr?",
+        "answer": [
+          "Nostr is an open network where **you** own your account, not a company. Your identity is a cryptographic key you control, not a username on someone else's server.",
+          "On {{appName}}, that same key is also what your donation address is derived from — your Nostr secret key (nsec) seeds your Bitcoin wallet, which is why you can receive Bitcoin without signing up with anyone."
+        ]
+      },
+      "why-login-different": {
+        "question": "Why is my sign-in so different and long?",
+        "answer": [
+          "Instead of a username and password controlled by a company, Nostr uses a pair of cryptographic keys.",
+          "Your \"public key\" (starts with **npub**) is your username. Your \"secret key\" (starts with **nsec**) is your password. The long string is what makes it virtually impossible to guess."
+        ]
+      },
+      "lose-secret-key": {
+        "question": "What happens if I lose my secret key?",
+        "answer": [
+          "**There is no \"forgot password\" button.** Nobody can reset it for you. If you lose it, your account — and any Bitcoin sitting at your donation address — is gone forever.",
+          "**Save your secret key somewhere safe right now.** For tips, read [Managing Your Nostr Keys](https://soapbox.pub/blog/managing-nostr-keys)."
+        ]
+      },
+      "manage-secret-key": {
+        "question": "Can I save my secret key in my phone's password manager?",
+        "answer": [
+          "Yes. You can save it in your device's password manager (iCloud Keychain, 1Password, Bitwarden, etc.). On iPhone, saving it in Passwords lets you use Face ID or Touch ID to log in.",
+          "For a full guide, see [Managing Your Nostr Keys](https://soapbox.pub/blog/managing-nostr-keys)."
+        ]
+      },
+      "send-bitcoin-lightning": {
+        "question": "How does sending Bitcoin over Lightning work?",
+        "answer": [
+          "If a recipient has a Lightning address on their profile, you can send to that. Lightning settles in seconds and fees are tiny.",
+          "Lightning sends don't use {{appName}}'s donation address — they go straight to whatever Lightning wallet the recipient set up themselves. {{appName}}'s own donation flow is on-chain only."
+        ]
+      },
+      "what-are-zaps": {
+        "question": "What are zaps?",
+        "answer": [
+          "Zaps are small Lightning tips on Nostr, separate from {{appName}}'s on-chain donation flow."
+        ]
+      },
+      "fyp": {
+        "question": "How does the feed work?",
+        "answer": [
+          "Your feed shows campaigns and posts from people you follow. There's no algorithm deciding what you see."
+        ]
+      },
+      "what-are-relays": {
+        "question": "What are relays?",
+        "answer": [
+          "Relays are the servers that store and deliver Nostr events — posts, donation receipts, profile info. The defaults work out of the box; you can add or remove relays in Settings > Network."
+        ]
+      },
+      "what-are-blossom": {
+        "question": "What are Blossom servers?",
+        "answer": [
+          "Blossom servers store media files (campaign images, profile pictures) when you upload them. You can manage which servers you use in Settings > Network."
+        ]
+      },
+      "report-content": {
+        "question": "How do I report harmful content?",
+        "answer": [
+          "Tap the three-dot menu (**...**) on any post and select \"Report.\" You can mute or block users from the same menu."
+        ]
+      },
+      "vs-mastodon-bluesky": {
+        "question": "How is Nostr different from Mastodon or Bluesky?",
+        "answer": [
+          "On Mastodon, your account lives on a specific server. On Bluesky, most accounts depend on one company. On Nostr, your identity is a key you control, and your donation address goes with you to any Nostr app."
+        ]
+      },
+      "profile-fields": {
+        "question": "What are profile fields?",
+        "answer": [
+          "Profile fields let you add extra info to your profile — links, wallet addresses, music, photos, videos."
+        ]
+      }
+    }
+  },
+  "guides": {
+    "shared": {
+      "tldrEyebrow": "The short version",
+      "paymentBadge": {
+        "public": "Public Payments",
+        "silent": "Silent Payments"
+      },
+      "paymentComparison": {
+        "donorHeader": "When you donate",
+        "recipientHeader": "When you create",
+        "donorRows": {
+          "whatYouSee": {
+            "label": "What you see",
+            "public": "A regular Bitcoin address you can pay from anywhere.",
+            "silent": "The same QR. Your wallet picks the silent-payment endpoint if it supports BIP-352."
+          },
+          "walletSupport": {
+            "label": "Wallet support",
+            "public": "Every Bitcoin wallet. Cash App, Coinbase, Strike, hardware, anything.",
+            "silent": "Few wallets today. Most fall back to a regular Bitcoin transaction."
+          },
+          "privacy": {
+            "label": "Privacy of the donation",
+            "public": "Public on-chain. Your sending address is permanently linked to the campaign.",
+            "silent": "Receiving side is unlinkable on-chain. Your sending wallet's trail is still public."
+          },
+          "settlement": {
+            "label": "Settlement",
+            "public": "Normal Bitcoin confirmations.",
+            "silent": "Same on-chain confirmations, but the recipient has to scan their wallet to find it."
+          }
+        },
+        "recipientRows": {
+          "whatDonorsSee": {
+            "label": "What donors see",
+            "public": "A regular Bitcoin address. Works with every wallet on earth.",
+            "silent": "A BIP-352 endpoint. Donors' wallets need silent-payments support; otherwise the donation falls back to a regular Bitcoin transaction."
+          },
+          "receivingSpeed": {
+            "label": "Receiving speed",
+            "public": "Push-style. Donations show up immediately on the campaign page.",
+            "silent": "Manual scanning. Your wallet has to walk the blockchain looking for them. Minutes to hours, depending on the wallet."
+          },
+          "pushNotifications": {
+            "label": "Push notifications",
+            "public": "Yes. You see new donations the moment they arrive.",
+            "silent": "No. Open the wallet and trigger a scan to discover them."
+          },
+          "donorList": {
+            "label": "Donor list / campaign totals",
+            "public": "Public forever. Amounts and sending addresses are visible to anyone.",
+            "silent": "Private. The campaign page can't show silent-payments donation counts or totals."
+          },
+          "ecosystem": {
+            "label": "Ecosystem maturity",
+            "public": "Mature. Settled tooling.",
+            "silent": "Bleeding-edge. Wallets are still buggy; expect missed payments that show up on a later scan."
+          },
+          "bestFor": {
+            "label": "Best for",
+            "public": "Above-ground fundraisers where social proof and visibility help.",
+            "silent": "Campaigns where donor or recipient privacy matters more than the visible total."
+          },
+          "watchOutFor": {
+            "label": "Watch out for",
+            "public": "Permanent public record of every donor.",
+            "silent": "Bumpy UX today. Some donations won't show until the recipient scans."
+          }
+        }
+      }
+    },
+    "donor": {
+      "tldr": {
+        "lede": "Pay the Bitcoin address on the campaign page from any wallet you already have. If the campaign accepts silent payments and your wallet supports them, your donation is private automatically.",
+        "nextActions": [
+          "Pay from any Bitcoin wallet",
+          "No middleman, no holding period",
+          "Want privacy? Read below"
+        ]
+      },
+      "flow": {
+        "heading": "How a donation flows",
+        "steps": {
+          "openCampaign": {
+            "title": "Open the campaign",
+            "body": "You see a single QR code. If the campaign accepts both options, it encodes both endpoints; your wallet picks the right one."
+          },
+          "payFromAnyWallet": {
+            "title": "Pay it from any wallet",
+            "body": "Cash App, Coinbase, Strike, a hardware wallet, anything. Pay the amount plus the network fee."
+          },
+          "arrivesDirectly": {
+            "title": "It arrives directly",
+            "body": "Funds settle straight to the recipient. {{appName}} doesn't hold or route them, and the address is derived from the recipient's Nostr secret key."
+          }
+        }
+      },
+      "comparison": {
+        "footnote": "Campaigns can accept Public only, Silent only, or both. If both, the QR code carries both endpoints. Your wallet picks the one it can use."
+      },
+      "publicVisible": {
+        "title": "Public donations are visible on-chain forever",
+        "body": "A **Public** donation lands at a regular Bitcoin address tied to the campaign. Anyone can look up the address and see the amount, the time, and your sending address. **Silent** donations settle on-chain too, but the receiving side is unlinkable to the campaign so they stay out of public donor lists and totals."
+      },
+      "privacy": {
+        "heading": "Donating privately",
+        "intro": "These steps matter most for **Public** donations, where every transaction is permanently tied to a single address. **Silent** donations already hide the receiving side, so the risk is lower. Targeted analysis of your sending wallet is still possible either way, so if your risk is high these steps are worth taking. Pick one, or stack them.",
+        "options": {
+          "silentWallet": {
+            "name": "Use a silent-payments wallet",
+            "purpose": "Pay with a Bitcoin wallet that supports BIP-352. If the campaign accepts silent payments, your wallet uses that endpoint automatically."
+          },
+          "nonKyc": {
+            "name": "Buy non-KYC Bitcoin",
+            "purpose": "Buy Bitcoin peer-to-peer so it isn't linked to your government ID in the first place. Strongest privacy starting point."
+          },
+          "coinjoin": {
+            "name": "Coinjoin first",
+            "purpose": "Mix your Bitcoin with other people's coins so the output can't be traced to your KYC purchase. Useful when the campaign only accepts public."
+          },
+          "freshWallet": {
+            "name": "Use a fresh wallet",
+            "purpose": "Donate from a wallet that has never touched your main identity or a KYC exchange."
+          }
+        }
+      },
+      "consumerApps": {
+        "title": "Consumer apps can't make you anonymous",
+        "body": "Cash App, Coinbase, Strike, Venmo, Kraken, Binance, and PayPal all verify your ID. No matter how you send the donation, every transaction stays tied to your real identity. Use a non-custodial wallet you control."
+      },
+      "silentToday": {
+        "heading": "A note on silent payments today",
+        "paragraphs": [
+          "Silent payments are the most private way to receive Bitcoin on-chain, but the ecosystem is young. Most popular wallets can't send to a silent-payment endpoint yet, so when a wallet can't, the donation falls back to a regular Bitcoin transaction to the campaign's public address (if the campaign accepts both).",
+          "For recipients, silent-payment donations also arrive without push notifications and only appear after the recipient scans their wallet, which can take minutes to hours. None of this affects the safety of your funds; it just shapes the experience."
+        ]
+      }
+    },
+    "recipient": {
+      "tldr": {
+        "lede": "Pick what to accept when you create your campaign: Public, Silent, or both. Either option is non-custodial. {{appName}} never holds your funds.",
+        "nextActions": [
+          "Compare the two options",
+          "Plan how you will cash out",
+          "Sweep funds promptly"
+        ]
+      },
+      "howReceiving": {
+        "heading": "How receiving works",
+        "paragraphs": [
+          "Your {{appName}} donation addresses are derived from your Nostr secret key (nsec) — the same key you sign in with seeds your Bitcoin wallet. When you create a campaign, you pick what to accept:",
+          "**Public payments only.** A regular Bitcoin address. Visible to everyone, works with every wallet.",
+          "**Silent payments only.** BIP-352 silent payments. The receiving side is unlinkable on-chain, so donations stay out of public donor lists and totals. Donors need a silent-payments-capable wallet to send. If they don't have one, their donation can't go through.",
+          "**Both.** {{appName}} generates a single QR code that encodes both endpoints. Silent-payments wallets read it as private; ordinary wallets pay the public address. Donors don't have to choose.",
+          "Accepting both is usually the right call: you get private donations from supporters who use a silent-payments wallet, and you stay open to donors whose only Bitcoin is in a consumer app.",
+          "Inside your {{appName}} wallet, these arrive as **two separate balances** — a **Public** tab (your regular Bitcoin address) and a **Private** tab (silent payments) — shown on the wallet's Public / Private tabs. {{appName}} keeps them strictly apart on purpose: the two balances can never be spent together. Mixing private funds with public ones in a single transaction would link your unlinkable silent-payment donations back to your public address on-chain and destroy the privacy they exist to provide."
+        ]
+      },
+      "whatEveryoneSees": {
+        "heading": "What everyone can see",
+        "paragraphs": [
+          "If your campaign accepts public payments, anyone considering supporting you can look up the address and see the public donation history.",
+          "Silent-payment donations aren't part of that record. They're invisible to outside observers and don't show in the campaign's public totals; new donors only see whatever you publish about the campaign's progress."
+        ]
+      },
+      "comparison": {
+        "footnote": "You can't switch a campaign's accepted payment options after it's created. If you change your mind, make a new campaign."
+      },
+      "silentToday": {
+        "heading": "A note on silent payments today",
+        "paragraphs": [
+          "Silent payments are the most private way to receive Bitcoin on-chain, but the ecosystem is young. Most popular wallets can't send to a silent-payment endpoint yet, so when a donor's wallet can't, the donation falls back to a regular Bitcoin transaction to your public address (if you accept both).",
+          "Silent-payment donations also arrive without push notifications and only appear after you scan your wallet, which can take minutes to hours. None of this affects the safety of your funds; it just shapes the day-to-day experience."
+        ]
+      },
+      "twoWallets": {
+        "title": "Keep your Public and Private balances separate",
+        "body": "Your {{appName}} wallet shows two tabs: **Public** (your regular Bitcoin address) and **Private** (silent payments). They're kept strictly apart, and the two balances can never be spent in the same transaction — that isolation is what keeps your private donations unlinkable. When you cash out from the **Private** tab, send to a silent-payment address (**sp1…**), which stays private. If you instead send private funds to a bare on-chain address, {{appName}} checks it: if the address has been used before, or belongs to your own public wallet, it warns you and makes you tap **Send anyway**, because doing so links your private funds to that address's public history. Sending to an **sp1…** address never triggers the warning."
+      },
+      "movePromptly": {
+        "heading": "Move donations promptly",
+        "steps": {
+          "sweep": {
+            "title": "Sweep to a wallet you control",
+            "body": "Your {{appName}} wallet is already self-custodial — you, and only you, control the keys. For a desktop or hardware-wallet view of the same balance, open the wallet menu, choose **Back up wallet**, and import the 24-word seed into [Sparrow](https://sparrowwallet.com), [BlueWallet](https://bluewallet.io), or a hardware wallet (Trezor, Ledger). If you'd rather move the funds to a different key entirely — for example, to a Lightning wallet like [Phoenix](https://phoenix.acinq.co) — send a regular Bitcoin transaction from your {{appName}} wallet."
+          },
+          "dontSit": {
+            "title": "Don't sit on funds in the browser",
+            "body": "Especially for high-value campaigns, store the wallet's seed phrase offline (paper, metal backup, or a password manager on a dedicated device) and consider a hardware wallet. The seed you back up from {{appName}} is the same wallet — secure the words and you've got cold storage."
+          }
+        }
+      },
+      "cashout": {
+        "heading": "Cashing out privately",
+        "intro": "Spending on-chain creates a trail unless you break it first. Cash out from the **Private** tab to keep silent-payment donations unlinkable — send to a silent-payments wallet first (an **sp1…** address), then spend onward; the hop breaks the link between your campaign and what comes next. Don't send private funds to a reused or public address, which re-links them. The other options below also work and have their own trade-offs.",
+        "options": {
+          "silentHop": {
+            "name": "Silent-payments wallet hop",
+            "purpose": "Move your donations to a silent-payments wallet ([Ditto Wallet](https://ditto.pub), [Dana](https://github.com/cygnet3/dana/releases/download/v0.7.4/app-live-release.apk)). From there your downstream spending isn't tied to the campaign."
+          },
+          "lightningSwap": {
+            "name": "Lightning swap",
+            "purpose": "Atomic-swap on-chain Bitcoin to Lightning. Lightning payments don't hit the public blockchain."
+          },
+          "coinjoin": {
+            "name": "Coinjoin",
+            "purpose": "Mix your Bitcoin with other users' coins so the output can't be linked back to the input."
+          },
+          "peerToPeer": {
+            "name": "Peer-to-peer",
+            "purpose": "Trade Bitcoin for fiat directly with another person or through a broker on Bisq, HodlHodl, or RoboSats."
+          },
+          "spendDirectly": {
+            "name": "Spend it directly",
+            "purpose": "Buy gift cards (Amazon, Uber, groceries, travel) straight from Bitcoin without converting to cash first."
+          }
+        }
+      },
+      "tumblers": {
+        "title": "Avoid centralized tumblers",
+        "body": "Custodial mixers can steal your coins, log who sent what, or turn out to be law-enforcement honeypots. Use a silent-payments hop or a non-custodial coinjoin instead."
+      }
+    }
+  },
+  "support": {
+    "seoTitle": "Something wrong?",
+    "seoDescription": "Report a bug or problem with {{appName}}, and see what others have already reported.",
+    "title": "Something wrong?",
+    "subtitle": "Report a problem with {{appName}}, or check whether it’s already known.",
+    "existingTitle": "Known issues",
+    "openTracker": "Open tracker",
+    "loadError": "Couldn’t load existing reports. The issue relay may be unreachable.",
+    "retry": "Try again",
+    "noIssues": "Nothing reported yet.",
+    "hiddenByModerator": "Hidden",
+    "reportedBy": "By {{name}} · {{time}} ago",
+    "showAttachments": "Show attachments ({{count}})",
+    "collapse": "Show less",
+    "readMore": "Read more",
+    "viewInTracker": "View in tracker",
+    "status": {
+      "open": "Open",
+      "resolved": "Resolved",
+      "closed": "Closed",
+      "draft": "Draft"
+    },
+    "moderation": {
+      "aria": "Moderate this report",
+      "failed": "Moderation action failed",
+      "hidden": "Report hidden",
+      "unhidden": "Report unhidden",
+      "featured": "Report pinned",
+      "unfeatured": "Report unpinned",
+      "pin": "Pin as known issue",
+      "unpin": "Unpin",
+      "pinnedState": "Pinned"
+    },
+    "formTitle": "File a report",
+    "form": {
+      "categoryLabel": "What kind of problem is this?",
+      "category": {
+        "bug": "Something is broken",
+        "wallet": "Wallet or payment",
+        "content": "Campaign or content",
+        "feature": "Feature request"
+      },
+      "subjectLabel": "Summary",
+      "subjectPlaceholder": "One line describing the problem",
+      "bodyLabel": "What happened?",
+      "bodyPlaceholder": "What did you do, what did you expect, and what happened instead?",
+      "attachment": {
+        "add": "Add screenshot",
+        "uploading": "Uploading…",
+        "item": "Screenshot",
+        "remove": "Remove screenshot",
+        "failed": "Screenshot upload failed"
+      },
+      "diagnosticsLabel": "Include version & device info",
+      "anonymousLabel": "Submit anonymously",
+      "disclosureSigned": "Reports are public and signed by your account.",
+      "disclosureAnonymous": "Reports are public, signed with a throwaway key.",
+      "secretWarning": "This looks like it contains sensitive data. It will be published publicly — remove anything private first.",
+      "nsecBlocked": "This contains what looks like a private key (nsec). Remove it before submitting — publishing it would hand over control of that account.",
+      "secretKinds": {
+        "nsec": "Private key",
+        "silentPayment": "Silent payment address",
+        "xpub": "Extended public key",
+        "bitcoinAddress": "Bitcoin address",
+        "seedPhrase": "Seed phrase"
+      },
+      "submit": "Submit report",
+      "submitting": "Submitting…",
+      "errors": {
+        "cooldown": "You just filed a report. Wait a moment before filing another.",
+        "failed": "Couldn’t file the report"
+      }
+    },
+    "success": {
+      "title": "Report filed",
+      "description": "Thanks — it’s now in the developers’ issue tracker.",
+      "copyId": "Copy report ID",
+      "copied": "Copied",
+      "viewTracker": "View in tracker",
+      "fileAnother": "File another"
+    },
+    "pinned": "Pinned"
+  }
+}

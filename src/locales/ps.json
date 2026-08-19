@@ -1,0 +1,3522 @@
+{
+  "donateCallback": {
+    "successTitle": "تادیه ترلاسه شوه",
+    "successDescription": "ستاسو د بښنې لپاره مننه! ژر به ښکاره شي.",
+    "cancelTitle": "تادیه لغوه شوه",
+    "cancelDescription": "ستاسو بښنه بشپړه نشوه."
+  },
+  "tor": {
+    "status": {
+      "disabled": "بند",
+      "connecting": "نښلول کېږي…",
+      "connected": "نښلیدلی",
+      "failed": "اتصال ناکام شو"
+    },
+    "banner": {
+      "connecting": "Tor سره نښلول کېږي — تر چمتو کېدو پورې به مینځپانګه نه بارېږي.",
+      "failed": "Tor سره اتصال ونشو — تر نښلیدو پورې مینځپانګه بنده ده.",
+      "retry": "بیا هڅه وکړئ"
+    }
+  },
+  "common": {
+    "loading": "د بارولو په حال کې…",
+    "error": "تېروتنه",
+    "success": "بریا",
+    "cancel": "لغوه کول",
+    "save": "خوندي کول",
+    "delete": "ړنګول",
+    "edit": "سمول",
+    "close": "تړل",
+    "back": "شاته",
+    "next": "بل",
+    "refresh": "تازه کول",
+    "search": "لټون",
+    "filter": "فلټر",
+    "clear": "پاکول",
+    "submit": "سپارل",
+    "confirm": "تایید",
+    "copied": "کاپي شو",
+    "goBack": "بېرته تلل",
+    "tryAgain": "مهرباني وکړئ بیا هڅه وکړئ.",
+    "showLess": "لږ وښایاست",
+    "readMore": "نور ولولئ",
+    "byAuthor": "د <0>{{name}}</0> لخوا",
+    "clearSearch": "لټون پاکول",
+    "searching": "لټون کېږي…",
+    "searchResultsCount_one": "{{count}} پایله",
+    "searchResultsCount_other": "{{count}} پایلې",
+    "sortAriaLabel": "د ترتیب اساس",
+    "sortDefault": "اصلي",
+    "sortTop": "غوره",
+    "sortNew": "نوي",
+    "showHidden": "پټ ښودل",
+    "filtersAriaLabel": "د لټون فلټرونه",
+    "countryFilterAriaLabel": "د هیواد له مخې فلټر",
+    "countrySearchPlaceholder": "هیوادونه ولټوئ…",
+    "countryNoResults": "هیڅ هیواد ونه موندل شو.",
+    "countryGlobal": "نړیوال",
+    "continue": "دوام"
+  },
+  "imageCrop": {
+    "title": "انځور کاٹل",
+    "reset": "بیا تنظیمول",
+    "hint": "د بیا ځای‌پرځای کولو لپاره یې کش کړئ · د لويولو لپاره ګوته ونیسئ یا سکرول کړئ",
+    "cancel": "لغوه کول",
+    "processing": "پروسس کیږي…",
+    "apply": "کاٹل پلي کول"
+  },
+  "translate": {
+    "translate": "ژباړل",
+    "translating": "ژباړل کېږي…",
+    "showOriginal": "اصلي وښایاست",
+    "error": "ژباړه ناکامه شوه"
+  },
+  "nav": {
+    "openMenu": "د مینو پرانیستل",
+    "closeMenu": "د مینو تړل",
+    "brandHome": "د {{appName}} کور پاڼه",
+    "activity": "فعالیت",
+    "campaigns": "کمپاینونه",
+    "groups": "ډلې",
+    "pledge": "ژمنې",
+    "search": "لټون",
+    "language": "ژبه",
+    "dashboard": "ډیشبورډ",
+    "myDashboard": "زما ډیشبورډ",
+    "wallet": "بټوه",
+    "notifications": "خبرتیاوې",
+    "messages": "پیغامونه",
+    "profile": "پروفایل",
+    "settings": "تنظیمات",
+    "about": "په اړه",
+    "verify": "تصدیق",
+    "privacy": "محرمیت",
+    "safety": "خوندیتوب",
+    "changelog": "د بدلونونو لاګ",
+    "sourceCode": "د سرچینې کوډ",
+    "getApp": "اپ ترلاسه کړئ",
+    "walletBalanceHidden": "د والټ بیلانس پټ دی",
+    "issues": "ستونزې"
+  },
+  "messages": {
+    "title": "پیغامونه",
+    "subtitle": "ستاسو شخصي کوډ شوي مستقیم پیغامونه.",
+    "conversations": "خبرې اترې",
+    "empty": "تر اوسه هیڅ پیغام نشته. هغه خبرې اترې چې تاسو یې لرئ دلته به ښکاره شي.",
+    "selectPrompt": "د خپلو پیغامونو لوستلو لپاره یوه خبره اتره وټاکئ.",
+    "composePlaceholder": "یو پیغام ولیکئ…",
+    "send": "لیږل",
+    "sendFailed": "د پیغام لیږل ناکام شول",
+    "youPrefix": "تاسو:",
+    "encryptedSent": "کوډ شوی پیغام",
+    "encryptedReceived": "کوډ شوی پیغام",
+    "decryptFailed": "د دې پیغام کوډ خلاصول نشي کیدی.",
+    "unsupported": "ستاسو اوسنۍ د ننوتلو طریقه کوډ شوي مستقیم پیغامونه نه ملاتړ کوي.",
+    "searchConversation": "په خبرو اترو کې لټون",
+    "searchPlaceholder": "پیغامونه ولټوئ",
+    "noSearchResults": "برابر پیغامونه ونه موندل شول.",
+    "visitProfile": "د {{name}} پروفایل وګورئ",
+    "muteUser": "{{name}} چوپ کړئ",
+    "muteDialogTitle": "{{name}} چوپ کړئ؟",
+    "muteDialogDescription": "دا به {{name}} ستاسو د چوپ‌لړ کې اضافه کړي او دا خبرې اترې به له پیغامونو لرې کړي. تاسو کولای شئ وروسته یې له چوپ‌لړ څخه بېرته فعال کړئ.",
+    "confirmMute": "کاروونکی چوپ کړئ",
+    "mutedToastTitle": "کاروونکی چوپ شو",
+    "mutedToastDescription": "{{name}} چوپ شو او خبرې اترې لرې شوې.",
+    "muteFailed": "د کاروونکي چوپول ناکام شول",
+    "showFriendsOnly": "د هغو خلکو پیغامونه وښایئ چې تاسو یې تعقیبوئ",
+    "showAllConversations": "ټولې خبرې اترې وښایئ",
+    "friendsEmpty": "د هغو خلکو څخه پیغامونه نشته چې تاسو یې تعقیبوئ.",
+    "translateDialogTitle": "شخصي پیغامونه وژباړل شي؟",
+    "translateDialogDescription": "ترلاسه شوي پیغامونه به ستاسو ټاکل شوي ژباړې خدمت ته واستول شي. لېږل شوي پیغامونه به نه ژباړل کېږي. Agora به دا انتخاب په دې وسیله کې په یاد وساتي.",
+    "confirmTranslate": "پیغامونه وژباړئ",
+    "newMessage": "نوی پیغام",
+    "newMessageTitle": "نوی پیغام",
+    "recipientLabel": "ته",
+    "recipientPlaceholder": "د نوم، NIP-05 یا npub له مخې لټون وکړئ…",
+    "recipientHint": "د نوې خبرې اترې پیلولو لپاره څوک ولټوئ.",
+    "recipientSearching": "په لټون کې…",
+    "noRecipientResults": "هیڅ خلک ونه موندل شول. بل نوم، NIP-05 یا npub هڅه وکړئ.",
+    "recipientFollowed": "تاسو دا کس تعقیبوئ"
+  },
+  "auth": {
+    "join": "ګډون",
+    "login": "ننوتل",
+    "signup": "نوم لیکنه",
+    "logout": "وتل",
+    "addAccount": "بل حساب اضافه کول",
+    "createNewAccount": "اکاونټ جوړ کړئ",
+    "or": "یا",
+    "loginExisting": "د موجوده حساب سره ننوتل",
+    "loginTitle": "ننوتل",
+    "connectSignerTitle": "لاسلیک کوونکی نښلول",
+    "back": "شاته",
+    "secretKeyLabel": "پټ کیلي وکاروئ",
+    "nsecPlaceholder": "nsec1…",
+    "loginInputPlaceholder": "nsec1… یا bunker://…",
+    "uploadKeyFile": "د کیلي فایل پورته کول",
+    "loggingIn": "ننوتل کیږي…",
+    "loginWithExtension": "د توسیع په مرسته ننوتل",
+    "useRemoteSigner": "لیرې لاسلیک کوونکی وکاروئ",
+    "tryAgain": "بیا هڅه وکړئ",
+    "cancel": "لغوه کول",
+    "openSignerApp": "د لاسلیک کوونکي اپلیکیشن پرانیستل",
+    "enterBunkerManually": "د bunker URI په لاس داخل کړئ",
+    "bunkerPlaceholder": "bunker://…",
+    "moreLoginOptions": "د ننوتلو نورې لارې",
+    "scanSignerPrompt": "د ننوتلو لپاره یې د لاسلیک کوونکي اپ سره سکین کړئ.",
+    "invalidBunkerFormat": "د bunker URI ناسم بڼه.",
+    "connecting": "نښلول کیږي…",
+    "connect": "نښلول",
+    "waitingForSigner": "د لاسلیک کوونکي د نښلون په تمه…",
+    "gettingPublicKey": "عامه کیلي ترلاسه کیږي…",
+    "errorEnterLoginInput": "خپله پټه کیلي یا bunker URI دننه کړئ.",
+    "errorInvalidLoginInput": "یو سم nsec1… کیلي یا bunker://… URI دننه کړئ.",
+    "errorEnterSecretKey": "خپله پټه کیلي داخل کړئ.",
+    "errorInvalidSecretKey": "ناسمه پټه کیلي. باید په nsec1 پیل شي.",
+    "errorLoginFailed": "د دې کیلي سره ننوتل ونشول.",
+    "errorFileNoKey": "فایل کې سمه پټه کیلي نشته.",
+    "errorFileRead": "د فایل لوستل پاتې راغلل.",
+    "errorExtensionFailed": "د توسیع ننوتل پاتې راغلل.",
+    "errorBunkerConnect": "نښلول پاتې راغلل. د bunker URI وګورئ.",
+    "extensionErrorTitle": "د توسیع ننوتل پاتې راغلل"
+  },
+  "onboarding": {
+    "ariaLabel": "د حساب جوړونه",
+    "close": "تړل",
+    "back": "شاته",
+    "role": {
+      "title": "څه شی تاسو دلته راوست؟",
+      "subtitle": "دواړه کارونه وروسته کولی شئ. دا یوازې راسره مرسته کوي چې راتلونکي ګامونه ستاسو لپاره وسنجوو.",
+      "creator": {
+        "title": "کمپاین پیلول",
+        "description": "د هغه هدف لپاره Bitcoin راټول کړئ چې درته اهمیت لري.",
+        "finderNote": "بسپنه ورکوونکي سټس په مستقیم ډول ستاسو بټوې ته لیږي."
+      },
+      "donor": {
+        "title": "کمپاینونو ته مرسته ورکول",
+        "description": "د Bitcoin په واسطه د هدفونو ملاتړ وکړئ.",
+        "finderNote": "ستاسو مرسته په مستقیم ډول د تنظیموونکي بټوې ته ځي."
+      },
+      "verifier": {
+        "title": "کمپاینونه تصدیق کړئ",
+        "description": "د یوه سازمان په توګه د کمپاینونو ضمانت وکړئ.",
+        "finderNote": "بسپنه ورکوونکي په هغو کمپاینونو کې نښان ویني چې تاسو پرې باور لرئ."
+      }
+    },
+    "keygen": {
+      "title": "ستاسو کلي ستاسو هویت دی",
+      "description": "موږ به ستاسو لپاره یو پټ کلي رامنځته کړو. دا یوازینۍ لاره ده چې ننوځئ — نه ایمیل، نه پټنوم.",
+      "generatingTitle": "ستاسو کلي جوړېږي…",
+      "generatingDescription": "دا یوازې یوه شیبه نیسي.",
+      "button": "زما کلي رامنځته کړه"
+    },
+    "secure": {
+      "title": "خپل کلي خوندي کړئ",
+      "subtitle": "فایل ډاونلوډ کړئ او په خوندي ځای کې یې وساتئ. د پټنوم مدیر ښه کار کوي.",
+      "couplingNote": "ستاسو حساب او بټوه دا یو کلي شریکوي. دا ستاسو د Nostr لیکنې لاسلیکوي او په Agora کې ستاسو د Bitcoin بټوه پرانیزي.",
+      "permanenceHeadline": "که دا کلي له لاسه ورکړئ، د بیرته راګرځولو لار نشته.",
+      "permanenceBody": "نه بیا تنظیمول، نه د مرستې کرښه، نه د بریښنالیک له لارې بیرته راګرځول. د دوام له مخه یې وساتئ.",
+      "button": "ډاونلوډ او دوام",
+      "downloadFailedTitle": "ډاونلوډ پاتې راغی",
+      "downloadFailedDescription": "د کلي فایل ډاونلوډ نه شو. مهرباني وکړئ په لاسي ډول یې کاپي کړئ.",
+      "secretKeyAriaLabel": "پټ کیلي"
+    },
+    "verify": {
+      "title": "خپل کیلي تایید کړئ",
+      "subtitle": "هغه کیلي چې تاسو یې همدا اوس خوندي کړ ننوباسئ یا یې پورته کړئ. دا ډاډ ورکوي چې ستاسو بیکاپ کار کوي، مخکې له دې چې مخته لاړ شئ.",
+      "placeholder": "nsec1…",
+      "inputAriaLabel": "خپل پټ کیلي ننوباسئ",
+      "or": "یا",
+      "uploadButton": "د کیلي دوتنه پورته کړئ",
+      "mismatch": "دا هغه کیلي سره سمون نه لري چې تاسو یې همدا اوس خوندي کړ. خپل بیکاپ وګورئ او بیا هڅه وکړئ.",
+      "fileInvalid": "دا دوتنه یو باوري پټ کیلي نه لري.",
+      "fileReadFailed": "دا دوتنه لوستل ونشول. مهرباني وکړئ بیا هڅه وکړئ."
+    },
+    "profile": {
+      "title": "خپل یې کړئ",
+      "subtitle": "نورو ته د ځان په اړه یو څه ووایاست. ټول اختیاري دي، هر وخت یې بدلولی شئ.",
+      "campaignTitle": "خپلې کمپاین ته مخ ورکړئ",
+      "campaignSubtitle": "نوم او عکس خلکو سره مرسته کوي چې ستاسو کمپاین سره اړیکه ونیسي.",
+      "nameLabel": "د ښودنې نوم",
+      "namePlaceholder": "ستاسو نوم",
+      "campaignNamePlaceholder": "د کمپاین سرلیک",
+      "aboutLabel": "بیوګرافي",
+      "aboutPlaceholder": "د ځان په اړه یو څه…",
+      "avatarLabel": "اواتار",
+      "uploadAvatar": "اواتار پورته کول",
+      "advanced": "نور",
+      "finish": "پای",
+      "saving": "خوندي کېږي…",
+      "skip": "اوس یې پرېږدئ",
+      "imageOnly": "مهرباني وکړئ یو انځور وټاکئ.",
+      "imageTooLarge": "انځور ډېر لوی دی (تر ډېره ۵MB).",
+      "uploadFailed": "پورته کول پاتې راغلل.",
+      "publishFailedTitle": "د پروفایل جوړول پاتې راغلل",
+      "publishFailedDescription": "ستاسو حساب جوړ شو خو پروفایل خوندي نه شو. وروسته یې تازه کولی شئ."
+    },
+    "verifier": {
+      "identity": {
+        "title": "خپل سازمان تنظیم کړئ",
+        "subtitle": "نوم او لوگو اړین دي. ویب پاڼه او بینر اختیاري دي.",
+        "websiteInvalid": "یوه سمه ویب پاڼه ولیکئ چې له https:// سره پیلیږي",
+        "cropAvatar": "لوگو پرې کړئ",
+        "cropBanner": "بینر پرې کړئ",
+        "uploading": "انځور پورته کیږي…",
+        "clipboardFailed": "د کلیپ‌بورډ څخه لوستل ونشول.",
+        "pasteUrlInvalid": "کلیپ‌بورډ کې یو سم https URL نشته.",
+        "pasteUrlFetchFailed": "هغه انځور لوډ نشو. URL وګورئ او بیا هڅه وکړئ."
+      },
+      "bio": {
+        "title": "د خپل سازمان په اړه راته ووایاست",
+        "subtitle": "ستاسو د پروفایل لپاره یوه لنډه تشریح.",
+        "label": "ستاسو د سازمان په اړه",
+        "placeholder": "موږ یو غیرانتفاعي سازمان یو چې…",
+        "publishing": "ستاسو پروفایل خوندي کیږي…"
+      },
+      "publishFailedTitle": "پروفایل خوندي نشو",
+      "publishFailedDescription": "ستاسو حساب چمتو دی، خو د سازمان پروفایل خپور نشو. تاسو کولی شئ وروسته یې له تنظیماتو څخه بشپړ کړئ.",
+      "statement": {
+        "title": "خپل د تصدیق کوونکي بیان خپور کړئ",
+        "subtitle": "تشریح کړئ چې د ضمانت کولو دمخه څنګه کمپاینونه ارزوئ. په عامه توګه خپریږي ترڅو بسپنه ورکوونکي ستاسو پر نښان باور وکړي."
+      },
+      "howto": {
+        "title": "د کمپاین د تصدیق کولو څرنګوالی",
+        "subtitle": "ټول چمتو دي. دلته دا دی چې څنګه د یوه کمپاین ضمانت وکړئ کله چې مو وکتل.",
+        "finish": "کمپاینونه وګورئ"
+      }
+    }
+  },
+  "feed": {
+    "indexTagline": "پرته له پولو ورکړه وکړئ.",
+    "getApp": {
+      "eyebrow": "اپ ترلاسه کړئ",
+      "title": "{{appName}} د اندروید لپاره",
+      "subtitle": "بشپړ {{appName}} تجربه",
+      "download": "ډاونلوډ"
+    },
+    "compose": {
+      "placeholder": "څه روان دي؟"
+    },
+    "tabs": {
+      "follows": "تعقیب‌شوي",
+      "following": "تعقیبوم",
+      "global": "نړیوال"
+    },
+    "empty": {
+      "homeAgora": "په Agora کې آرام شیبه. نوي کمپاینونه، ژمنې، ډالۍ او پوسټونه به دلته راڅرګند شي کله چې پیښ شي.",
+      "homeFollowingLoggedIn": "ستاسو د تعقیب فیډ خالي دی. ځینې خلک تعقیب کړئ ترڅو وګورئ څه کوي، یا Agora یا نړیوال ته واوړئ.",
+      "homeFollowingLoggedOut": "د هغو کسانو د پوسټونو لیدلو لپاره چې تاسو یې تعقیبوئ ننوځئ.",
+      "homeOther": "د ښودلو لپاره څه نشته. د خپل ریلی اتصالاتو وګورئ یا یو څه وخت وروسته بیا هڅه وکړئ.",
+      "follows": "ستاسو فیډ خالي دی. ځینې خلک تعقیب کړئ ترڅو د دوی پوسټونه دلته وګورئ.",
+      "global": "هیڅ پوسټ ونه موندل شو. د خپل ریلی اتصالاتو وګورئ یا ډېر ژر بیرته راشئ.",
+      "browseAgora": "وروستی فیډ ولولئ",
+      "browseGlobal": "نړیوال فیډ ولولئ",
+      "discoverPeople": "د تعقیب لپاره خلک ومومئ",
+      "logIn": "ننوتل"
+    },
+    "error": {
+      "toast": "فیډ نه شو پورته کولی. خپل اتصال وګورئ او بیا هڅه وکړئ.",
+      "loadFailed": "فیډ نه شو پورته کولی. دا معمولاً د یو ورو یا نه‌رسېدونکي ریلی له امله وي — ستاسو محتوا لاهم شته.",
+      "retry": "بیا هڅه وکړئ"
+    },
+    "modeSwitcher": {
+      "agora": "وروستي",
+      "allNostr": "نړیوال",
+      "following": "تعقیبوم",
+      "ariaLabel": "د فیډ حالت: {{label}}. د بدلولو لپاره کلیک وکړئ.",
+      "loginRequired": "د هغو کسانو د پوسټونو لیدلو لپاره چې تاسو یې تعقیبوئ ننوځئ"
+    },
+    "replyContext": {
+      "replyingTo": "په ځواب کې",
+      "and": "او",
+      "andOthers_one": "او {{count}} بل",
+      "andOthers_other": "او {{count}} نور"
+    },
+    "actions": {
+      "reply": "ځواب",
+      "repost": "بیا خپور کول",
+      "undoRepost": "د بیا خپرولو لغو کول",
+      "react": "غبرګون",
+      "zap": "Zap",
+      "share": "شریکول",
+      "more": "نور",
+      "linkCopied": "لینک کلیپ بورډ ته کاپي شو"
+    }
+  },
+  "forms": {
+    "required": "اړين",
+    "recommended": "وړاندیز شوی",
+    "optional": "اختیاري",
+    "title": "سرلیک",
+    "country": "هېواد",
+    "tags": "ټاګونه",
+    "coverImage": "د پوښ انځور",
+    "description": "توضیح",
+    "timezone": "وخت زون",
+    "countrySearchPlaceholder": "هېوادونه ولټوئ",
+    "imageDropzone": "دلته انځور کلیک یا راکش کړئ",
+    "countryClearAria": "هیواد پاکول",
+    "flagOfAria": "د {{name}} بیرغ",
+    "countryHint": "د هیواد د ترتیب لپاره <0>i: iso3166:{{code}}</0> خپریږي.",
+    "publishing": "خپرول…",
+    "uploadingCover": "پوښ پورته کیږي…"
+  },
+  "organizationContext": {
+    "attachedToGroup": "له ډلې سره تړلی",
+    "groupFallback": "ډله",
+    "editSubtext": "تازه‌کونې به د دې ډلې له رسمي فعالیت سره تړلې پاتې شي.",
+    "malformedParam": "په لینک کې ډله ونه لوستل شوه. ستاسو د حساب لاندې به خپره شي.",
+    "checkingPermissions": "د ډلې اجازې کتل کېږي…",
+    "unauthorized": "تاسو د هغې ډلې بنسټګر یا مدیر نه یاست. ستاسو د حساب لاندې به خپره شي.",
+    "publishingAsGroup": "د ډلې په توګه خپرول"
+  },
+  "notFound": {
+    "title": "۴۰۴ - پاڼه ونه موندل شوه",
+    "description": "هغه پاڼه چې لټوئ ونه موندل شوه.",
+    "heading": "دا پاڼه شتون نه لري.",
+    "goHome": "کور ته لاړ شه"
+  },
+  "pledges": {
+    "list": {
+      "seoTitle": "ژمنې",
+      "seoTitleWithCountry": "ژمنې — {{country}}",
+      "seoDescription": "د هغو ټاکلو کړنو، شواهدو یا پایلو لپاره چې غواړئ الهام ورکړئ مالي ژمنه وکړئ.",
+      "heroKicker": "ژمنه",
+      "heroHeading": "هغه بدلون الهام کړه",
+      "heroHeadingLine2": "چې غواړې وی ووینې.",
+      "heroBody": "ټاکلې کړنې، شواهد او پایلې تمویل کړئ. خلک د ځوابونو په لیږلو ګډون کوي، او ټولنه هغه کار ته پاداش ورکوي چې موخه پر مخ بیایي.",
+      "openCount_one": "ژمنه اوس اوس پرانیستې",
+      "openCount_other": "ژمنې اوس اوس پرانیستې",
+      "createPledge": "ژمنه جوړول",
+      "loginToCreate": "د ژمنې جوړولو لپاره ننوځئ",
+      "myPledges": "زما ژمنې",
+      "myPledgesTagline": "هغه ژمنې چې تاسو جوړې کړې دي.",
+      "featuredPledges": "ځانګړې ژمنې",
+      "featuredPledgesTagline": "هغه ژمنې چې د {{appName}} ټیم په ګوته کړې دي.",
+      "allPledges": "ژمنې",
+      "allPledgesTagline": "د څارونکو لخوا ځانګړې شوې. د ټولو ژمنو لیدلو لپاره لټون یا ترتیب وکړئ.",
+      "sectionActive": "فعالې ژمنې",
+      "sectionUpcoming": "راتلونکې ژمنې",
+      "sectionPast": "تېرې ژمنې",
+      "sectionDefault": "ژمنې",
+      "sectionTagline": "د هغو کړنو په تمویل کې مرسته وکړئ چې ارزښت یې لري.",
+      "sortAriaLabel": "ترتیب",
+      "sortBy": "د ترتیب اساس",
+      "sortRecent": "تازه ترین",
+      "sortBounty": "ترټولو لوړه ژمنه",
+      "sortDeadline": "نږدې وروستۍ نېټه",
+      "sortDeadlinePast": "په وروستیو کې پای ته رسیدلې",
+      "filterAriaLabel": "د هیواد له مخې فلټر",
+      "countrySearchPlaceholder": "لټون…",
+      "noResults": "هیڅ پایله ونه موندل شوه.",
+      "global": "نړیوال",
+      "dividerUpcoming": "راتلونکې",
+      "dividerPast": "تېرې",
+      "showLess": "لږ ښودل",
+      "showMore": "نور ښودل ({{count}} نور)",
+      "emptyTitle": "تر اوسه هیڅ ژمنه نشته",
+      "emptyHint": "د ژمنې جوړولو لومړنی شه.",
+      "emptyHintCountry": "د {{country}} لپاره د ژمنې جوړولو لومړنی شه.",
+      "searchPlaceholder": "د ژمنو لټون…",
+      "searchAriaLabel": "د ژمنو لټون",
+      "noMatch": "هیڅ ژمنه له «{{query}}» سره سمون نه لري",
+      "noMatchHint": "بل لټون وکارئ، یا لټون پاک کړئ.",
+      "needsReview": "بیاکتنه ته اړتیا لري",
+      "needsReviewDesc": "د {{appName}} ژمنې چې تر اوسه نه ځانګړې شوې او نه پټې شوې. یوه یې ځانګړو ته پورته کړئ یا یې په پټولو سره ضعیفه کړئ.",
+      "needsReviewEmpty": "د بیاکتنې په تمه څه نشته.",
+      "hidden": "پټې",
+      "hiddenDesc": "د عامه موندنې څخه پټې ژمنې. د کارت په کباب مینو کې د پټولو لرې کولو لپاره وکاروئ.",
+      "hiddenEmpty": "اوس مهال هیڅ ژمنه پټه نه ده."
+    },
+    "card": {
+      "ended": "پای ته رسیدلې",
+      "pledged": "ژمنه شوې",
+      "byAuthor": "د <0>{{name}}</0> له لوري",
+      "actionsAriaLabel": "د ژمنې کړنې",
+      "deletePledge": "ژمنه ړنګول",
+      "copyLink": "د لینک کاپي",
+      "linkCopied": "لینک کاپي شو",
+      "linkCopyFailed": "د لینک کاپي پاتې راغله",
+      "confirmDelete": "دا ژمنه ړنګه شي؟ دا کار بیرته نه راګرځول کیږي.",
+      "deleted": "ژمنه ړنګه شوه",
+      "deletedContent": "ړنګه شوې ژمنه",
+      "deleteFailed": "د ژمنې ړنګول پاتې راغلل"
+    },
+    "create": {
+      "seoTitle": "د ژمنې جوړول",
+      "seoDescription": "په {{appName}} کې د ټاکلې کړنې د الهامولو لپاره د بسپنه ورکوونکي ژمنه جوړه کړئ.",
+      "loginGateTitle": "د ژمنې جوړولو لپاره ننوځئ",
+      "loginGateBody": "ژمنې د لاسلیک‌شویو Nostr پیښو په توګه دي. د ژمنې د خپرولو لپاره د Nostr ننوتلو ته اړتیا لرئ.",
+      "heading": "د ژمنې جوړول",
+      "title": "سرلیک",
+      "titlePlaceholder": "د ساحل پاکولو مستندول",
+      "country": "هیواد",
+      "countryPlaceholder": "هېوادونه ولټوئ",
+      "tags": "ټګونه",
+      "coverImage": "د پوښ انځور",
+      "description": "تشریح",
+      "descriptionPlaceholder": "هغه کړنه، شواهد یا پایله چې غواړئ الهام ورکړئ، د وړاندیزونو لپاره څه شیان دي او څنګه به یې ارزوئ تشریح کړئ...",
+      "pledge": "ژمنه",
+      "pledgeAmountPlaceholder": "100",
+      "deadline": "وروستۍ نېټه",
+      "timezone": "د وخت زون",
+      "timezoneNote": "د پیل او وروستۍ نېټې وختونه به په دې وخت زون کې تفسیر شي.",
+      "submit": "ژمنه جوړول",
+      "altText": "د {{appName}} ژمنه: {{title}}",
+      "successToast": "ژمنه جوړه شوه",
+      "errorToast": "ژمنه نه جوړیږي",
+      "errorLoginRequired": "د ژمنې جوړولو لپاره باید ننوځئ.",
+      "errorTitleRequired": "سرلیک اړین دی.",
+      "errorDescriptionRequired": "تشریح اړینه ده.",
+      "errorPledgeRequired": "د ژمنې اندازه اړینه ده.",
+      "errorPledgeInvalid": "د ژمنې اندازه باید د ډالر په مثبته بڼه وي.",
+      "errorPriceUnavailable": "د BTC/USD نرخ ته انتظار باسئ ترڅو د ژمنې اندازه محاسبه شي.",
+      "errorCoverInvalid": "د پوښ انځور باید د https:// سمه نښه وي.",
+      "errorDeadlinePast": "وروستۍ نېټه نشي کولی په تېر وخت کې وي.",
+      "wizard": {
+        "titleStepTitle": "خپلې ژمنې ته نوم ورکړئ",
+        "titleStepSubtitle": "روښانه غوښتنه او لنډه څرګندونه چې څه به تمویل کړئ.",
+        "pledgeStepTitle": "خپله ژمنه وټاکئ",
+        "pledgeStepSubtitle": "څومره به ورکړئ، په USD کې، او یوه اختیاري وروستۍ نېټه.",
+        "coverStepTitle": "د پوښ انځور اضافه کړئ",
+        "coverStepSubtitle": "یو انځور په هر کارت کې ژمنه ښیي.",
+        "tagsStepTitle": "هیواد او کټګورۍ",
+        "tagsStepSubtitle": "د دې سره مرسته وکړئ چې مناسب خلک ستاسو ژمنه ومومي.",
+        "launchNow": "تېر شئ او اوس یې پیل کړئ"
+      }
+    },
+    "detail": {
+      "seoTitle": "{{title}} | د {{appName}} ژمنه",
+      "seoFallbackTitle": "ژمنه | {{appName}}",
+      "deadlineEndedOn": "په {{date}} پای ته ورسیده",
+      "deadlineEndsToday": "نن پای ته رسي",
+      "deadlineDaysLeft_one": "{{count}} ورځ پاتې",
+      "deadlineDaysLeft_other": "{{count}} ورځې پاتې",
+      "deadlineEndsOn": "په {{date}} پای ته رسي",
+      "openEnded": "بې مهاله",
+      "back": "شاته",
+      "backToPledges": "ژمنو ته بیرته",
+      "loadingPledge": "ژمنه بارېږي…",
+      "pledge": "ژمنه",
+      "byAuthor": "د <0>{{name}}</0> له لوري",
+      "submitLabel": "وسپارئ",
+      "linkCopied": "لینک کلپ‌بورډ ته کاپي شو",
+      "pinnedToast": "ژمنې ته ونښلول شو",
+      "unpinnedToast": "له ژمنې جلا شو",
+      "pinFailed": "د نښلونو تازه کول پاتې راغلل",
+      "submissions": "سپارلې",
+      "submissionCount_one": "{{count}} سپارنه",
+      "submissionCount_other": "{{count}} سپارنې",
+      "submissionPlaceholder": "ثبوت، شواهد، یا بشپړ شوي کار شریک کړئ...",
+      "noSubmissionsTitle": "تر اوسه هیڅ سپارنه نشته",
+      "noSubmissionsHint": "د ثبوت، شواهدو یا بشپړ شوي کار سره د ځواب لومړنی شه.",
+      "funded": "تمویل‌شوی",
+      "ofPledged": "د {{amount}} څخه ژمنه شوي",
+      "trustNote": "دا ژمنه پر باور ولاړه ده. د تمویل پرمختګ د لومړي کچې سپارنو زپس او د مرستې رسیدونه جمع کوي.",
+      "share": "شریکول",
+      "storyHeading": "ژمنه",
+      "storyEmpty": "ژمنه کوونکي تر اوسه د دې ژمنې لپاره جزئیات نه دي لیکلي."
+    }
+  },
+  "groups": {
+    "list": {
+      "seoTitle": "ډلې",
+      "seoDescription": "په Nostr کې ډلې وموندئ او ورسره یوځای شئ",
+      "heroKicker": "ډلې",
+      "heroHeading": "ځواک",
+      "heroHeadingLine2": "په شمېر کې دی.",
+      "heroBody": "ډلې جوړې کړئ، غړي راټول کړئ، او د خپلو فضاوو په اړه خبر اوسئ.",
+      "createGroup": "د ډلې جوړول",
+      "createGroupLoginTitle": "د ډلې جوړولو لپاره ننوځئ",
+      "createGroupLoginBody": "د ډلې جوړول ستاسو له حساب څخه د Nostr پیښه خپروي.",
+      "myGroups": "زما ډلې",
+      "myGroupsTagline": "هغه ډلې چې تاسو یې جوړې کړي، اداره کوئ، یا یې تعقیبوئ.",
+      "featuredGroups": "ځانګړې ډلې",
+      "featuredGroupsTagline": "ځانګړې ډلې چې ستاسو د پاملرنې وړ دي.",
+      "allGroups": "ډلې",
+      "allGroupsTagline": "د څارونکو لخوا ځانګړې شوې. د ټولو ډلو لیدلو لپاره لټون یا ترتیب وکړئ.",
+      "loginToSeeTitle": "د خپلو ډلو لیدلو لپاره ننوځئ",
+      "loginToSeeBody": "هغه ډلې چې تاسو یې جوړې کړي یا یې اداره کوئ به دلته راڅرګندې شي.",
+      "noGroupsTitle": "تر اوسه ډلې نشته",
+      "noGroupsBody": "د خپلو خلکو سره د کمپاینونو، ژمنو او پیښو د همغږي کولو لپاره خپله ډله جوړه کړئ.",
+      "noFeaturedTitle": "تر اوسه ځانګړې ډلې نشته",
+      "noFeaturedBody": "د {{appName}} ادارېدونکي دلته بې‌جوړې ډلې ځانګړي کوي. ډېر ژر بیرته وګورئ.",
+      "connectingRelays": "ریلې سره نښلول…",
+      "showLess": "لږ ښودل",
+      "showMore": "{{count}} نور ښودل",
+      "needsReview": "بیاکتنه ته اړتیا لري",
+      "needsReviewDesc": "د {{appName}} ډلې چې تر اوسه نه ځانګړې شوې او نه پټې شوې. یو یې ځانګړو ته پورته کړئ یا یې په پټولو سره ضعیف کړئ.",
+      "needsReviewEmpty": "د بیاکتنې په تمه څه نشته.",
+      "hidden": "پټې",
+      "hiddenDesc": "د عامه موندنې څخه پټې ډلې. د کارت په کباب مینو کاپي کې د پټولو لرې کولو لپاره وکاروئ.",
+      "hiddenEmpty": "اوس مهال هیڅ ډله پټه نه ده.",
+      "tickerCampaignsRaised_one": "په {{count}} کمپاین کې پر چین راټول شوي",
+      "tickerCampaignsRaised_other": "په {{count}} کمپاینونو کې پر چین راټول شوي",
+      "tickerFeaturedGroups_one": "په Nostr کې ځانګړې ډله",
+      "tickerFeaturedGroups_other": "په Nostr کې ځانګړې ډلې",
+      "tickerCountries_one": "نن ورځ خپروونکی هیواد",
+      "tickerCountries_other": "نن ورځ خپروونکي هیوادونه",
+      "searchPlaceholder": "د ډلو لټون…",
+      "searchAriaLabel": "د ډلو لټون",
+      "noMatch": "هیڅ ډله له «{{query}}» سره سمون نه لري",
+      "noMatchHint": "بل لټون وکارئ، یا لټون پاک کړئ."
+    },
+    "create": {
+      "seoTitleCreate": "د ډلې جوړول",
+      "seoTitleEdit": "د ډلې سمول",
+      "seoDescriptionCreate": "په {{appName}} کې نوې ډله پیل کړئ.",
+      "seoDescriptionEdit": "په {{appName}} کې خپله ډله تازه کړئ.",
+      "loginGateTitle": "د ډلې پیلولو لپاره ننوځئ",
+      "loginGateBody": "ډلې د لاسلیک‌شویو Nostr پیښو په توګه دي. د خپرولو لپاره د Nostr ننوتلو ته اړتیا لرئ.",
+      "invalidEditTitle": "د سمولو ناسم لینک",
+      "invalidEditBody": "د دې ډلې د سمولو لینک د سمې پتې نه لري.",
+      "startNewGroup": "نوې ډله پیل کړئ",
+      "loadingGroup": "ډله بارېږي…",
+      "cannotEditTitle": "ډله سملای نشي",
+      "cannotEditBody": "یوازې د دې ډلې بنسټګر یې سملای شي.",
+      "headingCreate": "د ډلې جوړول",
+      "headingEdit": "د ډلې سمول",
+      "name": "نوم",
+      "namePlaceholder": "د بېلګې په توګه د ثالث ساتونکي",
+      "urlPreview": "د لینک مخکتنه:",
+      "urlPlaceholder": "ستاسو-د-ډلې-نوم",
+      "urlKeptOriginal": "(له اصل څخه ساتل شوی)",
+      "description": "تشریح",
+      "descriptionPlaceholder": "دا ډله د څه په اړه ده؟",
+      "country": "هیواد",
+      "countryPlaceholder": "هېوادونه ولټوئ",
+      "tags": "ټګونه",
+      "tagsPlaceholder": "ګډه-مرسته، محلي-خبرونه، ډیجیټل-حقونه",
+      "coverImage": "د پوښ انځور",
+      "moderators": "ادارېدونکي",
+      "moderatorsCount": "ادارېدونکي ({{count}})",
+      "removeModeratorAria": "د {{name}} لرې کول",
+      "submitCreate": "د ډلې جوړول",
+      "submitEdit": "د ډلې تازه کول",
+      "creating": "جوړېږي…",
+      "updating": "تازه کېږي…",
+      "uploadingCover": "د پوښ پورته کول…",
+      "altText": "ډله: {{name}}",
+      "successCreate": "ډله جوړه شوه!",
+      "successEdit": "ډله تازه شوه!",
+      "errorTitleCreate": "ډله نه جوړیږي",
+      "errorTitleEdit": "ډله نه تازه کیږي",
+      "errorLoginRequired": "د ډلې جوړولو لپاره باید ننوځئ.",
+      "errorEditLoadFailed": "د سمولو لپاره ډله بار نشوه.",
+      "errorEditNotOwner": "یوازې د ډلې بنسټګر کولی شي یې سم کړي.",
+      "errorNameRequired": "نوم اړین دی.",
+      "errorNameInvalid": "نوم باید توري یا عددونه ولري ترڅو د ډلې لینک جوړ شي.",
+      "errorEditLatestMissing": "د دې ډلې وروستۍ نسخه د تازه کولو لپاره ونه موندل شوه.",
+      "errorCoverInvalid": "د پوښ انځور باید د https:// سمه نښه وي.",
+      "errorSlugCollision": "تاسو لا دمخه «{{slug}}» پېژندونکې ډله لرئ. بل نوم وټاکئ.",
+      "wizard": {
+        "nameStepTitle": "خپلې ډلې ته نوم ورکړئ",
+        "nameStepSubtitle": "لنډ، روښانه نوم چې غړي یې وپېژني.",
+        "coverStepTitle": "د پوښ انځور اضافه کړئ",
+        "coverStepSubtitle": "یو انځور په هر کارت کې ډله ښیي.",
+        "moderatorsStepTitle": "منځګړي راوبلئ",
+        "moderatorsStepSubtitle": "اختیاري — هغوی کولی شي ستاسو سره یوځای محتوا ومني او غړي لرې کړي.",
+        "tagsStepTitle": "هیواد او کټګورۍ",
+        "tagsStepSubtitle": "د دې سره مرسته وکړئ چې مناسب خلک ستاسو ډله ومومي.",
+        "launchNow": "تېر شئ او اوس یې پیل کړئ"
+      }
+    },
+    "detail": {
+      "by": "له خوا",
+      "byAuthor": "د {{name}} له خوا",
+      "members": "غړي",
+      "viewMembers": "غړي وګورئ",
+      "moreMembers": "+{{count}} نور",
+      "about": "په اړه",
+      "comments": "تبصرې",
+      "comment": "تبصره",
+      "commentNoun_one": "تبصره",
+      "commentNoun_other": "تبصرې",
+      "noCommentsTitle": "تر اوسه تبصرې نشته",
+      "noCommentsHint": "لومړی کس شئ چې بحث پیلوي.",
+      "noMembersFound": "غړي ونه موندل شول.",
+      "founder": "بنسټګر",
+      "moderator": "منځګړی",
+      "moreActions": "نورې کړنې",
+      "editGroup": "ډله سمول",
+      "deleteGroup": "ډله ړنګول",
+      "officialActivity": "رسمي فعالیت",
+      "officialTools": "رسمي وسیلې",
+      "startSomething": "یو څه پیل کړئ",
+      "officialToolsDescription": "{{name}} ته یو عملي بل ګام ورکړئ.",
+      "launchCampaign": "کمپاین پیل کړئ",
+      "launchCampaignDescription": "د رسمي ډلې له پاڼې سره پیسې راټولې کړئ.",
+      "campaign": "کمپاین",
+      "pledge": "ژمنه",
+      "pledgeDescription": "هغه مرسته وړاندې کړئ چې خلک پرې عمل کولی شي.",
+      "event": "پېښه",
+      "eventDescription": "ملاتړي سره راټول کړئ.",
+      "untitledEvent": "بې سرلیکه پېښه",
+      "interestedCount_one": "{{count}} کس لېوال دی",
+      "interestedCount_other": "{{count}} کسان لېوال دي",
+      "allDay": "ټوله ورځ"
+    }
+  },
+  "campaignsCreate": {
+    "seoTitleCreate": "د کمپاین پیلول",
+    "seoTitleEdit": "د کمپاین سمول",
+    "seoDescriptionCreate": "په {{appName}} کې د تمویل کمپاین پیل کړئ.",
+    "seoDescriptionEdit": "په {{appName}} کې خپل تمویل کمپاین تازه کړئ.",
+    "loginGateTitle": "د کمپاین پیلولو لپاره ننوځئ",
+    "loginGateBody": "کمپاینونه د لاسلیک‌شویو Nostr پیښو په توګه دي. د خپرولو لپاره د Nostr ننوتلو ته اړتیا لرئ.",
+    "invalidEditTitle": "د سمولو ناسم لینک",
+    "invalidEditBody": "د دې کمپاین د سمولو لینک د سمې پتې نه لري.",
+    "startNewCampaign": "نوی کمپاین پیل کړئ",
+    "loadingCampaign": "کمپاین بارېږي…",
+    "cannotEditTitle": "کمپاین سملای نشي",
+    "cannotEditBody": "یوازې د کمپاین لیکوال یې سملای شي.",
+    "headingCreate": "د کمپاین پیلول",
+    "headingEdit": "د کمپاین سمول",
+    "editTabs": {
+      "details": "توضیحات",
+      "funding": "تمویل",
+      "discovery": "کشف"
+    },
+    "title": "سرلیک",
+    "titlePlaceholder": "د وروستي کتاب‌پلورنځي ژغورل",
+    "wallet": "د بټ‌کوین پاکټ",
+    "myWalletLabel": "د {{name}} پاکټ",
+    "myWalletDefault": "زما پاکټ",
+    "walletHeroNote": "بسپنې مستقیماً ستاسو په خپل اګورا (Agora) پاکټ کې راځي.\nنه منځګړی.",
+    "walletHeroReassurance": "تاسو کلی لرئ، نو پیسې هم تاسو لرئ. کله هم چې وغواړئ د پاکټ له ټوپ څخه یې وباسئ.",
+    "walletChoose": "پاکټ وټاکئ",
+    "walletCustom": "ګمرکي",
+    "walletUseCustom": "ګمرکي پاکټ وکاروئ",
+    "walletUseMine": "زما د اګورا پاکټ وکاروئ",
+    "acceptHeading": "کومې بسپنې به ومنئ؟",
+    "acceptUnavailable": "د دې لاگ‌ین سره شتون نه لري.",
+    "acceptAllTitle": "هره بسپنه",
+    "acceptPublicTitle": "یوازې عامه بسپنې",
+    "acceptPrivateTitle": "یوازې پټې بسپنې",
+    "acceptAllHint": "عامه او پټې بسپنې دواړه ومنئ.",
+    "acceptPublicHint": "بسپنه‌ورکوونکي یوې عادي Bitcoin پتې ته ورکوي. دا بسپنې هر چا ته ښکاري.",
+    "acceptPrivateHint": "بسپنه‌ورکوونکي په پټه توګه ورکوي، نو د دوی پېژندنه له عامو خلکو پټه پاتې کیږي.",
+    "customWalletIntro": "هره بسپنه چې غواړئ ومنئ ډکه کړئ: یوه عامه پته، یو پټ کوډ، یا دواړه. لږ تر لږه یو ته اړتیا ده.",
+    "customOnchainMeaning": "عامه. هر څوک کولی شي دا بسپنې وویني.",
+    "customSpMeaning": "پټه. د بسپنه‌ورکوونکي پېژندنه پټه پاتې کیږي.",
+    "bitcoinAddress": "د بټ‌کوین پته",
+    "bitcoinAddressPlaceholder": "bc1q… یا bc1p…",
+    "silentPaymentCode": "د چپ پیسو کوډ",
+    "silentPaymentCodePlaceholder": "sp1…",
+    "onchainInvalid": "د mainnet د پېژندل شوي بټ‌کوین پته نه ده (bc1q… / bc1p…).",
+    "spInvalid": "د پېژندل شوي BIP-352 د چپ پیسو کوډ نه دی (sp1…).",
+    "country": "هیواد",
+    "countryPlaceholder": "هېوادونه ولټوئ",
+    "tags": "ټګونه",
+    "tagsPlaceholder": "حقوقي-دفاع، ګډه-مرسته، محلي-خبرونه",
+    "categories": {
+      "humanRights": "د بشر حقونه",
+      "democracy": "ډیموکراسي",
+      "pressFreedom": "د مطبوعاتو ازادي",
+      "politicalPrisoners": "سیاسي بندیان",
+      "humanitarianAid": "بشري مرستې",
+      "civilResistance": "مدني مقاومت",
+      "digitalRights": "ډیجیټل حقونه",
+      "antiCorruption": "د فساد ضد",
+      "womenGirls": "ښځې او نجونې",
+      "refugees": "کډوال او جلاوطن",
+      "legalAid": "حقوقي مرسته",
+      "emergencyRelief": "بیړنۍ مرسته",
+      "animalRights": "د حیواناتو حقونه",
+      "education": "زده‌کړه",
+      "medical": "طبي",
+      "community": "ټولنه"
+    },
+    "banner": "د بنر انځور",
+    "story": "کیسه",
+    "storyPlaceholder": "شالید، ګټه اخیستونکي، او د پیسو د کارولو طریقه ووایاست.",
+    "goal": "هدف",
+    "goalPlaceholder": "100",
+    "goalNote": "ټول امریکايي ډالر. ډونرز په بټ‌کوین پیسې ورکوي؛ کلائنټونه د لیدلو په وخت کې د ډالر معادل اټکل کوي.",
+    "payUrl": "د کارت د تادیې لینک",
+    "payUrlOptional": "(اختیاري)",
+    "payUrlPlaceholder": "https://pay.example.com/your-campaign",
+    "payUrlNote": "یو بهرنی د پیرود پاڼه (لکه Stripe) چیرته چې ډونرز کولی شي د کارت له لارې تادیه وکړي. د کارت ډونیشنونه د Agora څخه بهر تسویه کیږي او ستاسو د راټول شوي مجموعې په حساب کې نه شمیرل کیږي.",
+    "submitCreate": "کمپاین پیلول",
+    "submitEdit": "د کمپاین تازه کول",
+    "publishing": "خپرول…",
+    "updating": "تازه کېږي…",
+    "uploadingBanner": "د بنر پورته کول…",
+    "altText": "د تمویل کمپاین: {{title}}",
+    "successCreate": "کمپاین پیل شو",
+    "successCreateDesc": "ستاسو تمویل ژوندی دی.",
+    "successEdit": "کمپاین تازه شو",
+    "successEditDesc": "ستاسو د تمویل بدلونونه ژوندي دي.",
+    "categoryLimitTitle": "تاسو یوازې کولی شئ {{count}} ټګونه غوره کړئ",
+    "categoryLimitDesc": "د بل اضافه کولو دمخه یو ټګ لرې کړئ. کمپاینونه تر {{count}} ټګونو پورې محدود دي.",
+    "errorTitleCreate": "کمپاین نه خپرېدی",
+    "errorTitleEdit": "کمپاین نه تازه کیږي",
+    "errorLoginRequired": "د کمپاین جوړولو لپاره باید ننوځئ.",
+    "errorEditLoadFailed": "د سمولو لپاره کمپاین بار نشو.",
+    "errorEditNotOwner": "یوازې د کمپاین لیکوال یې سملای شي.",
+    "errorTitleRequired": "سرلیک اړین دی.",
+    "errorTitleInvalid": "سرلیک باید توري یا عددونه ولري ترڅو د کمپاین لینک جوړ شي.",
+    "errorSlugInvalid": "پېژندونکی باید واړه توري، عددونه، او ډشونه ولري.",
+    "errorHdUnavailable": "د دې ننوتلو لپاره داخلي پاکټ شتون نه لري.",
+    "errorSpUnavailable": "د دې ننوتلو لپاره د چپ پیسو پته شتون نه لري.",
+    "errorOnchainInvalid": "پر چین پته د پېژندل شوي mainnet bech32(m) پته نه ده (bc1q… / bc1p…).",
+    "errorSpInvalid": "د چپ پیسو کوډ د پېژندل شوي BIP-352 کوډ نه دی (sp1…).",
+    "errorWalletRequired": "لږ تر لږه یوه د پاکټ نقطه ورکړئ — د بټ‌کوین mainnet پته (bc1q… / bc1p…) یا د چپ پیسو کوډ (sp1…).",
+    "errorGoalInvalid": "هدف باید د ډالر مثبته بشپړه اندازه وي.",
+    "errorPayUrlInvalid": "د کارت د تادیې لینک باید یو سم https:// URL وي.",
+    "errorEditLatestMissing": "د دې کمپاین وروستۍ نسخه د تازه کولو لپاره ونه موندل شوه.",
+    "errorSlugCollision": "تاسو لا دمخه «{{slug}}» پېژندونکی کمپاین لرئ. بل وټاکئ.",
+    "errorBannerInvalid": "بنر باید د https:// سمه نښه وي.",
+    "errorHdDeriveFailed": "ستاسو له پاکټ څخه نوې پر چین پته ونشوه استخراج.",
+    "errorHdDeriveInvalid": "استخراج شوې پته اعتبار نه ولاره. مهرباني وکړئ یوه ګمرکي پته اضافه کړئ.",
+    "errorWalletRequiredFallback": "د پاکټ نقطه اړینه ده.",
+    "errorPublishedInvalid": "خپره شوې پیښه اعتبار نه ولاره. مهرباني وکړئ پاڼه تازه کړئ او بیا هڅه وکړئ.",
+    "wizard": {
+      "titleStepTitle": "خپل کمپاین ته نوم ورکړئ",
+      "titleStepSubtitle": "لنډ او روښانه نوم چې بسپنه ورکوونکي یې وپېژني.",
+      "walletStepTitle": "بسپنې چېرته ورځي؟",
+      "walletStepSubtitle": "خپل د اګورا پاکټ وټاکئ یا خپله پته ورپېسټ کړئ.",
+      "bannerStepTitle": "بنر اضافه کړئ",
+      "bannerStepSubtitle": "یو زړه‌راښکونکی انځور په هر کارت کې کمپاین ښیي.",
+      "storyStepTitle": "خپله کیسه ووایاست",
+      "storyStepSubtitle": "څوک ګټه اخلي او بسپنې به څنګه ولګول شي.",
+      "goalStepTitle": "هدف",
+      "goalStepSubtitle": "اختیاري — د بې‌مهاله کمپاین لپاره یې تش پرېږدئ.",
+      "next": "بل",
+      "back": "شاته",
+      "skip": "تېرول",
+      "launchNow": "تېر شئ او اوس یې پیل کړئ",
+      "tagsStepTitle": "هېواد او کټګورۍ",
+      "tagsStepSubtitle": "سمو خلکو سره مرسته وکړئ چې ستاسو کمپاین ومومي."
+    }
+  },
+  "campaignsDetail": {
+    "seoTitle": "{{title}} | د {{appName}} کمپاینونه",
+    "seoDescriptionFallback": "په {{appName}} کې د {{title}} ملاتړ وکړئ.",
+    "back": "شاته",
+    "edit": "سمول",
+    "delete": "ړنګول",
+    "deleting": "ړنګېږي…",
+    "openCover": "د سرپاڼې انځور پرانیستل",
+    "byAuthor": "د <0>{{name}}</0> له لوري",
+    "commentLabel": "تبصره",
+    "linkCopied": "لینک کلپ‌بورډ ته کاپي شو",
+    "pinnedToast": "کمپاین ته ونښلول شو",
+    "unpinnedToast": "له کمپاین جلا شو",
+    "pinFailed": "د نښلونو تازه کول پاتې راغلل",
+    "deletedToast": "کمپاین ړنګ شو",
+    "deletedToastDesc": "د ړنګولو غوښتنه خپره شوه. ښه چلند کوونکي ریلې به کمپاین له فیدونو څخه لرې کړي.",
+    "deleteErrorTitle": "کمپاین نه ړنګېدلای شي",
+    "campaigner": "کمپاینوال",
+    "repost_one": "<0>{{formattedCount}}</0> بیا-خپرول",
+    "repost_other": "<0>{{formattedCount}}</0> بیا-خپرونې",
+    "quote_one": "<0>{{formattedCount}}</0> نقل",
+    "quote_other": "<0>{{formattedCount}}</0> نقلونه",
+    "like_one": "<0>{{formattedCount}}</0> خوښ",
+    "like_other": "<0>{{formattedCount}}</0> خوښونه",
+    "tabComments": "تبصرې او مرستې",
+    "tabLedger": "لیجر",
+    "ledger": {
+      "publicAddress": "عامه پته",
+      "viewOnMempool": "په mempool.space کې وګورئ",
+      "openOnMempool": "راکړه ورکړه په mempool.space کې خلاصه کړئ",
+      "unconfirmed": "نا تایید شوي",
+      "block": "بلاک {{height}}",
+      "btcUnit": "BTC",
+      "empty": "د دې پتې لپاره تر اوسه پر-چین کومه فعالیت نشته.",
+      "error": "پر-چین فعالیت بار نشو. یوه شیبه وروسته بیا هڅه وکړئ.",
+      "loadMore": "نور بار کړئ",
+      "loadingMore": "بارېږي…",
+      "donated": "بسپنه ورکړل شوې",
+      "withdrawn": "ایستل شوي"
+    },
+    "tombstone": {
+      "seoTitle": "آرشیف شوی کمپاین | {{appName}}",
+      "title": "دا کمپاین نور شتون نه لري",
+      "deletedNotice": "تنظیموونکي دا کمپاین په {{date}} لرې کړ. دا نور مرستې نه مني.",
+      "unavailableNotice": "دا کمپاین لرې شوی یا ستاسو په ریلیو کې نور شتون نه لري. دا نور مرستې نه مني.",
+      "archiveIntro": "په Nostr کې خپاره شوي د مرستې رسیدونه لاندې د عامه ریکارډ په توګه ساتل شوي دي.",
+      "receiptsHeading": "د مرستو آرشیف",
+      "totalRecorded": "ټول ثبت شوي: {{amount}}",
+      "unverifiedCaveat": "مبلغونه هغه دي چې د مرسته کوونکو په لاسلیک شویو رسیدونو کې ادعا شوي. څرنګه چې کمپاین او د هغه د والټ پته لرې شوې، نور یې پر زنځیر تایید نه شي کېدای."
+    },
+    "noCommentsTitle": "تر اوسه تبصرې نشته",
+    "noCommentsHint": "د ملاتړ د پیغام لومړنی شه.",
+    "deleteDialogTitle": "دا کمپاین ړنګ کړئ؟",
+    "deleteDialogBody": "دا د NIP-09 د ړنګولو غوښتنه خپروي. ښه چلند کوونکي ریلې به کمپاین له فیدونو او مستقیمو لینکونو څخه لرې کړي. د تېرو مرستو رسیدونه پر چین پاتې کیږي. دا کار بیرته نه راګرځول کیږي — د مرستو د منلو لپاره، کمپاین سم کړئ.",
+    "storyHeading": "کیسه",
+    "donate": "مرسته",
+    "share": "شریکول",
+    "target": "هدف: {{amount}}",
+    "raised": "راټول‌شوي",
+    "raisedPublicly": "په ښکاره راټول‌شوي",
+    "ofGoal": "د {{amount}} هدف څخه",
+    "goalAmount": "د {{amount}} هدف",
+    "beFirstDonor": "لومړی مرسته کوونکی شئ!",
+    "privateCampaign": "خصوصي کمپاین",
+    "privateMayAddMore": "خصوصي مرستې ممکن نور هم ور زیاتې کړي",
+    "donationCount_one": "{{count}} مرسته",
+    "donationCount_other": "{{count}} مرستې",
+    "openInWallet": "بهرنۍ بټوه پرانیزئ",
+    "payWithAgoraWallet": "د Agora له لارې تادیه وکړئ",
+    "payWithCard": "د کارت له لارې تادیه وکړئ",
+    "paymentCount_one": "{{count}} نه درېدونکی تادیه",
+    "paymentCount_other": "{{count}} نه درېدونکې تادیې",
+    "openInWalletToast": {
+      "title": "د بټوې اپلیکیشن لټول کیږي…",
+      "body": "که هیڅ څه وانه‌شول، پورته د تادیې لینک کاپي کړئ او په خپلې بټوې کې یې پیسټ کړئ."
+    },
+    "paymentUri": "د تادیې URI",
+    "copyLabelAction": "{{label}} کاپي کړئ",
+    "copiedLabel": "{{label}} کاپي شو",
+    "copyFailed": "کاپي کول ناکام شو",
+    "copyFailedBody": "ارزښت په لاسي ډول وټاکئ او کاپي کړئ."
+  },
+  "noBitcoin": {
+    "trigger": "Bitcoin نه لرئ؟",
+    "title": "تر اوسه Bitcoin نه لرئ؟",
+    "description": "له دې خدماتو څخه له یوه څخه Bitcoin واخلئ، بیا یې د دې کمپاین پتې ته ولېږئ.",
+    "buyOn": "پیرود په",
+    "mayBeUnavailable": "ښایي ستاسو په سیمه کې شتون ونه لري",
+    "onramp": {
+      "descGlobalExchange": "نړیوال تبادله",
+      "descBitcoinApp": "د Bitcoin د تادیاتو اپلیکیشن",
+      "descLatam": "لاتینه امریکا",
+      "descEurope": "اروپا",
+      "descAfrica": "افریقا",
+      "descIndia": "هند",
+      "descPhilippines": "فیلیپین",
+      "descP2p": "همغږی، بې له نوملیکنې"
+    }
+  },
+  "campaignVerification": {
+    "verifiedBy": "تصدیق شوی د",
+    "verifiedLabel": "تصدیق شوی",
+    "verifiedByCount_one": "د {{count}} کس لخوا تصدیق شوی",
+    "verifiedByCount_other": "د {{count}} کسانو لخوا تصدیق شوی",
+    "verifyCampaign": "دا کمپاین تصدیق کړئ",
+    "removeVerification": "زما تصدیق لرې کړئ",
+    "dialogTitle": "دا کمپاین تصدیق کړئ",
+    "attestation": "د دې کمپاین په تصدیق کولو سره تاسو ګواهي ورکوئ چې کمپاین اصلي او رښتیا دی. تاسو د کمپاین تنظیموونکی په شخصي توګه پیژنئ یا مو په مانا داره ډول تصدیق کړي چې د هغوی ادعاوې رښتیا دي. د جعلکارانو او درغلګرو څخه ځان وساتئ.",
+    "verified": "کمپاین تصدیق شو",
+    "unverified": "تصدیق لرې شو",
+    "actionFailed": "کړنه ناکامه شوه",
+    "verifiedByCount_zero": "د {{count}} کسانو لخوا تصدیق شوی",
+    "verifiedByCount_two": "د {{count}} کسانو لخوا تصدیق شوی",
+    "verifiedByCount_few": "د {{count}} کسانو لخوا تصدیق شوی",
+    "verifiedByCount_many": "د {{count}} کسانو لخوا تصدیق شوی",
+    "unverifiedBanner": "دا کمپاین د باور وړ سرچینې لخوا تصدیق شوی نه دی.",
+    "unverifiedBannerReadMore": "نور زده کړئ"
+  },
+  "campaignHidden": {
+    "title": "دا کمپاین پټ شوی دی",
+    "body": "دا کمپاین د Agora ماډریټرانو لخوا پټ شوی دی، معمولاً ځکه چې دا د سپیم، درغلۍ، یا د بل چا د ځان معرفۍ په څیر ښکاري. تاسو لاهم کولی شئ چې د لیدلو انتخاب یې وکړئ.",
+    "learnMore": "نور زده کړئ",
+    "back": "شاته",
+    "proceed": "بیا هم دوام ورکړئ"
+  },
+  "calendarEvents": {
+    "create": {
+      "seoTitle": "پېښه جوړول",
+      "seoDescription": "په {{appName}} کې د تقویم پېښه جوړه کړئ.",
+      "loginTitle": "د پېښې جوړولو لپاره ننوځئ",
+      "loginBody": "پېښې لاسلیک شوي Nostr پېښې دي. د خپرولو لپاره Nostr ننوتل اړین دي.",
+      "heading": "پېښه جوړول",
+      "titlePlaceholder": "د ګاونډ پاکوالی",
+      "descriptionPlaceholder": "خلکو ته ووایاست څه تمه ولري، څه راوړي، او څوک باید ګډون وکړي...",
+      "schedule": "مهالوېش",
+      "allDay": "ټوله ورځ پېښه",
+      "allDayHint": "د پیل او پای وختونو د زیاتولو لپاره یې بند کړئ.",
+      "startDate": "د پیل نېټه",
+      "endDate": "د پای نېټه",
+      "startTime": "د پیل وخت",
+      "endTime": "د پای وخت",
+      "locationDetails": "د ځای معلومات",
+      "locationPlaceholder": "پته، ځای، یا د ویډیو کال لینک",
+      "tagsPlaceholder": "mutual-aid, workshop, local-news",
+      "submit": "پېښه جوړه کړئ",
+      "successToast": "پېښه جوړه شوه",
+      "errorToast": "پېښه ونه جوړېده",
+      "altCalendar": "د تقویم پېښه: {{title}}",
+      "altGroup": "د ډلې پېښه: {{title}}",
+      "errorLoginRequired": "د پېښې جوړولو لپاره باید ننوځئ.",
+      "errorTitleRequired": "سرلیک اړین دی.",
+      "errorStartDateRequired": "د پیل نېټه اړینه ده.",
+      "errorStartDatePast": "د پیل نېټه په تېر وخت کې نه شي کېدای.",
+      "errorStartTimeRequired": "د وخت لرونکو پېښو لپاره د پیل وخت اړین دی.",
+      "errorCoverInvalid": "د پوښ انځور باید یو سم https:// URL وي.",
+      "errorEndDateBeforeStart": "د پای نېټه باید د پیل له نېټې سره برابره یا وروسته وي.",
+      "errorStartDateTimeInvalid": "د پیل نېټه یا وخت سم نه دی.",
+      "errorEndTimeAfterStart": "د پای وخت باید د پیل له وخت وروسته وي."
+    },
+    "detail": {
+      "untitledEvent": "بې سرلیکه پېښه",
+      "dateNotSpecified": "نېټه نه ده ټاکل شوې",
+      "organizer": "جوړوونکی",
+      "rsvpUpdated": "RSVP تازه شو",
+      "rsvpFailed": "RSVP تازه نه شو",
+      "rsvp": "RSVP",
+      "youAreGoing": "تاسو ځئ",
+      "youAreInterested": "تاسو لېوال یاست",
+      "youCantGo": "تاسو نشئ تللی",
+      "chooseRsvp": "خپل RSVP وټاکئ",
+      "going": "ځم",
+      "interested": "لېوال",
+      "cantGo": "نشم تللی",
+      "attendees": "ګډونوال",
+      "links": "لینکونه",
+      "participants": "برخه‌وال",
+      "hostedBy": "کوربه",
+      "attendingCount_one": "{{count}} ګډون کوي",
+      "attendingCount_other": "{{count}} ګډون کوي",
+      "interestedCount_one": "{{count}} لېوال دی",
+      "interestedCount_other": "{{count}} لېوال دي",
+      "comment": "تبصره",
+      "description": "توضیح",
+      "emptyDescription": "جوړوونکي لا د دې پېښې لپاره توضیح نه ده زیاته کړې.",
+      "comments": "تبصرې",
+      "commentNoun_one": "تبصره",
+      "commentNoun_other": "تبصرې",
+      "noCommentsTitle": "تر اوسه تبصرې نشته",
+      "noCommentsHint": "لومړی کس شئ چې تبصره کوي.",
+      "pinnedToast": "پېښې ته وټومبل شو",
+      "unpinnedToast": "له پېښې څخه ټومبل لرې شو",
+      "pinFailed": "د پېښې ټومبلونه تازه نه شول"
+    }
+  },
+  "follow": {
+    "follow": "تعقیب",
+    "following": "تعقیب شوی",
+    "unfollow": "تعقیب بندول",
+    "followed": "تعقیب شو",
+    "unfollowed": "تعقیب بند شو",
+    "updateFailed": "د تعقیب لست تازه نه شو"
+  },
+  "campaigns": {
+    "home": {
+      "seoTitle": "د مرستو راټولولو کمپاینونه",
+      "seoDescription": "پرته له پولو ورکړه وکړئ. مستقیمه، له کس نه کس ته ورکړه چې د بټکوین او Nostr په واسطه ځواکمنه شوې.",
+      "heroTagline": "مالي مرستې راټولې کړئ<1></1>پرته له <0>پولو</0>",
+      "heroBody": "د نړۍ په هر ګوټ کې خلکو او موخو ته د بټکوین له لارې ملاتړ وکړئ. هره ډالۍ مستقیماً د ترلاسه کوونکي بټوې ته ځي، نه پولې، نه منځګړي، نه بیرته اخیستنه، او نه کوم پلیټفارم چې پیسې وساتي.",
+      "startCampaign": "کمپاین پیل کړئ",
+      "howItWorks": "څنګه کار کوي",
+      "featuredTitle": "غوره کمپاینونه",
+      "featuredDesc": "د {{appName}} ډلې لخوا په لاس غوره شوي کمپاینونه.",
+      "verifiedTitle": "تصدیق شوي کمپاینونه",
+      "verifiedDesc": "هغه کمپاینونه چې د World Liberty Congress او د {{appName}} ډلې د باوري تصدیق کوونکو لخوا ضمانت شوي.",
+      "allCampaigns": "ټول کمپاینونه",
+      "allCampaignsDesc": "د شبکې ټول کمپاینونه، د وخت په ترتیب.",
+      "browseAll": "ټول کمپاینونه وګورئ",
+      "hidden": "پټ شوي",
+      "hiddenDesc": "هغه کمپاینونه چې د عمومي کور پاڼې څخه پټ شوي. د بېرته ښودلو لپاره د کارت مینو وکاروئ.",
+      "hiddenEmpty": "اوس مهال هیڅ کمپاین پټ نه دی.",
+      "yourCampaigns": "ستاسو کمپاینونه",
+      "yourCampaignsDesc": "ستاسو کمپاینونه په Nostr کې ژوندي دي او مرستې د کمپاین له لینک څخه کار کوي. ټول کمپاینونه په /campaigns کې وګورئ؛ د {{appName}} ټیم په کور پاڼه کې یوه ټاکل شوې ټولګه ښیي.",
+      "empty": "تر اوسه کوم کمپاین نشته",
+      "emptyHint": "په {{appName}} کې د مرستو راټولولو کمپاین پیل کوونکی لومړی شئ. خپله کیسه ووایاست، ګټه اخیستونکي وټاکئ، او لینک شریک کړئ.",
+      "whyDifferent": {
+        "eyebrow": "ولې {{appName}}",
+        "title": "په بل ډول جوړ شوی.",
+        "lede": "مستقیم Bitcoin د ډالۍ ورکوونکي څخه ترلاسه کوونکی ته. هیڅ پلتفارم په منځ کې نشته، هیڅ حافظ پړه نه پر اوږو لري، هیڅ اجازه ته اړتیا نشته.",
+        "block1": {
+          "heading": "د GoFundMe برعکس",
+          "body": "هیڅ پلتفارم ستاسو ډالۍ نشي کنګل کولی، د بیرته‌ورکولو غوښتنه نشي کولی، یا ستاسو کمپاین د پالیسي اختلافاتو لپاره نشي پای ته رسولی. نه Stripe، نه Visa، نه کوم بانک په منځ کې شته چې د کمپاین په نیمایي کې مو قطع کړي.",
+          "bullet1": "د کنګلولو پروړاندې، د پلتفارم ویټو پرته",
+          "bullet2": "هیڅ د تادیې پروسس کوونکی نشي پلګ ایستلی",
+          "bullet3": "د پلتفارم د فیس پرته"
+        },
+        "block2": {
+          "heading": "د نورو ‘Bitcoin’ پلتفارمونو برعکس",
+          "body": "د مرکزي Lightning نوډ، حافظ، یا LSP پرته چې ناکام شي یا آفلاین شي. پیسې مستقیم په Bitcoin کې یوې والټ ته تسویه کیږي چې تاسو یې کنټرول کوئ. که {{appName}} سبا ورک شي، هر کمپاین به کار ته دوام ورکوي.",
+          "bullet1": "د حافظ والټ نشته چې وچ یا کنګل شي",
+          "bullet2": "په زنځیر کې یوې والټ ته چې تاسو یې لرئ تسویه کیږي",
+          "bullet3": "کار کوي حتی که {{appName}} ورک شي"
+        },
+        "block3": {
+          "heading": "عامه یا محرمه. ستاسو خوښه.",
+          "body": "ترلاسه کوونکي د ترلاسه کولو هغه اختیار غوره کوي چې د هغوی د ګواښ موډل سره سمون لري. ډالۍ ورکوونکي یوازې یو QR ګوري؛ والټ سم پروتوکول غوره کوي.",
+          "publicLabel": "عامه",
+          "publicSummary": "په هره د Bitcoin والټ کې کار کوي. چټک او په زنځیر کې قابل تصدیق.",
+          "privateLabel": "محرمه",
+          "privateSummary": "BIP-352 چپه تادیې. ډالۍ نه تړل کیدونکو پایلو ته رسي."
+        },
+        "readMore": "بشپړ تفصیل ولولئ"
+      },
+      "searchPlaceholder": "د کمپاینونو لټون…",
+      "searchAriaLabel": "د کمپاینونو لټون",
+      "noMatch": "هیڅ کمپاین له «{{query}}» سره سمون نه لري",
+      "noMatchHint": "بل لټون وکارئ، یا لټون پاک کړئ.",
+      "verifyCampaigns": "کمپاینونه تصدیق کړئ"
+    },
+    "all": {
+      "heroKicker": "کمپاینونه",
+      "heroHeading": "هر هدف،",
+      "heroHeadingLine2": "په یوه ځای کې.",
+      "heroBody": "په Nostr کې خپور شوی هر د مرستو راټولولو کمپاین په یوه ځای کې راټول شوی. د بشپړې شبکې لټون وکړئ، هغه هدف ومومئ چې درته اهمیت لري، او په مستقیم ډول یې د بټکوین له لارې ملاتړ وکړئ.",
+      "campaignsCount_one": "په شبکه کې کمپاین",
+      "campaignsCount_other": "په شبکه کې کمپاینونه",
+      "title": "کمپاینونه",
+      "seoTitle": "ټول کمپاینونه",
+      "description": "په Agora کې خپور شوي ټول کمپاینونه وګورئ.",
+      "sectionTagline": "لومړی ځانګړې کمپاینونه، بیا د شبکې پاتې برخه. د سموالي لپاره لټون یا ترتیب وکړئ.",
+      "newTitle": "نوي کمپاینونه",
+      "newDesc": "په شبکه کې هر بل کمپاین، تر ټولو نوي لومړی.",
+      "viewAll": "ټول وګورئ",
+      "viewAllCount": "ټول {{count}} وګورئ",
+      "searchAriaLabel": "د کمپاینونو لټون",
+      "searchPlaceholder": "د کمپاینونو لټون…",
+      "clearSearch": "د لټون پاکول",
+      "sortAriaLabel": "ترتیب",
+      "sortTop": "غوره",
+      "sortNew": "نوي",
+      "showHidden": "پټ ښودل",
+      "startCampaign": "کمپاین پیل کړئ",
+      "noMatch": "هیڅ کمپاین له «{{query}}» سره سمون نه لري",
+      "noMatchHint": "بل لټون وکارئ، یا لټون پاک کړئ ترڅو ټول کمپاینونه وګورئ.",
+      "allHidden": "هیڅ کمپاین د ښودلو لپاره نشته",
+      "allHiddenHint": "د شبکې ټول کمپاینونه د څارونکو لخوا پټ شوي. د هغوی لیدلو لپاره «پټ ښودل» فعاله کړئ.",
+      "empty": "تر اوسه کوم کمپاین نشته",
+      "emptyHint": "تر اوسه کوم کمپاین نه دی خپور شوی. لومړی شئ.",
+      "verifyCampaigns": "کمپاینونه تصدیق کړئ"
+    },
+    "lists": {
+      "stripAria": "د کمپاین موضوعاتو ترتیب شوي لیستونه",
+      "create": "نوی لیست",
+      "showMore": "{{count}} نور وښایه",
+      "showLess": "لږ وښایه",
+      "createDesc": "د موضوع یو نوی لیست جوړ کړئ. د هر کمپاین له پاڼې څخه کمپاینونه پکې ترتیب کړئ.",
+      "createSubmit": "لیست جوړ کړئ",
+      "createFailed": "د لیست جوړول ناکام شول",
+      "edit": "لیست سمول",
+      "editDesc": "د لیست سرلیک، تشریح یا آیکون تازه کړئ.",
+      "editSubmit": "بدلونونه خوندي کړئ",
+      "updateFailed": "د لیست تازه کول ناکام شول",
+      "delete": "لیست ړنګ کړئ",
+      "deleteFailed": "د لیست ړنګول ناکام شول",
+      "deleteConfirmTitle": "دا لیست ړنګ شي؟",
+      "deleteConfirmDesc": "\"{{title}}\" به د موضوعاتو له پټۍ څخه لرې شي. پخپله کمپاینونه به متاثره نه شي.",
+      "titleField": "سرلیک",
+      "titlePlaceholder": "د بېلګې په توګه د مطبوعاتو ازادي",
+      "descriptionField": "تشریح",
+      "descriptionPlaceholder": "یوه لنډه توضیح چې څرګندوي په دې لیست کې څه شامل دي.",
+      "iconField": "آیکون",
+      "coverField": "د پوښ انځور",
+      "menuAria": "د {{title}} لیست اختیارونه",
+      "listActions": "د لیست کړنې",
+      "memberMenuAria": "د کمپاین لیست اختیارونه",
+      "backToCampaigns": "کمپاینونو ته بېرته",
+      "detailTitle": "د کمپاین لیست",
+      "campaignsCount_one": "{{count}} کمپاین",
+      "campaignsCount_other": "{{count}} کمپاینونه",
+      "addCampaign": "کمپاین زیات کړئ",
+      "addCampaignDesc": "په شبکه کې لټون وکړئ او یو کمپاین وټاکئ چې دې لیست ته یې اضافه کړئ.",
+      "addFailed": "لیست ته اضافه کول ناکام شول",
+      "addToList": "اضافه کول",
+      "alreadyAdded": "اضافه شوی",
+      "added": "اضافه شو",
+      "membershipTitle": "لیستونو ته اضافه کول",
+      "membershipDesc": "وټاکئ چې \"{{title}}\" باید په کومو لیستونو کې ښکاره شي.",
+      "membershipEmpty": "تر اوسه هیڅ لیست نشته. د ترتیبولو د پیلولو لپاره یو جوړ کړئ.",
+      "searchPlaceholder": "د کمپاینونو لټون…",
+      "searchEmpty": "هیڅ کمپاین له دې لټون سره سمون نه لري.",
+      "removeFromList": "له لیست څخه لرې کول",
+      "removeFailed": "له لیست څخه لرې کول ناکام شول",
+      "empty": "دا لیست خالي دی.",
+      "emptyMod": "دا لیست خالي دی. د ترتیب پیلولو لپاره کمپاینونه ورزیات کړئ.",
+      "iconPicker": {
+        "title": "یو آیکون وټاکئ",
+        "description": "د Lucide له کتابتون څخه هر آیکون وټاکئ.",
+        "search": "د آیکونونو لټون…",
+        "empty": "هیڅ آیکون له دې لټون سره سمون نه لري."
+      }
+    }
+  },
+  "moderation": {
+    "hiddenBadge": "پټ شوی",
+    "menu": {
+      "ariaCampaign": "د کمپاین څارنه",
+      "ariaPledge": "د ژمنې څارنه",
+      "ariaGroup": "د ډلې څارنه",
+      "failedAction": "په {{action}} کې پاتې راغی",
+      "hide": "پټول",
+      "unhide": "بېرته ښودل",
+      "hiddenState": "پټ شوی",
+      "feature": "ځانګړي کول",
+      "unfeature": "د ځانګړي حالت لرې کول",
+      "featuredState": "ځانګړی",
+      "toastHidden": "پټ شوی",
+      "toastUnhidden": "بېرته ښودل شوی",
+      "toastFeatured": "ځانګړی شوی",
+      "toastUnfeatured": "د ځانګړو څخه لرې شوی",
+      "failedReorder": "د بیا ترتیب کولو په کې پاتې راغی",
+      "moveToTop": "سر ته انتقال",
+      "moveUp": "پورته انتقال",
+      "moveDown": "ښکته انتقال",
+      "addToList": "لیست ته اضافه کړئ…",
+      "dragHandle": "د بیا ترتیب لپاره کش کړئ (موقعیت {{index}})",
+      "toast": {
+        "movedToTop": "سر ته انتقال شو",
+        "movedUp": "پورته انتقال شو",
+        "movedDown": "ښکته انتقال شو"
+      },
+      "label": "د اعتدال کوونکي کړنې"
+    }
+  },
+  "settings": {
+    "title": "تنظیمات",
+    "description": "د {{appName}} تنظیماتو اداره کول",
+    "deleteAccount": "حساب ړنګول",
+    "groups": {
+      "account": "حساب",
+      "app": "اپلیکیشن",
+      "system": "سیسټم"
+    },
+    "sections": {
+      "profile": "پروفایل",
+      "profileDesc": "د ښودنې نوم، بیوګرافي، اواتار، او تصدیق.",
+      "appearance": "بڼه",
+      "appearanceDesc": "د سیسټم، روښانه، یا تور حالت.",
+      "language": "ژبه",
+      "languageDesc": "هغه ژبه چې په ټوله اپلیکیشن کې کارېږي وټاکئ.",
+      "network": "شبکه",
+      "networkDesc": "د ډېټا کارونه، رېلې او د فایل پورته کولو سرورونه.",
+      "notifications": "خبرتیاوې",
+      "notificationsDesc": "د پوش خبرتیاوو غوره توبونه.",
+      "content": "منځپانګه",
+      "contentDesc": "غلي شوي کاروونکي، هشټګونه او کلمې اداره کړئ.",
+      "advanced": "پرمختللي",
+      "advancedDesc": "د پرس، سیسټم او د پرمختللو کاروونکو اختیارونه.",
+      "organizers": "تنظیموونکي",
+      "organizersDesc": "د هېوادونو تنظیموونکي وټاکئ چې پوسټونه په ملي فیډ کې پن کولی شي.",
+      "support": "کومه ستونزه ده؟",
+      "supportDesc": "د ستونزې راپور ورکړئ یا پېژندل شوې ستونزې وګورئ"
+    },
+    "organizers": "تنظیموونکي",
+    "signInToManage": "د ادارې لپاره ننوځئ",
+    "loginRequired": "د تنظیموونکو د ادارې لپاره باید ننوتلي اوسئ.",
+    "appearance": {
+      "title": "بڼه",
+      "subtitle": "اپلیکیشن څه شکل ولري وټاکئ.",
+      "colorMode": "د رنګ حالت",
+      "system": "سیسټم",
+      "systemDesc": "ستاسو د وسیلې تنظیماتو پسې",
+      "light": "روښانه",
+      "lightDesc": "تل د روښانه حالت کارول",
+      "dark": "تور",
+      "darkDesc": "تل د تور حالت کارول"
+    },
+    "network": {
+      "title": "شبکه",
+      "subtitle": "د ډېټا د کارونې، رېلو او د فایلونو پورته کولو سرورونو اداره کول.",
+      "lowBandwidthHeading": "د ټیټ بانډ ویډټ حالت",
+      "reduceDataUsage": "د ډېټا کارونه کمول",
+      "reduceDataUsageDesc": "د محدودو یا ورو اتصالاتو لپاره. ویډیوګانې په اتومات ډول نه پیلیږي، د شاليد ویډیو پلي کول پرېښودل کیږي، او انځورونه د پورته کیدو دمخه د لمس انتظار باسي.",
+      "useImageProxy": "د انځور پراکسي کارول",
+      "useImageProxyDesc": "د بشپړ ریزولوشن اصلي انځورونو پر ځای د انځورونو کوچنۍ WebP نسخې ترلاسه کوي.",
+      "proxyUrl": "د پراکسي URL",
+      "proxyApiDesc": "باید د <0>wsrv.nl / weserv</0> API ولري. خپل کوربه کوونکي یې کولی شي خپل نمونې ته ولېږي.",
+      "reset": "بیا تنظیمول",
+      "relays": "رېلې",
+      "blossomServers": "د Blossom سرورونه",
+      "imageUploads": "د انځور پورته کول",
+      "uploadQuality": "د پورته کولو کیفیت",
+      "uploadQualityDesc": "«فشرده» د لویو انځورونو اندازه بدلوي او ترټولو کوچنۍ بڼه ټاکي. «اصلي» انځورونه هماغسې چې دي پورته کوي.",
+      "compressed": "فشرده",
+      "original": "اصلي"
+    },
+    "advanced": {
+      "title": "پرمختللي",
+      "subtitle": "د بټوې اړیکې، د سیسټم تنظیمات، او د پرمختللو کاروونکو لپاره نور انتخابونه.",
+      "intro": "د بټوې اړیکې، د سیسټم تنظیمات، او نور پرمختللي انتخابونه.",
+      "wallet": "بټوه",
+      "torHeading": "Tor",
+      "torToggle": "ټرافیک د Tor له لارې لیږئ",
+      "torToggleDesc": "د Tor شبکې له لارې ریلې سره نښلي او مېډیا بارو ي، چې قوي محرمیت چمتو کوي. د ورو کار او د Tor د نښلیدو لپاره لنډ ځنډ تمه کړئ.",
+      "torApplyNote": "د دې فعالولو سره ټول ټرافیک د Tor له لارې لیږل کېږي. د نښلیدو پر مهال، نوره مینځپانګه نه بارېږي (یو بنر حالت ښیي) — د Tor بهر هیڅ نه لیږل کیږي. د بندولو سره مستقیم اتصال ته بیرته راګرځي.",
+      "torStatusLabel": "حالت:",
+      "torExitIp": "د Tor د وتلو IP:",
+      "torCheckAgain": "بیا وګورئ"
+    },
+    "wallet": {
+      "title": "بټوه",
+      "subtitle": "د بټوې اړیکې او تادیات اداره کول"
+    }
+  },
+  "language": {
+    "title": "ژبه",
+    "subtitle": "هغه ژبه چې په ټوله اپلیکیشن کې کارېږي وټاکئ.",
+    "translationNote": "ژباړې لاهم روانې دي. ناژباړل شوی متن به په انګلیسي وښودل شي."
+  },
+  "verifier": {
+    "title": "تصدیق کوونکی",
+    "subtitle": "د دې په تشریح کولو سره چې تاسو څنګه کمپاینونه ارزوئ، تصدیق کوونکی شئ.",
+    "promptLabel": "ستاسو د تصدیق پروسه",
+    "prompt": "موږ ته ووایاست چې د کمپاینونو د تصدیق لپاره کوم ګامونه اخلئ. تر هغه ځایه چې امکان لري جزئیات ورکړئ ترڅو بسپنه ورکوونکي پوه شي چې ستاسو پر قضاوت باور کولی شي.",
+    "placeholder": "تشریح کړئ چې تاسو څنګه کمپاینونه تصدیقوئ — هغه کتنې چې تاسو یې کوئ، هغه شواهد چې تاسو یې غواړئ، تاسو څنګه د تنظیموونکي هویت تایید کوئ، او هر هغه څه چې بسپنه ورکوونکو سره مرسته کوي چې ستاسو پر قضاوت باور وکړي.",
+    "previewLabel": "مخکتنه",
+    "publish": "تصدیق کوونکی شئ",
+    "update": "بیان تازه کړئ",
+    "withdraw": "بیرته اخیستل",
+    "loading": "ستاسو بیان بارېږي…",
+    "publishedToast": "ستاسو د تصدیق کوونکي بیان ژوندی دی.",
+    "withdrawnToast": "ستاسو د تصدیق کوونکي بیان بیرته اخیستل شوی دی.",
+    "errorToast": "ستاسو د تصدیق کوونکي بیان نه شو خوندي کیدی.",
+    "disclaimer": "هر څوک کولی شي تصدیق کوونکی شي. ستاسو بیان په عامه توګه Nostr ته خپریږي او ستاسو پر پروفایل په څرګنده توګه ښودل کیږي. دا کومه ځانګړې اجازه نه ورکوي — دا یوازې بسپنه ورکوونکو ته وایي چې تاسو څنګه کمپاینونه ارزوئ.",
+    "loginGateTitle": "د تصدیق کوونکي کیدو لپاره ننوځئ",
+    "loginGateBody": "د تصدیق کوونکي بیان د خپرولو لپاره باید ننوتلي اوسئ.",
+    "howWeVerifyTitle": "موږ څنګه تصدیق کوو",
+    "requestVerification": "د تایید غوښتنه وکړئ",
+    "withdrawConfirmTitle": "خپل د تصدیق کوونکي بیان بیرته اخلئ؟",
+    "withdrawConfirmBody": "ستاسو د \"موږ څنګه تصدیق کوو\" بیان به ستاسو له پروفایل څخه لرې شي. تاسو کولی شئ هر وخت یو نوی خپور کړئ."
+  },
+  "mdEditor": {
+    "toolbar": {
+      "bold": "بولډ",
+      "italic": "کږ",
+      "strikethrough": "کرښه‌لرونکی",
+      "inlineCode": "کرښه‌ییز کوډ",
+      "heading1": "سرليک ۱",
+      "heading2": "سرليک ۲",
+      "heading3": "سرليک ۳",
+      "bulletList": "ټکیزه لړليک",
+      "numberedList": "شمیریزه لړليک",
+      "blockquote": "نقل قول",
+      "insertLink": "لينک دننه کول",
+      "insertImage": "انځور دننه کول",
+      "horizontalRule": "افقي کرښه"
+    },
+    "help": {
+      "title": "د مارک‌ډاون چټک ماخذ",
+      "bold": "بولډ",
+      "italic": "کږ",
+      "bulletList": "ټکی",
+      "numberedList": "شمیریز",
+      "link": "لينک",
+      "quote": "نقل قول",
+      "code": "کوډ"
+    },
+    "link": {
+      "title": "لينک دننه کول",
+      "textLabel": "د لينک متن",
+      "textPlaceholder": "د لينک متن دننه کړئ…",
+      "urlLabel": "URL",
+      "cancel": "لغوه کول",
+      "insert": "لينک دننه کول"
+    }
+  },
+  "organizations": {
+    "seoTitle": "د سازمانونو لپاره",
+    "seoDescription": "خپل سازمان په {{appName}} کې راجستر کړئ، یو عمومي تصدیق بیان خپور کړئ، او د بسپنه ورکوونکو باور ترلاسه کړئ.",
+    "hero": {
+      "eyebrow": "د سازمانونو او تصدیق‌کوونکو لپاره",
+      "headlinePart1": "بسپنه ورکوونکو سره مرسته وکړئ چې",
+      "headlineHighlight": "باور وکړي",
+      "body": "خپل سازمان په {{appName}} کې راوړئ او یو عمومي بیان خپور کړئ چې تشریح کوي تاسو څنګه هغه کمپاینونه ارزوئ چې ملاتړ یې کوئ. هیڅ غوښتنلیک نشته، هیڅ دروازه‌بان نشته — ستاسو شهرت کار کوي.",
+      "trustChips": {
+        "noPermission": "هیڅ اجازې ته اړتیا نشته",
+        "ownIdentity": "ستاسو خپل هویت",
+        "public": "عمومي او د تصدیق وړ"
+      },
+      "cta": "پیل وکړئ"
+    },
+    "steps": {
+      "eyebrow": "دا څنګه کار کوي",
+      "title": "په درېو ګامونو کې راجستر شئ",
+      "lede": "{{appName}} پر Nostr جوړ شوی، نو ستاسو سازمان خپل هویت راوړي. تنظیم کول یوازې څو دقیقې وخت نیسي.",
+      "step1": {
+        "title": "خپل پروفایل راوړئ",
+        "body": "د خپل سازمان د Nostr پروفایل سره ننوځئ — یا یو په څو ثانیو کې جوړ کړئ. ستاسو هویت ستاسو دی، په هر Nostr اپ کې وړونکی دی، او د {{appName}} لخوا نه کنټرول کیږي."
+      },
+      "step2": {
+        "title": "خپله بهیر تشریح کړئ",
+        "body": "یو عمومي بیان ولیکئ چې تشریح کوي تاسو څنګه کمپاینونه تصدیقوئ: هغه کتنې چې تاسو یې ترسره کوئ، هغه شواهد چې تاسو یې غواړئ، او تاسو څنګه د یو تنظیموونکي هویت تایید کوئ."
+      },
+      "step3": {
+        "title": "خپور کړئ او باور ترلاسه کړئ",
+        "body": "ستاسو بیان ستاسو پر پروفایل ښکاري او بسپنه ورکوونکو ته اشاره کوي چې تاسو د هغو کمپاینونو ملاتړ کوئ چې تاسو یې تصدیقوئ. کله هم یې تازه کړئ یا یې وباسئ."
+      }
+    },
+    "getStarted": {
+      "eyebrow": "پیل وکړئ",
+      "title": "خپل بیان خپور کړئ",
+      "lede": "د خپل سازمان د پروفایل سره ننوځئ ترڅو خپل د تصدیق بیان خپور، تازه، یا وباسئ."
+    },
+    "loginGateTitle": "د خپل سازمان د پروفایل سره ننوځئ",
+    "loginGateBody": "د پیل لپاره د خپل سازمان د Nostr پروفایل سره ننوځئ، یا یو جوړ کړئ. کله چې ننوتلي اوسئ، تاسو کولی شئ خپل د تصدیق بیان دلته خپور کړئ.",
+    "tutorial": {
+      "eyebrow": "اوس تاسو تصدیق کوونکی یاست",
+      "title": "د کمپاین تصدیق کولو څرنګوالی",
+      "lede": "ستاسو بیان فعال دی. دلته دا دی چې څنګه د هغه کمپاین ضمانت وکړئ چې تاسو پرې باور لرئ — دا د هر کمپاین له کارت څخه دوه ټک نیسي.",
+      "steps": {
+        "open": {
+          "title": "مینو پرانیځئ",
+          "body": "د هر کمپاین په کارت کې، د بینر په پورتنۍ ښۍ کونج کې د درې ټکو تڼۍ ټک کړئ."
+        },
+        "verify": {
+          "title": "\"دا کمپاین تصدیق کړئ\" غوره کړئ",
+          "body": "مینو د تصدیق کړنه ښکاره کوي — یوازې تاسو په څېر اعتدال کوونکو او تصدیق کوونکو ته ښکاري."
+        },
+        "confirm": {
+          "title": "تایید کړئ او کار مو پای ته ورسېد",
+          "body": "تصدیق کړئ چې کمپاین اصلي دی. ستاسو نښان د کارت سره یوځای کېږي ترڅو بسپنه ورکوونکي پوه شي چې تاسو یې ملاتړ کوئ."
+        }
+      },
+      "demo": {
+        "menuVerify": "دا کمپاین تصدیق کړئ"
+      }
+    },
+    "getStartedCard": {
+      "title": "خپل سازمان تنظیم کړئ",
+      "body": "موږ به تاسو ته د ستاسو د سازمان د پروفایل جوړولو، ستاسو د تصدیق بیان خپرولو، او ستاسو د لومړي کمپاین تصدیق کولو لارښوونه وکړو.",
+      "cta": "تصدیق پیل کړئ"
+    }
+  },
+  "organizers": {
+    "appoint": "تنظیموونکی ټاکل",
+    "appointDesc": "کاروونکي ته اجازه ورکړئ چې په ځانګړي هېوادي فیډ کې پوسټونه پن کړي.",
+    "appointing": "د ټاکلو په حال کې…",
+    "appointed": "تنظیموونکی وټاکل شو",
+    "appointedSuccess": "د {{country}} لپاره تنظیموونکی وټاکل شو",
+    "userNpub": "د کاروونکي npub",
+    "country": "هېواد",
+    "selectCountry": "یو هېواد وټاکئ",
+    "invalidNpub": "د npub بڼه ناسمه ده",
+    "alreadyOrganizer": "دا کاروونکی دمخه د هغه هېواد تنظیموونکی دی",
+    "current": "اوسني تنظیموونکي",
+    "noOrganizers": "تر اوسه هیڅ تنظیموونکی نه دی ټاکل شوی.",
+    "removed": "تنظیموونکی لرې شو",
+    "removedSuccess": "{{name}} له {{country}} څخه لرې شو",
+    "refreshed": "تازه شو",
+    "refreshedDesc": "د تنظیموونکو لیست له رېلو څخه تازه شو.",
+    "adminRequired": "د مدیر اجازه اړینه ده",
+    "adminRequiredDesc": "یوازې د پلیټفارم مدیران کولی شي تنظیموونکي وټاکي یا یې لرې کړي."
+  },
+  "wallet": {
+    "seoTitle": "والټ",
+    "seoDescription": "د Nostr nsec څخه راپیدا شوی د بټکوین درجه‌بندي شوی والټ.",
+    "loggedOut": {
+      "title": "د بټکوین والټ",
+      "description": "یو درجه‌بندي شوی والټ چې ستاسو د Nostr هویت څخه راپیدا کیږي. د هر ترلاسه کولو لپاره نوې پته، بشپړ د معاملو تاریخ، د پتو پرته له بیا کارولو.",
+      "requiresNsec": "د ننوتلو لپاره nsec ته اړتیا لري (ستاسو د Nostr شخصي کلي)."
+    },
+    "unsupported": {
+      "title": "والټ نشته",
+      "extension": "ستاسو د براوزر توسیع ستاسو پټ کلي جلا ساتي، نو موږ ستاسو د والټ لپاره د اولاد کلي نه شو راپیدا کولی.",
+      "bunker": "ستاسو لیرې لاسلیک کوونکی (د NIP-46 bunker) ستاسو پټ کلي د bunker اړخ کې ساتي، نو موږ ستاسو د والټ لپاره د اولاد کلي نه شو راپیدا کولی.",
+      "other": "ستاسو د ننوتلو ډول هغه پټ کلي نه ښکاره کوي چې د والټ راپیدا کولو لپاره اړین وي.",
+      "instructions": "د والټ کارولو لپاره وځئ او بیا د nsec سره ننوځئ."
+    },
+    "scanFailed": "د والټ سکن کول ناکام شول",
+    "retry": "بیا هڅه",
+    "refreshBalance": "بیلانس تازه کول",
+    "refreshBalanceTitle": "د بیلانس د تازه کولو لپاره کلیک وکړئ",
+    "amountPending": "{{amount}} په تمه",
+    "pending": "په تمه",
+    "send": "لیږل",
+    "transactions": "معاملې",
+    "receiveDialog": {
+      "title": "د بټکوین ترلاسه کول",
+      "description": "د بټکوین د ترلاسه کولو لپاره یوه پته شریکه کړئ.",
+      "addressIndex": "پته #{{index}}",
+      "scanForNew": "نوې ورکړې وګورئ"
+    },
+    "tx": {
+      "pending": "په تمه",
+      "today": "نن",
+      "yesterday": "پرون",
+      "daysAgo_one": "{{count}} ورځې وړاندې",
+      "daysAgo_other": "{{count}} ورځې وړاندې",
+      "received": "ترلاسه شوي",
+      "sent": "لیږل شوي"
+    },
+    "openMenu": "د والټ مینو",
+    "sendPublic": "لیږل",
+    "sendPrivate": "په محرمیت لیږل",
+    "tabs": {
+      "public": "عام",
+      "private": "محرم"
+    },
+    "hideBalance": "بیلانس پټول",
+    "showBalance": "بیلانس ښودل"
+  },
+  "walletSettings": {
+    "backup": {
+      "label": "د والټ بیک اپ"
+    },
+    "legacy": {
+      "label": "د زاړه والټ بیرته راګرځول"
+    }
+  },
+  "walletLegacy": {
+    "seoTitle": "د زاړه والټ بیرته راګرځول",
+    "seoDescription": "د Agora د پخوانیو والټونو نسلونو څخه پیسې بیرته راګرځوئ.",
+    "title": "د زاړه والټ بیرته راګرځول",
+    "subtitle": "هغه پخوانی والټ وټاکئ چې مو کارولی او بیلانس یې خپل اوسني والټ ته راټول کړئ.",
+    "loggedOut": "د خپلو زړو والټونو کې د پیسو د کتلو لپاره د خپل Nostr هویت سره ننوځئ.",
+    "scanning": "د V2 بیټا والټ د پیسو لپاره سکن کیږي…",
+    "v2Detected": {
+      "title": "د V2 د لاندې پیلیدو بیټا والټ کې پیسې وموندل شوې",
+      "body": "موږ ستاسو د زاړه V2 بیټا والټ په پتو کې <0>{{amount}}</0> وموندل. لاندې د V2 راټولونه پرانیزئ ترڅو خپل اوسني والټ ته یې انتقال کړئ."
+    },
+    "options": {
+      "v2Beta": {
+        "label": "د V2 د لاندې پیلیدو بیټا والټ",
+        "description": "د هغه BIP-86 والټ څخه پیسې راټولې کړئ چې د nsec په توګه Seed یې کاراوه او د BIP-39 له استخراج څخه دمخه راغلی و."
+      },
+      "v1Breeze": {
+        "label": "د V1 Breeze والټ",
+        "description": "د زاړه Lightning ساتنې څخه په زنځیر کې بیلانس راټول کړئ."
+      },
+      "doubleTweak": {
+        "label": "د دوه‌ګونې سمونې SP ترمیم",
+        "description": "هغه خاموش پرداختونه بیرته راګرځوئ چې د یوه پخواني لیږنې باګ له امله پاتې شوي او بیرته یې خپل والټ ته راټول کړئ."
+      }
+    },
+    "footnote": "هره بڼه ستاسو اوسني والټ ته یوازې یوطرفه راټولونه ده. زوړ والټ پخپله نه بیا رغول کیږي — یوازې هغه پیسې چې پکې وې بیرته راګرځول کیږي."
+  },
+  "walletRecovery": {
+    "seoTitle": "د زاړه والټ بیرته راګرځول",
+    "seoDescription": "له پخواني Lightning والټ څخه پیسې بیرته راګرځوئ او د Nostr څخه راپیدا شوي د Bitcoin پتې ته یې ولېږئ.",
+    "title": "د زاړه والټ بیرته راګرځول",
+    "heading": "خپل زاړه والټ بیرته راګرځوئ",
+    "subheading": "که چېرې مخکې مو په Lightning والټ کې پیسې درلودلې، تاسو یې د Nostr څخه راپیدا شوي د Bitcoin پتې ته انتقالولی شئ. ستاسو پخوانی والټ نه بیا رغول کیږي — دا یوازې یوځل یوطرفه انتقال دی.",
+    "backToWallet": "والټ ته بیرته",
+    "loggedOut": {
+      "title": "د بیرته راګرځولو لپاره ننوځئ",
+      "description": "د هغه Nostr هویت سره ننوځئ چې د پخواني Lightning والټ مالک و، ترڅو پیسې د هغه Bitcoin پتې ته ولیږل شي."
+    },
+    "destination": {
+      "title": "پیسې به دې پتې ته ولیږل شي",
+      "description": "ستاسو د Nostr څخه راپیدا شوې Taproot پته."
+    },
+    "phrase": {
+      "title": "د بیرته راګرځولو عبارت",
+      "description": "د خپل زاړه والټ ۱۲ کلمه‌ای د بیرته راګرځولو عبارت دلته الصاق کړئ.",
+      "checkingRelays": "ستاسو په رېلو کې د کوډ شوي بیک اپ په لټه کې…",
+      "backupFoundTitle": "ستاسو په رېلو کې بیک اپ وموندل شو",
+      "backupFoundDesc": "موږ ستاسو د زاړه والټ د بیرته راګرځولو عبارت یو کوډ شوی بیک اپ وموند چې له دې حساب څخه خپور شوی.",
+      "decryptAndUse": "کوډ مات کړئ او وکاروئ",
+      "placeholder": "کلمه۱ کلمه۲ کلمه۳ …",
+      "warning": "یوازې هغه د بیرته راګرځولو عبارت دلته الصاق کړئ چې پرې باور لرئ. هرڅوک چې دا عبارت ولري کولی شي پیسې ولګوي. د انتقال له بشپړیدو وروسته، له هر هغه ځایه چې مو کاپي کړی وي یې پاک کړئ.",
+      "sweepButton": "پیسې زما Bitcoin پتې ته انتقال کړئ"
+    },
+    "sweeping": {
+      "working": "په کار کې…",
+      "dontClose": "دا ټب مه تړئ. کیدای شي تر یوې دقیقې پورې وخت ونیسي چې زوړ والټ هم‌غږی شي او معامله خپره شي."
+    },
+    "success": {
+      "title": "بیرته راګرځول بشپړ شول",
+      "sent": "{{sats}} ساتوشي ستاسو د Bitcoin پتې ته ولیږل شول.",
+      "viewTransaction": "معامله وګورئ"
+    },
+    "error": {
+      "title": "بیرته راګرځول ناکام شول",
+      "tryAgain": "بیا هڅه"
+    },
+    "errors": {
+      "noNip44": "ستاسو لاسلیک کوونکی د NIP-44 کوډ ماتولو ملاتړ نه کوي چې د رېلو بیک اپ لوستلو لپاره اړین دی. د هغې پر ځای خپل ۱۲-کلمه‌ای د بیرته راګرځولو عبارت په لاسي توګه الصاق کړئ.",
+      "decryptFailed": "د رېلو بیک اپ یې کوډ ماتولو ته نشو. د هغې پر ځای خپل ۱۲-کلمه‌ای د بیرته راګرځولو عبارت په لاسي توګه الصاق کړئ.",
+      "decryptGeneric": "د رېلو بیک اپ د کوډ ماتولو په بریا نشو.",
+      "invalidWordCount": "د بیرته راګرځولو عبارت باید ۱۲ یا ۲۴ کلمې وي.",
+      "noBalance": "ستاسو زاړه والټ کې د لګولو لپاره هېڅ بیلانس نشته. د بیرته راګرځولو لپاره څه نشته.",
+      "sweepGeneric": "بیرته راګرځول ناکام شول. مهرباني وکړئ بیا هڅه وکړئ."
+    },
+    "progress": {
+      "loadingSdk": "د والټ SDK لوډ کیږي…",
+      "connecting": "ستاسو زاړه والټ سره اړیکه نیول کیږي…",
+      "checkingBalance": "بیلانس کتل کیږي…",
+      "preparingTransfer": "د {{sats}} ساتوشي د انتقال چمتو کول…",
+      "broadcasting": "معامله خپریږي…"
+    },
+    "toast": {
+      "backupLoadedTitle": "بیک اپ لوډ شو",
+      "backupLoadedDesc": "د بیرته راګرځولو عبارت ستاسو له رېلو څخه کوډ مات شو."
+    }
+  },
+  "walletBackup": {
+    "heading": "د والټ Seed عبارت",
+    "dialogDescription": "تاسو کولی شئ په هر Bitcoin والټ کې د دې ۲۴ کلمې بیک اپ په واردولو سره د خپل Agora والټ ته لاسرسی ومومئ.",
+    "hidden": "د خپل ۲۴ کلمې Seed عبارت د ښودلو لپاره ټک ووهئ.",
+    "revealAria": "د Seed عبارت ښکاره کول",
+    "hideAria": "د Seed عبارت پټول",
+    "warning": "هر څوک چې دا کلمې ولري ستاسو Bitcoin مصرفولی شي. هیڅکله یې شریک کړئ نه، هیڅکله یې په ویب پاڼه کې مه ولیکئ، هیڅکله یې د پاسورډ مدیر څخه بهر په ساده متن کې مه ساتئ."
+  },
+  "walletMigrate": {
+    "seoTitle": "د زاړه والټ انتقال",
+    "seoDescription": "د Agora له زاړه والټ (د nsec په توګه Seed) څخه نوي BIP-39 والټ ته پیسې راټولې کړئ.",
+    "title": "د زاړه والټ انتقال",
+    "heading": "خپلو نوي والټ ته انتقال وکړئ",
+    "subheading": "د Agora د Bitcoin والټ اوس د BIP-39 Seed عبارت کاروي ترڅو په هر والټ اپ کې وارد شي. ستاسو په زاړه پتو کې پیسې لاهم خوندي دي — دا پاڼه یې په یوه معامله کې ستاسو نوي والټ ته راټولوي.",
+    "backToWallet": "والټ ته بیرته",
+    "loading": "ستاسو زوړ والټ کتل کېږي…",
+    "warning": "دا یوازې یوه راټولونکې معامله جوړوي چې ستاسو د زاړه والټ هر UTXO مصرفوي او ټوله مجموعه (د یوه کوچني شبکې فیس کم کېدو سره) ستاسو د نوي والټ لومړنۍ ترلاسه کوونکې پتې ته لیږي. کله چې خپره شي، انتقال وروستی دی او بیرته نه راګرځول کیږي.",
+    "startButton": "نوي والټ ته راټولول",
+    "loggedOut": {
+      "title": "د انتقال لپاره ننوځئ",
+      "description": "د هغه Nostr هویت سره ننوځئ چې د زاړه والټ مالک دی ترڅو پیسې ستاسو نوې پتې ته راټولې شي."
+    },
+    "unsupported": {
+      "title": "والټ شتون نه لري",
+      "description": "انتقال یوازې د nsec ننوتلو لپاره کار کوي، ځکه د زاړه والټ کلي مستقیماً ستاسو له nsec څخه استخراج شوي وو. د براوزر توسیع او د لیرې لاسلیک کوونکو ننوتل دا انتقال نشي پرمخ وړلی."
+    },
+    "noBlockbook": {
+      "title": "Blockbook نه دی تنظیم شوی",
+      "description": "انتقال د Blockbook د ایندکس کوونکي URL ته اړتیا لري ترڅو ستاسو زاړه پتې سکن کړي او د راټولولو معامله خپره کړي."
+    },
+    "noFunds": {
+      "title": "د انتقال لپاره څه نشته",
+      "description": "ستاسو زاړه والټ د مصرف وړ بیلانس نه لري. هرڅه لا دمخه ستاسو په نوي والټ کې دي."
+    },
+    "detected": {
+      "title": "ستاسو په زاړه والټ کې پیسې",
+      "description": "دا پیسې به په یوه معامله کې ستاسو نوي والټ ته انتقال شي.",
+      "bip86": "په زنځیر کې",
+      "sp": "چوپې ورکړې",
+      "total": "ټول"
+    },
+    "destination": {
+      "title": "منزل",
+      "description": "ستاسو د نوي والټ لومړنۍ ترلاسه کوونکې پته."
+    },
+    "progress": {
+      "building": "د معاملې جوړول…",
+      "signing": "د Inputs لاسلیک کول…",
+      "broadcasting": "د معاملې خپرول…",
+      "dontClose": "تر څو چې راټولول روان وي دا ټب مه تړئ."
+    },
+    "success": {
+      "title": "انتقال بشپړ شو",
+      "sent": "{{sats}} ساتوشي ستاسو نوي والټ ته ولیږل شول ({{fee}} ساتوشي فیس).",
+      "viewTx": "معامله وګورئ"
+    },
+    "error": {
+      "title": "انتقال ناکام شو",
+      "tryAgain": "بیا هڅه"
+    },
+    "errors": {
+      "noV1Account": "د زاړه والټ کلي ته لاسرسی ونشو.",
+      "noDestination": "ستاسو نوی والټ لا تر اوسه ترلاسه کوونکې پته نه لري. د والټ پاڼې د بار کیدو انتظار وکړئ او بیا هڅه وکړئ.",
+      "noBlockbook": "Blockbook ایندکس کوونکی نه دی تنظیم شوی. انتقال نشي کولی ستاسو زاړه پتې سکن کړي.",
+      "noFunds": "په زاړو پتو کې د مصرف وړ پیسې ونه موندل شوې.",
+      "sweepGeneric": "انتقال ناکام شو. مهرباني وکړئ بیا هڅه وکړئ."
+    },
+    "toast": {
+      "successTitle": "انتقال بشپړ شو",
+      "successDesc": "{{sats}} ساتوشي ستاسو نوي والټ ته انتقال شول."
+    }
+  },
+  "walletConnect": {
+    "status": "حالت",
+    "ready": "چمتو",
+    "notFound": "ونه موندل شو",
+    "none": "هېڅ",
+    "add": "اضافه",
+    "active": "فعاله",
+    "connectionLabel": "د NWC اړیکه",
+    "defaultWalletName": "د Lightning والټ",
+    "setActiveTitle": "د فعالې په توګه وټاکئ",
+    "removeTitle": "والټ لرې کول",
+    "helpText": "د zap لیږلو لپاره د WebLN براوزر توسیع ولګوئ یا د NWC والټ سره ونښلوئ.",
+    "webln": {
+      "name": "WebLN",
+      "description": "د براوزر توسیع"
+    },
+    "nwc": {
+      "name": "Nostr Wallet Connect",
+      "description": "د لیرې والټ اړیکه",
+      "connectedCount_one": "{{count}} والټ ونښلیده",
+      "connectedCount_other": "{{count}} والټونه ونښلیدل"
+    },
+    "empty": {
+      "title": "هېڅ والټ نه دی نښلول شوی",
+      "description": "د سملاسي zapونو فعالولو لپاره د NWC اړیکه اضافه کړئ."
+    },
+    "dialog": {
+      "title": "د NWC والټ سره اړیکه",
+      "description": "د خپل NWC سره مطابق والټ څخه د اړیکې تار دلته الصاق کړئ.",
+      "aliasPlaceholder": "د والټ نوم (اختیاري)",
+      "connect": "وصل کول",
+      "connecting": "په نښلولو کې..."
+    },
+    "toast": {
+      "uriRequiredTitle": "د اړیکې URI ته اړتیا ده",
+      "uriRequiredDesc": "مهرباني وکړئ د NWC اړیکې سم URI دننه کړئ.",
+      "activeChangedTitle": "فعاله والټ بدله شوه",
+      "activeChangedDesc": "ټاکل شوې والټ اوس د zapونو لپاره فعاله ده."
+    }
+  },
+  "walletSend": {
+    "title": "بټکوین لیږل",
+    "send": "بټکوین لیږل",
+    "max": "MAX",
+    "tapAgainToConfirm": "د تایید لپاره بیا ټک ووهئ",
+    "satPerVB": "{{rate}} ساتوشي/vB",
+    "notEnoughBitcoin": "کافی بټکوین نشته",
+    "emptyWallet": "ستاسو والټ خالي دی. د لېږلو دمخه پکې بټکوین اضافه کړئ.",
+    "recipient": {
+      "placeholder": "bc1…، sp1…",
+      "scan": "د QR کوډ سکن کړئ",
+      "sendToOnchain": "د بټکوین پتې ته ولیږئ",
+      "sendToSilentPayment": "د چوپې ورکړې پتې ته ولیږئ",
+      "bitcoinAddress": "د بټکوین پته",
+      "silentPayment": "د چوپې ورکړې پته",
+      "toLabel": "ته",
+      "clear": "ترلاسه‌کوونکی پاک کړئ",
+      "choosePaymentMethod": "د دوام لپاره د ورکړې طریقه وټاکئ"
+    },
+    "feeSpeed": {
+      "fastest": "~۱۰ دقیقې",
+      "halfHour": "~۳۰ دقیقې",
+      "hour": "~۱ ساعت",
+      "economy": "~۱ ورځ",
+      "custom": "دودیز"
+    },
+    "fee": {
+      "loading": "لوډېږي…",
+      "unavailable": "د لاسرسي وړ نه دی",
+      "loadFailed": "د فیس نرخونه یې ونه لوډل شول.",
+      "retry": "بیا هڅه وکړئ",
+      "orCustom": "یا لاندې یو دودیز نرخ دننه کړئ.",
+      "loadingTiers": "د فیس نرخونه لوډېږي…",
+      "customPlaceholder": "بېلګه: 5",
+      "customAriaLabel": "دودیز د فیس نرخ په sat/vB کې"
+    },
+    "progress": {
+      "building": "د معاملې جوړول…",
+      "signing": "لاسلیک کول…",
+      "broadcasting": "خپرول…",
+      "sending": "لیږل…"
+    },
+    "errors": {
+      "unavailable": "د دې ډول ننوتلو لپاره د HD والټ شته نه دی.",
+      "enterRecipient": "د بټکوین پته یا د sp1… چوپې ورکړې پته دننه کړئ.",
+      "noSpendable": "په دې والټ کې د لګولو وړ بټکوین نشته.",
+      "feesNotLoaded": "د فیس نرخونه نه دي لوډ شوي.",
+      "enterAmount": "یوه اندازه دننه کړئ.",
+      "insufficient": "د دې اندازې او د شبکې فیس لپاره کافي بټکوین نشته.",
+      "waitingPrice": "د BTC قیمت ته انتظار…",
+      "noneYet": "تاسو لاهم هېڅ بټکوین نه لرئ.",
+      "feesNotLoadedYet": "د فیس نرخونه لاهم نه دي لوډ شوي.",
+      "feeRateTooLow": "لږ تر لږه د 1 sat/vB د فیس نرخ دننه کړئ."
+    },
+    "scanError": {
+      "title": "هغه QR کوډ ونه لوستل شو",
+      "description": "د بټکوین پته، د چوپې ورکړې پته (sp1…)، یا د bitcoin: URI تمه کېده."
+    },
+    "toast": {
+      "failedTitle": "معامله ناکامه شوه",
+      "followUpFailedTitle": "تادیه ولېږل شوه، خو د عامه رسید خپرول ناکام شول"
+    },
+    "broadcastError": {
+      "feeTooLowTitle": "د شبکې فیس ډېر ټیټ دی",
+      "feeTooLowBodyWithMin": "د Bitcoin شبکه دا فیس ردوي. اوسنی لږ تر لږه نرخ شاوخوا {{min}} sat/vB دی.",
+      "feeTooLowBody": "د Bitcoin شبکه دا فیس ردوي. ګړنده درجه وټاکئ یا خپل دودیز نرخ پورته کړئ.",
+      "rbfTitle": "بدلون ته لوړ فیس په کار دی",
+      "rbfBody": "بدلون معامله باید له اصلي څخه ډېر فیس ورکړي. فیس پورته کړئ او بیا هڅه وکړئ.",
+      "mempoolFullTitle": "د Bitcoin شبکه بنده ده",
+      "mempoolFullBody": "mempool ډک دی او ستاسو فیس سیالۍ ته کافي نه دی. د تېرېدو لپاره فیس پورته کړئ.",
+      "networkTitle": "د Bitcoin شبکې ته لاسرسی ونه شو",
+      "networkBody": "خپله اړیکه وګورئ او بیا هڅه وکړئ.",
+      "mempoolConflictTitle": "ټکرېدونکې معامله",
+      "mempoolConflictBody": "یوه ننوتنه یې لا له مخکې لګول شوې یا د بلې معاملې لخوا لګول کیږي.",
+      "staleUtxoTitle": "والټ همغږی نه دی",
+      "staleUtxoBody": "د دې والټ ځینې سکې د بلاکچین له ریکارډ سره برابرې نه وې، نو معامله له خپرېدو مخکې ودرول شوه. والټ چې څومره یې کولی شول بیا همغږي کړل — بیا هڅه وکړئ.",
+      "tooLongChainTitle": "ډېرې نا تایید شوې معاملې",
+      "tooLongChainBody": "تاسو د نا تایید شویو معاملو اوږد لړۍ لرئ. انتظار وکړئ تر څو یوه تایید شي او بیا هڅه وکړئ.",
+      "badInputsTitle": "معامله رد شوه",
+      "badInputsBody": "شبکې دا معامله رد کړه. اندازه یا ترلاسه‌کوونکی سم کړئ او بیا هڅه وکړئ.",
+      "absurdlyHighFeeTitle": "فیس په غیر عادي ډول لوړ دی",
+      "absurdlyHighFeeBody": "اټکل شوی فیس په شکمن ډول لوړ دی. د فیس نرخونه بیا لوډ کړئ او بیا هڅه وکړئ.",
+      "unknownTitle": "معامله ناکامه شوه",
+      "useHigherFee": "لوړ فیس وکاروئ",
+      "tryAgain": "بیا هڅه وکړئ",
+      "atMaxFeeTier": "تاسو لا له مخکې پر ګړنده درجه یاست."
+    },
+    "success": {
+      "title": "بټکوین ولیږل شو",
+      "satsAmount": "{{sats}} ساتوشي",
+      "viewTransaction": "معامله وګورئ",
+      "done": "بشپړ"
+    },
+    "titlePublic": "بټکوین لیږل",
+    "titlePrivate": "په محرمیت لیږل",
+    "reuse": {
+      "checking": "د پتې کتنه کیږي…",
+      "sendAnyway": "بیا هم ولیږه",
+      "acknowledge": "زه خطر پوهیږم — بیا هم ولیږه",
+      "historyWarning": "دا پته دمخه په چین کې کارول شوې. ستاسو محرمو پیسو دلته لیږل دوی د دې پتې له موجود معاملاتي تاریخ سره تړي او ستاسو د چوپو تادیاتو محرمیت له منځه وړي. پرځای یې د چوپې تادیې پته (sp1…) وکاروئ، یا بیا هم ولیږئ.",
+      "ownPublicWarning": "دا ستاسو د خپل عام والټ پته ده. خپلې محرمې پیسې ورته لیږل دواړه والټونه سره یوځای کوي او تړي یې. پرځای یې د چوپې تادیې پته (sp1…) وکاروئ، یا بیا هم ولیږئ."
+    },
+    "ownSilentPaymentBlocked": "دا ستاسو د خپلې چوپې تادیې پته ده. تاسو نشئ کولی له خپل عام والټ څخه خپل محرم والټ ته ولیږئ — دا کار ستاسو د محرمې چوپې تادیې پیسې هغو سیکو سره یوځای کوي چې دمخه په عام لیجر کې ښکاره شوي، ستاسو محرم والټ له پیژندل شوې پیژندنې سره تړي او محرمیت یې له منځه وړي. پرځای یې بلې پتې ته ولیږئ."
+  },
+  "qrScanner": {
+    "title": "د QR کوډ سکن کړئ",
+    "close": "بندول",
+    "starting": "کیمره پیلیږي…",
+    "aim": "خپله کیمره د QR کوډ پر لور ونیسئ.",
+    "flashOn": "فلش بل کړئ",
+    "flashOff": "فلش مړ کړئ",
+    "errors": {
+      "generic": "کیمرې ته لاسرسی ممکن نه شو.",
+      "insecure": "کیمرې ته لاسرسي ته خوندي (HTTPS) اړیکې اړتیا ده.",
+      "unsupported": "دا براوزر کیمرې ته لاسرسی نه ملاتړي.",
+      "notFound": "په دې وسیله کې هېڅ کیمره ونه موندل شوه.",
+      "denied": "د کیمرې اجازه رد شوه. د QR کوډونو د سکن کولو لپاره یې په تنظیماتو کې فعاله کړئ.",
+      "busy": "بل اپلیکیشن کیمره کاروي. هغه وتړئ او بیا هڅه وکړئ.",
+      "overconstrained": "د دې وسیلې کیمره غوښتل شوي تنظیمات نه ملاتړي.",
+      "didntStart": "کیمره پیل نه شوه. کېدای شي بل اپلیکیشن یې کاروي، یا ستاسو براوزر سکنر بند کړی وي."
+    }
+  },
+  "spScan": {
+    "title": "نوې ورکړې وګورئ",
+    "subtitle": "د خصوصي ورکړو لپاره بلاکچین سکن کړئ",
+    "descriptionHelp": "نور معلومات",
+    "description": "د BIP-352 ټاکل شوي ایندکس کوونکي بلاک په بلاک ګرځوي ترڅو راتلونکې چوپې ورکړې وموندي.",
+    "since": "له هغه وخت چې",
+    "preset": {
+      "lastHour": "تېر یو ساعت",
+      "last3h": "تېر درې ساعته",
+      "last24h": "تېر ۲۴ ساعته",
+      "lastWeek": "تېره اونۍ",
+      "lastMonth": "تېره میاشت",
+      "custom": "دودیز…"
+    },
+    "customHours": "ساعتونه",
+    "customHoursPlaceholder": "بېلګه: ۱۲",
+    "advanced": "پرمختللي",
+    "connectingIndexer": "له ایندکس کوونکي سره نښلیږي…",
+    "upToDate": "تاسو لا له مخکې تر اوسني حال پورې یاست.",
+    "fromBlock": "له بلاک څخه",
+    "indexerTip": "د ایندکس کوونکي سر",
+    "lastFullyScanned": "وروستی بشپړ سکن",
+    "never": "هېڅکله",
+    "includeSpent": "مخکې لګول شوي شامل کړئ",
+    "includeSpentDesc": "هغه چوپې ورکړې هم وموندئ چې لګول شوي وي. وکاروئ کله چې د وروستي سکن یا ریستارت وروسته د ترلاسه کولو تاریخ بیا جوړوئ.",
+    "blockProgress": "بلاک {{current}} / {{to}}",
+    "matches_one": "{{count}} سمون",
+    "matches_other": "{{count}} سمونونه",
+    "scannedRange": "سکن شوي بلاکونه {{from}} → {{to}}.",
+    "foundOutputs_one": "{{count}} نوې محصول وموندل شو.",
+    "foundOutputs_other": "{{count}} نوي محصولات وموندل شول.",
+    "noNewPayments": "هېڅ نوې ورکړې نشته.",
+    "startScan": "سکن پیل کول",
+    "resolveFailed": {
+      "title": "د پیل بلاک یې ونه شو لټولی",
+      "description": "mempool.space اوس مهال د لاسرسي وړ نه دی. د سکن کولو لپاره د پرمختللي → له بلاک څخه لاندې د پیل بلاک په لاسي ډول دننه کړئ."
+    },
+    "reconcile": {
+      "title": "د لګول شویو UTXOs سمولو",
+      "description": "هر زیرمه شوی د چوپې ورکړې UTXO د Blockbook سره مقایسه کوي او هغه چې لګول شوي وي لیرې کوي. کله چې له لیږلو وروسته بیلانس له هغه څه چې باید وي لوړ وي، دا وکاروئ.",
+      "checking": "د {{checked}} / {{total}} کتنه کیږي…",
+      "checked_one": "{{count}} UTXO وکتل شو · {{pruned}} پرې شول.",
+      "checked_other": "{{count}} UTXOs وکتل شول · {{pruned}} پرې شول.",
+      "reconciling": "سمول کیږي…",
+      "reconcileNow": "اوس سمول"
+    },
+    "autoScan": {
+      "label": "په اوتومات ډول سکن کول",
+      "description": "په شالید کې د نویو خصوصي ورکړو کتنه دوام ورکوي، حتی کله چې تاسو دا پاڼه پرېږدئ."
+    }
+  },
+  "spAutoScan": {
+    "scanning": "سکن کیږي… بلاک {{current}} / {{to}}",
+    "caughtUp": "تر اوسني حال پورې",
+    "neverScanned": "لا تر اوسه سکن شوی نه دی",
+    "lastScanned": "تر بلاک {{height}} پورې سکن شوی",
+    "paused": "اوتومات سکن بند دی",
+    "manualLink": "د سکن اختیارونه"
+  },
+  "notifications": {
+    "seoTitle": "خبرتیاوې",
+    "seoDescription": "ستاسو د Nostr خبرتیاوې",
+    "title": "خبرتیاوې",
+    "tabs": {
+      "all": "ټول",
+      "mentions": "یادونې"
+    },
+    "loginPrompt": "د خپلو خبرتیاوو لیدلو لپاره ننوځئ.",
+    "empty": "لاهم خبرتیاوې نشته.",
+    "subject": {
+      "twoActors": "<0></0> او <1></1>",
+      "andOthers_one": " او {{count}} نور",
+      "andOthers_other": " او {{count}} نور"
+    },
+    "actorAvatars": {
+      "moreCount": "+{{count}} نور"
+    },
+    "actions": {
+      "reactedToYour": "ستاسو {{noun}} ته یې عکس العمل وښود",
+      "repostedYour": "ستاسو {{noun}} یې بیا خپور کړ",
+      "zappedYou": "تاسو ته یې zap درکړ",
+      "zappedYouWithAmount": "تاسو ته یې {{sats}} ساتوشي zap درکړ",
+      "repliedToYourNote": "ستاسو یادښت ته یې ځواب ورکړ",
+      "mentionedYou": "تاسو یې یاد کړئ",
+      "repliedToYourComment": "ستاسو تبصرې ته یې ځواب ورکړ",
+      "commentedOnYour": "ستاسو {{noun}} باندې یې تبصره وکړه",
+      "sentYouLetter": "تاسو ته یې لیک ولېږه",
+      "highlightedYour": "ستاسو {{noun}} یې روښانه کړ",
+      "awardedBadge": "تاسو ته یې یوه نښان درکړ",
+      "awardedBadges": "تاسو ته یې نښانونه درکړل"
+    },
+    "letter": {
+      "viewAll": "ټول لیکونه وګورئ",
+      "reply": "ځواب"
+    },
+    "kinds": {
+      "profile": "پروفایل",
+      "post": "پوسټ",
+      "encryptedMessage": "کوډ شوی پیغام",
+      "repost": "بیا خپرول",
+      "reaction": "عکس العمل",
+      "badgeAward": "د نښان ورکول",
+      "photo": "انځور",
+      "video": "ویډیو",
+      "requestToVanish": "د ورکېدو غوښتنه",
+      "file": "فایل",
+      "poll": "رایه اخیستنه",
+      "comment": "تبصره",
+      "voiceMessage": "غږیز پیغام",
+      "patch": "پاچ",
+      "pullRequest": "pull request",
+      "highlight": "روښانه‌ول",
+      "birdDetection": "د مرغۍ پېژندنه",
+      "birdex": "Birdex",
+      "colorMoment": "د رنګ شیبه",
+      "foundLog": "موندل شوی لاګ",
+      "nsite": "nsite",
+      "profileBadges": "د پروفایل نښانونه",
+      "badge": "نښان",
+      "article": "مقاله",
+      "emojiPack": "د ایموجي کڅوړه",
+      "podcastEpisode": "د پاډکاسټ څپرکی",
+      "podcastTrailer": "د پاډکاسټ نمونه",
+      "zapstoreAsset": "د Zapstore اثاثه",
+      "zapstoreRelease": "د Zapstore خپرونه",
+      "stream": "سټریم",
+      "status": "حالت",
+      "repository": "ذخیره ګاه",
+      "customNip": "دودیز NIP",
+      "calendarEvent": "د کلیزې پېښه",
+      "zapstoreApp": "د Zapstore اپلیکیشن",
+      "playlist": "د پلې‌لیست",
+      "divine": "پېشبیني",
+      "community": "ټولنه",
+      "goal": "هدف",
+      "track": "تراک",
+      "magicDeck": "د Magic ډېک",
+      "treasure": "خزانه",
+      "constellation": "بُرج",
+      "followPack": "د تعقیب کڅوړه"
+    }
+  },
+  "notifSettings": {
+    "seoTitle": "خبرتیاوې",
+    "seoDescription": "د خپلو خبرتیاوو غوره توبونه تنظیم کړئ",
+    "title": "خبرتیاوې",
+    "pushHeading": "پوش خبرتیاوې",
+    "enablePush": {
+      "label": "پوش خبرتیاوې فعالول",
+      "description": "ستاسو د پوسټونو په فعالیت کې خبرتیاوې ترلاسه کول"
+    },
+    "unsupported": "ستاسو براوزر د پوش خبرتیاوو ملاتړ نه کوي.",
+    "denied": "خبرتیاوې بندې دي. د دې سایټ د خبرتیاوو د اجازې لپاره خپل د براوزر تنظیمات تازه کړئ.",
+    "deliveryMethod": {
+      "heading": "د رسولو طریقه",
+      "intro": "وټاکئ چې خبرتیاوې څنګه ستاسو وسیلې ته رسول کیږي.",
+      "push": {
+        "label": "پوش",
+        "description": "معیاري خبرتیاوې. د حالت بار کې دایمي آیکون نشته."
+      },
+      "persistent": {
+        "label": "دایمي",
+        "description": "په شالید کې مستقیماً د نوو خبرتیاوو لپاره رېلې پولوي. د هغو وسیلو لپاره چې د پوش خبرتیاوو ملاتړ نه کوي د باوري رسولو لپاره دا وکاروئ."
+      }
+    },
+    "notifyAbout": {
+      "heading": "ما خبر کړئ په اړه",
+      "filterHeading": "فلټر",
+      "typesHeading": "ډولونه",
+      "onlyFollowing": {
+        "label": "یوازې له هغو خلکو څخه چې تعقیب یې کوم",
+        "description": "هغه خبرتیاوې پټ کړئ چې د هغو حسابونو څخه دي چې تاسو یې نه تعقیبوئ"
+      }
+    },
+    "types": {
+      "reactions": {
+        "label": "عکس العملونه",
+        "description": "کله چې څوک ستاسو پوسټونو ته عکس العمل ښیي"
+      },
+      "reposts": {
+        "label": "بیا خپرونې",
+        "description": "کله چې څوک ستاسو یادښتونه بیا خپروي"
+      },
+      "zaps": {
+        "label": "Zaps",
+        "description": "کله چې څوک تاسو ته د Lightning یا د زنځیر په بنسټ zap لیږي"
+      },
+      "mentions": {
+        "label": "یادونې",
+        "description": "کله چې څوک تاسو په یوه یادښت کې یادوي"
+      },
+      "comments": {
+        "label": "تبصرې او ځوابونه",
+        "description": "کله چې څوک ستاسو پوسټونو باندې تبصره کوي یا ځواب ورکوي"
+      },
+      "badges": {
+        "label": "د نښانونو ورکول",
+        "description": "کله چې څوک تاسو ته نښان درکوي"
+      },
+      "letters": {
+        "label": "لیکونه",
+        "description": "کله چې څوک تاسو ته لیک لیږي"
+      },
+      "highlights": {
+        "label": "روښانه کول",
+        "description": "کله چې څوک ستاسو محتوا روښانه کوي"
+      }
+    },
+    "toast": {
+      "enableFailedTitle": "د خبرتیاوو فعالول ناکام شول",
+      "enableFailedDesc": "مهرباني وکړئ بیا هڅه وکړئ."
+    }
+  },
+  "search": {
+    "seoTitle": "لټون",
+    "seoDescription": "په Nostr کې لټون",
+    "title": "لټون",
+    "inputPlaceholder": "لټون",
+    "filtersAria": "د لټون فلټرونه",
+    "tabs": {
+      "agora": "اګورا",
+      "nostr": "Nostr",
+      "accounts": "کاروونکي"
+    },
+    "filters": {
+      "title": "فلټرونه",
+      "reset": "بیا تنظیمول",
+      "from": "له",
+      "sort": "ترتیبول",
+      "media": "رسنۍ",
+      "protocol": "پروتوکول",
+      "language": "ژبه",
+      "kind": "ډول",
+      "kindCustomPlaceholder": "بېلګه: 1, 30023",
+      "includeReplies": "ځوابونه شامل کړئ",
+      "authorScope": {
+        "anyone": "هرڅوک",
+        "follows": "تعقیب شوي",
+        "people": "خلک"
+      },
+      "sortOptions": {
+        "recent": "اوسني",
+        "hot": "ګرم",
+        "trending": "مشهور"
+      },
+      "mediaOptions": {
+        "all": "ټول",
+        "images": "انځورونه",
+        "videos": "ویډیوګانې",
+        "shorts": "لنډونه",
+        "none": "پرته له رسنۍ"
+      },
+      "protocolOptions": {
+        "nostr": "Nostr",
+        "mastodon": "Mastodon",
+        "bluesky": "Bluesky"
+      },
+      "langOptions": {
+        "global": "نړیوال",
+        "en": "انګلیسي",
+        "es": "هسپانوي",
+        "fr": "فرانسوي",
+        "de": "الماني",
+        "ja": "جاپاني",
+        "zh": "چیني"
+      }
+    },
+    "chips": {
+      "noReplies": "بې ځوابه",
+      "images": "انځورونه",
+      "videos": "ویډیوګانې",
+      "shortsAndDivines": "لنډونه او Divines",
+      "noMedia": "پرته له رسنۍ",
+      "mastodon": "Mastodon",
+      "bluesky": "Bluesky",
+      "hot": "ګرم",
+      "trending": "مشهور",
+      "allKinds": "ټول ډولونه",
+      "customKind": "ډول: {{kind}}",
+      "kindNumber": "ډول {{kind}}",
+      "kindsCount_one": "{{count}} ډول",
+      "kindsCount_other": "{{count}} ډولونه",
+      "myFollows": "زما تعقیب شوي",
+      "authorsCount_one": "{{count}} لیکوال",
+      "authorsCount_other": "{{count}} لیکوالان"
+    },
+    "clear": "پاکول",
+    "searchLabel": "لټون:",
+    "newPosts_one": "{{count}} نوی پوسټ",
+    "newPosts_other": "{{count}} نوي پوسټونه",
+    "following": "تعقیب کیږي",
+    "botAccount": "د بوټ حساب",
+    "empty": {
+      "posts": "ستاسو د لټون سره مطابق هېڅ پایلې ونه موندل شوې.",
+      "postsPrompt": "د Nostr د منځپانګې موندلو لپاره د لټون عبارت دننه کړئ.",
+      "accounts": "ستاسو د لټون سره مطابق هېڅ کاروونکي ونه موندل شول.",
+      "followsPrompt": "د نوم یا د NIP-05 پته په واسطه د خلکو لټون وکړئ.",
+      "agora": "ستاسو د لټون سره مطابق د Agora کمپاینونه، pledges، یا ډلې ونه موندل شوې.",
+      "agoraPrompt": "د Agora کمپاینونه، pledges، او ډلې ولټوئ، یا تازه یې وګورئ.",
+      "activeFilters": "فعال فلټرونه:",
+      "clearAll": "ټول فلټرونه پاک کړئ"
+    }
+  },
+  "profile": {
+    "seoDescriptionFallback": "د Nostr پروفایل",
+    "anonymous": "ناڅرګند",
+    "namePlaceholder": "ستاسو نوم",
+    "userNotFound": "کارن ونه موندل شو.",
+    "userNotFoundNip05": "کارن ونه موندل شو: {{handle}}",
+    "couldNotResolveNip05": "د NIP-05 پیژندونکی نه شو حل کیدلی.",
+    "tabs": {
+      "overview": "بیاکتنه",
+      "verified": "تایید شوي",
+      "activity": "فعالیت",
+      "campaigns": "کمپاینونه",
+      "groups": "ډلې",
+      "pledges": "ژمنې"
+    },
+    "header": {
+      "editProfile": "سمول",
+      "shareFollowLink": "د تعقیب لینک شریک کړئ",
+      "moreOptions": "نور انتخابونه",
+      "donate": "ډالۍ ورکړئ",
+      "campaignGoal": "هدف ${{amount}}"
+    },
+    "stats": {
+      "followers": "تعقیبوونکي",
+      "following": "تعقیب‌شوي",
+      "raised": "راټول شوی",
+      "followersTitle_one": "{{count}} تعقیبوونکی",
+      "followersTitle_other": "{{count}} تعقیبوونکي",
+      "followingTitle": "{{count}} تعقیبوي"
+    },
+    "sections": {
+      "profile": "پروفایل",
+      "campaigns": "کمپاینونه",
+      "latestPledge": "وروستۍ ژمنه",
+      "groups": "ډلې",
+      "seeAllCampaigns_one": "ټول {{count}} کمپاین وګورئ ←",
+      "seeAllCampaigns_other": "ټول {{count}} کمپاینونه وګورئ ←",
+      "viewCampaignsTab": "د کمپاینونو ټب وګورئ ←",
+      "seeAllPledges_one": "ټول {{count}} ژمنه وګورئ ←",
+      "seeAllPledges_other": "ټول {{count}} ژمنې وګورئ ←",
+      "seeAllGroups": "ټول {{count}} وګورئ ←"
+    },
+    "badges": {
+      "founder": "بنسټګر",
+      "moderator": "څارونکی",
+      "mod": "څارونکی",
+      "ended": "پای ته رسیدلی",
+      "pledged": "ژمنه شوې"
+    },
+    "imageMenu": {
+      "upload": "فایل پورته کړئ",
+      "pasteUrl": "نشاني پیست کړئ",
+      "remove": "لرې کړئ"
+    },
+    "websitePlaceholder": "https://your-website.com",
+    "moreMenu": {
+      "title": "د پروفایل انتخابونه",
+      "copyPubkey": "عمومي کیلي کاپي کړئ",
+      "copyLink": "د پروفایل لینک کاپي کړئ",
+      "addToList": "لیست ته اضافه کړئ",
+      "shareFollowLink": "د تعقیب لینک شریک کړئ",
+      "profileRecovery": "د پروفایل بیا رغونه",
+      "zap": "Zap",
+      "awardBadge": "نښان ورکړئ",
+      "writeLetter": "لیک ولیکئ",
+      "mute": "@{{name}} غلی کړئ",
+      "unmute": "د @{{name}} غلی توب لرې کړئ",
+      "report": "د @{{name}} راپور",
+      "close": "بند کړئ"
+    },
+    "toast": {
+      "pubkeyCopied": "عمومي کیلي کلیپ بورډ ته کاپي شوه",
+      "linkCopied": "د پروفایل لینک کلیپ بورډ ته کاپي شو",
+      "muted": "@{{name}} غلی شو",
+      "unmuted": "د @{{name}} غلی توب لرې شو",
+      "muteFailed": "د کارن غلی کول ناکام شو",
+      "unmuteFailed": "د غلی توب لرې کول ناکام شو",
+      "followed": "اوس @{{name}} تعقیبوئ",
+      "unfollowed": "د @{{name}} تعقیب پای ته ورسید",
+      "followFailed": "د تعقیب لیست تازه کول ناکام شو",
+      "btcAddressCopied": "د بټکوین پته کلیپ بورډ ته کاپي شوه"
+    },
+    "followingModal": {
+      "title": "{{name}} تعقیبوي",
+      "empty": "تر اوسه يې څوک نه دي تعقیب کړي."
+    },
+    "followersModal": {
+      "title": "د {{name}} تعقیبوونکي",
+      "empty": "هیڅ تعقیبوونکی ونه موندل شو."
+    },
+    "bitcoinModal": {
+      "title": "بټکوین",
+      "qrAlt": "د بټکوین QR کوډ",
+      "copyAddress": "پته کاپي کړئ",
+      "showQr": "QR کوډ ښکاره کړئ",
+      "viewOnMempool": "په mempool.space کې وګورئ"
+    },
+    "lightbox": {
+      "openOriginal": "اصلي خلاص کړئ",
+      "close": "بند کړئ (Esc)",
+      "imageAlt": "د پروفایل انځور"
+    },
+    "activity": {
+      "empty": "د {{name}} لخوا تر اوسه هیڅ فعالیت نشته. پوستونه، کمپاینونه، ژمنې او ډالۍ ټول دلته ښکاري."
+    },
+    "campaigns": {
+      "count_one": "{{count}} کمپاین",
+      "count_other": "{{count}} کمپاینونه",
+      "sortNew": "نوي",
+      "sortTop": "غوره",
+      "showHidden": "پټ ښکاره کړئ",
+      "hideHidden": "پټ پټ کړئ",
+      "emptySelf": "تاسو لا تر اوسه کوم کمپاین نه دی پیل کړی.",
+      "emptyOther": "{{name}} لا تر اوسه کوم کمپاین نه دی پیل کړی.",
+      "startLink": "کمپاین پیل کړئ ←"
+    },
+    "verified": {
+      "count_one": "{{count}} تایید شوی کمپاین",
+      "count_other": "{{count}} تایید شوي کمپاینونه",
+      "empty": "{{name}} لا تر اوسه کوم کمپاین نه دی تایید کړی."
+    },
+    "pledgesTab": {
+      "active": "فعال",
+      "ended": "پای ته رسیدلی",
+      "emptySelf": "تاسو لا تر اوسه ژمنه نه ده جوړه کړې.",
+      "emptyOther": "{{name}} لا تر اوسه ژمنه نه ده جوړه کړې.",
+      "createLink": "ژمنه جوړه کړئ ←"
+    },
+    "groupsDialog": {
+      "title": "ټولې ډلې"
+    }
+  },
+  "profileSettings": {
+    "seoTitle": "پروفایل | تنظیمات",
+    "seoDescription": "د {{appName}} خپل پروفایل سم کړئ",
+    "header": {
+      "title": "پروفایل",
+      "save": "خوندي کړئ"
+    },
+    "uploading": "اپلوډ کیږي…",
+    "fields": {
+      "heading": "د پروفایل ساحې",
+      "website": "ویب پاڼه",
+      "websitePlaceholder": "https://yourwebsite.com",
+      "lightning": "Lightning",
+      "lightningPlaceholder": "you@walletofsatoshi.com",
+      "labelPlaceholder": "لیبل",
+      "tickerPlaceholder": "ټکر",
+      "addressPlaceholder": "پته",
+      "valuePlaceholder": "ارزښت یا URL",
+      "mediaPlaceholder": "فایل اپلوډ کړئ یا مستقیم لینک پیست کړئ",
+      "chooseFile": "د اپلوډ لپاره فایل غوره کړئ",
+      "chooseMediaFile": "د اپلوډ لپاره میډیا فایل غوره کړئ"
+    },
+    "presets": {
+      "music": {
+        "label": "موسیقي",
+        "description": "سندره یا اوډیو کلیپ اپلوډ کړئ",
+        "valuePlaceholder": "اوډیو اپلوډ کړئ یا مستقیم لینک پیست کړئ"
+      },
+      "photo": {
+        "label": "انځور",
+        "description": "انځور اپلوډ کړئ",
+        "valuePlaceholder": "انځور اپلوډ کړئ یا مستقیم لینک پیست کړئ"
+      },
+      "video": {
+        "label": "ویډیو",
+        "description": "د ویډیو کلیپ اپلوډ کړئ",
+        "valuePlaceholder": "ویډیو اپلوډ کړئ یا مستقیم لینک پیست کړئ"
+      },
+      "email": {
+        "label": "بریښنالیک",
+        "defaultLabel": "بریښنالیک",
+        "description": "د اړیکې بریښنالیک پته",
+        "valuePlaceholder": "you@example.com"
+      },
+      "wallet": {
+        "label": "والټ",
+        "description": "د کریپټو والټ پته",
+        "valuePlaceholder": "پته"
+      },
+      "link": {
+        "label": "لینک",
+        "description": "هر ویب پاڼې یا پروفایل ته لینک",
+        "valuePlaceholder": "https://..."
+      },
+      "weather": {
+        "label": "هوا",
+        "defaultLabel": "هوا",
+        "description": "د Nostr د هوا اسټیشن وصل کړئ",
+        "valuePlaceholder": "npub1... یا naddr1... (#station-id اختیاري)"
+      },
+      "custom": {
+        "label": "سفارشي",
+        "description": "هر سفارشي ساحه جوړه کړئ",
+        "valuePlaceholder": "ارزښت یا URL"
+      }
+    },
+    "warnings": {
+      "audioWrongType": "دا URL اوډیو فایل ته نه اشاره کوي. اوډیو فایل اپلوډ کړئ یا مستقیم لینک وکاروئ چې په .mp3, .ogg, .wav او نورو پای ته ورسیږي.",
+      "audioUnknown": "دا URL ممکن د اوډیو پلیر په توګه کار ونه کړي. د غوره پایلو لپاره، د تڼۍ په کارولو فایل اپلوډ کړئ یا د اوډیو فایل ته مستقیم لینک پیست کړئ.",
+      "imageWrongType": "دا URL انځور ته نه اشاره کوي. انځور اپلوډ کړئ یا مستقیم لینک وکاروئ چې په .jpg, .png, .webp او نورو پای ته ورسیږي.",
+      "imageUnknown": "دا URL ممکن د انځور په توګه ښکاره نشي. د غوره پایلو لپاره، د تڼۍ په کارولو فایل اپلوډ کړئ یا د انځور فایل ته مستقیم لینک پیست کړئ.",
+      "videoWrongType": "دا URL ویډیو ته نه اشاره کوي. ویډیو اپلوډ کړئ یا مستقیم لینک وکاروئ چې په .mp4, .webm, .mov او نورو پای ته ورسیږي.",
+      "videoUnknown": "دا URL ممکن د ویډیو په توګه ښکاره نشي. د غوره پایلو لپاره، د تڼۍ په کارولو فایل اپلوډ کړئ یا د ویډیو فایل ته مستقیم لینک پیست کړئ."
+    },
+    "crop": {
+      "profile": "د پروفایل انځور پرې کول",
+      "banner": "د بینر پرې کول"
+    },
+    "mobilePreview": "د پروفایل د ساحو مخکتنه",
+    "advanced": {
+      "heading": "پرمختللي",
+      "botLabel": "د بوټ ګڼون",
+      "botDescription": "دا ګڼون د اتومات په توګه نښه کړئ"
+    },
+    "toast": {
+      "uploaded": "اپلوډ شو",
+      "mediaUploaded": "میډیا فایل اپلوډ شو",
+      "uploadFailed": "اپلوډ ناکام شو",
+      "tryAgain": "مهرباني وکړئ بیا هڅه وکړئ.",
+      "profilePictureUpdated": "د پروفایل انځور تازه شو",
+      "bannerUpdated": "بینر تازه شو",
+      "profileSaved": "پروفایل خوندي شو",
+      "saveFailed": "د پروفایل خوندي کول ناکام شو."
+    },
+    "key": {
+      "heading": "ستاسو کیلي",
+      "extensionBody": "تاسو د براوزر اکستنشن (NIP-07) سره ننوتلي یاست. ستاسو پټه کیلي هلته خوندي ده — له اکستنشن څخه یې ادارې یا صادر کړئ.",
+      "bunkerBody": "تاسو د لرې لاسلیک کوونکي (NIP-46) سره ننوتلي یاست. ستاسو پټه کیلي د هغه لاسلیک کوونکي لخوا ساتل کیږي او د {{appName}} څخه نشي صادریدلی.",
+      "explainer": "دا پټه کیلي په {{appName}} کې ستاسو ګڼون کنترولوي او ستاسو د Bitcoin والټ ته Seed ورکوي. هر څوک چې دا ولري کولی شي ستاسو په نوم خپرونه وکړي او ستاسو Bitcoin مصرف کړي. دا د پاسورډ مدیر یا د یو ځای کې وساتئ چې یوازې تاسو ورته لاسرسی لرئ. که غواړئ د Bitcoin والټ بل اپ ته وارد کړئ، لاندې د Seed عبارت وکاروئ — دا د شریکولو لپاره خوندي‌تر دی، یوازې والټ کنترولوي، او ستاسو په نوم ډرامه نشي کولی.",
+      "warning": "هیڅکله خپله پټه کیلي د هیچا سره مه شریکوئ. د پاسورډ مدیر پرته له بل ځای څخه د هغې سکرین شاټ اخیستل یا پیست کول مه کوئ. که شریکه شي، نور به ستاسو ګڼون ته لاسرسی ولري.",
+      "aria": "ستاسو پټه کیلي",
+      "copyAria": "پټه کیلي کاپي کړئ",
+      "revealAria": "پټه کیلي وښیئ",
+      "hideAria": "پټه کیلي پټه کړئ",
+      "backupButton": "د کیلي بیک اپ",
+      "saving": "خوندي کیږي…",
+      "saved": "پټه کیلي خوندي شوه",
+      "savedToFile": "ستاسو پټه کیلي ستاسو په وسیله کې د Documents فولډر کې خوندي شوه.",
+      "saveFailed": "خوندي کول ناکام شو",
+      "saveFailedDescription": "د کیلي خوندي کول ونه شو. مهرباني وکړئ یې په لاسي ډول کاپي کړئ.",
+      "copyFailed": "کاپي کول ناکام شو",
+      "copyFailedDescription": "کلپ بورډ ته لاسرسی ونه شو. کیلي وښیئ او په لاسي ډول یې کاپي کړئ."
+    }
+  },
+  "compose": {
+    "placeholderDefault": "څه روان دي؟",
+    "placeholderPoll": "یوه پوښتنه وکړئ…",
+    "placeholderCountry": "په {{country}} کې څه روان دي؟",
+    "placeholderCwReason": "د محتوا د خبرتیا دلیل (اختیاري)",
+    "submitDefault": "خپور کړئ!",
+    "preview": {
+      "edit": "سمول",
+      "previewMode": "مخکتنه"
+    },
+    "autocomplete": {
+      "campaignFallback": "کمپاین"
+    },
+    "poll": {
+      "addOption": "اختیار اضافه کړئ",
+      "optionLabel": "اختیار {{number}}",
+      "singleChoice": "یو غوراوی",
+      "multipleChoice": "ډېر غوراوي",
+      "backToPost": "پوسټ ته بیرته",
+      "publishing": "خپریږي...",
+      "publish": "د نظرپوښتنې خپرول",
+      "published": "نظرپوښتنه خپره شوه!",
+      "publishFailed": "د نظرپوښتنې خپرول ناکام شو."
+    },
+    "voice": {
+      "cancel": "لغوه کول",
+      "send": "ولېږئ",
+      "sending": "لېږل کیږي...",
+      "sentTitle": "صوتي پیغام ولېږل شو!",
+      "sentBody": "ستاسو صوتي پیغام خپور شو.",
+      "sendFailed": "د صوتي پیغام لېږل ناکام شو.",
+      "micDeniedTitle": "د مایکروفون لاسرسی ردیږي",
+      "micDeniedBody": "د صوتي پیغامونو د ثبتولو لپاره مهرباني وکړئ مایکروفون ته اجازه ورکړئ.",
+      "voiceMessage": "صوتي پیغام"
+    },
+    "toolbar": {
+      "attachFile": "فایل ضمیمه کړئ",
+      "emojiGif": "اموجي / GIF",
+      "more": "نور",
+      "poll": "نظرپوښتنه",
+      "spoiler": "سپایلر",
+      "emoji": "اموجي",
+      "stickers": "سټیکرونه"
+    },
+    "submit": {
+      "posting": "خپریږي...",
+      "uploadFailed": "اپلوډ ناکام شو",
+      "uploadFailedBody": "د فایل اپلوډ ونه شو.",
+      "publishFailed": "د یادښت خپرول ناکام شو.",
+      "posted": "خپور شو!",
+      "replyPublished": "ستاسو ځواب خپور شو.",
+      "quotePublished": "ستاسو نقل خپور شو.",
+      "notePublished": "ستاسو یادښت خپور شو."
+    },
+    "destination": {
+      "label": "خپرول",
+      "ariaHelp": "د نړیوالو او د هیواد ټولنیزو پوسټونو ترمنځ څه توپیر دی؟",
+      "ariaTrigger": "د خپرولو هدف",
+      "global": "نړیوال",
+      "globalExplainer": "یو معمولي پوسټ چې په Nostr کې هر چا ته لیدلی شي. هر څوک، هر چیرته، یې لیدلی شي.",
+      "community": "ستاسو د هیواد ټولنه",
+      "communityExplainer": "د هغه هیواد په محلي فیډ کې د ګاونډیانو د پوسټونو سره ښودل کیږي. د ټولنیزو اړوندو تازه معلوماتو لپاره غوره.",
+      "chooseAnother": "بل هیواد غوره کړئ…",
+      "searchPlaceholder": "هیوادونه ولټوئ...",
+      "noResults": "هیڅ هیواد ونه موندل شو.",
+      "isDefault": "{{name}} ستاسو ډیفالټ دی",
+      "globalIsDefault": "نړیوال ستاسو ډیفالټ دی",
+      "thisIsDefault": "دا ستاسو ډیفالټ دی",
+      "setAsDefault": "د ډیفالټ په توګه وټاکئ",
+      "defaultUpdated": "ډیفالټ تازه شو",
+      "defaultUpdatedCountry": "نوي پوسټونه به په ډیفالټ ډول {{name}} ته ولاړ شي.",
+      "defaultUpdatedGlobal": "نوي پوسټونه به په ډیفالټ ډول نړیوال وي."
+    }
+  },
+  "replyModal": {
+    "title": {
+      "newPoll": "نوې نظرپوښتنه",
+      "newComment": "نوی تبصره",
+      "commentOnProfile": "په پروفایل تبصره",
+      "replyToPost": "پوسټ ته ځواب",
+      "quotePost": "د پوسټ نقل",
+      "newPost": "نوی پوسټ"
+    },
+    "placeholder": {
+      "writeComment": "تبصره ولیکئ...",
+      "writeReply": "ځواب ولیکئ...",
+      "addComment": "تبصره اضافه کړئ...",
+      "whatsHappening": "څه روان دي؟"
+    },
+    "blueskyDisclaimer": "په Bluesky کې خلک تاسو نه شي لیدلی ځکه چې هغوی واقعیا غیرمرکزي نه دي."
+  },
+  "postDetail": {
+    "repliesHeading": "ځوابونه",
+    "commentsHeading": "تبصرې",
+    "replyCount_one": "ځواب",
+    "replyCount_other": "ځوابونه",
+    "commentCount_one": "تبصره",
+    "commentCount_other": "تبصرې"
+  },
+  "noteCard": {
+    "botAccount": "د بوټ ګڼون",
+    "showLess": "لږ ښکاره کړئ",
+    "readMore": "نور ولولئ",
+    "reacted": "غبرګون یې وښود",
+    "reposted": "بیا یې خپور کړ",
+    "voted": "رایه یې ورکړه",
+    "zap": {
+      "donatedTo": "ډالۍ ورکړه",
+      "donatedAmountTo": "{{amount}} ډالۍ ورکړه",
+      "sat_one": "{{formattedCount}} ساتوشي",
+      "sat_other": "{{formattedCount}} ساتوشي"
+    },
+    "stream": {
+      "untitled": "بې عنوانه خپرونه",
+      "live": "مستقیم",
+      "ended": "پای ته رسیدلی",
+      "planned": "پلان شوی",
+      "unknown": "ناڅرګند"
+    },
+    "kindHeader": {
+      "photo": {
+        "action": "شریک کړ",
+        "noun": "انځور"
+      },
+      "encryptedMessage": {
+        "action": "ولېږه",
+        "noun": "کوډ شوی پیغام"
+      },
+      "letter": {
+        "action": "ولېږه",
+        "noun": "لیک"
+      },
+      "treasureHidCreated": "پټ کړ",
+      "treasureHidUpdated": "تازه کړ",
+      "treasureNoun": "خزانه",
+      "treasureFound": "وموند",
+      "deckCreated": "جوړ کړ",
+      "deckUpdated": "تازه کړ",
+      "deckFallback": "شریک کړ",
+      "deckNoun": "ډک",
+      "emojiPackCreated": "جوړ کړ",
+      "emojiPackUpdated": "تازه کړ",
+      "emojiPackFallback": "شریک کړ",
+      "emojiPackNoun": "د اموجي بسته",
+      "groupCreated": "جوړ کړ",
+      "groupUpdated": "تازه کړ",
+      "groupFallback": "شریک کړ",
+      "groupNoun": "ډله",
+      "campaignLaunched": "پیل کړ",
+      "campaignUpdated": "تازه کړ",
+      "campaignFallback": "شریک کړ",
+      "campaignNoun": "کمپاین",
+      "badgeAwarded": "ورکړ",
+      "badgeNoun": "نښان",
+      "badgeCreated": "جوړ کړ",
+      "badgeDefUpdated": "تازه کړ",
+      "badgesNoun": "نښانونه",
+      "badgesCreatedTheir": "جوړ کړل",
+      "badgesUpdatedTheir": "تازه کړل",
+      "streamingLive": "خپرونه کوي",
+      "streamed": "خپرونه یې وکړه",
+      "zapstoreAppPublished": "د Zapstore اپ خپور کړ",
+      "zapstoreAppUpdated": "د Zapstore اپ تازه کړ",
+      "zapstoreReleasePublished": "د Zapstore خپرونه خپره کړه",
+      "zapstoreReleaseUpdated": "د Zapstore خپرونه تازه کړه",
+      "zapstoreAssetPublished": "د Zapstore شتمنۍ خپره کړه",
+      "appPublished": "اپ خپور کړ",
+      "appUpdated": "اپ تازه کړ",
+      "repoCreated": "جوړ کړ",
+      "repoUpdated": "تازه کړ",
+      "repoFallback": "شریک کړ",
+      "repoNoun": "ذخیره",
+      "patchSubmitted": "وړاندې کړ",
+      "patchNoun": "پیچ",
+      "prOpened": "پرانیست",
+      "prNoun": "Pull Request",
+      "nipProposed": "وړاندیز کړ",
+      "nipUpdated": "تازه کړ",
+      "nipNoun": "NIP",
+      "nsiteDeployed": "پلي کړ",
+      "nsiteRedeployed": "بیا پلي کړ",
+      "nsiteNoun": "nsite",
+      "zapped": "Zap ولېږه",
+      "pledgeCreated": "جوړ کړ",
+      "pledgeUpdated": "تازه کړ",
+      "pledgeNoun": "ژمنه",
+      "followPackCreated": "جوړ کړ",
+      "followPackUpdated": "تازه کړ",
+      "followPackFallback": "شریک کړ",
+      "followPackNoun": "د تعقیب بسته",
+      "followSetCreated": "جوړ کړ",
+      "followSetUpdated": "تازه کړ",
+      "followSetFallback": "شریک کړ",
+      "followSetNoun": "د تعقیب ټولګه"
+    }
+  },
+  "embedCampaign": {
+    "iframeTitle": "د Agora د بسپنې راټولولو کمپاین",
+    "notFound": "کمپاین ونه موندل شو.",
+    "dialogTitle": "دا کمپاین ځای‌پرځای کړئ",
+    "dialogDescription": "یو ویجیټ وټاکئ، هغه وګورئ، بیا کوډ په خپله ویبسایټ کې پیسټ کړئ.",
+    "variantLabel": "ویجیټ",
+    "variant": {
+      "card": "کارت",
+      "donate": "مرسته",
+      "full": "بشپړ"
+    },
+    "themeLabel": "بڼه",
+    "snippetLabel": "د ځای‌پرځای‌کولو کوډ",
+    "openStandalone": "په نوي ټب کې پرانیزئ",
+    "viewOnAgora": "په Agora کې وګورئ"
+  },
+  "noteMoreMenu": {
+    "title": "د پوسټ انتخابونه",
+    "viewPost": "د پوسټ تفصیلات وګورئ",
+    "embedWidget": "ویجیټ ځای‌پرځای کړئ",
+    "viewEventJson": "د پیښې JSON وګورئ",
+    "bookmark": "بک مارک",
+    "removeBookmark": "بک مارک لرې کړئ",
+    "addToList": "لیست ته اضافه کړئ",
+    "addToSidebar": "سایډبار ته اضافه کړئ",
+    "removeFromSidebar": "د سایډبار څخه لرې کړئ",
+    "pinProfile": "په پروفایل پن کړئ",
+    "unpinProfile": "د پروفایل څخه پن لرې کړئ",
+    "pinCountry": "د هیواد فیډ کې پن کړئ",
+    "unpinCountry": "د هیواد فیډ څخه پن لرې کړئ",
+    "mute": "@{{name}} غلی کړئ",
+    "unmute": "د @{{name}} غلی توب لرې کړئ",
+    "report": "د @{{name}} راپور",
+    "reportToGroup": "د پوسټ راپور ډلې ته",
+    "removeFromGroup": "د ډلې څخه لرې کړئ",
+    "delete": "پوسټ حذف کړئ",
+    "close": "بند کړئ",
+    "encryptedContent": "کوډ شوی منځپانګه",
+    "toast": {
+      "removedFromSidebar": "د سایډبار څخه لرې شو",
+      "addedToSidebar": "سایډبار ته اضافه شو",
+      "pinned": "په پروفایل پن شو",
+      "unpinned": "د پروفایل څخه پن لرې شو",
+      "pinFailed": "د پن شویو پوسټونو تازه کول ناکام شو",
+      "countryPinned": "د هیواد فیډ کې پن شو",
+      "countryUnpinned": "د هیواد فیډ څخه پن لرې شو",
+      "countryPinFailed": "د هیواد فیډ کې پن کول ناکام شو",
+      "countryUnpinFailed": "د هیواد فیډ څخه پن لرې کول ناکام شو",
+      "muted": "@{{name}} غلی شو",
+      "unmuted": "د @{{name}} غلی توب لرې شو",
+      "muteFailed": "د کارن غلی کول ناکام شو",
+      "unmuteFailed": "د غلی توب لرې کول ناکام شو",
+      "postDeleted": "پوسټ حذف شو",
+      "deleteFailed": "د پوسټ حذف ناکام شو",
+      "eventBroadcast": "پیښه ریلیو ته خپره شوه",
+      "broadcastFailed": "د پیښې خپرول ناکام شو",
+      "copied": "{{label}} کلیپ بورډ ته کاپي شو",
+      "embedCopied": "د ځای‌پرځای‌کولو کوډ کلیپ بورډ ته کاپي شو"
+    },
+    "deleteDialog": {
+      "title": "پوسټ حذف کړئ؟",
+      "description": "دا به د ریلیو څخه د حذف غوښتنه وکړي. ځینې ریلیه ممکن لاهم د اصلي پیښې یوه کاپي وساتي. دا عمل بیرته نشي راګرځیدلی.",
+      "cancel": "لغوه کول",
+      "delete": "حذف",
+      "deleting": "حذف کیږي..."
+    },
+    "jsonDialog": {
+      "title": "د پیښې تفصیلات",
+      "eventId": "د پیښې ID",
+      "eventIdLabel": "د پیښې ID",
+      "rawJson": "خام JSON",
+      "eventJsonLabel": "د پیښې JSON",
+      "broadcast": "پیښه خپره کړئ",
+      "broadcasting": "خپریږي..."
+    }
+  },
+  "content": {
+    "title": "منځپانګه",
+    "description": "غلي شوي کاروونکي، هشټګونه او کلمې اداره کړئ.",
+    "muted": {
+      "heading": "غلې شوې منځپانګه",
+      "subheading": "تاسو پرېکړه کوئ چې ستاسو په فیډونو کې څه ښکاره شي. د غلي توب لرې کولو لپاره یو توکی لرې کړئ. غلي کول کوډ شوي او خصوصي دي.",
+      "empty": "تاسو لا تر اوسه څوک غلي نه دي کړي.",
+      "removed": "د غلي کولو لیست څخه لرې شو",
+      "removeFailed": "د غلي کولو لیست څخه لرې کول ناکام شو",
+      "removeAria": "د {{value}} لپاره غلي توب لرې کړئ",
+      "types": {
+        "pubkey": "کاروونکي",
+        "hashtag": "هشټګونه",
+        "word": "کلمې",
+        "thread": "تارونه"
+      }
+    }
+  },
+  "mutedGuard": {
+    "title": "غلې شوې منځپانګه",
+    "description": "دا پوسټ د یو داسې چا څخه دی چې تاسو غلی کړی دی.",
+    "showAnyway": "بیا هم ښکاره کړئ",
+    "manageMutes": "غلې شوې منځپانګه اداره کړئ"
+  },
+  "policyPages": {
+    "privacy": {
+      "seoTitle": "د محرمیت تګلاره",
+      "seoDescription": "د {{appName}} د محرمیت تګلاره — ستاسو معلومات د Nostr شبکه کې څنګه چلیږي",
+      "title": "د محرمیت تګلاره"
+    },
+    "csae": {
+      "seoTitle": "د ماشومانو د خوندیتوب تګلاره",
+      "seoDescription": "د {{appName}} تګلاره د ماشومانو په جنسي ناوړه ګټه اخیستنه او استثمار (CSAE) — د Nostr شبکې کې د ماشومانو خوندیتوب لپاره زموږ ژمنه",
+      "title": "د ماشومانو د خوندیتوب تګلاره"
+    },
+    "donorGuide": {
+      "seoTitle": "د ډالۍ ورکوونکي لارښود",
+      "seoDescription": "په {{appName}} کې د ډالۍ ورکولو طریقه او ستاسو د محرمیت ساتنه څنګه کېږي.",
+      "title": "د ډالۍ ورکوونکي لارښود",
+      "subtitle": "ریښتیني بټکوین، مستقیم لیږل شوي. ټوله بهیر په یوه لنډه پاڼه کې."
+    },
+    "recipientGuide": {
+      "seoTitle": "د ترلاسه کوونکی لارښود",
+      "seoDescription": "په {{appName}} کې د ډالیو ترلاسه کول او په محرمه توګه د هغوی کش کول.",
+      "title": "د ترلاسه کوونکی لارښود",
+      "subtitle": "وټاکئ څه قبلوئ، ډالۍ ترلاسه کړئ، کش یې کړئ."
+    },
+    "changelog": {
+      "seoTitle": "د بدلونونو لاګ",
+      "seoDescription": "په {{appName}} کې نوي څه دي",
+      "title": "د بدلونونو لاګ",
+      "loadError": "د بدلونونو لاګ بار کول ناکام شو.",
+      "empty": "تر اوسه هیڅ خپرونه نشته.",
+      "pastReleases": "تېرې خپرونې",
+      "showLess": "لږ ښکاره کړئ",
+      "readMore": "نور ولولئ",
+      "preReleaseLabel": "د خپرولو وړاندې جوړونه",
+      "preReleaseBody": "دا جوړونه هغه بدلونونه لري چې لاهم په خپرونه کې شامل نه دي.",
+      "viewUnreleased": "ناخپور شوي بدلونونه وګورئ",
+      "categories": {
+        "Added": "اضافه شو",
+        "Changed": "بدل شو",
+        "Deprecated": "منسوخ شو",
+        "Removed": "لرې شو",
+        "Fixed": "سم شو",
+        "Security": "امنیت"
+      }
+    }
+  },
+  "about": {
+    "seoTitle": "په اړه",
+    "seoDescription": "{{appName}} د نړۍ لومړنی بې‌پولې د خُردې بشردوستۍ شبکه ده — مستقیمه، له کس نه کس ته ورکړه چې د بټکوین او Nostr په واسطه ځواکمنه شوې.",
+    "hero": {
+      "eyebrow": "د {{appName}} په اړه",
+      "headlinePart1": "څنګه",
+      "headlineAppName": "{{appName}}",
+      "headlinePart2": "کار کوي.",
+      "body": "{{appName}} د نړۍ لومړنی بې‌پولې د خُردې بشردوستۍ شبکه ده. دا هر چا ته، په هر ځای کې، اجازه ورکوي چې د نړۍ په هر ګوټ کې خلکو او موخو ته د بټکوین له لارې مستقیمه ورکړه وکړي — نه پولې، نه منځګړي، نه د پلیټفارم فیس. نه کنګل شوي بانکي حسابونه، نه شرکتي بندونه. یوازې له هغو کسانو څخه مستقیم ملاتړ چې ستاسو په موخه باور لري.",
+      "trustChips": {
+        "decentralized": "غیرمرکزي",
+        "openSource": "خلاص سرچینه",
+        "censorshipResistant": "د سانسور په وړاندې مقاوم"
+      },
+      "ctaDonor": "د ډالۍ ورکوونکي لارښود ولولئ",
+      "ctaRecipient": "د ترلاسه کوونکی لارښود ولولئ",
+      "sampleCard": {
+        "countryName": "وینزویلا",
+        "public": "عمومي",
+        "imageAlt": "د وینزویلا خلک د شمعې شپې کې د یوې نښې سره چې لیکل شوی 'Liberen a todos los presos políticos · ¡Cese la represión!'",
+        "orgName": "Venezolanos Libres",
+        "title": "د وینزویلا سیاسي بندیان آزاد کړئ",
+        "description": "د مادورو رژیم لخوا د نیول شویو ۸۰۰ څخه ډېرو سیاسي بندیانو لپاره قانوني دفاع او د کورنۍ ملاتړ.",
+        "raised": "راټول شوي",
+        "ofGoal": "د $10,000 څخه",
+        "donorsLine": "۲۴۷ ډالۍ ورکوونکي · ۱۲ هیوادونه",
+        "donate": "Bitcoin ډالۍ کړئ"
+      }
+    },
+    "howItWorks": {
+      "eyebrow": "څنګه کار کوي",
+      "title": "درې ګامونه. د منځګړي پرته.",
+      "lede": "د بانکونو، پولو، یا اجازې پرته.",
+      "step1": {
+        "imageAlt": "د پټ تور ځای کې یو ځلانده نارنجي کریپټوګرافیک کیلي چې د خپلواک هویت سمبول دی",
+        "title": "ترلاسه کوونکي په څو ثانیو کې ثبتیږي.",
+        "body": "بې بانکه. بې کاغذونو. بې تصویب. هغه شیبه چې یو ترلاسه کوونکی په {{appName}} کې ګڼون جوړ کړي، هغه د بټکوین پته لري چې په نړۍ کې هرچیرته د ملاتړ ترلاسه کولو لپاره چمتو ده."
+      },
+      "step2": {
+        "imageAlt": "د تور نړیوال نقشې پر سر په هوا کې یو ځلانده د بټکوین سکه چې د سرحد څخه فوري تادیې سمبول دی",
+        "title": "ډالۍ ورکوونکي مستقیم Bitcoin لیږي.",
+        "body": "ډالۍ ورکوونکي د هغو والټونو څخه چې دوی یې لا کاروي (Cash App، Coinbase، Strike، سخت افزاري والټ) مستقیم ترلاسه کوونکی ته بټکوین لیږي. {{appName}} هیڅکله پیسو ته نه رسي. د منځني سرور یا حافظ پرته."
+      },
+      "step3": {
+        "imageAlt": "د خلاصه لاس چې د کاسي څخه ګرم نارنجي رڼا د ترلاسه کولو او د کنټرول سمبول دی",
+        "title": "ملاتړ هغه ځای ته رسي چې مهم وي.",
+        "body": "پیسې مستقیم ترلاسه کوونکی ته رسي. دوی پاتې مالکیت لري، کنټرول ساتي. هغه ولېږوئ، تبادله یې کړئ، یا یې لګوئ؛ لاندې لارښوونې تشریح کوي چې دا چاره څنګه په خصوصي او خوندي ډول ترسره کړئ."
+      }
+    },
+    "twoWays": {
+      "eyebrow": "Bitcoin · یو QR، دوه انتخابونه",
+      "title": "د تادیې دوه لارې.",
+      "lede": "دواړه انتخابونه Bitcoin دي. توپیر یې هغه څه دي چې د محرمیت لپاره یې قرباني کوئ. کله چې یو ترلاسه کوونکی کمپاین جوړوي، انتخاب کوي چې کوم اختیارات قبول کړي. که دواړه، د ډالۍ ورکولو پاڼه یو واحد QR کوډ ښیي چې له هرې والټ سره کار کوي.",
+      "public": {
+        "kicker": "د بټکوین عامه تادیې",
+        "tagline": "نړیوال · چټک · شفاف",
+        "title": "د نړۍ په هره والټ کار کوي.",
+        "description": "ډالۍ یوې عادي د بټکوین پتې ته رسي چې ترلاسه کوونکی یې کنټرول کوي. هر څوک د هرې د بټکوین والټ سره کولی شي ولېږي. د نوي اپ، نوي ګڼون، یا د زده‌کړې منحني پرته.",
+        "bullet1": "په هره د بټکوین والټ کې کار کوي: Cash App، Coinbase، Strike، سخت افزار",
+        "bullet2": "ترټولو چټکه تسویه: یوازې د بټکوین تصدیقونه",
+        "bullet3": "په زنځیر کې قابل تصدیق: هر څوک کولی شي وګوري چې یو ترلاسه کوونکی څه ترلاسه کړي",
+        "tradeoffTitle": "تبادله: په زنځیر کې عامه.",
+        "tradeoffIntro": "هره ډالۍ د بټکوین زنځیر او د Nostr په سر عامه ده. {{appName}} یوازې د عامو کمپاینونو لپاره وړاندیز کیږي. که تاسو یا ستاسو ډالۍ ورکوونکي د دولتي لوبغاړو په ګډون شدید محرمیت ته اړتیا لرئ، تر ګډون مخکې <0>د ډالۍ ورکوونکي لارښود</0> او <1>د ترلاسه کوونکی لارښود</1> ولولئ."
+      },
+      "silent": {
+        "kicker": "د بټکوین چپه تادیې",
+        "tagline": "نه تړل کیدونکی · مستقیم · BIP-352",
+        "title": "نه تړل کیدونکی، په زنځیر، مستقیم.",
+        "description": "ډالۍ د BIP-352 چپه تادیو په توګه لیږل کیږي. هره یوه د یوې تازه، نه تړل کیدونکي د بټکوین پایلې ته رسي چې په زنځیر کې د کتلو څارونکی نشي د کمپاین سره وصلولی.",
+        "bullet1": "د ډالۍ اثر په زنځیر کې نشي بیا جوړیدلی",
+        "bullet2": "هغو ترلاسه کوونکو ته ساتنه چې له جدي مخالفینو سره مخامخ دي",
+        "bullet3": "په جلا خصوصي بیلانس کې ساتل کېږي، هیڅکله له عامه پیسو سره نه ګډېږي",
+        "tradeoffTitle": "تبادله: چپه تادیې لاهم په پیل کې دي.",
+        "tradeoffIntro": "په زنځیر کې د بټکوین د ترلاسه کولو ترټولو محرمه لاره، خو اکوسیستم نن ورځ ځوان او ناخت دی:",
+        "tradeoffBullet1": "لږ والټونه ملاتړ کوي.",
+        "tradeoffBullet2": "ترلاسه کول ورو دي.",
+        "tradeoffBullet3": "د پوش خبرتیاوې نشته.",
+        "tradeoffBullet4": "والټونه لاهم بګ لري.",
+        "tradeoffBullet5": "د ډالۍ شمیرې عامه ندي."
+      },
+      "noCustody": {
+        "title": "د حافظ پرته. د منځګړي پرته.",
+        "body": "{{appName}} هیڅکله پیسې نه ساتي. ډالۍ په Bitcoin کې له والټ څخه والټ ته حرکت کوي. د هیڅ یوې اختیار په کوم ډول کې د ډالۍ ورکوونکي او ترلاسه کوونکی ترمنځ سرور نشته. که {{appName}} سبا ورک شي، هر کمپاین به کار ته دوام ورکوي.",
+        "gofundme": {
+          "heading": "د GoFundMe برعکس",
+          "body": "هیڅ پلتفارم ستاسو ډالۍ نشي کنګل کولی، د بیرته‌ورکولو غوښتنه نشي کولی، یا ستاسو کمپاین د پالیسي اختلافاتو لپاره نشي پای ته رسولی."
+        },
+        "givesendgo": {
+          "heading": "د GiveSendGo برعکس",
+          "body": "د منځني پرته د تادیې پروسس کوونکی نشته، نو نه Stripe، نه Visa، نه یو بانک کولی شي تاسو د کمپاین په نیمایي کې قطع کړي."
+        },
+        "otherBitcoin": {
+          "heading": "د نورو 'بټکوین' پلتفارمونو برعکس",
+          "body": "د مرکزي Lightning نوډ، حافظ، یا LSP پرته چې ناکام شي یا آفلاین شي. پیسې مستقیم په زنځیر کې یوې والټ ته تسویه کیږي چې تاسو یې کنټرول کوئ."
+        }
+      }
+    },
+    "faq": {
+      "eyebrow": "پوښتنې",
+      "title": "اکثرا پوښتل کیږي.",
+      "chapter1": {
+        "label": "د پیل کول",
+        "description": "Agora څه شی دی، چا جوړ کړی، او څومره لګښت لري."
+      },
+      "chapter2": {
+        "label": "د بټکوین ډالۍ",
+        "description": "تادیې څنګه کار کوي، ولې په زنځیر کې، ولې عمومي، ولې دا تبادلې."
+      },
+      "chapter3": {
+        "label": "د Nostr په اړه",
+        "description": "هغه خلاص پروتوکول چې Agora پرې جوړ شوی، او ستاسو ګڼون څنګه کار کوي."
+      },
+      "chapter4": {
+        "label": "تصدیق او باور",
+        "description": "د تصدیق شوي نښان معنی څه ده، څوک یې ورکوي، او تاسو څنګه کولی شئ یو کمپاین پخپله وارزوئ."
+      }
+    },
+    "guides": {
+      "eyebrow": "لارښوونې",
+      "title": "هغه اړخ غوره کړئ چې پکې اوسئ.",
+      "lede": "که تاسو لیږئ یا ترلاسه کوئ، زده کړئ چې څنګه دا چاره په خوندي او محرمه توګه ترسره کړئ.",
+      "donor": {
+        "imageAlt": "د اروپایي ښار په کوچه کې د غروب پر مهال د سرپوښ خوندي اعتراض کونکي، چې سور سوزېدونکي شمعې او 'FREEDOM' او 'LIBERTAD' بیرغونه لري",
+        "role": "د ډالۍ ورکوونکو لپاره",
+        "title": "هغه قضیې ملاتړ کړئ چې بانکونه به یې ملاتړ ونه کړي.",
+        "description": "د تادیې پروسس کوونکي څخه د اجازې غوښتنې پرته، په نړۍ کې هرچیرته ترلاسه کوونکو او خوځښتونو ته مستقیم Bitcoin ولېږئ.",
+        "bullet1": "هغه د بټکوین والټ وکاروئ چې تاسو یې لا لرئ.",
+        "bullet2": "ډالۍ مستقیم ترلاسه کوونکی ته رسي. د حافظ، منځګړي پرته.",
+        "bullet3": "د محرمیت لپاره، یوه والټ وکاروئ چې د چپه تادیو ملاتړ کوي.",
+        "cta": "د ډالۍ ورکوونکي لارښود ولولئ"
+      },
+      "recipient": {
+        "imageAlt": "د ښار په میدان کې د شپې وخت د سور سوزېدونکو شمعو سره د زرګونو اعتراض کونکو هوایی منظره، د چاپیریال ودانیو پر سر د 'UNITY IN DARKNESS' بیرغ پروژکټ شوی",
+        "role": "د ترلاسه کوونکو لپاره",
+        "title": "د اجازې پرته تمویل ترلاسه کړئ.",
+        "description": "له هغو کسانو څخه چې ستاسو په قضیه باور لري مستقیم ملاتړ ترلاسه کړئ. د بانکي حساب، د غوښتنلیک، یا په منځ کې د شرکت پرته.",
+        "bullet1": "د ثبتنامې سره سم د ډالیو ترلاسه کول پیل کړئ.",
+        "bullet2": "د تادیې هغه ډولونه غوره کړئ چې قبلوئ یې: عامه، چپه تادیې، یا دواړه.",
+        "bullet3": "د محرمې پیسو ایستلو لپاره، لومړی یوې چپه تادیو والټ ته ولېږئ بیا یې هرچیرته انتقال کړئ.",
+        "cta": "د ترلاسه کوونکی لارښود ولولئ"
+      },
+      "stillStuck": "لاهم بند یاست؟",
+      "followTeam": "Team Soapbox په Nostr کې تعقیب کړئ",
+      "stillStuckSuffix": ". موږ هلته پوښتنو ته رسیدنه کوو."
+    }
+  },
+  "faq": {
+    "categories": {
+      "getting-started": {
+        "label": "د Agora په اړه"
+      },
+      "payments": {
+        "label": "مرستې"
+      },
+      "verification": {
+        "label": "تصدیق او باور"
+      },
+      "about-nostr": {
+        "label": "د Nostr په اړه"
+      },
+      "legacy": {
+        "label": "زاړه محتوا"
+      }
+    },
+    "items": {
+      "what-is-ditto": {
+        "question": "{{appName}} څه شی دی؟",
+        "answer": [
+          "{{appName}} د نړۍ لومړنی بې‌پولې د خُردې بشردوستۍ شبکه ده — یو ځای چې د نړۍ په هر ګوټ کې خلکو او موخو ته په عامه یا خصوصي توګه مستقیماً بټکوین ورکړل شي. نه پولې، نه منځګړی، نه د پیسو پروسس کوونکی، او نه هغه حساب چې وتړل شي.",
+          "{{appName}} په Nostr جوړ شوی، نو ستاسو هویت په دې سایټ پورې نه دی تړلی — تاسو یې مالک یاست."
+        ]
+      },
+      "cost-to-use": {
+        "question": "آیا {{appName}} څه لګښت لري؟",
+        "answer": [
+          "**نه.** {{appName}} هیڅ د پلیټفارم فیس نه اخلي. کله چې مرسته کوئ، تاسو یوازې د بیټکوین د شبکې فیس ورکوئ چې مینرانو ته ځي — موږ ته نه."
+        ]
+      },
+      "who-made-this": {
+        "question": "{{appName}} څوک جوړ کړی؟",
+        "answer": [
+          "{{appName}} د [Soapbox](https://soapbox.pub) لخوا جوړ شوی، چې د Nostr اکوسیستم لپاره وسایل جوړوي، د [نړیوال د آزادۍ کنګره](https://worldlibertycongress.org/) سره په همکارۍ."
+        ]
+      },
+      "send-bitcoin-onchain": {
+        "question": "د بیټکوین لیږدول څنګه کار کوي؟",
+        "answer": [
+          "کله چې یو ترلاسه کوونکی یوه کمپاین جوړ کړي، هغه ټاکي چې کوم ډول پرداختونه ومني: **عامه**، **خصوصي** یا **دواړه**.",
+          "**عامه** مرستې په زنځیر کې ریښتیني بیټکوین دي. په عامه بلاکچین کې تسویه کېږي، په هر بیټکوین والټ کې کار کوي، او هر چا ته لیدلې وي.",
+          "**خصوصي** مرستې د **خاموش پرداختونو** (BIP-352) څخه ګټه اخلي. دا هم په زنځیر کې تسویه کېږي، خو معامله د ترلاسه کوونکی د مرستې کوډ سره نه شي تړل کېدی — نو په عامه فهرستونو او ټولګوټو کې نه راځي. د مرستندوی والټ ته اړتیا لري چې له خاموش پرداختونو ملاتړ کوي — موږ [Ditto Wallet](https://ditto.pub) یا [Dana](https://github.com/cygnet3/dana/releases/download/v0.7.4/app-live-release.apk) وړاندیز کوو.",
+          "کله چې کمپاین **دواړه** ومني، {{appName}} یو واحد د QR کوډ ښیي چې دواړه نقطې پکې کوډ شوي وي. د خاموش پرداختونو والټونه یې د خصوصي په توګه لولي؛ نور والټونه عامه پته ته راګرځي. مرستندویانو ته اړتیا نشته چې غوره کړي — د دوی والټ پخپله سم لار غوره کوي.",
+          "په هرې حالت کې، پیسې مستقیم ترلاسه کوونکی ته ورځي. {{appName}} هیڅکله پیسو ته لاس نه وروړي."
+        ]
+      },
+      "agora-funds": {
+        "question": "Agora Funds څه شی دي؟",
+        "answer": [
+          "**Agora Funds** هغه کمپاینونه دي چې د {{appName}} لخوا اداره کېږي او تاسو ته اجازه درکوي چې د یوې واحدې موخې سره تړلو څو کمپاینونو یوې ډلې ته مرسته وکړئ. د یو کمپاین د غوره کولو پرځای، تاسو یو ځل صندوق ته مرسته کوئ او ستاسو بخشش د هغې موخې د هر کمپاین ملاتړ کوي.",
+          "Agora Funds د بیټکوین سربېره **د Stripe له لارې د کارت پرداختونه** هم مني — دا هغو مرستندویانو ته چې نه غواړي په بیټکوین پرداخت وکړي یوه لار ورکوي چې لا هم د هغو موخو ملاتړ وکړي چې ورته اهمیت ورکوي. د کارت مرستې یوازې په **هغو صندوقونو کې چې Agora یې سپانسر کوي** شته دي؛ عادي کمپاینونه لا هم بیټکوین مستقیم، په زنځیر کې، او د هیڅ د پرداخت پروسس کوونکي پرته ترلاسه کوي."
+        ]
+      },
+      "connect-wallet": {
+        "question": "په {{appName}} کې والټ څه دی؟",
+        "answer": [
+          "ستاسو د {{appName}} والټ یو **ځان‌سپارلی (self-custodial)** Bitcoin والټ دی چې ستاسو د Nostr کلي څخه جوړ شوی. {{appName}} هیڅکله ستاسو پیسې نه ساتي — والټ ستاسو په براوزر کې چلیږي او معاملې په محلي ډول د یوه داسې کلي سره لاسلیکوي چې یوازې تاسو یې کنټرولوئ. دا کولای شي Bitcoin په دواړو لارو ترلاسه کړي — د عامه پتې په توګه چې هر Bitcoin والټ ورته پرداخت کولی شي، او د خاموش پرداختونو کوډ په توګه چې وړ والټونه په خصوصي توګه ورته پرداخت کوي. د راجستر کولو لپاره څه شی نشته؛ کله چې حساب لرئ، دا د هغه شیبې شته دی.",
+          "والټ دوه ټوپونه لري: **عامه** (ستاسو معمولي Bitcoin پته) او **خصوصي** (خاموش پرداختونه). دا دوه بیلانسونه کلک جلا ساتل کېږي او هیڅکله یوځای نشي مصرف کېدلی — همدا جلاوالی خصوصي مرستې په زنځیر کې نه‌تړل‌کېدونکې ساتي. کله چې کمپاین جوړوئ، تاسو ټاکئ چې عامه پرداختونه، خصوصي پرداختونه یا دواړه ومنئ. د هغه څه د لګولو لپاره چې تاسو یې ترلاسه کوئ، **د ترلاسه کوونکی لارښود** وګورئ.",
+          "تاسو کولای شئ د خپل والټ ۲۴-کلمه‌ییز Seed عبارت هم صادر کړئ او په هر معیاري Bitcoin والټ کې یې وارد کړئ — لاندې «آیا کولای شم خپل د {{appName}} والټ بل Bitcoin والټ ته صادر کړم؟» وګورئ."
+        ]
+      },
+      "export-wallet": {
+        "question": "آیا کولای شم خپل د {{appName}} والټ بل Bitcoin والټ ته صادر کړم؟",
+        "answer": [
+          "هو. ستاسو د {{appName}} والټ په بشپړه توګه ځان‌سپارلی (self-custodial) دی. {{appName}} هیڅکله ستاسو Bitcoin نه ساتي او ستاسو کلي نه ویني — والټ په بشپړه توګه ستاسو په براوزر کې چلیږي او معاملې په محلي ډول د یوه داسې کلي سره لاسلیکوي چې ستاسو د Nostr پټ کلي (nsec) څخه استخراج شوی.",
+          "والټ د مینو څخه پرانیزئ، په پاسني ښي کونج کې د درېیو ټکیو مینو کېکاږئ، او **د والټ بیک اپ** وټاکئ. تاسو به د BIP-39 له مخې ۲۴-کلمه‌ییز Seed عبارت وګورئ. دا په کوم خوندي ځای کې ولیکئ (یا د پټنوم په مدیر کې یې وساتئ) — **هر څوک چې دا کلمې ولري ستاسو Bitcoin مصرفولی شي.**",
+          "تاسو کولای شئ هغه ۲۴ کلمې په هر معیاري Bitcoin والټ کې وارد کړئ: **Sparrow**، **Electrum**، **BlueWallet**، **Phoenix**، یو **Trezor**، یا یو **Ledger**. {{appName}} د معیاري BIP-86 (Taproot) او BIP-352 (silent payments) استخراج لارې کاروي، نو هیڅ ځانګړې تنظیم ته اړتیا نشته.",
+          "د وارد کولو وروسته، بل والټ به همغه بیلانس او تاریخچه وښیي چې ستاسو د {{appName}} والټ یې لري — دا همغه یو والټ دی، یوازې دوه لیدلوري لري.",
+          "د Seed عبارت صادرول یوازې هغه وخت شته دي چې تاسو د nsec سره ننوځئ. د براوزر ضمیمې او د لرې لاسلیک‌کوونکي (bunker) ننوتنې ستاسو پټ کلي جلا ساتي، نو {{appName}} په هغو حالتونو کې نشي کولای Seed استخراج کړي."
+        ]
+      },
+      "donations-are-public-general": {
+        "question": "آیا په {{appName}} کې مرستې عامې دي؟",
+        "answer": [
+          "دا د هغه پرداخت ډول پورې اړه لري چې ترلاسه کوونکی یې مني.",
+          "**عامې مرستې** د بیټکوین بلاکچین او Nostr کې ثبت شوي. هر څوک کولای شي مقدارونه، وختونه او پتې وګوري.",
+          "**خصوصي مرستې** د خاموش پرداختونو څخه ګټه اخلي. دا د ترلاسه کوونکی د مرستې کوډ سره په عامه توګه نه شي تړل کېدی، د مرستندویانو په فهرستونو کې نه راځي، او عامو ټولګوټو کې نه ښودل کېږي.",
+          "کله چې کمپاین دواړه ومني، د مرستندوی والټ پرېکړه کوي چې کومه لار وکارول شي — د خاموش پرداختونو وړ والټونه په خصوصي ډول پرداخت کوي، نور د عامه پته ته پرداخت کوي. د بشپړ انځور لپاره **د مرستندوی لارښود** او **د ترلاسه کوونکی لارښود** ولولئ."
+        ]
+      },
+      "why-donations-pending": {
+        "question": "ولې ځینې مرستې «**pending**» ښیي؟",
+        "answer": [
+          "یوه **پاتې (pending)** مرسته ریښتینی بیټکوین دی چې لا دمخه لیږل شوی — یوازې د شبکې له خوا د تاییدېدو په تمه ده. د مرستندوی والټ معامله خپره کړې، خو لا تر اوسه په کوم بلاک کې نه ده شامله شوې.",
+          "بیټکوین نږدې هرې ۱۰ دقیقې وروسته یو نوی بلاک تولیدوي، او مایننګ کوونکي معاملې د هغې فیس له مخې غوره کوي چې مرستندوی ورکړې وي. ډېرې مرستې په یوه ساعت کې تاییدېږي؛ د ټیټې فیس لرونکې مرستې کېدای شي اوږد وخت ونیسي کله چې شبکه بوخته وي. {{appName}} په خپله د تاییدېدو حالت بیا څاري، نو د **پاتې (pending)** نښه پخپله ورکېږي کله چې بلاک ښکته شي.",
+          "پیسې په لاره دي — ترلاسه کوونکی به د کمپاین په ټول مجموعه کې دا مرسته وویني همدې شیبه چې تاییدېږي. نه ترلاسه کوونکی او نه {{appName}} کولای شي چې دا چټک کړي؛ یوازې د مرستندوی والټ کولای شي چې فیس لوړ کړي."
+        ]
+      },
+      "censorship-resistance": {
+        "question": "دلته «د سانسور په وړاندې مقاوم» څه معنی لري؟",
+        "answer": [
+          "د مرستندوی او ترلاسه کوونکی ترمنځ هیڅ شرکت ولاړ نه دی. {{appName}} پیسې نه ساتي او د پتې د بندولو وس نه لري.",
+          "تر هغه چې د بیټکوین شبکه روانه وي، مرستې لیږل کېدلی او ترلاسه کېدلی شي. حتی که {{appName}} پخپله بند شي، دا به ودرول نشي."
+        ]
+      },
+      "why-onchain": {
+        "question": "ولې بیټکوین؟",
+        "answer": [
+          "بیټکوین په نړۍ کې تر ټولو پراخه ملاتړ شوي او د سانسور په وړاندې مقاوم پرداخت ګټن دی. هر بیټکوین والټ یې لیږلی شي.",
+          "په {{appName}} کې، ترلاسه کوونکي ټاکي چې څنګه ترلاسه کړي: **عامه** (یوه معمولي بیټکوین پته) د لوی رسیدنې لپاره، **خصوصي** (خاموش پرداختونه) د نه‌پېژندنوړ مرستو لپاره، یا **دواړه** ترڅو د هر مرستندوی والټ پخپله سم لار وټاکي. هغه مرستندویان چې یوازې د معمولي مصرفي بیټکوین برنامه لري بیا هم کولای شي مرسته وکړي؛ د خاموش پرداختونو والټ لرونکي مرستندویان د پیش‌فرض په توګه محرمیت ترلاسه کوي.",
+          "بدله یې دا ده چې عامه د بیټکوین معاملې په بلاکچین کې لیدل کېږي او د ماینر فیس ورکوي. د مرستندوی او ترلاسه کوونکی لارښودنې ښیي چې دواړه څنګه اداره کړي."
+        ]
+      },
+      "why-not-silent-payments": {
+        "question": "آیا {{appName}} د خاموش پرداختونو ملاتړ کوي؟",
+        "answer": [
+          "هو — د دواړو اړخونو څخه. د {{appName}} داخلي بیټکوین والټ د BIP-352 ملاتړ کوي، نو کله چې له خپل {{appName}} والټ څخه بیټکوین لیږئ، تاسو کولای شئ په مستقیم ډول هرې د خاموش پرداخت پته (`sp1…`) ته پرداخت وکړئ. او کله چې ترلاسه کوونکی کمپاین جوړ کړي، هغه کولای شي د عامه بیټکوین پرداختونو سره یا د هغه پر ځای، د خاموش پرداختونو هم ومني.",
+          "د خاموش پرداخت مرستې لاهم په زنځیر کې تسویه کېږي، خو معامله د ترلاسه کوونکی د مرستې کوډ سره نه شي تړل کېدی — نو په عامه فهرستونو یا ټولګوټو کې نه راځي.",
+          "د {{appName}} څخه بهر د خاموش پرداخت لیږل د BIP-352 ملاتړ کوونکي والټ ته اړتیا لري. ډېری مصرفي برنامې لا یې نه پشتیبانوي، خو [Ditto Wallet](https://ditto.pub) او [Dana](https://github.com/cygnet3/dana/releases/download/v0.7.4/app-live-release.apk) یې پشتیبانوي.",
+          "کله چې کمپاین دواړه ډوله پرداختونه ومني، {{appName}} یې په یو واحد QR کوډ کې کوډ کوي. د خاموش پرداختونو وړ والټونه په خصوصي ډول پرداخت کوي؛ نور عامه پته ته پرداخت کوي. هیڅ مرستندوی له منځه نه ځي او هیڅ ترلاسه کوونکی د رسیدنې او محرمیت ترمنځ د غوره کولو مجبور نه دی."
+        ]
+      },
+      "why-not-lightning": {
+        "question": "ولې {{appName}} له Lightning څخه نه کاروي؟",
+        "answer": [
+          "Lightning د Lightning والټ ته اړتیا لري. تر ټولو اسانه (Wallet of Satoshi، Strike، Breez) **محافظه (custodial)** دي — یو شرکت پیسې ساتي او بنده کېدلی، جغرافیایي بند کېدلی یا د حسابونو د بندولو لپاره تر فشار لاندې راتلی شي. غیر محافظه Lightning تخنیکي ډول دروند او د نویو راغلو لپاره غیر باور وړ دی.",
+          "موږ غواړو {{appName}} د هغه چا لپاره کار وکړي چې د بیټکوین یوازینۍ تجربه یې یوه عادي مصرفي اپلیکیشن وي لکه Cash App، Coinbase، Strike، Venmo یا PayPal. د زنځیر بیټکوین له هرې والټ سره کار کوي چې په ځمکې شته."
+        ]
+      },
+      "why-not-rotating-addresses": {
+        "question": "ولې {{appName}} د هرې مرستې لپاره نوې پته نه جوړوي؟",
+        "answer": [
+          "د دې کار به اړتیا وي چې {{appName}} د پیسو د تبادلې منځګړی شي — لومړی بیټکوین واخلي او بیا یې ترلاسه کوونکی ته واستوي.",
+          "دا به موږ د پیسو لیږدوونکی وګرځوي، چې تابع به وي د هغو مقرراتو چې له هغه سره راځي، او یو واحد د ماتیدلو نقطه: د {{appName}} سرور بند کړئ او هره هغه مرسته چې له هغه څخه تېرېږي وڅنډې شي.",
+          "د هغې پر ځای، د هر کاروونکي د مرستې پته د هغه له Nostr پټ کیلي (nsec) — هغه کلي چې تاسو ورسره ننوځئ — څخه استخراج کېږي. مرستندویان مستقیم ترلاسه کوونکی ته لیږي، {{appName}} هیڅکله پیسو ته لاس نه وروړي، او پخپله پلیټفارم نه شي بنده کېدای چې څوک سانسور کړي. هغه ترلاسه کوونکي چې د هرې مرستې محرمیت غواړي، کولای شي د خاموش پرداختونو ومني — چې همدغه نه‌پېژندنوړتیا وړاندې کوي بې له دې چې څوک د پیسو په منځ کې وساتي."
+        ]
+      },
+      "why-not-other-crypto": {
+        "question": "ولې Monero یا کومه بله کریپټوارز نه؟",
+        "answer": [
+          "بیټکوین تر ټولو پراخه منل شوې کریپټوارز ده. دا پدې مانا چې د مرستندویانو لپاره د اخیستلو او لیږلو اسانه ده، او د ترلاسه کوونکو لپاره د ترلاسه کولو، ساتلو او لګولو اسانه ده.",
+          "د محرمیت-متمرکزې سکې لکه Monero د بیټکوین څخه بېلې محرمیتي بدلې وړاندې کوي، خو په ډېرو مصرفي برنامو کې ملاتړ نه کېږي او د محلي پیسو بدلول سخت دي. د مرستې له هرې خوا غوښتل چې لومړی یوه نشه‌ییز کریپټوارز ولري، یوه خنډ دی چې {{appName}} به یې پر لار ونه ږدي. د بیټکوین مرستو لپاره پخپله، خاموش پرداختونه د نه‌پېژندنوړتیا کارونې حالت پوښي، بې له دې چې د بیټکوین له اکوسیستم څخه ووځي."
+        ]
+      },
+      "what-is-verification": {
+        "question": "په یو کمپاین باندې د \"تصدیق شوی\" نښان معنی څه ده؟",
+        "answer": [
+          "تصدیق شوی کمپاین هغه دی چې یو **د باور وړ تصدیق کوونکي** په ښکاره ډول یې ملاتړ کړی وي. هغه تصدیق کوونکی وايي چې دی په شخصي توګه تنظیموونکی پیژني، یا یې په معنادار ډول تصدیق کړې چې د کمپاین ادعاوې رښتیا دي.",
+          "دا نښان په دقیق ډول ښیي چې **چا** ملاتړ کړی دی، او هر تصدیق کوونکی خپل پروفایل ته لینک ورکوي. تصدیق یو نښه ده، د {{appName}} لخوا د تصدیق مهر نه دی. موږ د شالید کتنې نه ترسره کوو. دا ځکه شتون لري چې تاسو پرېکړه وکړئ چې آیا *تاسو* په هغو خلکو باور لرئ چې د یو کمپاین شاته ولاړ دي.",
+          "کله چې هیڅ د باور وړ سرچینې یو کمپاین تصدیق نه کړي، د هغه پاڼه یې پرځای د احتیاط خبرداری ښیي. دا خبرداری تور نه دی. دا یوازې دا معنی لري چې د باور وړ لیست کې لاهم چا یې ملاتړ نه دی کړی."
+        ]
+      },
+      "who-verifies": {
+        "question": "څوک د \"د باور وړ سرچینې\" په توګه شمیرل کیږي؟",
+        "answer": [
+          "د باور وړ تصدیق کوونکي د دوو غوره شویو د تعقیب بستو غړي دي: **World Liberty Congress Verified** او **Team Soapbox** (هغه ټیم چې {{appName}} جوړوي، د [World Liberty Congress](https://worldlibertycongress.org/) په همکارۍ سره).",
+          "په تخنیکي توګه په Nostr کې هر څوک کولی شي د هر کمپاین لپاره د تصدیق لیبل خپور کړي، او دا به په نښان باندې ښکاره شي. مګر یوازې د دغو دوو بستو د غړي ملاتړ د احتیاط خبرداری پاکوي او کولی شي یو کمپاین د کور پاڼې د Verified Campaigns برخې ته لوړ کړي. یو تنظیموونکی چې خپل کمپاین تصدیقوي نه شمیرل کیږي."
+        ]
+      },
+      "unverified-meaning": {
+        "question": "یو کمپاین تصدیق شوی نه دی. آیا دا درغلي ده؟",
+        "answer": [
+          "**ضروري نه ده.** تصدیق په قصدي توګه ستونزمن جوړ شوی چې ترلاسه شي، نو ډیری مشروع کمپاینونه پیل کې تصدیق شوي نه وي، په ځانګړي ډول نوي هغه او د هغو خلکو څخه چې د باور وړ تصدیق کوونکو لا نه دي لیدلي.",
+          "دا نښان د اضافي باور په توګه وګڼئ، نه یوازینی شی چې مهم دی. کمپاین ولولئ، د تنظیموونکي پروفایل او تاریخچه وګورئ، او په یاد ولرئ چې {{appName}} څنګه کار کوي: بسپنې **مستقیماً** د تنظیموونکي Bitcoin پته ته په چین کې ځي. {{appName}} هیڅکله پیسې نه ساتي او نشي کولی یوه تادیه بیرته راولي، بیرته ورکړي، یا منجمد کړي، نو داسې ورکړئ لکه چې چا ته نغدې پیسې ورکوئ."
+        ]
+      },
+      "why-campaigns-hidden": {
+        "question": "ولې ځینې کمپاینونه پټ دي، او آیا زه لاهم کولی شم چې ویې وینم؟",
+        "answer": [
+          "ماډریټران کولی شي هغه کمپاین پټ کړي چې د سپیم، درغلۍ، یا د بل چا د ځان معرفۍ په څیر ښکاري. پټ شوي کمپاینونه د {{appName}} فیډونو او لټون څخه بهر ساتل کیږي نو ډیری خلک په تصادفي ډول ورسره مخ نه شي.",
+          "**دا سانسور نه دی، او هیڅ شی نه حذف کیږي.** یو کمپاین د خلاص Nostr شبکې کې ژوند کوي، پرته له دې چې {{appName}} څه ښیي. پټول یوازې هغه څه بدلوي چې {{appName}} په ډیفالټ ډول ښکاره کوي. که تاسو یو پټ کمپاین مستقیماً پرانیزئ، لکه د شریک شوي لینک څخه، تاسو به یو خبرداری وګورئ چې دلیل تشریح کوي او یو تڼۍ چې **بیا هم دوام ورکړئ**. د لیدلو او بسپنه ورکولو انتخاب تل ستاسو دی.",
+          "موخه یوازې دا ده چې بسپنه ورکوونکو ته د ورکړې دمخه شرایط ورکړي: یو خبرتیا چې د باور وړ ماډریټر یو شی نښه کړی، نه یوه پرېکړه چې ستاسو پرځای شوې."
+        ]
+      },
+      "how-get-verified": {
+        "question": "زه یو تنظیموونکی یم. زه څنګه خپل کمپاین تصدیق کړم؟",
+        "answer": [
+          "تاسو نشئ کولی ځان تصدیق کړئ؛ یو د باور وړ تصدیق کوونکی باید ستاسو ملاتړ وکړي. ترټولو د اعتماد وړ لاره دا ده چې یو ریښتینی کاري ریکارډ جوړ کړئ: بشپړ پروفایل، یو روښانه کمپاین، او په ټولنه کې د خلکو سره یوه ریښتینې اړیکه.",
+          "که ستاسو کار د World Liberty Congress یا د {{appName}} ټیم سره تړاو لري، د هغه ځای د خپلو موجوده اړیکو له لارې اړیکه ونیسئ. یو تصدیق کوونکی چې تاسو پیژني کولی شي خپل ملاتړ اضافه کړي، او دا به په اتوماتيک ډول ستاسو په کمپاین باندې ښکاره شي."
+        ]
+      },
+      "verification-guarantee": {
+        "question": "آیا تصدیق تضمینوي چې زما بسپنه خوندي ده؟",
+        "answer": [
+          "نه. تصدیق تاسو ته وايي چې یو د باور وړ شخص د کمپاین ملاتړ کوي. دا **نه** پایلې تضمینوي، ستاسو پیسې بیمه کوي، او نه {{appName}} د دې مسؤل جوړوي چې پیسې څنګه کارول کیږي.",
+          "ځکه چې بسپنې غیر حضانتي او په چین کې دي، هره تادیه هغه شیبه وروستۍ ده چې تاسو یې لیږئ. یو تصدیق کوونکی هم کولی شي وروسته خپل ملاتړ **بیرته واخلي** که چیرې څه بدل شي، چې دا به نښان لرې کړي. تل هغه اندازه بسپنه ورکړئ چې تاسو یې په اسانۍ سره مستقیماً بل چا ته ورکولی شئ."
+        ]
+      },
+      "what-is-nostr": {
+        "question": "Nostr څه دی؟",
+        "answer": [
+          "Nostr یوه پرانیستی شبکه ده چې پکې **تاسو** د خپل حساب مالک یاست، نه یو شرکت. ستاسو هویت یو کریپټوگرافیک کلی دی چې تاسو یې کنټرولوئ، نه د بل چا په سرور کې یو کارن نوم.",
+          "په {{appName}} کې، همدغه کلی هغه څه دی چې ستاسو د مرستې پته ترې راوتلې — ستاسو د Nostr پټ کیلي (nsec) ستاسو د بیټکوین والټ تخم کوي، چې همدا دلیل دی چې تاسو کولای شئ بیټکوین له هیچا سره د راجستر کولو پرته ترلاسه کړئ."
+        ]
+      },
+      "why-login-different": {
+        "question": "ولې زما ننوتل دومره بېل او اوږد دی؟",
+        "answer": [
+          "د یوه شرکت لخوا د کنټرول شوي د کارن نوم او رمز پر ځای، Nostr د کریپټوگرافیک کلیو یو جوړه کاروي.",
+          "ستاسو «عمومي کلی» (د **npub** سره پیل کیږي) ستاسو کارن نوم دی. ستاسو «خصوصي کلی» (د **nsec** سره پیل کیږي) ستاسو رمز دی. اوږده تار هغه څه دی چې د هغه اټکل کول تقریباً ناممکن کوي."
+        ]
+      },
+      "lose-secret-key": {
+        "question": "که زه خپل خصوصي کلی له لاسه ورکړم څه به وشي؟",
+        "answer": [
+          "**د «رمز هیر شو» تڼۍ نشته.** هیڅ څوک نشي تاسو ته یې بیا تنظیمولی. که یې له لاسه ورکړئ، ستاسو حساب — او په ستاسو د مرستې پته باندې هر بیټکوین — د تل لپاره له منځه ځي.",
+          "**اوس مهال خپل خصوصي کلی په خوندي ځای کې وساتئ.** د لارښوونو لپاره، [د خپل Nostr کلیو اداره کول](https://soapbox.pub/blog/managing-nostr-keys) ولولئ."
+        ]
+      },
+      "manage-secret-key": {
+        "question": "آیا کولای شم خپل خصوصي کلی د خپل تلیفون د رمز مدیر کې وساتم؟",
+        "answer": [
+          "هو. تاسو کولای شئ یې د خپلې وسیلې د رمز مدیر کې وساتئ (iCloud Keychain، 1Password، Bitwarden او داسې نور). په iPhone کې، د Passwords کې ساتل تاسو ته اجازه درکوي چې د Face ID یا Touch ID سره ننوتل وکړئ.",
+          "د بشپړ لارښود لپاره، [د خپل Nostr کلیو اداره کول](https://soapbox.pub/blog/managing-nostr-keys) وګورئ."
+        ]
+      },
+      "send-bitcoin-lightning": {
+        "question": "د Lightning له لارې د بیټکوین لیږل څنګه کار کوي؟",
+        "answer": [
+          "که د ترلاسه کوونکي په پروفایل کې د Lightning پته وي، تاسو کولای شئ ورته ولېږئ. Lightning په ثانیو کې تسویه کېږي او فیسونه یې ډېر کم دي.",
+          "د Lightning لیږل د {{appName}} د مرستې پته نه کاروي — مستقیم هغه د Lightning والټ ته ځي چې ترلاسه کوونکي پخپله جوړ کړی. د {{appName}} پخپله د مرستې جریان یوازې په زنځیر کې دی."
+        ]
+      },
+      "what-are-zaps": {
+        "question": "Zap‌ګانې څه دي؟",
+        "answer": [
+          "Zap‌ګانې په Nostr کې د Lightning کوچنۍ ټیپونه دي، د {{appName}} د زنځیر د مرستې جریان څخه جلا."
+        ]
+      },
+      "fyp": {
+        "question": "فید څنګه کار کوي؟",
+        "answer": [
+          "ستاسو فید د هغو خلکو کمپاینونه او پوسټونه ښیي چې تاسو یې تعقیبوئ. هیڅ الګوریتم پرېکړه نه کوي چې تاسو څه وینئ."
+        ]
+      },
+      "what-are-relays": {
+        "question": "رلی‌ګانې څه دي؟",
+        "answer": [
+          "رلی‌ګانې هغه سرورونه دي چې د Nostr پیښې — پوسټونه، د مرستې رسیدونه، د پروفایل معلومات — ساتي او وړاندې کوي. د ډیفالټ ترتیب له پیل څخه کار کوي؛ تاسو کولای شئ په تنظیماتو > شبکه کې رلی‌ګانې اضافه یا حذف کړئ."
+        ]
+      },
+      "what-are-blossom": {
+        "question": "د Blossom سرورونه څه دي؟",
+        "answer": [
+          "د Blossom سرورونه د رسنیو فایلونه (د کمپاین انځورونه، د پروفایل انځورونه) کله چې یې اپلوډ کوئ، ساتي. تاسو کولای شئ په تنظیماتو > شبکه کې اداره کړئ چې کوم سرورونه کاروئ."
+        ]
+      },
+      "report-content": {
+        "question": "زه څنګه د زیانمنه محتوا راپور ورکړم؟",
+        "answer": [
+          "په هر پوسټ کې د درې‌ټکیو منو (**...**) ووهئ او «راپور» وټاکئ. تاسو کولای شئ له همدغې منو کاروونکي چوپ یا بند کړئ."
+        ]
+      },
+      "vs-mastodon-bluesky": {
+        "question": "Nostr د Mastodon یا Bluesky څخه څنګه توپیر لري؟",
+        "answer": [
+          "په Mastodon کې، ستاسو حساب په یوه ځانګړې سرور کې ژوند کوي. په Bluesky کې، ډېری حسابونه په یوه شرکت پورې اړه لري. په Nostr کې، ستاسو هویت یو کلی دی چې تاسو یې کنټرولوئ، او ستاسو د مرستې پته به ستاسو سره هر Nostr اپلیکیشن ته ولاړ شي."
+        ]
+      },
+      "profile-fields": {
+        "question": "د پروفایل ساحې څه دي؟",
+        "answer": [
+          "د پروفایل ساحې تاسو ته اجازه درکوي چې خپل پروفایل ته اضافي معلومات اضافه کړئ — لینکونه، د والټ پتې، موسیقي، انځورونه، ویډیوګانې."
+        ]
+      }
+    }
+  },
+  "guides": {
+    "shared": {
+      "tldrEyebrow": "لنډه بڼه",
+      "paymentBadge": {
+        "public": "عامه پرداختونه",
+        "silent": "خاموش پرداختونه"
+      },
+      "paymentComparison": {
+        "donorHeader": "کله چې مرسته کوئ",
+        "recipientHeader": "کله چې کمپاین جوړوئ",
+        "donorRows": {
+          "whatYouSee": {
+            "label": "هغه څه چې وینئ",
+            "public": "یوه معمولي بیټکوین پته چې له هر ځای څخه ورته پرداخت کولی شئ.",
+            "silent": "همدا QR. که ستاسو والټ د BIP-352 ملاتړ کوي، د خاموش پرداخت نقطه غوره کوي."
+          },
+          "walletSupport": {
+            "label": "د والټ ملاتړ",
+            "public": "هر بیټکوین والټ. Cash App، Coinbase، Strike، هارډویر، هر څه.",
+            "silent": "نن لږ والټونه. ډېری یې معمولي بیټکوین معاملې ته راګرځي."
+          },
+          "privacy": {
+            "label": "د مرستې محرمیت",
+            "public": "په زنځیر کې عامه دی. ستاسو د لیږنې پته په دایمي توګه له کمپاین سره تړل کېږي.",
+            "silent": "د ترلاسه کوونکي اړخ په زنځیر کې نه‌پېژندنوړ دی. ستاسو د لیږنې والټ نښې لاهم عامه دي."
+          },
+          "settlement": {
+            "label": "تسویه",
+            "public": "د بیټکوین معمولي تأییدونه.",
+            "silent": "د زنځیر همدا تأییدونه، خو ترلاسه کوونکی باید خپل والټ سکن کړي چې پیدا یې کړي."
+          }
+        },
+        "recipientRows": {
+          "whatDonorsSee": {
+            "label": "هغه څه چې مرستندویان وینې",
+            "public": "یوه معمولي بیټکوین پته. د ځمکې پر مخ له هر والټ سره کار کوي.",
+            "silent": "د BIP-352 نقطه. د مرستندویانو والټونو د خاموش پرداختونو ملاتړ ته اړتیا لري؛ که نه وي، مرسته معمولي بیټکوین معاملې ته راګرځي."
+          },
+          "receivingSpeed": {
+            "label": "د ترلاسه کولو سرعت",
+            "public": "د Push په سبک. مرستې سمدستي د کمپاین په پاڼه ښکاره کېږي.",
+            "silent": "لاسي سکن. ستاسو والټ باید په بلاکچین کې وګرځي او ولټوي. د والټ پر اساس، له څو دقیقو څخه تر څو ساعتونو پورې."
+          },
+          "pushNotifications": {
+            "label": "د Push خبرتیاوې",
+            "public": "هو. نوې مرستې د راتلو په لحظه کې وینئ.",
+            "silent": "نه. والټ پرانیزئ او د کشف لپاره سکن پیل کړئ."
+          },
+          "donorList": {
+            "label": "د مرستندویانو لیست / د کمپاین ټولګوټې",
+            "public": "د تل لپاره عامه. مقدارونه او د لیږنې پتې هر چا ته لیدلې وي.",
+            "silent": "خصوصي. د کمپاین پاڼه نشي کولای د خاموش پرداختونو شمېرنه یا ټولګوټه وښیي."
+          },
+          "ecosystem": {
+            "label": "د اکوسیستم بشپړتیا",
+            "public": "بشپړ. ثابت وسیلې.",
+            "silent": "د څنډې پر سر. والټونه لاهم باګ لري؛ ګومان کوي چې پرداختونه به ورک شي او په وروستي سکن کې راښکاره شي."
+          },
+          "bestFor": {
+            "label": "تر ټولو غوره لپاره",
+            "public": "هغه عامه کمپاینونه چې د ټولنیز ثبوت او لیدلتوب څخه ګټه پورته کوي.",
+            "silent": "هغه کمپاینونه چې د مرستندوی یا ترلاسه کوونکی محرمیت تر لیدل‌شویو ټولګوټو څخه مهمتر وي."
+          },
+          "watchOutFor": {
+            "label": "خبرتیا",
+            "public": "د هر مرستندوی دایمي عامه ثبت.",
+            "silent": "نن د UX ناهموار دی. ځینې مرستې به تر هغه ښکاره نشي چې ترلاسه کوونکی سکن وکړي."
+          }
+        }
+      }
+    },
+    "donor": {
+      "tldr": {
+        "lede": "د هر هغه والټ څخه چې لرئ، د کمپاین پاڼې پر بیټکوین پته پرداخت وکړئ. که کمپاین خاموش پرداختونه ومني او ستاسو والټ یې ملاتړ وکړي، ستاسو مرسته په خودکاره توګه خصوصي ده.",
+        "nextActions": [
+          "د هر بیټکوین والټ څخه پرداخت وکړئ",
+          "هیڅ منځګړی نشته، هیڅ د ساتلو موده نشته",
+          "محرمیت غواړئ؟ لاندې ولولئ"
+        ]
+      },
+      "flow": {
+        "heading": "د مرستې جریان څنګه ځي",
+        "steps": {
+          "openCampaign": {
+            "title": "کمپاین پرانیزئ",
+            "body": "یو QR کوډ وینئ. که کمپاین دواړه انتخابونه ومني، دواړه نقطې پکې کوډ شوي وي؛ ستاسو والټ سم یې غوره کوي."
+          },
+          "payFromAnyWallet": {
+            "title": "له هر والټ څخه یې پرداخت کړئ",
+            "body": "Cash App، Coinbase، Strike، هارډویر والټ، هر څه. مقدار او د شبکې فیس ورکړئ."
+          },
+          "arrivesDirectly": {
+            "title": "په مستقیم ډول ورځي",
+            "body": "پیسې مستقیم ترلاسه کوونکی ته تسویه کېږي. {{appName}} یې نه ساتي او نه یې لارښوونه کوي، او پته د ترلاسه کوونکی د Nostr پټ کیلي څخه استخراج کېږي."
+          }
+        }
+      },
+      "comparison": {
+        "footnote": "کمپاینونه کولای شي یوازې عامه، یوازې خاموش، یا دواړه ومني. که دواړه وي، QR کوډ دواړه نقطې لري. ستاسو والټ هغه یوه غوره کوي چې کارولی شي."
+      },
+      "publicVisible": {
+        "title": "عامه مرستې د تل لپاره په زنځیر کې لیدل کېږي",
+        "body": "یوه **عامه** مرسته د کمپاین سره تړلې معمولي بیټکوین پته ته ورځي. هر څوک کولای شي پته وپلټي او د مرستې مقدار، وخت او ستاسو د لیږنې پته وګوري. **خاموش** مرستې هم په زنځیر کې تسویه کېږي، خو د ترلاسه کوونکي اړخ د کمپاین سره نه‌پېژندنوړ دی، نو په عامه فهرستونو او ټولګوټو کې نه راځي."
+      },
+      "privacy": {
+        "heading": "په خصوصي ډول مرسته کول",
+        "intro": "دا ګامونه د **عامه** مرستو لپاره ډېر مهم دي، چېرته چې هر معامله په دایمي توګه له یوې پته سره تړل کېږي. **خاموش** مرستې پخپله د ترلاسه کوونکي اړخ پټوي، نو خطر یې ټیټ دی. د ستاسو د لیږنې والټ په کلکه څېړنه د هرې حالت په هکله ممکنه ده، نو که ستاسو خطر لوړ وي دا ګامونه ارزښتمن دي. یو وټاکئ، یا یې سره راټول کړئ.",
+        "options": {
+          "silentWallet": {
+            "name": "د خاموش پرداختونو والټ وکاروئ",
+            "purpose": "د بیټکوین والټ سره پرداخت وکړئ چې BIP-352 پشتیبانوي. که کمپاین خاموش پرداختونه ومني، ستاسو والټ په خودکاره توګه هغه نقطه کاروي."
+          },
+          "nonKyc": {
+            "name": "د غیر KYC بیټکوین واخلئ",
+            "purpose": "بیټکوین له ډلې څخه ډلې واخلئ تر څو لومړی له ستاسو دولتي هویت سره ونه تړل شي. د محرمیت تر ټولو قوي نقطه."
+          },
+          "coinjoin": {
+            "name": "لومړی Coinjoin",
+            "purpose": "خپل بیټکوین د نورو خلکو له سکو سره ګډ کړئ تر څو محصول د ستاسو د KYC پیرود ته ونه ورسیږي. ګټور دی کله چې کمپاین یوازې عامه ومني."
+          },
+          "freshWallet": {
+            "name": "یو تازه والټ وکاروئ",
+            "purpose": "د هغه والټ څخه مرسته وکړئ چې هیڅکله ستاسو اصلي هویت یا د KYC تبادله نه وي مس کړې."
+          }
+        }
+      },
+      "consumerApps": {
+        "title": "د مصرف کوونکو اپلیکیشنونه تاسو ته ګمنام والی نشي ورکولی",
+        "body": "Cash App، Coinbase، Strike، Venmo، Kraken، Binance او PayPal ټول ستاسو هویت تایید کوي. هغه څنګه چې مرسته لیږئ مهم نه دی، هره معامله ستاسو د واقعي هویت سره تړلې پاتې کېږي. د یوې غیر محافظه والټ څخه ګټه واخلئ چې ستاسو په کنټرول کې وي."
+      },
+      "silentToday": {
+        "heading": "نن د خاموش پرداختونو په اړه یوه یادونه",
+        "paragraphs": [
+          "خاموش پرداختونه د بیټکوین ترلاسه کولو تر ټولو محرم لاره ده، خو اکوسیستم ځوان دی. ډېری مشهور والټونه لاهم نشي کولای د خاموش پرداخت نقطې ته ولیږي، نو کله چې والټ ونشي کولای، مرسته د کمپاین عامه پته ته معمولي بیټکوین معاملې ته راګرځي (که کمپاین دواړه ومني).",
+          "د ترلاسه کوونکو لپاره، د خاموش پرداخت مرستې هم پرته د Push خبرتیاوو راورسیږي او یوازې وروسته له هغې چې ترلاسه کوونکی خپل والټ سکن کړي راښکاره کېږي، چې دا له څو دقیقو څخه تر څو ساعتونو پورې وخت نیولی شي. د دې هیڅ یو ستاسو د پیسو امنیت نه اغیزه کوي؛ یوازې تجربه بدلوي."
+        ]
+      }
+    },
+    "recipient": {
+      "tldr": {
+        "lede": "د خپل کمپاین جوړولو په وخت کې وټاکئ چې څه ومنئ: عامه، خاموش، یا دواړه. هر یو غیر محافظه دی. {{appName}} هیڅکله ستاسو پیسې نه ساتي.",
+        "nextActions": [
+          "دواړه انتخابونه پرتله کړئ",
+          "د نقدولو لپاره پلان جوړ کړئ",
+          "پیسې په چټکۍ سره ولېږدوئ"
+        ]
+      },
+      "howReceiving": {
+        "heading": "د ترلاسه کولو څرنګوالی",
+        "paragraphs": [
+          "ستاسو د {{appName}} د مرستې پتې ستاسو له Nostr پټ کیلي (nsec) څخه استخراج کېږي — هماغه کلی چې تاسو ورسره ننوځئ ستاسو د بیټکوین والټ تخم کوي. د کمپاین جوړولو په وخت کې، تاسو وټاکئ چې څه ومنئ:",
+          "**یوازې عامه پرداختونه.** یوه معمولي بیټکوین پته. هر چا ته لیدل کېږي، له هر والټ سره کار کوي.",
+          "**یوازې خاموش پرداختونه.** د BIP-352 خاموش پرداختونه. د ترلاسه کوونکي اړخ په زنځیر کې نه‌پېژندنوړ دی، نو مرستې د عامه فهرستونو او ټولګوټو څخه باندې پاتې کېږي. مرستندویان د خاموش پرداختونو وړ والټ ته اړتیا لري چې ولیږي. که یې نه لري، د دوی مرسته نشي تېرېدلی.",
+          "**دواړه.** {{appName}} یو واحد QR کوډ تولیدوي چې دواړه نقطې پکې کوډ شوي وي. د خاموش پرداختونو والټونه یې د خصوصي په توګه لولي؛ معمولي والټونه عامه پته ته پرداخت کوي. مرستندویان مجبور نه دي چې غوره کړي.",
+          "د دواړو منل معمولاً سمه پرېکړه ده: د هغو ملاتړو څخه چې د خاموش پرداختونو والټ کاروي خصوصي مرستې ترلاسه کوئ، او د هغو مرستندویانو لپاره چې یوازې د مصرف کوونکو په اپلیکیشن کې بیټکوین لري لاهم خلاص پاتې یاست.",
+          "ستاسو د {{appName}} والټ دننه، دا د **دوو جلا بیلانسونو** په توګه راورسیږي — یوه **عامه** ټوپ (ستاسو معمولي Bitcoin پته) او یوه **خصوصي** ټوپ (خاموش پرداختونه) — چې د والټ په عامه / خصوصي ټوپونو کې ښودل کېږي. {{appName}} په قصدي ډول دواړه له یو بل سره کلک جلا ساتي: دا دوه بیلانسونه هیڅکله یوځای نشي مصرف کېدلی. خصوصي پیسې له عامه پیسو سره په یوه معامله کې ګډول به ستاسو نه‌تړل‌کېدونکي خاموش‌پرداخت مرستې بیرته ستاسو عامه پتې ته په زنځیر کې وتړي او هغه محرمیت ووژني چې د هغه لپاره شته دی."
+        ]
+      },
+      "whatEveryoneSees": {
+        "heading": "هغه څه چې هر څوک ویني",
+        "paragraphs": [
+          "که ستاسو کمپاین عامه پرداختونه ومني، هر هغه څوک چې غواړي د ستاسو ملاتړ وکړي کولای شي پته وپلټي او د مرستو عامه تاریخ وګوري.",
+          "د خاموش پرداخت مرستې د دې ثبت برخه نه دي. د بهرنیو څارونکو لپاره نامرئي دي او د کمپاین په عامه ټولګوټو کې نه ښودل کېږي؛ نوي مرستندویان یوازې هغه څه ویني چې تاسو د کمپاین د پرمختګ په اړه خپروئ."
+        ]
+      },
+      "comparison": {
+        "footnote": "تاسو نشئ کولای د یوه کمپاین د منل شویو پرداخت انتخابونو بدلون وکړئ وروسته له هغه چې جوړ شو. که نظر بدل کړئ، نوی کمپاین جوړ کړئ."
+      },
+      "silentToday": {
+        "heading": "نن د خاموش پرداختونو په اړه یوه یادونه",
+        "paragraphs": [
+          "خاموش پرداختونه د بیټکوین ترلاسه کولو تر ټولو محرم لاره ده، خو اکوسیستم ځوان دی. ډېری مشهور والټونه لاهم نشي کولای د خاموش پرداخت نقطې ته ولیږي، نو کله چې د مرستندوی والټ ونشي کولای، مرسته ستاسو عامه پته ته معمولي بیټکوین معاملې ته راګرځي (که تاسو دواړه ومنئ).",
+          "د خاموش پرداخت مرستې هم پرته د Push خبرتیاوو راورسیږي او یوازې وروسته له هغې چې تاسو خپل والټ سکن کړئ راښکاره کېږي، چې دا له څو دقیقو څخه تر څو ساعتونو پورې وخت نیولی شي. د دې هیڅ یو ستاسو د پیسو امنیت نه اغیزه کوي؛ یوازې ورځنۍ تجربه بدلوي."
+        ]
+      },
+      "twoWallets": {
+        "title": "خپل عامه او خصوصي بیلانسونه جلا وساتئ",
+        "body": "ستاسو د {{appName}} والټ دوه ټوپونه ښیي: **عامه** (ستاسو معمولي Bitcoin پته) او **خصوصي** (خاموش پرداختونه). دا دواړه کلک جلا ساتل کېږي، او دا دوه بیلانسونه هیڅکله په یوه معامله کې نشي مصرف کېدلی — همدا جلاوالی ستاسو خصوصي مرستې نه‌تړل‌کېدونکې ساتي. کله چې د **خصوصي** ټوپ څخه نقدوئ، د خاموش پرداختونو پتې (**sp1…**) ته یې ولیږئ، چې خصوصي پاتې کېږي. که پر ځای یې خصوصي پیسې یوې لوڅې په‌زنځیر پتې ته ولیږئ، {{appName}} یې ګوري: که پته مخکې کارول شوې وي، یا ستاسو د خپل عامه والټ پورې اړه ولري، تاسو ته خبرداری درکوي او اړ مو باسي چې **بیا هم ولیږئ** کېکاږئ، ځکه چې دا کار ستاسو خصوصي پیسې د هغې پتې عامه تاریخ سره تړي. یوې **sp1…** پتې ته لیږل هیڅکله خبرداری نه راپاروي."
+      },
+      "movePromptly": {
+        "heading": "مرستې په چټکۍ ولېږدوئ",
+        "steps": {
+          "sweep": {
+            "title": "هغه والټ ته یې راټول کړئ چې تاسو یې کنټرولوئ",
+            "body": "ستاسو د {{appName}} والټ له پخوا ځان‌سپارلی دی — تاسو، او یوازې تاسو، کلي کنټرولوئ. د همغه بیلانس د ډیسکټاپ یا د هارډویر والټ د لیدلو لپاره، د والټ مینو پرانیزئ، **د والټ بیک اپ** وټاکئ، او ۲۴-کلمه‌ییز Seed په [Sparrow](https://sparrowwallet.com)، [BlueWallet](https://bluewallet.io)، یا یوه هارډویر والټ (Trezor، Ledger) کې وارد کړئ. که غواړئ پیسې په بشپړه توګه بل کلي ته ولېږدوئ — د بېلګې په توګه، د Lightning والټ ته لکه [Phoenix](https://phoenix.acinq.co) — د خپل {{appName}} والټ څخه یوه معمولي Bitcoin معامله ولېږئ."
+          },
+          "dontSit": {
+            "title": "په براوزر کې پیسو باندې مه پرېږدئ",
+            "body": "په ځانګړي توګه د لوړ ارزښت کمپاینونو لپاره، د والټ Seed عبارت آفلاین وساتئ (په کاغذ، فلزي بیک اپ، یا د یوه ځانګړي وسیلې پر مټ په پټنوم مدیر کې) او د هارډویر والټ په اړه فکر وکړئ. هغه Seed چې تاسو یې له {{appName}} څخه بیک اپ کوئ همغه والټ دی — کلمې خوندي کړئ او ستاسو سوړ ذخیره (cold storage) جوړه شوه."
+          }
+        }
+      },
+      "cashout": {
+        "heading": "په خصوصي ډول نقدول",
+        "intro": "په زنځیر کې مصرف کول یو پل جوړوي مګر دا چې لومړی یې مات کړئ. د **خصوصي** ټوپ څخه نقدول وکړئ تر څو خاموش‌پرداخت مرستې نه‌تړل‌کېدونکې پاتې شي — لومړی یې د خاموش پرداختونو والټ ته ولیږئ (یوه **sp1…** پته)، بیا له هغه ځایه مصرف وکړئ؛ ټوپ د ستاسو د کمپاین او د هغې وروسته راتلونکي تر منځ اړیکه ماتوي. خصوصي پیسې بیا کارول‌شوې یا عامه پتې ته مه لیږئ، چې هغه یې بیا تړي. لاندې نور انتخابونه هم کار کوي او خپلې مفاضدې لري.",
+        "options": {
+          "silentHop": {
+            "name": "د خاموش پرداختونو والټ ټوپ",
+            "purpose": "خپلې مرستې د خاموش پرداختونو والټ ته ولیږدوئ ([Ditto Wallet](https://ditto.pub)، [Dana](https://github.com/cygnet3/dana/releases/download/v0.7.4/app-live-release.apk)). له هغه ځایه ستاسو راتلونکی مصرف د کمپاین سره تړلی نه دی."
+          },
+          "lightningSwap": {
+            "name": "د Lightning تبادله",
+            "purpose": "د زنځیر بیټکوین د Lightning سره اټومي تبادله. د Lightning پرداختونه عامه بلاکچین ته نه ورځي."
+          },
+          "coinjoin": {
+            "name": "Coinjoin",
+            "purpose": "خپل بیټکوین د نورو کاروونکو له سکو سره ګډ کړئ تر څو محصول د دننه ته ونه تړل شي."
+          },
+          "peerToPeer": {
+            "name": "له ډلې څخه ډلې",
+            "purpose": "بیټکوین د بل چا سره مستقیم یا د Bisq، HodlHodl یا RoboSats د دلال له لارې د فیات سره تبادله کړئ."
+          },
+          "spendDirectly": {
+            "name": "مستقیم یې مصرف کړئ",
+            "purpose": "د ډالۍ کارتونه (Amazon، Uber، خواړه، سفر) مستقیم له بیټکوین څخه واخلئ پرته له دې چې لومړی یې نقدې پیسو ته بدل کړئ."
+          }
+        }
+      },
+      "tumblers": {
+        "title": "د مرکزي tumblers څخه ډډه وکړئ",
+        "body": "د محافظ ګډونیز کوونکي کولای شي ستاسو سکې غلا کړي، ثبت کړي چې چا څه ولېږل، یا د قانون پلي کوونکو دامونه وي. د دې پر ځای د خاموش پرداختونو ټوپ یا غیر محافظه coinjoin وکاروئ."
+      }
+    }
+  },
+  "corporateSponsorship": {
+    "seoTitle": "شرکتي ملاتړ",
+    "seoDescription": "له {{appName}} سره شراکت وکړئ ترڅو هغه موخې تمویل کړئ چې اهمیت لري. د Agora د موخو فنډونو ته بسپنه ورکړئ، هغو کمپاینونو ته چې درته اهمیت لري بسپنې برابرې کړئ، یا {{appName}} د خپلو بشردوستانه نوښتونو د یوې برخې په توګه خپلو پیرودونکو ته وړاندې کړئ.",
+    "hero": {
+      "eyebrow": "له {{appName}} سره شراکت وکړئ",
+      "headlinePart1": "هغه څه تمویل کړئ چې",
+      "headlineHighlight": "اهمیت لري.",
+      "body": "{{appName}} بسپنه ورکوونکي د بټکوین له لارې مستقیماً موخو سره نښلوي. نه کنګل شوي حسابونه، نه منځګړي، او نه کوم پلیټفارم چې برخه اخلي. همدا نه سانسورېدونکې او شفافه ورکړه د خپل شرکت بشردوستۍ ته راولئ.",
+      "trustChips": {
+        "nonCustodial": "غیر محافظه",
+        "transparent": "پر زنځیر شفاف",
+        "noFees": "د پلیټفارم فیس نشته"
+      },
+      "ctaPrimary": "اړیکه ونیسئ",
+      "ctaSecondary": "د شراکت لارې وګورئ"
+    },
+    "intro": {
+      "eyebrow": "ولې شراکت",
+      "title": "داسې شرکتي ورکړه چې ستاسو له موخو سره سمون لري",
+      "lede": "مستقیمه، شفافه او د تایید وړ. داسې ورکړه چې ستاسو شرکت یې ملاتړ کولای شي.",
+      "cards": {
+        "bitcoin": {
+          "title": "پر بټکوین ولاړ پلیټفارم",
+          "body": "بسپنې د بټکوین پر بلاکچین تصفیه کېږي: بې پولې، نه درېدونکې، او هر څوک یې تاییدولای شي."
+        },
+        "verified": {
+          "title": "تصدیق شوي د کمپاین فنډونه",
+          "body": "هر کمپاین د پیسو له وېش دمخه ارزول کېږي او تصدیق کېږي."
+        },
+        "fees": {
+          "title": "د پلیټفارم فیس نشته",
+          "body": "ستاسو د ډالۍ ۱۰۰٪ موخې ته رسېږي. موږ هېڅ نه اخلو."
+        }
+      }
+    },
+    "ways": {
+      "eyebrow": "د ګډون لارې",
+      "title": "د شراکت درې لارې",
+      "lede": "هغه کچه غوره کړئ چې ستاسو شرکت سره برابره وي، یا درې واړه سره یوځای کړئ.",
+      "causeFunds": {
+        "kicker": "01 · مستقیم ملاتړ",
+        "title": "د {{appName}} د موخو فنډونو ته بسپنه ورکړئ",
+        "description": "د هغو موخو لپاره ګډ فنډونه چې درته اهمیت لري. {{appName}} یې تصدیق شویو او باوري کمپاینونو ته وېشي.",
+        "bullet1": "په بټکوین (BTC) یا امریکایي ډالرو (USD) ورکړه وکړئ",
+        "bullet2": "د لوی اغېز لپاره د نورو بسپنه ورکوونکو سره یوځای کېږي",
+        "bullet3": "تصدیق شویو او باوري کمپاینونو ته وېشل کېږي",
+        "cta": "د موخو فنډونه وپلټئ"
+      },
+      "matching": {
+        "kicker": "02 · اغېز څو چنده کړئ",
+        "title": "کمپاینونو ته بسپنې برابرې کړئ",
+        "description": "د برابرولو یو فنډ ژمن کړئ او موږ به د هر بسپنه ورکوونکي ډالۍ ستاسو تر ټاکلي بریده دوه چنده کړو. په دقت سره وټاکئ چې ستاسو شرکت د څه ملاتړ کوي:",
+        "bullet1": "یو ځانګړی کمپاین چې درته اهمیت لري برابر کړئ",
+        "bullet2": "یو ځانګړی شوی یا د ټیم له خوا ټاکل شوی کمپاین برابر کړئ",
+        "bullet3": "د {{appName}} د موخو فنډونه برابر کړئ ترڅو خپل اغېز په څو کمپاینونو کې څو چنده کړئ",
+        "cta": "برابرول جوړ کړئ"
+      },
+      "promote": {
+        "kicker": "03 · غږ پراخ کړئ",
+        "title": "{{appName}} خپلو پیرودونکو ته وړاندې کړئ",
+        "description": "خپل پیرودونکي راوبولئ چې ستاسو تر څنګ ورکړه وکړي او خپل رسښت د موخو لپاره په ریښتیني تمویل بدل کړئ.",
+        "bullet1": "د ګډ برانډ کمپاینونه او د بسپنو کمپاینونه",
+        "bullet2": "د پیرودلو پر مهال راګردول او د برابرولو وړاندیزونه",
+        "bullet3": "پر زنځیر راپورونه چې پیرودونکي یې تاییدولای شي",
+        "cta": "کمپاین پلان کړئ"
+      }
+    },
+    "fundsShowcase": {
+      "eyebrow": "د موخو فنډونه",
+      "title": "د {{appName}} د تصدیق شویو کمپاینونو فنډونه",
+      "lede": "هر فنډ بسپنې راټولوي او تصدیق شویو کمپاینونو ته یې وېشي.",
+      "browseAll": "یا ټول کمپاینونه وګورئ"
+    },
+    "cta": {
+      "eyebrow": "راځئ خبرې وکړو",
+      "title": "چمتو یاست چې خپل شرکت د یوې موخې تر شا ودروئ؟",
+      "body": "موږ ته ووایاست چې څنګه غواړئ ګډون وکړئ او موږ به له تاسو سره سم شراکت جوړ کړو: د موخو فنډ ته ډالۍ، د برابرولو فنډ، یا د پیرودونکو کمپاین.",
+      "button": "د {{appName}} له ټیم سره اړیکه ونیسئ",
+      "followLine": "Nostr غوره ګڼئ؟",
+      "followLink": "Team Soapbox تعقیب کړئ",
+      "followSuffix": " او موږ ته پیغام واستوئ."
+    }
+  },
+  "partners": {
+    "partnersTitle": "په همکارۍ سره جوړ کړئ:",
+    "pressTitle": "په رسنیو کې خپاره شوي:"
+  },
+  "walletDoubleTweak": {
+    "seoTitle": "د دوه‌ګونې سمونې SP ترمیم",
+    "seoDescription": "هغه خاموش پرداختونه بیرته راګرځوئ چې د یوه پخواني لیږنې باګ له امله په زنځیر کې پاتې شوي او خپل والټ ته یې راټول کړئ.",
+    "title": "د دوه‌ګونې سمونې SP ترمیم",
+    "heading": "پاتې شوي خاموش پرداختونه بیرته راګرځوئ",
+    "subheading": "د Agora یوې پخوانۍ بڼې ځینې د خاموش‌پرداخت محصولات ناسم کلي ته کوډ کړي وو، نو هغوی هیڅکله ستاسو په والټ کې نه ښکاره شول. دا اوزار د هغو محصولاتو لپاره زنځیر بیا سکن کوي او هر هغه چې ومومي ستاسو والټ ته یې راټولوي.",
+    "back": "شاته",
+    "loggedOut": "د هغه Nostr هویت سره ننوځئ چې خاموش پرداختونه یې ترلاسه کړل، ترڅو بیرته راګرځول وشي.",
+    "unsupported": {
+      "title": "والټ شتون نه لري",
+      "description": "بیرته راګرځولو ته داسې والټ اړتیا لري چې په محلي توګه لاسلیک وکړي. د دوام لپاره د خپل nsec سره ننوځئ."
+    },
+    "noIndexer": {
+      "title": "هیڅ د خاموش‌پرداخت اندیکسر نه دی تنظیم شوی",
+      "description": "د پاتې شویو پرداختونو سکن کولو لپاره د BIP-352 اندیکسر URL اړین دی. یو یې په والټ تنظیماتو کې وټاکئ او بیا هڅه وکړئ."
+    },
+    "scan": {
+      "title": "د پاتې شویو پرداختونو لپاره سکن وکړئ",
+      "description": "د سکن د پیل لپاره د بلاک لوړوالی وټاکئ. بیرته راګرځول له هغه ځایه تر زنځیر سر پورې هر بلاک ګوري.",
+      "fromHeightLabel": "د پیل بلاک لوړوالی",
+      "tipHint": "د زنځیر اوسنی سر: {{tip}}",
+      "start": "سکن",
+      "cancel": "سکن لغوه کړئ",
+      "progress": "بلاک {{current}} له {{to}} څخه سکن کیږي — {{found}} وموندل شول",
+      "tipMissing": "د زنځیر سر ټاکل کیږي…"
+    },
+    "noFunds": {
+      "title": "د بیرته راګرځولو لپاره څه نشته",
+      "description": "په سکن شوي ساحه کې هیڅ پاتې شوي خاموش پرداختونه ونه موندل شول. که د پیسو تمه مو لرله، د پیل لپاره مخکینی لوړوالی هڅه وکړئ."
+    },
+    "found": {
+      "title": "پاتې شوي پرداختونه وموندل شول",
+      "description": "دا محصولات بیرته ستاسو والټ ته راټولیدلی شي.",
+      "count": "محصولات",
+      "recoverable": "د بیرته راګرځولو وړ"
+    },
+    "destination": {
+      "title": "پیسې به دې ته ولیږل شي",
+      "description": "ستاسو په اوسني والټ کې یوه نوې ترلاسه کوونکې پته."
+    },
+    "sweepButton": "پیسې بیرته راګرځوئ",
+    "sweeping": "ستاسو پیسې بیرته راګرځول کیږي…",
+    "dontClose": "تر هغه دا پاڼه مه تړئ چې بیرته راګرځول بشپړ شي.",
+    "success": {
+      "title": "بیرته راګرځول بشپړ شول",
+      "sent": "{{sats}} ساتوشي ستاسو والټ ته بیرته راګرځول شول.",
+      "viewTx": "معامله وګورئ"
+    },
+    "error": {
+      "title": "بیرته راګرځول ناکام شول",
+      "tryAgain": "بیا هڅه"
+    },
+    "errors": {
+      "noDestination": "هیڅ منزل پته نشته. لومړی خپل والټ پرانیځئ.",
+      "noBlockbook": "هیڅ Blockbook سرور نه دی تنظیم شوی. یو یې په والټ تنظیماتو کې وټاکئ.",
+      "sweepGeneric": "د بیرته راګرځولو راټولونه بشپړه نشوه."
+    },
+    "toast": {
+      "successTitle": "پیسې بیرته راګرځول شوې",
+      "successDesc": "{{sats}} ساتوشي ستاسو والټ ته راټول شول."
+    },
+    "footnote": "دا ستاسو اوسني والټ ته یوازې یوطرفه راټولونه ده. یوازې اغیزمن خاموش پرداختونه لمس کیږي؛ بل هیڅ شی نه بدلیږي."
+  },
+  "support": {
+    "seoTitle": "کومه ستونزه ده؟",
+    "seoDescription": "په {{appName}} کې د نیمګړتیا یا ستونزې راپور ورکړئ، او وګورئ چې نورو دمخه څه راپور کړي دي.",
+    "title": "کومه ستونزه ده؟",
+    "subtitle": "په {{appName}} کې د ستونزې راپور ورکړئ، یا وګورئ چې دمخه پېژندل شوې ده که نه.",
+    "existingTitle": "پېژندل شوې ستونزې",
+    "openTracker": "ټریکر پرانیځئ",
+    "loadError": "شته راپورونه بار نشول. کېدای شي د ستونزو رېله لاسرسي وړ نه وي.",
+    "retry": "بیا هڅه وکړئ",
+    "noIssues": "تر اوسه څه راپور شوي نه دي.",
+    "hiddenByModerator": "پټ شوی",
+    "reportedBy": "د {{name}} لخوا · {{time}} وړاندې",
+    "showAttachments": "ضمیمې وښایاست ({{count}})",
+    "collapse": "لږ وښایاست",
+    "readMore": "نور ولولئ",
+    "viewInTracker": "په ټریکر کې وګورئ",
+    "status": {
+      "open": "خلاص",
+      "resolved": "حل شوی",
+      "closed": "تړل شوی",
+      "draft": "مسوده"
+    },
+    "moderation": {
+      "aria": "د دې راپور څارنه",
+      "failed": "د څارنې کړنه پاتې راغله",
+      "hidden": "راپور پټ شو",
+      "unhidden": "راپور بېرته وښودل شو",
+      "featured": "راپور ونښلول شو",
+      "unfeatured": "راپور له نښلولو لرې شو",
+      "pin": "د پېژندل شوې ستونزې په توګه ونښلوئ",
+      "unpin": "له نښلولو لرې کول",
+      "pinnedState": "نښلول شوی"
+    },
+    "formTitle": "راپور ثبت کړئ",
+    "form": {
+      "categoryLabel": "دا څه ډول ستونزه ده؟",
+      "category": {
+        "bug": "یو څه خراب دي",
+        "wallet": "والټ یا تادیه",
+        "content": "کمپاین یا منځپانګه",
+        "feature": "د نوې ځانګړتیا غوښتنه"
+      },
+      "subjectLabel": "لنډیز",
+      "subjectPlaceholder": "یوه کرښه چې ستونزه بیانوي",
+      "bodyLabel": "څه پېښ شول؟",
+      "bodyPlaceholder": "تاسو څه وکړل، څه مو تمه درلوده، او پرځای یې څه وشول؟",
+      "attachment": {
+        "add": "سکرین شاټ اضافه کړئ",
+        "uploading": "پورته کیږي…",
+        "item": "سکرین شاټ",
+        "remove": "سکرین شاټ لرې کړئ",
+        "failed": "د سکرین شاټ پورته کول پاتې راغلل"
+      },
+      "diagnosticsLabel": "د نسخې او وسیلې معلومات شامل کړئ",
+      "anonymousLabel": "په ناڅرګنده توګه وسپارئ",
+      "disclosureSigned": "راپورونه عامه دي او ستاسو د حساب لخوا لاسلیک کیږي.",
+      "disclosureAnonymous": "راپورونه عامه دي، د یوځل کارونې کیلي سره لاسلیک کیږي.",
+      "secretWarning": "داسې ښکاري چې حساس معلومات لري. دا به په عامه توګه خپور شي — لومړی هر محرم څیز لرې کړئ.",
+      "nsecBlocked": "دا هغه څه لري چې د شخصي کیلي (nsec) په څېر ښکاري. له سپارلو دمخه یې لرې کړئ — د هغې خپرول به د هغه حساب واک بل چا ته وسپاري.",
+      "secretKinds": {
+        "nsec": "شخصي کیلي",
+        "silentPayment": "د چوپې ورکړې پته",
+        "xpub": "غځېدلې عامه کیلي",
+        "bitcoinAddress": "د بټکوین پته",
+        "seedPhrase": "د Seed عبارت"
+      },
+      "submit": "راپور وسپارئ",
+      "submitting": "سپارل کیږي…",
+      "errors": {
+        "cooldown": "تاسو همدا اوس یو راپور وسپاره. د بل سپارلو دمخه یوه شیبه انتظار وکړئ.",
+        "failed": "راپور ثبت نشو"
+      }
+    },
+    "success": {
+      "title": "راپور ثبت شو",
+      "description": "مننه — اوس د پرمخ‌وړونکو د ستونزو په ټریکر کې دی.",
+      "copyId": "د راپور ID کاپي کړئ",
+      "copied": "کاپي شو",
+      "viewTracker": "په ټریکر کې وګورئ",
+      "fileAnother": "بل راپور ثبت کړئ"
+    },
+    "pinned": "نښلول شوی"
+  }
+}

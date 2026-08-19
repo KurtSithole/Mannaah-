@@ -1,0 +1,187 @@
+/**
+ * Hardcoded Agora-wide defaults that aren't user-configurable.
+ *
+ * Today this only holds the canonical "verified users" follow pack (kind 39089)
+ * that the sidebar's Verified entry points at. The naddr is the same WLC pack
+ * Pathos shipped — kept as a transitional default until an Agora-specific pack
+ * is published. To switch packs, replace `VERIFIED_FOLLOW_PACK_NADDR` below
+ * with a new naddr1... encoding any kind 30000 / 39089 follow pack/set.
+ */
+
+import { nip19 } from 'nostr-tools';
+
+/**
+ * NIP-19 naddr for the canonical Agora "verified users" follow pack.
+ * Currently points at the WLC pack Pathos shipped (transitional default).
+ *
+ * Decoded:
+ *   kind:       39089 (NIP-51 follow pack)
+ *   pubkey:     932614571afcbad4d17a191ee281e39eebbb41b93fac8fd87829622aeb112f4d
+ *   identifier: gllbeu7itctq
+ *   relays:     wss://relay.primal.net
+ */
+const VERIFIED_FOLLOW_PACK_NADDR =
+  'naddr1qqxxwmrvvfjh2dmfw33hgugpzemhxue69uhhyetvv9ujuurjd9kkzmpwdejhgq3qjvnpg4c6ljadf5t6ry0w9q0rnm4mksde87kglkrc993z46c39axsxpqqqzvtzxrjurt';
+
+const decoded = nip19.decode(VERIFIED_FOLLOW_PACK_NADDR);
+if (decoded.type !== 'naddr') {
+  throw new Error('VERIFIED_FOLLOW_PACK_NADDR must be an naddr');
+}
+
+/** Sidebar path for the in-app Verified page. */
+export const VERIFIED_PAGE_PATH = '/verified';
+
+/**
+ * Team Soapbox follow pack (kind 39089). The `p` tags of this pack form the
+ * authoritative list of campaign moderators — pubkeys allowed to sign
+ * approve / hide labels in the `agora.moderation` namespace (see NIP.md).
+ *
+ * Decoded:
+ *   kind:       39089 (NIP-51 follow pack)
+ *   pubkey:     932614571afcbad4d17a191ee281e39eebbb41b93fac8fd87829622aeb112f4d
+ *   identifier: k4p5w0n22suf
+ *
+ * Phase 1: the pack is fetched live every session. We accept the extra
+ * round-trip in exchange for not having to ship a code change every time a
+ * moderator is added or removed. If perf becomes a problem we can fall back
+ * to a hardcoded snapshot of the `p` tags — see the chat-with-opencode
+ * notes in `useCampaignModerators.ts` for the tradeoff.
+ */
+const teamSoapboxDecoded = nip19.decode(
+  'naddr1qvzqqqyckypzpyexz3t34l966ngh5xg7u2q788hthdqmj0av3lv8s2tz9t43zt6dqqxxkdrsx4mnqm3jxfeh2ess5pyrw',
+);
+if (teamSoapboxDecoded.type !== 'naddr') {
+  throw new Error('TEAM_SOAPBOX must decode to naddr');
+}
+
+export const TEAM_SOAPBOX = {
+  kind: teamSoapboxDecoded.data.kind,
+  pubkey: teamSoapboxDecoded.data.pubkey,
+  identifier: teamSoapboxDecoded.data.identifier,
+  relays: teamSoapboxDecoded.data.relays,
+} as const;
+
+/**
+ * The single pubkey allowed to author campaign **lists** (kind 30003 with
+ * the `agora.campaign-list` hashtag) and the list-of-lists index sentinel.
+ *
+ * This is deliberately narrower than the moderator allowlist
+ * ({@link CAMPAIGN_MODERATORS}). That allowlist governs **labels** —
+ * approve / hide moderation in the `agora.moderation` namespace — where
+ * any pack member is trusted to sign. Lists are an editorial surface (the
+ * home hero row, the topic strip) curated by one person (MK Fain / Team
+ * Soapbox), so a list authored by anyone else — including another
+ * moderator — is dropped before it reaches the UI.
+ *
+ * It happens to equal the follow-pack author (`TEAM_SOAPBOX.pubkey`),
+ * which is the same single admin identity, so we derive it from there
+ * rather than duplicating the hex.
+ */
+export const LIST_CURATOR_PUBKEY = TEAM_SOAPBOX.pubkey;
+
+/**
+ * Hardcoded snapshot of the campaign-moderator pubkeys — the `p` tags of
+ * the Team Soapbox follow pack ({@link TEAM_SOAPBOX}) as of the snapshot
+ * date below.
+ *
+ * These pubkeys form the authoritative allowlist for **labels**: who may
+ * sign approve / hide moderation in the `agora.moderation` namespace (see
+ * NIP.md and `useCampaignModerators`). A campaign appears on `/` and
+ * Discover only if one of these pubkeys labeled it `approved`; a `hidden`
+ * label from any of them always wins.
+ *
+ * **Why hardcoded.** The pack used to be fetched live every cold session
+ * (kind 39089), which put a single-relay round-trip — up to an 8s EOSE
+ * timeout — on the critical path of every moderation-gated surface. The
+ * roster changes rarely, so we snapshot it here and pay zero network cost.
+ * When the pack membership changes, update this array (and re-cut a
+ * release). Source of truth remains the on-relay pack; this is a copy.
+ *
+ * Snapshot taken from pack event `740838e6…fac76` (created_at 1779321391).
+ */
+export const CAMPAIGN_MODERATORS: readonly string[] = [
+  '781a1527055f74c1f70230f10384609b34548f8ab6a0a6caa74025827f9fdae5',
+  '0461fcbecc4c3374439932d6b8f11269ccdb7cc973ad7a50ae362db135a474dd',
+  '932614571afcbad4d17a191ee281e39eebbb41b93fac8fd87829622aeb112f4d',
+  '3f770d65d3a764a9c5cb503ae123e62ec7598ad035d836e2a810f3877a745b24',
+  '86184109eae937d8d6f980b4a0b46da4ef0d983eade403ee1b4c0b6bde238b47',
+  '47259076c85f9240e852420d7213c95e95102f1de929fb60f33a2c32570c98c4',
+  'ce97367c75d7d91fb9bc3bc6ff5bb3bdb52c18941bfce2f368616dcbf0adfd2f',
+  '0574536d3ef4d65faf95b42393610b8475d22f4c294649d46c50d5d36f75267c',
+  'be7358c4fe50148cccafc02ea205d80145e253889aa3958daafa8637047c840e',
+  '2093baa8621c5b255e8f4fc2c6fdfc10d8a5598a25517664efaba860735f1030',
+  '8f53782e8693e88afb710b6d68182ad973973c8822caa237bb60288b125673ca',
+  'c839bc85846f24fc6b777548fe654672377f4cc2a04cab19cddec75b2f8b4dbd',
+] as const;
+
+/**
+ * The two curator follow packs (kind 39089) whose members' verifications
+ * count as a **verified campaign** on the home page.
+ *
+ * A campaign is "verified" on `/` when at least one member of either pack
+ * has published an `agora.verified` label for it (see
+ * `useCampaignVerifications` for the label read path and `useVerifierPacks`
+ * for the live member union). The two packs are:
+ *
+ *  - **World Liberty Congress Verified** — `39089:<TS pubkey>:gllbeu7itctq`
+ *  - **Team Soapbox** — `39089:<TS pubkey>:k4p5w0n22suf`
+ *
+ * Both are authored by the Team Soapbox admin identity ({@link TEAM_SOAPBOX}
+ * `.pubkey`). We pin the read to that author so a kind 39089 with the same
+ * `d` from anyone else never widens the verifier set.
+ */
+export const FOLLOW_PACK_KIND = 39089;
+
+export const VERIFIER_FOLLOW_PACKS: readonly {
+  pubkey: string;
+  identifier: string;
+}[] = [
+  { pubkey: TEAM_SOAPBOX.pubkey, identifier: 'gllbeu7itctq' }, // WLC Verified
+  { pubkey: TEAM_SOAPBOX.pubkey, identifier: 'k4p5w0n22suf' }, // Team Soapbox
+] as const;
+
+/**
+ * Ranking order for **verified** campaigns on the home page, most-preferred
+ * first. When a verified campaign is NOT positioned by the featured list
+ * (see `FEATURED_LIST_SLUG` in the home page), it is ordered by the highest-
+ * priority verifier that vouched for it: a campaign verified by WLC ranks
+ * above one verified only by (say) Aaron.
+ *
+ * A verifier not in this list ranks after every listed verifier (i.e. any
+ * other member of either pack — "anyone else on either list"). Ties break
+ * by campaign `created_at` (newest first).
+ *
+ * Names for reference (resolved from the pack profiles):
+ *   1. WLC              56b3abb9…
+ *   2. Agora            2fb42317…
+ *   3. Team Soapbox     781a1527… (the "Soapbox" org account)
+ *   4. MK Fain          932614…
+ *   5. Leo              219b48ca…
+ *   6. Alex Gleason     0461fcbe…
+ *   7. Aaron Rodríguez  1094e722…
+ */
+export const VERIFICATION_PRIORITY: readonly string[] = [
+  '56b3abb9baed20b6ab81617aa519c8634e920ef0351d2962ec2951a9b233ab2f', // WLC
+  '2fb42317a9835e0fabb405aebbea6c61b6b2d384be7febe8125840b3516685fc', // Agora
+  '781a1527055f74c1f70230f10384609b34548f8ab6a0a6caa74025827f9fdae5', // Team Soapbox
+  '932614571afcbad4d17a191ee281e39eebbb41b93fac8fd87829622aeb112f4d', // MK Fain
+  '219b48caddc09ea21930b5b1be3830c4d28118d5da439de9302ebaf90b276a7b', // Leo
+  '0461fcbecc4c3374439932d6b8f11269ccdb7cc973ad7a50ae362db135a474dd', // Alex Gleason
+  '1094e7220b8ef0d04a3570afda9873d6b7fc0faf9139374d4d1580f9f2966d40', // Aaron
+] as const;
+
+/**
+ * Ordered slugs of the topic lists surfaced (in this order) at the top of
+ * the `/campaigns` page — each as a "row of 4 + view all" shelf. Slugs not
+ * present as a published list are skipped; published lists not in this
+ * array fall through to the "New campaigns" section like any other campaign.
+ */
+export const CAMPAIGNS_PAGE_LIST_ORDER: readonly string[] = [
+  'agora-funds',
+  'africa',
+  'palestine',
+  'venezuela',
+  'women-and-girls',
+  'democracy',
+  'children',
+] as const;

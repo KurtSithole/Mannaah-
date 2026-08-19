@@ -1,0 +1,459 @@
+import { useCallback, useEffect, useMemo, useRef } from 'react';
+import { useNostr } from '@nostrify/react';
+import { useInfiniteQuery, useQueryClient } from '@tanstack/react-query';
+import { Capacitor } from '@capacitor/core';
+import type { NostrEvent } from '@nostrify/nostrify';
+
+import { useCurrentUser } from './useCurrentUser';
+import { useEncryptedSettings } from './useEncryptedSettings';
+import { useFollowList } from './useFollowActions';
+import { ALL_NOTIFICATION_KINDS, getEnabledNotificationKinds } from '@/lib/notificationKinds';
+
+const PAGE_SIZE = 20;
+
+export interface NotificationItem {
+  /** The notification event (kind 1, 6, 16, 7, 9735, 8333, 1111, 1222, or 1244). */
+  event: NostrEvent;
+  /** The referenced event (the post that was liked/reposted/zapped), if available. */
+  referencedEvent?: NostrEvent;
+}
+
+/**
+ * A group of notification events that all refer to the same post/content and
+ * have the same interaction type (e.g. 5 people liking the same note).
+ *
+ * When `actors` has more than one entry the UI should condense them into a
+ * single row rather than repeating the referenced post card for each actor.
+ */
+export interface GroupedNotificationItem {
+  /**
+   * Stable key for React lists.  For multi-actor groups this is
+   * `<kind>:<referencedEventId>`.  For standalone items it's the event ID.
+   */
+  key: string;
+  /**
+   * The kind that describes this group.
+   * 7 = reaction, 6/16 = repost, 9735/8333 = zap, 1 = mention, 1111 = comment.
+   */
+  kind: number;
+  /** All notification events that belong to this group, newest-first. */
+  actors: NotificationItem[];
+  /**
+   * The post/content being acted upon (same for every actor in the group).
+   * Undefined for mentions and comments where the event IS the content.
+   */
+  referencedEvent?: NostrEvent;
+  /**
+   * True if ANY actor event in this group is newer than the read cursor
+   * (i.e. at least one event is unread).
+   */
+  isNew: boolean;
+  /** The timestamp of the newest actor event, used for ordering. */
+  newestAt: number;
+}
+
+interface NotificationPage {
+  items: NotificationItem[];
+  /** Oldest event timestamp in this page, used for cursor-based pagination. */
+  oldestTimestamp: number;
+}
+
+interface NotificationData {
+  /** All notification items (paginated, flattened). */
+  items: NotificationItem[];
+  /** Grouped / condensed notification items for rendering. */
+  groupedItems: GroupedNotificationItem[];
+  /** IDs of notifications newer than cursor (unread). */
+  newNotificationIds: Set<string>;
+  /** Whether there are any unread notifications. */
+  hasUnread: boolean;
+  /** Mark all current notifications as read. */
+  markAsRead: () => Promise<void>;
+  /** Loading state for the first page. */
+  isLoading: boolean;
+  /** Whether the query has completed at least once. */
+  hasFetched: boolean;
+  /** Whether more pages are available. */
+  hasNextPage: boolean;
+  /** Whether a next page is currently being fetched. */
+  isFetchingNextPage: boolean;
+  /** Fetch the next page. */
+  fetchNextPage: () => void;
+}
+
+/** Get the referenced event ID from an event's tags. */
+function getReferencedEventId(event: NostrEvent): string | undefined {
+  const eTag = event.tags.findLast(([name]) => name === 'e');
+  return eTag?.[1];
+}
+
+/**
+ * Returns a stable "group key" for a notification item.
+ * Events that share the same group key will be condensed into one row.
+ *
+ * Reactions, reposts, and zaps group by (kind-bucket, referencedEventId).
+ * Lightning (9735) and on-chain (8333) zaps share a single "zap" bucket.
+ * Mentions and comments each stand alone (group key == event id).
+ */
+function groupKey(item: NotificationItem): string {
+  const { event } = item;
+  const refId = item.referencedEvent?.id ?? getReferencedEventId(event);
+
+  if ((event.kind === 7 || event.kind === 6 || event.kind === 16 || event.kind === 9735 || event.kind === 8333) && refId) {
+    // Profile reactions (kind 7 on kind 0) are standalone — users can react
+    // to a profile multiple times, so each reaction gets its own notification.
+    const isProfileReaction = event.kind === 7 && (
+      item.referencedEvent?.kind === 0
+      || event.tags.some(([name, value]) => name === 'k' && value === '0')
+    );
+    if (isProfileReaction) {
+      return event.id;
+    }
+    // Use a canonical kind bucket so kind-6/16 reposts merge together, and
+    // lightning (9735) and on-chain (8333) zaps share a single "zap" group.
+    const bucket = event.kind === 6 || event.kind === 16
+      ? 'repost'
+      : event.kind === 9735 || event.kind === 8333
+      ? 'zap'
+      : String(event.kind);
+    return `${bucket}:${refId}`;
+  }
+
+  // Mentions (kind 1) and comments (kind 1111, 1222, 1244) are always standalone
+  return event.id;
+}
+
+/**
+ * Build condensed groups from a flat, newest-first list of notification items.
+ * Groups preserve the order of the first (newest) item that seeds each group.
+ */
+function buildGroups(
+  items: NotificationItem[],
+  newNotificationIds: Set<string>,
+): GroupedNotificationItem[] {
+  const groupMap = new Map<string, GroupedNotificationItem>();
+  const groupOrder: string[] = [];
+
+  for (const item of items) {
+    const key = groupKey(item);
+
+    if (!groupMap.has(key)) {
+      groupOrder.push(key);
+      groupMap.set(key, {
+        key,
+        kind: item.event.kind,
+        actors: [],
+        referencedEvent: item.referencedEvent,
+        isNew: false,
+        newestAt: item.event.created_at,
+      });
+    }
+
+    const group = groupMap.get(key)!;
+    // Skip if this pubkey is already represented in the group
+    if (group.actors.some((a) => a.event.pubkey === item.event.pubkey)) continue;
+    group.actors.push(item);
+
+    if (newNotificationIds.has(item.event.id)) {
+      group.isNew = true;
+    }
+
+    // Keep the newest timestamp in sync
+    if (item.event.created_at > group.newestAt) {
+      group.newestAt = item.event.created_at;
+    }
+
+    // If the first actor already had the referenced event, prefer that; otherwise
+    // use whichever actor first provided a referencedEvent.
+    if (!group.referencedEvent && item.referencedEvent) {
+      group.referencedEvent = item.referencedEvent;
+    }
+  }
+
+  return groupOrder.map((k) => groupMap.get(k)!);
+}
+
+/**
+ * Hook to query notifications with infinite scroll pagination and track unread status.
+ * Per-type preferences and the "only from people I follow" filter are applied at
+ * query time (relay-level), not client-side.
+ */
+export function useNotifications(): NotificationData {
+  const { nostr } = useNostr();
+  const queryClient = useQueryClient();
+  const { user } = useCurrentUser();
+  const { settings, updateSettings } = useEncryptedSettings();
+  const { data: followData } = useFollowList();
+
+  const prefs = settings?.notificationPreferences;
+
+  // Derive kinds from per-type prefs — changes cause a new relay query
+  const enabledKinds = useMemo(() => getEnabledNotificationKinds(prefs), [prefs]);
+  const kindsKey = [...enabledKinds].sort().join(',');
+
+  // Authors filter: when onlyFollowing is set, restrict to followed pubkeys
+  const followedPubkeys = useMemo(
+    () => followData?.pubkeys ?? [],
+    [followData?.pubkeys],
+  );
+  const onlyFollowing = prefs?.onlyFollowing === true;
+  // Only gate on the follow list when it's actually loaded (non-empty or follow list fetch done)
+  const authorsFilter = onlyFollowing && followedPubkeys.length > 0
+    ? followedPubkeys
+    : undefined;
+  const authorsKey = authorsFilter ? authorsFilter.slice().sort().join(',') : 'all';
+
+  const infiniteQuery = useInfiniteQuery<NotificationPage, Error>({
+    queryKey: ['notifications', user?.pubkey ?? '', kindsKey, authorsKey],
+    queryFn: async ({ pageParam, signal }) => {
+      if (!user) return { items: [], oldestTimestamp: Math.floor(Date.now() / 1000) };
+
+      const filter: Record<string, unknown> = {
+        kinds: enabledKinds,
+        '#p': [user.pubkey],
+        limit: PAGE_SIZE,
+      };
+      if (authorsFilter) {
+        filter.authors = authorsFilter;
+      }
+      if (pageParam) {
+        filter.until = pageParam;
+      }
+
+      const events = await nostr.query(
+        [filter as { kinds: number[]; '#p': string[]; limit: number; authors?: string[]; until?: number }],
+        { signal: AbortSignal.any([signal, AbortSignal.timeout(5000)]) },
+      );
+
+      const rawEvents = Array.isArray(events) ? events : [];
+
+      // Filter out own events and sort
+      const filtered = rawEvents
+        .filter((e) => e.pubkey !== user.pubkey)
+        .sort((a, b) => b.created_at - a.created_at);
+
+      // Track oldest timestamp from the raw query for pagination
+      const oldestTimestamp = filtered.length > 0
+        ? Math.min(...filtered.map((e) => e.created_at))
+        : Math.floor(Date.now() / 1000);
+
+      // Collect referenced event IDs for batch fetching
+      const referencedIds: string[] = [];
+      for (const ev of filtered) {
+        // kind 1 (mention) and voice messages (1222/1244) ARE the notification content;
+        // kind 1111 (comment) IS the content but we also fetch the parent for context.
+        if (ev.kind !== 1 && ev.kind !== 1222 && ev.kind !== 1244) {
+          const refId = getReferencedEventId(ev);
+          if (refId) referencedIds.push(refId);
+        }
+      }
+
+      // Batch-fetch referenced events in a single query
+      const referencedMap = new Map<string, NostrEvent>();
+      if (referencedIds.length > 0) {
+        // Check query cache first, only fetch IDs we don't have
+        const uncachedIds: string[] = [];
+        for (const id of referencedIds) {
+          const cached = queryClient.getQueryData<NostrEvent | null>(['event', id]);
+          if (cached) {
+            referencedMap.set(id, cached);
+          } else {
+            uncachedIds.push(id);
+          }
+        }
+
+        if (uncachedIds.length > 0) {
+          try {
+            const refEvents = await nostr.query(
+              [{ ids: uncachedIds, limit: uncachedIds.length }],
+              { signal: AbortSignal.any([signal, AbortSignal.timeout(5000)]) },
+            );
+            for (const refEv of refEvents) {
+              referencedMap.set(refEv.id, refEv);
+              // Seed the event cache so NoteCard sub-queries resolve instantly
+              if (!queryClient.getQueryData(['event', refEv.id])) {
+                queryClient.setQueryData(['event', refEv.id], refEv);
+              }
+            }
+          } catch {
+            // Timeout — referenced events will load individually via useEvent
+          }
+        }
+      }
+
+      // Build notification items, filtering out reactions/reposts on posts the
+      // user didn't author (i.e. they were only tagged in them).
+      const items: NotificationItem[] = filtered.flatMap((ev) => {
+        const refId = (ev.kind !== 1 && ev.kind !== 1222 && ev.kind !== 1244) ? getReferencedEventId(ev) : undefined;
+        const referencedEvent = refId ? referencedMap.get(refId) : undefined;
+
+        // For reactions (7) and reposts (6, 16), only exclude if we know for
+        // certain the referenced post belongs to someone else.  When the
+        // referenced event couldn't be fetched (timeout / missing from relay),
+        // keep the notification — it's better to show a notification with
+        // missing context than to silently drop it.
+        if (ev.kind === 7 || ev.kind === 6 || ev.kind === 16) {
+          if (referencedEvent && referencedEvent.pubkey !== user.pubkey) return [];
+        }
+
+        // Zaps (9735 lightning, 8333 on-chain) don't need the author-ownership
+        // check at all: the query already filters by `#p: [user.pubkey]`, which
+        // means the zap event explicitly names the current user as the recipient.
+        // Profile-level zaps (no `e` tag) are also valid notifications.
+
+        return [{ event: ev, referencedEvent }];
+      });
+
+      return { items, oldestTimestamp };
+    },
+    getNextPageParam: (lastPage) => {
+      if (!lastPage || lastPage.items.length === 0) return undefined;
+      return lastPage.oldestTimestamp - 1;
+    },
+    initialPageParam: undefined as number | undefined,
+    enabled: !!user,
+    staleTime: 30_000,
+    refetchInterval: Capacitor.isNativePlatform() ? false : 60_000,
+  });
+
+  const {
+    data,
+    isLoading,
+    isFetched,
+    hasNextPage,
+    isFetchingNextPage,
+    fetchNextPage,
+  } = infiniteQuery;
+
+  // Real-time subscription: open a persistent REQ with `since: now` so new
+  // notifications are detected immediately instead of waiting for the next poll.
+  // When any new event arrives, invalidate the query cache to trigger a refetch.
+  useEffect(() => {
+    if (!user || Capacitor.isNativePlatform()) return;
+
+    const ac = new AbortController();
+    const since = Math.floor(Date.now() / 1000);
+
+    (async () => {
+      try {
+        for await (const msg of nostr.req(
+          [{
+            kinds: [...ALL_NOTIFICATION_KINDS],
+            '#p': [user.pubkey],
+            since,
+          }],
+          { signal: ac.signal },
+        )) {
+          if (msg[0] === 'EVENT') {
+            const ev = msg[2];
+            // Ignore own events
+            if (ev.pubkey === user.pubkey) continue;
+            // New notification arrived — invalidate both the full list and the
+            // unread indicator so the UI updates immediately.
+            queryClient.invalidateQueries({ queryKey: ['notifications', user.pubkey] });
+            queryClient.invalidateQueries({ queryKey: ['notifications-unread', user.pubkey] });
+          }
+        }
+      } catch {
+        // AbortError on cleanup — expected
+      }
+    })();
+
+    return () => ac.abort();
+  }, [nostr, user, queryClient]);
+
+  // Flatten and deduplicate across pages
+  const items = useMemo(() => {
+    if (!data?.pages) return [];
+    const seen = new Set<string>();
+    return data.pages.flatMap((page) => page.items).filter((item) => {
+      if (seen.has(item.event.id)) return false;
+      seen.add(item.event.id);
+      return true;
+    });
+  }, [data?.pages]);
+
+  // Only use cursor if settings have actually loaded, otherwise null
+  const remoteCursor = settings !== undefined && settings !== null
+    ? (settings.notificationsCursor ?? 0)
+    : null;
+
+  // Optimistic local cursor — updated immediately on markAsRead so that
+  // newNotificationIds collapses to empty before the query cache catches up,
+  // preventing the NotificationsPage effect from re-triggering markAsRead.
+  const optimisticCursor = useRef<number | null>(null);
+  const notificationsCursor = optimisticCursor.current !== null
+    ? Math.max(optimisticCursor.current, remoteCursor ?? 0)
+    : remoteCursor;
+
+  // Build set of unread notification IDs
+  const newNotificationIds = useMemo(() => {
+    if (notificationsCursor === null) return new Set<string>();
+    return new Set(
+      items
+        .filter((item) => item.event.created_at > notificationsCursor)
+        .map((item) => item.event.id),
+    );
+  }, [items, notificationsCursor]);
+
+  const hasUnread = notificationsCursor !== null && newNotificationIds.size > 0;
+
+  // Build grouped items for condensed display
+  const groupedItems = useMemo(
+    () => buildGroups(items, newNotificationIds),
+    [items, newNotificationIds],
+  );
+
+  // Mark all current notifications as read by updating the cursor
+  const markAsRead = useCallback(async () => {
+    if (!user || items.length === 0 || notificationsCursor === null) return;
+
+    const newestTimestamp = Math.max(...items.map((item) => item.event.created_at));
+
+    if (newestTimestamp <= notificationsCursor) return;
+
+    // Update optimistic cursor immediately so unread state clears before
+    // the query cache updates, preventing re-trigger loops.
+    optimisticCursor.current = newestTimestamp;
+
+    try {
+      await updateSettings.mutateAsync({
+        notificationsCursor: newestTimestamp,
+      });
+      // Immediately clear the nav dot — use setQueriesData with a partial key
+      // match because useHasUnreadNotifications uses a 4-element key
+      // ['notifications-unread', pubkey, kindsKey, authorsKey] and setQueryData
+      // requires an exact match (which silently misses the real cache entry).
+      //
+      // NOTE: We intentionally do NOT call invalidateQueries here. Invalidation
+      // triggers an immediate refetch whose queryFn closure may still hold the
+      // old notificationsCursor (from a render before the settings cache update
+      // propagates). That stale refetch re-queries the relay with the old
+      // `since` value, finds the same "unread" events, returns `true`, and
+      // overwrites the `false` we just set — causing the dot to reappear.
+      // The 60-second poll (or real-time subscription) will naturally
+      // re-evaluate once the cursor has fully propagated.
+      queryClient.setQueriesData<boolean>(
+        { queryKey: ['notifications-unread', user.pubkey] },
+        false,
+      );
+    } catch (error) {
+      console.error('Failed to mark notifications as read:', error);
+      optimisticCursor.current = null;
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [user?.pubkey, items.length, notificationsCursor]);
+
+  return {
+    items,
+    groupedItems,
+    newNotificationIds,
+    hasUnread,
+    markAsRead,
+    isLoading,
+    hasFetched: isFetched,
+    hasNextPage: hasNextPage ?? false,
+    isFetchingNextPage,
+    fetchNextPage,
+  };
+}

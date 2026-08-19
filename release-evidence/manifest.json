@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-13T16:19:06.812Z",
+  "node": "v22.16.0",
+  "platform": "linux",
+  "environment": "ci",
+  "checks": [
+    {
+      "name": "required:package.json",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "required:package-lock.json",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "required:.gitlab-ci.yml",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "required:Dockerfile",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "required:nginx.conf",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "required:docs/MAINNET_READINESS_MATRIX.md",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "required:docs/STAGING_RUNBOOK.md",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "node-engine",
+      "status": "PASS",
+      "details": ">=22"
+    },
+    {
+      "name": "lockfile-v3+",
+      "status": "PASS",
+      "details": "3"
+    },
+    {
+      "name": "static-security-script",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "release-gate-script",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "public-config-secret-scan",
+      "status": "PASS",
+      "details": ""
+    }
+  ],
+  "hashes": {
+    "package.json": "4e7023529b9e0421aa8d31fe07100f5d8b63274fbc8b2300fa021026c696e601",
+    "package-lock.json": "60fdf2186e860c7ece2c798460127687b2cb97ba55a6b63dcec06c1cbed94efd",
+    ".gitlab-ci.yml": "d53c50c0f55228712227b7819852588de8e90dbe0a06734cf3fe7746a230b4d8"
+  },
+  "note": "This manifest records evidence available to the execution environment. It does not assert successful payment, signer-recovery, privacy, or staging E2E tests unless those tests have actually been executed."
+}
