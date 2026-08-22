@@ -1,0 +1,270 @@
+const express = require('express');
+const cors = require('cors');
+const axios = require('axios');
+const QRCode = require('qrcode');
+
+const app = express();
+const PORT = process.env.PORT || 8787;
+
+// Development/test destination only.
+// Do NOT use this as a production campaign configuration.
+const TEST_LIGHTNING_ADDRESS =
+  process.env.TEST_LIGHTNING_ADDRESS || 'fittingstretch95@walletofsatoshi.com';
+
+// Development payment registry.
+// In production this must be replaced by persistent storage.
+const payments = new Map();
+
+app.use(cors());
+app.use(express.json());
+
+function parseLightningAddress(address) {
+  if (typeof address !== 'string' || !address.includes('@')) {
+    throw new Error('Invalid Lightning Address');
+  }
+
+  const [username, domain] = address.split('@');
+
+  if (!username || !domain || address.split('@').length !== 2) {
+    throw new Error('Invalid Lightning Address');
+  }
+
+  return { username, domain };
+}
+
+async function resolveLightningAddress(address) {
+  const { username, domain } = parseLightningAddress(address);
+
+  const url =
+    `https://${domain}/.well-known/lnurlp/` +
+    encodeURIComponent(username);
+
+  const response = await axios.get(url, {
+    timeout: 10000,
+    validateStatus: () => true
+  });
+
+  if (response.status !== 200) {
+    throw new Error(`Lightning Address lookup failed (${response.status})`);
+  }
+
+  const data = response.data;
+
+  if (!data || data.tag !== 'payRequest' || !data.callback) {
+    throw new Error('Invalid LNURL-pay response');
+  }
+
+  if (
+    typeof data.minSendable !== 'number' ||
+    typeof data.maxSendable !== 'number'
+  ) {
+    throw new Error('Lightning provider did not supply payment limits');
+  }
+
+  return data;
+}
+
+async function createLightningInvoice(address, amountSats) {
+  const metadata = await resolveLightningAddress(address);
+
+  const amountMsat = Math.round(Number(amountSats) * 1000);
+
+  if (!Number.isSafeInteger(amountMsat) || amountMsat <= 0) {
+    throw new Error('Invalid payment amount');
+  }
+
+  if (
+    amountMsat < metadata.minSendable ||
+    amountMsat > metadata.maxSendable
+  ) {
+    throw new Error(
+      `Amount outside Lightning Address limits (${metadata.minSendable}–${metadata.maxSendable} msat)`
+    );
+  }
+
+  const response = await axios.get(metadata.callback, {
+    params: { amount: amountMsat },
+    timeout: 10000,
+    validateStatus: () => true
+  });
+
+  if (response.status !== 200) {
+    throw new Error(`Lightning invoice request failed (${response.status})`);
+  }
+
+  const data = response.data;
+
+  if (!data || typeof data.pr !== 'string' || !data.pr.startsWith('ln')) {
+    throw new Error('Lightning provider did not return a valid invoice');
+  }
+
+  return {
+    invoice: data.pr,
+    metadata
+  };
+}
+
+app.get('/health', (req, res) => {
+  res.json({
+    ok: true,
+    service: 'mannaah-payment-service',
+    custody: 'non-custodial',
+    lightning: 'lnurl-pay',
+    bitcoin: 'not-configured'
+  });
+});
+
+app.post('/api/payment/create', async (req, res) => {
+  const { campaignId, amount, method } = req.body || {};
+
+  if (!campaignId) {
+    return res.status(400).json({
+      error: 'campaignId is required'
+    });
+  }
+
+  const amountSats = Number(amount);
+
+  if (!Number.isFinite(amountSats) || amountSats <= 0) {
+    return res.status(400).json({
+      error: 'amount must be greater than zero'
+    });
+  }
+
+  if (method !== 'Lightning') {
+    return res.status(400).json({
+      error: 'Only Lightning payments are currently enabled'
+    });
+  }
+
+  // Development mapping.
+  // Only Fatima is connected to the test destination.
+  const destinations = {
+    fatima: TEST_LIGHTNING_ADDRESS
+  };
+
+  const lightningAddress = destinations[campaignId];
+
+  if (!lightningAddress) {
+    return res.status(409).json({
+      status: 'unconfigured',
+      message: 'This campaign is not yet connected to a Lightning destination.'
+    });
+  }
+
+  try {
+    const result = await createLightningInvoice(
+      lightningAddress,
+      amountSats
+    );
+
+    const paymentId =
+      'pay_' + Date.now().toString(36) + '_' +
+      Math.random().toString(36).slice(2, 10);
+
+    const qrDataUrl = await QRCode.toDataURL(result.invoice, {
+      errorCorrectionLevel: 'M',
+      margin: 2,
+      width: 320
+    });
+
+    payments.set(paymentId, {
+      paymentId,
+      campaignId,
+      amount: amountSats,
+      method: 'Lightning',
+      lightningAddress,
+      invoice: result.invoice,
+      status: 'pending',
+      createdAt: new Date().toISOString()
+    });
+
+    return res.json({
+      status: 'ready',
+      method: 'Lightning',
+      paymentId,
+      campaignId,
+      amount: amountSats,
+      lightningAddress,
+      invoice: result.invoice,
+      qrDataUrl,
+      verification: {
+        status: 'pending',
+        automatic: false
+      }
+    });
+  } catch (error) {
+    console.error('Lightning payment creation failed:', error.message);
+
+    return res.status(502).json({
+      status: 'error',
+      message: error.message || 'Unable to create Lightning invoice'
+    });
+  }
+});
+
+
+app.get('/api/payment/status/:paymentId', (req, res) => {
+  const payment = payments.get(req.params.paymentId);
+
+  if (!payment) {
+    return res.status(404).json({
+      status: 'not_found',
+      message: 'Payment not found'
+    });
+  }
+
+  return res.json({
+    status: payment.status,
+    paymentId: payment.paymentId,
+    campaignId: payment.campaignId,
+    amount: payment.amount,
+    method: payment.method,
+    createdAt: payment.createdAt,
+    verifiedAt: payment.verifiedAt || null
+  });
+});
+
+// Provider/webhook boundary.
+// A real Lightning receiving provider or node can call this endpoint
+// after independently verifying settlement.
+// We deliberately do not expose a browser endpoint that can mark
+// a payment as paid.
+app.post('/api/payment/webhook', (req, res) => {
+  const { paymentId, status, verifiedAt } = req.body || {};
+
+  if (!paymentId) {
+    return res.status(400).json({
+      error: 'paymentId is required'
+    });
+  }
+
+  const payment = payments.get(paymentId);
+
+  if (!payment) {
+    return res.status(404).json({
+      error: 'Payment not found'
+    });
+  }
+
+  if (status !== 'paid') {
+    return res.status(400).json({
+      error: 'Only a verified paid status is accepted'
+    });
+  }
+
+  payment.status = 'paid';
+  payment.verifiedAt = verifiedAt || new Date().toISOString();
+
+  return res.json({
+    status: 'paid',
+    paymentId: payment.paymentId,
+    verifiedAt: payment.verifiedAt
+  });
+});
+
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(
+    `Mannaah payment service listening on http://0.0.0.0:${PORT}`
+  );
+});

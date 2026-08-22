@@ -1,0 +1,49 @@
+const express = require('express');
+const cors = require('cors');
+
+const app = express();
+const PORT = process.env.PORT || 8787;
+
+app.use(cors());
+app.use(express.json());
+
+app.get('/health', (req, res) => {
+  res.json({
+    ok: true,
+    service: 'mannaah-payment-service',
+    custody: 'non-custodial',
+    lightning: 'not-configured',
+    bitcoin: 'not-configured'
+  });
+});
+
+app.post('/api/payment/create', (req, res) => {
+  const { campaignId, amount, method } = req.body || {};
+
+  if (!campaignId) {
+    return res.status(400).json({
+      error: 'campaignId is required'
+    });
+  }
+
+  if (!amount || Number(amount) <= 0) {
+    return res.status(400).json({
+      error: 'amount must be greater than zero'
+    });
+  }
+
+  if (!['Lightning', 'Bitcoin'].includes(method)) {
+    return res.status(400).json({
+      error: 'unsupported payment method'
+    });
+  }
+
+  return res.status(501).json({
+    status: 'not_configured',
+    message: 'Payment rail is not configured yet.'
+  });
+});
+
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`Mannaah payment service listening on http://0.0.0.0:${PORT}`);
+});
