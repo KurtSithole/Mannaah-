@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import { Loader2 } from "lucide-react";
 import { Toaster } from "./components/ui/toaster";
 import { TopNav } from "./components/TopNav";
+import { MannaahNav } from "./components/MannaahNav";
 import { OnboardingGate } from "./components/OnboardingGate";
 import { ScrollToTop } from "./components/ScrollToTop";
 import { VersionCheck } from "./components/VersionCheck";
@@ -102,13 +103,6 @@ function SiteFooter() {
   return (
     <footer className="bg-background mt-auto pt-6 sm:pt-12">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 py-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-muted-foreground">
-        <button
-          type="button"
-          onClick={() => void openUrl("https://gitlab.com/soapbox-pub/agora")}
-          className="hover:text-foreground motion-safe:transition-colors"
-        >
-          {t('nav.sourceCode')}
-        </button>
         <nav className="flex items-center gap-5">
           <Link to="/about" className="hover:text-foreground motion-safe:transition-colors">{t('nav.about')}</Link>
           <Link to="/sponsors" className="hover:text-foreground motion-safe:transition-colors">{t('nav.sponsors')}</Link>
@@ -130,10 +124,18 @@ function SiteFooter() {
  * form/prose-style pages, wide (full width) for landing / dashboard / detail
  * pages that render their own internal layout.
  */
-function FundraiserLayout({ narrow, hideFooter }: { narrow: boolean; hideFooter?: boolean }) {
+function FundraiserLayout({
+  narrow,
+  hideFooter,
+  mannaah = false,
+}: {
+  narrow: boolean;
+  hideFooter?: boolean;
+  mannaah?: boolean;
+}) {
   return (
     <div className={cn('flex flex-col bg-background', hideFooter ? 'h-dvh overflow-hidden' : 'min-h-dvh')}>
-      <TopNav />
+      {mannaah ? <MannaahNav /> : <TopNav />}
       <Suspense fallback={<PageSkeleton />}>
         <div
           className={cn('min-w-0 w-full flex-1 mx-auto', hideFooter && 'min-h-0', narrow && 'max-w-3xl')}
@@ -174,7 +176,7 @@ export function AppRouter() {
 
         {/* Narrow layout — `max-w-3xl` center column. The default for
             form/prose-style pages. */}
-        <Route element={<FundraiserLayout narrow />}>
+        <Route element={<FundraiserLayout narrow mannaah />}>
           <Route path="/feed" element={<Index />} />
           <Route path="/my-dashboard" element={<MyDashboardPage />} />
           <Route path="/notifications" element={<NotificationsPage />} />
@@ -242,7 +244,7 @@ export function AppRouter() {
         {/* Wide layout — no max-width on the center column. Used by landing /
             list / detail pages that render their own internal width
             constraints. */}
-        <Route element={<FundraiserLayout narrow={false} />}>
+        <Route element={<FundraiserLayout narrow={false} mannaah />}>
           <Route path="/" element={<MannaahHomePage />} />
           <Route path="/campaigns" element={<AllCampaignsPage />} />
           <Route path="/campaigns/new" element={<CreateCampaignPage />} />

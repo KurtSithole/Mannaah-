@@ -46,6 +46,7 @@ const paymentAdapter={
       method:'Lightning',
       lightningAddress:payment.lightningAddress,
       invoice:payment.invoice,
+      qrDataUrl:payment.qrDataUrl,
       amount:payment.amount
     };
   }
@@ -131,7 +132,7 @@ async function preparePayment(method){
       <strong>Reference:</strong> ${donation.ref}
     </div>
     <p>Scan the QR code or copy the Lightning invoice into your Lightning wallet.</p>
-    <div class=qr>${payment.invoice}</div>
+    <div class=qr><img src="${payment.qrDataUrl}" alt="Lightning payment QR code" style="width:320px;max-width:100%;height:auto;display:block;margin:0 auto;"></div>
     <div class=notice>
       <strong>Payment not yet verified.</strong><br>
       Mannaah has created the invoice, but it will not mark this donation as paid until settlement can be independently verified.
