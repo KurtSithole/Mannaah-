@@ -21,7 +21,7 @@ const paymentAdapter={
       throw new Error('Only Lightning payments are currently enabled');
     }
 
-    const response=await fetch('https://refactored-goldfish-gx59wr7gjvrxhv646-8787.app.github.dev/api/payment/create',{
+    const response=await fetch('/api/payment/create',{
       method:'POST',
       headers:{'Content-Type':'application/json'},
       body:JSON.stringify({
@@ -31,23 +31,7 @@ const paymentAdapter={
       })
     });
 
-    const contentType = response.headers.get('content-type') || '';
-    const raw = await response.text();
-
-    let payment;
-    try {
-      payment = JSON.parse(raw);
-    } catch (parseError) {
-      console.error('Mannaah payment response was not JSON:', {
-        status: response.status,
-        contentType,
-        body: raw.slice(0, 500)
-      });
-
-      throw new Error(
-        `Payment service returned non-JSON (${response.status}, ${contentType || 'no content-type'})`
-      );
-    }
+    const payment=await response.json();
 
     if(!response.ok){
       if(payment.status==='unconfigured'){
