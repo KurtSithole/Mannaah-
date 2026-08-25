@@ -37,11 +37,14 @@ jobs:
           node-version: "22"
           cache: npm
 
-      - name: Install dependencies and build
+      - name: Prepare canonical Mannaah build
         run: |
-          npm install
-          npm run build
-          cp dist/index.html dist/404.html
+          rm -rf dist
+          mkdir -p dist
+          cp mannaah-standalone/Mannaah_CANONICAL.html dist/index.html
+          cp mannaah-standalone/Mannaah_CANONICAL.html dist/404.html
+          echo "Canonical Mannaah build prepared:"
+          ls -lh dist/index.html dist/404.html
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
