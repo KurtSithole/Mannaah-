@@ -128,6 +128,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '');
 
   return {
+  base: '/Mannaah-/',
   server: {
     host: "::",
     port: 8080,
