@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const express = require('express');
 const cors = require('cors');
 const axios = require('axios');
@@ -16,6 +18,10 @@ const TEST_LIGHTNING_ADDRESS =
 // In production this must be replaced by persistent storage.
 const payments = new Map();
 
+// Blockchain outputs already credited during this service lifetime.
+// Production should persist this registry.
+const settledBitcoinOutputs = new Set();
+
 // Development campaign accounting.
 // In production this must be replaced by persistent storage.
 const campaignTotals = new Map([
@@ -32,6 +38,25 @@ const PAYMENT_WEBHOOK_SECRET =
 const BTCPAY_URL = (process.env.BTCPAY_URL || '').replace(/\/$/, '');
 const BTCPAY_STORE_ID = process.env.BTCPAY_STORE_ID || '';
 const BTCPAY_API_KEY = process.env.BTCPAY_API_KEY || '';
+
+// Bitcoin on-chain verification.
+// The blockchain is the source of truth for Bitcoin settlement.
+const BITCOIN_EXPLORER_URL =
+  (process.env.BITCOIN_EXPLORER_URL || 'https://blockstream.info/api').replace(/\/$/, '');
+
+const BITCOIN_CONFIRMATIONS_REQUIRED =
+  Math.max(1, Number.parseInt(
+    process.env.BITCOIN_CONFIRMATIONS_REQUIRED || '1',
+    10
+  ) || 1);
+
+// Campaign receiving addresses.
+// These are public addresses only; no private keys belong in this service.
+const bitcoinDestinations = {
+  fatima: process.env.FATIMA_BTC_ADDRESS || '',
+  abdul: process.env.ABDUL_BTC_ADDRESS || '',
+  shirin: process.env.SHIRIN_BTC_ADDRESS || ''
+};
 
 
 app.use(cors());
@@ -123,13 +148,296 @@ async function createLightningInvoice(address, amountSats) {
   };
 }
 
+function getBitcoinAddress(campaignId) {
+  const address = bitcoinDestinations[campaignId];
+
+  if (!address) {
+    throw new Error(
+      'This campaign is not yet connected to a Bitcoin destination.'
+    );
+  }
+
+  return address;
+}
+
+async function getBitcoinAddressTransactions(address) {
+  const response = await axios.get(
+    `${BITCOIN_EXPLORER_URL}/address/${encodeURIComponent(address)}/txs`,
+    {
+      timeout: 10000,
+      validateStatus: () => true
+    }
+  );
+
+  if (response.status !== 200) {
+    throw new Error(
+      `Bitcoin explorer transaction lookup failed (${response.status})`
+    );
+  }
+
+  if (!Array.isArray(response.data)) {
+    throw new Error('Bitcoin explorer returned an invalid transaction list');
+  }
+
+  return response.data;
+}
+
+async function getBitcoinTransaction(txid) {
+  const response = await axios.get(
+    `${BITCOIN_EXPLORER_URL}/tx/${encodeURIComponent(txid)}`,
+    {
+      timeout: 10000,
+      validateStatus: () => true
+    }
+  );
+
+  if (response.status !== 200) {
+    throw new Error(
+      `Bitcoin transaction lookup failed (${response.status})`
+    );
+  }
+
+  return response.data;
+}
+
+function getTransactionConfirmations(transaction, tipHeight) {
+  if (!transaction || !transaction.status) {
+    return 0;
+  }
+
+  if (!transaction.status.confirmed) {
+    return 0;
+  }
+
+  if (
+    !Number.isSafeInteger(transaction.status.block_height) ||
+    !Number.isSafeInteger(tipHeight)
+  ) {
+    return 0;
+  }
+
+  return Math.max(
+    0,
+    tipHeight - transaction.status.block_height + 1
+  );
+}
+
+async function getBitcoinTipHeight() {
+  const response = await axios.get(
+    `${BITCOIN_EXPLORER_URL}/blocks/tip/height`,
+    {
+      timeout: 10000,
+      validateStatus: () => true
+    }
+  );
+
+  if (response.status !== 200) {
+    throw new Error(
+      `Bitcoin explorer tip lookup failed (${response.status})`
+    );
+  }
+
+  const height = Number(response.data);
+
+  if (!Number.isSafeInteger(height) || height <= 0) {
+    throw new Error('Bitcoin explorer returned an invalid tip height');
+  }
+
+  return height;
+}
+
+/*
+ * Verify Bitcoin settlement from the blockchain.
+ *
+ * We deliberately do NOT trust:
+ * - the browser
+ * - a client-supplied "paid" flag
+ * - a client-supplied txid
+ *
+ * We discover transactions from the configured campaign address,
+ * verify the destination output, then track confirmations.
+ */
+async function verifyBitcoinPayment(payment) {
+  const transactions =
+    await getBitcoinAddressTransactions(payment.bitcoinAddress);
+
+  const tipHeight = await getBitcoinTipHeight();
+
+  for (const transactionSummary of transactions) {
+    if (!transactionSummary || typeof transactionSummary.txid !== 'string') {
+      continue;
+    }
+
+    const transaction = await getBitcoinTransaction(
+      transactionSummary.txid
+    );
+
+    if (!transaction || !Array.isArray(transaction.vout)) {
+      continue;
+    }
+
+    // Do not associate an already-confirmed transaction from before
+    // this payment intent was created.
+    if (
+      transaction.status &&
+      transaction.status.confirmed &&
+      Number.isSafeInteger(transaction.status.block_time)
+    ) {
+      const transactionTime = transaction.status.block_time * 1000;
+      const paymentCreatedAt = Date.parse(payment.createdAt);
+
+      if (
+        Number.isFinite(paymentCreatedAt) &&
+        transactionTime < paymentCreatedAt
+      ) {
+        continue;
+      }
+    }
+
+    let matchingOutput = null;
+
+    for (let vout = 0; vout < transaction.vout.length; vout += 1) {
+      const output = transaction.vout[vout];
+
+      if (!output || !output.scriptpubkey_address) {
+        continue;
+      }
+
+      if (output.scriptpubkey_address !== payment.bitcoinAddress) {
+        continue;
+      }
+
+      const valueSats = Number(output.value);
+
+      if (!Number.isSafeInteger(valueSats) || valueSats <= 0) {
+        continue;
+      }
+
+      matchingOutput = {
+        vout,
+        valueSats
+      };
+
+      break;
+    }
+
+    if (!matchingOutput) {
+      continue;
+    }
+
+    const confirmations =
+      getTransactionConfirmations(transaction, tipHeight);
+
+    const providerReference =
+      `${transaction.txid}:${matchingOutput.vout}`;
+
+    if (settledBitcoinOutputs.has(providerReference)) {
+      continue;
+    }
+
+    return {
+      found: true,
+      txid: transaction.txid,
+      vout: matchingOutput.vout,
+      amount: matchingOutput.valueSats,
+      confirmations,
+      providerReference,
+      confirmed: confirmations >= BITCOIN_CONFIRMATIONS_REQUIRED,
+      blockHeight:
+        transaction.status && transaction.status.confirmed
+          ? transaction.status.block_height
+          : null
+    };
+  }
+
+  return {
+    found: false
+  };
+}
+
+async function checkBitcoinPayment(payment) {
+  try {
+    const result = await verifyBitcoinPayment(payment);
+
+    if (!result.found) {
+      return;
+    }
+
+    payment.confirmations = result.confirmations;
+    payment.txid = result.txid;
+    payment.vout = result.vout;
+    payment.blockHeight = result.blockHeight;
+    payment.providerReference = result.providerReference;
+    payment.detectedAt =
+      payment.detectedAt || new Date().toISOString();
+
+    if (!result.confirmed) {
+      payment.status = 'detected';
+      return;
+    }
+
+    // Idempotency: blockchain polling may discover the same output
+    // repeatedly. Only the first settled observation credits it.
+    if (payment.status === 'settled' || payment.credited) {
+      return;
+    }
+
+    payment.status = 'settled';
+    payment.verifiedAt = new Date().toISOString();
+    payment.amountReceived = result.amount;
+
+    // Claim the exact blockchain output before updating accounting.
+    settledBitcoinOutputs.add(result.providerReference);
+
+    const previousTotal =
+      campaignTotals.get(payment.campaignId) || 0;
+
+    const newTotal =
+      previousTotal + result.amount;
+
+    campaignTotals.set(payment.campaignId, newTotal);
+
+    payment.credited = true;
+    payment.campaignRaised = newTotal;
+
+    console.log(
+      `Bitcoin payment settled: ${payment.paymentId} ` +
+      `${payment.amount} sats ` +
+      `${payment.txid}:${payment.vout} ` +
+      `campaign=${payment.campaignId}`
+    );
+  } catch (error) {
+    console.error(
+      `Bitcoin verification failed for ${payment.paymentId}:`,
+      error.message
+    );
+  }
+}
+
+async function pollBitcoinPayments() {
+  const bitcoinPayments = Array.from(payments.values())
+    .filter(
+      payment =>
+        payment.method === 'Bitcoin' &&
+        payment.status !== 'settled' &&
+        !payment.credited
+    );
+
+  for (const payment of bitcoinPayments) {
+    await checkBitcoinPayment(payment);
+  }
+}
+
 app.get('/health', (req, res) => {
   res.json({
     ok: true,
     service: 'mannaah-payment-service',
     custody: 'non-custodial',
     lightning: 'lnurl-pay',
-    bitcoin: 'not-configured'
+    bitcoin: Object.values(bitcoinDestinations).some(Boolean)
+      ? 'configured'
+      : 'not-configured',
+    bitcoinConfirmationsRequired: BITCOIN_CONFIRMATIONS_REQUIRED
   });
 });
 
@@ -150,10 +458,54 @@ app.post('/api/payment/create', async (req, res) => {
     });
   }
 
-  if (method !== 'Lightning') {
+  if (method !== 'Lightning' && method !== 'Bitcoin') {
     return res.status(400).json({
-      error: 'Only Lightning payments are currently enabled'
+      error: 'Unsupported payment method'
     });
+  }
+
+  // Bitcoin on-chain payment path.
+  // The server selects the campaign destination; the browser cannot
+  // substitute another address.
+  if (method === 'Bitcoin') {
+    try {
+      const bitcoinAddress = getBitcoinAddress(campaignId);
+
+      const paymentId =
+        'pay_' + Date.now().toString(36) + '_' +
+        Math.random().toString(36).slice(2, 10);
+
+      payments.set(paymentId, {
+        paymentId,
+        campaignId,
+        amount: amountSats,
+        method: 'Bitcoin',
+        bitcoinAddress,
+        status: 'pending',
+        confirmations: 0,
+        credited: false,
+        createdAt: new Date().toISOString()
+      });
+
+      return res.json({
+        status: 'ready',
+        method: 'Bitcoin',
+        paymentId,
+        campaignId,
+        amount: amountSats,
+        bitcoinAddress,
+        verification: {
+          status: 'pending',
+          automatic: true,
+          confirmationsRequired: BITCOIN_CONFIRMATIONS_REQUIRED
+        }
+      });
+    } catch (error) {
+      return res.status(409).json({
+        status: 'unconfigured',
+        message: error.message
+      });
+    }
   }
 
   // Temporary launch configuration.
@@ -237,11 +589,21 @@ app.get('/api/payment/status/:paymentId', (req, res) => {
     paymentId: payment.paymentId,
     campaignId: payment.campaignId,
     amount: payment.amount,
+    amountReceived:
+      Number.isSafeInteger(payment.amountReceived)
+        ? payment.amountReceived
+        : null,
     method: payment.method,
-    invoice: payment.invoice,
+    invoice: payment.invoice || null,
+    bitcoinAddress: payment.bitcoinAddress || null,
+    txid: payment.txid || null,
+    vout: Number.isInteger(payment.vout) ? payment.vout : null,
+    confirmations: payment.confirmations || 0,
+    blockHeight: payment.blockHeight || null,
     createdAt: payment.createdAt,
     verifiedAt: payment.verifiedAt || null,
-    providerReference: payment.providerReference || null
+    providerReference: payment.providerReference || null,
+    campaignRaised: payment.campaignRaised || null
   });
 });
 
@@ -368,6 +730,17 @@ app.post('/api/payment/webhook', (req, res) => {
     providerReference: payment.providerReference
   });
 });
+
+// Bitcoin settlement observer.
+// Polling is intentionally simple for the MVP. It can later be replaced
+// or supplemented with a persistent indexer/webhook architecture.
+const BITCOIN_POLL_INTERVAL_MS = 15000;
+
+setInterval(() => {
+  pollBitcoinPayments().catch(error => {
+    console.error('Bitcoin payment polling failed:', error.message);
+  });
+}, BITCOIN_POLL_INTERVAL_MS);
 
 app.listen(PORT, '0.0.0.0', () => {
   console.log(
