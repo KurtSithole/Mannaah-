@@ -1,0 +1,11 @@
+{
+  "name": "Mannaah",
+  "short_name": "Mannaah",
+  "description": "Help doesn’t ask where you’re from.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8F5EF",
+  "theme_color": "#F8F5EF",
+  "orientation": "portrait-primary",
+  "icons": []
+}
