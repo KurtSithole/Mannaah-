@@ -17,8 +17,8 @@ const paymentAdapter={
   async createPayment({campaign,amount,method}){
     if(!campaign) throw new Error('Campaign not found');
 
-    if(method!=='Lightning'){
-      throw new Error('Only Lightning payments are currently enabled');
+    if(method!=='Lightning' && method!=='Bitcoin'){
+      throw new Error('Unsupported payment method');
     }
 
     const response=await fetch('https://refactored-goldfish-gx59wr7gjvrxhv646-8787.app.github.dev/api/payment/create',{
@@ -31,40 +31,54 @@ const paymentAdapter={
       })
     });
 
-    const contentType = response.headers.get('content-type') || '';
-    const raw = await response.text();
+    const contentType=response.headers.get('content-type')||'';
+    const raw=await response.text();
 
     let payment;
-    try {
-      payment = JSON.parse(raw);
-    } catch (parseError) {
-      console.error('Mannaah payment response was not JSON:', {
-        status: response.status,
+    try{
+      payment=JSON.parse(raw);
+    }catch(e){
+      console.error('Mannaah payment response was not JSON:',{
+        status:response.status,
         contentType,
-        body: raw.slice(0, 500)
+        body:raw.slice(0,500)
       });
-
       throw new Error(
-        `Payment service returned non-JSON (${response.status}, ${contentType || 'no content-type'})`
+        `Payment service returned non-JSON (${response.status}, ${contentType||'no content-type'})`
       );
     }
 
     if(!response.ok){
-      if(payment.status==='unconfigured'){
-        return payment;
-      }
-
-      throw new Error(payment.message||payment.error||'Unable to create Lightning payment');
+      if(payment.status==='unconfigured') return payment;
+      throw new Error(payment.message||payment.error||'Unable to create payment');
     }
 
     return {
+      ...payment,
       status:'ready',
-      method:'Lightning',
-      lightningAddress:payment.lightningAddress,
-      invoice:payment.invoice,
-      qrDataUrl:payment.qrDataUrl,
-      amount:payment.amount
+      method
     };
+  },
+
+  async getStatus(paymentId){
+    const response=await fetch(
+      `https://refactored-goldfish-gx59wr7gjvrxhv646-8787.app.github.dev/api/payment/status/${encodeURIComponent(paymentId)}`
+    );
+
+    const raw=await response.text();
+    let payment;
+
+    try{
+      payment=JSON.parse(raw);
+    }catch(e){
+      throw new Error(`Payment status returned non-JSON (${response.status})`);
+    }
+
+    if(!response.ok){
+      throw new Error(payment.message||payment.error||'Unable to check payment status');
+    }
+
+    return payment;
   }
 };
 
@@ -75,7 +89,7 @@ function openCampaign(id){if(!campaigns.some(x=>x.id===id))return;selected=id;go
 function render(){nav();const a=document.getElementById('app');
 if(page==='home')a.innerHTML=`<div class="hero"><div class="eyebrow">Humanitarian crowdfunding · Bitcoin + Lightning</div><h1>You don't have to walk alone.</h1><p><span class="tag">Help doesn't ask where you're from.</span><br>Mannaah is designed to make asking for help and giving help feel human, private and direct.</p><div class="actions"><button class="primary" onclick="go('browse')">Browse campaigns</button><button class="secondary" onclick="go('create')">Create a campaign</button></div></div><h2>Stories of help</h2><div class="grid">${campaigns.map(card).join('')}</div>`;
 else if(page==='browse')a.innerHTML=`<h2>Browse Campaigns</h2><p>Choose a campaign and experience the complete donor journey.</p><div class="grid">${campaigns.map(card).join('')}</div>`;
-else if(page==='campaign'){const c=campaigns.find(x=>x.id===selected),pct=Math.min(100,c.raised/c.goal*100),isF=following.includes(c.id);a.innerHTML=`<div class="card"><div class="eyebrow">${c.cat} · ${c.region}</div><h2>${c.title}</h2><p>${c.story}</p><div class="progress"><div class="bar" style="width:${pct}%"></div></div><div class="amount">${money(c.raised)} raised of ${money(c.goal)}</div><div class="notice">✓ Payment destination checked · ✓ Campaign identity present · ✓ Verification simulated</div><div class="actions"><button class="primary" onclick="startDonation('${c.id}')">Donate to ${c.name}</button><button class="secondary" onclick="toggleFollow('${c.id}')">${isF?'Following ✓':'Follow campaign'}</button><button class="soft" onclick="go('help')">My Help</button></div></div><div class="card" style="margin-top:16px"><div class="eyebrow">Recipient journey</div><h3>Updates</h3><p>After a donation, the donor can return here to see campaign progress and recipient updates.</p></div>`}
+else if(page==='campaign'){const c=campaigns.find(x=>x.id===selected),pct=Math.min(100,c.raised/c.goal*100),isF=following.includes(c.id);a.innerHTML=`<div class="card"><div class="eyebrow">${c.cat} · ${c.region}</div><h2>${c.title}</h2><p>${c.story}</p><div class="progress"><div class="bar" style="width:${pct}%"></div></div><div class="amount">${money(c.raised)} raised of ${money(c.goal)}</div><div class="notice">✓ Payment destination checked · ✓ Campaign identity present · ✓ Blockchain payment verification</div><div class="actions"><button class="primary" onclick="startDonation('${c.id}')">Donate to ${c.name}</button><button class="secondary" onclick="toggleFollow('${c.id}')">${isF?'Following ✓':'Follow campaign'}</button><button class="soft" onclick="go('help')">My Help</button></div></div><div class="card" style="margin-top:16px"><div class="eyebrow">Recipient journey</div><h3>Updates</h3><p>After a donation, the donor can return here to see campaign progress and recipient updates.</p></div>`}
 else if(page==='about')a.innerHTML=`<div class="card"><div class="eyebrow">About Mannaah</div><h2>Provision without permission.</h2><p>Mannaah is architected around direct recipient control, Bitcoin payments and resilient publishing. The full product will use Nostr identities and relays while avoiding unnecessary collection of sensitive personal information.</p></div>`;
 else if(page==='blog')a.innerHTML=`<h2>Blog</h2><div class="grid"><div class="card"><div class="eyebrow">Human story</div><h3>When help has to cross a border</h3><p>A sample story about communities staying connected when conventional financial channels become difficult.</p></div><div class="card"><div class="eyebrow">Field notes</div><h3>What a small donation can change</h3><p>A sample story about education, daily needs and dignity.</p></div><div class="card"><div class="eyebrow">Product</div><h3>Why privacy is part of compassion</h3><p>A sample update about privacy-conscious crowdfunding.</p></div></div>`;
 else if(page==='testimonials')a.innerHTML=`<h2>Testimonials</h2><div class="grid"><div class="card"><div class="eyebrow">Darya</div><p>“The support helped me get through everyday needs at a moment when everything felt uncertain. I will never forget the people who chose to help.”</p></div><div class="card"><div class="eyebrow">Roya</div><p>“The education funding gave my son a chance to keep studying. To everyone who donated, thank you for giving us hope.”</p></div></div>`;
@@ -110,7 +124,8 @@ function startDonation(id){selected=id;donation={campaign:id,amount:25,method:nu
 function donationModal(){const c=campaigns.find(x=>x.id===donation.campaign);modal(`<div class=stepper><span class="step on">1 Amount</span><span class="step">2 Payment</span><span class="step">3 Confirm</span><span class="step">4 Receipt</span></div><div class=eyebrow>Donate to ${c.name}</div><h2>${c.title}</h2><p>Choose an amount in sats. You can use a preset or enter a custom amount.</p><div class=choices>${[10,25,50,100].map(x=>`<button class="${donation.amount===x?'choice selected':'choice'}" onclick="setDonationAmount(${x})">${money(x)}</button>`).join('')}</div><div class=form><div><label>Custom amount (sats)</label><input id=customAmount type=number min=1 step=1 value="${donation.amount}"></div><button class=primary onclick="continueDonationAmount()">Continue to payment</button><button class=secondary onclick="closeModal()">Cancel</button></div>`)}
 function setDonationAmount(x){donation.amount=x;donationModal()}
 function continueDonationAmount(){const v=Number(document.getElementById('customAmount').value);if(!v||v<=0)return alert('Enter a valid amount');donation.amount=v;paymentModal()}
-function paymentModal(){modal(`<div class=stepper><span class=step>1 Amount</span><span class="step on">2 Payment</span><span class=step>3 Confirm</span><span class=step>4 Receipt</span></div><div class=eyebrow>Payment method</div><h2>${money(donation.amount)} contribution</h2><p>Choose how you want to pay. Lightning is currently enabled.</p><div class=actions><button class=secondary disabled title="Bitcoin payments are not yet enabled">Bitcoin — coming soon</button><button class=primary onclick="preparePayment('Lightning')">Lightning</button></div><button class=secondary onclick="donationModal()">Back</button>`)}
+function paymentModal(){modal(`<div class=stepper><span class=step>1 Amount</span><span class="step on">2 Payment</span><span class=step>3 Confirm</span><span class=step>4 Receipt</span></div><div class=eyebrow>Payment method</div><h2>${money(donation.amount)} contribution</h2><p>Choose how you want to pay.</p><div class=actions><button class=primary onclick="preparePayment('Bitcoin')">Bitcoin</button><button class=secondary onclick="preparePayment('Lightning')">Lightning</button></div><button class=secondary onclick="donationModal()">Back</button>`)}
+
 async function preparePayment(method){
   const c=campaigns.find(x=>x.id===donation.campaign);
   if(!c)return;
@@ -135,6 +150,36 @@ async function preparePayment(method){
       <div class=actions>
         <button class=secondary onclick="paymentModal()">Back</button>
         <button class=soft onclick="closeModal()">Cancel</button>
+      </div>`);
+      return;
+    }
+
+    if(method==='Bitcoin'){
+      const address=payment.bitcoinAddress;
+      if(!address) throw new Error('Bitcoin payment address was not returned by the payment service.');
+
+      modal(`<div class=stepper><span class=step>1 Amount</span><span class="step on">2 Payment</span><span class=step>3 Verification</span><span class=step>4 Receipt</span></div>
+      <div class=eyebrow>Bitcoin payment</div>
+      <h2>Pay ${money(donation.amount)}</h2>
+      <div class=receipt>
+        <strong>Campaign:</strong> ${c.title}<br>
+        <strong>Recipient:</strong> ${c.name}<br>
+        <strong>Reference:</strong> ${donation.ref}
+      </div>
+      <p>Send the Bitcoin amount to the verified campaign address below.</p>
+      <div class=notice>
+        <strong>Bitcoin address</strong><br>
+        <code style="word-break:break-all;">${address}</code>
+      </div>
+      <div class=actions>
+        <button class=primary onclick="navigator.clipboard.writeText('${address}').then(()=>alert('Bitcoin address copied'))">Copy address</button>
+        <a class=secondary href="bitcoin:${address}?amount=${Number(donation.amount)/100000000}" target="_blank" rel="noopener">Open wallet</a>
+        <button class=secondary onclick="paymentModal()">Back</button>
+        <button class=soft onclick="closeModal()">Close</button>
+      </div>
+      <div class=notice>
+        <strong>Payment not yet verified.</strong><br>
+        Mannaah will independently verify the Bitcoin transaction before marking this donation as paid.
       </div>`);
       return;
     }
