@@ -41,8 +41,11 @@ jobs:
         run: |
           rm -rf dist
           mkdir -p dist
-          cp mannaah-standalone/Mannaah_CANONICAL.html dist/index.html
-          cp mannaah-standalone/Mannaah_CANONICAL.html dist/404.html
+          cp mannaah-standalone/index.html dist/index.html
+          cp mannaah-standalone/index.html dist/404.html
+          cp mannaah-standalone/manifest.webmanifest dist/manifest.webmanifest
+          cp mannaah-standalone/sw.js dist/sw.js
+          cp mannaah-standalone/mannaah-logo.png dist/mannaah-logo.png
           echo "Canonical Mannaah build prepared:"
           ls -lh dist/index.html dist/404.html
 
