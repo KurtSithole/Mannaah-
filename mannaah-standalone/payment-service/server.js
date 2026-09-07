@@ -3,6 +3,8 @@ require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const axios = require('axios');
+const fs = require('fs');
+const path = require('path');
 const QRCode = require('qrcode');
 const { finalizeEvent, nip19 } = require('nostr-tools');
 
@@ -15,20 +17,135 @@ const TEST_LIGHTNING_ADDRESS =
   process.env.TEST_LIGHTNING_ADDRESS || 'fittingstretch95@walletofsatoshi.com';
 
 // Development payment registry.
-// In production this must be replaced by persistent storage.
+// In production this must be replaced by a durable database.
 const payments = new Map();
+
+const CAMPAIGNS_FILE = path.join(__dirname, 'campaigns.json');
+
+const defaultCampaigns = [
+  {
+    id: 'fatima',
+    name: 'Fatima',
+    title: 'Medical treatment for Fatima',
+    cat: 'Medical',
+    region: 'Iran',
+    goal: 1000,
+    raised: 650,
+    story: 'Fatima is a college student facing cancer treatment costs.',
+    lightningAddress: TEST_LIGHTNING_ADDRESS,
+    bitcoinAddress: process.env.FATIMA_BTC_ADDRESS || '',
+    status: 'published'
+  },
+  {
+    id: 'abdul',
+    name: 'Abdul',
+    title: 'Help Abdul finish electrical engineering',
+    cat: 'Education',
+    region: 'Iran',
+    goal: 750,
+    raised: 559,
+    story: 'Abdul is in his final year of electrical engineering and needs help covering college costs.',
+    lightningAddress: '',
+    bitcoinAddress: process.env.ABDUL_BTC_ADDRESS || '',
+    status: 'published'
+  },
+  {
+    id: 'shirin',
+    name: 'Shirin',
+    title: "Rebuild Shirin's home",
+    cat: 'Housing',
+    region: 'Iran',
+    goal: 2500,
+    raised: 2750,
+    story: 'Shirin is a widow caring for two young children after her home was destroyed.',
+    lightningAddress: '',
+    bitcoinAddress: process.env.SHIRIN_BTC_ADDRESS || '',
+    status: 'published'
+  }
+];
+
+function loadCampaigns() {
+  try {
+    if (!fs.existsSync(CAMPAIGNS_FILE)) {
+      fs.writeFileSync(
+        CAMPAIGNS_FILE,
+        JSON.stringify(defaultCampaigns, null, 2),
+        'utf8'
+      );
+      return defaultCampaigns.map(c => ({ ...c }));
+    }
+
+    const parsed = JSON.parse(
+      fs.readFileSync(CAMPAIGNS_FILE, 'utf8')
+    );
+
+    if (!Array.isArray(parsed)) {
+      throw new Error('Campaign registry must contain an array');
+    }
+
+    return parsed;
+  } catch (error) {
+    console.error('Campaign registry load failed:', error.message);
+    return defaultCampaigns.map(c => ({ ...c }));
+  }
+}
+
+let campaigns = loadCampaigns();
+
+function saveCampaigns() {
+  const temporaryFile = `${CAMPAIGNS_FILE}.tmp`;
+
+  fs.writeFileSync(
+    temporaryFile,
+    JSON.stringify(campaigns, null, 2),
+    'utf8'
+  );
+
+  fs.renameSync(temporaryFile, CAMPAIGNS_FILE);
+}
+
+function getCampaign(campaignId) {
+  return campaigns.find(c => c.id === campaignId) || null;
+}
+
+function getCampaignLightningAddress(campaignId) {
+  const campaign = getCampaign(campaignId);
+
+  if (!campaign || !campaign.lightningAddress) {
+    throw new Error(
+      'This campaign is not yet connected to a Lightning destination.'
+    );
+  }
+
+  return campaign.lightningAddress;
+}
+
+function getCampaignBitcoinAddress(campaignId) {
+  const campaign = getCampaign(campaignId);
+
+  if (!campaign || !campaign.bitcoinAddress) {
+    throw new Error(
+      'This campaign is not yet connected to a Bitcoin destination.'
+    );
+  }
+
+  return campaign.bitcoinAddress;
+}
 
 // Blockchain outputs already credited during this service lifetime.
 // Production should persist this registry.
 const settledBitcoinOutputs = new Set();
 
-// Development campaign accounting.
-// In production this must be replaced by persistent storage.
-const campaignTotals = new Map([
-  ['fatima', 650],
-  ['abdul', 559],
-  ['shirin', 2750]
-]);
+// Campaign accounting is denominated in USD.
+// Sats remain the payment unit, but fiatAmount is the accounting value.
+const campaignTotals = new Map();
+
+for (const campaign of campaigns) {
+  campaignTotals.set(
+    campaign.id,
+    Number(campaign.raised) || 0
+  );
+}
 
 // Provider-to-server authentication boundary.
 // Set this in the environment for any real provider integration.
@@ -149,7 +266,12 @@ async function createLightningInvoice(address, amountSats) {
 }
 
 function getBitcoinAddress(campaignId) {
-  const address = bitcoinDestinations[campaignId];
+  const campaign = getCampaign(campaignId);
+
+  const address =
+    campaign?.bitcoinAddress ||
+    bitcoinDestinations[campaignId] ||
+    '';
 
   if (!address) {
     throw new Error(
@@ -393,9 +515,16 @@ async function checkBitcoinPayment(payment) {
       campaignTotals.get(payment.campaignId) || 0;
 
     const newTotal =
-      previousTotal + result.amount;
+      previousTotal + Number(payment.fiatAmount || 0);
 
     campaignTotals.set(payment.campaignId, newTotal);
+
+    const campaign = getCampaign(payment.campaignId);
+
+    if (campaign) {
+      campaign.raised = newTotal;
+      saveCampaigns();
+    }
 
     payment.credited = true;
     payment.campaignRaised = newTotal;
@@ -441,8 +570,58 @@ app.get('/health', (req, res) => {
   });
 });
 
+async function getBtcUsdRate() {
+  const response = await axios.get(
+    'https://api.coingecko.com/api/v3/simple/price',
+    {
+      params: { ids: 'bitcoin', vs_currencies: 'usd' },
+      timeout: 10000,
+      validateStatus: () => true
+    }
+  );
+
+  if (response.status !== 200) {
+    throw new Error(`BTC/USD rate lookup failed (${response.status})`);
+  }
+
+  const rate = Number(response.data?.bitcoin?.usd);
+
+  if (!Number.isFinite(rate) || rate <= 0) {
+    throw new Error('BTC/USD rate provider returned an invalid rate');
+  }
+
+  return rate;
+}
+
+app.get('/api/rate', async (req, res) => {
+  try {
+    const btcUsd = await getBtcUsdRate();
+
+    return res.json({
+      status: 'ready',
+      pair: 'BTC/USD',
+      btcUsd,
+      source: 'coingecko',
+      fetchedAt: new Date().toISOString()
+    });
+  } catch (error) {
+    console.error('BTC/USD rate lookup failed:', error.message);
+
+    return res.status(502).json({
+      status: 'error',
+      message: error.message || 'Unable to retrieve BTC/USD rate'
+    });
+  }
+});
+
 app.post('/api/payment/create', async (req, res) => {
-  const { campaignId, amount, method } = req.body || {};
+  const {
+    campaignId,
+    amount,
+    fiatAmount,
+    fiatCurrency = 'USD',
+    method
+  } = req.body || {};
 
   if (!campaignId) {
     return res.status(400).json({
@@ -450,17 +629,53 @@ app.post('/api/payment/create', async (req, res) => {
     });
   }
 
-  const amountSats = Number(amount);
+  const campaign = getCampaign(campaignId);
 
-  if (!Number.isFinite(amountSats) || amountSats <= 0) {
+  if (!campaign || campaign.status !== 'published') {
+    return res.status(404).json({
+      error: 'Campaign not found'
+    });
+  }
+
+  if (fiatCurrency !== 'USD') {
     return res.status(400).json({
-      error: 'amount must be greater than zero'
+      error: 'Only USD donations are currently enabled'
+    });
+  }
+
+  const amountFiat = Number(fiatAmount ?? amount);
+
+  if (!Number.isFinite(amountFiat) || amountFiat <= 0) {
+    return res.status(400).json({
+      error: 'fiatAmount must be greater than zero'
     });
   }
 
   if (method !== 'Lightning' && method !== 'Bitcoin') {
     return res.status(400).json({
       error: 'Unsupported payment method'
+    });
+  }
+
+  let btcUsd;
+  let amountSats;
+
+  try {
+    btcUsd = await getBtcUsdRate();
+
+    amountSats = Math.round(
+      (amountFiat / btcUsd) * 100000000
+    );
+
+    if (!Number.isSafeInteger(amountSats) || amountSats <= 0) {
+      throw new Error('Calculated sats amount is invalid');
+    }
+  } catch (error) {
+    console.error('Payment rate calculation failed:', error.message);
+
+    return res.status(502).json({
+      status: 'error',
+      message: error.message || 'Unable to calculate Bitcoin amount'
     });
   }
 
@@ -479,6 +694,10 @@ app.post('/api/payment/create', async (req, res) => {
         paymentId,
         campaignId,
         amount: amountSats,
+        satsAmount: amountSats,
+        fiatAmount: amountFiat,
+        fiatCurrency,
+        btcRate: btcUsd,
         method: 'Bitcoin',
         bitcoinAddress,
         status: 'pending',
@@ -493,6 +712,10 @@ app.post('/api/payment/create', async (req, res) => {
         paymentId,
         campaignId,
         amount: amountSats,
+        satsAmount: amountSats,
+        fiatAmount: amountFiat,
+        fiatCurrency,
+        btcRate: btcUsd,
         bitcoinAddress,
         verification: {
           status: 'pending',
@@ -508,18 +731,14 @@ app.post('/api/payment/create', async (req, res) => {
     }
   }
 
-  // Temporary launch configuration.
-  // Fatima uses a real Lightning Address.
-  const destinations = {
-    fatima: TEST_LIGHTNING_ADDRESS
-  };
+  let lightningAddress;
 
-  const lightningAddress = destinations[campaignId];
-
-  if (!lightningAddress) {
+  try {
+    lightningAddress = getCampaignLightningAddress(campaignId);
+  } catch (error) {
     return res.status(409).json({
       status: 'unconfigured',
-      message: 'This campaign is not yet connected to a Lightning destination.'
+      message: error.message
     });
   }
 
@@ -543,6 +762,10 @@ app.post('/api/payment/create', async (req, res) => {
       paymentId,
       campaignId,
       amount: amountSats,
+      satsAmount: amountSats,
+      fiatAmount: amountFiat,
+      fiatCurrency,
+      btcRate: btcUsd,
       method: 'Lightning',
       lightningAddress,
       invoice: result.invoice,
@@ -556,6 +779,10 @@ app.post('/api/payment/create', async (req, res) => {
       paymentId,
       campaignId,
       amount: amountSats,
+      satsAmount: amountSats,
+      fiatAmount: amountFiat,
+      fiatCurrency,
+      btcRate: btcUsd,
       lightningAddress,
       invoice: result.invoice,
       qrDataUrl,
@@ -607,10 +834,20 @@ app.get('/api/payment/status/:paymentId', (req, res) => {
   });
 });
 
-app.get('/api/campaign/:campaignId', (req, res) => {
-  const campaignId = req.params.campaignId;
+app.get('/api/campaigns', (req, res) => {
+  return res.json({
+    status: 'ready',
+    campaigns: campaigns.map(c => ({
+      ...c,
+      raised: campaignTotals.get(c.id) || 0
+    }))
+  });
+});
 
-  if (!campaignTotals.has(campaignId)) {
+app.get('/api/campaign/:campaignId', (req, res) => {
+  const campaign = getCampaign(req.params.campaignId);
+
+  if (!campaign) {
     return res.status(404).json({
       status: 'not_found',
       message: 'Campaign not found'
@@ -618,8 +855,97 @@ app.get('/api/campaign/:campaignId', (req, res) => {
   }
 
   return res.json({
-    campaignId,
-    raised: campaignTotals.get(campaignId)
+    status: 'ready',
+    campaign: {
+      ...campaign,
+      raised: campaignTotals.get(campaign.id) || 0
+    }
+  });
+});
+
+app.post('/api/campaign', (req, res) => {
+  const {
+    name,
+    title,
+    story,
+    goal,
+    region,
+    category,
+    lightningAddress,
+    bitcoinAddress = ''
+  } = req.body || {};
+
+  const cleanName = String(name || '').trim();
+  const cleanTitle = String(title || '').trim();
+  const cleanStory = String(story || '').trim();
+  const cleanRegion = String(region || '').trim();
+  const cleanCategory = String(category || '').trim();
+  const cleanLightningAddress =
+    String(lightningAddress || '').trim();
+  const cleanBitcoinAddress =
+    String(bitcoinAddress || '').trim();
+  const numericGoal = Number(goal);
+
+  if (
+    !cleanName ||
+    !cleanTitle ||
+    !cleanStory ||
+    !cleanRegion ||
+    !cleanCategory
+  ) {
+    return res.status(400).json({
+      error: 'name, title, story, region and category are required'
+    });
+  }
+
+  if (!Number.isFinite(numericGoal) || numericGoal <= 0) {
+    return res.status(400).json({
+      error: 'goal must be greater than zero'
+    });
+  }
+
+  if (!cleanLightningAddress.includes('@')) {
+    return res.status(400).json({
+      error: 'A valid Lightning Address is required'
+    });
+  }
+
+  try {
+    parseLightningAddress(cleanLightningAddress);
+  } catch (error) {
+    return res.status(400).json({
+      error: error.message
+    });
+  }
+
+  const id =
+    'campaign-' +
+    Date.now().toString(36) +
+    '-' +
+    Math.random().toString(36).slice(2, 8);
+
+  const campaign = {
+    id,
+    name: cleanName,
+    title: cleanTitle,
+    cat: cleanCategory,
+    region: cleanRegion,
+    goal: numericGoal,
+    raised: 0,
+    story: cleanStory,
+    lightningAddress: cleanLightningAddress,
+    bitcoinAddress: cleanBitcoinAddress,
+    status: 'published',
+    createdAt: new Date().toISOString()
+  };
+
+  campaigns.unshift(campaign);
+  campaignTotals.set(id, 0);
+  saveCampaigns();
+
+  return res.status(201).json({
+    status: 'created',
+    campaign
   });
 });
 
@@ -716,9 +1042,17 @@ app.post('/api/payment/webhook', (req, res) => {
   payment.providerReference = String(providerReference);
 
   const previousTotal = campaignTotals.get(payment.campaignId) || 0;
-  const newTotal = previousTotal + payment.amount;
+  const newTotal =
+    previousTotal + Number(payment.fiatAmount || 0);
 
   campaignTotals.set(payment.campaignId, newTotal);
+
+  const campaign = getCampaign(payment.campaignId);
+
+  if (campaign) {
+    campaign.raised = newTotal;
+    saveCampaigns();
+  }
 
   return res.json({
     status: 'paid',
