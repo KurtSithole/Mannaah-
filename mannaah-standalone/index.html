@@ -15,7 +15,7 @@ const moneySats=n=>Number(n).toLocaleString()+' sats';
    - The adapter is the boundary between the PWA and the payment rail.
 */
 const paymentAdapter={
-  async createPayment({campaign,amount,method}){
+  async createPayment({campaign,amount,method,fiatAmount,fiatCurrency,btcRate,satsAmount}){
     if(!campaign) throw new Error('Campaign not found');
 
     if(method!=='Lightning' && method!=='Bitcoin'){
@@ -28,6 +28,10 @@ const paymentAdapter={
       body:JSON.stringify({
         campaignId:campaign.id,
         amount,
+        fiatAmount,
+        fiatCurrency,
+        btcRate,
+        satsAmount,
         method
       })
     });
@@ -121,11 +125,231 @@ function closeModal(){
   box.innerHTML = '';
 }
 
-function startDonation(id){selected=id;donation={campaign:id,amount:25,method:null,status:'amount'};donationModal()}
-function donationModal(){const c=campaigns.find(x=>x.id===donation.campaign);modal(`<div class=stepper><span class="step on">1 Amount</span><span class="step">2 Payment</span><span class="step">3 Confirm</span><span class="step">4 Receipt</span></div><div class=eyebrow>Donate to ${c.name}</div><h2>${c.title}</h2><p>Choose an amount in sats. You can use a preset or enter a custom amount.</p><div class=choices>${[10,25,50,100].map(x=>`<button class="${donation.amount===x?'choice selected':'choice'}" onclick="setDonationAmount(${x})">${moneySats(x)}</button>`).join('')}</div><div class=form><div><label>Custom amount (sats)</label><input id=customAmount type=number min=1 step=1 value="${donation.amount}"></div><button class=primary onclick="continueDonationAmount()">Continue to payment</button><button class=secondary onclick="closeModal()">Cancel</button></div>`)}
-function setDonationAmount(x){donation.amount=x;donationModal()}
-function continueDonationAmount(){const v=Number(document.getElementById('customAmount').value);if(!v||v<=0)return alert('Enter a valid amount');donation.amount=v;paymentModal()}
-function paymentModal(){modal(`<div class=stepper><span class=step>1 Amount</span><span class="step on">2 Payment</span><span class=step>3 Confirm</span><span class=step>4 Receipt</span></div><div class=eyebrow>Payment method</div><h2>${moneySats(donation.amount)} contribution</h2><p>Choose how you want to pay.</p><div class=actions><button class=primary onclick="preparePayment('Bitcoin')">Bitcoin</button><button class=secondary onclick="preparePayment('Lightning')">Lightning</button></div><button class=secondary onclick="donationModal()">Back</button>`)}
+let rateState = {
+  btcUsd: null,
+  fetchedAt: null,
+  loading: false,
+  error: null
+};
+
+async function fetchBtcUsdRate(){
+  if(rateState.loading) return;
+  rateState.loading=true;
+  rateState.error=null;
+
+  try{
+    const response=await fetch(
+      'https://refactored-goldfish-gx59wr7gjvrxhv646-8787.app.github.dev/api/rate',
+      {cache:'no-store'}
+    );
+
+    const raw=await response.text();
+    let data;
+
+    try{
+      data=JSON.parse(raw);
+    }catch(e){
+      throw new Error('Rate service returned an invalid response');
+    }
+
+    if(!response.ok || data.status!=='ready'){
+      throw new Error(data.message||'Unable to retrieve BTC/USD rate');
+    }
+
+    rateState.btcUsd=Number(data.btcUsd);
+    rateState.fetchedAt=data.fetchedAt||new Date().toISOString();
+
+    if(!Number.isFinite(rateState.btcUsd)||rateState.btcUsd<=0){
+      throw new Error('BTC/USD rate is invalid');
+    }
+  }catch(e){
+    console.error('BTC/USD rate lookup failed:',e);
+    rateState.error=e.message||'Unable to retrieve BTC/USD rate';
+  }finally{
+    rateState.loading=false;
+  }
+}
+
+function usdToSats(usd,rate){
+  if(!Number.isFinite(Number(usd))||!Number.isFinite(Number(rate))||rate<=0){
+    return null;
+  }
+
+  const sats=Math.round((Number(usd)/Number(rate))*100000000);
+  return Number.isSafeInteger(sats)&&sats>0?sats:null;
+}
+
+function formatUSD(n){
+  return '$'+Number(n).toLocaleString(undefined,{
+    minimumFractionDigits:2,
+    maximumFractionDigits:2
+  });
+}
+
+function formatRate(rate){
+  return '$'+Number(rate).toLocaleString(undefined,{
+    minimumFractionDigits:0,
+    maximumFractionDigits:2
+  });
+}
+
+function donationEstimate(usd){
+  const sats=usdToSats(Number(usd),rateState.btcUsd);
+  return sats?`≈ ${moneySats(sats)}`:'Fetching live BTC rate…';
+}
+
+function startDonation(id){
+  selected=id;
+  donation={
+    campaign:id,
+    amount:25,
+    fiatAmount:25,
+    fiatCurrency:'USD',
+    btcRate:null,
+    satsAmount:null,
+    method:null,
+    status:'amount'
+  };
+  donationModal();
+  fetchBtcUsdRate().then(()=>donationModal());
+}
+
+function donationModal(){
+  const c=campaigns.find(x=>x.id===donation.campaign);
+
+  const presets=[5,10,25,50,100];
+
+  modal(`
+    <div class=stepper>
+      <span class="step on">1 Amount</span>
+      <span class="step">2 Payment</span>
+      <span class="step">3 Confirm</span>
+      <span class=step>4 Receipt</span>
+    </div>
+
+    <div class=eyebrow>Donate to ${c.name}</div>
+    <h2>${c.title}</h2>
+
+    <p>Choose an amount in your currency. Mannaah will show the live Bitcoin equivalent.</p>
+
+    <div class=choices>
+      ${presets.map(x=>`
+        <button
+          class="${Number(donation.fiatAmount)===x?'choice selected':'choice'}"
+          onclick="setDonationAmount(${x})">
+          <strong>${formatUSD(x)}</strong><br>
+          <span class=muted>${donationEstimate(x)}</span>
+        </button>
+      `).join('')}
+    </div>
+
+    <div class=form>
+      <div>
+        <label>Custom amount (USD)</label>
+        <input
+          id=customAmount
+          type=number
+          min=1
+          step=0.01
+          value="${Number(donation.fiatAmount||25)}"
+          oninput="updateDonationEstimate()">
+        <div id=customEstimate class=muted style="margin-top:8px">
+          ${donationEstimate(Number(donation.fiatAmount||25))}
+        </div>
+      </div>
+
+      <div id=rateNotice class=notice>
+        ${rateState.btcUsd
+          ? `Live BTC/USD rate: <strong>${formatRate(rateState.btcUsd)}</strong>`
+          : rateState.loading
+            ? 'Fetching live BTC/USD rate…'
+            : rateState.error
+              ? `<span class="warn">${rateState.error}</span>`
+              : 'Fetching live BTC/USD rate…'}
+      </div>
+
+      <button class=primary onclick="continueDonationAmount()">
+        Continue to payment
+      </button>
+
+      <button class=secondary onclick="closeModal()">Cancel</button>
+    </div>
+  `);
+}
+
+function updateDonationEstimate(){
+  const input=document.getElementById('customAmount');
+  const output=document.getElementById('customEstimate');
+
+  if(!input||!output)return;
+
+  const value=Number(input.value);
+
+  output.textContent=donationEstimate(value);
+}
+
+function setDonationAmount(x){
+  donation.fiatAmount=Number(x);
+  donation.amount=Number(x);
+  donationModal();
+}
+
+function continueDonationAmount(){
+  const input=document.getElementById('customAmount');
+  const value=Number(input?.value);
+
+  if(!Number.isFinite(value)||value<=0){
+    return alert('Enter a valid USD amount');
+  }
+
+  if(!rateState.btcUsd){
+    return alert('The live Bitcoin exchange rate is not available yet. Please wait a moment and try again.');
+  }
+
+  const sats=usdToSats(value,rateState.btcUsd);
+
+  if(!sats){
+    return alert('Unable to calculate the Bitcoin amount. Please try again.');
+  }
+
+  donation.fiatAmount=value;
+  donation.amount=value;
+  donation.fiatCurrency='USD';
+  donation.btcRate=rateState.btcUsd;
+  donation.satsAmount=sats;
+
+  paymentModal();
+}
+
+function paymentModal(){
+  const fiat=Number(donation.fiatAmount||donation.amount);
+  const sats=donation.satsAmount||usdToSats(fiat,donation.btcRate||rateState.btcUsd);
+
+  modal(`
+    <div class=stepper>
+      <span class=step>1 Amount</span>
+      <span class="step on">2 Payment</span>
+      <span class=step>3 Confirm</span>
+      <span class=step>4 Receipt</span>
+    </div>
+
+    <div class=eyebrow>Payment method</div>
+    <h2>Donate ${formatUSD(fiat)}</h2>
+    <p><strong>${formatUSD(fiat)}</strong> · <span class="muted">≈ ${moneySats(sats)}</span></p>
+
+    <div class=notice>
+      <strong>Rate locked for this payment.</strong><br>
+      ${formatUSD(fiat)} will be converted to exactly ${moneySats(sats)} at the locked BTC/USD rate.
+    </div>
+
+    <div class=actions>
+      <button class=primary onclick="preparePayment('Bitcoin')">Bitcoin</button>
+      <button class=secondary onclick="preparePayment('Lightning')">Lightning</button>
+    </div>
+
+    <button class=secondary onclick="donationModal()">Back</button>
+  `);
+}
 
 async function preparePayment(method){
   const c=campaigns.find(x=>x.id===donation.campaign);
@@ -138,7 +362,11 @@ async function preparePayment(method){
   try{
     const payment=await paymentAdapter.createPayment({
       campaign:c,
-      amount:donation.amount,
+      amount:donation.satsAmount,
+      fiatAmount:donation.fiatAmount,
+      fiatCurrency:donation.fiatCurrency,
+      btcRate:donation.btcRate,
+      satsAmount:donation.satsAmount,
       method
     });
 
@@ -155,13 +383,23 @@ async function preparePayment(method){
       return;
     }
 
+    const lockedFiat=Number(payment.fiatAmount||donation.fiatAmount);
+    const lockedSats=Number(payment.satsAmount||payment.amount||donation.satsAmount);
+    const lockedRate=Number(payment.btcRate||donation.btcRate);
+
+    donation.fiatAmount=lockedFiat;
+    donation.satsAmount=lockedSats;
+    donation.btcRate=lockedRate;
+    donation.amount=lockedSats;
+
     if(method==='Bitcoin'){
       const address=payment.bitcoinAddress;
-      if(!address) throw new Error('Bitcoin payment address was not returned by the payment service.');
+      if(!address)throw new Error('Bitcoin payment address was not returned by the payment service.');
 
       modal(`<div class=stepper><span class=step>1 Amount</span><span class="step on">2 Payment</span><span class=step>3 Verification</span><span class=step>4 Receipt</span></div>
       <div class=eyebrow>Bitcoin payment</div>
-      <h2>Pay ${moneySats(donation.amount)}</h2>
+      <h2>Pay ${formatUSD(lockedFiat)}</h2>
+      <p><strong>${formatUSD(lockedFiat)}</strong> · <span class="muted">≈ ${moneySats(lockedSats)}</span></p>
       <div class=receipt>
         <strong>Campaign:</strong> ${c.title}<br>
         <strong>Recipient:</strong> ${c.name}<br>
@@ -169,12 +407,16 @@ async function preparePayment(method){
       </div>
       <p>Send the Bitcoin amount to the verified campaign address below.</p>
       <div class=notice>
+        <strong>Bitcoin amount</strong><br>
+        ${moneySats(lockedSats)}
+      </div>
+      <div class=notice>
         <strong>Bitcoin address</strong><br>
         <code style="word-break:break-all;">${address}</code>
       </div>
       <div class=actions>
         <button class=primary onclick="navigator.clipboard.writeText('${address}').then(()=>alert('Bitcoin address copied'))">Copy address</button>
-        <a class=secondary href="bitcoin:${address}?amount=${Number(donation.amount)/100000000}" target="_blank" rel="noopener">Open wallet</a>
+        <a class=secondary href="bitcoin:${address}?amount=${Number(lockedSats)/100000000}" target="_blank" rel="noopener">Open wallet</a>
         <button class=secondary onclick="paymentModal()">Back</button>
         <button class=soft onclick="closeModal()">Close</button>
       </div>
@@ -185,9 +427,10 @@ async function preparePayment(method){
       return;
     }
 
-    modal(`<div class=stepper><span class=step>1 Amount</span><span class="step on">2 Payment</span><span class=step>3 Verification</span><span class=step>4 Receipt</span></div>
+    modal(`<div class=stepper><span class=step>1 Amount</span><span class=step on>2 Payment</span><span class=step>3 Verification</span><span class=step>4 Receipt</span></div>
     <div class=eyebrow>Lightning payment</div>
-    <h2>Pay ${moneySats(donation.amount)}</h2>
+    <h2>Pay ${formatUSD(lockedFiat)}</h2>
+    <p><strong>${formatUSD(lockedFiat)}</strong> · <span class="muted">≈ ${moneySats(lockedSats)}</span></p>
     <div class=receipt>
       <strong>Campaign:</strong> ${c.title}<br>
       <strong>Recipient:</strong> ${c.name}<br>
@@ -195,6 +438,10 @@ async function preparePayment(method){
     </div>
     <p>Scan the QR code or copy the Lightning invoice into your Lightning wallet.</p>
     <div class=qr><img src="${payment.qrDataUrl}" alt="Lightning payment QR code" style="width:320px;max-width:100%;height:auto;display:block;margin:0 auto;"></div>
+    <div class=notice>
+      <strong>Invoice amount: ${moneySats(lockedSats)}</strong><br>
+      The Bitcoin exchange rate was locked when this payment was created.
+    </div>
     <div class=notice>
       <strong>Payment not yet verified.</strong><br>
       Mannaah has created the invoice, but it will not mark this donation as paid until settlement can be independently verified.
@@ -209,6 +456,7 @@ async function preparePayment(method){
     modal(`<h2>Payment unavailable</h2><div class="notice warn">${e.message||'Unable to prepare payment.'}</div><button class=secondary onclick="paymentModal()">Back</button>`);
   }
 }
+
 document.addEventListener('DOMContentLoaded',()=>{try{render()}catch(e){console.error(e);safeFallback()}});
 
 </script>
